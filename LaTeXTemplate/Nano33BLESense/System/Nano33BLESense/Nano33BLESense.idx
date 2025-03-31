@@ -2,6 +2,10 @@
 \indexentry{Acoustic Overload Point! \emph  {see} AOP}{21}
 \indexentry{CNN}{21}
 \indexentry{Computerized Numerical Control! \emph  {see} {CNN}}{21}
+\indexentry{GPIO}{21}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{21}
+\indexentry{I\textsuperscript  {2}C}{21}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{21}
 \indexentry{IDE}{21}
 \indexentry{Integrated Development Environment! \emph  {see} IDE}{21}
 \indexentry{IMU}{21}
@@ -18,10 +22,16 @@
 \indexentry{Pulse Density Modulation! \emph  {see} PDM}{21}
 \indexentry{PWM Signal}{21}
 \indexentry{Pulse with Modulation! \emph  {see} PWM Signal}{21}
+\indexentry{SCL}{21}
+\indexentry{Serial Clock! \emph  {see} SCL}{21}
+\indexentry{SDA}{21}
+\indexentry{Serial Data! \emph  {see} SDA}{21}
 \indexentry{SPI}{21}
 \indexentry{Serial Peripheral Interface! \emph  {see} SPI}{21}
 \indexentry{SPS}{21}
 \indexentry{Speicherprogrammierbare Steuerung! \emph  {see} SPS}{21}
+\indexentry{UART}{21}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{21}
 \indexentry{VCC}{21}
 \indexentry{Voltage at the Common Collector! \emph  {see} VCC}{21}
 \indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{30}
@@ -151,20 +161,41 @@
 \indexentry{ File!ArduinoBLE.h}{228}
 \indexentry{ File!ArduinoBLE}{230}
 \indexentry{ File!LSM9DS1}{230}
-\indexentry{Example}{263}
-\indexentry{Example!Introduction}{263}
-\indexentry{Example!Description}{263}
-\indexentry{Example!Installation}{263}
-\indexentry{ File!PackageExample.py}{263}
-\indexentry{ File!Blink.py}{296}
-\indexentry{ File!Blink.ino}{298}
-\indexentry{Speicherprogrammierbare Steuerung! \emph  {see} SPS}{299}
-\indexentry{SPS}{299}
-\indexentry{Computerized Numerical Control! \emph  {see} {CNN}}{299}
-\indexentry{CNN}{299}
-\indexentry{SPS}{299}
-\indexentry{     Programmable Logic Controller}{299}
-\indexentry{PLC|see{         Programmable Logic Controller}}{299}
-\indexentry{CAGD}{301}
-\indexentry{CAGD!Splines}{301}
-\indexentry{3D printer}{301}
+\indexentry{VCC}{245}
+\indexentry{Serial Clock! \emph  {see} SCL}{245}
+\indexentry{SCL}{245}
+\indexentry{Serial Data! \emph  {see} SDA}{245}
+\indexentry{SDA}{245}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{245}
+\indexentry{GPIO}{245}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{245}
+\indexentry{UART}{245}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{245}
+\indexentry{I\textsuperscript  {2}C}{245}
+\indexentry{SCL}{246}
+\indexentry{SDA}{246}
+\indexentry{VCC}{246}
+\indexentry{GPIO}{246}
+\indexentry{UART}{246}
+\indexentry{I\textsuperscript  {2}C}{246}
+\indexentry{VCC}{246}
+\indexentry{ File!TestHCSR04 UltraschallsensorTest.ino}{246}
+\indexentry{ File!TestHCSR04.ino}{248}
+\indexentry{IDE}{248}
+\indexentry{Example}{271}
+\indexentry{Example!Introduction}{271}
+\indexentry{Example!Description}{271}
+\indexentry{Example!Installation}{271}
+\indexentry{ File!PackageExample.py}{271}
+\indexentry{ File!Blink.py}{304}
+\indexentry{ File!Blink.ino}{306}
+\indexentry{Speicherprogrammierbare Steuerung! \emph  {see} SPS}{307}
+\indexentry{SPS}{307}
+\indexentry{Computerized Numerical Control! \emph  {see} {CNN}}{307}
+\indexentry{CNN}{307}
+\indexentry{SPS}{307}
+\indexentry{     Programmable Logic Controller}{307}
+\indexentry{PLC|see{         Programmable Logic Controller}}{307}
+\indexentry{CAGD}{309}
+\indexentry{CAGD!Splines}{309}
+\indexentry{3D printer}{309}

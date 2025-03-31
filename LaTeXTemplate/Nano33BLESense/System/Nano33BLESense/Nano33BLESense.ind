@@ -1,18 +1,18 @@
 \begin{theindex}
 
-  \item 3D printer, 301
+  \item 3D printer, 309
 
   \indexspace
 
-  \item      Programmable Logic Controller, 299
+  \item      Programmable Logic Controller, 307
   \item  File
     \subitem Arduino LSM9DS1.h, 192
     \subitem Arduino\_APDS9960, 83, 88
     \subitem Arduino\_LSM9DS1.h, 191
     \subitem ArduinoBLE, 230
     \subitem ArduinoBLE.h, 228
-    \subitem Blink.ino, 298
-    \subitem Blink.py, 296
+    \subitem Blink.ino, 306
+    \subitem Blink.py, 304
     \subitem BuiltinLED.cpp, 44
     \subitem BuiltinLED.h, 44
     \subitem Kalman.h, 191, 192
@@ -23,7 +23,7 @@
     \subitem Mag\_raw.txt, 34
     \subitem Nano33BLE\_Led\_A0.ino, 224
     \subitem output.wav, 124
-    \subitem PackageExample.py, 263
+    \subitem PackageExample.py, 271
     \subitem PDM.h, 144
     \subitem pdm.h, 142, 143
     \subitem PowerLED.cpp, 50
@@ -40,6 +40,8 @@
     \subitem sound3.wav, 141
     \subitem SSD1306Ascii.h, 167
     \subitem TestBattery.ino, 210, 212
+    \subitem TestHCSR04 UltraschallsensorTest.ino, 246
+    \subitem TestHCSR04.ino, 248
     \subitem Wire.h, 167, 191, 193
     \subitem wire.h, 192
   \item  Inertial Measurement Unit
@@ -53,25 +55,34 @@
 
   \indexspace
 
-  \item CAGD, 301
-    \subitem Splines, 301
-  \item CNN, 21, 299
+  \item CAGD, 309
+    \subitem Splines, 309
+  \item CNN, 21, 307
   \item Computerized Numerical Control
-    \subitem  \emph  {see} {CNN}, 21, 299
+    \subitem  \emph  {see} {CNN}, 21, 307
 
   \indexspace
 
-  \item Example, 263
-    \subitem Description, 263
-    \subitem Installation, 263
-    \subitem Introduction, 263
+  \item Example, 271
+    \subitem Description, 271
+    \subitem Installation, 271
+    \subitem Introduction, 271
 
   \indexspace
 
-  \item IDE, 21, 212
+  \item General Purpose Input Output
+    \subitem  \emph  {see} GPIO, 21, 245
+  \item GPIO, 21, 245, 246
+
+  \indexspace
+
+  \item I\textsuperscript  {2}C, 21, 245, 246
+  \item IDE, 21, 212, 248
   \item IMU, 21, 30, 33
   \item Integrated Development Environment
     \subitem  \emph  {see} IDE, 21
+  \item Inter-Integrated Circuit
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 21, 245
 
   \indexspace
 
@@ -108,7 +119,7 @@
     \subitem Pin 23, 56
     \subitem Pin 24, 56
     \subitem Pin 25, 48, 50
-  \item PLC, \see{         Programmable Logic Controller}{299}
+  \item PLC, \see{         Programmable Logic Controller}{307}
   \item Printed Circuit Board
     \subitem \emph  {see} PB, 21, 213
   \item Pulse Density Modulation
@@ -121,16 +132,28 @@
 
   \indexspace
 
+  \item SCL, 21, 245, 246
+  \item SDA, 21, 245, 246
+  \item Serial Clock
+    \subitem  \emph  {see} SCL, 21, 245
+  \item Serial Data
+    \subitem  \emph  {see} SDA, 21, 245
   \item Serial Peripheral Interface
     \subitem  \emph  {see} SPI, 21, 219
   \item Speicherprogrammierbare Steuerung
-    \subitem  \emph  {see} SPS, 21, 299
+    \subitem  \emph  {see} SPS, 21, 307
   \item SPI, 21, 219
-  \item SPS, 21, 299
+  \item SPS, 21, 307
 
   \indexspace
 
-  \item VCC, 21, 210
+  \item UART, 21, 245, 246
+  \item Universal Asynchronous Receiver Transmitter
+    \subitem  \emph  {see} UART, 21, 245
+
+  \indexspace
+
+  \item VCC, 21, 210, 245, 246
   \item Voltage at the Common Collector
     \subitem  \emph  {see} VCC, 21, 210
 

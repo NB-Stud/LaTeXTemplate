@@ -78,7 +78,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {29.1}{\ignorespaces Testprogramm für den Encoder}}{246}{code.caption.111}%
+\addvspace {10\p@ }
+\contentsline {code}{\numberline {30.1}{\ignorespaces Testprogramm für den Encoder}}{254}{code.caption.115}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -90,9 +91,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {40.1}{\ignorespaces \glqq Hello World\grqq {} in Python -- Variant 1}}{296}{code.caption.124}%
+\contentsline {code}{\numberline {41.1}{\ignorespaces \glqq Hello World\grqq {} in Python -- Variant 1}}{304}{code.caption.128}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {41.1}{\ignorespaces \glqq Hello World\grqq {} in Python -- Variant 1}}{298}{code.caption.125}%
+\contentsline {code}{\numberline {42.1}{\ignorespaces \glqq Hello World\grqq {} in Python -- Variant 1}}{306}{code.caption.129}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
