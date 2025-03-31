@@ -1,0 +1,137 @@
+\begin{theindex}
+
+  \item 3D printer, 301
+
+  \indexspace
+
+  \item      Programmable Logic Controller, 299
+  \item  File
+    \subitem Arduino LSM9DS1.h, 192
+    \subitem Arduino\_APDS9960, 83, 88
+    \subitem Arduino\_LSM9DS1.h, 191
+    \subitem ArduinoBLE, 230
+    \subitem ArduinoBLE.h, 228
+    \subitem Blink.ino, 298
+    \subitem Blink.py, 296
+    \subitem BuiltinLED.cpp, 44
+    \subitem BuiltinLED.h, 44
+    \subitem Kalman.h, 191, 192
+    \subitem LED.cpp, 49
+    \subitem LED.h, 49
+    \subitem LSM6DSOXSensor.h, 181
+    \subitem LSM9DS1, 230
+    \subitem Mag\_raw.txt, 34
+    \subitem Nano33BLE\_Led\_A0.ino, 224
+    \subitem output.wav, 124
+    \subitem PackageExample.py, 263
+    \subitem PDM.h, 144
+    \subitem pdm.h, 142, 143
+    \subitem PowerLED.cpp, 50
+    \subitem PowerLED.h, 50
+    \subitem RGBLED.cpp, 57
+    \subitem RGBLED.h, 56
+    \subitem SignsOfLife.cpp, 52
+    \subitem SignsOfLife.h, 52
+    \subitem SimpleAccelerometer, 165
+    \subitem Sketch -> Include Library -> Manage Library, 226
+    \subitem smoothedAudio.wav, 131
+    \subitem sound1.wav, 141
+    \subitem sound2.wav, 141
+    \subitem sound3.wav, 141
+    \subitem SSD1306Ascii.h, 167
+    \subitem TestBattery.ino, 210, 212
+    \subitem Wire.h, 167, 191, 193
+    \subitem wire.h, 192
+  \item  Inertial Measurement Unit
+    \subitem  \emph  {see} IMU, 21, 30
+
+  \indexspace
+
+  \item Acoustic Overload Point
+    \subitem  \emph  {see} AOP, 21, 35
+  \item AOP, 21, 35
+
+  \indexspace
+
+  \item CAGD, 301
+    \subitem Splines, 301
+  \item CNN, 21, 299
+  \item Computerized Numerical Control
+    \subitem  \emph  {see} {CNN}, 21, 299
+
+  \indexspace
+
+  \item Example, 263
+    \subitem Description, 263
+    \subitem Installation, 263
+    \subitem Introduction, 263
+
+  \indexspace
+
+  \item IDE, 21, 212
+  \item IMU, 21, 30, 33
+  \item Integrated Development Environment
+    \subitem  \emph  {see} IDE, 21
+
+  \indexspace
+
+  \item Japan Solderless Terminal
+    \subitem  \emph  {see} JST, 21, 218
+  \item JST, 21, 218
+
+  \indexspace
+
+  \item LED, 21, 47, 48, 52, 55--57, 59, 61, 62
+    \subitem Brightness, 61
+    \subitem Built-in LED, 43
+    \subitem Built-in RGB-LED, 55
+    \subitem Colors, 58
+    \subitem Power LED, 47
+  \item Light Emitting Diode
+    \subitem  \emph  {see} {LED}, 21, 47
+
+  \indexspace
+
+  \item mcd, 21, 56
+  \item Millicandela
+    \subitem  \emph  {see} {mcd}, 21, 56
+
+  \indexspace
+
+  \item PCB, 21, 213
+  \item PDM, 21, 35, 144
+  \item Pin
+    \subitem Pin 11, 65, 66
+    \subitem Pin 13, 43--45
+    \subitem Pin 22, 56
+    \subitem Pin 22,23,24, 56
+    \subitem Pin 23, 56
+    \subitem Pin 24, 56
+    \subitem Pin 25, 48, 50
+  \item PLC, \see{         Programmable Logic Controller}{299}
+  \item Printed Circuit Board
+    \subitem \emph  {see} PB, 21, 213
+  \item Pulse Density Modulation
+    \subitem  \emph  {see} PDM, 21, 35
+  \item Pulse with Modulation
+    \subitem  \emph  {see} PWM Signal, 21, 48
+  \item Push Button
+    \subitem  Built-in Push Button, 65
+  \item PWM Signal, 21, 48, 55, 59
+
+  \indexspace
+
+  \item Serial Peripheral Interface
+    \subitem  \emph  {see} SPI, 21, 219
+  \item Speicherprogrammierbare Steuerung
+    \subitem  \emph  {see} SPS, 21, 299
+  \item SPI, 21, 219
+  \item SPS, 21, 299
+
+  \indexspace
+
+  \item VCC, 21, 210
+  \item Voltage at the Common Collector
+    \subitem  \emph  {see} VCC, 21, 210
+
+\end{theindex}
