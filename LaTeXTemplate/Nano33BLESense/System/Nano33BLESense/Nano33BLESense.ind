@@ -17,7 +17,7 @@
     \subitem BuiltinLED.h, 44
     \subitem Kalman.h, 191, 192
     \subitem LED.cpp, 49
-    \subitem LED.h, 49
+    \subitem LED.h, 48
     \subitem LSM6DSOXSensor.h, 181
     \subitem LSM9DS1, 230
     \subitem Mag\_raw.txt, 34
@@ -81,7 +81,7 @@
 
   \indexspace
 
-  \item LED, 21, 47, 48, 52, 55--57, 59, 61, 62
+  \item LED, 21, 47, 48, 52, 55--59, 61, 62
     \subitem Brightness, 61
     \subitem Built-in LED, 43
     \subitem Built-in RGB-LED, 55
@@ -117,7 +117,7 @@
     \subitem  \emph  {see} PWM Signal, 21, 48
   \item Push Button
     \subitem  Built-in Push Button, 65
-  \item PWM Signal, 21, 48, 55, 59
+  \item PWM Signal, 21, 48, 55, 58
 
   \indexspace
 

@@ -17,6 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 19840 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -24,44 +25,44 @@ Database file #4: ../../../MLbib/MyLiterature.bib
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 1 entry,
+You've used 106 entries,
             6402 wiz_defined-function locations,
-            1209 strings with 9133 characters,
-and the built_in function-call counts, 1562 in all, are:
-= -- 74
-> -- 73
-< -- 1
-+ -- 52
-- -- 30
-* -- 33
-:= -- 375
+            1899 strings with 34921 characters,
+and the built_in function-call counts, 826724 in all, are:
+= -- 62754
+> -- 16149
+< -- 4814
++ -- 26547
+- -- 8658
+* -- 56200
+:= -- 91299
 add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
-chr.to.int$ -- 44
-cite$ -- 0
-duplicate$ -- 11
-empty$ -- 105
-format.name$ -- 0
-if$ -- 329
+call.type$ -- 106
+change.case$ -- 147
+chr.to.int$ -- 624
+cite$ -- 252
+duplicate$ -- 88089
+empty$ -- 73044
+format.name$ -- 6518
+if$ -- 164659
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 335
 missing$ -- 0
-newline$ -- 20
-num.names$ -- 0
-pop$ -- 47
+newline$ -- 3623
+num.names$ -- 5210
+pop$ -- 38788
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 2835
 quote$ -- 0
-skip$ -- 79
+skip$ -- 22380
 stack$ -- 0
-substring$ -- 158
-swap$ -- 1
-text.length$ -- 20
-text.prefix$ -- 0
+substring$ -- 113761
+swap$ -- 17904
+text.length$ -- 3586
+text.prefix$ -- 173
 top$ -- 1
-type$ -- 22
+type$ -- 3583
 warning$ -- 0
-while$ -- 65
+while$ -- 11166
 width$ -- 0
-write$ -- 20
+write$ -- 3518
