@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  31 MAR 2025 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  31 MAR 2025 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1717,22 +1717,29 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 (./Chapters/de/TitlePage.tex
-<General/Logo.png, id=7, 228.855pt x 77.088pt>
-File: General/Logo.png Graphic file (type png)
-<use General/Logo.png>
-Package pdftex.def Info: General/Logo.png  used on input line 13.
-(pdftex.def)             Requested size: 199.16928pt x 67.0907pt.
+<wasserhahn_Titelbild.jpg, id=7, 255.95625pt x 255.95625pt>
+File: wasserhahn_Titelbild.jpg Graphic file (type jpg)
+<use wasserhahn_Titelbild.jpg>
+Package pdftex.def Info: wasserhahn_Titelbild.jpg  used on input line 13.
+(pdftex.def)             Requested size: 199.16928pt x 199.16858pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+
+[1
+
+
+
+{c:/LaTeX/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/LaTeX/t
+exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./wasserhahn_
+Titelbild.jpg>]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
-
-(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
+) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
@@ -1759,13 +1766,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[1
-
-
-
-{c:/LaTeX/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/LaTeX/t
-exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./General/Log
-o.png>])
+[2])
 Package tocbasic Info: character protrusion at toc deactivated on input line 42
 .
  (./Rename.toc)
@@ -1841,7 +1842,13 @@ l.14 \chapter
 
 {c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \chapter
+             {Main Function} [2
 
 
 ]
@@ -1941,27 +1948,27 @@ Package logreq Info: Writing requests to 'Rename.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59135 strings out of 473190
- 1464150 string characters out of 5716853
+ 59150 strings out of 473190
+ 1464397 string characters out of 5716853
  2491854 words of memory out of 5000000
- 81440 multiletter control sequences out of 15000+600000
- 593916 words of font info for 162 fonts, out of 8000000 for 9000
+ 81443 multiletter control sequences out of 15000+600000
+ 596116 words of font info for 169 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
- 110i,7n,111p,10901b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,8n,111p,10901b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/L
-aTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/LaTeX
-/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/LaTeX/tex
-live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/LaTeX/texlive
-/2025/texmf-dist/fonts/type1/public/cm-super/sfsl2074.pfb><c:/LaTeX/texlive/202
+c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/L
+aTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/LaTeX
+/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/LaTeX/tex
+live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/LaTeX/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/LaTeX/texlive/202
 5/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/LaTeX/texlive/2025/te
 xmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-
 dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist
 /fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Rename.pdf (29 pages, 171939 bytes).
+Output written on Rename.pdf (30 pages, 209801 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
+ 274 PDF objects out of 1000 (max. 8388607)
+ 217 compressed objects within 3 object streams
  43 named destinations out of 1000 (max. 500000)
- 29314 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 33410 words of extra memory for PDF output out of 35830 (max. 10000000)
 
