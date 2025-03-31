@@ -44,49 +44,47 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Nano33BLESense.aux</file>
-      <file>Nano33BLESense-blx.bib</file>
+      <file>rename.aux</file>
+      <file>rename-blx.bib</file>
     </provides>
     <requires type="dynamic">
-      <file>Nano33BLESense.bbl</file>
+      <file>rename.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
       <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
+      <file>blx-natbib.def</file>
       <file>standard.bbx</file>
       <file>alphabetic.bbx</file>
       <file>alphabetic.cbx</file>
       <file>biblatex.cfg</file>
-      <file>english.lbx</file>
+      <file>german.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>bibtex</generic>
     <cmdline>
-      <binary>bibtex8</binary>
-      <option>--wolfgang</option>
-      <option>--min_crossrefs 2</option>
-      <infile>Nano33BLESense</infile>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
+      <infile>rename</infile>
     </cmdline>
     <input>
-      <file>Nano33BLESense.aux</file>
+      <file>rename.aux</file>
     </input>
     <output>
-      <file>Nano33BLESense.bbl</file>
+      <file>rename.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Nano33BLESense.bbl</file>
+      <file>rename.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Nano33BLESense.aux</file>
-      <file>Nano33BLESense-blx.bib</file>
+      <file>rename.aux</file>
+      <file>rename-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>../../../MLbib/Jetson.bib</file>
-      <file>../../../MLbib/Literature.bib</file>
-      <file>../../../MLbib/MyLiterature.bib</file>
+      <file>Documents/MyLiterature.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
