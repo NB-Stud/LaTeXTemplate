@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  4 APR 2025 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  4 APR 2025 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1826,7 +1826,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.14 \chapter
-             {Main Function} [1
+             {Hauptfunktion} [1
 
 
 ]
@@ -1948,7 +1948,7 @@ xmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-
 dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/LaTeX/texlive/2025/texmf-dist
 /fonts/type1/public/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist/fon
 ts/type1/public/cm-super/sftt1095.pfb>
-Output written on "Handbuch Magic Faucet Fountain.pdf" (29 pages, 191324 bytes)
+Output written on "Handbuch Magic Faucet Fountain.pdf" (29 pages, 191196 bytes)
 .
 PDF statistics:
  285 PDF objects out of 1000 (max. 8388607)
