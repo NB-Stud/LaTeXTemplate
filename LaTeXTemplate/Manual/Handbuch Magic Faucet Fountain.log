@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  4 APR 2025 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  5 APR 2025 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,22 +925,8 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 Package nomencl Info: Writing nomenclature file "Handbuch Magic Faucet Fountain
 ".nlo on input line 70.
 )
-
-LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 25.
-
-(./General/Commands.tex
-LaTeX Info: Redefining \Atan2 on input line 39.
-\c@fehlernummer=\count473
-)
-
-LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 26.
-
-(./General/TikzDefs.tex
-(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplots.sty
-(c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -982,14 +968,14 @@ red.code.tex
 \pgf@yd=\dimen256
 \w@pgf@writea=\write6
 \r@pgf@reada=\read4
-\c@pgf@counta=\count474
-\c@pgf@countb=\count475
-\c@pgf@countc=\count476
-\c@pgf@countd=\count477
+\c@pgf@counta=\count473
+\c@pgf@countb=\count474
+\c@pgf@countc=\count475
+\c@pgf@countd=\count476
 \t@pgf@toka=\toks42
 \t@pgf@tokb=\toks43
 \t@pgf@tokc=\toks44
-\pgf@sys@id@count=\count478
+\pgf@sys@id@count=\count477
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -1006,8 +992,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.co
 de.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count479
-\pgfsyssoftpath@bigbuffer@items=\count480
+\pgfsyssoftpath@smallbuffer@items=\count478
+\pgfsyssoftpath@bigbuffer@items=\count479
 )
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.co
 de.tex
@@ -1020,7 +1006,7 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen257
-\pgfmath@count=\count481
+\pgfmath@count=\count480
 \pgfmath@box=\box63
 \pgfmath@toks=\toks45
 \pgfmath@stack@operand=\toks46
@@ -1046,7 +1032,7 @@ de.tex)
 arithmetics.code.tex)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count482
+\c@pgfmathroundto@lastzeros=\count481
 ))
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code
@@ -1085,7 +1071,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box64
 \pgf@hbox=\box65
 \pgf@layerbox@main=\box66
-\pgf@picture@serial@count=\count483
+\pgf@picture@serial@count=\count482
 )
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstat
 e.code.tex
@@ -1120,8 +1106,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen281
-\pgf@sys@shading@range@num=\count484
-\pgf@shadingcount=\count485
+\pgf@sys@shading@range@num=\count483
+\pgf@shadingcount=\count484
 )
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.
 tex
@@ -1185,7 +1171,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandl
 ers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count486
+\pgf@plot@mark@count=\count485
 \pgfplotmarksize=\dimen286
 )
 \tikz@lastx=\dimen287
@@ -1200,32 +1186,147 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box70
 \tikz@tempbox=\box71
 \tikz@tempbox@bg=\box72
-\tikztreelevel=\count487
-\tikznumberofchildren=\count488
-\tikznumberofcurrentchild=\count489
-\tikz@fig@count=\count490
+\tikztreelevel=\count486
+\tikznumberofchildren=\count487
+\tikznumberofcurrentchild=\count488
+\tikz@fig@count=\count489
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.
 tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count491
-\pgfmatrixcurrentcolumn=\count492
-\pgf@matrix@numberofcolumns=\count493
+\pgfmatrixcurrentrow=\count490
+\pgfmatrixcurrentcolumn=\count491
+\pgf@matrix@numberofcolumns=\count492
 )
-\tikz@expandcount=\count494
+\tikz@expandcount=\count493
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/
 tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks50
+\verbatim@line=\toks51
+\verbatim@in@stream=\read5
+)
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box73
+\tcb@upperbox=\box74
+\tcb@lowerbox=\box75
+\tcb@phantombox=\box76
+\c@tcbbreakpart=\count494
+\c@tcblayer=\count495
+\c@tcolorbox@number=\count496
+\l__tcobox_tmpa_box=\box77
+\l__tcobox_tmpa_dim=\dimen295
+\tcb@temp=\box78
+\tcb@temp=\box79
+\tcb@temp=\box80
+\tcb@temp=\box81
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.4.1'
+\c@tcbrastercolumn=\count497
+\c@tcbrasterrow=\count498
+\c@tcbrasternum=\count499
+\c@tcbraster=\count500
+) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code
+.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box82
+))
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
+)) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box83
+\tcb@totalupperbox=\box84
+\tcb@totallowerbox=\box85
+)
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.1'
+) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.1'
+) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
+\tcbfitdim=\dimen296
+\tcb@lowerfitdim=\dimen297
+\tcb@upperfitdim=\dimen298
+\tcb@cur@hbadness=\count501
+)
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.4.1'
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.1'
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.1'
+)
+\c@tcblisting=\count502
+)) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+)) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.4.1'
+) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.4.1'
+) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.4.1'
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/
+tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.c
+ode.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.4.1'
+))
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 25.
+
+(./General/Commands.tex
+LaTeX Info: Redefining \Atan2 on input line 39.
+\c@fehlernummer=\count503
+)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 26.
+
+(./General/TikzDefs.tex
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks50
-\t@pgfplots@tokb=\toks51
-\t@pgfplots@tokc=\toks52
-\pgfplots@tmpa=\dimen295
-\c@pgfplots@coordindex=\count495
-\c@pgfplots@scanlineindex=\count496
+\t@pgfplots@toka=\toks52
+\t@pgfplots@tokb=\toks53
+\t@pgfplots@tokc=\toks54
+\pgfplots@tmpa=\dimen299
+\c@pgfplots@coordindex=\count504
+\c@pgfplots@scanlineindex=\count505
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.c
 ode.tex))
@@ -1236,9 +1337,9 @@ ldpgfsupp_loader.code.tex
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.
 tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks53
-\t@pgf@tokb=\toks54
-\t@pgf@tokc=\toks55
+\t@pgf@toka=\toks55
+\t@pgf@tokb=\toks56
+\t@pgf@tokc=\toks57
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotso
 ldpgfsupp_pgfutil-common-lists.tex))
@@ -1250,14 +1351,14 @@ ststructure.code.tex)
 ststructureext.code.tex)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsar
 ray.code.tex
-\c@pgfplotsarray@tmp=\count497
+\c@pgfplotsarray@tmp=\count506
 )
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsma
 trix.code.tex)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstablesh
 ared.code.tex
-\c@pgfplotstable@counta=\count498
-\t@pgfplotstable@a=\toks56
+\c@pgfplotstable@counta=\count507
+\t@pgfplotstable@a=\toks58
 )
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsde
 que.code.tex)
@@ -1269,7 +1370,7 @@ que.code.tex)
 ode.tex)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.
 surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count499
+\c@pgfplotslibrarysurf@no=\count508
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.s
 urfshading.pgfsys-pdftex.def)))
@@ -1300,16 +1401,16 @@ x)
 tikzlibrarydecorations.code.tex
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.
 code.tex
-\pgfdecoratedcompleteddistance=\dimen296
-\pgfdecoratedremainingdistance=\dimen297
-\pgfdecoratedinputsegmentcompleteddistance=\dimen298
-\pgfdecoratedinputsegmentremainingdistance=\dimen299
-\pgf@decorate@distancetomove=\dimen300
-\pgf@decorate@repeatstate=\count500
-\pgfdecorationsegmentamplitude=\dimen301
-\pgfdecorationsegmentlength=\dimen302
+\pgfdecoratedcompleteddistance=\dimen300
+\pgfdecoratedremainingdistance=\dimen301
+\pgfdecoratedinputsegmentcompleteddistance=\dimen302
+\pgfdecoratedinputsegmentremainingdistance=\dimen303
+\pgf@decorate@distancetomove=\dimen304
+\pgf@decorate@repeatstate=\count509
+\pgfdecorationsegmentamplitude=\dimen305
+\pgfdecorationsegmentlength=\dimen306
 )
-\tikz@lib@dec@box=\box73
+\tikz@lib@dec@box=\box86
 )
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/
 tikzlibrarydecorations.pathmorphing.code.tex
@@ -1321,13 +1422,13 @@ tikzlibrarydecorations.pathreplacing.code.tex
 arydecorations.pathreplacing.code.tex))
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots
 .contourlua.code.tex)
-\pgfplots@numplots=\count501
-\pgfplots@xmin@reg=\dimen303
-\pgfplots@xmax@reg=\dimen304
-\pgfplots@ymin@reg=\dimen305
-\pgfplots@ymax@reg=\dimen306
-\pgfplots@zmin@reg=\dimen307
-\pgfplots@zmax@reg=\dimen308
+\pgfplots@numplots=\count510
+\pgfplots@xmin@reg=\dimen307
+\pgfplots@xmax@reg=\dimen308
+\pgfplots@ymin@reg=\dimen309
+\pgfplots@ymax@reg=\dimen310
+\pgfplots@zmin@reg=\dimen311
+\pgfplots@zmax@reg=\dimen312
 )
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/
 tikzlibraryplotmarks.code.tex
@@ -1387,26 +1488,26 @@ File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrarysh
 apes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box74
-\pgfnodeparttwobox=\box75
-\pgfnodepartthreebox=\box76
-\pgfnodepartfourbox=\box77
-\pgfnodeparttwentybox=\box78
-\pgfnodepartnineteenbox=\box79
-\pgfnodeparteighteenbox=\box80
-\pgfnodepartseventeenbox=\box81
-\pgfnodepartsixteenbox=\box82
-\pgfnodepartfifteenbox=\box83
-\pgfnodepartfourteenbox=\box84
-\pgfnodepartthirteenbox=\box85
-\pgfnodeparttwelvebox=\box86
-\pgfnodepartelevenbox=\box87
-\pgfnodeparttenbox=\box88
-\pgfnodepartninebox=\box89
-\pgfnodeparteightbox=\box90
-\pgfnodepartsevenbox=\box91
-\pgfnodepartsixbox=\box92
-\pgfnodepartfivebox=\box93
+\pgfnodepartlowerbox=\box87
+\pgfnodeparttwobox=\box88
+\pgfnodepartthreebox=\box89
+\pgfnodepartfourbox=\box90
+\pgfnodeparttwentybox=\box91
+\pgfnodepartnineteenbox=\box92
+\pgfnodeparteighteenbox=\box93
+\pgfnodepartseventeenbox=\box94
+\pgfnodepartsixteenbox=\box95
+\pgfnodepartfifteenbox=\box96
+\pgfnodepartfourteenbox=\box97
+\pgfnodepartthirteenbox=\box98
+\pgfnodeparttwelvebox=\box99
+\pgfnodepartelevenbox=\box100
+\pgfnodeparttenbox=\box101
+\pgfnodepartninebox=\box102
+\pgfnodeparteightbox=\box103
+\pgfnodepartsevenbox=\box104
+\pgfnodepartsixbox=\box105
+\pgfnodepartfivebox=\box106
 )))
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/
 tikzlibraryarrows.code.tex
@@ -1415,7 +1516,7 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.co
 de.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen309
+\arrowsize=\dimen313
 ))
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/
 tikzlibraryangles.code.tex
@@ -1441,91 +1542,91 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 tikzlibrarymath.code.tex
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/
 tikzlibraryfpu.code.tex)
-\tikz@math@for@depth=\count502
-\tikz@math@dimen=\dimen310
-\tikz@math@toks=\toks57
+\tikz@math@for@depth=\count511
+\tikz@math@dimen=\dimen314
+\tikz@math@toks=\toks59
 )
 (c:/LaTeX/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/
 tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box94
-\pgf@layerboxsaved@background=\box95
+\pgf@layerbox@background=\box107
+\pgf@layerboxsaved@background=\box108
 )) (./General/acronyms.tex
-\c@g@acro@api@int=\count503
-\c@g@acro@bs@int=\count504
-\c@g@acro@cci@int=\count505
-\c@g@acro@csi@int=\count506
-\c@g@acro@cg@int=\count507
-\c@g@acro@cifar@int=\count508
-\c@g@acro@cnc@int=\count509
-\c@g@acro@cnn@int=\count510
-\c@g@acro@coco@int=\count511
-\c@g@acro@cpu@int=\count512
-\c@g@acro@cuda@int=\count513
-\c@g@acro@cudnn@int=\count514
-\c@g@acro@dll@int=\count515
-\c@g@acro@dnn@int=\count516
-\c@g@acro@fp32@int=\count517
-\c@g@acro@flops@int=\count518
-\c@g@acro@fp16@int=\count519
-\c@g@acro@fpga@int=\count520
-\c@g@acro@fps@int=\count521
-\c@g@acro@gpio@int=\count522
-\c@g@acro@gpgpu@int=\count523
-\c@g@acro@gpu@int=\count524
-\c@g@acro@hdmi@int=\count525
-\c@g@acro@i2c@int=\count526
-\c@g@acro@i2s@int=\count527
-\c@g@acro@ide@int=\count528
-\c@g@acro@int8@int=\count529
-\c@g@acro@iot@int=\count530
-\c@g@acro@kdd@int=\count531
-\c@g@acro@ki@int=\count532
-\c@g@acro@knn@int=\count533
-\c@g@acro@mimd@int=\count534
-\c@g@acro@nn@int=\count535
-\c@g@acro@opencl@int=\count536
-\c@g@acro@ppa@int=\count537
-\c@g@acro@pip@int=\count538
-\c@g@acro@pypi@int=\count539
-\c@g@acro@ram@int=\count540
-\c@g@acro@relu@int=\count541
-\c@g@acro@resnets@int=\count542
-\c@g@acro@rle@int=\count543
-\c@g@acro@rgb@int=\count544
-\c@g@acro@sd@int=\count545
-\c@g@acro@sda@int=\count546
-\c@g@acro@sd-1@int=\count547
-\c@g@acro@sd-3@int=\count548
-\c@g@acro@scl@int=\count549
-\c@g@acro@ssh@int=\count550
-\c@g@acro@spi@int=\count551
-\c@g@acro@sbc@int=\count552
-\c@g@acro@simd@int=\count553
-\c@g@acro@sm@int=\count554
-\c@g@acro@sp@int=\count555
-\c@g@acro@sps@int=\count556
-\c@g@acro@tpu@int=\count557
-\c@g@acro@uart@int=\count558
-\c@g@acro@uma@int=\count559
-\c@g@acro@venv@int=\count560
-\c@g@acro@vpu@int=\count561
+\c@g@acro@api@int=\count512
+\c@g@acro@bs@int=\count513
+\c@g@acro@cci@int=\count514
+\c@g@acro@csi@int=\count515
+\c@g@acro@cg@int=\count516
+\c@g@acro@cifar@int=\count517
+\c@g@acro@cnc@int=\count518
+\c@g@acro@cnn@int=\count519
+\c@g@acro@coco@int=\count520
+\c@g@acro@cpu@int=\count521
+\c@g@acro@cuda@int=\count522
+\c@g@acro@cudnn@int=\count523
+\c@g@acro@dll@int=\count524
+\c@g@acro@dnn@int=\count525
+\c@g@acro@fp32@int=\count526
+\c@g@acro@flops@int=\count527
+\c@g@acro@fp16@int=\count528
+\c@g@acro@fpga@int=\count529
+\c@g@acro@fps@int=\count530
+\c@g@acro@gpio@int=\count531
+\c@g@acro@gpgpu@int=\count532
+\c@g@acro@gpu@int=\count533
+\c@g@acro@hdmi@int=\count534
+\c@g@acro@i2c@int=\count535
+\c@g@acro@i2s@int=\count536
+\c@g@acro@ide@int=\count537
+\c@g@acro@int8@int=\count538
+\c@g@acro@iot@int=\count539
+\c@g@acro@kdd@int=\count540
+\c@g@acro@ki@int=\count541
+\c@g@acro@knn@int=\count542
+\c@g@acro@mimd@int=\count543
+\c@g@acro@nn@int=\count544
+\c@g@acro@opencl@int=\count545
+\c@g@acro@ppa@int=\count546
+\c@g@acro@pip@int=\count547
+\c@g@acro@pypi@int=\count548
+\c@g@acro@ram@int=\count549
+\c@g@acro@relu@int=\count550
+\c@g@acro@resnets@int=\count551
+\c@g@acro@rle@int=\count552
+\c@g@acro@rgb@int=\count553
+\c@g@acro@sd@int=\count554
+\c@g@acro@sda@int=\count555
+\c@g@acro@sd-1@int=\count556
+\c@g@acro@sd-3@int=\count557
+\c@g@acro@scl@int=\count558
+\c@g@acro@ssh@int=\count559
+\c@g@acro@spi@int=\count560
+\c@g@acro@sbc@int=\count561
+\c@g@acro@simd@int=\count562
+\c@g@acro@sm@int=\count563
+\c@g@acro@sp@int=\count564
+\c@g@acro@sps@int=\count565
+\c@g@acro@tpu@int=\count566
+\c@g@acro@uart@int=\count567
+\c@g@acro@uma@int=\count568
+\c@g@acro@venv@int=\count569
+\c@g@acro@vpu@int=\count570
 )
 (./General/Hyphenations.tex
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
-\MT@toks=\toks58
-\MT@tempbox=\box96
-\MT@count=\count562
+\MT@toks=\toks60
+\MT@tempbox=\box109
+\MT@count=\count571
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
-\MT@prot@toks=\toks59
+\MT@prot@toks=\toks61
 LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen311
+\MT@outer@kern=\dimen315
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count563
+\MT@listname@count=\count572
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
@@ -1545,8 +1646,8 @@ LaTeX Info: Redefining \microtypesetup on input line 3065.
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count564
-\@quotereset=\count565
+\@quotelevel=\count573
+\@quotereset=\count574
 (./Handbuch Magic Faucet Fountain.aux)
 \openout1 = `"Handbuch Magic Faucet Fountain.aux"'.
 
@@ -1571,17 +1672,17 @@ LaTeX Font Info:    ... okay on input line 34.
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count566
-\scratchdimen=\dimen312
-\scratchbox=\box97
-\nofMPsegments=\count567
-\nofMParguments=\count568
-\everyMPshowfont=\toks60
-\MPscratchCnt=\count569
-\MPscratchDim=\dimen313
-\MPnumerator=\count570
-\makeMPintoPDFobject=\count571
-\everyMPtoPDFconversion=\toks61
+\scratchcounter=\count575
+\scratchdimen=\dimen316
+\scratchbox=\box110
+\nofMPsegments=\count576
+\nofMParguments=\count577
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count578
+\MPscratchDim=\dimen317
+\MPnumerator=\count579
+\makeMPintoPDFobject=\count580
+\everyMPtoPDFconversion=\toks63
 ) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1612,9 +1713,9 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count572
+\BKM@id=\count581
 ))
-\c@lstlisting=\count573
+\c@lstlisting=\count582
 Package tocbasic Info: setting babel extension for `lol' on input line 34.
 \scr@dte@lstlisting@maxnumwidth=\skip98
 
@@ -1818,27 +1919,32 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 50
 
 ] (./Chapters/de/Hints.tex
 chapter 1.
-) (./Chapters/de/MainFunction.tex
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 \chapter
-             {Hauptfunktion} [1
+l.27 \newpage
+              [1
 
 
-]
+{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
-[2
+ []
 
+) (./Chapters/de/MainFunction.tex
 
-]
+[2]
 chapter 2.
 ) (./Chapters/de/Sketch.tex
 
-[3]
+[3
+
+
+]
 
 [4
 
@@ -1879,8 +1985,7 @@ chapter 5.
 chapter 6.
 ) (./Chapters/de/Maintenance.tex
 
-[11{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-]
+[11]
 
 [12
 
@@ -1935,28 +2040,29 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59210 strings out of 473190
- 1466935 string characters out of 5716853
- 2492018 words of memory out of 5000000
- 81499 multiletter control sequences out of 15000+600000
- 596917 words of font info for 176 fonts, out of 8000000 for 9000
+ 64278 strings out of 473190
+ 1612784 string characters out of 5716853
+ 2669076 words of memory out of 5000000
+ 86483 multiletter control sequences out of 15000+600000
+ 596292 words of font info for 172 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
- 110i,7n,111p,10927b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,111p,10927b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/L
-aTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/LaTeX
-/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/LaTeX/tex
-live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/LaTeX/texlive
-/2025/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/LaTeX/texlive/202
-5/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/te
-xmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/LaTeX/texlive/2025/texmf-
-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist
-/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on "Handbuch Magic Faucet Fountain.pdf" (29 pages, 179742 bytes)
+aTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/LaTeX
+/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/LaTeX/tex
+live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/LaTeX/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/LaTeX/texlive/202
+5/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/LaTeX/texlive/2025/te
+xmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/LaTeX/texlive/2025/texmf-
+dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-dist
+/fonts/type1/public/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist/fon
+ts/type1/public/cm-super/sftt1095.pfb>
+Output written on "Handbuch Magic Faucet Fountain.pdf" (29 pages, 200879 bytes)
 .
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 33421 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 33549 words of extra memory for PDF output out of 35830 (max. 10000000)
 
