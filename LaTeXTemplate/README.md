@@ -3,11 +3,11 @@
 ![Logo](./Nano33BLESense/Images/Allgemein/LogoDataScienceGruenBlau.jpg "Our Logo")
 
 # Autoren
-1. Kornichenkova, Valeria, 7024
-2. Neumann, Sven, 7024
-3. Yüce, Asena, 7024
-4. Maschke, Carl Lewis, 7024640
-5. Brams, Nina, 7024
+1. Kornichenkova   Valeria  7024769
+2. Neumann         Sven     7025068
+3. Yüce            Asena    7024749
+4. Maschke         Carl     7024640
+5. Brams           Nina     7024847
 # Beschreibung
 
 ...
