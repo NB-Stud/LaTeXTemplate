@@ -10,7 +10,8 @@
 5. Brams           Nina     7024847
 # Beschreibung
 
-...
+
+
 
 
 # Aufgaben
