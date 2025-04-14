@@ -30,4 +30,48 @@
 		\label{fig:wasserhahn2}
 	\end{minipage}
 \end{figure}
+
 Der Magic Faucet Fountain erzeugt die Illusion, wie in \ref{fig:wasserhahn1} zu sehen, in der ein Wasserhahn durch eine Wassersäule in der Luft gehalten wird. Der Wasserhahn schwebt auf dem Wasser mithilfe eines Acryl-Rohres und begießt die dekorativen Steine, wie in \ref{fig:wasserhahn2} zu sehen ist. Im Blumentopf befindet sich ein Wassertank, aus dem mithilfe einer Pumpe das Wasser gefördert wird. Der Wasserstand ist mit einer App auf dem Smartphone einsehbar. Zudem lässt sich die Pumpe ebenfalls durch die App ein- und ausschalten.
+
+\begin{figure}[!ht]
+	\centering
+	\caption{App-Ansicht des Füllstands und Pumpensteuerung}
+	\label{fig:appAnsicht}
+	\resizebox{12\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			%\node (tikzmaker) [shift={(1, -0)}] at (27,-23.5) {\includegraphics[width=2cm]{}};
+			%\node (tikzmaker) [shift={(233.75, --1.375)}] at (-34,3.5) {\includegraphics[width=467.5cm]{}};
+			\draw (433.5,6.25) to[short] (435.5,6.25);
+			\draw [ fill={rgb,255:red,237; green,253; blue,245} , line width=2pt ] (-26.25,176.25) rectangle (-1.25,156.25);
+			\draw [ fill={rgb,255:red,229; green,230; blue,230} , line width=2pt , rotate around={-360:(-20, 164.375)}] (-25,167.5) rectangle  node {\Huge Start} (-15,161.25);
+			\draw [ fill={rgb,255:red,229; green,230; blue,230} , line width=2pt ] (-2.5,167.5) rectangle  node {\LARGE Stop} (-12.5,161.25);
+			\draw [ fill={rgb,255:red,85; green,83; blue,83} , line width=2pt ] (-25,173.75) rectangle (-2.5,168.75);
+			\draw [ fill={rgb,255:red,237; green,253; blue,245} , line width=2pt ] (-26.25,192.5) rectangle (-1.25,176.25);
+			\draw [line width=2pt, short] (-21.25,188.75) -- (-6.25,188.75);
+			\draw [line width=2pt, short] (-21.25,188.75) -- (-21.25,187.5);
+			\draw [line width=2pt, short] (-21.25,187.5) -- (-20,187.5);
+			\draw [line width=2pt, short] (-6.25,188.75) -- (-6.25,187.5);
+			\draw [line width=2pt, short] (-6.25,187.5) -- (-7.5,187.5);
+			\draw [line width=2pt, short] (-20,187.5) -- (-18.75,178.75);
+			\draw [line width=2pt, short] (-18.75,178.75) -- (-8.75,178.75);
+			\draw [line width=2pt, short] (-7.5,187.5) -- (-8.75,178.75);
+			\draw [line width=2pt, short] (-18.75,188.75) -- (-17.5,180);
+			\draw [line width=2pt, short] (-8.75,188.75) -- (-10,180);
+			\draw [line width=2pt, short] (-10,180) -- (-17.5,180);
+			\draw [ fill={rgb,255:red,249; green,207; blue,93} , line width=2pt ] (-24.75,173.25) rectangle (-23,169.25);
+			\draw [ fill={rgb,255:red,249; green,207; blue,93} , line width=2pt ] (-22.75,173.25) rectangle (-21,169.25);
+			\draw [ fill={rgb,255:red,249; green,207; blue,93} , line width=2pt ] (-20.75,173.25) rectangle (-19,169.25);
+			\draw [ fill={rgb,255:red,249; green,207; blue,93} , line width=2pt ] (-18.75,173.25) rectangle (-17,169.25);
+			\draw [ fill={rgb,255:red,249; green,207; blue,93} , line width=2pt ] (-16.75,173.25) rectangle (-15,169.25);
+			\draw [line width=2pt, short] (-7.25,186) -- (-4.75,186) node[pos=0.5, fill=white]{Max};
+			\draw [line width=2pt, short] (-7.5,180.75) -- (-5,180.75) node[pos=0.5, fill=white]{Min};
+			\node [font=\LARGE] at (-13.5,183) {200 ml};
+			\draw [ color={rgb,255:red,16; green,54; blue,244}, , line width=2pt](-18,183.5) to[short] (-9.5,183.5);
+		\end{circuitikz}
+		
+	}%
+	
+\end{figure}
+
+Die App, wie in \ref{fig:appAnsicht} dargestellt, verfügt über eine Darstellung des Blumentopfes und eine Füllstandsanzeige. Zudem lässt sich die Pumpe mit zwei Knöpfen ansteuern.

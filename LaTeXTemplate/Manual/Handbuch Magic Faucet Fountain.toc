@@ -11,5 +11,4 @@
 \contentsline {chapter}{\numberline {7}Wartung}{15}{chapter.7}%
 \contentsline {chapter}{\numberline {8}Sicherheitshinweise}{17}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Troubleshooting}{19}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Sonstiges}{21}{chapter.10}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
