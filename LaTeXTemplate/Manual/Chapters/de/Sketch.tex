@@ -111,7 +111,7 @@
 \section{Aufbau des Netzteilkastens}
 \begin{figure}[!ht]
 	\centering
-	\resizebox{1\textwidth}{!}{%
+	\resizebox{0.7\textwidth}{!}{%
 		\begin{circuitikz}
 			\tikzstyle{every node}=[font=\small]
 			\draw [ line width=1pt](2.5,12) to[short] (11.25,12);
@@ -158,4 +158,43 @@
 	}%
 	\caption{Der Netzteilkasten}
 	\label{fig:netzteilkasten}
+\end{figure}
+
+\section{Aufbau des Schwimmerrohres}
+\begin{figure}[!ht]
+	\centering
+	\resizebox{0.6\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [short] (5,3.25) -- (5,13.25);
+			\draw [short] (8.75,3.25) -- (8.75,13.25);
+			\draw [short] (5,13.25) -- (8.75,13.25);
+			\draw [short] (8.25,3.25) -- (8.25,12.25);
+			\draw [short] (5.5,3.25) -- (5.5,12);
+			\draw [short] (5.5,12) -- (5.5,12.25);
+			\draw [short] (5.5,12.25) -- (8.25,12.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (5.75,12.25) -- (5.75,11.5);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (5.75,11.5) -- (6.5,11.5);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (6.5,11.5) -- (6.5,12.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (8,12.25) -- (8,11.5);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (8,11.5) -- (7.25,11.5);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (7.25,11.5) -- (7.25,12.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (5.75,12.25) -- (6.5,12.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (7.25,12.25) -- (8,12.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (7.25,12) -- (6.5,12);
+			\begin{scope}[rotate around={-87.5:(6.75,11.25)}]
+				\draw[domain=6.75:12.25,samples=100,smooth color={rgb,255:red,255; green,0; blue,0}, , line width=0.6pt] plot (\x,{1*sin(6.22*\x r -6.75 r ) +11.25});
+			\end{scope}
+			\draw [ color={rgb,255:red,128; green,64; blue,0} , fill={rgb,255:red,128; green,64; blue,64}, line width=0.6pt ] (7,4.75) ellipse (1cm and 0.5cm);
+			\draw[domain=5.5:8.25,samples=100,smooth color={rgb,255:red,0; green,128; blue,255}, , line width=0.6pt] plot (\x,{0.1*sin(10*\x r -0.5 r ) +4});
+			\draw [line width=0.6pt, short] (5,3.25) -- (5.5,3.25);
+			\draw [line width=0.6pt, short] (8.25,3.25) -- (8.75,3.25);
+			\draw[domain=2.25:5,samples=100,smooth color={rgb,255:red,0; green,128; blue,255}, , line width=0.6pt] plot (\x,{0.1*sin(10*\x r +2.75 r ) +4});
+			\draw[domain=8.75:11.5,samples=100,smooth color={rgb,255:red,0; green,128; blue,255}, , line width=0.6pt] plot (\x,{0.1*sin(10*\x r -3.75 r ) +4});
+			\node [font=\LARGE] at (6,11.75) {R};
+			\node [font=\LARGE] at (7.75,11.75) {T};
+		\end{circuitikz}
+	}%
+	\caption{Aufbau und Funktionsweise Schwimmer}
+	\label{fig:schwimmer}
 \end{figure}

@@ -7,6 +7,7 @@
 \contentsline {chapter}{\numberline {3}Skizze}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Übersichtsskizze Blumentopf und Netzteilkasten}{7}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Aufbau des Netzteilkastens}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Aufbau des Schwimmerrohres}{8}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Liste der Teile}{9}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Aufbau}{11}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Genereller Aufbau}{11}{section.5.1}%
