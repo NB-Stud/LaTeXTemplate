@@ -12,7 +12,7 @@
 %%%%%%%%%%%%
 
 \chapter{Skizze}
-
+\section{Genereller Aufbau}
 \begin{figure}[!ht]
 \begin{center}
 	\resizebox{6\textwidth}{!}
@@ -105,5 +105,54 @@
 	\caption{Magic Faucet Fountain}
 \end{center}
 \end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\small]
+			\draw [ line width=1pt](2.5,12) to[short] (11.25,12);
+			\draw [ line width=1pt](11.25,12) to[short] (11.25,5.75);
+			\draw [ line width=1pt](11.25,5.75) to[short] (2.5,5.75);
+			\draw [ line width=1pt](2.5,5.75) to[short] (2.5,12);
+			\draw [ line width=1pt](5,10.75) to[short] (2.5,10.75);
+			\draw [ line width=1pt](5,10.75) to[short] (5,7);
+			\draw [ line width=1pt](5,7) to[short] (2.5,7);
+			\draw [line width=1pt, short] (6.25,10.75) -- (10,10.75);
+			\draw [line width=1pt, short] (10,10.75) -- (10,9.5);
+			\draw [line width=1pt, short] (10,9.5) -- (6.25,9.5);
+			\draw [line width=1pt, short] (6.25,9.5) -- (6.25,10.75);
+			\draw [ line width=1pt](4.25,10) to[short, -o] (5.25,10) ;
+			\draw [ line width=1pt](4,7.75) to[short, -o] (5.5,7.75) ;
+			\draw [ line width=1pt](2.75,9.5) to[short, -o] (1.25,9.5) ;
+			\draw [ line width=1pt](2.75,8.75) to[short, -o] (1.25,8.75) ;
+			\draw [ line width=1pt](2.75,8) to[short, -o] (1.25,8) ;
+			\node [font=\normalsize, color={rgb,255:red,255; green,0; blue,0}] at (0.25,9.5) {230 V};
+			\node [font=\normalsize, color={rgb,255:red,0; green,128; blue,255}] at (0.5,8.75) {N};
+			\node [font=\normalsize, color={rgb,255:red,0; green,255; blue,64}] at (0.5,8) {PE};
+			\draw [ line width=1pt](4,8.75) to[short, -o] (5.5,8.75) ;
+			\node [font=\normalsize] at (4.25,7.5) {24 V};
+			\node [font=\normalsize] at (4.25,8.5) {GND};
+			\node [font=\normalsize] at (4.25,9.75) {5 V};
+			\node [font=\normalsize] at (3.75,11) {\textbf{Schaltnetzteil}};
+			\node [font=\normalsize] at (7.75,11) {\textbf{Arduino}};
+			\draw [ line width=1pt](6.5,10) to[short, -o] (6,10) ;
+			\draw [ line width=1pt](7,9.75) to[short, -o] (7,9.25) ;
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=1pt](5.25,10) to[short] (6,10);
+			\draw [ color={rgb,255:red,128; green,64; blue,64}, , line width=1pt](5.5,8.75) to[short] (7,8.75);
+			\draw [ color={rgb,255:red,128; green,64; blue,64}, , line width=1pt](7,9.25) to[short] (7,8.75);
+			\draw [line width=1pt](8,7.75) to[Tnpn, transistors/scale=1.19] (10,7.75);
+			\draw [ line width=1pt](9,9.75) to[short, -o] (9,9.25) ;
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=1pt](5.5,7.75) to[short] (8,7.75);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=1pt](9,9.25) to[short] (9,8.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=1pt](10,7.75) to[short] (12,7.75);
+			\node [font=\normalsize] at (12.75,7.75) {\textbf{Pumpe}};
+			\node [font=\normalsize] at (9,7.25) {\textbf{MOSFET}};
+			\node [font=\small] at (7.25,9.75) {GND};
+			\node [font=\small] at (9.25,9.75) {DO1};
+			\node [font=\small] at (6.75,10.25) {3,3 V};
+		\end{circuitikz}
+	}%
 	
-Wie in der Skizze \ref{fig:Skizze} zu sehen, besteht der Magic Faucet Fountain aus einem Blumentopf mit montierbaren Deckel. Die Pumpe befindet sich am Boden des Topfes, das Acryl-Rohr ist auf der Pumpe montiert. Auf dem Rohr befindet sich der Wasserhahn. Der Deckel des Blumentopfes dient zudem als doppelter Boden auf dem die Deko-Steine platziert werden. Im Blumentopf befindet sich zudem ein seperates Rohr mit Kunststoff-Schwimmer. Im Deckel befindet sich der Ultraschallsensor, der den Kunststoff-Schwimmer als Reflektor nutzt um den Wasserpegel zu messen. Daneben ist der Netzteilkasten zu sehen. In ihm befindet sich die Steuerung, der Hauptschalter und die Stromversorgung des Magic Faucet Fountain. Dieser ist per Kabel mit dem Blumentopf und dem Stromnetz verbunden.
+	\label{fig:my_label}
+\end{figure}
