@@ -12,21 +12,23 @@
 %%%%%%%%%%%%
 
 \chapter{Aufbau}
-Die Magic Faucet Fountain ist eine Wasserinstallation, bei der ein scheinbar schwebender Wasserhahn einen kontinuierlichen Wasserstrom erzeugt. Die Konstruktion basiert auf einem versteckten Rohr, das sowohl als tragende Struktur für den Wasserhahn dient als auch das Wasser nach oben leitet. Siehe \ref{fig:Skizze}\\
+Die Magic Faucet Fountain ist eine Wasserinstallation, bei der ein scheinbar schwebender Wasserhahn einen kontinuierlichen Wasserstrom erzeugt. Die Konstruktion basiert auf einem versteckten Rohr, das sowohl als tragende Struktur für den Wasserhahn dient, als auch das Wasser nach oben leitet. Siehe \ref{fig:Skizze}
 
-\textbf{Wasserführung und Aufbau:}\\
+\section{Wasserführung und Aufbau}
 Eine Pumpe befördert das Wasser aus einem Blumentopf durch ein transparentes Acrylrohr nach oben. Das Wasser tritt am Auslass des Hahns aus und strömt nach unten, wobei das Rohr durch den Wasserfluss verdeckt wird.
 Der Blumentopf dient als Wasserreservoir und ist mit Ablassbohrungen ausgestattet. Diese ermöglichen den kontrollierten Wasserstand im Behälter und dienen gleichzeitig zur Durchführung der Stromkabel.\\
 
-\textbf{Wasserstandsmessung:}\\
+\section{Wasserstandsmessung}
 Zur Überwachung des Wasserstands ist eine Sensoraufnahme mit Gewinde und Bohrungen im Auffangdeckel vorgesehen, in der ein Ultraschallsensor HC-SR04 angebracht ist. Der Auffangdeckel trennt zudem die Steine vom Wasser, um eine genauere Messung zu ermöglichen.
 Ein Messrohr ist an der Sensoraufnahme befestigt. Innerhalb des Messrohrs befindet sich ein Styroporplättchen, das sich mit steigendem Wasserstand nach oben bewegt. Dadurch kann der Sensor den Wasserstand erfassen. Eine zusätzliche Bohrung im Messrohr dient zur Luftdruckregulierung und zur Durchführung der elektronischen Kabel.\\
 
-\textbf{Elektronik und Steuerung:}\\
-Die Steuerungseinheit ist in einem separaten E-Gehäuse untergebracht. Dieses enthält:
+\section{Elektronik und Steuerung:}
+Die Steuerungseinheit ist in einem separaten Netzteilkasten untergebracht. Dieser enthält:
 \begin{itemize}
-	\item Arduino Nano 33 BLE Sense Light zur Verarbeitung der Sensordaten
-	\item MOSFETs zur Steuerung der Stromversorgung
-	\item Verkabelung zur Verbindung der Komponenten
+	\item Arduino Nano 33 BLE Sense Light zur Verarbeitung der Sensordaten und Schaltung des MOSFETs
+	\item MOSFET zur Ansteuerung des Laststromkreises der Pumpe
+	\item Hauptschalter um das System ein- und auszuschalten
+	\item Netzteil mit 2 Ausgangsspannungen, um den Stromkreis für Arduino und Pumpe zu versorgen
+	\item Netzkabel zur Stromversorgung
+	\item Netz- und Sensorleitung zum Blumentopf
 \end{itemize}
-Die Stromversorgung erfolgt über eine externe Quelle.
