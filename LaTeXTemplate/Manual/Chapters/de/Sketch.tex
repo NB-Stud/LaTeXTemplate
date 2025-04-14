@@ -12,7 +12,8 @@
 %%%%%%%%%%%%
 
 \chapter{Skizze}
-\section{Genereller Aufbau}
+
+\section{Übersichtsskizze Blumentopf und Netzteilkasten}
 \begin{figure}[!ht]
 \begin{center}
 	\resizebox{6\textwidth}{!}
@@ -105,7 +106,9 @@
 	\caption{Magic Faucet Fountain}
 \end{center}
 \end{figure}
+\newpage
 
+\section{Aufbau des Netzteilkastens}
 \begin{figure}[!ht]
 	\centering
 	\resizebox{1\textwidth}{!}{%
@@ -134,7 +137,7 @@
 			\node [font=\normalsize] at (4.25,7.5) {24 V};
 			\node [font=\normalsize] at (4.25,8.5) {GND};
 			\node [font=\normalsize] at (4.25,9.75) {5 V};
-			\node [font=\normalsize] at (3.75,11) {\textbf{Schaltnetzteil}};
+			\node [font=\normalsize] at (4,11) {\textbf{Schaltnetzteil}};
 			\node [font=\normalsize] at (7.75,11) {\textbf{Arduino}};
 			\draw [ line width=1pt](6.5,10) to[short, -o] (6,10) ;
 			\draw [ line width=1pt](7,9.75) to[short, -o] (7,9.25) ;
@@ -148,11 +151,11 @@
 			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=1pt](10,7.75) to[short] (12,7.75);
 			\node [font=\normalsize] at (12.75,7.75) {\textbf{Pumpe}};
 			\node [font=\normalsize] at (9,7.25) {\textbf{MOSFET}};
-			\node [font=\small] at (7.25,9.75) {GND};
-			\node [font=\small] at (9.25,9.75) {DO1};
+			\node [font=\small] at (7.5,9.75) {GND};
+			\node [font=\small] at (9.5,9.75) {DO1};
 			\node [font=\small] at (6.75,10.25) {3,3 V};
 		\end{circuitikz}
 	}%
-	
-	\label{fig:my_label}
+	\caption{Der Netzteilkasten}
+	\label{fig:netzteilkasten}
 \end{figure}
