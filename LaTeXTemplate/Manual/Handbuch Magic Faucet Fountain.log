@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  14 APR 2025 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  14 APR 2025 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2014,9 +2014,6 @@ Overfull \hbox (4757.32144pt too wide) in paragraph at lines 40--74
 
 LaTeX Warning: Float too large for page by 1477.89066pt on input line 75.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 ) (./Chapters/de/Sketch.tex
 
 [5
@@ -2185,11 +2182,11 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 82553 strings out of 473190
- 2163708 string characters out of 5716853
+ 82555 strings out of 473190
+ 2163730 string characters out of 5716853
  3463304 words of memory out of 5000000
  104635 multiletter control sequences out of 15000+600000
- 600236 words of font info for 205 fonts, out of 8000000 for 9000
+ 600295 words of font info for 206 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  109i,14n,111p,10927b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
@@ -2205,7 +2202,7 @@ dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/LaTeX/texlive/2025/texmf-dist
 ts/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/t
 ype1/public/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1
 /public/cm-super/sftt1095.pfb>
-Output written on "Handbuch Magic Faucet Fountain.pdf" (25 pages, 799533 bytes)
+Output written on "Handbuch Magic Faucet Fountain.pdf" (25 pages, 799561 bytes)
 .
 PDF statistics:
  335 PDF objects out of 1000 (max. 8388607)
