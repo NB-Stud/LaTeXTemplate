@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  14 APR 2025 16:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  15 APR 2025 06:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1995,12 +1995,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
 [4]
 chapter 2.
-<General/wasserhahn1.jpg, id=158, 722.7pt x 578.16pt>
+<General/wasserhahn1.jpg, id=156, 722.7pt x 578.16pt>
 File: General/wasserhahn1.jpg Graphic file (type jpg)
 <use General/wasserhahn1.jpg>
 Package pdftex.def Info: General/wasserhahn1.jpg  used on input line 20.
 (pdftex.def)             Requested size: 184.9429pt x 147.95375pt.
-<General/wasserhahn2.jpg, id=159, 783.92876pt x 626.34pt>
+<General/wasserhahn2.jpg, id=157, 783.92876pt x 626.34pt>
 File: General/wasserhahn2.jpg Graphic file (type jpg)
 <use General/wasserhahn2.jpg>
 Package pdftex.def Info: General/wasserhahn2.jpg  used on input line 28.
@@ -2097,27 +2097,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-<General/blumentopf.jpg, id=184, 642.4pt x 962.59625pt>
+<General/blumentopf.jpg, id=182, 642.4pt x 962.59625pt>
 File: General/blumentopf.jpg Graphic file (type jpg)
 <use General/blumentopf.jpg>
 Package pdftex.def Info: General/blumentopf.jpg  used on input line 26.
 (pdftex.def)             Requested size: 56.9055pt x 85.26393pt.
-<General/netzkabel.jpg, id=185, 1284.8pt x 722.7pt>
+<General/netzkabel.jpg, id=183, 1284.8pt x 722.7pt>
 File: General/netzkabel.jpg Graphic file (type jpg)
 <use General/netzkabel.jpg>
 Package pdftex.def Info: General/netzkabel.jpg  used on input line 30.
 (pdftex.def)             Requested size: 56.9055pt x 32.0018pt.
-<General/steine.jpg, id=186, 1284.8pt x 917.4275pt>
+<General/steine.jpg, id=184, 1284.8pt x 917.4275pt>
 File: General/steine.jpg Graphic file (type jpg)
 <use General/steine.jpg>
 Package pdftex.def Info: General/steine.jpg  used on input line 32.
 (pdftex.def)             Requested size: 56.9055pt x 40.62451pt.
-<General/wasserhahn.jpg, id=187, 1284.8pt x 856.19875pt>
+<General/wasserhahn.jpg, id=185, 1284.8pt x 856.19875pt>
 File: General/wasserhahn.jpg Graphic file (type jpg)
 <use General/wasserhahn.jpg>
 Package pdftex.def Info: General/wasserhahn.jpg  used on input line 36.
 (pdftex.def)             Requested size: 56.9055pt x 37.91324pt.
-<General/schrauben.jpg, id=188, 1284.8pt x 856.19875pt>
+<General/schrauben.jpg, id=186, 1284.8pt x 856.19875pt>
 File: General/schrauben.jpg Graphic file (type jpg)
 <use General/schrauben.jpg>
 Package pdftex.def Info: General/schrauben.jpg  used on input line 40.
@@ -2149,15 +2149,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
 [11]) (./Chapters/de/Functions.tex
 
-[12{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-]
+[12]
 chapter 6.
 ) (./Chapters/de/Maintenance.tex
 
 [13
 
 
-]
+{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 [14
 
@@ -2233,36 +2232,32 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 83749 strings out of 473190
- 2193837 string characters out of 5716853
- 3473518 words of memory out of 5000000
- 105799 multiletter control sequences out of 15000+600000
- 601356 words of font info for 211 fonts, out of 8000000 for 9000
+ 83753 strings out of 473190
+ 2193852 string characters out of 5716853
+ 3474474 words of memory out of 5000000
+ 105798 multiletter control sequences out of 15000+600000
+ 601354 words of font info for 211 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  109i,14n,111p,10927b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{figure.3.4} has been referenced but does not exist,
- replaced by a fixed one
-
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:
-/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/LaT
-eX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/LaTeX/t
-exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/LaTeX/texli
-ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/LaTeX/texlive/2
-025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/LaTeX/texlive/2025/
-texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/LaTeX/texlive/2025/texm
-f-dist/fonts/type1/public/cm-super/sfrm2488.pfb><c:/LaTeX/texlive/2025/texmf-di
-st/fonts/type1/public/cm-super/sfsl1200.pfb><c:/LaTeX/texlive/2025/texmf-dist/f
-onts/type1/public/cm-super/sfss2074.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
-/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/typ
-e1/public/cm-super/sfsx1728.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/p
-ublic/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/publi
-c/cm-super/sftt1095.pfb>
-Output written on "Handbuch Magic Faucet Fountain.pdf" (25 pages, 833514 bytes)
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/L
+aTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/LaTeX
+/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/LaTeX/tex
+live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/LaTeX/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/LaTeX/texlive/202
+5/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/LaTeX/texlive/2025/te
+xmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb><c:/LaTeX/texlive/2025/texmf-
+dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/LaTeX/texlive/2025/texmf-dist
+/fonts/type1/public/cm-super/sfss2074.pfb><c:/LaTeX/texlive/2025/texmf-dist/fon
+ts/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/t
+ype1/public/cm-super/sfsx1728.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/pub
+lic/cm-super/sftt1095.pfb>
+Output written on "Handbuch Magic Faucet Fountain.pdf" (25 pages, 833475 bytes)
 .
 PDF statistics:
- 398 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 312 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
  39768 words of extra memory for PDF output out of 42996 (max. 10000000)
 
