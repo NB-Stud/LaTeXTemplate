@@ -19,6 +19,5 @@
 \contentsline {section}{\numberline {5.4}Elektronik und Steuerung:}{16}{section.5.4}%
 \contentsline {chapter}{\numberline {6}Funktionen}{17}{chapter.6}%
 \contentsline {chapter}{\numberline {7}Wartung}{19}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Sicherheitshinweise}{21}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Troubleshooting}{23}{chapter.9}%
+\contentsline {chapter}{\numberline {8}Troubleshooting}{21}{chapter.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
