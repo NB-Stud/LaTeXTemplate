@@ -15,52 +15,59 @@
 \begin{table}[h]
 	\centering
 	\caption{Troubleshooting des Magic Faucet Fountain}
-	\begin{tabular}{p{4.5cm}|p{5cm}|p{5cm}}
-		%\hline
+	\renewcommand{\arraystretch}{1.4}
+	\begin{tabular}{|m{4.5cm}|m{5.2cm}|m{5cm}|}
+		\hline
 		\textbf{Problem} & \textbf{Mögliche Ursache} & \textbf{Fehlerbehebung} \\
 		\hline
 		\textbf{Kein Wasserfluss} 
-		& - Pumpe nicht angeschlossen \newline - Pumpe defekt 
-		& - Netzteil und Kabel überprüfen \newline - Ggf. Pumpe austauschen \\
+		& \begin{enumerate}[nosep]
+			\item Pumpe nicht angeschlossen
+			\item Pumpe defekt
+		\end{enumerate}
+		& Netzteil und Kabel überprüfen \newline Ggf. Pumpe austauschen \\
 		\hline
 		\textbf{Wasser läuft ungleichmäßig / schlechter Wasserkreislauf} 
-		& - Verschmutzung oder Verstopfung im Rohr \newline 
-		- Falsche Ausrichtung des Rohrs \newline 
-		- Rohr undicht \newline 
-		- Pumpe pumpt ungleichmäßig 
-		& - Rohr demontieren, reinigen und erneut montieren \newline 
-		- Rohr richtig zentrieren \newline 
-		- Rohr auf undichte Stellen überprüfen \newline 
-		- Pumpe auf gleichmäßigen Lauf prüfen \\
+		& \begin{enumerate}[nosep]
+			\item Verschmutzung im Rohr
+			\item Falsche Ausrichtung
+			\item Rohr undicht
+			\item Pumpe läuft unregelmäßig
+		\end{enumerate}
+		& Rohr reinigen und neu montieren \newline Ausrichtung kontrollieren \newline Undichtigkeiten beheben \newline Pumpe prüfen \\
 		\hline
 		\textbf{Pumpe macht Geräusche} 
-		& - Verschmutzte Pumpe \newline 
-		- Pumpe läuft trocken oder hat Luft im System 
-		& - Pumpe reinigen, ggf. ersetzen \newline 
-		- Wasserstand im Tank erhöhen oder System entlüften \\
+		& \begin{enumerate}[nosep]
+			\item Verschmutzte Pumpe
+			\item Luft oder Trockenlauf
+		\end{enumerate}
+		& Pumpe reinigen oder tauschen \newline Wasserstand erhöhen oder entlüften \\
 		\hline
 		\textbf{Wasser läuft über} 
-		& - Zu viel Wasser im System \newline 
-		- Rücklauf blockiert 
-		& - Wasserstand im Tank reduzieren \newline 
-		- Rücklaufkanal frei machen \\
+		& \begin{enumerate}[nosep]
+			\item Zu viel Wasser
+			\item Rücklauf blockiert
+		\end{enumerate}
+		& Wasserstand reduzieren \newline Rücklauf freimachen \\
 		\hline
 		\textbf{Kein Strom} 
-		& - Kabelbruch \newline 
-		- Stromversorgung unterbrochen 
-		& - Leitungen und Verbindungen überprüfen \newline 
-		- Ggf. Leitungen und Netzteil austauschen \\
+		& \begin{enumerate}[nosep]
+			\item Kabelbruch
+			\item Stromversorgung unterbrochen
+		\end{enumerate}
+		& Leitungen prüfen \newline Ggf. Netzteil tauschen \\
 		\hline
 		\textbf{Keine Reaktion auf Eingaben} 
-		& - Bluetooth-Verbindung unterbrochen \newline 
-		- App eingefroren \newline 
-		- Arduino eingefroren 
-		& - Entfernung reduzieren \newline 
-		- App neustarten \newline 
-		- Arduino neustarten \\
+		& \begin{enumerate}[nosep]
+			\item Bluetooth-Verbindung unterbrochen
+			\item App eingefroren
+			\item Arduino eingefroren
+		\end{enumerate}
+		& Entfernung verringern \newline App neustarten \newline Arduino neustarten \\
 		\hline
 	\end{tabular}
 \end{table}
+
 
 
 

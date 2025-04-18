@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  18 APR 2025 08:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  18 APR 2025 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2052,17 +2052,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-<General/blumentopf.jpg, id=204, 642.4pt x 962.59625pt>
+<General/blumentopf.jpg, id=202, 642.4pt x 962.59625pt>
 File: General/blumentopf.jpg Graphic file (type jpg)
 <use General/blumentopf.jpg>
 Package pdftex.def Info: General/blumentopf.jpg  used on input line 27.
 (pdftex.def)             Requested size: 56.9055pt x 85.26393pt.
-<General/netzkabel.jpg, id=205, 1284.8pt x 722.7pt>
+<General/netzkabel.jpg, id=203, 1284.8pt x 722.7pt>
 File: General/netzkabel.jpg Graphic file (type jpg)
 <use General/netzkabel.jpg>
 Package pdftex.def Info: General/netzkabel.jpg  used on input line 31.
 (pdftex.def)             Requested size: 56.9055pt x 32.0018pt.
-<General/steine.jpg, id=206, 1284.8pt x 917.4275pt>
+<General/steine.jpg, id=204, 1284.8pt x 917.4275pt>
 File: General/steine.jpg Graphic file (type jpg)
 <use General/steine.jpg>
 Package pdftex.def Info: General/steine.jpg  used on input line 33.
@@ -2113,22 +2113,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--19
 ]
 chapter 8.
 
-Underfull \hbox (badness 5696) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+[]\T1/cmr/m/n/12 (+20) Pumpe nicht an^^?ge^^?
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 31--32
 \T1/cmr/bx/n/12 (+20) mä-ÿig / schlech-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\T1/cmr/m/n/12 (+20) Verschmutzung im
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 []|\T1/cmr/bx/n/12 (+20) Pumpe macht Ge-
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 54--55
+Underfull \hbox (badness 1648) in paragraph at lines 61--62
 []|\T1/cmr/bx/n/12 (+20) Keine Re-ak-ti-on auf
  []
 
 
-Overfull \hbox (16.88303pt too wide) in paragraph at lines 18--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]\T1/cmr/m/n/12 (+20) Bluetooth-Verbindung
+ []
+
+
+Overfull \hbox (23.37347pt too wide) in paragraph at lines 20--70
  [][] 
  []
 
@@ -2153,40 +2168,32 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 82579 strings out of 473190
- 2163438 string characters out of 5716853
+ 82593 strings out of 473190
+ 2163553 string characters out of 5716853
  3461318 words of memory out of 5000000
- 104623 multiletter control sequences out of 15000+600000
- 601417 words of font info for 212 fonts, out of 8000000 for 9000
+ 104624 multiletter control sequences out of 15000+600000
+ 601415 words of font info for 212 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  109i,14n,111p,10927b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.9.1} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:
-/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/LaT
-eX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/LaTeX/t
-exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/LaTeX/texli
-ve/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/LaTeX/texlive/2
-025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/LaTeX/texlive/2025/
-texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/LaTeX/texlive/2025/texm
-f-dist/fonts/type1/public/cm-super/sfrm2488.pfb><c:/LaTeX/texlive/2025/texmf-di
-st/fonts/type1/public/cm-super/sfsl1200.pfb><c:/LaTeX/texlive/2025/texmf-dist/f
-onts/type1/public/cm-super/sfss2074.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
-/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/typ
-e1/public/cm-super/sfsx1728.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/p
-ublic/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/publi
-c/cm-super/sftt1095.pfb>
-Output written on "Handbuch Magic Faucet Fountain.pdf" (27 pages, 452488 bytes)
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/L
+aTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/LaTeX
+/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/LaTeX/tex
+live/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/LaTeX/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/LaTeX/texlive/202
+5/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/LaTeX/texlive/2025/te
+xmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb><c:/LaTeX/texlive/2025/texmf-
+dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/LaTeX/texlive/2025/texmf-dist
+/fonts/type1/public/cm-super/sfss2074.pfb><c:/LaTeX/texlive/2025/texmf-dist/fon
+ts/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/t
+ype1/public/cm-super/sfsx1728.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/pub
+lic/cm-super/sftt1095.pfb>
+Output written on "Handbuch Magic Faucet Fountain.pdf" (27 pages, 452596 bytes)
 .
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 322 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
  39764 words of extra memory for PDF output out of 42996 (max. 10000000)
 
