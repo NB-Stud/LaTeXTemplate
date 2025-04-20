@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  20 APR 2025 13:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  20 APR 2025 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1987,15 +1987,10 @@ chapter 2.
 LaTeX Warning: Reference `fig:appAnsicht' on page 8 undefined on input line 90.
 
 
-) (./Chapters/de/Sketch.tex
 
-[8]
+
+[8]) (./Chapters/de/Sketch.tex
 chapter 3.
-
-Overfull \hbox (2162.30809pt too wide) in paragraph at lines 19--106
- [] 
- []
-
 
 
 [9
@@ -2108,10 +2103,10 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 82985 strings out of 473190
- 2167963 string characters out of 5719979
- 3465085 words of memory out of 5000000
- 105008 multiletter control sequences out of 15000+600000
+ 82588 strings out of 473190
+ 2156211 string characters out of 5719979
+ 3464085 words of memory out of 5000000
+ 104611 multiletter control sequences out of 15000+600000
  605533 words of font info for 233 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  109i,14n,111p,10927b,2483s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2128,7 +2123,7 @@ exmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/
 fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type
 1/public/cm-super/sfsx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/c
 m-super/sftt1095.pfb>
-Output written on "Handbuch Magic Faucet Fountain.pdf" (25 pages, 461877 bytes)
+Output written on "Handbuch Magic Faucet Fountain.pdf" (25 pages, 463578 bytes)
 .
 PDF statistics:
  418 PDF objects out of 1000 (max. 8388607)
