@@ -364,7 +364,7 @@ und der aktuellen Schallgeschwindigkeit berechnet, gemäß:\\
 \end{equation}
 
  \\
-Dabei ist s der Abstand, $v_{\text{Schall}$ die Schallgeschwindigkeit und t die gemessene Zeitdifferenz
+Dabei ist s der Abstand, $v_{\text{Schall}}$ die Schallgeschwindigkeit und t die gemessene Zeitdifferenz
 [TM24]
 Im manuellen Beispiel wird auf Bibliotheken verzichtet. Stattdessen erfolgt die Steuerung über
 direkte Pin-Zugriffe und Zeitanalyse mit der Pulse-In-Funktion aus der Arduino-
@@ -407,70 +407,6 @@ Wartungsfreiheit und Dichtigkeit entscheidend sind [HÜ23].
 Nachfolgend ein vereinfachter Arduino-Sketch für das Projekt Magic Faucet Fountain, der den
 Wasserstand auf einem seriellen Monitor ausgibt:
 
-/**
-* @file wasserstandsensor.ino
-* @brief Misst den Wasserstand mithilfe eines Ultraschallsensors (HC-SR04).
-* 
-* Dieses Programm verwendet die NewPing-Bibliothek zur Messung des Abstands
-* zwischen Sensor und Wasseroberfläche und berechnet daraus den Wasserstand.
-* 
-* Die Berechnung erfolgt mit folgender Formel:
-* \f[
-* s = \text{Tankhöhe} - \text{gemessene Entfernung}
-* \f]
-* 
-* Bei einem kritischen Wasserstand < 5 cm wird eine Warnung über die serielle
-* Schnittstelle ausgegeben.
-*/
-
-#include <NewPing.h>
-
-/// Pin für das Triggersignal des Ultraschallsensors
-#define TRIGGER_PIN 9
-
-/// Pin für das Echosignal des Ultraschallsensors
-#define ECHO_PIN 6
-
-/// Maximale Messdistanz des Sensors in Zentimetern
-#define MAX_DISTANCE 100
-
-/// Initialisierung des Ultraschallsensors
-NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
-
-/// Variable zur Speicherung des berechneten Wasserstands
-int wasserstand;
-
-/// Höhe des Tanks in Zentimetern
-const int tankhoehe = 40;
-
-/**
-* @brief Initialisierung der seriellen Schnittstelle.
-*/
-void setup() {
-	Serial.begin(9600);
-}
-
-/**
-* @brief Hauptloop zur regelmäßigen Abstandsmessung und Wasserstandskontrolle.
-*/
-void loop() {
-	delay(500);
-	
-	/// Gemessene Entfernung zur Wasseroberfläche in cm
-	int entfernung = sonar.ping_cm();
-	
-	// Berechnung des aktuellen Wasserstands
-	wasserstand = tankhoehe - entfernung;
-	
-	Serial.print("Aktueller Wasserstand: ");
-	Serial.print(wasserstand);
-	Serial.println(" cm");
-	
-	// Beispielhafte Warnung bei niedrigem Wasserstand
-	if (wasserstand < 5) {
-		Serial.println("WARNUNG: Wasserstand kritisch niedrig!");
-	}
-}
 
 
 \subsection{Example - Dateien}
@@ -587,12 +523,6 @@ Die genannten Eigenschaften werden auch in der Fachliteratur als Vorteile von
 Ultraschallsensoren gegenüber optischen Verfahren hervorgehoben [TM24
 
 \section{Further Readings}
-[HÜ23] Hüttinger, M.: Sensorik in der Praxis. Springer, 2023.\\
-[TM24] Theodor, M.: Physikalische Grundlagen der Sensorik. Hanser, 2024.\\
-[Wil22] Wilhelm, F.: Einführung in die Messtechnik. Vieweg+Teubner, 2022.\\
-[HM21] Hesse, M.; Müller, T.: Akustik kompakt – Grundlagen, Anwendungen und Simulation.
-Springer Vieweg, 2021.\\
-[ArduinoDoc24] Arduino AG: NewPing – Library Documentation, Arduino.cc, abgerufen 2024.\\
-https://docs.arduino.cc/libraries/newping/
+
 
 
