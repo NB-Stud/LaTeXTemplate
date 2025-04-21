@@ -445,125 +445,126 @@
 \contentsline {section}{\numberline {26.13}Peripheral Device aka Arduino Nano}{237}{section.26.13}%
 \contentsline {subsection}{\numberline {26.13.1}Taking the Project Further}{240}{subsection.26.13.1}%
 \contentsline {chapter}{\numberline {27}Ultraschallsensor HC-SR04}{241}{chapter.27}%
-\contentsline {section}{\numberline {27.1}Domänenwissen}{241}{section.27.1}%
-\contentsline {section}{\numberline {27.2}Grundlagen zur Verwendung eines Ultraschallsensors}{241}{section.27.2}%
-\contentsline {subsection}{\numberline {27.2.1}Grundlagen Schall}{241}{subsection.27.2.1}%
-\contentsline {subsection}{\numberline {27.2.2}Schallgeschwindigkeit und Wellenlänge}{241}{subsection.27.2.2}%
-\contentsline {subsection}{\numberline {27.2.3}Absorption und Reflexion}{242}{subsection.27.2.3}%
-\contentsline {subsection}{\numberline {27.2.4}Weg- und Abstandsmessung mit Ultraschall}{243}{subsection.27.2.4}%
-\contentsline {subsection}{\numberline {27.2.5}Anwendungen}{244}{subsection.27.2.5}%
-\contentsline {subsection}{\numberline {27.2.6}Herausforderungen}{244}{subsection.27.2.6}%
-\contentsline {subsection}{\numberline {27.2.7}Lösungsansätze}{245}{subsection.27.2.7}%
-\contentsline {section}{\numberline {27.3}Ultraschall Abstandsensor}{245}{section.27.3}%
-\contentsline {section}{\numberline {27.4}Specification}{245}{section.27.4}%
-\contentsline {section}{\numberline {27.5}Bibliothek}{246}{section.27.5}%
-\contentsline {subsection}{\numberline {27.5.1}Description}{246}{subsection.27.5.1}%
-\contentsline {subsection}{\numberline {27.5.2}Installation}{246}{subsection.27.5.2}%
-\contentsline {subsection}{\numberline {27.5.3}Functions}{246}{subsection.27.5.3}%
-\contentsline {subsection}{\numberline {27.5.4}Example - Manual}{246}{subsection.27.5.4}%
-\contentsline {subsection}{\numberline {27.5.5}Example}{246}{subsection.27.5.5}%
-\contentsline {subsection}{\numberline {27.5.6}Example - Code}{246}{subsection.27.5.6}%
-\contentsline {subsection}{\numberline {27.5.7}Example - Files}{246}{subsection.27.5.7}%
-\contentsline {section}{\numberline {27.6}Calibration}{246}{section.27.6}%
-\contentsline {section}{\numberline {27.7}Kalibrierung}{246}{section.27.7}%
-\contentsline {section}{\numberline {27.8}Simple Code}{246}{section.27.8}%
-\contentsline {section}{\numberline {27.9}Einfacher Bespiel zur Verwednung des Ultraschallabstandsensors}{246}{section.27.9}%
-\contentsline {subsection}{\numberline {27.9.1}Durchführung}{246}{subsection.27.9.1}%
-\contentsline {subsection}{\numberline {27.9.2}Ergebnisse}{248}{subsection.27.9.2}%
-\contentsline {section}{\numberline {27.10}Simple Application}{248}{section.27.10}%
-\contentsline {section}{\numberline {27.11}Tests}{248}{section.27.11}%
-\contentsline {subsection}{\numberline {27.11.1}Simple Function Test}{248}{subsection.27.11.1}%
-\contentsline {subsection}{\numberline {27.11.2}Test all Functions}{248}{subsection.27.11.2}%
-\contentsline {section}{\numberline {27.12}Simple Application}{248}{section.27.12}%
-\contentsline {section}{\numberline {27.13}Further Readings}{248}{section.27.13}%
-\contentsline {chapter}{\numberline {28}Entwicklerboard - Motorsteuerung DEBO MotoDriver2 L298N}{249}{chapter.28}%
-\contentsline {chapter}{\numberline {29}Terminal Adapter Board mit Schraubklemmen kompatibel mit Nano V3 und Arduino}{251}{chapter.29}%
-\contentsline {chapter}{\numberline {30}Drehwinkel-Encoder}{253}{chapter.30}%
-\contentsline {section}{\numberline {30.1}Encoder}{253}{section.30.1}%
-\contentsline {section}{\numberline {30.2}Drehwinkel-Encoder}{253}{section.30.2}%
-\contentsline {chapter}{\numberline {31}Getting Started}{255}{chapter.31}%
-\contentsline {section}{\numberline {31.1}Download and Install the NRF Connect App on Your Mobile}{255}{section.31.1}%
-\contentsline {subsection}{\numberline {31.1.1}For Android}{255}{subsection.31.1.1}%
-\contentsline {subsection}{\numberline {31.1.2}For iOS}{255}{subsection.31.1.2}%
-\contentsline {section}{\numberline {31.2}Power ON the Arduino Nano 33 BLE Sense Lite}{256}{section.31.2}%
-\contentsline {subsection}{\numberline {31.2.1}Connect to Arduino Nano 33 BLE Sense Lite through NRFconnect}{256}{subsection.31.2.1}%
-\contentsline {subsection}{\numberline {31.2.2}For Android}{256}{subsection.31.2.2}%
-\contentsline {subsection}{\numberline {31.2.3}For iOS}{256}{subsection.31.2.3}%
-\contentsline {part}{\numberline {III}Applikation <Title>}{259}{part.3}%
-\contentsline {chapter}{\numberline {32}\textcolor {red}{Application}}{261}{chapter.32}%
-\contentsline {chapter}{\numberline {33}\textcolor {red}{Conclusion XY}}{263}{chapter.33}%
-\contentsline {chapter}{\numberline {34}\textcolor {red}{To DoX Y}}{265}{chapter.34}%
-\contentsline {part}{\numberline {IV}Templates}{267}{part.4}%
-\contentsline {chapter}{\numberline {35}Sensor}{269}{chapter.35}%
-\contentsline {section}{\numberline {35.1}General}{269}{section.35.1}%
-\contentsline {section}{\numberline {35.2}Specific Sensor}{269}{section.35.2}%
-\contentsline {section}{\numberline {35.3}Specification}{269}{section.35.3}%
-\contentsline {section}{\numberline {35.4}Library}{269}{section.35.4}%
-\contentsline {subsection}{\numberline {35.4.1}Description}{269}{subsection.35.4.1}%
-\contentsline {subsection}{\numberline {35.4.2}Installation}{269}{subsection.35.4.2}%
-\contentsline {subsection}{\numberline {35.4.3}Functions}{269}{subsection.35.4.3}%
-\contentsline {subsection}{\numberline {35.4.4}Example's Manual}{269}{subsection.35.4.4}%
-\contentsline {subsection}{\numberline {35.4.5}Inside the Example}{269}{subsection.35.4.5}%
-\contentsline {subsection}{\numberline {35.4.6}Example's Code}{269}{subsection.35.4.6}%
-\contentsline {subsection}{\numberline {35.4.7}Example's Files}{269}{subsection.35.4.7}%
-\contentsline {section}{\numberline {35.5}Calibration}{269}{section.35.5}%
-\contentsline {section}{\numberline {35.6}Simple Code}{270}{section.35.6}%
-\contentsline {section}{\numberline {35.7}Simple Application}{270}{section.35.7}%
-\contentsline {section}{\numberline {35.8}Tests}{270}{section.35.8}%
-\contentsline {subsection}{\numberline {35.8.1}Simple Function Test}{270}{subsection.35.8.1}%
-\contentsline {subsection}{\numberline {35.8.2}Test all Functions}{270}{subsection.35.8.2}%
-\contentsline {section}{\numberline {35.9}Simple Application}{270}{section.35.9}%
-\contentsline {section}{\numberline {35.10}Further Readings}{270}{section.35.10}%
-\contentsline {chapter}{\numberline {36}Package \textcolor {PythonColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-Example}}}{271}{chapter.36}%
-\contentsline {section}{\numberline {36.1}Introduction}{271}{section.36.1}%
-\contentsline {section}{\numberline {36.2}Description}{271}{section.36.2}%
-\contentsline {section}{\numberline {36.3}Installation}{271}{section.36.3}%
-\contentsline {section}{\numberline {36.4}Example - Manual}{271}{section.36.4}%
-\contentsline {section}{\numberline {36.5}Example}{271}{section.36.5}%
-\contentsline {section}{\numberline {36.6}Example - Code}{271}{section.36.6}%
-\contentsline {section}{\numberline {36.7}Example - Files}{271}{section.36.7}%
-\contentsline {section}{\numberline {36.8}Further Reading}{271}{section.36.8}%
-\contentsline {part}{\numberline {V}Anhang}{273}{part.5}%
-\contentsline {chapter}{\numberline {37}Materialliste}{275}{chapter.37}%
-\contentsline {part}{\numberline {VI}Hints - Examples for LaTeX - Read and Use}{277}{part.6}%
-\contentsline {chapter}{\numberline {38}Hints}{279}{chapter.38}%
-\contentsline {section}{\numberline {38.1}Allgemeine mathematische Beschreibung Bézier-Kurve}{280}{section.38.1}%
-\contentsline {chapter}{\numberline {39}Verrundung mit einem Kreisbogen}{283}{chapter.39}%
-\contentsline {section}{\numberline {39.1}Gleichungen}{283}{section.39.1}%
-\contentsline {section}{\numberline {39.2}Bewertung}{285}{section.39.2}%
-\contentsline {section}{\numberline {39.3}Examples}{286}{section.39.3}%
-\contentsline {chapter}{\numberline {40}Maple files}{289}{chapter.40}%
-\contentsline {section}{\numberline {40.1}Geometries with Maple}{289}{section.40.1}%
-\contentsline {section}{\numberline {40.2}Geometry elements used}{289}{section.40.2}%
-\contentsline {section}{\numberline {40.3}Building the data structure}{290}{section.40.3}%
-\contentsline {section}{\numberline {40.4}Structure of a module}{290}{section.40.4}%
-\contentsline {subsection}{\numberline {40.4.1}General structure of a module}{292}{subsection.40.4.1}%
-\contentsline {subsection}{\numberline {40.4.2}Saving a module}{293}{subsection.40.4.2}%
-\contentsline {subsection}{\numberline {40.4.3}Verwendung eines Moduls}{293}{subsection.40.4.3}%
-\contentsline {subsection}{\numberline {40.4.4}Creating a Maple module}{293}{subsection.40.4.4}%
-\contentsline {section}{\numberline {40.5}Functions of the modules}{294}{section.40.5}%
-\contentsline {subsection}{\numberline {40.5.1}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MPoint}}}{294}{subsection.40.5.1}%
-\contentsline {subsection}{\numberline {40.5.2}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MLine}}}{295}{subsection.40.5.2}%
-\contentsline {subsection}{\numberline {40.5.3}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MArc}}}{295}{subsection.40.5.3}%
-\contentsline {subsection}{\numberline {40.5.4}module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MBezier}}}{296}{subsection.40.5.4}%
-\contentsline {subsection}{\numberline {40.5.5}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MPolygon}}}{296}{subsection.40.5.5}%
-\contentsline {subsection}{\numberline {40.5.6}module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MGeoList}}}{296}{subsection.40.5.6}%
-\contentsline {subsection}{\numberline {40.5.7}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MHermiteProblem}}}{297}{subsection.40.5.7}%
-\contentsline {subsection}{\numberline {40.5.8}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MHermiteProblemSym}}}{297}{subsection.40.5.8}%
-\contentsline {subsection}{\numberline {40.5.9}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MConstant}}}{298}{subsection.40.5.9}%
-\contentsline {subsection}{\numberline {40.5.10}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MGeneralMath}}}{298}{subsection.40.5.10}%
-\contentsline {subsection}{\numberline {40.5.11}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-Biarc}}}{299}{subsection.40.5.11}%
-\contentsline {subsubsection}{\nonumberline Data Structure}{299}{subsubsection*.125}%
-\contentsline {subsection}{\numberline {40.5.12}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MBiarc}}}{299}{subsection.40.5.12}%
-\contentsline {section}{\numberline {40.6}Programme Flowchart}{300}{section.40.6}%
-\contentsline {subsection}{\numberline {40.6.1}Overall Flow}{300}{subsection.40.6.1}%
-\contentsline {subsection}{\numberline {40.6.2}Verrundung der Kurve}{300}{subsection.40.6.2}%
-\contentsline {chapter}{\numberline {41}Representation of Python Programs}{303}{chapter.41}%
-\contentsline {chapter}{\numberline {42}Representation of Programs written for Arduino Boards}{305}{chapter.42}%
-\contentsline {chapter}{\numberline {43}First Chapter}{307}{chapter.43}%
-\contentsline {chapter}{\numberline {44}CAGD}{309}{chapter.44}%
-\contentsline {chapter}{\numberline {A}drawings with tikz}{311}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Criteria for a good \LaTeX {} project}{315}{appendix.B}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{317}{chapter*.130}%
-\contentsline {chapter}{Stichwortverzeichnis}{324}{chapter*.130}%
-\contentsline {chapter}{Index}{325}{chapter*.130}%
+\contentsline {section}{\numberline {27.1}Einleitung}{241}{section.27.1}%
+\contentsline {section}{\numberline {27.2}Domänenwissen}{241}{section.27.2}%
+\contentsline {section}{\numberline {27.3}Grundlagen zur Verwendung eines Ultraschallsensors}{242}{section.27.3}%
+\contentsline {subsection}{\numberline {27.3.1}Grundlagen Schall}{242}{subsection.27.3.1}%
+\contentsline {subsection}{\numberline {27.3.2}Schallgeschwindigkeit und Wellenlänge}{242}{subsection.27.3.2}%
+\contentsline {subsection}{\numberline {27.3.3}Absorption und Reflexion}{243}{subsection.27.3.3}%
+\contentsline {subsection}{\numberline {27.3.4}Weg- und Abstandsmessung mit Ultraschall}{244}{subsection.27.3.4}%
+\contentsline {subsection}{\numberline {27.3.5}Anwendungen}{245}{subsection.27.3.5}%
+\contentsline {subsection}{\numberline {27.3.6}Herausforderungen}{245}{subsection.27.3.6}%
+\contentsline {subsection}{\numberline {27.3.7}Lösungsansätze}{246}{subsection.27.3.7}%
+\contentsline {section}{\numberline {27.4}Ultraschall Abstandsensor}{246}{section.27.4}%
+\contentsline {section}{\numberline {27.5}Specification}{246}{section.27.5}%
+\contentsline {section}{\numberline {27.6}Bibliothek}{247}{section.27.6}%
+\contentsline {subsection}{\numberline {27.6.1}Description}{247}{subsection.27.6.1}%
+\contentsline {subsection}{\numberline {27.6.2}Installation}{247}{subsection.27.6.2}%
+\contentsline {subsection}{\numberline {27.6.3}Functions}{247}{subsection.27.6.3}%
+\contentsline {subsection}{\numberline {27.6.4}Example - Manual}{247}{subsection.27.6.4}%
+\contentsline {subsection}{\numberline {27.6.5}Example}{247}{subsection.27.6.5}%
+\contentsline {subsection}{\numberline {27.6.6}Example - Code}{247}{subsection.27.6.6}%
+\contentsline {subsection}{\numberline {27.6.7}Example - Files}{247}{subsection.27.6.7}%
+\contentsline {section}{\numberline {27.7}Calibration}{247}{section.27.7}%
+\contentsline {section}{\numberline {27.8}Kalibrierung}{247}{section.27.8}%
+\contentsline {section}{\numberline {27.9}Simple Code}{247}{section.27.9}%
+\contentsline {section}{\numberline {27.10}Einfacher Bespiel zur Verwednung des Ultraschallabstandsensors}{247}{section.27.10}%
+\contentsline {subsection}{\numberline {27.10.1}Durchführung}{247}{subsection.27.10.1}%
+\contentsline {subsection}{\numberline {27.10.2}Ergebnisse}{249}{subsection.27.10.2}%
+\contentsline {section}{\numberline {27.11}Simple Application}{249}{section.27.11}%
+\contentsline {section}{\numberline {27.12}Tests}{249}{section.27.12}%
+\contentsline {subsection}{\numberline {27.12.1}Simple Function Test}{249}{subsection.27.12.1}%
+\contentsline {subsection}{\numberline {27.12.2}Test all Functions}{249}{subsection.27.12.2}%
+\contentsline {section}{\numberline {27.13}Simple Application}{249}{section.27.13}%
+\contentsline {section}{\numberline {27.14}Further Readings}{249}{section.27.14}%
+\contentsline {chapter}{\numberline {28}Entwicklerboard - Motorsteuerung DEBO MotoDriver2 L298N}{251}{chapter.28}%
+\contentsline {chapter}{\numberline {29}Terminal Adapter Board mit Schraubklemmen kompatibel mit Nano V3 und Arduino}{253}{chapter.29}%
+\contentsline {chapter}{\numberline {30}Drehwinkel-Encoder}{255}{chapter.30}%
+\contentsline {section}{\numberline {30.1}Encoder}{255}{section.30.1}%
+\contentsline {section}{\numberline {30.2}Drehwinkel-Encoder}{255}{section.30.2}%
+\contentsline {chapter}{\numberline {31}Getting Started}{257}{chapter.31}%
+\contentsline {section}{\numberline {31.1}Download and Install the NRF Connect App on Your Mobile}{257}{section.31.1}%
+\contentsline {subsection}{\numberline {31.1.1}For Android}{257}{subsection.31.1.1}%
+\contentsline {subsection}{\numberline {31.1.2}For iOS}{257}{subsection.31.1.2}%
+\contentsline {section}{\numberline {31.2}Power ON the Arduino Nano 33 BLE Sense Lite}{258}{section.31.2}%
+\contentsline {subsection}{\numberline {31.2.1}Connect to Arduino Nano 33 BLE Sense Lite through NRFconnect}{258}{subsection.31.2.1}%
+\contentsline {subsection}{\numberline {31.2.2}For Android}{258}{subsection.31.2.2}%
+\contentsline {subsection}{\numberline {31.2.3}For iOS}{258}{subsection.31.2.3}%
+\contentsline {part}{\numberline {III}Applikation <Title>}{261}{part.3}%
+\contentsline {chapter}{\numberline {32}\textcolor {red}{Application}}{263}{chapter.32}%
+\contentsline {chapter}{\numberline {33}\textcolor {red}{Conclusion XY}}{265}{chapter.33}%
+\contentsline {chapter}{\numberline {34}\textcolor {red}{To DoX Y}}{267}{chapter.34}%
+\contentsline {part}{\numberline {IV}Templates}{269}{part.4}%
+\contentsline {chapter}{\numberline {35}Sensor}{271}{chapter.35}%
+\contentsline {section}{\numberline {35.1}General}{271}{section.35.1}%
+\contentsline {section}{\numberline {35.2}Specific Sensor}{271}{section.35.2}%
+\contentsline {section}{\numberline {35.3}Specification}{271}{section.35.3}%
+\contentsline {section}{\numberline {35.4}Library}{271}{section.35.4}%
+\contentsline {subsection}{\numberline {35.4.1}Description}{271}{subsection.35.4.1}%
+\contentsline {subsection}{\numberline {35.4.2}Installation}{271}{subsection.35.4.2}%
+\contentsline {subsection}{\numberline {35.4.3}Functions}{271}{subsection.35.4.3}%
+\contentsline {subsection}{\numberline {35.4.4}Example's Manual}{271}{subsection.35.4.4}%
+\contentsline {subsection}{\numberline {35.4.5}Inside the Example}{271}{subsection.35.4.5}%
+\contentsline {subsection}{\numberline {35.4.6}Example's Code}{271}{subsection.35.4.6}%
+\contentsline {subsection}{\numberline {35.4.7}Example's Files}{271}{subsection.35.4.7}%
+\contentsline {section}{\numberline {35.5}Calibration}{271}{section.35.5}%
+\contentsline {section}{\numberline {35.6}Simple Code}{272}{section.35.6}%
+\contentsline {section}{\numberline {35.7}Simple Application}{272}{section.35.7}%
+\contentsline {section}{\numberline {35.8}Tests}{272}{section.35.8}%
+\contentsline {subsection}{\numberline {35.8.1}Simple Function Test}{272}{subsection.35.8.1}%
+\contentsline {subsection}{\numberline {35.8.2}Test all Functions}{272}{subsection.35.8.2}%
+\contentsline {section}{\numberline {35.9}Simple Application}{272}{section.35.9}%
+\contentsline {section}{\numberline {35.10}Further Readings}{272}{section.35.10}%
+\contentsline {chapter}{\numberline {36}Package \textcolor {PythonColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-Example}}}{273}{chapter.36}%
+\contentsline {section}{\numberline {36.1}Introduction}{273}{section.36.1}%
+\contentsline {section}{\numberline {36.2}Description}{273}{section.36.2}%
+\contentsline {section}{\numberline {36.3}Installation}{273}{section.36.3}%
+\contentsline {section}{\numberline {36.4}Example - Manual}{273}{section.36.4}%
+\contentsline {section}{\numberline {36.5}Example}{273}{section.36.5}%
+\contentsline {section}{\numberline {36.6}Example - Code}{273}{section.36.6}%
+\contentsline {section}{\numberline {36.7}Example - Files}{273}{section.36.7}%
+\contentsline {section}{\numberline {36.8}Further Reading}{273}{section.36.8}%
+\contentsline {part}{\numberline {V}Anhang}{275}{part.5}%
+\contentsline {chapter}{\numberline {37}Materialliste}{277}{chapter.37}%
+\contentsline {part}{\numberline {VI}Hints - Examples for LaTeX - Read and Use}{279}{part.6}%
+\contentsline {chapter}{\numberline {38}Hints}{281}{chapter.38}%
+\contentsline {section}{\numberline {38.1}Allgemeine mathematische Beschreibung Bézier-Kurve}{282}{section.38.1}%
+\contentsline {chapter}{\numberline {39}Verrundung mit einem Kreisbogen}{285}{chapter.39}%
+\contentsline {section}{\numberline {39.1}Gleichungen}{285}{section.39.1}%
+\contentsline {section}{\numberline {39.2}Bewertung}{287}{section.39.2}%
+\contentsline {section}{\numberline {39.3}Examples}{288}{section.39.3}%
+\contentsline {chapter}{\numberline {40}Maple files}{291}{chapter.40}%
+\contentsline {section}{\numberline {40.1}Geometries with Maple}{291}{section.40.1}%
+\contentsline {section}{\numberline {40.2}Geometry elements used}{291}{section.40.2}%
+\contentsline {section}{\numberline {40.3}Building the data structure}{292}{section.40.3}%
+\contentsline {section}{\numberline {40.4}Structure of a module}{292}{section.40.4}%
+\contentsline {subsection}{\numberline {40.4.1}General structure of a module}{294}{subsection.40.4.1}%
+\contentsline {subsection}{\numberline {40.4.2}Saving a module}{295}{subsection.40.4.2}%
+\contentsline {subsection}{\numberline {40.4.3}Verwendung eines Moduls}{295}{subsection.40.4.3}%
+\contentsline {subsection}{\numberline {40.4.4}Creating a Maple module}{295}{subsection.40.4.4}%
+\contentsline {section}{\numberline {40.5}Functions of the modules}{296}{section.40.5}%
+\contentsline {subsection}{\numberline {40.5.1}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MPoint}}}{296}{subsection.40.5.1}%
+\contentsline {subsection}{\numberline {40.5.2}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MLine}}}{297}{subsection.40.5.2}%
+\contentsline {subsection}{\numberline {40.5.3}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MArc}}}{297}{subsection.40.5.3}%
+\contentsline {subsection}{\numberline {40.5.4}module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MBezier}}}{298}{subsection.40.5.4}%
+\contentsline {subsection}{\numberline {40.5.5}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MPolygon}}}{298}{subsection.40.5.5}%
+\contentsline {subsection}{\numberline {40.5.6}module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MGeoList}}}{298}{subsection.40.5.6}%
+\contentsline {subsection}{\numberline {40.5.7}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MHermiteProblem}}}{299}{subsection.40.5.7}%
+\contentsline {subsection}{\numberline {40.5.8}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MHermiteProblemSym}}}{299}{subsection.40.5.8}%
+\contentsline {subsection}{\numberline {40.5.9}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MConstant}}}{300}{subsection.40.5.9}%
+\contentsline {subsection}{\numberline {40.5.10}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MGeneralMath}}}{300}{subsection.40.5.10}%
+\contentsline {subsection}{\numberline {40.5.11}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-Biarc}}}{301}{subsection.40.5.11}%
+\contentsline {subsubsection}{\nonumberline Data Structure}{301}{subsubsection*.125}%
+\contentsline {subsection}{\numberline {40.5.12}Module \textcolor {MapleColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-MBiarc}}}{301}{subsection.40.5.12}%
+\contentsline {section}{\numberline {40.6}Programme Flowchart}{302}{section.40.6}%
+\contentsline {subsection}{\numberline {40.6.1}Overall Flow}{302}{subsection.40.6.1}%
+\contentsline {subsection}{\numberline {40.6.2}Verrundung der Kurve}{302}{subsection.40.6.2}%
+\contentsline {chapter}{\numberline {41}Representation of Python Programs}{305}{chapter.41}%
+\contentsline {chapter}{\numberline {42}Representation of Programs written for Arduino Boards}{307}{chapter.42}%
+\contentsline {chapter}{\numberline {43}First Chapter}{309}{chapter.43}%
+\contentsline {chapter}{\numberline {44}CAGD}{311}{chapter.44}%
+\contentsline {chapter}{\numberline {A}drawings with tikz}{313}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Criteria for a good \LaTeX {} project}{317}{appendix.B}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{319}{chapter*.130}%
+\contentsline {chapter}{Stichwortverzeichnis}{326}{chapter*.130}%
+\contentsline {chapter}{Index}{327}{chapter*.130}%

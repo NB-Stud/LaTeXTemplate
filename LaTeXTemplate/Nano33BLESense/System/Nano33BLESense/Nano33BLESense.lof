@@ -110,39 +110,39 @@
 \contentsline {figure}{\numberline {26.9}{\ignorespaces Accelerometer Values Read from Arduino Using BLE}}{234}{figure.caption.106}%
 \contentsline {figure}{\numberline {26.10}{\ignorespaces Bluetooth Connection}}{235}{figure.26.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {27.1}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{242}{figure.caption.107}%
-\contentsline {figure}{\numberline {27.2}{\ignorespaces Abnahme der Schallintensität in Abhängigkeit der Frequenz bei einem Meter, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{243}{figure.caption.108}%
-\contentsline {figure}{\numberline {27.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{244}{figure.caption.109}%
-\contentsline {figure}{\numberline {27.4}{\ignorespaces Ultraschallabstandssensor der Marke JOY-IT\blx@tocontentsinit {0}\cite {Simac:2017}}}{245}{figure.27.4}%
-\contentsline {figure}{\numberline {27.5}{\ignorespaces Testoutput des Ultraschallsensors}}{248}{figure.27.5}%
+\contentsline {figure}{\numberline {27.1}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{243}{figure.caption.107}%
+\contentsline {figure}{\numberline {27.2}{\ignorespaces Abnahme der Schallintensität in Abhängigkeit der Frequenz bei einem Meter, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{244}{figure.caption.108}%
+\contentsline {figure}{\numberline {27.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{245}{figure.caption.109}%
+\contentsline {figure}{\numberline {27.4}{\ignorespaces Ultraschallabstandssensor der Marke JOY-IT\blx@tocontentsinit {0}\cite {Simac:2017}}}{246}{figure.27.4}%
+\contentsline {figure}{\numberline {27.5}{\ignorespaces Testoutput des Ultraschallsensors}}{249}{figure.27.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {28.1}{\ignorespaces Motorsteuerung DEBO MotoDriver2 L298N}}{250}{figure.caption.111}%
-\contentsline {figure}{\numberline {28.2}{\ignorespaces Treiber mit Beschriftung}}{250}{figure.caption.112}%
+\contentsline {figure}{\numberline {28.1}{\ignorespaces Motorsteuerung DEBO MotoDriver2 L298N}}{252}{figure.caption.111}%
+\contentsline {figure}{\numberline {28.2}{\ignorespaces Treiber mit Beschriftung}}{252}{figure.caption.112}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {29.1}{\ignorespaces Terminal Adapter Board mit Schraubklemmen kompatibel mit Nano V3 und Arduino}}{252}{figure.caption.114}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {31.1}{\ignorespaces NRF Connect Application}}{255}{figure.31.1}%
-\contentsline {figure}{\numberline {31.2}{\ignorespaces Landing page}}{256}{figure.31.2}%
-\contentsline {figure}{\numberline {31.3}{\ignorespaces List of devices}}{257}{figure.31.3}%
+\contentsline {figure}{\numberline {29.1}{\ignorespaces Terminal Adapter Board mit Schraubklemmen kompatibel mit Nano V3 und Arduino}}{254}{figure.caption.114}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {31.1}{\ignorespaces NRF Connect Application}}{257}{figure.31.1}%
+\contentsline {figure}{\numberline {31.2}{\ignorespaces Landing page}}{258}{figure.31.2}%
+\contentsline {figure}{\numberline {31.3}{\ignorespaces List of devices}}{259}{figure.31.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {38.1}{\ignorespaces Bernstein polynomial of degree $3$}}{281}{figure.caption.117}%
-\contentsline {figure}{\numberline {38.2}{\ignorespaces Bézier curve for example \ref {KPunkte4Beispiel} }}{282}{figure.caption.118}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {39.1}{\ignorespaces Smoothing a corner with the help of an arc - triangle}}{283}{figure.caption.119}%
-\contentsline {figure}{\numberline {39.2}{\ignorespaces Angular change with blending arc}}{285}{figure.caption.120}%
-\contentsline {figure}{\numberline {39.3}{\ignorespaces Curvature progression for a blending arc}}{285}{figure.caption.121}%
-\contentsline {figure}{\numberline {39.4}{\ignorespaces Maximum range for a blending arc of a circle - $L(\varepsilon =const, \alpha )$}}{286}{figure.caption.122}%
-\contentsline {figure}{\numberline {39.5}{\ignorespaces Deviation when specifying the distance $L$ when rounding with a circular arc}}{286}{figure.caption.123}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {40.1}{\ignorespaces Programme flow chart \glqq Corner rounding\grqq }}{301}{figure.caption.126}%
-\contentsline {figure}{\numberline {40.2}{\ignorespaces Programme flowchart \glqq Selection of the rounding strategies\grqq }}{302}{figure.caption.127}%
+\contentsline {figure}{\numberline {38.1}{\ignorespaces Bernstein polynomial of degree $3$}}{283}{figure.caption.117}%
+\contentsline {figure}{\numberline {38.2}{\ignorespaces Bézier curve for example \ref {KPunkte4Beispiel} }}{284}{figure.caption.118}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {39.1}{\ignorespaces Smoothing a corner with the help of an arc - triangle}}{285}{figure.caption.119}%
+\contentsline {figure}{\numberline {39.2}{\ignorespaces Angular change with blending arc}}{287}{figure.caption.120}%
+\contentsline {figure}{\numberline {39.3}{\ignorespaces Curvature progression for a blending arc}}{287}{figure.caption.121}%
+\contentsline {figure}{\numberline {39.4}{\ignorespaces Maximum range for a blending arc of a circle - $L(\varepsilon =const, \alpha )$}}{288}{figure.caption.122}%
+\contentsline {figure}{\numberline {39.5}{\ignorespaces Deviation when specifying the distance $L$ when rounding with a circular arc}}{288}{figure.caption.123}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {40.1}{\ignorespaces Programme flow chart \glqq Corner rounding\grqq }}{303}{figure.caption.126}%
+\contentsline {figure}{\numberline {40.2}{\ignorespaces Programme flowchart \glqq Selection of the rounding strategies\grqq }}{304}{figure.caption.127}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

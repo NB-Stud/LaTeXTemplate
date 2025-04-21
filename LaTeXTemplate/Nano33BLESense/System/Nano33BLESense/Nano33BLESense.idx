@@ -161,41 +161,41 @@
 \indexentry{ File!ArduinoBLE.h}{228}
 \indexentry{ File!ArduinoBLE}{230}
 \indexentry{ File!LSM9DS1}{230}
-\indexentry{VCC}{245}
-\indexentry{Serial Clock! \emph  {see} SCL}{245}
-\indexentry{SCL}{245}
-\indexentry{Serial Data! \emph  {see} SDA}{245}
-\indexentry{SDA}{245}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{245}
-\indexentry{GPIO}{245}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{245}
-\indexentry{UART}{245}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{245}
-\indexentry{I\textsuperscript  {2}C}{245}
+\indexentry{VCC}{246}
+\indexentry{Serial Clock! \emph  {see} SCL}{246}
 \indexentry{SCL}{246}
+\indexentry{Serial Data! \emph  {see} SDA}{246}
 \indexentry{SDA}{246}
-\indexentry{VCC}{246}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{246}
 \indexentry{GPIO}{246}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{246}
 \indexentry{UART}{246}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{246}
 \indexentry{I\textsuperscript  {2}C}{246}
-\indexentry{VCC}{246}
-\indexentry{ File!TestHCSR04 UltraschallsensorTest.ino}{246}
-\indexentry{ File!TestHCSR04.ino}{248}
-\indexentry{IDE}{248}
-\indexentry{Example}{271}
-\indexentry{Example!Introduction}{271}
-\indexentry{Example!Description}{271}
-\indexentry{Example!Installation}{271}
-\indexentry{ File!PackageExample.py}{271}
-\indexentry{ File!Blink.py}{304}
-\indexentry{ File!Blink.ino}{306}
-\indexentry{Speicherprogrammierbare Steuerung! \emph  {see} SPS}{307}
-\indexentry{SPS}{307}
-\indexentry{Computerized Numerical Control! \emph  {see} {CNN}}{307}
-\indexentry{CNN}{307}
-\indexentry{SPS}{307}
-\indexentry{     Programmable Logic Controller}{307}
-\indexentry{PLC|see{         Programmable Logic Controller}}{307}
-\indexentry{CAGD}{309}
-\indexentry{CAGD!Splines}{309}
-\indexentry{3D printer}{309}
+\indexentry{SCL}{247}
+\indexentry{SDA}{247}
+\indexentry{VCC}{247}
+\indexentry{GPIO}{247}
+\indexentry{UART}{247}
+\indexentry{I\textsuperscript  {2}C}{247}
+\indexentry{VCC}{247}
+\indexentry{ File!TestHCSR04 UltraschallsensorTest.ino}{247}
+\indexentry{ File!TestHCSR04.ino}{249}
+\indexentry{IDE}{249}
+\indexentry{Example}{273}
+\indexentry{Example!Introduction}{273}
+\indexentry{Example!Description}{273}
+\indexentry{Example!Installation}{273}
+\indexentry{ File!PackageExample.py}{273}
+\indexentry{ File!Blink.py}{306}
+\indexentry{ File!Blink.ino}{308}
+\indexentry{Speicherprogrammierbare Steuerung! \emph  {see} SPS}{309}
+\indexentry{SPS}{309}
+\indexentry{Computerized Numerical Control! \emph  {see} {CNN}}{309}
+\indexentry{CNN}{309}
+\indexentry{SPS}{309}
+\indexentry{     Programmable Logic Controller}{309}
+\indexentry{PLC|see{         Programmable Logic Controller}}{309}
+\indexentry{CAGD}{311}
+\indexentry{CAGD!Splines}{311}
+\indexentry{3D printer}{311}
