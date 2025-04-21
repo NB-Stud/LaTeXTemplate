@@ -319,13 +319,13 @@ Bei den folgenden Beispielprogrammen wird der Arduino Nano 33 BLE Sense verwende
 Zur Ansteuerung des Ultraschallsensors HC-SR04 wird eine Arduino-kompatible Bibliothek
 „New Ping“ verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
 Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Triggern, zur
-Laufzeitmessung und zur Berechnung der Distanz [ArduinoDoc24].
+Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2025}.
 
 \subsection{Installation}
 Die Installation der Bibliothek „NewPing“, welche die Funktionalität des Ultraschallsensors HC-
 SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
 bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
-[ArduinoDoc24]
+\cite{Arduino:2025}
 
 \textbf{Schrittweise Anleitung:}
 \begin{enumerate}
@@ -338,8 +338,8 @@ bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheke
 
 \subsection{Funktionen}
 Die Bibliothek NewPing bietet eine Vielzahl an Funktionen, die den praktischen Einsatz des
-Ultraschallsensors vereinfachen und erweitern. Die wichtigsten Funktionen umfassen
-[ArduinoDoc24]:
+Ultraschallsensors vereinfachen und erweitern. Die wichtigsten Funktionen umfassen:
+\cite{Arduino:2025}
 \begin{itemize}
 	\item Initialisierung eines Sensors durch Angabe der verwendeten Pins für Trigger- und Echo-
 	Signal sowie der maximalen Messdistanz.
@@ -365,23 +365,22 @@ und der aktuellen Schallgeschwindigkeit berechnet, gemäß:\\
 
 
 Dabei ist s der Abstand, $v_{\text{Schall}}$ die Schallgeschwindigkeit und t die gemessene Zeitdifferenz
-[TM24]
+\cite{Hering:2023}
 Im manuellen Beispiel wird auf Bibliotheken verzichtet. Stattdessen erfolgt die Steuerung über
 direkte Pin-Zugriffe und Zeitanalyse mit der Pulse-In-Funktion aus der Arduino-
 Standardbibliothek. Dieses Vorgehen bietet volle Kontrolle über den Ablauf, ist jedoch anfälliger
-für Timingfehler und benötigt eine Kalibrierung der Umgebungsparameter, wie z. B. Temperatur
-[Wil22].
+für Timingfehler und benötigt eine Kalibrierung der Umgebungsparameter, wie z. B. Temperatur. \cite{Hering:2023}
 Der Ablauf ist wie folgt:
 \begin{enumerate}
 	\item Trigger-Pin für 10 mikrosekunden auf HIGH setzen (Anstoß des Schallimpulses).
 	\item Echo-Pin überwachen: Pulse-In-Funktion misst, wie lange der Pin auf HIGH bleibt.
 	\item Zeitwert wird in die Distanz umgerechnet unter Annahme einer konstanten
-	Schallgeschwindigkeit von z. B. 343,2 m/s (bei 20 °C) [TM24].
+	Schallgeschwindigkeit von z. B. 343,2 m/s (bei 20 °C) \cite{Hering:2023}
 \end{enumerate}
 Dieses Verfahren eignet sich besonders für den Einstieg und zur Überprüfung der Grundfunktion,
 bevor komplexere Bibliotheken verwendet werden. Ein Vorteil besteht darin, dass systematische
 Verzögerungen (Ausschwingzeit, Sensoreigenheiten) direkt analysiert und berücksichtigt werden
-können [HÜ23].
+können \cite{Hering:2023}
 
 \subsection{Beispiel}
 Im Projekt Magic Faucet Fountain wird der Ultraschallsensor HC-SR04 zur kontinuierlichen
@@ -401,7 +400,7 @@ Schwimmerschalter oder leitfähige Pegelmessungen durch eine berührungslose Lö
 		\end{itemize}
 \end{itemize}
 Diese Methode ist ideal für dekorative Installationen wie Springbrunnen, bei denen Hygiene,
-Wartungsfreiheit und Dichtigkeit entscheidend sind [HÜ23].
+Wartungsfreiheit und Dichtigkeit entscheidend sind.\cite{Traenkler:2014}
 
 \subsection{Beispiel - Code}
 Nachfolgend ein vereinfachter Arduino-Sketch für das Projekt Magic Faucet Fountain, der den
@@ -414,15 +413,15 @@ Wasserstand auf einem seriellen Monitor ausgibt:
 
 \subsection{Example - Dateien}
 Die Projektdateien befinden sich im Ordner:
-/Code/Arduino/MagicFaucetFountain/WaterLevelSensor/
+../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung
 Sie bestehen aus:
 \begin{itemize}
-	\item dem Hauptsketch zur Wasserstandsmessung (z. B. WaterLevelSensor.ino)
+	\item dem Hauptsketch zur Wasserstandsmessung: \\ \texttt{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
 	\item einer optionalen Display-Ausgabe (z. B. mit OLED/SSD1306)
 	\item sowie Modulen zur Pumpensteuerung, Ventilregelung oder LED-Statusanzeige
 \end{itemize}
 Das gesamte System kann modular erweitert werden, z. B. durch Integration in ein IoT-
-Framework wie Blynk oder MQTT zur Fernüberwachung [HÜ23].
+Framework wie Blynk oder MQTT zur Fernüberwachung.\cite{Traenkler:2014}
 
 %\section{Calibration}
 \section{Kalibrierung}
@@ -430,16 +429,16 @@ Damit der HC-SR04 präzise misst, muss er kalibriert werden. Die wichtigste Einf
 Schallgeschwindigkeit, da sie von der Umgebungstemperatur abhängt. Eine Kalibrierung erfolgt
 durch den Vergleich mit einer bekannten Referenzdistanz. Ergibt sich eine systematische
 Abweichung, kann diese durch einen festen Korrekturwert (Offset) oder durch Anpassung der
-Schallgeschwindigkeit ausgeglichen werden. [HÜ23]
+Schallgeschwindigkeit ausgeglichen werden. \cite{Traenkler:2014}
 Der Ultraschallabstandssensor wird für die Verwendung bei der Temperatur von 20 °C ausgelegt. Die  berechnete Schallgeschwindigkeit $v_{Schall}=343,2\:\dfrac{\text{m}}{\text{s}}$ bei 20 °C wird für die Umrechnung der Schalldauer in die Distanz zur Reflexionsfläche verwendet.
 %\Mynote{cite method}
 
 \section{Simple Code}
 
-\section{Einfacher Bespiel zur Verwednung des Ultraschallabstandsensors}
+\section{Einfaches Bespiel zur Verwednung des Ultraschallabstandsensors}
 Eine einfache Applikation ist die Abstandserkennung zur Objektnähewarnung.
 Die Anwendung wird auf einem Mikrocontroller mit Signalverarbeitung zur Aktivierung eines
-Buzzers realisiert [HÜ23].
+Buzzers realisiert. \cite{Traenkler:2014}
 
 Mit dem Sketch \FILE{TestHCSR04 UltraschallsensorTest.ino} wird die Funktionalität des Ultraschallsensors getestet.
 
@@ -482,7 +481,7 @@ Der gemessene Abstand wird in Abbildung~\ref{BildUltraschallsensorTest} dargeste
 Beim einfachen Funktionstest wird überprüft, ob der Sensor korrekt anspricht und brauchbare
 Messwerte liefert. Dazu wird der HC-SR04 an einen Mikrocontroller (z. B. Arduino Nano 33 BLE
 Sense Lite) angeschlossen und ein einfacher Sketch aufgespielt, welcher die gemessene
-Entfernung über die serielle Schnittstelle ausgibt [Wil22].
+Entfernung über die serielle Schnittstelle ausgibt. \cite{Hering:2023}
 Ein Testobjekt wird in einem bekannten Abstand, typischerweise 20 cm, orthogonal vor den
 Sensor gehalten. Die gemessene Entfernung wird mit einem Maßband überprüft. Stimmen beide
 Werte überein, ist die Grundfunktion des Sensors sichergestellt. Dieser Test eignet sich
@@ -491,7 +490,7 @@ Spannungsversorgung und Signalverarbeitung.
 
 \subsection{Test aller Funktionen}
 Ein umfassender Funktionstest geht über die reine Abstandsmessung hinaus. Hierbei werden
-systematisch verschiedene Einflüsse auf die Messgenauigkeit überprüft [HM21]:
+systematisch verschiedene Einflüsse auf die Messgenauigkeit überprüft: \cite{Hering:2023}
 \begin{itemize}
 	\item \textbf{Oberflächenbeschaffenheit:} Glatte, harte Oberflächen liefern bessere Reflexionen als
 	weiche oder absorbierende Materialien wie Schaumstoff oder Stoff
@@ -512,20 +511,27 @@ systematisch verschiedene Einflüsse auf die Messgenauigkeit überprüft [HM21]:
 Ultraschallsensoren wie der HC-SR04 finden in folgenden Gebieten ihre Anwendung:
 \begin{itemize}
 	\item \textbf{Robotik:} Hinderniserkennung und Kollisionsvermeidung bei autonomen Systemen
-	[HÜ23].
-	\item \textbf{Industrieautomation:} In Tanks und Silos, auch bei Staub oder Dampf [Wil22].
-	\item \textbf{Fahrzeugtechnik:} Einparkhilfen und Abstandswarnsysteme [HM21].
+	\cite{Traenkler:2014}
+	\item \textbf{Industrieautomation:} In Tanks und Silos, auch bei Staub oder Dampf \cite{Hering:2023}.
+	\item \textbf{Fahrzeugtechnik:} Einparkhilfen und Abstandswarnsysteme \cite{Hering:2023}.
 	\item \textbf{Sicherheitstechnik:} Bewegungs- und Präsenzdetektion in Alarmanlagen.
 	\item \textbf{Medizin:} Kontaktlose Abstandsmessung in sterilen Umgebungen, z. B. bei
-	Desinfektionsstationen [HM21]
+	Desinfektionsstationen \cite{Hering:2023}
 	\item \textbf{Smart Home:} Automatische Licht- oder Türsteuerung durch Anwesenheitserkennung.
 \end{itemize}
 Die Stärken des Sensors liegen in der einfachen Integration, dem günstigen Preis und der
 Robustheit gegenüber Lichtverhältnissen oder Verschmutzung.
 Die genannten Eigenschaften werden auch in der Fachliteratur als Vorteile von
-Ultraschallsensoren gegenüber optischen Verfahren hervorgehoben [TM24
+Ultraschallsensoren gegenüber optischen Verfahren hervorgehoben \cite{Hering:2023}
 
 \section{Further Readings}
+\begin{itemize}
+	\item Tränkler, H.-R.; Reindl, L. (Hrsg.): Sensortechnik – Handbuch für Praxis und Wissenschaft. 2. Aufl., Springer Vieweg, 2018
+	\item Hering, E.; Schönfelder, G. (Hrsg.): Sensoren in Wissenschaft und Technik – Funktionsweise und Einsatzgebiete. 3., erw. Aufl., Springer Vieweg, 2023
+	
+	\item Arduino AG: NewPing – Library Documentation, Arduino.cc, abgerufen 2025. 
+\end{itemize}
+
 
 
 

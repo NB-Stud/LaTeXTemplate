@@ -456,7 +456,7 @@
 \contentsline {subsection}{\numberline {27.3.6}Herausforderungen}{245}{subsection.27.3.6}%
 \contentsline {subsection}{\numberline {27.3.7}Lösungsansätze}{246}{subsection.27.3.7}%
 \contentsline {section}{\numberline {27.4}Ultraschall Abstandsensor}{246}{section.27.4}%
-\contentsline {section}{\numberline {27.5}Specification}{247}{section.27.5}%
+\contentsline {section}{\numberline {27.5}Specification}{246}{section.27.5}%
 \contentsline {section}{\numberline {27.6}Bibliothek}{247}{section.27.6}%
 \contentsline {subsection}{\numberline {27.6.1}Beschreibung}{247}{subsection.27.6.1}%
 \contentsline {subsection}{\numberline {27.6.2}Installation}{247}{subsection.27.6.2}%
@@ -467,7 +467,7 @@
 \contentsline {subsection}{\numberline {27.6.7}Example - Dateien}{250}{subsection.27.6.7}%
 \contentsline {section}{\numberline {27.7}Kalibrierung}{250}{section.27.7}%
 \contentsline {section}{\numberline {27.8}Simple Code}{250}{section.27.8}%
-\contentsline {section}{\numberline {27.9}Einfacher Bespiel zur Verwednung des Ultraschallabstandsensors}{250}{section.27.9}%
+\contentsline {section}{\numberline {27.9}Einfaches Bespiel zur Verwednung des Ultraschallabstandsensors}{250}{section.27.9}%
 \contentsline {subsection}{\numberline {27.9.1}Durchführung}{250}{subsection.27.9.1}%
 \contentsline {subsection}{\numberline {27.9.2}Ergebnisse}{252}{subsection.27.9.2}%
 \contentsline {section}{\numberline {27.10}Simple Application}{252}{section.27.10}%
