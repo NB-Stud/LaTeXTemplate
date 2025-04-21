@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  21 APR 2025 09:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  21 APR 2025 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9893,18 +9893,19 @@ Package biblatex Info: Setting label 'refsegment:0177' on input line 19.
 Package biblatex Info: Reference segment=178 on input line 33.
 Package biblatex Info: Setting label 'refsegment:0178' on input line 33.
 
+LaTeX Warning: Reference `Hesse:2009' on page 241 undefined on input line 72.
+
+
+LaTeX Warning: Citation 'Muller:2017' on page 241 undefined on input line 77.
+
+
 
 [241
 
 
 ]
-Package biblatex Info: Reference segment=179 on input line 80.
-Package biblatex Info: Setting label 'refsegment:0179' on input line 80.
-
-Overfull \hbox (67.46603pt too wide) in paragraph at lines 150--150
- [] 
- []
-
+Package biblatex Info: Reference segment=179 on input line 79.
+Package biblatex Info: Setting label 'refsegment:0179' on input line 79.
 
 
 
@@ -9915,6 +9916,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [242]
+Overfull \hbox (67.46603pt too wide) in paragraph at lines 150--150
+ [] 
+ []
+
+
 Overfull \hbox (7.73613pt too wide) in paragraph at lines 162--163
 \OML/lmm/m/it/10 v[]$ \T1/lmr/m/n/10 (-20) die Wellen^^?länge des Schalls berec
 h^^?nen [[]Wil22[]]. Diese be^^?trägt bei einer angenomme^^?
@@ -9969,7 +9975,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [245]
 Package biblatex Info: Reference segment=180 on input line 278.
 Package biblatex Info: Setting label 'refsegment:0180' on input line 278.
-<../../Images/Sensor/HCSR04/HCSR04.jpg, id=6254, 1001.7425pt x 689.57625pt>
+<../../Images/Sensor/HCSR04/HCSR04.jpg, id=6264, 1001.7425pt x 689.57625pt>
 File: ../../Images/Sensor/HCSR04/HCSR04.jpg Graphic file (type jpg)
 <use ../../Images/Sensor/HCSR04/HCSR04.jpg>
 Package pdftex.def Info: ../../Images/Sensor/HCSR04/HCSR04.jpg  used on input l
@@ -10039,7 +10045,7 @@ Overfull \hbox (14.81863pt too wide) in paragraph at lines 366--367
  wird der Sketch []\T1/pcr/l/it/10 TestHCSR04.ino[][]
  []
 
-<../../Images/Sensor/HCSR04/HCSR04Test.png, id=6337, 433.62pt x 140.77594pt>
+<../../Images/Sensor/HCSR04/HCSR04Test.png, id=6347, 433.62pt x 140.77594pt>
 File: ../../Images/Sensor/HCSR04/HCSR04Test.png Graphic file (type png)
 <use ../../Images/Sensor/HCSR04/HCSR04Test.png>
 Package pdftex.def Info: ../../Images/Sensor/HCSR04/HCSR04Test.png  used on inp
@@ -10074,12 +10080,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 ]
 chapter 28.
-<../../Images/L298N/L298N.png, id=6350, 1255.69125pt x 1254.6875pt>
+<../../Images/L298N/L298N.png, id=6360, 1255.69125pt x 1254.6875pt>
 File: ../../Images/L298N/L298N.png Graphic file (type png)
 <use ../../Images/L298N/L298N.png>
 Package pdftex.def Info: ../../Images/L298N/L298N.png  used on input line 25.
 (pdftex.def)             Requested size: 199.16928pt x 198.99277pt.
-<../../Images/L298N/AnschlussDriver.jpg, id=6354, 258.9675pt x 248.42813pt>
+<../../Images/L298N/AnschlussDriver.jpg, id=6364, 258.9675pt x 248.42813pt>
 File: ../../Images/L298N/AnschlussDriver.jpg Graphic file (type jpg)
 <use ../../Images/L298N/AnschlussDriver.jpg>
 Package pdftex.def Info: ../../Images/L298N/AnschlussDriver.jpg  used on input 
@@ -10104,7 +10110,7 @@ Overfull \hbox (7.04646pt too wide) in paragraph at lines 20--21
 r^^?duinos auf auÿen^^?liegende Schraubklem^^?
  []
 
-<../../Images/AdapterBoard/shield.jpg, id=6370, 455.7025pt x 455.7025pt>
+<../../Images/AdapterBoard/shield.jpg, id=6380, 455.7025pt x 455.7025pt>
 File: ../../Images/AdapterBoard/shield.jpg Graphic file (type jpg)
 <use ../../Images/AdapterBoard/shield.jpg>
 Package pdftex.def Info: ../../Images/AdapterBoard/shield.jpg  used on input li
@@ -10151,7 +10157,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 chapter 31.
 Package biblatex Info: Reference segment=193 on input line 16.
 Package biblatex Info: Setting label 'refsegment:0193' on input line 16.
-<../../Images/BLE/NRFConnect.jpg, id=6434, 432.86719pt x 534.49687pt>
+<../../Images/BLE/NRFConnect.jpg, id=6444, 432.86719pt x 534.49687pt>
 File: ../../Images/BLE/NRFConnect.jpg Graphic file (type jpg)
 <use ../../Images/BLE/NRFConnect.jpg>
 Package pdftex.def Info: ../../Images/BLE/NRFConnect.jpg  used on input line 42
@@ -10170,7 +10176,7 @@ See the caption package documentation for explanation.
  <../../Images/BLE/NRFConnect.jpg>]
 Package biblatex Info: Reference segment=194 on input line 47.
 Package biblatex Info: Setting label 'refsegment:0194' on input line 47.
-<../../Images/BLE/BlueToothIcon.jpg, id=6440, 432.86719pt x 569.12625pt>
+<../../Images/BLE/BlueToothIcon.jpg, id=6450, 432.86719pt x 569.12625pt>
 File: ../../Images/BLE/BlueToothIcon.jpg Graphic file (type jpg)
 <use ../../Images/BLE/BlueToothIcon.jpg>
 Package pdftex.def Info: ../../Images/BLE/BlueToothIcon.jpg  used on input line
@@ -10182,7 +10188,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 70.
 See the caption package documentation for explanation.
 
-<../../Images/BLE/ListOfDevices.jpg, id=6441, 577.15625pt x 1284.8pt>
+<../../Images/BLE/ListOfDevices.jpg, id=6451, 577.15625pt x 1284.8pt>
 File: ../../Images/BLE/ListOfDevices.jpg Graphic file (type jpg)
 <use ../../Images/BLE/ListOfDevices.jpg>
 Package pdftex.def Info: ../../Images/BLE/ListOfDevices.jpg  used on input line
@@ -10398,7 +10404,7 @@ Underfull \hbox (badness 1694) in paragraph at lines 19--20
 \T1/lmr/m/n/10 (+20) - ARD NANO
  []
 
-<../../Images/Nano33BLESense/abx00031_front_1_2.jpg, id=6555, 376.40625pt x 282
+<../../Images/Nano33BLESense/abx00031_front_1_2.jpg, id=6565, 376.40625pt x 282
 .30469pt>
 File: ../../Images/Nano33BLESense/abx00031_front_1_2.jpg Graphic file (type jpg
 )
@@ -10416,7 +10422,7 @@ Underfull \hbox (badness 1694) in paragraph at lines 24--25
 \T1/lmr/m/n/10 (+20) - ARD NANO
  []
 
-<../../Images/Nano33BLESense/ARDNanano33BSH2.png, id=6557, 579.16376pt x 230.86
+<../../Images/Nano33BLESense/ARDNanano33BSH2.png, id=6567, 579.16376pt x 230.86
 25pt>
 File: ../../Images/Nano33BLESense/ARDNanano33BSH2.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/ARDNanano33BSH2.png>
@@ -10433,7 +10439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \T1/lmr/m/n/10 (+20) - ARD Kit
  []
 
-<../../Images/Nano33BLESense/ArduinoKit.png, id=6559, 903.375pt x 581.17125pt>
+<../../Images/Nano33BLESense/ArduinoKit.png, id=6569, 903.375pt x 581.17125pt>
 File: ../../Images/Nano33BLESense/ArduinoKit.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/ArduinoKit.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/ArduinoKit.png  used on in
@@ -10454,7 +10460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 \T1/lmr/m/n/10 (+20) B0226 Lens
  []
 
-<../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg, id=6561, 1290.82
+<../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg, id=6571, 1290.82
 25pt x 980.66376pt>
 File: ../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg Graphic file
  (type jpg)
@@ -10462,7 +10468,7 @@ File: ../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg Graphic file
 Package pdftex.def Info: ../../Images/CAM/LensCalibrationTool/LensCalibrationTo
 ol.jpg  used on input line 36.
 (pdftex.def)             Requested size: 73.97603pt x 56.1887pt.
-<../../Images/Nano33BLESense/case.png, id=6563, 803.0pt x 602.25pt>
+<../../Images/Nano33BLESense/case.png, id=6573, 803.0pt x 602.25pt>
 File: ../../Images/Nano33BLESense/case.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/case.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/case.png  used on input li
@@ -11619,12 +11625,6 @@ m/n/10 (-20) : 9783662486634. \T1/lmr/m/sc/10 (-20) url\T1/lmr/m/n/10 (-20) : [
  []
 
 
-Overfull \hbox (3.753pt too wide) in paragraph at lines 259--259
-\T1/pcr/l/it/10 microcontroller -[] projects / arduino -[] nano -[] 33 -[] ble 
--[] sense -[]
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -11634,16 +11634,16 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [322]
+Overfull \hbox (3.753pt too wide) in paragraph at lines 259--259
+\T1/pcr/l/it/10 microcontroller -[] projects / arduino -[] nano -[] 33 -[] ble 
+-[] sense -[]
+ []
+
+
 Overfull \hbox (10.8252pt too wide) in paragraph at lines 259--259
 \T1/lmr/m/it/10 (-20) tierten Muster-lö-sun-gen. \T1/lmr/m/n/10 (-20) Carl Hans
 er Ver^^?lag, 2013. \T1/lmr/m/sc/10 (-20) isbn\T1/lmr/m/n/10 (-20) : 978-3-446-
 43529-2. 
- []
-
-
-Overfull \hbox (0.36583pt too wide) in paragraph at lines 259--259
-[]\T1/lmr/m/n/10 (-20) T. Scherer. ``Bat^^?terie^^?m^^?an^^?age^^?ment''. In: \
-T1/lmr/m/it/10 (-20) Elek-tor spe-cial: Stromver-sorgung
  []
 
 
@@ -11656,6 +11656,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [323]
+Overfull \hbox (0.36583pt too wide) in paragraph at lines 259--259
+[]\T1/lmr/m/n/10 (-20) T. Scherer. ``Bat^^?terie^^?m^^?an^^?age^^?ment''. In: \
+T1/lmr/m/it/10 (-20) Elek-tor spe-cial: Stromver-sorgung
+ []
+
+
 Overfull \hbox (25.66348pt too wide) in paragraph at lines 259--259
 \T1/lmr/m/it/10 (-20) la-tion Sen-sor Data\T1/lmr/m/n/10 (-20) . [][][pdf][][].
  Berke^^?ley, CA: Apress, 2021. \T1/lmr/m/sc/10 (-20) isbn\T1/lmr/m/n/10 (-20) 
@@ -11670,12 +11676,6 @@ t . com / resource /
  []
 
 
-Overfull \hbox (14.753pt too wide) in paragraph at lines 259--259
-\T1/pcr/l/it/10 resources / inertial -[] navigation -[] primer / specifications
- -[]-[]
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -11685,6 +11685,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [324]
+Overfull \hbox (14.753pt too wide) in paragraph at lines 259--259
+\T1/pcr/l/it/10 resources / inertial -[] navigation -[] primer / specifications
+ -[]-[]
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -11742,16 +11748,21 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Nano33BLESense.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Nano33BLESense
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 \openout1 = `Nano33BLESense.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 109280 strings out of 473190
- 2840740 string characters out of 5716853
- 4596144 words of memory out of 5000000
- 126217 multiletter control sequences out of 15000+600000
- 763605 words of font info for 504 fonts, out of 8000000 for 9000
+ 109290 strings out of 473190
+ 2840735 string characters out of 5716853
+ 4596151 words of memory out of 5000000
+ 126222 multiletter control sequences out of 15000+600000
+ 763735 words of font info for 505 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,21n,134p,10909b,3379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/
@@ -11779,10 +11790,10 @@ public/amsfonts/symbols/msam10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type
 pe1/public/cm-super/sftt1000.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/
 urw/courier/ucrb8a.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courie
 r/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (328 pages, 11790269 bytes).
+Output written on Nano33BLESense.pdf (328 pages, 11792087 bytes).
 PDF statistics:
- 10043 PDF objects out of 10688 (max. 8388607)
- 9399 compressed objects within 94 object streams
- 4380 named destinations out of 5155 (max. 500000)
+ 10055 PDF objects out of 10688 (max. 8388607)
+ 9410 compressed objects within 95 object streams
+ 4383 named destinations out of 5155 (max. 500000)
  109810 words of extra memory for PDF output out of 128383 (max. 10000000)
 

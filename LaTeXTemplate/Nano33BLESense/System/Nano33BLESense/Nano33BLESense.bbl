@@ -1198,6 +1198,41 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Heinrich:2019}{book}{}{}
+    \name{author}{3}{}{%
+      {{hash=HB}{%
+         family={Heinrich},
+         familyi={H\bibinitperiod},
+         given={Berthold},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Linke},
+         familyi={L\bibinitperiod},
+         given={Petra},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gl{\"o}ckler},
+         familyi={G\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{HBLPGM1}
+    \strng{fullhash}{HBLPGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{HLG19}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Grundlagen Automatisierung: Erfassen-Steuern-Regeln}
+    \field{year}{2019}
+  \endentry
+
   \entry{Hering:2021b}{book}{}{}
     \name{author}{3}{}{%
       {{hash=HE}{%
@@ -1237,6 +1272,67 @@
     \field{title}{Physik f{\"u}r Ingenieure}
     \field{month}{08}
     \field{year}{2021}
+  \endentry
+
+  \entry{Hesse:2009}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=HS}{%
+         family={Hesse},
+         familyi={H\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Schnell},
+         familyi={S\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HSSG1}
+    \strng{fullhash}{HSSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{HS09}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Sensoren f{\"u}r die Prozess-und Fabrikautomation}
+    \field{volume}{5}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Hering:2012}{book}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{2}{}{%
+      {{hash=HE}{%
+         family={Hering},
+         familyi={H\bibinitperiod},
+         given={Ekbert},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sch{\"o}nfelder},
+         familyi={S\bibinitperiod},
+         given={Gert},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HESG+1}
+    \strng{fullhash}{HESG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{HS+12}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Sensoren in Wissenschaft und Technik}
+    \field{year}{2012}
   \endentry
 
   \entry{Hering:2023}{book}{}{}

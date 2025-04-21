@@ -36,15 +36,15 @@ Ultraschallsensoren zur Abstandsmessung dienen der Ermittlung von Objektabständ
 Schallgeschwindigkeit temperatur- und luftdruckabhängig ist und zusätzlich durch die
 Luftzusammensetzung beeinflusst wird, ist bei der Auslegung auf solche
 Einflussfaktoren Rücksicht zu nehmen. Bei Nichtbeachtung sind Messungenauigkeiten
-in der Entfernungsmessung zu erwarten. (1) Umwelteinflüsse wie Feuchte, Staub und
+in der Entfernungsmessung zu erwarten. \cite{Hesse:2009} Umwelteinflüsse wie Feuchte, Staub und
 Rauch beeinflussen die Messgenauigkeit nicht. Einige Gase und Flüssigkeiten können
 die Sensorfunktion jedoch beeinträchtigen oder gar untüchtig machen. Beispiele hierfür
-sind CO2 und Dämpfe von Lösungsmitteln. (2)
+sind CO2 und Dämpfe von Lösungsmitteln. \cite{Hering:2012}
 Ultraschallsensoren können nach ihrem Sensorprinzip in Tastbetrieb und
 Schrankenbetrieb unterschieden werden. Der Tastbetrieb basiert dabei auf der
 Auswertung der Laufzeitmessung zwischen dem Senden und Empfangen des Schalls.
 Der Schrankenbetrieb dahingegen beruht auf der Kontrolle, ob das gesendete Signal
-empfangen wurde (4) Der Ultraschallsensor zur Abstandsmessung beruht auf ersterem
+empfangen wurde \cite{Heinrich:2019} Der Ultraschallsensor zur Abstandsmessung beruht auf ersterem
 Prinzip. Im Folgenden soll die Funktionsweise näher erläutert werden.
 Zunächst aktiviert die Steuerelektronik den Leistungsverstärker, welcher den
 Schallwandler mit einer elektrischen Leistung und einer Sinusspannung ansteuert.
@@ -56,10 +56,10 @@ Mikrofon. Sollte sich in der Schallkeule ein Objekt befinden, wird der Ultrascha
 zum Sender zurückreflektiert. Der Schallwandler beginnt zu schwingen und erzeugt eine
 Sinusschwingung, die auf einen Verstärker übertragen wird. Durch Autokorrelation wird
 kontrolliert, ob es sich bei dem reflektierten Schall wirklich um das Echo der
-ausgesandten Ultraschallwellen handelt. (1)
+ausgesandten Ultraschallwellen handelt. \cite{Hesse:2009}
 Eine ganze Bandbreite an Objekten unabhängig von der Oberflächenbescha`enheit,
-Farbe, Transparenz (2) und Form (1) kann durch den Ultraschall erfasst werden.
-Der Ultraschall findet seine Anwendung in sehr vielen verschiedenen Bereichen (Kap.3),
+Farbe, Transparenz \cite{Hering:2012} und Form \cite{Hesse:2009} kann durch den Ultraschall erfasst werden.
+Der Ultraschall findet seine Anwendung in sehr vielen verschiedenen Bereichen \ref{grundlagen},
 näher soll auf ihre Anwendung in den Bereichen der Medizin und Industrie eingegangen
 werden.
 In der Medizin gehört der Ultraschall mit zu den wichtigsten und häufigsten genutzten
@@ -69,15 +69,15 @@ anderen Objekten im menschlichen Körper. Kennzeichnend für die Anwendung des
 Ultraschalls in der Medizin ist außerdem sein geringes Gesundheitsrisiko für Patienten.
 In der Industrie gibt es vielfältige Einsatzbereiche von Ultraschallsensoren. Sie können
 der Überwachung von Stellplätzen in der Lagerhaltung, der Füllstandbestimmung von
-Schüttgütern (1) oder der Detektion von Objekten und Grenzflächen dienen. Beispiel für
-letztere Erwähnung ist die Rückfahrhilfe bei Fahrzeugen. Eine weitere sehr wichtige
+Schüttgütern \cite{Hesse:2009} oder der Detektion von Objekten und Grenzflächen dienen. Beispiel für letztere Erwähnung ist die Rückfahrhilfe bei Fahrzeugen. Eine weitere sehr wichtige
 Anwendung findet sich in der zerstörungsfreien Prüfung von Werkstücken und
 WerkstoNen wieder. Vorrangig wird dabei das Materialgefüge auf Unebenheiten und
 Au`älligkeiten überprüft. Solche Untersuchungen werden häufig für
 sicherheitsrelevante Bauteile wie Eisenbahnräder oder Druckbehälter für Atomanlagen
-verwendet (3).
+verwendet \cite{Muller:2017}.
 
 \section{Grundlagen zur Verwendung eines Ultraschallsensors}
+\label{grundlagen}
 Um den Ultraschallsensor HC-SR04 gezielt und e`izient einsetzen zu können, ist ein
 grundlegendes Verständnis über die Funktionsweise, technischen Eigenschaften und
 Anwendungsvoraussetzungen abstandsmessender Ultraschallsensoren notwendig. Die
@@ -315,10 +315,26 @@ Bei den folgenden Beispielprogrammen wird der Arduino Nano 33 BLE Sense verwende
 
 \section{Bibliothek}
 
-\subsection{Description}
-
+\subsection{Beschreibung}
+Zur Ansteuerung des Ultraschallsensors HC-SR04 wird eine Arduino-kompatible Bibliothek
+„New Ping“ verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
+Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Triggern, zur
+Laufzeitmessung und zur Berechnung der Distanz [ArduinoDoc24].
 
 \subsection{Installation}
+Die Installation der Bibliothek „NewPing“, welche die Funktionalität des Ultraschallsensors HC-
+SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
+bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
+[ArduinoDoc24]
+
+\textbf{Schrittweise Anleitung:}
+\begin{enumerate}
+	\item Öffne die \textbf{Arduino IDE} (Version 1.8.x oder neuer empfohlen).
+	\item Navigiere zu: Sketch > Bibliothek einbinden > Bibliotheken verwalten…
+	\item Im Suchfeld oben rechts den Begriff „NewPing“ eingeben
+	\item Wähle den Eintrag „NewPing by Tim Eckel“ aus.
+	\item Klicke auf „Installieren“.
+\end{enumerate}
 
 \subsection{Functions}
 
