@@ -363,7 +363,7 @@ und der aktuellen Schallgeschwindigkeit berechnet, gemäß:\\
 	s = \frac{1}{2} \cdot v_{\text{Schall}} \cdot t
 \end{equation}
 
- \\
+
 Dabei ist s der Abstand, $v_{\text{Schall}}$ die Schallgeschwindigkeit und t die gemessene Zeitdifferenz
 [TM24]
 Im manuellen Beispiel wird auf Bibliotheken verzichtet. Stattdessen erfolgt die Steuerung über
@@ -373,7 +373,7 @@ für Timingfehler und benötigt eine Kalibrierung der Umgebungsparameter, wie z.
 [Wil22].
 Der Ablauf ist wie folgt:
 \begin{enumerate}
-	\item Trigger-Pin für 10 μs auf HIGH setzen (Anstoß des Schallimpulses).
+	\item Trigger-Pin für 10 mikrosekunden auf HIGH setzen (Anstoß des Schallimpulses).
 	\item Echo-Pin überwachen: Pulse-In-Funktion misst, wie lange der Pin auf HIGH bleibt.
 	\item Zeitwert wird in die Distanz umgerechnet unter Annahme einer konstanten
 	Schallgeschwindigkeit von z. B. 343,2 m/s (bei 20 °C) [TM24].
@@ -407,9 +407,9 @@ Wartungsfreiheit und Dichtigkeit entscheidend sind [HÜ23].
 Nachfolgend ein vereinfachter Arduino-Sketch für das Projekt Magic Faucet Fountain, der den
 Wasserstand auf einem seriellen Monitor ausgibt:
 
-%{
+
 %\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
-}
+
 
 
 \subsection{Example - Dateien}

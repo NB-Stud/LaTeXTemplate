@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  21 APR 2025 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  21 APR 2025 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9979,34 +9979,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 357--361
  []
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.367 D
-       abei ist s der Abstand, $v_{\text{Schall}}$ die Schallgeschwindigkeit...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Unicode character μ (U+03BC)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.376 	\item Trigger-Pin für 10 μ
-                                   s auf HIGH setzen (Anstoß des Schallimpu...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -11770,41 +11742,45 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 \openout1 = `Nano33BLESense.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 117 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 109299 strings out of 473190
- 2840788 string characters out of 5716853
+ 109298 strings out of 473190
+ 2840783 string characters out of 5716853
  4595164 words of memory out of 5000000
- 126219 multiletter control sequences out of 15000+600000
+ 126218 multiletter control sequences out of 15000+600000
  763871 words of font info for 506 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,21n,134p,10909b,3379s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/
-LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/LaTeX/texliv
-e/2025/texmf-dist/fonts/type1/public/lm/lmbx7.pfb><c:/LaTeX/texlive/2025/texmf-
-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/
-type1/public/lm/lmex10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public
-/lm/lmmi10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi7.pf
-b><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/LaTeX/t
-exlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/LaTeX/texlive/2025/t
-exmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/LaTeX/texlive/2025/texmf-dist/font
-s/type1/public/lm/lmr6.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public
-/lm/lmr7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><
-c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/LaTeX/texli
-ve/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/LaTeX/texlive/2025/texm
-f-dist/fonts/type1/public/lm/lmri7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/
-type1/public/lm/lmro10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public
-/lm/lmss17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss8.pf
-b><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/LaTeX/t
-exlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/LaTeX/texlive/202
-5/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist
-/fonts/type1/public/lm/lmsy7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msam10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msbm10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/ty
-pe1/public/cm-super/sftt1000.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/
-urw/courier/ucrb8a.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courie
-r/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (330 pages, 11802286 bytes).
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/fe
+ymr10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c
+:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx7.pfb><c:/LaTeX/texli
+ve/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/LaTeX/texlive/2025/tex
+mf-dist/fonts/type1/public/lm/lmex10.pfb><c:/LaTeX/texlive/2025/texmf-dist/font
+s/type1/public/lm/lmmi10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/publ
+ic/lm/lmmi7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi9.p
+fb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/LaTeX/
+texlive/2025/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/LaTeX/texlive/2025/t
+exmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/LaTeX/texlive/2025/texmf-dist/font
+s/type1/public/lm/lmr7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public
+/lm/lmr8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr9.pfb><
+c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/LaTeX/tex
+live/2025/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/LaTeX/texlive/2025/tex
+mf-dist/fonts/type1/public/lm/lmro10.pfb><c:/LaTeX/texlive/2025/texmf-dist/font
+s/type1/public/lm/lmss17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/publ
+ic/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss9.p
+fb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/LaT
+eX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/LaTeX/texlive/2
+025/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/LaTeX/texlive/2025/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/LaTeX/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/LaTeX/texlive/2025/texmf
+-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/LaTeX/texlive/2025/texmf-dis
+t/fonts/type1/urw/courier/ucrb8a.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/ty
+pe1/urw/courier/ucrr8a.pfb>
+Output written on Nano33BLESense.pdf (330 pages, 11802299 bytes).
 PDF statistics:
  10073 PDF objects out of 10688 (max. 8388607)
  9426 compressed objects within 95 object streams
