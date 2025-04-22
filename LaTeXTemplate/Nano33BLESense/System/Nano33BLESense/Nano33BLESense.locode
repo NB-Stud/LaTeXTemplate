@@ -76,15 +76,11 @@
 \addvspace {10\p@ }
 \contentsline {code}{\numberline {26.1}{\ignorespaces Arduino BLE Tutorial Battery Level Indicator Code}}{227}{code.caption.95}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {27.1}{\ignorespaces Einfacher Code zum Testen der eingebauten LED}}{250}{code.27.1}%
+\contentsline {code}{\numberline {27.1}{\ignorespaces Einfacher Code zum Testen der eingebauten LED}}{251}{code.27.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {30.1}{\ignorespaces Testprogramm für den Encoder}}{260}{code.caption.115}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {code}{\numberline {30.1}{\ignorespaces Testprogramm für den Encoder}}{262}{code.caption.116}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -92,9 +88,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {41.1}{\ignorespaces \glqq Hello World\grqq {} in Python -- Variant 1}}{310}{code.caption.128}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {42.1}{\ignorespaces \glqq Hello World\grqq {} in Python -- Variant 1}}{312}{code.caption.129}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {code}{\numberline {41.1}{\ignorespaces \glqq Hello World\grqq {} in Python -- Variant 1}}{312}{code.caption.129}%
+\addvspace {10\p@ }
+\contentsline {code}{\numberline {42.1}{\ignorespaces \glqq Hello World\grqq {} in Python -- Variant 1}}{314}{code.caption.130}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

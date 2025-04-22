@@ -3394,6 +3394,59 @@
     \field{year}{2014}
   \endentry
 
+  \entry{Traenkler:2014}{book}{}{}
+    \name{editor}{2}{}{%
+      {{hash=THR}{%
+         family={Tr\"ankler},
+         familyi={T\bibinitperiod},
+         given={Hans-Rolf},
+         giveni={H\bibinithyphendelim R\bibinitperiod},
+      }}%
+      {{hash=RL}{%
+         family={Reindl},
+         familyi={R\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Vieweg Berlin, Heidelberg}%
+    }
+    \keyw{Control and Systems Theory, Electronics and Microelectronics,
+  Instrumentation, Optical and Electronic Materials, Spectroscopy and
+  Microscopy, Industrial Chemistry/Chemical Engineering}
+    \strng{namehash}{THRRL1}
+    \strng{fullhash}{THRRL1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{TR14}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Das Buch bietet eine umfassende Übersicht über die Sensortechnik,
+  einschließlich Steuerungs- und Systemtheorie, Elektronik und
+  Mikroelektronik, Instrumentierung, optische und elektronische Materialien,
+  Spektroskopie und Mikroskopie sowie industrielle Chemie und
+  Chemieingenieurwesen. Es enthält zahlreiche Illustrationen und ist sowohl
+  für die Praxis als auch für die Wissenschaft relevant.%
+    }
+    \verb{doi}
+    \verb 10.1007/978-3-642-29942-1
+    \endverb
+    \field{edition}{2}
+    \field{isbn}{978-3-642-29942-1}
+    \field{issn}{2512-5281}
+    \field{note}{Published: 13 January 2015. eBook Packages: Computer Science
+  and Engineering (German Language)}
+    \field{pages}{XIV, 1596}
+    \field{series}{VDI-Buch}
+    \field{title}{Sensortechnik: Handbuch für Praxis und Wissenschaft}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2014}
+  \endentry
+
   \entry{Numpy:2022}{online}{}{}
     \name{editor}{1}{}{%
       {{hash=T}{%

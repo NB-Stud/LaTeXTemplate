@@ -19,7 +19,7 @@ void setup() {
 }
 
 /**
- * @brief Loop-Funktion wird kontinuierlich ausgeführt.
+ * @brief Loop-Funktion wird kontinuierlich ausgefuehrt.
  * 
  * Schaltet die LED an, wartet 500 ms, schaltet sie aus und wartet erneut.
  * So entsteht ein Blinkeffekt.

@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 21100 items from 5000.
+Reallocated field_info (elt_size=4) to 21240 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -26,45 +26,45 @@ Warning--I didn't find a database entry for "Arduino:2025"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 114 entries,
+You've used 115 entries,
             6402 wiz_defined-function locations,
-            1947 strings with 36167 characters,
-and the built_in function-call counts, 883602 in all, are:
-= -- 67005
-> -- 17168
-< -- 5238
-+ -- 28066
-- -- 9031
-* -- 60199
-:= -- 97086
+            1960 strings with 37059 characters,
+and the built_in function-call counts, 893084 in all, are:
+= -- 67772
+> -- 17336
+< -- 5324
++ -- 28300
+- -- 9080
+* -- 60844
+:= -- 97961
 add.period$ -- 0
-call.type$ -- 114
-change.case$ -- 157
+call.type$ -- 115
+change.case$ -- 158
 chr.to.int$ -- 645
-cite$ -- 270
-duplicate$ -- 94253
-empty$ -- 78052
-format.name$ -- 7045
-if$ -- 176491
+cite$ -- 272
+duplicate$ -- 95186
+empty$ -- 78886
+format.name$ -- 7118
+if$ -- 178552
 int.to.chr$ -- 0
-int.to.str$ -- 359
+int.to.str$ -- 363
 missing$ -- 0
-newline$ -- 3868
-num.names$ -- 5674
-pop$ -- 41648
+newline$ -- 3913
+num.names$ -- 5775
+pop$ -- 41992
 preamble$ -- 1
-purify$ -- 3099
+purify$ -- 3168
 quote$ -- 0
-skip$ -- 24322
+skip$ -- 24726
 stack$ -- 0
-substring$ -- 120998
-swap$ -- 19251
-text.length$ -- 3869
-text.prefix$ -- 182
+substring$ -- 122327
+swap$ -- 19496
+text.length$ -- 3904
+text.prefix$ -- 183
 top$ -- 1
-type$ -- 3855
+type$ -- 3889
 warning$ -- 0
-while$ -- 11900
+while$ -- 11998
 width$ -- 0
-write$ -- 3755
+write$ -- 3799
 (There was 1 warning)
