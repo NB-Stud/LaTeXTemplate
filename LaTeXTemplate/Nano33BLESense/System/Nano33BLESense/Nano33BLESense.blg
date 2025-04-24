@@ -22,6 +22,10 @@ Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
 Database file #4: ../../../MLbib/MyLiterature.bib
+Repeated entry---line 251 of file ../../../MLbib/MyLiterature.bib
+ : @book{Hering:2023
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Arduino:2025"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
@@ -67,4 +71,4 @@ warning$ -- 0
 while$ -- 11998
 width$ -- 0
 write$ -- 3799
-(There was 1 warning)
+(There was 1 error message)
