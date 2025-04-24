@@ -22,54 +22,58 @@ Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
 Database file #4: ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 37 of file ../../../MLbib/MyLiterature.bib
+ :   
+ :   organization = {Arduino.cc}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Repeated entry---line 251 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Arduino:2025"
-Warning--I didn't find a database entry for "myLiterature.bib/Arduino:2024"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 116 entries,
+You've used 117 entries,
             6402 wiz_defined-function locations,
-            1966 strings with 37238 characters,
-and the built_in function-call counts, 902866 in all, are:
-= -- 68588
-> -- 17486
-< -- 5392
-+ -- 28518
-- -- 9127
-* -- 61563
-:= -- 98936
+            1969 strings with 37288 characters,
+and the built_in function-call counts, 907219 in all, are:
+= -- 68851
+> -- 17568
+< -- 5423
++ -- 28609
+- -- 9155
+* -- 61848
+:= -- 99342
 add.period$ -- 0
-call.type$ -- 116
-change.case$ -- 159
+call.type$ -- 117
+change.case$ -- 160
 chr.to.int$ -- 645
-cite$ -- 274
-duplicate$ -- 96042
-empty$ -- 79779
-format.name$ -- 7191
-if$ -- 180667
+cite$ -- 276
+duplicate$ -- 96568
+empty$ -- 80210
+format.name$ -- 7242
+if$ -- 181589
 int.to.chr$ -- 0
-int.to.str$ -- 367
+int.to.str$ -- 369
 missing$ -- 0
-newline$ -- 3947
-num.names$ -- 5858
-pop$ -- 42348
+newline$ -- 3970
+num.names$ -- 5903
+pop$ -- 42691
 preamble$ -- 1
-purify$ -- 3219
+purify$ -- 3233
 quote$ -- 0
-skip$ -- 25059
+skip$ -- 25232
 stack$ -- 0
-substring$ -- 123925
-swap$ -- 19686
-text.length$ -- 3939
-text.prefix$ -- 184
+substring$ -- 124293
+swap$ -- 19806
+text.length$ -- 3968
+text.prefix$ -- 186
 top$ -- 1
-type$ -- 3923
+type$ -- 3957
 warning$ -- 0
-while$ -- 12094
+while$ -- 12152
 width$ -- 0
-write$ -- 3832
-(There was 1 error message)
+write$ -- 3854
+(There were 2 error messages)

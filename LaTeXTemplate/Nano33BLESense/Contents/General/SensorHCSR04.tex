@@ -240,39 +240,71 @@ Bei großen Distanzen sind sowohl die Genauigkeit der Ausrichtung des Sensors $\
 
 Ebenfalls störend auswirken können sich die Geometrie des zu messenden Objektes $\left(\text{z. B. bei stark konkaven oder konvexen Oberflächen}\right)$, absorbierendes/diffus reflektierendes Material $\left(\text{Filz, Watte, Schaumstoff}\right)$ oder Umwelteinflüsse orthogonal zur Messrichtung wirkender Wind. Verunreinigungen wie Staub und Rauch oder leichter Niederschlag in Form von Regen und Schnee beeinträchtigen die Messung hingegen nicht \cite{Hering:2023}.
 
-\subsection{Anwendungen}
+%\subsection{Anwendungen}
 
-Ultraschallsensoren haben in der Praxis ein breites Einsatzgebiet \cite{Hering:2023}. Basierend auf dem Ausbreitungsmedium lassen sie sich in drei Kategorien einteilen.
+%Ultraschallsensoren haben in der Praxis ein breites Einsatzgebiet \cite{Hering:2023}. Basierend auf dem Ausbreitungsmedium lassen sie sich in drei Kategorien einteilen.
 
-Die erste Kategorie wird dem Luftschall zugeschrieben. Typische Anwendungsbeispiele sind Füllstandsensoren, Durchmessererfassung für Auf- und Abwickelsteuerung oder Kollisionsschutz/Objekterkennung \cite{Hering:2023}.
+%Die erste Kategorie wird dem Luftschall zugeschrieben. Typische Anwendungsbeispiele sind Füllstandsensoren, Durchmessererfassung für Auf- und Abwickelsteuerung oder Kollisionsschutz/Objekterkennung \cite{Hering:2023}.
 
-Bei Sensoren der zweiten Kategorie breitet sich der Schall über Flüssigkeiten aus, wodurch diese vor allem im maritimen Bereich anzutreffen sind. Als Beispiele sind Sonarsysteme zum Orten von Unterseebooten oder Fischschwärmen und das Echolot zur Kartografie des Meeresbodens zu nennen \cite{Hering:2021b}.
+%Bei Sensoren der zweiten Kategorie breitet sich der Schall über Flüssigkeiten aus, wodurch diese vor allem im maritimen Bereich anzutreffen sind. Als Beispiele sind Sonarsysteme zum Orten von Unterseebooten oder Fischschwärmen und das Echolot zur Kartografie des Meeresbodens zu nennen \cite{Hering:2021b}.
 
-Die dritte Kategorie umfasst Körperschallsensoren. Viel verwendetes Beispiel in der Industrie sind Sensoren zur zerstörungsfreien Materialprüfung. In der Medizin ist die bildgebende Ultraschalldiagnostik ein wichtiges Werkzeug zur Überprüfung von Organen oder Föten \cite{Hering:2021b}.
+%Die dritte Kategorie umfasst Körperschallsensoren. Viel verwendetes Beispiel in der Industrie sind Sensoren zur zerstörungsfreien Materialprüfung. In der Medizin ist die bildgebende Ultraschalldiagnostik ein wichtiges Werkzeug zur Überprüfung von Organen oder Föten \cite{Hering:2021b}.
 
 
-\subsection{Herausforderungen}
+%\subsection{Herausforderungen}
 
-Dadurch, dass die Schallgeschwindigkeit von der Umgebungstemperatur abhängig ist, muss diese für die Berechnung der Distanz mit einbezogen werden, wenn der Sensor in einem größeren Temperaturbereich eingesetzt werden soll. In Abbildung~\ref{schallfunktion} ist zu erkennen, dass die Differenz der Geschwindigkeit in dem Temperaturbereich, in dem alle Komponenten des Sensors betrieben werden könnten $\left(-10 \:\text{\textcelsius}\leq T_{C}\leq55 \:\text{\textcelsius}\right)$, etwa $38 \:\dfrac{\text{m}}{\text{s}}$ beträgt. Dies entspricht, ausgehend von dem Standardwert für die Schallgeschwindigkeit $v_{Schall,20}=343,2\:\dfrac{\text{m}}{\text{s}}$, einer Streuung von $-5,2\% \:\text{und} \:+5,8\%$. Hinzu kommt die Unsicherheit aufgrund der Luftfeuchtigkeit. Hier liegt die Streuung, bezogen auf die Schallgeschwindigkeiten bei $\varphi=0$, in einem Bereich zwischen $+0,37\% \:\text{für} \:T_{C}=-10\:\text{\textcelsius} \:\text{und} \:+0,33\% \:\text{für} \:T_{C}=55 \:\text{\textcelsius}$.
+%Dadurch, dass die Schallgeschwindigkeit von der Umgebungstemperatur abhängig ist, muss diese für die Berechnung der Distanz mit einbezogen werden, wenn der Sensor in einem größeren Temperaturbereich eingesetzt werden soll. In Abbildung~\ref{schallfunktion} ist zu erkennen, dass die Differenz der Geschwindigkeit in dem Temperaturbereich, in dem alle Komponenten des Sensors betrieben werden könnten $\left(-10 \:\text{\textcelsius}\leq T_{C}\leq55 \:\text{\textcelsius}\right)$, etwa $38 \:\dfrac{\text{m}}{\text{s}}$ beträgt. Dies entspricht, ausgehend von dem Standardwert für die Schallgeschwindigkeit $v_{Schall,20}=343,2\:\dfrac{\text{m}}{\text{s}}$, einer Streuung von $-5,2\% \:\text{und} \:+5,8\%$. Hinzu kommt die Unsicherheit aufgrund der Luftfeuchtigkeit. Hier liegt die Streuung, bezogen auf die Schallgeschwindigkeiten bei $\varphi=0$, in einem Bereich zwischen $+0,37\% \:\text{für} \:T_{C}=-10\:\text{\textcelsius} \:\text{und} \:+0,33\% \:\text{für} \:T_{C}=55 \:\text{\textcelsius}$.
 
-Physikalische Effekte wie die Absorption, welche unter Laborbedingungen maßgeblich die Reichweite des Sensors einschränkt, oder einen schlechten Reflexionsgrad bestimmter Materialien, schränken das System in seiner Vielseitigkeit ein. Selbiges gilt für Attribute des Sensors wie die Ausschwingzeit des Schallwandlers oder die geometrische Anordnung der Schallkeulen bei zweiköpfigen Systemen.
-Auch die genannten Umwelteinflüsse können dafür sorgen, dass eine Messung fehlschlägt oder ein falsche Ergebnis liefert.
+%Physikalische Effekte wie die Absorption, welche unter Laborbedingungen maßgeblich die Reichweite des Sensors einschränkt, oder einen schlechten Reflexionsgrad bestimmter Materialien, schränken das System in seiner Vielseitigkeit ein. Selbiges gilt für Attribute des Sensors wie die Ausschwingzeit des Schallwandlers oder die geometrische Anordnung der Schallkeulen bei zweiköpfigen Systemen.
+%Auch die genannten Umwelteinflüsse können dafür sorgen, dass eine Messung fehlschlägt oder ein falsche Ergebnis liefert.
 
 
 \section{Ultraschall Abstandsensor}
 
-Der Ultraschallabstandssensor in Abbildung~\ref{Ultraschall Abstandssensor} vom Hersteller JOY-it enthält den Sensor HC-SR04. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt.
+Der Ultraschallabstandssensor in Abbildung~\ref{ultraschallsensor} vom Hersteller JOY-it enthält den Sensor HC-SR04. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt und ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt.  Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. Die Auflösung des Sensors beträgt $\pm 1$ mm. Angeschlossen wird der Abstandssensor über den \ac{vcc}-Pin, Trig/\ac{scl}-Pin, Echo/\ac{sda}-Pin und dem \ac{gnd}-Pin. Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
 
- und ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt.  Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. Die Auflösung des Sensors beträgt $\pm 1$ mm. Angeschlossen wird der Abstandssensor über den \ac{vcc}-Pin, Trig/\ac{scl}-Pin, Echo/\ac{sda}-Pin und dem \ac{gnd}-Pin. Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
+%    \begin{center}
+%       \includegraphics[width=3in]{Sensor/HCSR04/HCSR04}
+%        \captionof{figure}{Ultraschallabstandssensor der Marke JOY-IT\cite{Simac:2017}}
+%        \label{Ultraschall Abstandssensor}
+%   \end{center}
 
-    \begin{center}
-        \includegraphics[width=3in]{Sensor/HCSR04/HCSR04}
-        \captionof{figure}{Ultraschallabstandssensor der Marke JOY-IT\cite{Simac:2017}}
-        \label{Ultraschall Abstandssensor}
-    \end{center}
+\begin{figure}[!ht]
+	\centering
+	\caption{Ultraschallsensor mit Pin-Belegung}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ fill={rgb,255:red,33; green,63; blue,171} ] (1.25,12) rectangle (12.5,7);
+			\draw [ fill={rgb,255:red,191; green,191; blue,191} ] (3.25,9.5) circle (1.75cm);
+			\draw [ fill={rgb,255:red,191; green,191; blue,191} ] (10.5,9.5) circle (1.75cm);
+			\draw [ fill={rgb,255:red,239; green,239; blue,239} ] (6.75,11) ellipse (1.25cm and 0.5cm);
+			\draw [ fill={rgb,255:red,227; green,227; blue,227} ] (1.5,11.75) circle (0.25cm);
+			\draw [ fill={rgb,255:red,227; green,227; blue,227} ] (1.5,7.25) circle (0.25cm);
+			\draw [ fill={rgb,255:red,227; green,227; blue,227} ] (12.25,11.75) circle (0.25cm);
+			\draw [ fill={rgb,255:red,227; green,227; blue,227} ] (12.25,7.25) circle (0.25cm);
+			\draw [ fill={rgb,255:red,6; green,6; blue,6} ] (3.25,9.5) circle (1.5cm);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} ] (10.5,9.5) circle (1.5cm);
+			\draw [ fill={rgb,255:red,239; green,239; blue,239} ] (3.25,9.5) circle (1.25cm);
+			\draw [ fill={rgb,255:red,239; green,239; blue,239} ] (10.5,9.5) circle (1.25cm);
+			\draw [ fill={rgb,255:red,255; green,0; blue,0} , rounded corners = 1.2] (6,7.25) rectangle (6.25,8);
+			\draw [ fill={rgb,255:red,0; green,255; blue,0} , rounded corners = 1.2] (6.5,8) rectangle (6.75,7.25);
+			\draw [ fill={rgb,255:red,0; green,0; blue,255} , rounded corners = 1.2] (7,8) rectangle (7.25,7.25);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} , rounded corners = 1.2] (7.5,8) rectangle (7.75,7.25);
+			\node [font=\LARGE] at (6.5,10) {HC-SR04};
+			\node [font=\normalsize, color={rgb,255:red,0; green,255; blue,0}, rotate around={90:(0,0)}] at (6.5,8.5) {Trig};
+			\node [font=\normalsize, color={rgb,255:red,0; green,0; blue,255}, rotate around={90:(0,0)}] at (7,8.5) {Echo};
+			\node [font=\normalsize, color={rgb,255:red,0; green,0; blue,0}, rotate around={90:(0,0)}] at (7.5,8.5) {Gnd};
+			\node [font=\normalsize, color={rgb,255:red,255; green,0; blue,0}, rotate around={90:(0,0)}] at (6,8.5) {Vcc};
+			\node [font=\huge] at (2,7.5) {T};
+			\node [font=\huge] at (11.5,7.5) {R};
+		\end{circuitikz}
+	}%
+	
+	\label{ultraschallsensor}
+\end{figure}
 
-
-\section{Specification}
+\section{Spezifikation}
 
  Der Sensor HC-SR04 ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm mit einer Auflösung von $\pm 1$mm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz.   Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. 
  
@@ -281,7 +313,7 @@ Der Ultraschallabstandssensor in Abbildung~\ref{Ultraschall Abstandssensor} vom 
  Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
 
 
-Bei den folgenden Beispielprogrammen wird der Arduino Nano 33 BLE Sense verwendet. In den Beispielen werden die Pins D6 und D9 für die Datenübertragung verwendet. In der Tabelle~\ref{PinBelegungUltraschall}  ist dies für die Grove-Schnittstelle festgehalten.
+Bei den folgenden Beispielprogrammen wird der Arduino Nano 33 BLE Sense verwendet. In den Beispielen werden die Pins D6 und D9 für die Datenübertragung verwendet. In der Tabelle~\ref{PinBelegungUltraschall}  ist dies für die Grove-Schnittstelle festgehalten und zudem auch in der Abbildung \ref{ultraschallsensor} zu sehen.
 
     \begin{center}
         \captionof{table}{Pinbelegung für den Ultraschallabstandssensor \cite{Simac:2017}}
@@ -317,13 +349,14 @@ bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheke
 	\item Navigiere zu: Sketch > Bibliothek einbinden > Bibliotheken verwalten…
 	\item Im Suchfeld oben rechts den Begriff NewPing eingeben
 	\item Wähle den Eintrag NewPing by Tim Eckel aus.
-	\item Klicke auf \glqq Installieren.
+	\item Klicke auf \glqq Installieren \grqq.
 \end{enumerate}
 
 \subsection{Funktionen}
 Die Bibliothek NewPing bietet eine Vielzahl an Funktionen, die den praktischen Einsatz des
 Ultraschallsensors vereinfachen und erweitern. Die wichtigsten Funktionen umfassen:
-\cite{Arduino:2025}
+\cite{Arduino:2024}
+
 \begin{itemize}
 	\item Initialisierung eines Sensors durch Angabe der verwendeten Pins für Trigger- und Echo-
 	Signal sowie der maximalen Messdistanz.
@@ -366,69 +399,27 @@ bevor komplexere Bibliotheken verwendet werden. Ein Vorteil besteht darin, dass 
 Verzögerungen (Ausschwingzeit, Sensoreigenheiten) direkt analysiert und berücksichtigt werden
 können \cite{Hering:2023}
 
-\subsection{Beispiel}
-Im Projekt Magic Faucet Fountain wird der Ultraschallsensor HC-SR04 zur kontinuierlichen
-Messung des Wasserstands im Reservoir verwendet, zu sehen in \ref{fig:schwimmer}. Dabei ersetzt der Sensor herkömmliche
-Schwimmerschalter oder leitfähige Pegelmessungen durch eine berührungslose Lösung.
+%\subsection{Beispiel}
+%\textbf{Funktionsweise im Projektkontext:}
+%\begin{itemize}
+%	\item Der Sensor ist oberhalb des Wasserbehälters befestigt und misst zyklisch den Abstand
+%	zur Wasseroberfläche.
+%	\item Die gemessene Distanz wird in einen Füllstand umgerechnet, wobei die volle und leere
+%	Höhe des Behälters als Referenz dienen.
+%	\item Der Wasserstand dient als Steuersignal für:
+%		\begin{itemize}
+%			\item die Nachfülllogik (z. B. über ein Magnetventil),
+%			\item die Sicherheitsabschaltung, falls der Wasserstand zu niedrig ist,
+%			\item die visuelle Anzeige über LEDs oder auf einem Display.
+%		\end{itemize}
+%\end{itemize}
+%Diese Methode ist ideal für dekorative Installationen wie Springbrunnen, bei denen Hygiene,
+%Wartungsfreiheit und Dichtigkeit entscheidend sind.\cite{Traenkler:2014}
 
-\textbf{Funktionsweise im Projektkontext:}
-\begin{itemize}
-	\item Der Sensor ist oberhalb des Wasserbehälters befestigt und misst zyklisch den Abstand
-	zur Wasseroberfläche.
-	\item Die gemessene Distanz wird in einen Füllstand umgerechnet, wobei die volle und leere
-	Höhe des Behälters als Referenz dienen.
-	\item Der Wasserstand dient als Steuersignal für:
-		\begin{itemize}
-			\item die Nachfülllogik (z. B. über ein Magnetventil),
-			\item die Sicherheitsabschaltung, falls der Wasserstand zu niedrig ist,
-			\item die visuelle Anzeige über LEDs oder auf einem Display.
-		\end{itemize}
-\end{itemize}
-Diese Methode ist ideal für dekorative Installationen wie Springbrunnen, bei denen Hygiene,
-Wartungsfreiheit und Dichtigkeit entscheidend sind.\cite{Traenkler:2014}
-
-\textbf{Aufbau des Schwimmerrohres}
-\begin{figure}[!ht]
-	\centering
-	\resizebox{0.6\textwidth}{!}{%
-		\begin{circuitikz}
-			\tikzstyle{every node}=[font=\LARGE]
-			\draw [short] (5,3.25) -- (5,13.25);
-			\draw [short] (8.75,3.25) -- (8.75,13.25);
-			\draw [short] (5,13.25) -- (8.75,13.25);
-			\draw [short] (8.25,3.25) -- (8.25,12.25);
-			\draw [short] (5.5,3.25) -- (5.5,12);
-			\draw [short] (5.5,12) -- (5.5,12.25);
-			\draw [short] (5.5,12.25) -- (8.25,12.25);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (5.75,12.25) -- (5.75,11.5);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (5.75,11.5) -- (6.5,11.5);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (6.5,11.5) -- (6.5,12.25);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (8,12.25) -- (8,11.5);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (8,11.5) -- (7.25,11.5);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (7.25,11.5) -- (7.25,12.25);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (5.75,12.25) -- (6.5,12.25);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (7.25,12.25) -- (8,12.25);
-			\draw [ color={rgb,255:red,0; green,128; blue,255}, line width=0.6pt, short] (7.25,12) -- (6.5,12);
-			\begin{scope}[rotate around={-87.5:(6.75,11.25)}]
-				\draw[domain=6.75:12.25,samples=100, color={rgb,255:red,255; green,0; blue,0}, , line width=0.6pt] plot (\x,{1*sin(6.22*\x r -6.75 r ) +11.25});
-			\end{scope}
-			\draw [ color={rgb,255:red,128; green,64; blue,0} , fill={rgb,255:red,128; green,64; blue,64}, line width=0.6pt ] (7,4.75) ellipse (1cm and 0.5cm);
-			\draw[domain=5.5:8.25,samples=100, color={rgb,255:red,0; green,128; blue,255}, , line width=0.6pt] plot (\x,{0.1*sin(10*\x r -0.5 r ) +4});
-			\draw [line width=0.6pt, short] (5,3.25) -- (5.5,3.25);
-			\draw [line width=0.6pt, short] (8.25,3.25) -- (8.75,3.25);
-			\draw[domain=2.25:5,samples=100, color={rgb,255:red,0; green,128; blue,255}, , line width=0.6pt] plot (\x,{0.1*sin(10*\x r +2.75 r ) +4});
-			\draw[domain=8.75:11.5,samples=100, color={rgb,255:red,0; green,128; blue,255}, , line width=0.6pt] plot (\x,{0.1*sin(10*\x r -3.75 r ) +4});
-			\node [font=\LARGE] at (6,11.75) {R};
-			\node [font=\LARGE] at (7.75,11.75) {T};
-		\end{circuitikz}
-	}
-	\caption{Aufbau und Funktionsweise vom Schwimmer-Rohr}
-	\label{fig:schwimmer}
-\end{figure}
 
 
 \subsection{Beispiel - Code}
-Nachfolgend ein vereinfachter Arduino-Sketch für das Projekt Magic Faucet Fountain, der den
+Nachfolgend ein vereinfachter Arduino-Sketch für ein Projekt, das den
 Wasserstand auf einem seriellen Monitor ausgibt:
 
 
@@ -442,7 +433,6 @@ Die Projektdateien befinden sich im Ordner:
 Sie bestehen aus:
 \begin{itemize}
 	\item dem Hauptsketch zur Wasserstandsmessung: \\ \texttt{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
-	\item einer optionalen Display-Ausgabe (z. B. mit OLED/SSD1306)
 	\item sowie Modulen zur Pumpensteuerung, Ventilregelung oder LED-Statusanzeige
 \end{itemize}
 Das gesamte System kann modular erweitert werden, z. B. durch Integration in ein IoT-
@@ -546,8 +536,12 @@ systematisch verschiedene Einflüsse auf die Messgenauigkeit überprüft: \cite{
 
 \subsection{Lösungsansätze}
 
-Um große mögliche Messfehler aufgrund einer fest hinterlegten Schallgeschwindigkeit zu vermeiden, soll die Temperatur von dem internen Temperatursensor des Arduino Nano 33 BLE Sense Lite bei einer Abstandsmessung erfasst und auf dessen Grundlage die Schallgeschwindigkeit berechnet werden. Da der Sensor jedoch auf der Platine ist, diese sich bei Benutzung selbst erwärmt und zusätzlich in einem Gehäuse verbaut ist, dessen Material gute wärmeisolierende Eigenschaften hat, ist die von ihm gemessene Temperatur zeitabhängig. Daraus folgt, dass seine Messwerte nicht für die Berechnung der Schallgeschwindigkeit verwendet werden können.
-Die Verwendung eines zusätzlichen Temperatursensors wäre eine mögliche Lösung. Daher wird, um eine zu große Abweichung des angezeigten Messwertes zu verhindern, der für den Sensor zugelassene Temperaturbereich eingeschränkt. Ein möglicher Temperaturbereich ist zwischen $17 \:\text{\textcelsius \:und} \:23 \:\text{\textcelsius}$. In diesem Bereich liegt die Abweichung der Schallgeschwindigkeit bei unter $0,5\%$. Ob diese Genauigkeit ausreichend ist, ist von der Anwendung abhängig.
+%Um große mögliche Messfehler aufgrund einer fest hinterlegten Schallgeschwindigkeit zu vermeiden, soll die Temperatur von dem internen Temperatursensor des Arduino Nano 33 BLE Sense Lite bei einer Abstandsmessung erfasst und auf dessen Grundlage die Schallgeschwindigkeit berechnet werden. Da der Sensor jedoch auf der Platine ist, diese sich bei Benutzung selbst erwärmt und zusätzlich in einem Gehäuse verbaut ist, dessen Material gute wärmeisolierende Eigenschaften hat, ist die von ihm gemessene Temperatur zeitabhängig. Daraus folgt, dass seine Messwerte nicht für die Berechnung der Schallgeschwindigkeit verwendet werden können.
+%Die Verwendung eines zusätzlichen Temperatursensors wäre eine mögliche Lösung. Daher wird, um eine zu große Abweichung des angezeigten Messwertes zu verhindern, der für den Sensor zugelassene Temperaturbereich eingeschränkt. Ein möglicher Temperaturbereich ist zwischen $17 \:\text{\textcelsius \:und} \:23 \:\text{\textcelsius}$. In diesem Bereich liegt die Abweichung der Schallgeschwindigkeit bei unter $0,5\%$. Ob diese Genauigkeit ausreichend ist, ist von der Anwendung abhängig.
+Die Genauigkeit von Ultraschall-Abstandsmessungen hängt unter anderem von der Schallgeschwindigkeit ab, welche wiederum temperaturabhängig ist. 
+Wird die Schallgeschwindigkeit im Auswertungsprozess als konstanter Wert angenommen, kann es bei Abweichungen von der tatsächlichen Umgebungstemperatur zu Messfehlern kommen. Eine Möglichkeit zur Korrektur besteht darin, die aktuelle Temperatur zu erfassen und die Schallgeschwindigkeit entsprechend anzupassen.
+In vielen Systemen wird hierfür ein interner Temperatursensor verwendet. Liegt dieser jedoch direkt auf der Platine und ist in einem Gehäuse untergebracht, kann es durch Eigenwärme und Isolation zu einer zeitverzögerten oder verfälschten Temperaturmessung kommen. Die Verwendung eines separaten Temperatursensors außerhalb des Gehäuses wäre in solchen Fällen eine mögliche Lösung, ist jedoch mit zusätzlichem Aufwand verbunden.
+Für das vorliegende Projekt, bei dem ein visueller Effekt eines scheinbar schwebenden Wasserhahns erzeugt werden soll, ist eine sehr hohe Messgenauigkeit nicht zwingend erforderlich. Der Wasserstand im Behälter wird zusätzlich durch Bohrungen geregelt, die ein Überlaufen verhindern. Die Ultraschallmessung dient primär der groben Überwachung des Füllstandes, beispielsweise zur rechtzeitigen Nachfüllung. Geringe Messabweichungen durch temperaturbedingte Schwankungen der Schallgeschwindigkeit sind daher tolerierbar und haben keinen wesentlichen Einfluss auf die Funktionalität der Installation.
 
 
 \section{Weiterführende Anwendungen}

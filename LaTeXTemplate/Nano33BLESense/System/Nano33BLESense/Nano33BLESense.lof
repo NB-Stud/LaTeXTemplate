@@ -113,37 +113,36 @@
 \contentsline {figure}{\numberline {27.1}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{243}{figure.caption.107}%
 \contentsline {figure}{\numberline {27.2}{\ignorespaces Abnahme der Schallintensität in Abhängigkeit der Frequenz bei einem Meter, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{244}{figure.caption.108}%
 \contentsline {figure}{\numberline {27.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{245}{figure.caption.109}%
-\contentsline {figure}{\numberline {27.4}{\ignorespaces Ultraschallabstandssensor der Marke JOY-IT\blx@tocontentsinit {0}\cite {Simac:2017}}}{246}{figure.27.4}%
-\contentsline {figure}{\numberline {27.5}{\ignorespaces Aufbau und Funktionsweise vom Schwimmer-Rohr}}{249}{figure.caption.110}%
-\contentsline {figure}{\numberline {27.6}{\ignorespaces Testoutput des Ultraschallsensors}}{253}{figure.27.6}%
+\contentsline {figure}{\numberline {27.4}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{245}{figure.caption.110}%
+\contentsline {figure}{\numberline {27.5}{\ignorespaces Testoutput des Ultraschallsensors}}{250}{figure.27.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {28.1}{\ignorespaces Motorsteuerung DEBO MotoDriver2 L298N}}{258}{figure.caption.112}%
-\contentsline {figure}{\numberline {28.2}{\ignorespaces Treiber mit Beschriftung}}{258}{figure.caption.113}%
+\contentsline {figure}{\numberline {28.1}{\ignorespaces Motorsteuerung DEBO MotoDriver2 L298N}}{256}{figure.caption.112}%
+\contentsline {figure}{\numberline {28.2}{\ignorespaces Treiber mit Beschriftung}}{256}{figure.caption.113}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {29.1}{\ignorespaces Terminal Adapter Board mit Schraubklemmen kompatibel mit Nano V3 und Arduino}}{260}{figure.caption.115}%
+\contentsline {figure}{\numberline {29.1}{\ignorespaces Terminal Adapter Board mit Schraubklemmen kompatibel mit Nano V3 und Arduino}}{258}{figure.caption.115}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {31.1}{\ignorespaces NRF Connect Application}}{263}{figure.31.1}%
-\contentsline {figure}{\numberline {31.2}{\ignorespaces Landing page}}{264}{figure.31.2}%
-\contentsline {figure}{\numberline {31.3}{\ignorespaces List of devices}}{265}{figure.31.3}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {31.1}{\ignorespaces NRF Connect Application}}{261}{figure.31.1}%
+\contentsline {figure}{\numberline {31.2}{\ignorespaces Landing page}}{262}{figure.31.2}%
+\contentsline {figure}{\numberline {31.3}{\ignorespaces List of devices}}{263}{figure.31.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {38.1}{\ignorespaces Bernstein polynomial of degree $3$}}{289}{figure.caption.118}%
-\contentsline {figure}{\numberline {38.2}{\ignorespaces Bézier curve for example \ref {KPunkte4Beispiel} }}{290}{figure.caption.119}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {39.1}{\ignorespaces Smoothing a corner with the help of an arc - triangle}}{291}{figure.caption.120}%
-\contentsline {figure}{\numberline {39.2}{\ignorespaces Angular change with blending arc}}{293}{figure.caption.121}%
-\contentsline {figure}{\numberline {39.3}{\ignorespaces Curvature progression for a blending arc}}{293}{figure.caption.122}%
-\contentsline {figure}{\numberline {39.4}{\ignorespaces Maximum range for a blending arc of a circle - $L(\varepsilon =const, \alpha )$}}{294}{figure.caption.123}%
-\contentsline {figure}{\numberline {39.5}{\ignorespaces Deviation when specifying the distance $L$ when rounding with a circular arc}}{294}{figure.caption.124}%
+\contentsline {figure}{\numberline {38.1}{\ignorespaces Bernstein polynomial of degree $3$}}{287}{figure.caption.118}%
+\contentsline {figure}{\numberline {38.2}{\ignorespaces Bézier curve for example \ref {KPunkte4Beispiel} }}{288}{figure.caption.119}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {40.1}{\ignorespaces Programme flow chart \glqq Corner rounding\grqq }}{309}{figure.caption.127}%
-\contentsline {figure}{\numberline {40.2}{\ignorespaces Programme flowchart \glqq Selection of the rounding strategies\grqq }}{310}{figure.caption.128}%
+\contentsline {figure}{\numberline {39.1}{\ignorespaces Smoothing a corner with the help of an arc - triangle}}{289}{figure.caption.120}%
+\contentsline {figure}{\numberline {39.2}{\ignorespaces Angular change with blending arc}}{291}{figure.caption.121}%
+\contentsline {figure}{\numberline {39.3}{\ignorespaces Curvature progression for a blending arc}}{291}{figure.caption.122}%
+\contentsline {figure}{\numberline {39.4}{\ignorespaces Maximum range for a blending arc of a circle - $L(\varepsilon =const, \alpha )$}}{292}{figure.caption.123}%
+\contentsline {figure}{\numberline {39.5}{\ignorespaces Deviation when specifying the distance $L$ when rounding with a circular arc}}{292}{figure.caption.124}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {40.1}{\ignorespaces Programme flow chart \glqq Corner rounding\grqq }}{307}{figure.caption.127}%
+\contentsline {figure}{\numberline {40.2}{\ignorespaces Programme flowchart \glqq Selection of the rounding strategies\grqq }}{308}{figure.caption.128}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

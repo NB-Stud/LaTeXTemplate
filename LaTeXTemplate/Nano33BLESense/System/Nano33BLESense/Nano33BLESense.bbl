@@ -17,6 +17,29 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global/global}
+  \entry{Arduino:2024}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=AA}{%
+         family={AG},
+         familyi={A\bibinitperiod},
+         given={Arduino},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AA1}
+    \strng{fullhash}{AA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{AG24}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{NewPing -- Library Documentation}
+    \verb{url}
+    \verb https://docs.arduino.cc/libraries/newping/
+    \endverb
+    \field{year}{2024}
+  \endentry
+
   \entry{Abadi:2016}{inproceedings}{}{}
     \name{author}{22}{}{%
       {{hash=AM}{%
