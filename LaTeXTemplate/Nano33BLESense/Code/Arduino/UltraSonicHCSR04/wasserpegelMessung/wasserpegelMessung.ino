@@ -1,64 +1,63 @@
 /**
  * @file wasserstandsensor.ino
- * @brief Misst den Wasserstand mithilfe eines Ultraschallsensors (HC-SR04).
+ * @brief Measures the water level using an ultrasonic sensor (HC-SR04).
  * 
- * Dieses Programm verwendet die NewPing-Bibliothek zur Messung des Abstands
- * zwischen Sensor und Wasseroberflaeche und berechnet daraus den Wasserstand.
+ * This program uses the NewPing library to measure the distance
+ * between the sensor and the water surface, and calculates the water level.
  * 
- * Die Berechnung erfolgt mit folgender Formel:
+ * The calculation uses the following formula:
  * \f[
- * s = \text{Tankhoehe} - \text{gemessene Entfernung}
+ * s = \text{Tank height} - \text{measured distance}
  * \f]
  * 
- * Bei einem kritischen Wasserstand < 5 cm wird eine Warnung ueber die serielle
- * Schnittstelle ausgegeben.
+ * If the water level is below 5 cm, a warning is printed to the serial monitor.
  */
 
 #include <NewPing.h>
 
-/// Pin fuer das Triggersignal des Ultraschallsensors
+/// Pin for the ultrasonic sensor's trigger signal
 #define TRIGGER_PIN 9
 
-/// Pin fuer das Echosignal des Ultraschallsensors
+/// Pin for the ultrasonic sensor's echo signal
 #define ECHO_PIN 6
 
-/// Maximale Messdistanz des Sensors in Zentimetern
+/// Maximum sensor distance in centimeters
 #define MAX_DISTANCE 100
 
-/// Initialisierung des Ultraschallsensors
+/// Initialize the ultrasonic sensor
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
 
-/// Variable zur Speicherung des berechneten Wasserstands
-int wasserstand;
+/// Variable to store the calculated water level
+int waterLevel;
 
-/// Hoehe des Tanks in Zentimetern
-const int tankhoehe = 40;
+/// Tank height in centimeters
+const int tankHeight = 40;
 
 /**
- * @brief Initialisierung der seriellen Schnittstelle.
+ * @brief Initializes the serial communication.
  */
 void setup() {
   Serial.begin(9600);
 }
 
 /**
- * @brief Hauptloop zur regelmaessigen Abstandsmessung und Wasserstandskontrolle.
+ * @brief Main loop for periodic distance measurement and water level monitoring.
  */
 void loop() {
   delay(500);
 
-  /// Gemessene Entfernung zur Wasseroberflaeche in cm
-  int entfernung = sonar.ping_cm();
+  /// Measured distance to the water surface in cm
+  int distance = sonar.ping_cm();
 
-  // Berechnung des aktuellen Wasserstands
-  wasserstand = tankhoehe - entfernung;
+  // Calculate the current water level
+  waterLevel = tankHeight - distance;
 
-  Serial.print("Aktueller Wasserstand: ");
-  Serial.print(wasserstand);
+  Serial.print("Current water level: ");
+  Serial.print(waterLevel);
   Serial.println(" cm");
 
-  // Beispielhafte Warnung bei niedrigem Wasserstand
-  if (wasserstand < 5) {
-    Serial.println("WARNUNG: Wasserstand kritisch niedrig!");
+  // Example warning if water level is critically low
+  if (waterLevel < 5) {
+    Serial.println("WARNING: Critically low water level!");
   }
 }
