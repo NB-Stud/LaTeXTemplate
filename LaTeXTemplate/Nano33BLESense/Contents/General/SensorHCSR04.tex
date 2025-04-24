@@ -17,7 +17,7 @@
 %\Mynote{cite books, applications, board}
 
 \section{Einleitung}
-Der Sensor HC-SR04 misst berührungslos den Abstand zwischen Sensor und der Oberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung. So lässt sich frühzeitig erkennen, wenn das kritische oder gewollte Abstand erreicht wird.
+Ein Ultraschallsensor misst berührungslos den Abstand zwischen Sensor und einer Werkstückoberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung, Warenerkennung und Abstandsmessung.\cite{Arduino:2024} \cite{Traenkler:2018} \cite{Hering:2023}
 
 \section{Domänenwissen}
 Ultraschallsensoren zur Abstandsmessung dienen der Ermittlung von Objektabständen
@@ -67,13 +67,13 @@ verwendet \cite{Muller:2017}.
 
 \section{Grundlagen zur Verwendung eines Ultraschallsensors}
 \label{grundlagen}
-Um den Ultraschallsensor HC-SR04 gezielt und effizient einsetzen zu können, ist ein
+Um einen Ultraschallsensor gezielt und effizient einsetzen zu können, ist ein
 grundlegendes Verständnis über die Funktionsweise, technischen Eigenschaften und
 Anwendungsvoraussetzungen abstandsmessender Ultraschallsensoren notwendig. Die
 folgenden Unterkapitel bieten eine strukturierte Einführung in die physikalischen und
 technischen Grundlagen des Sensors. Ziel ist es, ein tiefergehendes Verständnis für den
 Aufbau, die Signalverarbeitung und die praktische Handhabung des HC-SR04 zu
-vermitteln.
+vermitteln. \cite{Arduino:2024}
 
 \subsection{Grundlagen Schall}
 
@@ -261,7 +261,7 @@ Ebenfalls störend auswirken können sich die Geometrie des zu messenden Objekte
 
 \section{Ultraschall Abstandsensor}
 
-Der Ultraschallabstandssensor in Abbildung~\ref{ultraschallsensor} vom Hersteller JOY-it enthält den Sensor HC-SR04. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt und ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt.  Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. Die Auflösung des Sensors beträgt $\pm 1$ mm. Angeschlossen wird der Abstandssensor über den \ac{vcc}-Pin, Trig/\ac{scl}-Pin, Echo/\ac{sda}-Pin und dem \ac{gnd}-Pin. Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
+Der Ultraschallabstandssensor in Abbildung~\ref{ultraschallsensor} enthält den Sensor HC-SR04. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt und ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt.  Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. Die Auflösung des Sensors beträgt $\pm 1$ mm. Angeschlossen wird der Abstandssensor über den \ac{vcc}-Pin, Trig/\ac{scl}-Pin, Echo/\ac{sda}-Pin und dem \ac{gnd}-Pin. Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
 
 %    \begin{center}
 %       \includegraphics[width=3in]{Sensor/HCSR04/HCSR04}
@@ -327,47 +327,18 @@ Bei den folgenden Beispielprogrammen wird der Arduino Nano 33 BLE Sense verwende
         \label{PinBelegungUltraschall}
     \end{center}
 
+\subsection{Anwendungen und Funktionen}
+Ultraschallsensoren finden in der Praxis Anwendung in verschiedenen Bereichen, die auf die Ausbreitung des Schalls über unterschiedliche Medien basieren HS23. Es lassen sich drei Hauptkategorien unterscheiden: In der ersten Kategorie breitet sich der Schall über Luft aus. Typische Anwendungen sind hier Füllstandmessungen, Durchmessererfassungen bei Auf- und Abwickelsteuerungen sowie Kollisionsschutz und Objekterkennung HS23. Die zweite Kategorie umfasst Sensoren, bei denen sich der Schall über Flüssigkeiten ausbreitet. Diese finden vor allem im maritimen Bereich Verwendung, beispielsweise in Sonarsystemen zum Orten von Unterseebooten oder Fischschwärmen sowie in Echoloten zur Kartografie des Meeresbodens HMS21. Die dritte Kategorie umfasst Körperschallsensoren, die in der Industrie zur zerstörungsfreien Materialprüfung sowie in der Medizin zur Ultraschalldiagnostik verwendet werden. HMS21
 
-
-\section{Bibliothek}
-
-\subsection{Beschreibung}
-Zur Ansteuerung des Ultraschallsensors HC-SR04 wird eine Arduino-kompatible Bibliothek
-New Ping verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
-Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Triggern, zur
-Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2024}.
-
-\subsection{Installation}
-Die Installation der Bibliothek NewPing, welche die Funktionalität des Ultraschallsensors HC-
-SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
-bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
-\cite{Arduino:2024}
-
-\textbf{Schrittweise Anleitung:}
-\begin{enumerate}
-	\item Öffne die Arduino IDE (Version 1.8.x oder neuer empfohlen).
-	\item Navigiere zu: Sketch > Bibliothek einbinden > Bibliotheken verwalten…
-	\item Im Suchfeld oben rechts den Begriff NewPing eingeben
-	\item Wähle den Eintrag NewPing by Tim Eckel aus.
-	\item Klicke auf \glqq Installieren \grqq.
-\end{enumerate}
-
-\subsection{Funktionen}
-Die Bibliothek NewPing bietet eine Vielzahl an Funktionen, die den praktischen Einsatz des
-Ultraschallsensors vereinfachen und erweitern. Die wichtigsten Funktionen umfassen:
-\cite{Arduino:2024}
-
+Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von Ultraschallsensoren erleichtern und erweitern. Die wichtigsten Funktionen sind: \cite{Arduino:2024}
 \begin{itemize}
-	\item Initialisierung eines Sensors durch Angabe der verwendeten Pins für Trigger- und Echo-
-	Signal sowie der maximalen Messdistanz.
-	\item Senden eines Ultraschallimpulses und Rückgabe der gemessenen Laufzeit in
-	Mikrosekunden.
-	\item Direkte Ausgabe der gemessenen Entfernung in Zentimetern basierend auf der Standard-
-	Schallgeschwindigkeit in Luft.
-	\item Durchführung mehrerer Messungen und Rückgabe des Medianwertes zur Reduktion von
-	Ausreißern.
-	\item Umrechnung einer bekannten Echozeit in Zentimeter zur manuellen Berechnung
-	\item Zugriff auf das letzte Messergebnis, ohne einen neuen Impuls auszulösen.
+	\item \textit{NewPing()}: Initialisierung eines Sensors durch Angabe der Pins für Trigger- und Echo-Signale sowie der maximalen Messdistanz.
+	\item \textit{ping()}: Senden eines Ultraschallimpulses und Rückgabe der gemessenen Laufzeit in Mikrosekunden.
+	\item \textit{getDistance()}: Direkte Ausgabe der gemessenen Entfernung in Zentimetern basierend auf der Standard-Schallgeschwindigkeit in Luft.
+	\item \textit{pingMedian()}: Durchführung mehrerer Messungen und Rückgabe des Medianwertes zur Reduktion von Ausreißern.
+	\item \textit{convert()}: Umrechnung einer bekannten Echozeit in Zentimeter zur manuellen Berechnung der Entfernung.
+	\item \textit{lastDistance()}: Zugriff auf das letzte Messergebnis, ohne einen neuen Impuls auszulösen.
+	Diese Funktionen ermöglichen eine einfache und präzise Nutzung von Ultraschallsensoren in verschiedenen Anwendungen, von der Einzelmessung bis hin zur Durchführung mehrerer Messungen zur Reduzierung von Ausreißern.
 \end{itemize}
 
 \subsection{Beispiel - Manuelle Abstandsmessung}
@@ -408,10 +379,10 @@ können \cite{Hering:2023}
 %	Höhe des Behälters als Referenz dienen.
 %	\item Der Wasserstand dient als Steuersignal für:
 %		\begin{itemize}
-%			\item die Nachfülllogik (z. B. über ein Magnetventil),
-%			\item die Sicherheitsabschaltung, falls der Wasserstand zu niedrig ist,
-%			\item die visuelle Anzeige über LEDs oder auf einem Display.
-%		\end{itemize}
+	%			\item die Nachfülllogik (z. B. über ein Magnetventil),
+	%			\item die Sicherheitsabschaltung, falls der Wasserstand zu niedrig ist,
+	%			\item die visuelle Anzeige über LEDs oder auf einem Display.
+	%		\end{itemize}
 %\end{itemize}
 %Diese Methode ist ideal für dekorative Installationen wie Springbrunnen, bei denen Hygiene,
 %Wartungsfreiheit und Dichtigkeit entscheidend sind.\cite{Traenkler:2014}
@@ -425,18 +396,45 @@ Wasserstand auf einem seriellen Monitor ausgibt:
 
 \ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
 
+\section{Bibliothek}
+
+\subsection{Beschreibung}
+Zur Ansteuerung des Ultraschallsensors HC-SR04 wird eine Arduino-kompatible Bibliothek
+New Ping verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
+Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Triggern, zur
+Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2024}.
+
+\subsection{Installation}
+Die Installation der Bibliothek NewPing, welche die Funktionalität des Ultraschallsensors HC-
+SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
+bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
+\cite{Arduino:2024}
+
+\textbf{Schrittweise Anleitung:}
+\begin{enumerate}
+	\item Öffne die Arduino IDE (Version 1.8.x oder neuer empfohlen).
+	\item Navigiere zu: Sketch > Bibliothek einbinden > Bibliotheken verwalten…
+	\item Im Suchfeld oben rechts den Begriff NewPing eingeben
+	\item Wähle den Eintrag NewPing by Tim Eckel aus.
+	\item Klicke auf \glqq Installieren \grqq.
+\end{enumerate}
 
 
-\subsection{Example - Dateien}
-Die Projektdateien befinden sich im Ordner:
-../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung
-Sie bestehen aus:
-\begin{itemize}
-	\item dem Hauptsketch zur Wasserstandsmessung: \\ \texttt{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
-	\item sowie Modulen zur Pumpensteuerung, Ventilregelung oder LED-Statusanzeige
-\end{itemize}
-Das gesamte System kann modular erweitert werden, z. B. durch Integration in ein IoT-
-Framework wie Blynk oder MQTT zur Fernüberwachung.\cite{Traenkler:2014}
+
+
+
+
+
+%\subsection{Example - Dateien}
+%Die Projektdateien befinden sich im Ordner:
+%../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung
+%Sie bestehen aus:
+%\begin{itemize}
+%	\item dem Hauptsketch zur Wasserstandsmessung: \\ \texttt{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
+%	\item sowie Modulen zur Pumpensteuerung, Ventilregelung oder LED-Statusanzeige
+%\end{itemize}
+%Das gesamte System kann modular erweitert werden, z. B. durch Integration in ein IoT-
+%Framework wie Blynk oder MQTT zur Fernüberwachung.\cite{Traenkler:2014}
 
 %\section{Calibration}
 \section{Kalibrierung}
@@ -458,41 +456,41 @@ Ziel dieses Simple Codes ist es, die korrekte Ansteuerung von digitalen Pins sow
 \ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/simple/simple.ino}
 }
 
-\section{Einfaches Beispiel zur Verwendung des Ultraschallabstandsensors}
-Eine einfache Applikation ist die Abstandserkennung zur Objektnähewarnung.
-Die Anwendung wird auf einem Mikrocontroller mit Signalverarbeitung zur Aktivierung eines
-Buzzers realisiert. \cite{Traenkler:2014}
+%\section{Einfaches Beispiel zur Verwendung des Ultraschallabstandsensors}
+%Eine einfache Applikation ist die Abstandserkennung zur Objektnähewarnung.
+%Die Anwendung wird auf einem Mikrocontroller mit Signalverarbeitung zur Aktivierung eines
+%Buzzers realisiert. \cite{Traenkler:2014}
 
-Mit dem Sketch \FILE{TestHCSR04 UltraschallsensorTest.ino} wird die Funktionalität des Ultraschallsensors getestet.
+%Mit dem Sketch \FILE{TestHCSR04 UltraschallsensorTest.ino} wird die Funktionalität des Ultraschallsensors getestet.
 
-\begin{code}
-    \pythonexternal[language=c++]{../../Code/Arduino/UltraSonicHCSR04/TestHCSR04.ino}
-\end{code}
+%\begin{code}
+%    \pythonexternal[language=c++]{../../Code/Arduino/UltraSonicHCSR04/TestHCSR04.ino}
+%\end{code}
 
 
-\subsection{Durchführung}
+%\subsection{Durchführung}
 
-Für den Test werden die folgenden Hardware-Komponenten benötigt:
+%Für den Test werden die folgenden Hardware-Komponenten benötigt:
 
-\begin{itemize}
-    \item Arduino Nano 33 BLE Sense Lite
-    \item Tiny Machine Learning Shield
-    \item USB-A auf USB-Mikro Verbindungskabel
-    \item Grove Jumper zu Grove 4 Pin Kabel
-    \item Ultraschallsensor
-\end{itemize}
+%\begin{itemize}
+%    \item Arduino Nano 33 BLE Sense Lite
+%    \item Tiny Machine Learning Shield
+%    \item USB-A auf USB-Mikro Verbindungskabel
+%    \item Grove Jumper zu Grove 4 Pin Kabel
+%    \item Ultraschallsensor
+%\end{itemize}
 
-Die Hardware-Komponenten werden verbunden und anschließend der  Arduino Nano 33 BLE Sense Lite mit einem Computer verbunden. Dann wird der Sketch \FILE{TestHCSR04.ino} auf den Arduino Nano 33 BLE Sense Lite geladen und der serielle Monitor in der Arduino \acs{ide} geöffnet. Ein Gegenstand wird ungefähr 20 cm orthogonal vor den Ultraschallsensor gehalten.
+%Die Hardware-Komponenten werden verbunden und anschließend der  Arduino Nano 33 BLE Sense Lite mit einem Computer verbunden. Dann wird der Sketch \FILE{TestHCSR04.ino} auf den Arduino Nano 33 BLE Sense Lite geladen und der serielle Monitor in der Arduino \acs{ide} geöffnet. Ein Gegenstand wird ungefähr 20 cm orthogonal vor den Ultraschallsensor gehalten.
 
-\subsection{Ergebnisse}
+%\subsection{Ergebnisse}
 
-Der gemessene Abstand wird in Abbildung~\ref{BildUltraschallsensorTest} dargestellt und liegt in dem erwarteten Bereich. 
+%Der gemessene Abstand wird in Abbildung~\ref{BildUltraschallsensorTest} dargestellt und liegt in dem erwarteten Bereich. 
 
-    \begin{center}
-        \includegraphics[width=\textwidth]{Sensor/HCSR04/HCSR04Test}
-        \captionof{figure}{Testoutput des Ultraschallsensors}
-        \label{BildUltraschallsensorTest}
-    \end{center}
+%    \begin{center}
+%        \includegraphics[width=\textwidth]{Sensor/HCSR04/HCSR04Test}
+%        \captionof{figure}{Testoutput des Ultraschallsensors}
+%        \label{BildUltraschallsensorTest}
+%    \end{center}
 
 \section{Simple Application}
 Eine anschauliche Demonstration der Moeglichkeiten eines Ultraschallsensors stellt das Projekt Magic Faucet Fountain dar. Hierbei wird mit Hilfe des HC-SR04 ein Effekt erzeugt, bei dem ein scheinbar magisch schwebender Wasserstrahl bei Annaeherung der Hand unterbrochen oder aktiviert wird – ideal zur Beruehrungslosigkeit in Hygienebereichen oder als interaktives Kunstobjekt.

@@ -1,18 +1,18 @@
 \begin{theindex}
 
-  \item 3D printer, 315
+  \item 3D printer, 313
 
   \indexspace
 
-  \item      Programmable Logic Controller, 313
+  \item      Programmable Logic Controller, 311
   \item  File
     \subitem Arduino LSM9DS1.h, 192
     \subitem Arduino\_APDS9960, 83, 88
     \subitem Arduino\_LSM9DS1.h, 191
     \subitem ArduinoBLE, 230
     \subitem ArduinoBLE.h, 228
-    \subitem Blink.ino, 312
-    \subitem Blink.py, 310
+    \subitem Blink.ino, 310
+    \subitem Blink.py, 308
     \subitem BuiltinLED.cpp, 44
     \subitem BuiltinLED.h, 44
     \subitem Kalman.h, 191, 192
@@ -23,7 +23,7 @@
     \subitem Mag\_raw.txt, 34
     \subitem Nano33BLE\_Led\_A0.ino, 224
     \subitem output.wav, 124
-    \subitem PackageExample.py, 277
+    \subitem PackageExample.py, 275
     \subitem PDM.h, 144
     \subitem pdm.h, 142, 143
     \subitem PowerLED.cpp, 50
@@ -40,8 +40,6 @@
     \subitem sound3.wav, 141
     \subitem SSD1306Ascii.h, 167
     \subitem TestBattery.ino, 210, 212
-    \subitem TestHCSR04 UltraschallsensorTest.ino, 250
-    \subitem TestHCSR04.ino, 250
     \subitem Wire.h, 167, 191, 193
     \subitem wire.h, 192
   \item  Inertial Measurement Unit
@@ -55,18 +53,18 @@
 
   \indexspace
 
-  \item CAGD, 315
-    \subitem Splines, 315
-  \item CNN, 21, 313
+  \item CAGD, 313
+    \subitem Splines, 313
+  \item CNN, 21, 311
   \item Computerized Numerical Control
-    \subitem  \emph  {see} {CNN}, 21, 313
+    \subitem  \emph  {see} {CNN}, 21, 311
 
   \indexspace
 
-  \item Example, 277
-    \subitem Description, 277
-    \subitem Installation, 277
-    \subitem Introduction, 277
+  \item Example, 275
+    \subitem Description, 275
+    \subitem Installation, 275
+    \subitem Introduction, 275
 
   \indexspace
 
@@ -77,7 +75,7 @@
   \indexspace
 
   \item I\textsuperscript  {2}C, 21, 245, 246
-  \item IDE, 21, 212, 250
+  \item IDE, 21, 212
   \item IMU, 21, 30, 33
   \item Integrated Development Environment
     \subitem  \emph  {see} IDE, 21
@@ -119,7 +117,7 @@
     \subitem Pin 23, 56
     \subitem Pin 24, 56
     \subitem Pin 25, 48, 50
-  \item PLC, \see{         Programmable Logic Controller}{313}
+  \item PLC, \see{         Programmable Logic Controller}{311}
   \item Printed Circuit Board
     \subitem \emph  {see} PB, 21, 213
   \item Pulse Density Modulation
@@ -141,9 +139,9 @@
   \item Serial Peripheral Interface
     \subitem  \emph  {see} SPI, 21, 219
   \item Speicherprogrammierbare Steuerung
-    \subitem  \emph  {see} SPS, 21, 313
+    \subitem  \emph  {see} SPS, 21, 311
   \item SPI, 21, 219
-  \item SPS, 21, 313
+  \item SPS, 21, 311
 
   \indexspace
 
