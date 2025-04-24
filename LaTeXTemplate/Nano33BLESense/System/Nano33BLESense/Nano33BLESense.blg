@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 21240 items from 5000.
+Reallocated field_info (elt_size=4) to 21520 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -27,48 +27,49 @@ Repeated entry---line 251 of file ../../../MLbib/MyLiterature.bib
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Arduino:2025"
+Warning--I didn't find a database entry for "myLiterature.bib/Arduino:2024"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 115 entries,
+You've used 116 entries,
             6402 wiz_defined-function locations,
-            1960 strings with 37059 characters,
-and the built_in function-call counts, 893084 in all, are:
-= -- 67772
-> -- 17336
-< -- 5324
-+ -- 28300
-- -- 9080
-* -- 60844
-:= -- 97961
+            1966 strings with 37238 characters,
+and the built_in function-call counts, 902866 in all, are:
+= -- 68588
+> -- 17486
+< -- 5392
++ -- 28518
+- -- 9127
+* -- 61563
+:= -- 98936
 add.period$ -- 0
-call.type$ -- 115
-change.case$ -- 158
+call.type$ -- 116
+change.case$ -- 159
 chr.to.int$ -- 645
-cite$ -- 272
-duplicate$ -- 95186
-empty$ -- 78886
-format.name$ -- 7118
-if$ -- 178552
+cite$ -- 274
+duplicate$ -- 96042
+empty$ -- 79779
+format.name$ -- 7191
+if$ -- 180667
 int.to.chr$ -- 0
-int.to.str$ -- 363
+int.to.str$ -- 367
 missing$ -- 0
-newline$ -- 3913
-num.names$ -- 5775
-pop$ -- 41992
+newline$ -- 3947
+num.names$ -- 5858
+pop$ -- 42348
 preamble$ -- 1
-purify$ -- 3168
+purify$ -- 3219
 quote$ -- 0
-skip$ -- 24726
+skip$ -- 25059
 stack$ -- 0
-substring$ -- 122327
-swap$ -- 19496
-text.length$ -- 3904
-text.prefix$ -- 183
+substring$ -- 123925
+swap$ -- 19686
+text.length$ -- 3939
+text.prefix$ -- 184
 top$ -- 1
-type$ -- 3889
+type$ -- 3923
 warning$ -- 0
-while$ -- 11998
+while$ -- 12094
 width$ -- 0
-write$ -- 3799
+write$ -- 3832
 (There was 1 error message)
