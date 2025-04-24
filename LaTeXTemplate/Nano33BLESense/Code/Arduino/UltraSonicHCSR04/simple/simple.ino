@@ -1,33 +1,33 @@
 /**
  * @file blink_led.ino
- * @brief Blinkt die integrierte LED des Arduino-Boards in 0,5-Sekunden-Intervallen.
+ * @brief Blinks the built-in LED of the Arduino board at 0.5-second intervals.
  *
- * Dieses einfache Beispiel demonstriert, wie man mit `digitalWrite()` und `delay()` die
- * integrierte LED (meist auf Pin LED_BUILTIN) blinken lassen kann.
+ * This simple example demonstrates how to use `digitalWrite()` and `delay()` to 
+ * make the built-in LED (usually connected to LED_BUILTIN) blink.
  *
- * @author Dein Name
+ * @author Your Name
  * @date 2025-04-13
  */
 
 /**
- * @brief Setup-Funktion wird einmal beim Start des Programms aufgerufen.
+ * @brief The setup function is called once when the program starts.
  * 
- * Initialisiert den integrierten LED-Pin als Ausgang.
+ * Initializes the built-in LED pin as an output.
  */
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT); /**< Setzt den LED-Pin als Ausgang */
+  pinMode(LED_BUILTIN, OUTPUT); /**< Set the LED pin as output */
 }
 
 /**
- * @brief Loop-Funktion wird kontinuierlich ausgefuehrt.
+ * @brief The loop function runs continuously.
  * 
- * Schaltet die LED an, wartet 500 ms, schaltet sie aus und wartet erneut.
- * So entsteht ein Blinkeffekt.
+ * Turns the LED on, waits 500 ms, turns it off, and waits again.
+ * This creates a blinking effect.
  */
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH); /**< LED einschalten */
-  delay(500);                      /**< 500 Millisekunden warten */
+  digitalWrite(LED_BUILTIN, HIGH); /**< Turn on the LED */
+  delay(500);                      /**< Wait for 500 milliseconds */
   
-  digitalWrite(LED_BUILTIN, LOW);  /**< LED ausschalten */
-  delay(500);                      /**< 500 Millisekunden warten */
+  digitalWrite(LED_BUILTIN, LOW);  /**< Turn off the LED */
+  delay(500);                      /**< Wait for 500 milliseconds */
 }
