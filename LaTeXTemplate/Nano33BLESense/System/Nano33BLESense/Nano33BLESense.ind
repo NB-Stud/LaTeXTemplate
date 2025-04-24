@@ -40,8 +40,8 @@
     \subitem sound3.wav, 141
     \subitem SSD1306Ascii.h, 167
     \subitem TestBattery.ino, 210, 212
-    \subitem TestHCSR04 UltraschallsensorTest.ino, 252
-    \subitem TestHCSR04.ino, 252
+    \subitem TestHCSR04 UltraschallsensorTest.ino, 251
+    \subitem TestHCSR04.ino, 253
     \subitem Wire.h, 167, 191, 193
     \subitem wire.h, 192
   \item  Inertial Measurement Unit
@@ -72,12 +72,12 @@
 
   \item General Purpose Input Output
     \subitem  \emph  {see} GPIO, 21, 246
-  \item GPIO, 21, 246, 247
+  \item GPIO, 21, 246
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 21, 246, 247
-  \item IDE, 21, 212, 252
+  \item I\textsuperscript  {2}C, 21, 246
+  \item IDE, 21, 212, 253
   \item IMU, 21, 30, 33
   \item Integrated Development Environment
     \subitem  \emph  {see} IDE, 21
@@ -132,8 +132,8 @@
 
   \indexspace
 
-  \item SCL, 21, 246, 247
-  \item SDA, 21, 246, 247
+  \item SCL, 21, 246
+  \item SDA, 21, 246
   \item Serial Clock
     \subitem  \emph  {see} SCL, 21, 246
   \item Serial Data
@@ -147,13 +147,13 @@
 
   \indexspace
 
-  \item UART, 21, 246, 247
+  \item UART, 21, 246
   \item Universal Asynchronous Receiver Transmitter
     \subitem  \emph  {see} UART, 21, 246
 
   \indexspace
 
-  \item VCC, 21, 210, 246, 247
+  \item VCC, 21, 210, 246
   \item Voltage at the Common Collector
     \subitem  \emph  {see} VCC, 21, 210
 
