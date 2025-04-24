@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  24 APR 2025 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  24 APR 2025 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10138,6 +10138,21 @@ LaTeX Warning: Citation 'Traenkler:2018' on page 255 undefined on input line 57
 6.
 
 
+Underfull \hbox (badness 2495) in paragraph at lines 576--577
+\T1/lmr/m/n/10 (+20) buch für Praxis und Wis^^?senschaft.
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 576--577
+\T1/lmr/m/n/10 (+20) 2. Aufl., Springer Vieweg, 2018
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
+[]|\T1/lmr/m/n/10 (+20) Ein schöner Ein^^?stieg und
+ []
+
+
 LaTeX Warning: Citation 'ArduinoDoc:2024' on page 255 undefined on input line 5
 82.
 
@@ -11847,7 +11862,7 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 Here is how much of TeX's memory you used:
  109913 strings out of 473190
  2854146 string characters out of 5716853
- 4595433 words of memory out of 5000000
+ 4595507 words of memory out of 5000000
  126720 multiletter control sequences out of 15000+600000
  763875 words of font info for 506 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
@@ -11878,7 +11893,7 @@ e1/public/amsfonts/symbols/msbm10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/t
 ype1/public/cm-super/sftt1000.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1
 /urw/courier/ucrb8a.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/couri
 er/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (334 pages, 11846245 bytes).
+Output written on Nano33BLESense.pdf (334 pages, 11846505 bytes).
 PDF statistics:
  10245 PDF objects out of 10688 (max. 8388607)
  9591 compressed objects within 96 object streams
