@@ -463,9 +463,8 @@
 \contentsline {subsection}{\numberline {27.6.3}Funktionen}{247}{subsection.27.6.3}%
 \contentsline {subsection}{\numberline {27.6.4}Beispiel - Manuelle Abstandsmessung}{248}{subsection.27.6.4}%
 \contentsline {subsection}{\numberline {27.6.5}Beispiel}{248}{subsection.27.6.5}%
-\contentsline {subsection}{\numberline {27.6.6}Aufbau des Schwimmerrohres}{249}{subsection.27.6.6}%
-\contentsline {subsection}{\numberline {27.6.7}Beispiel - Code}{249}{subsection.27.6.7}%
-\contentsline {subsection}{\numberline {27.6.8}Example - Dateien}{250}{subsection.27.6.8}%
+\contentsline {subsection}{\numberline {27.6.6}Beispiel - Code}{249}{subsection.27.6.6}%
+\contentsline {subsection}{\numberline {27.6.7}Example - Dateien}{250}{subsection.27.6.7}%
 \contentsline {section}{\numberline {27.7}Kalibrierung}{250}{section.27.7}%
 \contentsline {section}{\numberline {27.8}Simple Code}{251}{section.27.8}%
 \contentsline {section}{\numberline {27.9}Einfaches Beispiel zur Verwendung des Ultraschallabstandsensors}{251}{section.27.9}%

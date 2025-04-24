@@ -17,18 +17,7 @@
 %\Mynote{cite books, applications, board}
 
 \section{Einleitung}
-Im Rahmen des Projekts „Magic Faucet Fountain“, bei dem der Eindruck eines
-schwebenden, magisch fließenden Wasserhahns erzeugt wird, spielt die kontinuierliche
-Überwachung des Wasserstandes eine zentrale Rolle. Um sicherzustellen, dass die
-Pumpe stets ausreichend Wasser zur Verfügung hat und der Effekt der „schwebenden
-Fontäne“ stabil bleibt, ist eine zuverlässige Wasserstandsmessung erforderlich.
-Hierfür kommt der Ultraschallsensor HC-SR04 zum Einsatz. Er misst berührungslos den
-Abstand zwischen Sensor und Wasseroberfläche. Aus dieser Distanz kann der
-aktuelle Wasserfüllstand im Behälter berechnet werden. Der Sensor arbeitet nach dem
-Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache,
-kostengünstige und präzise Möglichkeit zur Pegelüberwachung. So lässt sich frühzeitig
-erkennen, wenn Wasser nachgefüllt werden muss oder ein kritischer Mindeststand
-erreicht ist.
+Der Sensor HC-SR04 misst berührungslos den Abstand zwischen Sensor und der Oberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung. So lässt sich frühzeitig erkennen, wenn das kritische oder gewollte Abstand erreicht wird.
 
 \section{Domänenwissen}
 Ultraschallsensoren zur Abstandsmessung dienen der Ermittlung von Objektabständen
@@ -322,7 +311,7 @@ Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Tri
 Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2025}.
 
 \subsection{Installation}
-Die Installation der Bibliothek „NewPing“, welche die Funktionalität des Ultraschallsensors HC-
+Die Installation der Bibliothek NewPing, welche die Funktionalität des Ultraschallsensors HC-
 SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
 bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
 \cite{Arduino:2025}
@@ -401,9 +390,9 @@ Schwimmerschalter oder leitfähige Pegelmessungen durch eine berührungslose Lö
 		\end{itemize}
 \end{itemize}
 Diese Methode ist ideal für dekorative Installationen wie Springbrunnen, bei denen Hygiene,
-Wartungsfreiheit und Dichtigkeit entscheidend sind.\cite{Traenkler:2014}
+Wartungsfreiheit und Dichtigkeit entscheidend sind.\cite{Traenkler:2014}\\
 
-\subsection{Aufbau des Schwimmerrohres}
+\textbf{Aufbau des Schwimmerrohres}
 \begin{figure}[!ht]
 	\centering
 	\resizebox{0.6\textwidth}{!}{%
