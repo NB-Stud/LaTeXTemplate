@@ -1,5 +1,5 @@
 /**
- * @file blink_led.ino
+ * @file simple.ino
  * @brief Blinks the built-in LED of the Arduino board at 0.5-second intervals.
  *
  * This simple example demonstrates how to use `digitalWrite()` and `delay()` to 

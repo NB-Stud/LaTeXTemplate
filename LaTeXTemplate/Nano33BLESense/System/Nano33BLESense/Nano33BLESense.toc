@@ -328,13 +328,13 @@
 \contentsline {subsection}{\numberline {21.13.1}Taking the Project Further}{208}{subsection.21.13.1}%
 \contentsline {chapter}{\numberline {22}Ultraschallsensor HC-SR04}{209}{chapter.22}%
 \contentsline {section}{\numberline {22.1}Einleitung}{209}{section.22.1}%
-\contentsline {section}{\numberline {22.2}Domänenwissen}{209}{section.22.2}%
+\contentsline {section}{\numberline {22.2}Ultraschallsensoren zur Abstandsmessung}{209}{section.22.2}%
 \contentsline {section}{\numberline {22.3}Grundlagen zur Verwendung eines Ultraschallsensors}{210}{section.22.3}%
 \contentsline {subsection}{\numberline {22.3.1}Grundlagen Schall}{210}{subsection.22.3.1}%
 \contentsline {subsection}{\numberline {22.3.2}Schallgeschwindigkeit und Wellenlänge}{210}{subsection.22.3.2}%
 \contentsline {subsection}{\numberline {22.3.3}Absorption und Reflexion}{211}{subsection.22.3.3}%
 \contentsline {subsection}{\numberline {22.3.4}Weg- und Abstandsmessung mit Ultraschall}{212}{subsection.22.3.4}%
-\contentsline {section}{\numberline {22.4}Ultraschall Abstandsensor}{213}{section.22.4}%
+\contentsline {section}{\numberline {22.4}Ultraschall-Abstandsensor HC-SR04}{213}{section.22.4}%
 \contentsline {section}{\numberline {22.5}Spezifikation}{213}{section.22.5}%
 \contentsline {subsection}{\numberline {22.5.1}Anwendungen und Funktionen}{214}{subsection.22.5.1}%
 \contentsline {subsection}{\numberline {22.5.2}Beispiel - Manuelle Abstandsmessung}{215}{subsection.22.5.2}%
@@ -344,7 +344,7 @@
 \contentsline {subsection}{\numberline {22.6.2}Installation}{217}{subsection.22.6.2}%
 \contentsline {section}{\numberline {22.7}Kalibrierung}{217}{section.22.7}%
 \contentsline {section}{\numberline {22.8}Simple Code}{217}{section.22.8}%
-\contentsline {section}{\numberline {22.9}Simple Application}{218}{section.22.9}%
+\contentsline {section}{\numberline {22.9}Einfache Anwendung}{218}{section.22.9}%
 \contentsline {section}{\numberline {22.10}Tests}{218}{section.22.10}%
 \contentsline {subsection}{\numberline {22.10.1}Einfacher Funktionstest}{218}{subsection.22.10.1}%
 \contentsline {subsection}{\numberline {22.10.2}Test aller Funktionen}{218}{subsection.22.10.2}%
@@ -427,5 +427,5 @@
 \contentsline {chapter}{\numberline {A}drawings with tikz}{273}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Criteria for a good \LaTeX {} project}{277}{appendix.B}%
 \contentsline {chapter}{\nonumberline Literaturverzeichnis}{279}{chapter*.114}%
-\contentsline {chapter}{Stichwortverzeichnis}{287}{chapter*.114}%
+\contentsline {chapter}{Stichwortverzeichnis}{286}{chapter*.114}%
 \contentsline {chapter}{Index}{287}{chapter*.114}%

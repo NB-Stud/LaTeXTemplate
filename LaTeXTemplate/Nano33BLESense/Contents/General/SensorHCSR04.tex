@@ -19,7 +19,7 @@
 \section{Einleitung}
 Ein Ultraschallsensor misst berührungslos den Abstand zwischen Sensor und einer Werkstückoberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung, Warenerkennung und Abstandsmessung.\cite{Arduino:2024} \cite{Traenkler:2018} \cite{Hering:2023}
 
-\section{Domänenwissen}
+\section{Ultraschallsensoren zur Abstandsmessung}
 Ultraschallsensoren zur Abstandsmessung dienen der Ermittlung von Objektabständen
 über die Laufzeit von Ultraschallimpulsen und die Schallgeschwindigkeit. Da die
 Schallgeschwindigkeit temperatur- und luftdruckabhängig ist und zusätzlich durch die
@@ -291,7 +291,7 @@ Ebenfalls störend auswirken können sich die Geometrie des zu messenden Objekte
 %Auch die genannten Umwelteinflüsse können dafür sorgen, dass eine Messung fehlschlägt oder ein falsche Ergebnis liefert.
 
 
-\section{Ultraschall Abstandsensor}
+\section{Ultraschall-Abstandsensor HC-SR04}
 
 Der Ultraschallabstandssensor in Abbildung~\ref{ultraschallsensor} enthält den Sensor HC-SR04. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt und ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt.  Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. Die Auflösung des Sensors beträgt $\pm 1$ mm. Angeschlossen wird der Abstandssensor über den \ac{vcc}-Pin, Trig/\ac{scl}-Pin, Echo/\ac{sda}-Pin und dem \ac{gnd}-Pin. Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
 
@@ -392,9 +392,9 @@ Standardbibliothek. Dieses Vorgehen bietet volle Kontrolle über den Ablauf, ist
 für Timingfehler und benötigt eine Kalibrierung der Umgebungsparameter, wie z. B. Temperatur. \cite{Hering:2023}
 Der Ablauf ist wie folgt:
 \begin{enumerate}
-	\item Trigger-Pin für 10 mikrosekunden auf HIGH setzen (Anstoß des Schallimpulses).
+	\item Trigger-Pin für 10 Mikrosekunden auf HIGH setzen (Anstoß des Schallimpulses).
 	\item Echo-Pin überwachen: Pulse-In-Funktion misst, wie lange der Pin auf HIGH bleibt.
-	\item Zeitwert wird in die Distanz umgerechnet unter Annahme einer konstanten
+	\item Zeitwert wird in die Distanz umgerechnet, unter Annahme einer konstanten
 	Schallgeschwindigkeit von z. B. 343,2 m/s (bei 20 °C) \cite{Hering:2023}
 \end{enumerate}
 Dieses Verfahren eignet sich besonders für den Einstieg und zur Überprüfung der Grundfunktion,
@@ -437,7 +437,7 @@ Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Tri
 Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2024}.
 
 \subsection{Installation}
-Die Installation der Bibliothek NewPing, welche die Funktionalität des Ultraschallsensors HC-
+Die Installation der Bibliothek New Ping, welche die Funktionalität des Ultraschallsensors HC-
 SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
 bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
 \cite{Arduino:2024}
@@ -524,8 +524,8 @@ Ziel dieses Simple Codes ist es, die korrekte Ansteuerung von digitalen Pins sow
 %        \label{BildUltraschallsensorTest}
 %    \end{center}
 
-\section{Simple Application}
-Eine anschauliche Demonstration der Moeglichkeiten eines Ultraschallsensors stellt das Projekt Magic Faucet Fountain dar. Hierbei wird mit Hilfe des HC-SR04 ein Effekt erzeugt, bei dem ein scheinbar magisch schwebender Wasserstrahl bei Annaeherung der Hand unterbrochen oder aktiviert wird – ideal zur Beruehrungslosigkeit in Hygienebereichen oder als interaktives Kunstobjekt.
+\section{Einfache Anwendung}
+Eine anschauliche Demonstration der Möglichkeiten eines Ultraschallsensors stellt das Projekt Magic Faucet Fountain dar. Hierbei wird mit Hilfe des HC-SR04 ein Effekt erzeugt, bei dem ein scheinbar magisch schwebender Wasserstrahl bei Annaeherung der Hand unterbrochen oder aktiviert wird – ideal zur Beruehrungslosigkeit in Hygienebereichen oder als interaktives Kunstobjekt.
 
 Der Sensor misst kontinuierlich den Abstand zu einem Zielobjekt unterhalb des Wasserhahns. Wird ein Objekt, wie eine Hand, innerhalb eines definierten Schwellenwertes erkannt, aktiviert ein Mikrocontroller ein Magnetventil oder eine LED-Konstruktion.
 Diese Anwendung basiert auf der Laufzeitmessung eines ausgesendeten Ultraschallimpulses, wie sie im HC-SR04 durch Sende- und Empfangsmodule realisiert ist. Die Messung der Zeit zwischen Senden und Empfangen eines Echosignals erlaubt die praezise Abstandsermittlung bei bekannten Umweltbedingungen. Die zugrunde liegende Methode ist in der Fachliteratur beschrieben als ein Beispiel für zeitbasierte Sensoreffekte mit direkter Laufzeitmessung von Schallwellen \cite{Traenkler:2014}.

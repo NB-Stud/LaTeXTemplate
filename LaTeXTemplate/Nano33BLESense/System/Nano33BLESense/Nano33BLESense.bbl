@@ -364,8 +364,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A4}
-    \strng{fullhash}{A4}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Ard}19}
@@ -519,30 +519,6 @@
     \field{year}{2024}
   \endentry
 
-  \entry{ArduinoAPDS9960:2024}{online}{}{}
-    \name{editor}{1}{}{%
-      {{hash=A}{%
-         family={Arduino},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A3}
-    \strng{fullhash}{A3}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ard24}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Arduino APDS9960}
-    \verb{url}
-    \verb https://docs.arduino.cc/libraries/arduino_apds9960/
-    \endverb
-    \field{year}{2024}
-    \field{urlday}{24}
-    \field{urlmonth}{09}
-    \field{urlyear}{2024}
-  \endentry
-
   \entry{Aristi:2021}{online}{}{}
     \name{author}{1}{}{%
       {{hash=AD}{%
@@ -567,51 +543,6 @@
     \field{urlday}{09}
     \field{urlmonth}{07}
     \field{urlyear}{2023}
-  \endentry
-
-  \entry{Avago:2015}{online}{}{}
-    \name{editor}{1}{}{%
-      {{hash=A}{%
-         family={{Avago Technologies}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A5}
-    \strng{fullhash}{A5}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Ava}15}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-  \field{note}{\textcolor{blue}{\href{../MLbib/Sensor/av02-4191en_ds_apds-9960_2015-11-13.pdf}{[pdf]}}}
-    \field{title}{APDS-9960 - Digital Proximity, Ambient Light, RGB and Gesture
-  Sensor}
-    \verb{url}
-    \verb https://docs.broadcom.com/doc/AV02-4191EN
-    \endverb
-    \field{year}{2015}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
-  \endentry
-
-  \entry{AZ-Delivery:2024}{manual}{}{}
-    \list{publisher}{1}{%
-      {AZ-Delivery}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Az }
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-  \field{note}{\textcolor{blue}{\href{../MLbib/AZ-Delivery/de/AZ300_B_20-10_DE_B08T1ZXS7K.pdf}{[pdf
-  (de)]}} \quad
-  \textcolor{blue}{\href{../MLbib/AZ-Delivery/en/AZ300_B_20-10_EN_B08T1ZXS7K.pdf}{[pdf
-  (en)]}}}
-    \field{title}{Terminal Adapter f\"ur Nano V3}
-    \verb{url}
-    \verb https://www.az-delivery.de/en/products/terminal-adapter-board-mit-sch
-    \verb raubklemmen
-    \endverb
-    \field{year}{2024}
   \endentry
 
   \entry{Babovsky:2011}{report}{}{}
@@ -705,41 +636,6 @@
     \field{year}{2023}
   \endentry
 
-  \entry{Basler:2016}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=BS}{%
-         family={Basler},
-         familyi={B\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Springer Fachmedien Wiesbaden}}%
-    }
-  \keyw{Absolutdrehgeber;Automatisierungstechnik;Drehgeber;Encoder;Inkrementaldrehgeber;Regelungstechnik}
-    \strng{namehash}{BS1}
-    \strng{fullhash}{BS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Bas16}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \verb{doi}
-    \verb 10.1007/978-3-658-12844-9
-    \endverb
-    \field{isbn}{978-3-658-12843-2}
-    \field{title}{Encoder und Motor-Feedback-Systeme}
-    \verb{url}
-    \verb https://link.springer.com/book/10.1007/978-3-658-12844-9
-    \endverb
-    \list{location}{1}{%
-      {Wiesbaden}%
-    }
-    \field{year}{2016}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
   \entry{Bernstein:2018}{book}{}{}
     \name{author}{1}{}{%
       {{hash=BH}{%
@@ -793,29 +689,6 @@
     \field{isbn}{9781593274481}
     \field{title}{Arduino Workshop - A Hands-On Introduction with 65 Projects}
     \field{year}{2021}
-  \endentry
-
-  \entry{BroadcomAPDS9960:2024}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=B}{%
-         family={Broadcom},
-         familyi={B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{B1}
-    \strng{fullhash}{B1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Bro24}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{title}{APDS-9960}
-    \verb{url}
-    \verb https://www.broadcom.com/products/optical-sensors/integrated-ambient-
-    \verb light-and-proximity-sensors/apds-9960
-    \endverb
-    \field{year}{2024}
-    \warn{\item Invalid format of field 'urldate'}
   \endentry
 
   \entry{Chiang:2006}{inproceedings}{}{}
@@ -1417,35 +1290,6 @@
     \field{year}{2022}
   \endentry
 
-  \entry{Hymel:2024}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=HS}{%
-         family={Hymel},
-         familyi={H\bibinitperiod},
-         given={Shawn},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {SparkFun Electronics}%
-    }
-    \strng{namehash}{HS1}
-    \strng{fullhash}{HS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Hym24}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/APDS-9960 RGB and
-  Gesture Sensor Hookup Guide - SparkFun Learn.pdf}{[pdf]}}}
-    \field{title}{APDS-9960 RGB and Gesture Sensor Hookup Guide}
-    \verb{url}
-    \verb https://learn.sparkfun.com/tutorials/apds-9960-rgb-and-gesture-sensor
-    \verb -hookup-guide/all
-    \endverb
-    \field{year}{2024}
-  \endentry
-
   \entry{Jaklic:2010}{article}{}{}
     \name{author}{5}{}{%
       {{hash=JG}{%
@@ -1882,35 +1726,6 @@
     \field{sortinithash}{M}
     \field{title}{Ultraschall in Medizin und Technik}
     \field{year}{2017}
-  \endentry
-
-  \entry{Maetschke:2024}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=MS}{%
-         family={Maetschke},
-         familyi={M\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Makerguides}%
-    }
-    \strng{namehash}{MS1}
-    \strng{fullhash}{MS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Mae24}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/APDS-9960 Gesture
-  and Color Sensor with Arduino.pdf}{[pdf]}}}
-    \field{title}{APDS-9960 Gesture and Color Sensor with Arduino}
-    \verb{url}
-    \verb https://www.makerguides.com/apds-9960-gesture-and-color-sensor-with-a
-    \verb rduino/
-    \endverb
-    \field{year}{2024}
   \endentry
 
   \entry{Mallon:2015}{online}{}{}
@@ -2756,32 +2571,6 @@
     \field{year}{2007}
   \endentry
 
-  \entry{Rybach:2013}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=RJ}{%
-         family={Rybach},
-         familyi={R\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Carl Hanser Verlag}%
-    }
-    \strng{namehash}{RJ1}
-    \strng{fullhash}{RJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ryb13}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{isbn}{978-3-446-43529-2}
-    \field{title}{Physik für Bachelors: mit 92 durchgerechneten Beispielen,
-  176 Testfragen mit Antworten sowie 93 Übungsaufgaben mit kommentierten
-  Musterlösungen.}
-    \field{year}{2013}
-  \endentry
-
   \entry{Stefanicka:2017}{article}{}{}
     \name{author}{3}{}{%
       {{hash=ST}{%
@@ -3114,23 +2903,6 @@
     \field{year}{2015}
   \endentry
 
-  \entry{Simac:2019b}{manual}{}{}
-    \list{organization}{1}{%
-      {Simac Electronics GmbH}%
-    }
-    \keyw{Sensorspezifikationen, Sensorschnittstellen, Beschreibung,
-  Anwendungsbeispiele, Codebeispiele}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Sim}
-    \field{extraalpha}{1}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/SBC-MOTODRIVER2-ANLEITUNG.pdf}{[pdf]}}}
-    \field{title}{Joy-IT\textregistered MotoDriver2}
-    \field{month}{04}
-    \field{year}{2019}
-  \endentry
-
   \entry{Simac:2017}{manual}{}{}
     \list{organization}{1}{%
       {Simac Electronics GmbH}%
@@ -3139,7 +2911,6 @@
   Anwendungsbeispiele, Codebeispiele}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Sim}
-    \field{extraalpha}{2}
     \field{sortinit}{S}
     \field{sortinithash}{S}
   \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/UltraschallAbstandsensor.pdf}{[pdf]}}}
@@ -3147,34 +2918,6 @@
     \field{title}{Joy-IT\textregistered Ultrasonic Distance Sensor}
     \field{month}{08}
     \field{year}{2017}
-  \endentry
-
-  \entry{Simac:2019c}{manual}{}{}
-    \name{author}{1}{}{%
-      {{hash=S}{%
-         family={{Simac Electronics GmbH}},
-         familyi={S\bibinitperiod},
-      }}%
-    }
-    \keyw{3.3 V;5 V;Abmessungen;Datenblatt;Drehencoder;Tasterfunktion}
-    \strng{namehash}{S3}
-    \strng{fullhash}{S3}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Sim}19}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{abstract}{%
-    Datenblatt zum Drehencoder. Betriebsspannung, Abmessungen und Pinbelegung
-  sind angegeben.%
-    }
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/SimacElec2019.pdf}{[pdf]}}}
-    \field{title}{COM-KY040RE-Datenblatt: Drehencoder mit Tasterfunktion}
-    \verb{url}
-    \verb www.joy-it.net
-    \endverb
-    \field{year}{2019}
-    \warn{\item Invalid format of field 'urldate'}
   \endentry
 
   \entry{Smythe:2021}{book}{}{}
@@ -3301,42 +3044,6 @@
     \field{urlday}{23}
     \field{urlmonth}{06}
     \field{urlyear}{2023}
-  \endentry
-
-  \entry{Stoffregen:2024}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=SP}{%
-         family={Stoffregen},
-         familyi={S\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \name{editor}{1}{}{%
-      {{hash=P}{%
-         family={PJRC},
-         familyi={P\bibinitperiod},
-      }}%
-    }
-    \keyw{Encoder;Library; Programming}
-    \strng{namehash}{SP2}
-    \strng{fullhash}{SP2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Sto24}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{abstract}{%
-    Eine Dokumentation f{\"u}r die Encoder Bibliothek f{\"u}r die Nutzung mit
-  der Arduino IDE%
-    }
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/Encoder/EncoderLibrary.pdf}{[pdf]}}}
-    \field{title}{Encoder Library}
-    \verb{url}
-    \verb https://www.pjrc.com/teensy/td_libs_Encoder.html
-    \endverb
-    \field{year}{2024}
-    \warn{\item Invalid format of field 'urldate'}
   \endentry
 
   \entry{Tippler:2024}{book}{}{}
