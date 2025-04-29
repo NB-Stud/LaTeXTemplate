@@ -155,7 +155,7 @@ lässt sich bei gegebener Frequenz $f$ und mit der berechneten Schallgeschwindig
 Absorption beschreibt die Abnahme der Intensität $I$ einer Schallwelle, während sie Weg durch das sie leitenden Medium zurücklegt. Sie ist vom Quadrat der Frequenz $f$ des Schalls und den Absorptionseigenschaften $a$ des Ausbreitungsmediums abhängig und lässt sich über die Formel \ref{Absorption}
 
 \begin{equation}
-    I(x)=I_0\times\exp(-\alpha x); \:\alpha=af^2
+    I(x)=I_0\cdot e^{-\alpha x}; \:\alpha=af^2
     \label{Absorption}
 \end{equation}
 
@@ -549,10 +549,8 @@ Ultraschallsensoren wie der HC-SR04 finden in folgenden Gebieten ihre Anwendung:
 	\cite{Traenkler:2014}
 	\item \textbf{Industrieautomation:} In Tanks und Silos, auch bei Staub oder Dampf \cite{Hering:2023}.
 	\item \textbf{Fahrzeugtechnik:} Einparkhilfen und Abstandswarnsysteme \cite{Hering:2023}.
-	\item \textbf{Sicherheitstechnik:} Bewegungs- und Präsenzdetektion in Alarmanlagen.
 	\item \textbf{Medizin:} Kontaktlose Abstandsmessung in sterilen Umgebungen, z. B. bei
 	Desinfektionsstationen \cite{Hering:2023}
-	\item \textbf{Smart Home:} Automatische Licht- oder Türsteuerung durch Anwesenheitserkennung.
 \end{itemize}
 Die Stärken des Sensors liegen in der einfachen Integration, dem günstigen Preis und der
 Robustheit gegenüber Lichtverhältnissen oder Verschmutzung.
@@ -560,21 +558,21 @@ Die genannten Eigenschaften werden auch in der Fachliteratur als Vorteile von
 Ultraschallsensoren gegenüber optischen Verfahren hervorgehoben \cite{Hering:2023}
 
 \section{Further Readings}
-
-\begin{center}
-	\begin{tabular}{p{6cm}|p{5cm}}
-		\textbf{Literatur} & \textbf{Besonderheiten} \\
-		\hline
 		Tränkler, H.-R.:mSensortechnik – Handbuch für Praxis und Wissenschaft. 2. Aufl., Springer Vieweg, 2018 \cite{Traenkler:2018}
-		& Ein schöner Einstieg und Überblick über die Sensortechnik und ihre Anwendung heutzutage. \\
-		\hline
+		\begin{itemize}
+			\item Ein schöner Einstieg und Überblick über die Sensortechnik und ihre Anwendung heutzutage.
+		\end{itemize} 
+
 		Hering, E.: Sensoren in Wissenschaft und Technik – Funktionsweise und Einsatzgebiete. 3. Aufl., Springer Vieweg, 2023 \cite{Hering:2023}
-		& Ein tiefer Einblick in die Sensortechnik, besonders schöne Abbildungen und Erklärungen. Von Grund auf an eine Einführung für Ultraschallsensoren \\
-		\hline
+		\begin{itemize}
+			\item Ein tiefer Einblick in die Sensortechnik, besonders schöne Abbildungen und Erklärungen. Von Grund auf an eine Einführung für Ultraschallsensoren
+		\end{itemize} 
+
 		Arduino AG: NewPing – Library Documentation, Arduino.cc, abgerufen 2025. \cite{Arduino:2024}
-		& Auf der Arduino Website kann man sich viele Extra-Informationen zum Arduino und weiterführende anwendungen, Beispiele und Projekte anschauen.\\
-	\end{tabular}
-\end{center}
+		\begin{itemize}
+			\item 	Auf der Arduino Website kann man sich viele Extra-Informationen zum Arduino und weiterführende Anwendungen, Beispiele und Projekte anschauen.
+		\end{itemize}
+
 
 
 
