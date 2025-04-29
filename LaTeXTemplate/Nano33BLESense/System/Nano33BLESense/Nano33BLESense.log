@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  29 APR 2025 08:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  29 APR 2025 08:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4599,7 +4599,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [32]
-<../../Images/Microphon/MikrophonCP.png, id=1393, 455.20062pt x 310.15875pt>
+<../../Images/Microphon/MikrophonCP.png, id=1395, 455.20062pt x 310.15875pt>
 File: ../../Images/Microphon/MikrophonCP.png Graphic file (type png)
 <use ../../Images/Microphon/MikrophonCP.png>
 Package pdftex.def Info: ../../Images/Microphon/MikrophonCP.png  used on input 
@@ -4649,7 +4649,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [35 <../../Images/Microphon/MikrophonCP.png>]
-<../../Images/Bluetooth/connectionBLE.png, id=1460, 429.10312pt x 104.64093pt>
+<../../Images/Bluetooth/connectionBLE.png, id=1462, 429.10312pt x 104.64093pt>
 File: ../../Images/Bluetooth/connectionBLE.png Graphic file (type png)
 <use ../../Images/Bluetooth/connectionBLE.png>
 Package pdftex.def Info: ../../Images/Bluetooth/connectionBLE.png  used on inpu
@@ -4679,7 +4679,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [36 <../../Images/BlueTooth/connectionBLE.png>]
-<../../Images/Nano33BLESense/Schnittstellen.png, id=1513, 490.08093pt x 490.080
+<../../Images/Nano33BLESense/Schnittstellen.png, id=1515, 490.08093pt x 490.080
 93pt>
 File: ../../Images/Nano33BLESense/Schnittstellen.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/Schnittstellen.png>
@@ -6112,7 +6112,7 @@ See the caption package documentation for explanation.
 Package marginnote Info: Margin note 86.1 is on absolute page 86 on input line 
 132.
 Package marginnote Info: xpos seems to be 273.36707pt on input line 132.
-<../../Images/Microphon/MikrofonArten.png, id=3145, 1346.02875pt x 624.3325pt>
+<../../Images/Microphon/MikrofonArten.png, id=3147, 1346.02875pt x 624.3325pt>
 File: ../../Images/Microphon/MikrofonArten.png Graphic file (type png)
 <use ../../Images/Microphon/MikrofonArten.png>
 Package pdftex.def Info: ../../Images/Microphon/MikrofonArten.png  used on inpu
@@ -6128,7 +6128,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [86{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-<../../Images/Microphon/MikrofonTechnischeDaten.png, id=3157, 1457.445pt x 410.
+<../../Images/Microphon/MikrofonTechnischeDaten.png, id=3159, 1457.445pt x 410.
 53375pt>
 File: ../../Images/Microphon/MikrofonTechnischeDaten.png Graphic file (type png
 )
@@ -6136,7 +6136,7 @@ File: ../../Images/Microphon/MikrofonTechnischeDaten.png Graphic file (type png
 Package pdftex.def Info: ../../Images/Microphon/MikrofonTechnischeDaten.png  us
 ed on input line 163.
 (pdftex.def)             Requested size: 369.88583pt x 104.1867pt.
-<../../Images/Microphon/BeispielKondensatorMikrofon.png, id=3159, 1272.755pt x 
+<../../Images/Microphon/BeispielKondensatorMikrofon.png, id=3161, 1272.755pt x 
 684.5575pt>
 File: ../../Images/Microphon/BeispielKondensatorMikrofon.png Graphic file (type
  png)
@@ -6155,7 +6155,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [87 <../../Images/Microphon/MikrofonArten.png> <../../Images/Microphon/Mikrofon
 TechnischeDaten.png>]
-<../../Images/Microphon/AD-Wandler.png, id=3170, 1488.56125pt x 609.27625pt>
+<../../Images/Microphon/AD-Wandler.png, id=3172, 1488.56125pt x 609.27625pt>
 File: ../../Images/Microphon/AD-Wandler.png Graphic file (type png)
 <use ../../Images/Microphon/AD-Wandler.png>
 Package pdftex.def Info: ../../Images/Microphon/AD-Wandler.png  used on input l
@@ -6172,7 +6172,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [88 <../../Images/Microphon/BeispielKondensatorMikrofon.png> <../../Images/Micr
 ophon/AD-Wandler.png>]
-<../../Images/Microphon/ASCII.png, id=3182, 898.35625pt x 477.785pt>
+<../../Images/Microphon/ASCII.png, id=3184, 898.35625pt x 477.785pt>
 File: ../../Images/Microphon/ASCII.png Graphic file (type png)
 <use ../../Images/Microphon/ASCII.png>
 Package pdftex.def Info: ../../Images/Microphon/ASCII.png  used on input line 2
@@ -6193,7 +6193,7 @@ Overfull \hbox (0.19685pt too wide) in paragraph at lines 262--263
 ^^?ite des Au^^?diosig^^?nals angegeben.
  []
 
-<../../Images/Microphon/AufbauWaveDatei.png, id=3189, 1694.33pt x 984.67876pt>
+<../../Images/Microphon/AufbauWaveDatei.png, id=3191, 1694.33pt x 984.67876pt>
 File: ../../Images/Microphon/AufbauWaveDatei.png Graphic file (type png)
 <use ../../Images/Microphon/AufbauWaveDatei.png>
 Package pdftex.def Info: ../../Images/Microphon/AufbauWaveDatei.png  used on in
@@ -6619,7 +6619,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [98]
-<../../Images/Microphon/BeispielAnzeigenZweiAudiodatein.png, id=3254, 878.28125
+<../../Images/Microphon/BeispielAnzeigenZweiAudiodatein.png, id=3256, 878.28125
 pt x 388.45125pt>
 File: ../../Images/Microphon/BeispielAnzeigenZweiAudiodatein.png Graphic file (
 type png)
@@ -6679,7 +6679,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [103]
-<../../Images/Microphon/PhaseVocoder.jpg, id=3285, 1115.16624pt x 480.79625pt>
+<../../Images/Microphon/PhaseVocoder.jpg, id=3287, 1115.16624pt x 480.79625pt>
 File: ../../Images/Microphon/PhaseVocoder.jpg Graphic file (type jpg)
 <use ../../Images/Microphon/PhaseVocoder.jpg>
 Package pdftex.def Info: ../../Images/Microphon/PhaseVocoder.jpg  used on input
@@ -6750,7 +6750,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [107]
-<../../Images/Microphon/AusgabeSampleFrequenzanalyse.png, id=3311, 355.82938pt 
+<../../Images/Microphon/AusgabeSampleFrequenzanalyse.png, id=3313, 355.82938pt 
 x 271.51437pt>
 File: ../../Images/Microphon/AusgabeSampleFrequenzanalyse.png Graphic file (typ
 e png)
@@ -6955,7 +6955,7 @@ See the caption package documentation for explanation.
 (../../Code/Nano33BLESense/Test/TestMicrophone.ino)
 Package biblatex Info: Reference segment=65 on input line 1475.
 Package biblatex Info: Setting label 'refsegment:065' on input line 1475.
-<../../Images/Nano33BLESense/9.png, id=3506, 1440.13031pt x 772.38562pt>
+<../../Images/Nano33BLESense/9.png, id=3508, 1440.13031pt x 772.38562pt>
 File: ../../Images/Nano33BLESense/9.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/9.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/9.png  used on input line 
@@ -6977,7 +6977,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [116 <../../Images/Nano33BLESense/9.png>]
-<../../Images/Nano33BLESense/10.png, id=3523, 1444.64719pt x 776.14969pt>
+<../../Images/Nano33BLESense/10.png, id=3525, 1444.64719pt x 776.14969pt>
 File: ../../Images/Nano33BLESense/10.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/10.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/10.png  used on input line
@@ -7075,7 +7075,7 @@ Package biblatex Info: Setting label 'refsegment:074' on input line 14.
 Package marginnote Info: Margin note 121.1 is on absolute page 121 on input lin
 e 21.
 Package marginnote Info: xpos seems to be 387.22792pt on input line 21.
-<../../Images/IMU/LSM9DS1Bibliothek.jpg, id=3591, 674.52pt x 836.12375pt>
+<../../Images/IMU/LSM9DS1Bibliothek.jpg, id=3593, 674.52pt x 836.12375pt>
 File: ../../Images/IMU/LSM9DS1Bibliothek.jpg Graphic file (type jpg)
 <use ../../Images/IMU/LSM9DS1Bibliothek.jpg>
 Package pdftex.def Info: ../../Images/IMU/LSM9DS1Bibliothek.jpg  used on input 
@@ -7110,7 +7110,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 Package biblatex Info: Reference segment=77 on input line 134.
 Package biblatex Info: Setting label 'refsegment:077' on input line 134.
 <../../Images/NiclaVision/SlopeControl/AxisAccelerationofAccelerometerSensor.PN
-G, id=3624, 170.88844pt x 128.73094pt>
+G, id=3626, 170.88844pt x 128.73094pt>
 File: ../../Images/NiclaVision/SlopeControl/AxisAccelerationofAccelerometerSens
 or.PNG Graphic file (type png)
 <use ../../Images/NiclaVision/SlopeControl/AxisAccelerationofAccelerometerSenso
@@ -7122,7 +7122,7 @@ Package marginnote Info: Margin note 124.1 is on absolute page 124 on input lin
 e 159.
 Package marginnote Info: xpos seems to be 113.81102pt on input line 159.
 <../../Images/NiclaVision/SlopeControl/AngularSpeedofGyroscopeSensor.PNG, id=36
-25, 195.73125pt x 127.22531pt>
+27, 195.73125pt x 127.22531pt>
 File: ../../Images/NiclaVision/SlopeControl/AngularSpeedofGyroscopeSensor.PNG G
 raphic file (type png)
 <use ../../Images/NiclaVision/SlopeControl/AngularSpeedofGyroscopeSensor.PNG>
@@ -7142,7 +7142,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 or.PNG>]
 Package biblatex Info: Reference segment=78 on input line 183.
 Package biblatex Info: Setting label 'refsegment:078' on input line 183.
-<../../Images/NiclaVision/SlopeControl/LibrarySetup.png, id=3634, 963.6pt x 510
+<../../Images/NiclaVision/SlopeControl/LibrarySetup.png, id=3636, 963.6pt x 510
 .90875pt>
 File: ../../Images/NiclaVision/SlopeControl/LibrarySetup.png Graphic file (type
  png)
@@ -7181,13 +7181,13 @@ Package biblatex Info: Reference segment=82 on input line 248.
 Package biblatex Info: Setting label 'refsegment:082' on input line 248.
 Package biblatex Info: Reference segment=83 on input line 250.
 Package biblatex Info: Setting label 'refsegment:083' on input line 250.
-<../../Images/Nano33BLESense/imupin.png, id=3658, 452.69125pt x 358.84062pt>
+<../../Images/Nano33BLESense/imupin.png, id=3660, 452.69125pt x 358.84062pt>
 File: ../../Images/Nano33BLESense/imupin.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/imupin.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/imupin.png  used on input 
 line 253.
 (pdftex.def)             Requested size: 369.88583pt x 293.19992pt.
-<../../Images/Nano33BLESense/imupin1.png, id=3660, 303.1325pt x 407.02063pt>
+<../../Images/Nano33BLESense/imupin1.png, id=3662, 303.1325pt x 407.02063pt>
 File: ../../Images/Nano33BLESense/imupin1.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/imupin1.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/imupin1.png  used on input
@@ -7201,7 +7201,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 260--261
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../../Images/Nano33BLESense/sensorchara.png, id=3662, 349.80687pt x 327.2225pt
+<../../Images/Nano33BLESense/sensorchara.png, id=3664, 349.80687pt x 327.2225pt
 >
 File: ../../Images/Nano33BLESense/sensorchara.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/sensorchara.png>
@@ -7211,7 +7211,7 @@ nput line 267.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../../Images/Nano33BLESense/tempchara.png, id=3664, 346.79562pt x 67.75313pt>
+<../../Images/Nano33BLESense/tempchara.png, id=3666, 346.79562pt x 67.75313pt>
 File: ../../Images/Nano33BLESense/tempchara.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/tempchara.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/tempchara.png  used on inp
@@ -7249,13 +7249,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [129 <../../Images/Nano33BLESense/sensorchara.png> <../../Images/Nano33BLESense
 /tempchara.png>]
-<../../Images/Nano33BLESense/absolmax.png, id=3698, 301.62688pt x 137.01187pt>
+<../../Images/Nano33BLESense/absolmax.png, id=3700, 301.62688pt x 137.01187pt>
 File: ../../Images/Nano33BLESense/absolmax.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/absolmax.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/absolmax.png  used on inpu
 t line 285.
 (pdftex.def)             Requested size: 369.88583pt x 168.01767pt.
-<../../Images/Nano33BLESense/acceandgyroblock.png, id=3700, 348.30125pt x 270.0
+<../../Images/Nano33BLESense/acceandgyroblock.png, id=3702, 348.30125pt x 270.0
 0874pt>
 File: ../../Images/Nano33BLESense/acceandgyroblock.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/acceandgyroblock.png>
@@ -7273,7 +7273,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [130 <../../Images/Nano33BLESense/absolmax.png> <../../Images/Nano33BLESense/ac
 ceandgyroblock.png>]
-<../../Images/Nano33BLESense/magnetometerblock.png, id=3711, 347.79938pt x 154.
+<../../Images/Nano33BLESense/magnetometerblock.png, id=3713, 347.79938pt x 154.
 07562pt>
 File: ../../Images/Nano33BLESense/magnetometerblock.png Graphic file (type png)
 
@@ -7291,7 +7291,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [131 <../../Images/Nano33BLESense/magnetometerblock.png>]
-<../../Images/Nano33BLESense/elecon.png, id=3721, 304.13625pt x 286.06876pt>
+<../../Images/Nano33BLESense/elecon.png, id=3723, 304.13625pt x 286.06876pt>
 File: ../../Images/Nano33BLESense/elecon.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/elecon.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/elecon.png  used on input 
@@ -7320,7 +7320,7 @@ e 19.
 Package marginnote Info: xpos seems to be 157.42227pt on input line 19.
 Package biblatex Info: Reference segment=85 on input line 24.
 Package biblatex Info: Setting label 'refsegment:085' on input line 24.
-<../../Images/IMU/simpleaccelerometer.jpg, id=3731, 907.39pt x 370.38374pt>
+<../../Images/IMU/simpleaccelerometer.jpg, id=3733, 907.39pt x 370.38374pt>
 File: ../../Images/IMU/simpleaccelerometer.jpg Graphic file (type jpg)
 <use ../../Images/IMU/simpleaccelerometer.jpg>
 Package pdftex.def Info: ../../Images/IMU/simpleaccelerometer.jpg  used on inpu
@@ -7328,7 +7328,7 @@ t line 33.
 (pdftex.def)             Requested size: 369.88583pt x 150.98232pt.
 Package biblatex Info: Reference segment=86 on input line 39.
 Package biblatex Info: Setting label 'refsegment:086' on input line 39.
-<../../Images/IMU/FlowChart.png, id=3732, 542.025pt x 963.6pt>
+<../../Images/IMU/FlowChart.png, id=3734, 542.025pt x 963.6pt>
 File: ../../Images/IMU/FlowChart.png Graphic file (type png)
 <use ../../Images/IMU/FlowChart.png>
 Package pdftex.def Info: ../../Images/IMU/FlowChart.png  used on input line 45.
@@ -7400,13 +7400,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [138]
-<../../Images/OLED/OLEDBereit1.jpg, id=3962, 1027.84pt x 574.145pt>
+<../../Images/OLED/OLEDBereit1.jpg, id=3964, 1027.84pt x 574.145pt>
 File: ../../Images/OLED/OLEDBereit1.jpg Graphic file (type jpg)
 <use ../../Images/OLED/OLEDBereit1.jpg>
 Package pdftex.def Info: ../../Images/OLED/OLEDBereit1.jpg  used on input line 
 302.
 (pdftex.def)             Requested size: 295.90979pt x 165.2888pt.
-<../../Images/OLED/OLEDBereit2.jpg, id=3963, 1027.84pt x 571.13374pt>
+<../../Images/OLED/OLEDBereit2.jpg, id=3965, 1027.84pt x 571.13374pt>
 File: ../../Images/OLED/OLEDBereit2.jpg Graphic file (type jpg)
 <use ../../Images/OLED/OLEDBereit2.jpg>
 Package pdftex.def Info: ../../Images/OLED/OLEDBereit2.jpg  used on input line 
@@ -7426,7 +7426,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [139 <../../Images/OLED/OLEDBereit1.jpg> <../../Images/OLED/OLEDBereit2.jpg>]
-<../../Images/Nano33BLESense/reset.png, id=3971, 377.15906pt x 559.33969pt>
+<../../Images/Nano33BLESense/reset.png, id=3973, 377.15906pt x 559.33969pt>
 File: ../../Images/Nano33BLESense/reset.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/reset.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/reset.png  used on input l
@@ -7677,7 +7677,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [159]
-<../../Images/Arduino/IMU/wire.png, id=4201, 267.24844pt x 39.14626pt>
+<../../Images/Arduino/IMU/wire.png, id=4203, 267.24844pt x 39.14626pt>
 File: ../../Images/Arduino/IMU/wire.png Graphic file (type png)
 <use ../../Images/Arduino/IMU/wire.png>
 Package pdftex.def Info: ../../Images/Arduino/IMU/wire.png  used on input line 
@@ -7694,7 +7694,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 332--333
  [] 
  []
 
-<../../Images/Arduino/IMU/LSM6DSboard.png, id=4202, 621.82312pt x 229.60782pt>
+<../../Images/Arduino/IMU/LSM6DSboard.png, id=4204, 621.82312pt x 229.60782pt>
 File: ../../Images/Arduino/IMU/LSM6DSboard.png Graphic file (type png)
 <use ../../Images/Arduino/IMU/LSM6DSboard.png>
 Package pdftex.def Info: ../../Images/Arduino/IMU/LSM6DSboard.png  used on inpu
@@ -7710,7 +7710,7 @@ Overfull \hbox (56.9055pt too wide) in paragraph at lines 338--339
  [] 
  []
 
-<../../Images/Arduino/IMU/LSM9DS1.png, id=4203, 200.24812pt x 243.15843pt>
+<../../Images/Arduino/IMU/LSM9DS1.png, id=4205, 200.24812pt x 243.15843pt>
 File: ../../Images/Arduino/IMU/LSM9DS1.png Graphic file (type png)
 <use ../../Images/Arduino/IMU/LSM9DS1.png>
 Package pdftex.def Info: ../../Images/Arduino/IMU/LSM9DS1.png  used on input li
@@ -8161,7 +8161,7 @@ Underfull \hbox (badness 2707) in paragraph at lines 61--61
 []|\T1/lmr/bx/n/10 (+20) Binocular Cam-
  []
 
-<../../Images/AccelerationDetectionAlgorithms/Baseline.png, id=4337, 840.13875p
+<../../Images/AccelerationDetectionAlgorithms/Baseline.png, id=4339, 840.13875p
 t x 402.00188pt>
 File: ../../Images/AccelerationDetectionAlgorithms/Baseline.png Graphic file (t
 ype png)
@@ -8224,7 +8224,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 [170] (../../Contents/Nano33BLESense/TinyMLKit.tex
 chapter 17.
-<../../Images/Nano33BLESense/TinyMLKit/TinyMachineLearningKit.png, id=4387, 484
+<../../Images/Nano33BLESense/TinyMLKit/TinyMachineLearningKit.png, id=4389, 484
 .05844pt x 362.85562pt>
 File: ../../Images/Nano33BLESense/TinyMLKit/TinyMachineLearningKit.png Graphic 
 file (type png)
@@ -8252,7 +8252,7 @@ See the caption package documentation for explanation.
 
 Package biblatex Info: Reference segment=103 on input line 162.
 Package biblatex Info: Setting label 'refsegment:0103' on input line 162.
-<../../Images/Nano33BLESense/TinyMLKit/OV7675.jpg, id=4402, 752.8125pt x 752.81
+<../../Images/Nano33BLESense/TinyMLKit/OV7675.jpg, id=4404, 752.8125pt x 752.81
 25pt>
 File: ../../Images/Nano33BLESense/TinyMLKit/OV7675.jpg Graphic file (type jpg)
 <use ../../Images/Nano33BLESense/TinyMLKit/OV7675.jpg>
@@ -8274,7 +8274,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [172]
 Package biblatex Info: Reference segment=104 on input line 174.
 Package biblatex Info: Setting label 'refsegment:0104' on input line 174.
-<../../Images/Nano33BLESense/TinyMLKit/USBCable.png, id=4410, 2469.225pt x 1851
+<../../Images/Nano33BLESense/TinyMLKit/USBCable.png, id=4412, 2469.225pt x 1851
 .91875pt>
 File: ../../Images/Nano33BLESense/TinyMLKit/USBCable.png Graphic file (type png
 )
@@ -8320,7 +8320,7 @@ Package biblatex Info: Setting label 'refsegment:0105' on input line 27.
 Package marginnote Info: Margin note 176.1 is on absolute page 176 on input lin
 e 55.
 Package marginnote Info: xpos seems to be 113.81102pt on input line 55.
-<../../Images/Battery/batteryScrew.png, id=4431, 1606.0pt x 837.1275pt>
+<../../Images/Battery/batteryScrew.png, id=4433, 1606.0pt x 837.1275pt>
 File: ../../Images/Battery/batteryScrew.png Graphic file (type png)
 <use ../../Images/Battery/batteryScrew.png>
 Package pdftex.def Info: ../../Images/Battery/batteryScrew.png  used on input l
@@ -8332,7 +8332,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 60.
 See the caption package documentation for explanation.
 
-<../../Images/Battery/batteryDone.png, id=4432, 1606.0pt x 903.375pt>
+<../../Images/Battery/batteryDone.png, id=4434, 1606.0pt x 903.375pt>
 File: ../../Images/Battery/batteryDone.png Graphic file (type png)
 <use ../../Images/Battery/batteryDone.png>
 Package pdftex.def Info: ../../Images/Battery/batteryDone.png  used on input li
@@ -8393,7 +8393,7 @@ Overfull \hbox (302.121pt too wide) in paragraph at lines 86--88
 
 Package biblatex Info: Reference segment=107 on input line 111.
 Package biblatex Info: Setting label 'refsegment:0107' on input line 111.
-<../../Images/Battery/clip.jpg, id=4442, 1019.81pt x 522.95375pt>
+<../../Images/Battery/clip.jpg, id=4444, 1019.81pt x 522.95375pt>
 File: ../../Images/Battery/clip.jpg Graphic file (type jpg)
 <use ../../Images/Battery/clip.jpg>
 Package pdftex.def Info: ../../Images/Battery/clip.jpg  used on input line 117.
@@ -8418,7 +8418,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [177]
-<../../Images/Battery/VoltageSensor.jpg, id=4469, 246.9225pt x 205.76875pt>
+<../../Images/Battery/VoltageSensor.jpg, id=4471, 246.9225pt x 205.76875pt>
 File: ../../Images/Battery/VoltageSensor.jpg Graphic file (type jpg)
 <use ../../Images/Battery/VoltageSensor.jpg>
 Package pdftex.def Info: ../../Images/Battery/VoltageSensor.jpg  used on input 
@@ -8452,7 +8452,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [179]
-<../../Images/Battery/BatteryTest.png, id=4527, 433.62pt x 170.13562pt>
+<../../Images/Battery/BatteryTest.png, id=4529, 433.62pt x 170.13562pt>
 File: ../../Images/Battery/BatteryTest.png Graphic file (type png)
 <use ../../Images/Battery/BatteryTest.png>
 Package pdftex.def Info: ../../Images/Battery/BatteryTest.png  used on input li
@@ -8473,7 +8473,7 @@ Package biblatex Info: Reference segment=109 on input line 20.
 Package biblatex Info: Setting label 'refsegment:0109' on input line 20.
 Package biblatex Info: Reference segment=110 on input line 34.
 Package biblatex Info: Setting label 'refsegment:0110' on input line 34.
-<../../Images/JSTConnectors/JSTVH.jpg, id=4537, 54.2025pt x 54.2025pt>
+<../../Images/JSTConnectors/JSTVH.jpg, id=4539, 54.2025pt x 54.2025pt>
 File: ../../Images/JSTConnectors/JSTVH.jpg Graphic file (type jpg)
 <use ../../Images/JSTConnectors/JSTVH.jpg>
 Package pdftex.def Info: ../../Images/JSTConnectors/JSTVH.jpg  used on input li
@@ -8495,7 +8495,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Package biblatex Info: Reference segment=111 on input line 70.
 Package biblatex Info: Setting label 'refsegment:0111' on input line 70.
-<../../Images/JSTConnectors/JSTPH.jpg, id=4550, 54.2025pt x 54.2025pt>
+<../../Images/JSTConnectors/JSTPH.jpg, id=4552, 54.2025pt x 54.2025pt>
 File: ../../Images/JSTConnectors/JSTPH.jpg Graphic file (type jpg)
 <use ../../Images/JSTConnectors/JSTPH.jpg>
 Package pdftex.def Info: ../../Images/JSTConnectors/JSTPH.jpg  used on input li
@@ -8520,7 +8520,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [182 <../../Images/JSTConnectors/JSTVH.jpg>]
-<../../Images/JSTConnectors/PHR-2.jpg, id=4560, 642.4pt x 642.4pt>
+<../../Images/JSTConnectors/PHR-2.jpg, id=4562, 642.4pt x 642.4pt>
 File: ../../Images/JSTConnectors/PHR-2.jpg Graphic file (type jpg)
 <use ../../Images/JSTConnectors/PHR-2.jpg>
 Package pdftex.def Info: ../../Images/JSTConnectors/PHR-2.jpg  used on input li
@@ -8549,7 +8549,7 @@ pg>]
 
 ]
 chapter 20.
-<../../Images/Grove/Shield.jpg, id=4577, 1606.0pt x 1204.5pt>
+<../../Images/Grove/Shield.jpg, id=4579, 1606.0pt x 1204.5pt>
 File: ../../Images/Grove/Shield.jpg Graphic file (type jpg)
 <use ../../Images/Grove/Shield.jpg>
 Package pdftex.def Info: ../../Images/Grove/Shield.jpg  used on input line 28.
@@ -8567,7 +8567,7 @@ Underfull \vbox (badness 1019) has occurred while \output is active []
 
 
 [185 <../../Images/Grove/Shield.jpg>]
-<../../Images/Grove/UniversalCable.jpg, id=4589, 638.385pt x 443.6575pt>
+<../../Images/Grove/UniversalCable.jpg, id=4591, 638.385pt x 443.6575pt>
 File: ../../Images/Grove/UniversalCable.jpg Graphic file (type jpg)
 <use ../../Images/Grove/UniversalCable.jpg>
 Package pdftex.def Info: ../../Images/Grove/UniversalCable.jpg  used on input l
@@ -8575,7 +8575,7 @@ ine 40.
 (pdftex.def)             Requested size: 216.81pt x 150.6723pt.
 Package biblatex Info: Reference segment=113 on input line 46.
 Package biblatex Info: Setting label 'refsegment:0113' on input line 46.
-<../../Images/Grove/Grove2Pin.jpg, id=4594, 562.1pt x 375.4025pt>
+<../../Images/Grove/Grove2Pin.jpg, id=4596, 562.1pt x 375.4025pt>
 File: ../../Images/Grove/Grove2Pin.jpg Graphic file (type jpg)
 <use ../../Images/Grove/Grove2Pin.jpg>
 Package pdftex.def Info: ../../Images/Grove/Grove2Pin.jpg  used on input line 5
@@ -8667,7 +8667,7 @@ Overfull \hbox (34.9142pt too wide) in paragraph at lines 24--25
 oth-[]low-[]energy-[]setup/$[][] 
  []
 
-<../../Images/Bluetooth/BleBulletinBoardModel.png, id=4628, 658.46pt x 509.905p
+<../../Images/Bluetooth/BleBulletinBoardModel.png, id=4630, 658.46pt x 509.905p
 t>
 File: ../../Images/Bluetooth/BleBulletinBoardModel.png Graphic file (type png)
 <use ../../Images/Bluetooth/BleBulletinBoardModel.png>
@@ -8696,7 +8696,7 @@ Package biblatex Info: Reference segment=118 on input line 77.
 Package biblatex Info: Setting label 'refsegment:0118' on input line 77.
 Package biblatex Info: Reference segment=119 on input line 86.
 Package biblatex Info: Setting label 'refsegment:0119' on input line 86.
-<../../Images/Bluetooth/AndroidMenu.png, id=4656, 880.03781pt x 441.14813pt>
+<../../Images/Bluetooth/AndroidMenu.png, id=4658, 880.03781pt x 441.14813pt>
 File: ../../Images/Bluetooth/AndroidMenu.png Graphic file (type png)
 <use ../../Images/Bluetooth/AndroidMenu.png>
 Package pdftex.def Info: ../../Images/Bluetooth/AndroidMenu.png  used on input 
@@ -8714,7 +8714,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [191 <../../Images/BlueTooth/AndroidMenu.png>]
 Package biblatex Info: Reference segment=120 on input line 111.
 Package biblatex Info: Setting label 'refsegment:0120' on input line 111.
-<../../Images/BlueTooth/BlueToothApp01.png, id=4663, 469.00218pt x 119.69719pt>
+<../../Images/BlueTooth/BlueToothApp01.png, id=4665, 469.00218pt x 119.69719pt>
 
 File: ../../Images/BlueTooth/BlueToothApp01.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp01.png>
@@ -8727,7 +8727,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 122.
 See the caption package documentation for explanation.
 
-<../../Images/BlueTooth/BlueToothApp02.png, id=4664, 458.46281pt x 821.31844pt>
+<../../Images/BlueTooth/BlueToothApp02.png, id=4666, 458.46281pt x 821.31844pt>
 
 File: ../../Images/BlueTooth/BlueToothApp02.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp02.png>
@@ -8749,7 +8749,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [192 <../../Images/BlueTooth/BlueToothApp01.png>]
-<../../Images/BlueTooth/BlueToothApp03.png, id=4671, 462.22687pt x 822.82407pt>
+<../../Images/BlueTooth/BlueToothApp03.png, id=4673, 462.22687pt x 822.82407pt>
 
 File: ../../Images/BlueTooth/BlueToothApp03.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp03.png>
@@ -8829,7 +8829,7 @@ Overfull \hbox (242.12039pt too wide) in paragraph at lines 331--332
 ][][][] 
  []
 
-<../../Images/Bluetooth/BatteryApp.png, id=4761, 324.21124pt x 229.85875pt>
+<../../Images/Bluetooth/BatteryApp.png, id=4763, 324.21124pt x 229.85875pt>
 File: ../../Images/Bluetooth/BatteryApp.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryApp.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BatteryApp.png  used on input l
@@ -8877,13 +8877,13 @@ Overfull \hbox (116.11911pt too wide) in paragraph at lines 449--450
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<../../Images/Bluetooth/BatteryAppAcc.png, id=4875, 363.60844pt x 775.39688pt>
+<../../Images/Bluetooth/BatteryAppAcc.png, id=4877, 363.60844pt x 775.39688pt>
 File: ../../Images/Bluetooth/BatteryAppAcc.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryAppAcc.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BatteryAppAcc.png  used on inpu
 t line 500.
 (pdftex.def)             Requested size: 221.93375pt x 473.2872pt.
-<../../Images/Bluetooth/BatteryAppAcc2.png, id=4876, 366.61969pt x 779.16093pt>
+<../../Images/Bluetooth/BatteryAppAcc2.png, id=4878, 366.61969pt x 779.16093pt>
 
 File: ../../Images/Bluetooth/BatteryAppAcc2.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryAppAcc2.png>
@@ -8965,7 +8965,7 @@ Package biblatex Info: Reference segment=123 on input line 542.
 Package biblatex Info: Setting label 'refsegment:0123' on input line 542.
 Package biblatex Info: Reference segment=124 on input line 545.
 Package biblatex Info: Setting label 'refsegment:0124' on input line 545.
-<../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg, id=4946, 237.88875pt x 
+<../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg, id=4948, 237.88875pt x 
 223.43475pt>
 File: ../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg Graphic file (type 
 jpg)
@@ -9497,7 +9497,7 @@ Underfull \hbox (badness 1694) in paragraph at lines 19--20
 \T1/lmr/m/n/10 (+20) - ARD NANO
  []
 
-<../../Images/Nano33BLESense/abx00031_front_1_2.jpg, id=5416, 376.40625pt x 282
+<../../Images/Nano33BLESense/abx00031_front_1_2.jpg, id=5418, 376.40625pt x 282
 .30469pt>
 File: ../../Images/Nano33BLESense/abx00031_front_1_2.jpg Graphic file (type jpg
 )
@@ -9515,7 +9515,7 @@ Underfull \hbox (badness 1694) in paragraph at lines 24--25
 \T1/lmr/m/n/10 (+20) - ARD NANO
  []
 
-<../../Images/Nano33BLESense/ARDNanano33BSH2.png, id=5418, 579.16376pt x 230.86
+<../../Images/Nano33BLESense/ARDNanano33BSH2.png, id=5420, 579.16376pt x 230.86
 25pt>
 File: ../../Images/Nano33BLESense/ARDNanano33BSH2.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/ARDNanano33BSH2.png>
@@ -9532,7 +9532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \T1/lmr/m/n/10 (+20) - ARD Kit
  []
 
-<../../Images/Nano33BLESense/ArduinoKit.png, id=5420, 903.375pt x 581.17125pt>
+<../../Images/Nano33BLESense/ArduinoKit.png, id=5422, 903.375pt x 581.17125pt>
 File: ../../Images/Nano33BLESense/ArduinoKit.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/ArduinoKit.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/ArduinoKit.png  used on in
@@ -9553,7 +9553,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 \T1/lmr/m/n/10 (+20) B0226 Lens
  []
 
-<../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg, id=5422, 1290.82
+<../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg, id=5424, 1290.82
 25pt x 980.66376pt>
 File: ../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg Graphic file
  (type jpg)
@@ -9561,7 +9561,7 @@ File: ../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg Graphic file
 Package pdftex.def Info: ../../Images/CAM/LensCalibrationTool/LensCalibrationTo
 ol.jpg  used on input line 36.
 (pdftex.def)             Requested size: 73.97603pt x 56.1887pt.
-<../../Images/Nano33BLESense/case.png, id=5424, 803.0pt x 602.25pt>
+<../../Images/Nano33BLESense/case.png, id=5426, 803.0pt x 602.25pt>
 File: ../../Images/Nano33BLESense/case.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/case.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/case.png  used on input li
@@ -10852,58 +10852,42 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 77 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 108645 strings out of 473190
- 2829678 string characters out of 5716853
- 4558730 words of memory out of 5000000
+ 108641 strings out of 473190
+ 2829594 string characters out of 5716853
+ 4558789 words of memory out of 5000000
  126391 multiletter control sequences out of 15000+600000
  766505 words of font info for 502 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,21n,134p,10909b,3791s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{code.caption.111} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.109} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.100} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter*.113} has been referenced but does not exis
-t, replaced by a fixed one
-
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/La
-TeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/LaTeX/texlive/
-2025/texmf-dist/fonts/type1/public/lm/lmbx7.pfb><c:/LaTeX/texlive/2025/texmf-di
-st/fonts/type1/public/lm/lmcsc10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/ty
-pe1/public/lm/lmex10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/l
-m/lmmi10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi7.pfb>
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi9.pfb><c:/LaTeX/tex
-live/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/LaTeX/texlive/2025/tex
-mf-dist/fonts/type1/public/lm/lmr17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmr5.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/
-lm/lmr6.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c
-:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/LaTeX/texliv
-e/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/LaTeX/texlive/2025/texmf
--dist/fonts/type1/public/lm/lmri7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/t
-ype1/public/lm/lmro10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/
-lm/lmss17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb
-><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/LaTeX/te
-xlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/LaTeX/texlive/2025
-/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/
-fonts/type1/public/lm/lmsy7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msbm10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/typ
-e1/public/cm-super/sftt1000.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/u
-rw/courier/ucrb8a.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier
-/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (288 pages, 10472251 bytes).
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/fe
+ymr10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c
+:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx7.pfb><c:/LaTeX/texli
+ve/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/LaTeX/texlive/2025/tex
+mf-dist/fonts/type1/public/lm/lmex10.pfb><c:/LaTeX/texlive/2025/texmf-dist/font
+s/type1/public/lm/lmmi10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/publ
+ic/lm/lmmi7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi9.p
+fb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/LaTeX/
+texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/LaTeX/texlive/2025/
+texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/LaTeX/texlive/2025/texmf-dist/fon
+ts/type1/public/lm/lmr6.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/publi
+c/lm/lmr7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/LaTeX/te
+xlive/2025/texmf-dist/fonts/type1/public/lm/lmri7.pfb><c:/LaTeX/texlive/2025/te
+xmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fon
+ts/type1/public/lm/lmss17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/pub
+lic/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss9.
+pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/La
+TeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/LaTeX/texlive/
+2025/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/LaTeX/texlive/2025/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/LaTeX/texlive/2025/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/LaTeX/texlive/2025/texm
+f-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/LaTeX/texlive/2025/texmf-di
+st/fonts/type1/urw/courier/ucrb8a.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/t
+ype1/urw/courier/ucrr8a.pfb>
+Output written on Nano33BLESense.pdf (288 pages, 10472362 bytes).
 PDF statistics:
- 8352 PDF objects out of 8907 (max. 8388607)
- 7780 compressed objects within 78 object streams
- 3621 named destinations out of 4296 (max. 500000)
+ 8349 PDF objects out of 8907 (max. 8388607)
+ 7777 compressed objects within 78 object streams
+ 3617 named destinations out of 4296 (max. 500000)
  110707 words of extra memory for PDF output out of 128383 (max. 10000000)
 
