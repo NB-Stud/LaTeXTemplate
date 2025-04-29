@@ -87,6 +87,38 @@ Die Einteilung der Schallbereiche erfolgt auf Grundlage der Frequenz:
     \item \textit{Hyperschall:} über 1 GHz \cite{Hering:2023}.
 \end{itemize}
 
+\begin{figure}[!ht]
+	\centering
+	\caption{Frequenz der verschiedenen Schall-Arten}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, short] (-6.25,10.75) -- (20,10.75);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, short] (1.25,13.25) -- (1.25,7);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, short] (15,13.25) -- (15,7);
+			\draw[domain=1.25:9.5,samples=100,smooth, line width=1pt] plot (\x,{1.1*sin(1.26*\x r -3.35 r ) +10.75});
+			\draw[domain=15:17,samples=100,smooth, line width=1pt] plot (\x,{1.1*sin(2.76*\x r -13.4 r ) +10.75});
+			\draw[domain=-6.25:1.25,samples=100,smooth, line width=1pt] plot (\x,{1.1*sin(0.78*\x r +3.75 r ) +10.75});
+			\begin{scope}[rotate around={-2.5:(9.5,10.75)}]
+				\draw[domain=9.5:15,samples=100,smooth, line width=1pt] plot (\x,{1.1*sin(1.9*\x r -9.4 r ) +10.75});
+			\end{scope}
+			\draw[domain=17:18,samples=100,smooth, line width=1pt] plot (\x,{1.1*sin(4.85*\x r -20.9 r ) +10.75});
+			\draw[domain=18:19,samples=100,smooth, line width=1pt] plot (\x,{1.1*sin(7.28*\x r -14.2 r ) +10.75});
+			\draw[domain=19:20,samples=100,smooth, line width=1pt] plot (\x,{1.1*sin(10*\x r -16.2 r ) +10.75});
+			\node [font=\LARGE] at (-3,9) {Infraschall};
+			\node [font=\LARGE] at (8,9) {meschliches Ohr};
+			\node [font=\LARGE] at (18,9) {Ultraschall};
+			\draw [ color={rgb,255:red,191; green,191; blue,191}, line width=1pt, dashed] (-6.25,8.25) -- (20,8.25);
+			\node [font=\LARGE, color={rgb,255:red,151; green,151; blue,151}] at (-3,7.5) {unhörbar};
+			\node [font=\LARGE, color={rgb,255:red,151; green,151; blue,151}] at (8,7.5) {hörbar};
+			\node [font=\LARGE, color={rgb,255:red,151; green,151; blue,151}] at (18,7.5) {unhörbar};
+			\node [font=\LARGE, color={rgb,255:red,0; green,0; blue,255}] at (1.5,6.5) {16 Hz};
+			\node [font=\LARGE, color={rgb,255:red,0; green,0; blue,255}] at (15,6.5) {20 kHz};
+		\end{circuitikz}
+	}%
+	
+	\label{fig:grundlagenSchall}
+\end{figure}
 %\Mynote{Grafik fehlt}
 
 
@@ -148,7 +180,7 @@ In Abb. \ref{schallfunktion} ist die Schallgeschwindigkeit in Luft im Temperatur
     \label{Wellenlaenge}
 \end{equation}
 
-lässt sich bei gegebener Frequenz $f$ und mit der berechneten Schallgeschwindigkeit $v_{Schall}$ die Wellenlänge des Schalls berechnen \cite{Willems:2022}. Diese beträgt bei einer angenommenen Frequenz von $f=40 \:\text{kHz}$ und der in Abschnitt \ref{AbschnittVschall} berechneten Schallgeschwindigkeit $\lambda=8{,}58*10^{-3} \:\text{m}$.
+lässt sich bei gegebener Frequenz $f$ und mit der berechneten Schallgeschwindigkeit $v_{Schall}$ die Wellenlänge des Schalls berechnen \cite{Willems:2022}. Diese beträgt bei einer angenommenen Frequenz von $f=40 \:\text{kHz}$ und der in Abschnitt \ref{AbschnittVschall} berechneten Schallgeschwindigkeit $\lambda=8{,}58 \cdot 10^{-3} \:\text{m}$.
 
 \subsection{Absorption und Reflexion}
 
@@ -536,8 +568,7 @@ systematisch verschiedene Einflüsse auf die Messgenauigkeit überprüft: \cite{
 
 %Um große mögliche Messfehler aufgrund einer fest hinterlegten Schallgeschwindigkeit zu vermeiden, soll die Temperatur von dem internen Temperatursensor des Arduino Nano 33 BLE Sense Lite bei einer Abstandsmessung erfasst und auf dessen Grundlage die Schallgeschwindigkeit berechnet werden. Da der Sensor jedoch auf der Platine ist, diese sich bei Benutzung selbst erwärmt und zusätzlich in einem Gehäuse verbaut ist, dessen Material gute wärmeisolierende Eigenschaften hat, ist die von ihm gemessene Temperatur zeitabhängig. Daraus folgt, dass seine Messwerte nicht für die Berechnung der Schallgeschwindigkeit verwendet werden können.
 %Die Verwendung eines zusätzlichen Temperatursensors wäre eine mögliche Lösung. Daher wird, um eine zu große Abweichung des angezeigten Messwertes zu verhindern, der für den Sensor zugelassene Temperaturbereich eingeschränkt. Ein möglicher Temperaturbereich ist zwischen $17 \:\text{\textcelsius \:und} \:23 \:\text{\textcelsius}$. In diesem Bereich liegt die Abweichung der Schallgeschwindigkeit bei unter $0,5\%$. Ob diese Genauigkeit ausreichend ist, ist von der Anwendung abhängig.
-Die Genauigkeit von Ultraschall-Abstandsmessungen hängt unter anderem von der Schallgeschwindigkeit ab, welche wiederum temperaturabhängig ist. 
-Wird die Schallgeschwindigkeit im Auswertungsprozess als konstanter Wert angenommen, kann es bei Abweichungen von der tatsächlichen Umgebungstemperatur zu Messfehlern kommen. Eine Möglichkeit zur Korrektur besteht darin, die aktuelle Temperatur zu erfassen und die Schallgeschwindigkeit entsprechend anzupassen.
+Die Genauigkeit von Ultraschall-Abstandsmessungen hängt unter anderem von der Schallgeschwindigkeit ab, welche wiederum temperaturabhängig ist. Wird die Schallgeschwindigkeit im Auswertungsprozess als konstanter Wert angenommen, kann es bei Abweichungen von der tatsächlichen Umgebungstemperatur zu Messfehlern kommen. Eine Möglichkeit zur Korrektur besteht darin, die aktuelle Temperatur zu erfassen und die Schallgeschwindigkeit entsprechend anzupassen.
 In vielen Systemen wird hierfür ein interner Temperatursensor verwendet. Liegt dieser jedoch direkt auf der Platine und ist in einem Gehäuse untergebracht, kann es durch Eigenwärme und Isolation zu einer zeitverzögerten oder verfälschten Temperaturmessung kommen. Die Verwendung eines separaten Temperatursensors außerhalb des Gehäuses wäre in solchen Fällen eine mögliche Lösung, ist jedoch mit zusätzlichem Aufwand verbunden.
 Für das vorliegende Projekt, bei dem ein visueller Effekt eines scheinbar schwebenden Wasserhahns erzeugt werden soll, ist eine sehr hohe Messgenauigkeit nicht zwingend erforderlich. Der Wasserstand im Behälter wird zusätzlich durch Bohrungen geregelt, die ein Überlaufen verhindern. Die Ultraschallmessung dient primär der groben Überwachung des Füllstandes, beispielsweise zur rechtzeitigen Nachfüllung. Geringe Messabweichungen durch temperaturbedingte Schwankungen der Schallgeschwindigkeit sind daher tolerierbar und haben keinen wesentlichen Einfluss auf die Funktionalität der Installation.
 
