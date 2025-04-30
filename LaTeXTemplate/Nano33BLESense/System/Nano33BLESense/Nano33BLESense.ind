@@ -68,18 +68,18 @@
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 19, 213
-  \item GPIO, 19, 213, 214
+    \subitem  \emph  {see} GPIO, 19, 212
+  \item GPIO, 19, 212
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 19, 213, 214
+  \item I\textsuperscript  {2}C, 19, 212
   \item IDE, 19, 180
   \item IMU, 19, 28, 31
   \item Integrated Development Environment
     \subitem  \emph  {see} IDE, 19
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 19, 213
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 19, 212
 
   \indexspace
 
@@ -129,12 +129,12 @@
 
   \indexspace
 
-  \item SCL, 19, 213
-  \item SDA, 19, 213
+  \item SCL, 19, 212
+  \item SDA, 19, 212
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 19, 213
+    \subitem  \emph  {see} SCL, 19, 212
   \item Serial Data
-    \subitem  \emph  {see} SDA, 19, 213
+    \subitem  \emph  {see} SDA, 19, 212
   \item Serial Peripheral Interface
     \subitem  \emph  {see} SPI, 19, 187
   \item Speicherprogrammierbare Steuerung
@@ -144,13 +144,13 @@
 
   \indexspace
 
-  \item UART, 19, 213, 214
+  \item UART, 19, 212
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 19, 213
+    \subitem  \emph  {see} UART, 19, 212
 
   \indexspace
 
-  \item VCC, 19, 178, 213, 214
+  \item VCC, 19, 178, 212, 213
   \item Voltage at the Common Collector
     \subitem  \emph  {see} VCC, 19, 178
 

@@ -102,9 +102,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {22.1}{\ignorespaces Frequenz der verschiedenen Schall-Arten}}{210}{figure.caption.95}%
 \contentsline {figure}{\numberline {22.2}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{211}{figure.caption.96}%
-\contentsline {figure}{\numberline {22.3}{\ignorespaces Abnahme der Schallintensität in Abhängigkeit der Frequenz bei einem Meter, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{212}{figure.caption.97}%
-\contentsline {figure}{\numberline {22.4}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{213}{figure.caption.98}%
-\contentsline {figure}{\numberline {22.5}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{214}{figure.caption.99}%
+\contentsline {figure}{\numberline {22.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{212}{figure.caption.97}%
+\contentsline {figure}{\numberline {22.4}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{213}{figure.caption.98}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -112,17 +111,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {29.1}{\ignorespaces Bernstein polynomial of degree $3$}}{243}{figure.caption.101}%
-\contentsline {figure}{\numberline {29.2}{\ignorespaces Bézier curve for example \ref {KPunkte4Beispiel} }}{244}{figure.caption.102}%
+\contentsline {figure}{\numberline {29.1}{\ignorespaces Bernstein polynomial of degree $3$}}{243}{figure.caption.100}%
+\contentsline {figure}{\numberline {29.2}{\ignorespaces Bézier curve for example \ref {KPunkte4Beispiel} }}{244}{figure.caption.101}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {30.1}{\ignorespaces Smoothing a corner with the help of an arc - triangle}}{245}{figure.caption.103}%
-\contentsline {figure}{\numberline {30.2}{\ignorespaces Angular change with blending arc}}{247}{figure.caption.104}%
-\contentsline {figure}{\numberline {30.3}{\ignorespaces Curvature progression for a blending arc}}{247}{figure.caption.105}%
-\contentsline {figure}{\numberline {30.4}{\ignorespaces Maximum range for a blending arc of a circle - $L(\varepsilon =const, \alpha )$}}{248}{figure.caption.106}%
-\contentsline {figure}{\numberline {30.5}{\ignorespaces Deviation when specifying the distance $L$ when rounding with a circular arc}}{248}{figure.caption.107}%
+\contentsline {figure}{\numberline {30.1}{\ignorespaces Smoothing a corner with the help of an arc - triangle}}{245}{figure.caption.102}%
+\contentsline {figure}{\numberline {30.2}{\ignorespaces Angular change with blending arc}}{247}{figure.caption.103}%
+\contentsline {figure}{\numberline {30.3}{\ignorespaces Curvature progression for a blending arc}}{247}{figure.caption.104}%
+\contentsline {figure}{\numberline {30.4}{\ignorespaces Maximum range for a blending arc of a circle - $L(\varepsilon =const, \alpha )$}}{248}{figure.caption.105}%
+\contentsline {figure}{\numberline {30.5}{\ignorespaces Deviation when specifying the distance $L$ when rounding with a circular arc}}{248}{figure.caption.106}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {31.1}{\ignorespaces Programme flow chart \glqq Corner rounding\grqq }}{263}{figure.caption.110}%
-\contentsline {figure}{\numberline {31.2}{\ignorespaces Programme flowchart \glqq Selection of the rounding strategies\grqq }}{264}{figure.caption.111}%
+\contentsline {figure}{\numberline {31.1}{\ignorespaces Programme flow chart \glqq Corner rounding\grqq }}{263}{figure.caption.109}%
+\contentsline {figure}{\numberline {31.2}{\ignorespaces Programme flowchart \glqq Selection of the rounding strategies\grqq }}{264}{figure.caption.110}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

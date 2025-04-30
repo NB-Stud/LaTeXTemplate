@@ -72,7 +72,7 @@ grundlegendes Verständnis über die Funktionsweise, technischen Eigenschaften u
 Anwendungsvoraussetzungen abstandsmessender Ultraschallsensoren notwendig. Die
 folgenden Unterkapitel bieten eine strukturierte Einführung in die physikalischen und
 technischen Grundlagen des Sensors. Ziel ist es, ein tiefergehendes Verständnis für den
-Aufbau, die Signalverarbeitung und die praktische Handhabung des HC-SR04 zu
+Aufbau, die Signalverarbeitung und die praktische Handhabung eines Ultraschallsensors zu
 vermitteln. \cite{Arduino:2024}
 
 \subsection{Grundlagen Schall}
@@ -182,51 +182,51 @@ In Abb. \ref{schallfunktion} ist die Schallgeschwindigkeit in Luft im Temperatur
 
 lässt sich bei gegebener Frequenz $f$ und mit der berechneten Schallgeschwindigkeit $v_{Schall}$ die Wellenlänge des Schalls berechnen \cite{Willems:2022}. Diese beträgt bei einer angenommenen Frequenz von $f=40 \:\text{kHz}$ und der in Abschnitt \ref{AbschnittVschall} berechneten Schallgeschwindigkeit $\lambda=8{,}58 \cdot 10^{-3} \:\text{m}$.
 
-\subsection{Absorption und Reflexion}
+%\subsection{Absorption und Reflexion}
 
-Absorption beschreibt die Abnahme der Intensität $I$ einer Schallwelle, während sie Weg durch das sie leitenden Medium zurücklegt. Sie ist vom Quadrat der Frequenz $f$ des Schalls und den Absorptionseigenschaften $a$ des Ausbreitungsmediums abhängig und lässt sich über die Formel \ref{Absorption}
+%Absorption beschreibt die Abnahme der Intensität $I$ einer Schallwelle, während sie Weg durch das sie leitenden Medium zurücklegt. Sie ist vom Quadrat der Frequenz $f$ des Schalls und den Absorptionseigenschaften $a$ des Ausbreitungsmediums abhängig und lässt sich über die Formel \ref{Absorption}
 
-\begin{equation}
-    I(x)=I_0\cdot e^{-\alpha x}; \:\alpha=af^2
-    \label{Absorption}
-\end{equation}
+%\begin{equation}
+%    I(x)=I_0\cdot e^{-\alpha x}; \:\alpha=af^2
+%    \label{Absorption}
+%\end{equation}
 
-berechnen \cite{Hering:2023,Hering:2021b}.
-In Abbildung~\ref{DiagrammIntensitaet} ist die Abhängigkeit des Verhältnisses der Intensität $I$ zu $I_0$ von der Frequenz dargestellt. Die Wegstrecke von einem Meter und die Umgebungsbedingungen sind entsprechend konstant.
+%berechnen \cite{Hering:2023,Hering:2021b}.
+%In Abbildung~\ref{DiagrammIntensitaet} ist die Abhängigkeit des Verhältnisses der Intensität $I$ zu $I_0$ von der Frequenz dargestellt. Die Wegstrecke von einem Meter und die Umgebungsbedingungen sind entsprechend konstant.
 
-Für eine Frequenz von $f=40 \:\text{kHz}$ ergibt sich ein Verhältnis von 0,95.
+%Für eine Frequenz von $f=40 \:\text{kHz}$ ergibt sich ein Verhältnis von 0,95.
 
-\begin{figure}[h]
-    \begin{center}
+%\begin{figure}[h]
+%    \begin{center}
 %Diagramm Intensität
 %Abstandssensor\Entwicklerdokumentation\tikz
 %tikz-Diagramm für die Abhängigkeit der Intensität von der Frequenz (qualitativ)
 %Bestandteil der Entwicklerdokumentation "Abstandssensor" (Automatisierungstechnik SS24)
 
-\begin{tikzpicture}
-    \begin{scope}[scale=.85]	
-        %Achsen
-        \draw[thin, ->] (0,0) -- (10.2,0) node[right] {$f$ in KHz}; %x-Achse
-        \draw[thin, ->] (0,0) -- (0,8.2) node[above] {$I/I_0$}; %y-Achse
-        %Beschriftung
-        \foreach[count=\x] \a in {0, 20, ..., 200} {
-            \draw[thin] (\x-1,0) -- (\x-1,-0.2) node [below] {\a};
-        }%x-Achse
-        \foreach[count=\x] \a in {0.0001, 0.0010, 0.0100, 0.1000, 1.0000} {
-            \draw[thin] (0,\x*2-2) -- (-0.2,\x*2-2) node [left] {\a};
-        }%y-Achse
+%\begin{tikzpicture}
+%    \begin{scope}[scale=.85]	
+%        %Achsen
+%        \draw[thin, ->] (0,0) -- (10.2,0) node[right] {$f$ in KHz}; %x-Achse
+%        \draw[thin, ->] (0,0) -- (0,8.2) node[above] {$I/I_0$}; %y-Achse
+%        %Beschriftung
+%        \foreach[count=\x] \a in {0, 20, ..., 200} {
+%            \draw[thin] (\x-1,0) -- (\x-1,-0.2) node [below] {\a};
+%        }%x-Achse
+%        \foreach[count=\x] \a in {0.0001, 0.0010, 0.0100, 0.1000, 1.0000} {
+%            \draw[thin] (0,\x*2-2) -- (-0.2,\x*2-2) node [left] {\a};
+%        }%y-Achse
         
         %Funktion, qualitativ!
-        \draw[thick, domain=0:10, variable=\x, blue] plot ({\x}, {-0.0741*\x^2+8});
-    \end{scope}
-\end{tikzpicture}
-        \caption{Abnahme der Schallintensität in Abhängigkeit der Frequenz bei einem Meter, nach \cite{Hering:2023}}
-        \label{DiagrammIntensitaet}
-    \end{center}
-\end{figure}
+%        \draw[thick, domain=0:10, variable=\x, blue] plot ({\x}, {-0.0741*\x^2+8});
+%    \end{scope}
+%\end{tikzpicture}
+%        \caption{Abnahme der Schallintensität in Abhängigkeit der Frequenz bei einem Meter, nach \cite{Hering:2023}}
+%        \label{DiagrammIntensitaet}
+%    \end{center}
+%\end{figure}
 
-Trifft die Schallwelle auf die Grenzschicht zweier Medien mit verschiedenen Schallkennimpedanzen $Z_n$, wird sie zum Teil reflektiert und zum anderen Teil transmittiert. Der Reflexionsgrad ist bei großen Differenzen zwischen den Impedanzen $\left(Z_1 \ll Z_2 \:\text{oder} \:Z_1 \gg Z_2\right)$ der Medien besonders hoch. Sind die Impedanzen hingegen ähnlich $\left(Z_1 \approx Z_2\right)$ ist der Absorptionsgrad sehr hoch \cite{Hering:2021b}. 
-Da viele Flüssigkeiten und feste Stoffe eine um den Faktor $10^4 \:\text{bis} \:10^5$ höhere Impedanz im Vergleich zu Luft vorweisen, ist der Reflexionsgrad in diesen Fällen $\gg 99\%$ \cite{Hering:2021b,Hering:2023}.
+%Trifft die Schallwelle auf die Grenzschicht zweier Medien mit verschiedenen Schallkennimpedanzen $Z_n$, wird sie zum Teil reflektiert und zum anderen Teil transmittiert. Der Reflexionsgrad ist bei großen Differenzen zwischen den Impedanzen $\left(Z_1 \ll Z_2 \:\text{oder} \:Z_1 \gg Z_2\right)$ der Medien besonders hoch. Sind die Impedanzen hingegen ähnlich $\left(Z_1 \approx Z_2\right)$ ist der Absorptionsgrad sehr hoch \cite{Hering:2021b}. 
+%Da viele Flüssigkeiten und feste Stoffe eine um den Faktor $10^4 \:\text{bis} \:10^5$ höhere Impedanz im Vergleich zu Luft vorweisen, ist der Reflexionsgrad in diesen Fällen $\gg 99\%$ \cite{Hering:2021b,Hering:2023}.
 
 \subsection{Weg- und Abstandsmessung mit Ultraschall}
 
@@ -266,11 +266,11 @@ Um eine Entfernung oder einen Abstand eines Objekts zu dem Sensor zu ermitteln, 
     \end{center}
 \end{figure}
 
-In der Anwendung einköpfiger Sensoren ist für die Messung sehr kleiner Distanzen auf die Ausschwingzeit des Wandlers sowie die Umschaltzeit vom Lautsprecher- in den Mikrofonbetrieb zu achten, da in dieser Zeit kein Echosignal aufgenommen werden kann. Bei zweiköpfigen Systemen, also je einem dedizierten Lautsprecher und Mikrofon, sind die Öffnungswinkel der Schallkeulen in Verbindung mit dem radialen Abstand maßgeblich für die minimale Distanz.  
+%In der Anwendung einköpfiger Sensoren ist für die Messung sehr kleiner Distanzen auf die Ausschwingzeit des Wandlers sowie die Umschaltzeit vom Lautsprecher- in den Mikrofonbetrieb zu achten, da in dieser Zeit kein Echosignal aufgenommen werden kann. Bei zweiköpfigen Systemen, also je einem dedizierten Lautsprecher und Mikrofon, sind die Öffnungswinkel der Schallkeulen in Verbindung mit dem radialen Abstand maßgeblich für die minimale Distanz.  
 
-Bei großen Distanzen sind sowohl die Genauigkeit der Ausrichtung des Sensors $\left(\text{bei kleinen Öffnungswinkeln der Schallkeulen}\right)$ als auch die Absorption der Schallintensität in dem Ausbreitungsmedium relevant \cite{Hering:2023}. 
+%Bei großen Distanzen sind sowohl die Genauigkeit der Ausrichtung des Sensors $\left(\text{bei kleinen Öffnungswinkeln der Schallkeulen}\right)$ als auch die Absorption der Schallintensität in dem Ausbreitungsmedium relevant \cite{Hering:2023}. 
 
-Ebenfalls störend auswirken können sich die Geometrie des zu messenden Objektes $\left(\text{z. B. bei stark konkaven oder konvexen Oberflächen}\right)$, absorbierendes/diffus reflektierendes Material $\left(\text{Filz, Watte, Schaumstoff}\right)$ oder Umwelteinflüsse orthogonal zur Messrichtung wirkender Wind. Verunreinigungen wie Staub und Rauch oder leichter Niederschlag in Form von Regen und Schnee beeinträchtigen die Messung hingegen nicht \cite{Hering:2023}.
+%Ebenfalls störend auswirken können sich die Geometrie des zu messenden Objektes $\left(\text{z. B. bei stark konkaven oder konvexen Oberflächen}\right)$, absorbierendes/diffus reflektierendes Material $\left(\text{Filz, Watte, Schaumstoff}\right)$ oder Umwelteinflüsse orthogonal zur Messrichtung wirkender Wind. Verunreinigungen wie Staub und Rauch oder leichter Niederschlag in Form von Regen und Schnee beeinträchtigen die Messung hingegen nicht \cite{Hering:2023}.
 
 %\subsection{Anwendungen}
 
@@ -359,48 +359,37 @@ Bei den folgenden Beispielprogrammen wird der Arduino Nano 33 BLE Sense verwende
         \label{PinBelegungUltraschall}
     \end{center}
 
-\subsection{Anwendungen und Funktionen}
-Ultraschallsensoren finden in der Praxis Anwendung in verschiedenen Bereichen, die auf die Ausbreitung des Schalls über unterschiedliche Medien basieren HS23. Es lassen sich drei Hauptkategorien unterscheiden: In der ersten Kategorie breitet sich der Schall über Luft aus. Typische Anwendungen sind hier Füllstandmessungen, Durchmessererfassungen bei Auf- und Abwickelsteuerungen sowie Kollisionsschutz und Objekterkennung HS23. Die zweite Kategorie umfasst Sensoren, bei denen sich der Schall über Flüssigkeiten ausbreitet. Diese finden vor allem im maritimen Bereich Verwendung, beispielsweise in Sonarsystemen zum Orten von Unterseebooten oder Fischschwärmen sowie in Echoloten zur Kartografie des Meeresbodens HMS21. Die dritte Kategorie umfasst Körperschallsensoren, die in der Industrie zur zerstörungsfreien Materialprüfung sowie in der Medizin zur Ultraschalldiagnostik verwendet werden. HMS21
+\subsection{Anwendungen}
+Ultraschallsensoren finden in der Praxis Anwendung in verschiedenen Bereichen, die auf die Ausbreitung des Schalls über unterschiedliche Medien basieren \cite{Hering:2023}. Es lassen sich drei Hauptkategorien unterscheiden: In der ersten Kategorie breitet sich der Schall über Luft aus. Typische Anwendungen sind hier Füllstandmessungen, Durchmessererfassungen bei Auf- und Abwickelsteuerungen sowie Kollisionsschutz und Objekterkennung \cite{Hering:2023}. Die zweite Kategorie umfasst Sensoren, bei denen sich der Schall über Flüssigkeiten ausbreitet. Diese finden vor allem im maritimen Bereich Verwendung, beispielsweise in Sonarsystemen zum Orten von Unterseebooten oder Fischschwärmen sowie in Echoloten zur Kartografie des Meeresbodens \cite{Hering:2021}. Die dritte Kategorie umfasst Körperschallsensoren, die in der Industrie zur zerstörungsfreien Materialprüfung sowie in der Medizin zur Ultraschalldiagnostik verwendet werden. \cite{Hering:2021}
 
-Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von Ultraschallsensoren erleichtern und erweitern. Die wichtigsten Funktionen sind: \cite{Arduino:2024}
-\begin{itemize}
-	\item \textit{NewPing()}: Initialisierung eines Sensors durch Angabe der Pins für Trigger- und Echo-Signale sowie der maximalen Messdistanz.
-	\item \textit{ping()}: Senden eines Ultraschallimpulses und Rückgabe der gemessenen Laufzeit in Mikrosekunden.
-	\item \textit{getDistance()}: Direkte Ausgabe der gemessenen Entfernung in Zentimetern basierend auf der Standard-Schallgeschwindigkeit in Luft.
-	\item \textit{pingMedian()}: Durchführung mehrerer Messungen und Rückgabe des Medianwertes zur Reduktion von Ausreißern.
-	\item \textit{convert()}: Umrechnung einer bekannten Echozeit in Zentimeter zur manuellen Berechnung der Entfernung.
-	\item \textit{lastDistance()}: Zugriff auf das letzte Messergebnis, ohne einen neuen Impuls auszulösen.
-	Diese Funktionen ermöglichen eine einfache und präzise Nutzung von Ultraschallsensoren in verschiedenen Anwendungen, von der Einzelmessung bis hin zur Durchführung mehrerer Messungen zur Reduzierung von Ausreißern.
-\end{itemize}
-
-\subsection{Beispiel - Manuelle Abstandsmessung}
-Die manuelle Abstandsmessung mit dem Ultraschallsensor HC-SR04 erfolgt durch gezieltes
-Senden eines Ultraschallimpulses (Trigger) und Messen der Zeit bis zum Empfang des
-reflektierten Signals (Echo). Die Entfernung zum Objekt wird aus der halben Laufzeit des Signals
-und der aktuellen Schallgeschwindigkeit berechnet, gemäß:\\
-\begin{equation}
-	\label{abstandManuell}
-	s = \frac{1}{2} \cdot v_{\text{Schall}} \cdot t
-\end{equation}
+%\subsection{Beispiel - Manuelle Abstandsmessung}
+%Die manuelle Abstandsmessung mit dem Ultraschallsensor HC-SR04 erfolgt durch gezieltes
+%Senden eines Ultraschallimpulses (Trigger) und Messen der Zeit bis zum Empfang des
+%reflektierten Signals (Echo). Die Entfernung zum Objekt wird aus der halben Laufzeit des Signals
+%und der aktuellen Schallgeschwindigkeit berechnet, gemäß:\\
+%\begin{equation}
+%	\label{abstandManuell}
+%	s = \frac{1}{2} \cdot v_{\text{Schall}} \cdot t
+%\end{equation}
 
 
-Dabei ist s der Abstand, $v_{\text{Schall}}$ die Schallgeschwindigkeit und t die gemessene Zeitdifferenz
-\cite{Hering:2023}
-Im manuellen Beispiel wird auf Bibliotheken verzichtet. Stattdessen erfolgt die Steuerung über
-direkte Pin-Zugriffe und Zeitanalyse mit der Pulse-In-Funktion aus der Arduino-
-Standardbibliothek. Dieses Vorgehen bietet volle Kontrolle über den Ablauf, ist jedoch anfälliger
-für Timingfehler und benötigt eine Kalibrierung der Umgebungsparameter, wie z. B. Temperatur. \cite{Hering:2023}
-Der Ablauf ist wie folgt:
-\begin{enumerate}
-	\item Trigger-Pin für 10 Mikrosekunden auf HIGH setzen (Anstoß des Schallimpulses).
-	\item Echo-Pin überwachen: Pulse-In-Funktion misst, wie lange der Pin auf HIGH bleibt.
-	\item Zeitwert wird in die Distanz umgerechnet, unter Annahme einer konstanten
-	Schallgeschwindigkeit von z. B. 343,2 m/s (bei 20 °C) \cite{Hering:2023}
-\end{enumerate}
-Dieses Verfahren eignet sich besonders für den Einstieg und zur Überprüfung der Grundfunktion,
-bevor komplexere Bibliotheken verwendet werden. Ein Vorteil besteht darin, dass systematische
-Verzögerungen (Ausschwingzeit, Sensoreigenheiten) direkt analysiert und berücksichtigt werden
-können \cite{Hering:2023}
+%Dabei ist s der Abstand, $v_{\text{Schall}}$ die Schallgeschwindigkeit und t die gemessene Zeitdifferenz
+%\cite{Hering:2023}
+%Im manuellen Beispiel wird auf Bibliotheken verzichtet. Stattdessen erfolgt die Steuerung über
+%direkte Pin-Zugriffe und Zeitanalyse mit der Pulse-In-Funktion aus der Arduino-
+%Standardbibliothek. Dieses Vorgehen bietet volle Kontrolle über den Ablauf, ist jedoch anfälliger
+%für Timingfehler und benötigt eine Kalibrierung der Umgebungsparameter, wie z. B. Temperatur. \cite{Hering:2023}
+%Der Ablauf ist wie folgt:
+%\begin{enumerate}
+%	\item Trigger-Pin für 10 Mikrosekunden auf HIGH setzen (Anstoß des Schallimpulses).
+%	\item Echo-Pin überwachen: Pulse-In-Funktion misst, wie lange der Pin auf HIGH bleibt.
+%	\item Zeitwert wird in die Distanz umgerechnet, unter Annahme einer konstanten
+%	Schallgeschwindigkeit von z. B. 343,2 m/s (bei 20 °C) \cite{Hering:2023}
+%\end{enumerate}
+%Dieses Verfahren eignet sich besonders für den Einstieg und zur Überprüfung der Grundfunktion,
+%bevor komplexere Bibliotheken verwendet werden. Ein Vorteil besteht darin, dass systematische
+%Verzögerungen (Ausschwingzeit, Sensoreigenheiten) direkt analysiert und berücksichtigt werden
+%können \cite{Hering:2023}
 
 %\subsection{Beispiel}
 %\textbf{Funktionsweise im Projektkontext:}
@@ -421,12 +410,12 @@ können \cite{Hering:2023}
 
 
 
-\subsection{Beispiel - Code}
-Nachfolgend ein vereinfachter Arduino-Sketch für ein Projekt, das den
-Wasserstand auf einem seriellen Monitor ausgibt:
+%\subsection{Beispiel - Code}
+%Nachfolgend ein vereinfachter Arduino-Sketch für ein Projekt, das den
+%Wasserstand auf einem seriellen Monitor ausgibt:
 
 
-\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
+%\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
 
 \section{Bibliothek}
 
@@ -447,12 +436,21 @@ bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheke
 	\item Öffne die Arduino IDE (Version 1.8.x oder neuer empfohlen).
 	\item Navigiere zu: Sketch > Bibliothek einbinden > Bibliotheken verwalten…
 	\item Im Suchfeld oben rechts den Begriff NewPing eingeben
-	\item Wähle den Eintrag NewPing by Tim Eckel aus.
+	\item Wähle den Eintrag NewPing by Tim Eckel aus (Version 1.9.7 oder neuer empfohlen).
 	\item Klicke auf \glqq Installieren \grqq.
 \end{enumerate}
 
+\subsection{Funktionen}
+Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von Ultraschallsensoren erleichtern und erweitern. Die wichtigsten Funktionen sind: \cite{Arduino:2024}\\
 
+\python{NewPing()}: Initialisierung eines Sensors durch Angabe der Pins für Trigger- und Echo-Signale sowie der maximalen Messdistanz.\\
+\python{ping()}: Senden eines Ultraschallimpulses und Rückgabe der gemessenen Laufzeit in Mikrosekunden.\\
+\python{getDistance()}: Direkte Ausgabe der gemessenen Entfernung in Zentimetern basierend auf der Standard-Schallgeschwindigkeit in Luft.\\
+\python{pingMedian()}: Durchführung mehrerer Messungen und Rückgabe des Medianwertes zur Reduktion von Ausreißern.\\
+	%\item \textit{convert()}: Umrechnung einer bekannten Echozeit in Zentimeter zur manuellen Berechnung der Entfernung.
+	%\item \textit{lastDistance()}: Zugriff auf das letzte Messergebnis, ohne einen neuen Impuls auszulösen.
 
+Diese Funktionen ermöglichen eine einfache und präzise Nutzung von Ultraschallsensoren in verschiedenen Anwendungen, von der Einzelmessung bis hin zur Durchführung mehrerer Messungen zur Reduzierung von Ausreißern.
 
 
 
@@ -479,14 +477,14 @@ Der Ultraschallabstandssensor wird für die Verwendung bei der Temperatur von 20
 %\Mynote{cite method}
 
 \section{Simple Code}
-Zur Überprüfung der grundlegenden Funktionalität eines Arduino-Boards wurde ein Simple Code \ref{lst:simple} verwendet. Dabei wurde eine LED über einen digitalen Ausgang angesteuert und in einem festen Zeitintervall ein- und ausgeschaltet.
+Zur Überprüfung der grundlegenden Funktionalität des Ultraschallsensors wurde ein Simple Code \ref{lst:laufzeitMessung} verwendet. Das Programm dient zum einfachen Test mithilfe der NewPing-Bibliothek. Es misst die Laufzeit (Echozeit) des Schallsignals	. Die Werte werden anschließend über den Seriellen Monitor ausgegeben.
 
-Ziel dieses Simple Codes ist es, die korrekte Ansteuerung von digitalen Pins sowie die allgemeine Funktionsfähigkeit des Mikrocontrollers zu überprüfen. Die gewählte Testschaltung ermöglicht eine visuelle Rückmeldung über den Programmablauf und dient als Grundlage für weiterführende Anwendungen.
-{
-	\captionof{code}{Einfacher Code zum Testen der eingebauten LED}
-	\label{lst:simple}
-\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/simple/simple.ino}
-}
+\begin{listing}
+	\caption{Einfacher Code zum Testen des Ultraschallsensors}
+	\label{lst:laufzeitMessung}
+	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/laufzeitMessung/laufzeitMessung.ino}
+\end{listing}
+
 
 %\section{Einfaches Beispiel zur Verwendung des Ultraschallabstandsensors}
 %Eine einfache Applikation ist die Abstandserkennung zur Objektnähewarnung.
@@ -525,25 +523,33 @@ Ziel dieses Simple Codes ist es, die korrekte Ansteuerung von digitalen Pins sow
 %    \end{center}
 
 \section{Einfache Anwendung}
-Eine anschauliche Demonstration der Möglichkeiten eines Ultraschallsensors stellt das Projekt Magic Faucet Fountain dar. Hierbei wird mit Hilfe des HC-SR04 ein Effekt erzeugt, bei dem ein scheinbar magisch schwebender Wasserstrahl bei Annaeherung der Hand unterbrochen oder aktiviert wird – ideal zur Beruehrungslosigkeit in Hygienebereichen oder als interaktives Kunstobjekt.
+In der Industrie ist es oft wichtig zu wissen, wann ein bestimmter Pegel einer Flüssigkeit unterschritten wird. Dafür können Ultraschallsensoren eingesetzt werden. Sie messen kontinuierlich den Pegel und können dem Programm so permanent einen Messwert bereitstellen. Wird ein bestimmter Messwert über- oder unterschritten, kann das Programm eine Warnmeldung erzeugen.
+Dieses Arduino-Programm \ref{lst:schwellenwert} nutzt einen HC-SR04 Ultraschallsensor, um die Entfernung zu einem Objekt kontinuierlich zu überwachen. Es erkennt, ob eine kritische Schwelle (25 cm) unterschritten wurde und gibt in diesem Fall eine Warnmeldung im Seriellen Monitor aus.
 
-Der Sensor misst kontinuierlich den Abstand zu einem Zielobjekt unterhalb des Wasserhahns. Wird ein Objekt, wie eine Hand, innerhalb eines definierten Schwellenwertes erkannt, aktiviert ein Mikrocontroller ein Magnetventil oder eine LED-Konstruktion.
-Diese Anwendung basiert auf der Laufzeitmessung eines ausgesendeten Ultraschallimpulses, wie sie im HC-SR04 durch Sende- und Empfangsmodule realisiert ist. Die Messung der Zeit zwischen Senden und Empfangen eines Echosignals erlaubt die praezise Abstandsermittlung bei bekannten Umweltbedingungen. Die zugrunde liegende Methode ist in der Fachliteratur beschrieben als ein Beispiel für zeitbasierte Sensoreffekte mit direkter Laufzeitmessung von Schallwellen \cite{Traenkler:2014}.
-
-
+\begin{listing}
+	\caption{Einfache Anwendung als Schwellenwert-Melder}
+	\label{lst:schwellenwert}
+	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/schwellenwertMeldung/schwellenwertMeldung.ino}
+\end{listing}
 
 
 \section{Tests}
 \subsection{Einfacher Funktionstest}
 Beim einfachen Funktionstest wird überprüft, ob der Sensor korrekt anspricht und brauchbare
 Messwerte liefert. Dazu wird der HC-SR04 an einen Mikrocontroller (z. B. Arduino Nano 33 BLE
-Sense Lite) angeschlossen und ein einfacher Sketch aufgespielt, welcher die gemessene
+Sense Lite) angeschlossen und ein einfacher Sketch  \ref{lst:entfernungMessung} aufgespielt, welcher die gemessene
 Entfernung über die serielle Schnittstelle ausgibt. \cite{Hering:2023}
 Ein Testobjekt wird in einem bekannten Abstand, typischerweise 20 cm, orthogonal vor den
 Sensor gehalten. Die gemessene Entfernung wird mit einem Maßband überprüft. Stimmen beide
 Werte überein, ist die Grundfunktion des Sensors sichergestellt. Dieser Test eignet sich
 insbesondere zur ersten Inbetriebnahme oder zur Überprüfung von Lötverbindungen,
 Spannungsversorgung und Signalverarbeitung.
+
+\begin{listing}
+	\caption{Code für die Messung einer Strecke}
+	\label{lst:entfernungMessung}
+	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/entfernungMessung/entfernungMessung.ino}
+\end{listing}
 
 \subsection{Test aller Funktionen}
 Ein umfassender Funktionstest geht über die reine Abstandsmessung hinaus. Hierbei werden
@@ -568,7 +574,7 @@ systematisch verschiedene Einflüsse auf die Messgenauigkeit überprüft: \cite{
 
 %Um große mögliche Messfehler aufgrund einer fest hinterlegten Schallgeschwindigkeit zu vermeiden, soll die Temperatur von dem internen Temperatursensor des Arduino Nano 33 BLE Sense Lite bei einer Abstandsmessung erfasst und auf dessen Grundlage die Schallgeschwindigkeit berechnet werden. Da der Sensor jedoch auf der Platine ist, diese sich bei Benutzung selbst erwärmt und zusätzlich in einem Gehäuse verbaut ist, dessen Material gute wärmeisolierende Eigenschaften hat, ist die von ihm gemessene Temperatur zeitabhängig. Daraus folgt, dass seine Messwerte nicht für die Berechnung der Schallgeschwindigkeit verwendet werden können.
 %Die Verwendung eines zusätzlichen Temperatursensors wäre eine mögliche Lösung. Daher wird, um eine zu große Abweichung des angezeigten Messwertes zu verhindern, der für den Sensor zugelassene Temperaturbereich eingeschränkt. Ein möglicher Temperaturbereich ist zwischen $17 \:\text{\textcelsius \:und} \:23 \:\text{\textcelsius}$. In diesem Bereich liegt die Abweichung der Schallgeschwindigkeit bei unter $0,5\%$. Ob diese Genauigkeit ausreichend ist, ist von der Anwendung abhängig.
-Die Genauigkeit von Ultraschall-Abstandsmessungen hängt unter anderem von der Schallgeschwindigkeit ab, welche wiederum temperaturabhängig ist. Wird die Schallgeschwindigkeit im Auswertungsprozess als konstanter Wert angenommen, kann es bei Abweichungen von der tatsächlichen Umgebungstemperatur zu Messfehlern kommen. Eine Möglichkeit zur Korrektur besteht darin, die aktuelle Temperatur zu erfassen und die Schallgeschwindigkeit entsprechend anzupassen.
+Die Genauigkeit von Ultraschall-Abstandsmessungen hängt unter anderem von der Schallgeschwindigkeit ab, welche wiederum temperaturabhängig ist. Wird die Geschwindigkeit im Auswertungsprozess als konstanter Wert angenommen, kann es bei Abweichungen von der tatsächlichen Umgebungstemperatur zu Messfehlern kommen. Eine Möglichkeit zur Korrektur besteht darin, die aktuelle Temperatur zu erfassen und die Schallgeschwindigkeit entsprechend anzupassen.
 In vielen Systemen wird hierfür ein interner Temperatursensor verwendet. Liegt dieser jedoch direkt auf der Platine und ist in einem Gehäuse untergebracht, kann es durch Eigenwärme und Isolation zu einer zeitverzögerten oder verfälschten Temperaturmessung kommen. Die Verwendung eines separaten Temperatursensors außerhalb des Gehäuses wäre in solchen Fällen eine mögliche Lösung, ist jedoch mit zusätzlichem Aufwand verbunden.
 Für das vorliegende Projekt, bei dem ein visueller Effekt eines scheinbar schwebenden Wasserhahns erzeugt werden soll, ist eine sehr hohe Messgenauigkeit nicht zwingend erforderlich. Der Wasserstand im Behälter wird zusätzlich durch Bohrungen geregelt, die ein Überlaufen verhindern. Die Ultraschallmessung dient primär der groben Überwachung des Füllstandes, beispielsweise zur rechtzeitigen Nachfüllung. Geringe Messabweichungen durch temperaturbedingte Schwankungen der Schallgeschwindigkeit sind daher tolerierbar und haben keinen wesentlichen Einfluss auf die Funktionalität der Installation.
 
