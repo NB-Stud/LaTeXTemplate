@@ -40,5 +40,5 @@ void loop() {
   // Print result
   Serial.print("Echo time: ");
   Serial.print(echoTime);
-  Serial.println(" µs");
+  Serial.println("mikro-sekunden");
 }

@@ -421,13 +421,12 @@ Ultraschallsensoren finden in der Praxis Anwendung in verschiedenen Bereichen, d
 
 \subsection{Beschreibung}
 Zur Ansteuerung des Ultraschallsensors HC-SR04 wird eine Arduino-kompatible Bibliothek
-New Ping verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
+\python{NewPing} verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
 Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Triggern, zur
 Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2024}.
 
 \subsection{Installation}
-Die Installation der Bibliothek New Ping, welche die Funktionalität des Ultraschallsensors HC-
-SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
+Die Installation der Bibliothek \python{NewPing}, welche die Funktionalität des Ultraschallsensors HC-SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
 bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
 \cite{Arduino:2024}
 
@@ -435,8 +434,8 @@ bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheke
 \begin{enumerate}
 	\item Öffne die Arduino IDE (Version 1.8.x oder neuer empfohlen).
 	\item Navigiere zu: Sketch > Bibliothek einbinden > Bibliotheken verwalten…
-	\item Im Suchfeld oben rechts den Begriff NewPing eingeben
-	\item Wähle den Eintrag NewPing by Tim Eckel aus (Version 1.9.7 oder neuer empfohlen).
+	\item Im Suchfeld oben rechts den Begriff \python{NewPing} eingeben
+	\item Wähle den Eintrag \python{NewPing} by Tim Eckel aus (Version 1.9.7 oder neuer empfohlen).
 	\item Klicke auf \glqq Installieren \grqq.
 \end{enumerate}
 
