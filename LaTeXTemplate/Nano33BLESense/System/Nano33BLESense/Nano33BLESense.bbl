@@ -40,167 +40,6 @@
     \field{year}{2024}
   \endentry
 
-  \entry{Abadi:2016}{inproceedings}{}{}
-    \name{author}{22}{}{%
-      {{hash=AM}{%
-         family={Abadi},
-         familyi={A\bibinitperiod},
-         given={Mart{\'\i}n},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BP}{%
-         family={Barham},
-         familyi={B\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Jianmin},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=CZ}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Zhifeng},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=DA}{%
-         family={Davis},
-         familyi={D\bibinitperiod},
-         given={Andy},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=DJ}{%
-         family={Dean},
-         familyi={D\bibinitperiod},
-         given={Jeffrey},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=DM}{%
-         family={Devin},
-         familyi={D\bibinitperiod},
-         given={Matthieu},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=GS}{%
-         family={Ghemawat},
-         familyi={G\bibinitperiod},
-         given={Sanjay},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=IG}{%
-         family={Irving},
-         familyi={I\bibinitperiod},
-         given={Geoffrey},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=IM}{%
-         family={Isard},
-         familyi={I\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=KM}{%
-         family={Kudlur},
-         familyi={K\bibinitperiod},
-         given={Manjunath},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=LJ}{%
-         family={Levenberg},
-         familyi={L\bibinitperiod},
-         given={Josh},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MR}{%
-         family={Monga},
-         familyi={M\bibinitperiod},
-         given={Rajat},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Moore},
-         familyi={M\bibinitperiod},
-         given={Sherry},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=MDG}{%
-         family={Murray},
-         familyi={M\bibinitperiod},
-         given={Derek\bibnamedelima G.},
-         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=SB}{%
-         family={Steiner},
-         familyi={S\bibinitperiod},
-         given={Benoit},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=TP}{%
-         family={Tucker},
-         familyi={T\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=VV}{%
-         family={Vasudevan},
-         familyi={V\bibinitperiod},
-         given={Vijay},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=WP}{%
-         family={Warden},
-         familyi={W\bibinitperiod},
-         given={Pete},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=WM}{%
-         family={Wicke},
-         familyi={W\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=YY}{%
-         family={Yu},
-         familyi={Y\bibinitperiod},
-         given={Yuan},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=ZX}{%
-         family={Zheng},
-         familyi={Z\bibinitperiod},
-         given={Xiaoqiang},
-         giveni={X\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{USENIX} Association}%
-    }
-    \strng{namehash}{AM+1}
-    \strng{fullhash}{AMBPCJCZDADJDMGSIGIMKMLJMRMSMDGSBTPVVWPWMYYZX1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Aba+16}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{booktitle}{12\textsuperscript{th} {USENIX} Symposium on Operating
-  Systems Design and Implementation ({OSDI} 16)}
-    \field{isbn}{978-1-931971-33-1}
-    \field{pages}{265\bibrangedash 283}
-    \field{title}{{TensorFlow: A System for Large-Scale Machine Learning}}
-    \verb{url}
-    \verb https://www.usenix.org/conference/osdi16/technical-sessions/presentat
-    \verb ion/abadi
-    \endverb
-    \list{location}{1}{%
-      {Savannah, GA}%
-    }
-    \field{month}{11}
-    \field{year}{2016}
-  \endentry
-
   \entry{ArduinoNano33Manual:2022}{online}{}{}
     \list{publisher}{1}{%
       {Arduino}%
@@ -222,70 +61,13 @@
     \field{urlyear}{2023}
   \endentry
 
-  \entry{arduinoLCDI2C:2023}{online}{}{}
-    \list{publisher}{1}{%
-      {Arduino}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ard}
-    \field{extraalpha}{2}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Arduino Libraries -- LCD\_I2C}
-    \verb{url}
-    \verb https://www.arduino.cc/reference/en/libraries/lcd_i2c
-    \endverb
-    \field{year}{2023}
-    \field{urlday}{09}
-    \field{urlmonth}{07}
-    \field{urlyear}{2023}
-  \endentry
-
-  \entry{ArduinoLPS22HB:2024}{online}{}{}
-    \list{publisher}{1}{%
-      {Arduino}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ard}
-    \field{extraalpha}{3}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Arduino Libraries - Arduino\_LPS22HB}
-    \verb{url}
-    \verb https://www.arduino.cc/reference/en/libraries/arduino_lps22hb/
-    \endverb
-    \field{year}{2024}
-    \field{urlday}{14}
-    \field{urlmonth}{06}
-    \field{urlyear}{2024}
-  \endentry
-
-  \entry{ArduinoPDM:2023}{online}{}{}
-    \list{publisher}{1}{%
-      {Arduino}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ard}
-    \field{extraalpha}{4}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Arduino Libraries - PDM}
-    \verb{url}
-    \verb https://docs.arduino.cc/learn/built-in-libraries/pdm
-    \endverb
-    \field{year}{2023}
-    \field{urlday}{14}
-    \field{urlmonth}{06}
-    \field{urlyear}{2023}
-  \endentry
-
   \entry{ArduinoInterrupt:2019}{online}{}{}
     \list{publisher}{1}{%
       {Arduino}%
     }
     \field{labeltitlesource}{title}
     \field{labelalpha}{Ard}
-    \field{extraalpha}{5}
+    \field{extraalpha}{2}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{title}{Arduino Reference -- Interrupt}
@@ -299,51 +81,13 @@
     \field{urlyear}{2024}
   \endentry
 
-  \entry{ArduinoLoop:2019}{online}{}{}
-    \list{publisher}{1}{%
-      {Arduino}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ard}
-    \field{extraalpha}{6}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Arduino Reference -- loop()}
-    \verb{url}
-    \verb https://www.arduino.cc/reference/en/language/structure/sketch/loop/
-    \endverb
-    \field{year}{2019}
-    \field{urlday}{26}
-    \field{urlmonth}{06}
-    \field{urlyear}{2023}
-  \endentry
-
-  \entry{ArduinoSetup:2019}{online}{}{}
-    \list{publisher}{1}{%
-      {Arduino}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ard}
-    \field{extraalpha}{7}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Arduino Reference -- setup()}
-    \verb{url}
-    \verb https://www.arduino.cc/reference/en/language/structure/sketch/setup/
-    \endverb
-    \field{year}{2019}
-    \field{urlday}{26}
-    \field{urlmonth}{06}
-    \field{urlyear}{2023}
-  \endentry
-
   \entry{ArduinoKit:2022}{online}{}{}
     \list{publisher}{1}{%
       {Arduino}%
     }
     \field{labeltitlesource}{title}
     \field{labelalpha}{Ard}
-    \field{extraalpha}{8}
+    \field{extraalpha}{3}
     \field{sortinit}{A}
     \field{sortinithash}{A}
   \field{note}{\href{../../../MLbib/Arduino/ArduinoStoreTinyMLKit.pdf}{[pdf]}}
@@ -354,30 +98,6 @@
     \field{year}{2022}
     \field{urlday}{23}
     \field{urlmonth}{06}
-    \field{urlyear}{2023}
-  \endentry
-
-  \entry{arduino:2019Kalman}{online}{}{}
-    \name{editor}{1}{}{%
-      {{hash=A}{%
-         family={{Arduino}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Ard}19}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{{Arduino Library -- Kalman }}
-    \verb{url}
-    \verb https://www.arduino.cc/reference/en/libraries/kalman/
-    \endverb
-    \field{year}{2019}
-    \field{urlday}{09}
-    \field{urlmonth}{07}
     \field{urlyear}{2023}
   \endentry
 
@@ -517,32 +237,6 @@
     \verb https://docs.arduino.cc/language-reference/
     \endverb
     \field{year}{2024}
-  \endentry
-
-  \entry{Aristi:2021}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=AD}{%
-         family={Aristi},
-         familyi={A\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AD1}
-    \strng{fullhash}{AD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ari21}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{LCD\_I2C library on GitHub}
-    \verb{url}
-    \verb https://github.com/blackhack/LCD_I2C
-    \endverb
-    \field{year}{2021}
-    \field{urlday}{09}
-    \field{urlmonth}{07}
-    \field{urlyear}{2023}
   \endentry
 
   \entry{Babovsky:2011}{report}{}{}
@@ -691,93 +385,6 @@
     \field{year}{2021}
   \endentry
 
-  \entry{Chiang:2006}{inproceedings}{}{}
-    \name{author}{5}{}{%
-      {{hash=CHH}{%
-         family={Chiang},
-         familyi={C\bibinitperiod},
-         given={Hsin-Han},
-         giveni={H\bibinithyphendelim H\bibinitperiod},
-      }}%
-      {{hash=PJW}{%
-         family={Perng},
-         familyi={P\bibinitperiod},
-         given={Jau-Woei},
-         giveni={J\bibinithyphendelim W\bibinitperiod},
-      }}%
-      {{hash=WBF}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Bing-Fei},
-         giveni={B\bibinithyphendelim F\bibinitperiod},
-      }}%
-      {{hash=WSJ}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Shinq-Jen},
-         giveni={S\bibinithyphendelim J\bibinitperiod},
-      }}%
-      {{hash=LTT}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Tsu-Tian},
-         giveni={T\bibinithyphendelim T\bibinitperiod},
-      }}%
-    }
-    \list{organization}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{CHH+1}
-    \strng{fullhash}{CHHPJWWBFWSJLTT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Chi+06}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{booktitle}{2006 IEEE International Conference on Systems, Man and
-  Cybernetics}
-    \verb{doi}
-    \verb 10.1109/ICSMC.2006.384384
-    \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/TheHumanInTheLoopDesignApproachToTheLongitudinalAutomationSystem}{[pdf]}}}
-    \field{pages}{2839\bibrangedash 2844}
-    \field{title}{The Human-in-the-loop Design Approach to the Longitudinal
-  Automation System for the Intelligent Vehicle, TAIWAN iTS-i}
-    \verb{url}
-    \verb https://ieeexplore.ieee.org/abstract/document/4273859
-    \endverb
-    \field{year}{2006}
-  \endentry
-
-  \entry{DIN66025}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=D}{%
-         family={{DIN Deutsches Institut f{\"u}r Normung e.V.}},
-         familyi={D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Beuth Verlag}%
-    }
-    \strng{namehash}{D1}
-    \strng{fullhash}{D1}
-    \field{shorthand}{DIN66025-2}
-    \field{label}{DIN66025-2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{DIN66025-2}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{DIN 66025-2:1988-09: Programmaufbau f{\"u}r numerisch
-  gesteuerte Arbeitsmaschinen: Wegbedingungen und Zusatzfunktionen}
-    \list{location}{1}{%
-      {Berlin}%
-    }
-    \field{type}{Norm}
-    \field{month}{09}
-    \field{year}{1988}
-  \endentry
-
   \entry{DIN:13850}{book}{}{}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Din}
@@ -822,69 +429,6 @@
     \field{year}{2022}
   \endentry
 
-  \entry{Faragher:2014}{inproceedings}{}{}
-    \name{author}{2}{}{%
-      {{hash=FR}{%
-         family={Faragher},
-         familyi={F\bibinitperiod},
-         given={Rhian},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=HR}{%
-         family={Harle},
-         familyi={H\bibinitperiod},
-         given={Robert},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FRHR1}
-    \strng{fullhash}{FRHR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{FH14}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{booktitle}{Proceedings of the 27th International Technical Meeting
-  of The Satellite Division of the Institute of Navigation (ION GNSS+ 2014)}
-    \field{pages}{2018\bibrangedash 2027}
-    \field{title}{An Analysis of the Accuracy of Bluetooth Low Energy for
-  Indoor Positioning Applications}
-    \field{year}{2014}
-  \endentry
-
-  \entry{Farouki:2017}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=FR}{%
-         family={Farouki},
-         familyi={F\bibinitperiod},
-         given={Rida},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=SJ}{%
-         family={Srinathu},
-         familyi={S\bibinitperiod},
-         given={Jyothirmai},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FRSJ1}
-    \strng{fullhash}{FRSJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{FS17}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \verb{doi}
-    \verb 10.1016/j.cad.2017.01.001
-    \endverb
-    \field{title}{A real-time CNC interpolator algorithm for trimming and
-  filling planar offset curves}
-    \field{volume}{86}
-    \field{journaltitle}{Computer-Aided Design}
-    \field{month}{01}
-    \field{year}{2017}
-  \endentry
-
   \entry{Farin:2002}{book}{}{}
     \name{author}{1}{}{%
       {{hash=FG}{%
@@ -912,121 +456,6 @@
       {San Diego, CA}%
     }
     \field{year}{2002}
-  \endentry
-
-  \entry{Fetick:2021}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=FRJ}{%
-         family={Fetick},
-         familyi={F\bibinitperiod},
-         given={Romain\bibnamedelima J.L.},
-         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {GitHub}%
-    }
-    \strng{namehash}{FRJ1}
-    \strng{fullhash}{FRJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Fet21}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{howpublished}{\url{https://github.com/rfetick/Kalman}}
-    \field{title}{Kalman}
-    \field{year}{2021}
-  \endentry
-
-  \entry{Python:2024Threading}{online}{}{}
-    \name{editor}{1}{}{%
-      {{hash=FPS}{%
-         family={Foundation},
-         familyi={F\bibinitperiod},
-         given={Python\bibnamedelima Software},
-         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FPS1}
-    \strng{fullhash}{FPS1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Fou24}
-    \field{extraalpha}{1}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{abstract}{%
-    Source code: Lib/threading.py This module constructs higher-level threading
-  interfaces on top of the lower level{\_}thread module. CPython implementation
-  detail: In CPython, due to the Global Interpre...%
-    }
-    \field{title}{threading: Thread-based parallelism}
-    \verb{url}
-    \verb https://docs.python.org/3/library/wave.html
-    \endverb
-    \field{year}{2024}
-    \field{urlday}{13}
-    \field{urlmonth}{06}
-    \field{urlyear}{2024}
-  \endentry
-
-  \entry{Python:2024Wave}{online}{}{}
-    \name{editor}{1}{}{%
-      {{hash=FPS}{%
-         family={Foundation},
-         familyi={F\bibinitperiod},
-         given={Python\bibnamedelima Software},
-         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FPS1}
-    \strng{fullhash}{FPS1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Fou24}
-    \field{extraalpha}{2}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{abstract}{%
-    Source code: Lib/wave.py The wave module provides a convenient interface to
-  the Waveform Audio ``WAVE'' (or ``WAV'') file format. Only uncompressed PCM
-  encoded wave files are supported. The wave module...%
-    }
-    \field{title}{wave: Read and write WAV files}
-    \verb{url}
-    \verb https://docs.python.org/3/library/wave.html
-    \endverb
-    \field{year}{2024}
-    \field{urlday}{13}
-    \field{urlmonth}{06}
-    \field{urlyear}{2024}
-  \endentry
-
-  \entry{Gan:2024}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=GT}{%
-         family={Gan},
-         familyi={G\bibinitperiod},
-         given={Tiantian},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GT1}
-    \strng{fullhash}{GT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Gan24}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \verb{doi}
-    \verb 10.1051/e3sconf/202455305038
-    \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/Capacitive_Flexible_Pressure_Sensors_and_Their_App.pdf}{[pdf]}}}
-    \field{title}{Capacitive Flexible Pressure Sensors and Their Application}
-    \field{volume}{553}
-    \field{journaltitle}{E3S Web of Conferences}
-    \field{month}{07}
-    \field{year}{2024}
   \endentry
 
   \entry{ArduinoShield:2021}{misc}{}{}
@@ -1129,47 +558,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{Hering:2021b}{book}{}{}
-    \name{author}{3}{}{%
-      {{hash=HE}{%
-         family={Hering},
-         familyi={H\bibinitperiod},
-         given={Ekbert},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=MR}{%
-         family={Martin},
-         familyi={M\bibinitperiod},
-         given={Rolf},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Stohrer},
-         familyi={S\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer Vieweg}%
-    }
-    \keyw{Akustik, Festk{\"o}rperphysik, Elektrizit{\"a}t, Mechanik, Optik,
-  Physik}
-    \strng{namehash}{HEMRSM1}
-    \strng{fullhash}{HEMRSM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{HMS21}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{edition}{13}
-    \field{isbn}{978-3-662-63177-5}
-    \field{pages}{548}
-    \field{title}{Physik f{\"u}r Ingenieure}
-    \field{month}{08}
-    \field{year}{2021}
-  \endentry
-
   \entry{Hesse:2009}{book}{}{}
     \name{author}{2}{}{%
       {{hash=HS}{%
@@ -1266,6 +654,56 @@
     \field{year}{2023}
   \endentry
 
+  \entry{Haeberle:2018}{book}{}{}
+    \field{labelalpha}{Hae}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+  \endentry
+
+  \entry{Hering:2024}{book}{}{}
+    \name{author}{4}{}{%
+      {{hash=HE}{%
+         family={Hering},
+         familyi={H\bibinitperiod},
+         given={Ekbert},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Rolf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kempkes},
+         familyi={K\bibinitperiod},
+         given={Joachim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gutekunst},
+         familyi={G\bibinitperiod},
+         given={J{\"u}rgen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HE+1}
+    \strng{fullhash}{HEMRKJGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Her+24}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{edition}{5}
+    \field{isbn}{978-3-662-67538-0}
+    \field{title}{Elektrotechnik und Elektronik in Maschinenbau und
+  Mechatronik}
+    \field{year}{2024}
+  \endentry
+
   \entry{hiller:2019}{book}{}{}
     \name{author}{1}{}{%
       {{hash=HG}{%
@@ -1288,53 +726,6 @@
   \field{note}{\textcolor{blue}{\href{../../../MLbib/Color/color-management-ebook-3-en.pdf}{[pdf]}}}
     \field{title}{{Color measurement - the CIE color space}}
     \field{year}{2022}
-  \endentry
-
-  \entry{Jaklic:2010}{article}{}{}
-    \name{author}{5}{}{%
-      {{hash=JG}{%
-         family={Jaklic},
-         familyi={J\bibinitperiod},
-         given={Gasper},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=KJ}{%
-         family={Kozak},
-         familyi={K\bibinitperiod},
-         given={Jernej},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=KM}{%
-         family={Krajnc},
-         familyi={K\bibinitperiod},
-         given={Marjeta},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=VV}{%
-         family={Vitrih},
-         familyi={V\bibinitperiod},
-         given={Vito},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=ZE}{%
-         family={Zagar},
-         familyi={Z\bibinitperiod},
-         given={Emil},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{JG+1}
-    \strng{fullhash}{JGKJKMVVZE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Jak+10}
-    \field{sortinit}{J}
-    \field{sortinithash}{J}
-  \field{note}{\textcolor{blue}{\href{ExterneDokumente/PHKubisch/CubicPHG2Spline-rev.pdf}{[pdf]}}}
-    \field{title}{{O}n {I}nterpolation by {P}lanar {C}ubic {$G^2$}
-  {P}ythagorean-{H}odograph {S}pline {C}urves}
-    \field{journaltitle}{Mathematics of Computation}
-    \field{year}{2010}
   \endentry
 
   \entry{JST:2016}{online}{}{}
@@ -1501,96 +892,6 @@
     \field{year}{2021}
   \endentry
 
-  \entry{Liu:2022}{inproceedings}{}{}
-    \name{author}{3}{}{%
-      {{hash=LC}{%
-         family={Liu},
-         familyi={L\bibinitperiod},
-         given={Chang},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=AMA}{%
-         family={Alif},
-         familyi={A\bibinitperiod},
-         given={Md\bibnamedelima Al},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=HG}{%
-         family={He},
-         familyi={H\bibinitperiod},
-         given={Gang},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{organization}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{LCAMAHG1}
-    \strng{fullhash}{LCAMAHG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{LAH22}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{booktitle}{2022 International Conference on Computing,
-  Communication, Perception and Quantum Technology (CCPQT)}
-    \verb{doi}
-    \verb 10.1109/CCPQT54534.2022.9939285
-    \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/SShoulderMotionDetectionAlgorithmBasedOnMPU6050SensorAndXGBoostModel.pdf}{[pdf]}}}
-    \field{pages}{1\bibrangedash 5}
-    \field{title}{Shoulder Motion Detection Algorithm Based on MPU6050 Sensor
-  and XGBoost Model}
-    \verb{url}
-    \verb https://ieeexplore.ieee.org/document/9939285
-    \endverb
-    \field{year}{2022}
-  \endentry
-
-  \entry{Lin:2005}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=LX}{%
-         family={Lin},
-         familyi={L\bibinitperiod},
-         given={Xiangdong},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=BSY}{%
-         family={Bar-Shalom},
-         familyi={B\bibinithyphendelim S\bibinitperiod},
-         given={Y},
-         giveni={Y},
-      }}%
-      {{hash=KT}{%
-         family={Kirubarajan},
-         familyi={K\bibinitperiod},
-         given={T},
-         giveni={T},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{LXBSYKT1}
-    \strng{fullhash}{LXBSYKT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{LBSK05}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \verb{doi}
-    \verb 10.1109/TAES.2005.1419586
-    \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/DistributedAdaptiveAttitudeSynchronizationOfMultipleSpacecraftWithEventTriggeredCommunication.pdf}{[pdf]}}}
-    \field{number}{1}
-    \field{pages}{24\bibrangedash 45}
-    \field{title}{Multisensor-multitarget bias estimation for general
-  asynchronous sensors}
-    \field{volume}{41}
-    \field{journaltitle}{IEEE Transactions on Aerospace and Electronic Systems}
-    \field{year}{2005}
-  \endentry
-
   \entry{lukac:2018}{book}{}{}
     \name{author}{2}{}{%
       {{hash=LR}{%
@@ -1623,80 +924,6 @@
     \verb https://books.google.de/books?id=oD8qBgAAQBAJ
     \endverb
     \field{year}{2018}
-  \endentry
-
-  \entry{arduino:2021lsm6dsox}{misc}{}{}
-    \name{editor}{1}{}{%
-      {{hash=LA}{%
-         family={Libraries},
-         familyi={L\bibinitperiod},
-         given={Arduino},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LA1}
-    \strng{fullhash}{LA1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Lib21}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{title}{Arduino\_LSM6DSOX Library for Arduino}
-    \verb{url}
-    \verb https://github.com/arduino-libraries/Arduino_LSM6DSOX
-    \endverb
-    \field{year}{2021}
-    \field{urlday}{09}
-    \field{urlmonth}{07}
-    \field{urlyear}{2023}
-  \endentry
-
-  \entry{Martinez:2022}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=MJ}{%
-         family={Mart{\'i}nez},
-         familyi={M\bibinitperiod},
-         given={Javier},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=AD}{%
-         family={Asiain},
-         familyi={A\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=BJR}{%
-         family={Beltr{\'a}n},
-         familyi={B\bibinitperiod},
-         given={Jos{\'e}\bibnamedelima Ram{\'o}n},
-         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {MDPI}%
-    }
-    \strng{namehash}{MJADBJR1}
-    \strng{fullhash}{MJADBJR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{MAB22}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \verb{doi}
-    \verb 10.3390/mi13040584
-    \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/micromachines-13-00584-v2.pdf
-  }{[pdf]}}}
-    \field{number}{4}
-    \field{pages}{584}
-    \field{title}{Self-Calibration Technique with Lightweight Algorithm for
-  Thermal Drift Compensation in MEMS Accelerometers}
-    \verb{url}
-    \verb https://www.mdpi.com/2072-666X/13/4/584
-    \endverb
-    \field{volume}{13}
-    \field{journaltitle}{Micromachines}
-    \field{year}{2022}
   \endentry
 
   \entry{Muller:2017}{book}{}{}
@@ -1751,666 +978,17 @@
     \field{year}{2015}
   \endentry
 
-  \entry{McFee:2023}{article}{}{}
-    \name{author}{83}{}{%
-      {{hash=MB}{%
-         family={McFee},
-         familyi={M\bibinitperiod},
-         given={Brian},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=MM}{%
-         family={McVicar},
-         familyi={M\bibinitperiod},
-         given={Matt},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=FD}{%
-         family={Faronbi},
-         familyi={F\bibinitperiod},
-         given={Daniel},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=RI}{%
-         family={Roman},
-         familyi={R\bibinitperiod},
-         given={Iran},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=GM}{%
-         family={Gover},
-         familyi={G\bibinitperiod},
-         given={Matan},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Balke},
-         familyi={B\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Seyfarth},
-         familyi={S\bibinitperiod},
-         given={Scott},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Malek},
-         familyi={M\bibinitperiod},
-         given={Ayoub},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=RC}{%
-         family={Raffel},
-         familyi={R\bibinitperiod},
-         given={Colin},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=LV}{%
-         family={Lostanlen},
-         familyi={L\bibinitperiod},
-         given={Vincent},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=vNB}{%
-         prefix={van},
-         prefixi={v\bibinitperiod},
-         family={Niekirk},
-         familyi={N\bibinitperiod},
-         given={Benjamin},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=LD}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Dana},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=CF}{%
-         family={Cwitkowitz},
-         familyi={C\bibinitperiod},
-         given={Frank},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=ZF}{%
-         family={Zalkow},
-         familyi={Z\bibinitperiod},
-         given={Frank},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=NO}{%
-         family={Nieto},
-         familyi={N\bibinitperiod},
-         given={Oriol},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=ED}{%
-         family={Ellis},
-         familyi={E\bibinitperiod},
-         given={Dan},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=MJ}{%
-         family={Mason},
-         familyi={M\bibinitperiod},
-         given={Jack},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=LK}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Kyungyun},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=SB}{%
-         family={Steers},
-         familyi={S\bibinitperiod},
-         given={Bea},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=HE}{%
-         family={Halvachs},
-         familyi={H\bibinitperiod},
-         given={Emily},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=TC}{%
-         family={Thom\'{e}},
-         familyi={T\bibinitperiod},
-         given={Carl},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=RSF}{%
-         family={Robert-Stöter},
-         familyi={R\bibinithyphendelim S\bibinitperiod},
-         given={Fabian},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Bittner},
-         familyi={B\bibinitperiod},
-         given={Rachel},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=WZ}{%
-         family={Wei},
-         familyi={W\bibinitperiod},
-         given={Ziyao},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=WA}{%
-         family={Weiss},
-         familyi={W\bibinitperiod},
-         given={Adam},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=BE}{%
-         family={Battenberg},
-         familyi={B\bibinitperiod},
-         given={Eric},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=CK}{%
-         family={Choi},
-         familyi={C\bibinitperiod},
-         given={Keunwoo},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=YR}{%
-         family={Yamamoto},
-         familyi={Y\bibinitperiod},
-         given={Ryuichi},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=CCJ}{%
-         family={Carr},
-         familyi={C\bibinitperiod},
-         given={C.\bibnamedelima J.},
-         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Metsai},
-         familyi={M\bibinitperiod},
-         given={Alex},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Sullivan},
-         familyi={S\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=FP}{%
-         family={Friesch},
-         familyi={F\bibinitperiod},
-         given={Pius},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=KA}{%
-         family={Krishnakumar},
-         familyi={K\bibinitperiod},
-         given={Asmitha},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=HS}{%
-         family={Hidaka},
-         familyi={H\bibinitperiod},
-         given={Shunsuke},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=KS}{%
-         family={Kowalik},
-         familyi={K\bibinitperiod},
-         given={Steve},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=KF}{%
-         family={Keller},
-         familyi={K\bibinitperiod},
-         given={Fabian},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=MD}{%
-         family={Mazur},
-         familyi={M\bibinitperiod},
-         given={Dan},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=CLA}{%
-         family={Chabot-Leclerc},
-         familyi={C\bibinithyphendelim L\bibinitperiod},
-         given={Alexandre},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=HC}{%
-         family={Hawthorne},
-         familyi={H\bibinitperiod},
-         given={Curtis},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=RC}{%
-         family={Ramaprasad},
-         familyi={R\bibinitperiod},
-         given={Chandrashekhar},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=KM}{%
-         family={Keum},
-         familyi={K\bibinitperiod},
-         given={Myungchul},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=GJ}{%
-         family={Gomez},
-         familyi={G\bibinitperiod},
-         given={Juanita},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MW}{%
-         family={Monroe},
-         familyi={M\bibinitperiod},
-         given={Will},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=MVA}{%
-         family={Morozov},
-         familyi={M\bibinitperiod},
-         given={Viktor\bibnamedelima Andreevitch},
-         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=EK}{%
-         family={Eliasi},
-         familyi={E\bibinitperiod},
-         given={Kian},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=n}{%
-         family={nullmightybofo},
-         familyi={n\bibinitperiod},
-      }}%
-      {{hash=BP}{%
-         family={Biberstein},
-         familyi={B\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=SND}{%
-         family={Sergin},
-         familyi={S\bibinitperiod},
-         given={N.\bibnamedelima Dorukhan},
-         giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=HR}{%
-         family={Hennequin},
-         familyi={H\bibinitperiod},
-         given={Romain},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=NR}{%
-         family={Naktinis},
-         familyi={N\bibinitperiod},
-         given={Rimvydas},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=b}{%
-         family={beantowel},
-         familyi={b\bibinitperiod},
-      }}%
-      {{hash=KT}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Taewoon},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=rJP}{%
-         family={\r{A}sen},
-         familyi={r\bibinitperiod},
-         given={Jon\bibnamedelima Petter},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=LJ}{%
-         family={Lim},
-         familyi={L\bibinitperiod},
-         given={Joon},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Malins},
-         familyi={M\bibinitperiod},
-         given={Alex},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=HnD}{%
-         family={Here\~{n}\'{u}},
-         familyi={H\bibinitperiod\bibinitdelim n\bibinitperiod},
-         given={Darío},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=vdSS}{%
-         prefix={van\bibnamedelima der},
-         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
-         family={Struijk},
-         familyi={S\bibinitperiod},
-         given={Stef},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NL}{%
-         family={Nickel},
-         familyi={N\bibinitperiod},
-         given={Lorenz},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=WJ}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Jackie},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=WZ}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Zhen},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=GT}{%
-         family={Gates},
-         familyi={G\bibinitperiod},
-         given={Tim},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=VM}{%
-         family={Vollrath},
-         familyi={V\bibinitperiod},
-         given={Matt},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Sarroff},
-         familyi={S\bibinitperiod},
-         given={Andy},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=XM}{%
-         family={Xiao-Ming},
-         familyi={X\bibinithyphendelim M\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Porter},
-         familyi={P\bibinitperiod},
-         given={Alastair},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=KS}{%
-         family={Kranzler},
-         familyi={K\bibinitperiod},
-         given={Seth},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=V}{%
-         family={Voodoohop},
-         familyi={V\bibinitperiod},
-      }}%
-      {{hash=DGM}{%
-         family={Di\bibnamedelima Gangi},
-         familyi={D\bibinitperiod\bibinitdelim G\bibinitperiod},
-         given={Mattia},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=JH}{%
-         family={Jinoz},
-         familyi={J\bibinitperiod},
-         given={Helmi},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=GC}{%
-         family={Guerrero},
-         familyi={G\bibinitperiod},
-         given={Connor},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Mazhar},
-         familyi={M\bibinitperiod},
-         given={Abduttayyeb},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=t}{%
-         family={toddrme2178},
-         familyi={t\bibinitperiod},
-      }}%
-      {{hash=BZ}{%
-         family={Baratz},
-         familyi={B\bibinitperiod},
-         given={Zvi},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=KA}{%
-         family={Kostin},
-         familyi={K\bibinitperiod},
-         given={Anton},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=ZX}{%
-         family={Zhuang},
-         familyi={Z\bibinitperiod},
-         given={Xinlu},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=LCT}{%
-         family={Lo},
-         familyi={L\bibinitperiod},
-         given={Cash\bibnamedelima TingHin},
-         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=CP}{%
-         family={Campr},
-         familyi={C\bibinitperiod},
-         given={Pavel},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=SE}{%
-         family={Semeniuc},
-         familyi={S\bibinitperiod},
-         given={Eric},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=BM}{%
-         family={Biswal},
-         familyi={B\bibinitperiod},
-         given={Monsij},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Moura},
-         familyi={M\bibinitperiod},
-         given={Shayenne},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BP}{%
-         family={Brossier},
-         familyi={B\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=LH}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Hojin},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=PW}{%
-         family={Pimenta},
-         familyi={P\bibinitperiod},
-         given={Waldir},
-         giveni={W\bibinitperiod},
-      }}%
-    }
+  \entry{MeanWell:2014}{misc}{}{}
     \list{publisher}{1}{%
-      {Zenodo}%
+      {Mean Well}%
     }
-    \strng{namehash}{MB+1}
-  \strng{fullhash}{MBMMFDRIGMBSSSMARCLVNBvLDCFZFNOEDMJLKSBHETCRSFBRWZWABECKYRCCJMASSFPKAHSKSKFMDCLAHCRCKMGJMWMVAEKnBPSNDHRNRbKTrJPLJMAHnDSSvdNLWJWZGTVMSAXMPAKSVDGMJHGCMAtBZKAZXLCTCPSEBMMSBPLHPW1}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{McF+23}
+    \field{labelalpha}{Mea}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{abstract}{%
-    What's Changed. Bump minimum matplotlib to 3.5.0 by \@bmcfee in
-  \URL{https://github.com/librosa/librosa/pull/1839\n\n\nFull}, Changelog:
-  \URL{https://github.com/librosa/librosa/compare/0.10.2...0.10.2.post1}%
-    }
-    \verb{doi}
-    \verb 10.5281/zenodo.11192913
-    \endverb
-    \field{title}{librosa/librosa: 0.10.2.post1}
-    \field{version}{0.10.2.post1}
-    \field{type}{software}
-    \field{year}{2023}
-  \endentry
-
-  \entry{Noureldin:2013}{book}{}{}
-    \name{author}{3}{}{%
-      {{hash=NA}{%
-         family={Noureldin},
-         familyi={N\bibinitperiod},
-         given={Aboelmagd},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=KTB}{%
-         family={Karamat},
-         familyi={K\bibinitperiod},
-         given={Tashfeen\bibnamedelima B},
-         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=GJ}{%
-         family={Georgy},
-         familyi={G\bibinitperiod},
-         given={Jacques},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{2}{%
-      {Springer Science}%
-      {Business Media LLC}%
-    }
-    \strng{namehash}{NAKTBGJ1}
-    \strng{fullhash}{NAKTBGJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{NKG13}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \verb{doi}
-    \verb 10.1007/978-3-642-30466-8
-    \endverb
-    \field{title}{Fundamentals of Inertial Navigation, Satellite-based
-  Positioning and their Integration}
-    \field{year}{2013}
-  \endentry
-
-  \entry{Pham:2006}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=PH}{%
-         family={Pham},
-         familyi={P\bibinitperiod},
-         given={Hubert},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PH1}
-    \strng{fullhash}{PH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Pha06}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{abstract}{%
-    PyAudio provides Python bindings for PortAudio, the cross platform audio
-  API.%
-    }
-    \field{title}{PyAudio}
-    \verb{url}
-    \verb https://people.csail.mit.edu/hubert/pyaudio/
-    \endverb
-    \field{year}{2006}
-    \field{urlday}{06}
-    \field{urlmonth}{04}
-    \field{urlyear}{2024}
-  \endentry
-
-  \entry{Luders:2017}{book}{}{}
-    \name{editor}{1}{}{%
-      {{hash=PRO}{%
-         family={Pohl},
-         familyi={P\bibinitperiod},
-         given={Robert\bibnamedelima O.},
-         giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Springer Berlin Heidelberg}}%
-    }
-    \strng{namehash}{PRO1}
-    \strng{fullhash}{PRO1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Poh17}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{edition}{21}
-    \field{isbn}{9783662486634}
-    \field{title}{Pohls Einf{\"u}hrung in die Physik: Band 1: Mechanik, Akustik
-  und W{\"a}rmelehre}
-    \verb{url}
-    \verb http://nbn-resolving.org/urn:nbn:de:bsz:31-epflicht-1552851
-    \endverb
-    \list{location}{1}{%
-      {Berlin, Heidelberg}%
-    }
-    \verb{file}
-    \verb 978-3-662-48663-4[1]:Attachments/978-3-662-48663-4[1].pdf:application
-    \verb /pdf
-    \endverb
-    \field{year}{2017}
-  \endentry
-
-  \entry{Rehder:2017}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=RJ}{%
-         family={Rehder},
-         familyi={R\bibinitperiod},
-         given={Joern},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=SR}{%
-         family={Siegwart},
-         familyi={S\bibinitperiod},
-         given={Roland},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{RJSR1}
-    \strng{fullhash}{RJSR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{RS17}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \verb{doi}
-    \verb 10.1109/JSEN.2017.2674307
-    \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/Camera_IMU_Calibration_Revisited.pdf}{[pdf]}}}
-    \field{number}{11}
-    \field{pages}{3257\bibrangedash 3268}
-    \field{title}{Camera/IMU calibration revisited}
-    \field{volume}{17}
-    \field{journaltitle}{IEEE Sensors Journal}
-    \field{year}{2017}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchSchaltnetzteil.pdf}{[pdf]}}}
+    \field{title}{Handbuch HRP-75 Series}
+    \field{year}{2014}
   \endentry
 
   \entry{Raj:2019}{online}{}{}
@@ -2532,119 +1110,30 @@
     \field{year}{2024}
   \endentry
 
-  \entry{Patent3D}{misc}{}{}
-    \name{author}{4}{}{%
-      {{hash=RD}{%
-         family={Russell},
+  \entry{Reichelt:2025}{online}{}{}
+    \name{editor}{1}{}{%
+      {{hash=R}{%
+         family={{Reichelt Online}},
          familyi={R\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=HA}{%
-         family={Hernandez},
-         familyi={H\bibinitperiod},
-         given={Andres},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=KJ}{%
-         family={Kinsly},
-         familyi={K\bibinitperiod},
-         given={Joshua},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=BA}{%
-         family={Berlin},
-         familyi={B\bibinitperiod},
-         given={Andrew},
-         giveni={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{RD+1}
-    \strng{fullhash}{RDHAKJBA1}
-    \field{labelnamesource}{author}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
+    \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{Rus+07}
+    \field{labelalpha}{{Rei}25}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{howpublished}{United States Patent, Patent N0.: US 7,291,002 B2}
-    \field{title}{Apparatus and Methods for 3D Printing}
-    \field{year}{2007}
-  \endentry
-
-  \entry{Stefanicka:2017}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=ST}{%
-         family={{\v{S}}tefani{\v{c}}ka},
-         familyi={{\v{S}}\bibinitperiod},
-         given={Tom{\'a}{\v{s}}},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=DR}{%
-         family={{\v{D}}ura{\v{c}}iov{\'a}},
-         familyi={{\v{D}}\bibinitperiod},
-         given={Renata},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=SC}{%
-         family={Seres},
-         familyi={S\bibinitperiod},
-         given={Csaba},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {De Gruyter}%
-    }
-    \strng{namehash}{STDRSC1}
-    \strng{fullhash}{STDRSC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{\v{S}}{\v{D}}S17}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \verb{doi}
-    \verb 10.1515/sjce-2017-0005
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltSchaltnetzteil.pdf}{[pdf]}}}
+    \field{title}{Schaltnetzteil - MW HRP-75}
+    \verb{url}
+    \verb https://www.reichelt.de/de/de/shop/produkt/schaltnetzteil_geschlossen
+    \verb _75_w_12_v_6_3_a-148046#closemodal
     \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/DevelopmentOfAWebBasedIndoorNavigationSystem}{[pdf]}}}
-    \field{number}{2}
-    \field{pages}{30\bibrangedash 38}
-    \field{title}{Development of a Web-Based Indoor Navigation System Using an
-  Accelerometer and Gyroscope: A Case Study at The Faculty of Natural Sciences
-  of Comenius University}
-    \field{volume}{25}
-    \field{journaltitle}{Slovak Journal of Civil Engineering}
-    \field{year}{2017}
-  \endentry
-
-  \entry{Sach:2020}{book}{}{}
-    \name{author}{2}{}{%
-      {{hash=SL}{%
-         family={Sach},
-         familyi={S\bibinitperiod},
-         given={Laura},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=OM}{%
-         family={O'Hanlon},
-         familyi={O\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Raspberry Pi Press}%
-    }
-    \strng{namehash}{SLOM1}
-    \strng{fullhash}{SLOM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{SO20}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{isbn}{978-1-912047-91-8}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/Python/000_guizero_DIGITAL.pdf}{[pdf]}}}
-    \field{title}{Create Graphical User Interfaces with Python}
-    \field{year}{2020}
+    \field{year}{2025}
+    \field{urlday}{02}
+    \field{urlmonth}{05}
+    \field{urlyear}{2025}
   \endentry
 
   \entry{Sencer:2014}{inproceedings}{}{}
@@ -2688,88 +1177,6 @@
       {Piscataway, NJ}%
     }
     \field{year}{2014}
-  \endentry
-
-  \entry{STMicroelectronics:2021b}{misc}{}{}
-    \name{editor}{1}{}{%
-      {{hash=S}{%
-         family={{STMicroelectronics International NV}},
-         familyi={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{STMicroelectronics International NV}}%
-    }
-    \strng{namehash}{S1}
-    \strng{fullhash}{S1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{STM}21}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{edition}{5}
-    \field{note}{\href{../../../MLbib/Sensor/mp34dt05-a.pdf}{[pdf]}}
-    \field{title}{MP34DT05-A -- MEMS audio sensor omnidirectional digital
-  microphone}
-    \verb{url}
-    \verb https://www.st.com/resource/en/datasheet/mp34dt05-a.pdf
-    \endverb
-    \field{year}{2021}
-    \field{urlday}{23}
-    \field{urlmonth}{06}
-    \field{urlyear}{2024}
-  \endentry
-
-  \entry{sabatini:2011}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=SAM}{%
-         family={Sabatini},
-         familyi={S\bibinitperiod},
-         given={Angelo\bibnamedelima Maria},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Multidisciplinary Digital Publishing Institute}%
-    }
-    \strng{namehash}{SAM1}
-    \strng{fullhash}{SAM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Sab11}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{number}{2}
-    \field{pages}{1489\bibrangedash 1525}
-    \field{title}{Estimating three-dimensional orientation of human body parts
-  by inertial/magnetic sensing}
-    \field{volume}{11}
-    \field{journaltitle}{Sensors}
-    \field{year}{2011}
-  \endentry
-
-  \entry{Scholz:2005}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=SP}{%
-         family={Scholz},
-         familyi={S\bibinitperiod},
-         given={Peter},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{SP1}
-    \strng{fullhash}{SP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Sch05}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{edition}{1}
-    \field{title}{Softwareentwicklung eingebetteter Systeme}
-    \field{year}{2005}
   \endentry
 
   \entry{schanda:2007}{book}{}{}
@@ -2829,8 +1236,8 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S2}
-    \strng{fullhash}{S2}
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{See}12}
@@ -2851,8 +1258,8 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S2}
-    \strng{fullhash}{S2}
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{See}13}
@@ -2873,8 +1280,8 @@
          familyi={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{S2}
-    \strng{fullhash}{S2}
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{See}16}
@@ -2989,30 +1396,13 @@
     \field{year}{2021}
   \endentry
 
-  \entry{STMicroelectronics:2018}{misc}{}{}
-    \list{publisher}{1}{%
-      {{STMicroelectronics International NV}}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Stm}
-    \field{extraalpha}{1}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{note}{\href{../../../MLbib/IMU/lsm6dsox.pdf}{[pdf]}}
-    \field{title}{LSM6DSOX Datasheet}
-    \field{year}{2018}
-    \field{urlday}{23}
-    \field{urlmonth}{06}
-    \field{urlyear}{2023}
-  \endentry
-
   \entry{STMicroelectronics:2015}{misc}{}{}
     \list{publisher}{1}{%
       {{STMicroelectronics International NV}}%
     }
     \field{labeltitlesource}{title}
     \field{labelalpha}{Stm}
-    \field{extraalpha}{2}
+    \field{extraalpha}{1}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{title}{LSM9DS1 Data Sheets}
@@ -3031,7 +1421,7 @@
     }
     \field{labeltitlesource}{title}
     \field{labelalpha}{Stm}
-    \field{extraalpha}{3}
+    \field{extraalpha}{2}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{note}{\href{../../../MLbib/Sensor/MP34DT06J.pdf}{[pdf]}}
@@ -3079,49 +1469,6 @@
     \field{title}{Tipler Physik}
     \field{month}{05}
     \field{year}{2024}
-  \endentry
-
-  \entry{Tedaldi:2014}{inproceedings}{}{}
-    \name{author}{3}{}{%
-      {{hash=TD}{%
-         family={Tedaldi},
-         familyi={T\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Pretto},
-         familyi={P\bibinitperiod},
-         given={Andrea},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=ME}{%
-         family={Menegatti},
-         familyi={M\bibinitperiod},
-         given={Emanuele},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \list{organization}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{TDPAME1}
-    \strng{fullhash}{TDPAME1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{TPM14}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{booktitle}{Proceedings of the IEEE International Conference on
-  Robotics and Automation}
-    \verb{doi}
-    \verb 10.1109/ICRA.2014.6907275
-    \endverb
-  \field{note}{\href{../../../MLbib/Framework/ARobustAndEasyToImplementMethodForIMUCalibrationWithoutExternalEquipments.pdf}{[pdf]}}
-    \field{pages}{3040\bibrangedash 3045}
-    \field{title}{A Robust and Easy to Implement Method for IMU Calibration
-  without External Equipment}
-    \field{year}{2014}
   \endentry
 
   \entry{Traenkler:2014}{book}{}{}
@@ -3211,96 +1558,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{Numpy:2022}{online}{}{}
-    \name{editor}{1}{}{%
-      {{hash=T}{%
-         family={{The {NumPy} Community}},
-         familyi={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{T1}
-    \strng{fullhash}{T1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{The}22}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{note}{\href{../../../MLbib/Packages/NumPy/numpy-user.pdf}{[pdf]}}
-    \field{title}{{NumPy} User Guide}
-    \verb{url}
-    \verb https://numpy.org/doc/stable/user/whatisnumpy.html
-    \endverb
-    \field{year}{2022}
-  \endentry
-
-  \entry{Tripathy:2022}{article}{}{}
-    \name{author}{5}{}{%
-      {{hash=THK}{%
-         family={Tripathy},
-         familyi={T\bibinitperiod},
-         given={Hrudaya\bibnamedelima Kumar},
-         giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Mishra},
-         familyi={M\bibinitperiod},
-         given={Sushruta},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Suman},
-         familyi={S\bibinitperiod},
-         given={Shubham},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=NA}{%
-         family={Nayyar},
-         familyi={N\bibinitperiod},
-         given={Anand},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SKS}{%
-         family={Sahoo},
-         familyi={S\bibinitperiod},
-         given={Kshira\bibnamedelima Sagar},
-         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{THK+1}
-    \strng{fullhash}{THKMSSSNASKS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Tri+22}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \verb{doi}
-    \verb 10.1007/s00607-022-00975-7
-    \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/SmartCOVIDShieldAnIoTDrivenReliableAndAuto.pdf}{[pdf]}}}
-    \field{pages}{1\bibrangedash 22}
-    \field{title}{Smart COVID-shield: An IoT driven reliable and automated
-  prototype model for COVID-19 symptoms tracking}
-    \field{journaltitle}{Computing}
-    \field{year}{2022}
-  \endentry
-
-  \entry{Vectornav:2021}{misc}{}{}
-    \list{publisher}{1}{%
-      {VectorNav Technologies}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Vec}
-    \field{sortinit}{V}
-    \field{sortinithash}{V}
-  \field{howpublished}{\url{https://www.vectornav.com/resources/inertial-navigation-primer/specifications--and--error-budgets/specs-imuspecs}}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/IMUsensor.pdf}{[pdf]}}}
-    \field{title}{Inertial Navigation Primer}
-    \field{year}{2021}
-  \endentry
-
   \entry{Voss:2024}{article}{}{}
     \name{author}{1}{}{%
       {{hash=VA}{%
@@ -3321,327 +1578,6 @@
     \field{title}{Volumio mit Drehgebern erweitern}
     \field{journaltitle}{Make Magazin}
     \field{year}{2024}
-  \endentry
-
-  \entry{wahyudi:2011}{inproceedings}{}{}
-    \name{author}{4}{}{%
-      {{hash=WW}{%
-         family={Wahyudi},
-         familyi={W\bibinitperiod},
-         given={Wahyudi},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Susanto},
-         familyi={S\bibinitperiod},
-         given={Adhi},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=WW}{%
-         family={Widada},
-         familyi={W\bibinitperiod},
-         given={Wahyu},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=HSP}{%
-         family={Hadi},
-         familyi={H\bibinitperiod},
-         given={Sasongko\bibnamedelima Pramono},
-         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-    }
-    \list{organization}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{WW+1}
-    \strng{fullhash}{WWSAWWHSP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Wah+11}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{booktitle}{2011 International Conference on Electrical Engineering
-  and Informatics}
-    \verb{doi}
-    \verb 10.1109/ICEEI.2011.6021711
-    \endverb
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/IMU/InertialMeasurementUnitUsingMultigainAccelerometerSensorAndGyroscopeSensor.pdf}{[pdf]}}}
-    \field{pages}{1\bibrangedash 6}
-    \field{title}{Inertial Measurement Unit using multigain accelerometer
-  sensor and gyroscope sensor}
-    \field{year}{2011}
-  \endentry
-
-  \entry{Wang:2022}{article}{}{}
-    \name{author}{5}{}{%
-      {{hash=WY}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Yan},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=WX}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Xin},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=YH}{%
-         family={Yang},
-         familyi={Y\bibinitperiod},
-         given={Honemei},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=GY}{%
-         family={Geng},
-         familyi={G\bibinitperiod},
-         given={YingRui},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=WX}{%
-         family={Wen},
-         familyi={W\bibinitperiod},
-         given={XiaoXu},
-         giveni={X\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IEEE Dataport}%
-    }
-    \strng{namehash}{WY+1}
-    \strng{fullhash}{WYWXYHGYWX1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Wan+22}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \verb{doi}
-    \verb 10.21227/z8bc-pt92
-    \endverb
-    \field{title}{Multi-position wearable human activity recognition dataset}
-    \verb{url}
-    \verb https://dx.doi.org/10.21227/z8bc-pt92
-    \endverb
-    \field{year}{2022}
-  \endentry
-
-  \entry{Wat:2017e}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={{Waterloo Maple Inc. 2017}},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Wat}17}
-    \field{extraalpha}{1}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-  \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/description}{Link:
-  [www.maplesoft.com]}}}
-    \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
-    \field{title}{Description}
-    \verb{url}
-    \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/des
-    \verb cription
-    \endverb
-    \field{year}{2017}
-  \endentry
-
-  \entry{Wat:2017c}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={{Waterloo Maple Inc. 2017}},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Wat}17}
-    \field{extraalpha}{2}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-  \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/export}{Link:
-  [www.maplesoft.com]}}}
-    \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
-    \field{title}{Export}
-    \verb{url}
-    \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/exp
-    \verb ort
-    \endverb
-    \field{year}{2017}
-  \endentry
-
-  \entry{Wat:2017a}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={{Waterloo Maple Inc. 2017}},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Wat}17}
-    \field{extraalpha}{3}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-  \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/maple/view.aspx?path=module}{Link:
-  [www.maplesoft.com]}}}
-    \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
-    \field{title}{Module}
-    \verb{url}
-    \verb https://de.maplesoft.com/support/help/maple/view.aspx?path=module
-    \endverb
-    \field{year}{2017}
-  \endentry
-
-  \entry{Wat:2017b}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={{Waterloo Maple Inc. 2017}},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Wat}17}
-    \field{extraalpha}{4}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-  \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=ModuleLoad}{Link:
-  [www.maplesoft.com]}}}
-    \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
-    \field{title}{ModuleLoad}
-    \verb{url}
-    \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=ModuleLoad
-    \endverb
-    \field{year}{2017}
-  \endentry
-
-  \entry{Wat:2017d}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={{Waterloo Maple Inc. 2017}},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Wat}17}
-    \field{extraalpha}{5}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-  \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/option}{Link:
-  [www.maplesoft.com]}}}
-    \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
-    \field{title}{Option}
-    \verb{url}
-    \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/opt
-    \verb ion
-    \endverb
-    \field{year}{2017}
-  \endentry
-
-  \entry{Wat:2017f}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=W}{%
-         family={{Waterloo Maple Inc. 2017}},
-         familyi={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{W1}
-    \strng{fullhash}{W1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Wat}17}
-    \field{extraalpha}{6}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-  \field{howpublished}{\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=procedure}{Link:
-  [www.maplesoft.com]}}}
-    \field{note}{\textcolor{blue}{letzter Zugriff 14.09.2017}}
-    \field{title}{Procedures}
-    \verb{url}
-    \verb https://de.maplesoft.com/support/help/Maple/view.aspx?path=procedure
-    \endverb
-    \field{year}{2017}
-  \endentry
-
-  \entry{Weinzierl:2020}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=WS}{%
-         family={Weinzierl},
-         familyi={W\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {{Springer Berlin Heidelberg}}%
-    }
-    \strng{namehash}{WS1}
-    \strng{fullhash}{WS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Wei20}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \verb{doi}
-    \verb 10.1007/978-3-662-60357-4
-    \endverb
-    \field{isbn}{978-3-662-60357-4}
-    \field{title}{Handbuch der Audiotechnik}
-    \list{location}{1}{%
-      {Berlin, Heidelberg}%
-    }
-    \verb{file}
-    \verb Mikrofondocument:Attachments/Mikrofondocument.pdf:application/pdf;Wei
-    \verb nzierl 2020 - Handbuch der Audiotechnik:Attachments/Weinzierl 2020 -
-    \verb Handbuch der Audiotechnik.pdf:application/pdf
-    \endverb
-    \field{year}{2020}
-  \endentry
-
-  \entry{Wilson:2003}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=WS}{%
-         family={Wilson},
-         familyi={W\bibinitperiod},
-         given={Scott},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WS2}
-    \strng{fullhash}{WS2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Wil03}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{title}{WAVE PCM soundfile format}
-    \verb{url}
-    \verb https://ccrma.stanford.edu/courses/422-winter-2014/projects/WaveForma
-    \verb t/
-    \endverb
-    \verb{file}
-    \verb Microsoft WAVE soundfile format:Attachments/Microsoft WAVE soundfile
-    \verb format.pdf:application/pdf
-    \endverb
-    \field{year}{2003}
-    \field{urlday}{15}
-    \field{urlmonth}{04}
-    \field{urlyear}{2023}
   \endentry
 
   \entry{Willems:2022}{book}{}{}
@@ -3671,91 +1607,6 @@
     \field{title}{Lehrbuch der Bauphysik}
     \field{month}{11}
     \field{year}{2022}
-  \endentry
-
-  \entry{Zafeiropoulos:2020}{inproceedings}{}{}
-    \name{author}{11}{}{%
-      {{hash=ZA}{%
-         family={Zafeiropoulos},
-         familyi={Z\bibinitperiod},
-         given={Anastasios},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=FE}{%
-         family={Fotopoulou},
-         familyi={F\bibinitperiod},
-         given={Eleni},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=PM}{%
-         family={Peuster},
-         familyi={P\bibinitperiod},
-         given={Manuel},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Schneider},
-         familyi={S\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=GP}{%
-         family={Gouvas},
-         familyi={G\bibinitperiod},
-         given={Panagiotis},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=BD}{%
-         family={Behnke},
-         familyi={B\bibinitperiod},
-         given={Daniel},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=MM}{%
-         family={Müller},
-         familyi={M\bibinitperiod},
-         given={Marcel},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BPB}{%
-         family={Bök},
-         familyi={B\bibinitperiod},
-         given={Patrick-Benjamin},
-         giveni={P\bibinithyphendelim B\bibinitperiod},
-      }}%
-      {{hash=PT}{%
-         family={Panagiotis},
-         familyi={P\bibinitperiod},
-         given={Trakadas},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=PK}{%
-         family={Panagiotis},
-         familyi={P\bibinitperiod},
-         given={Karkazis},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=KH}{%
-         family={Karl},
-         familyi={K\bibinitperiod},
-         given={Holger},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ZA+1}
-    \strng{fullhash}{ZAFEPMSSGPBDMMBPBPTPKKH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Zaf+20}
-    \field{sortinit}{Z}
-    \field{sortinithash}{Z}
-    \field{booktitle}{IEEE Conference on Network Softwarization, NetSoft 2020}
-    \verb{doi}
-    \verb 10.1109/NetSoft48620.2020.9165393
-    \endverb
-    \field{title}{Benchmarking and Profiling 5G Verticals' Applications: An
-  Industrial IoT Use Case}
-    \field{year}{2020}
   \endentry
 \enddatalist
 \endinput

@@ -27,14 +27,32 @@ siehe oben...?
 \subsection{Einfache Anwendung}
 \subsection{Further Readings}
 
-\section{Schaltnetzteil}
+\section{Netzteil}
 \subsection{Einleitung}
- 
+Netzteile sind elektronische Bauteile welche dazu genutzt werden, eine Eingangsspannung (oder auch Strom) in eine gewünschte Ausgangsspannung (oder Strom) umzuwandeln. Sie sind besonders wichtig für eine stabile und sichere Versorgungsspannung elektrischer Bauteile. Übergreifend lassen sich Netzteile zu den Spannungswandlern zuordnen. \cite{Hering:2024}
 
 \subsection{Grundlegende Informationen}
-\subsection{Schaltnetzteil <Modell...>}
+Ein Netzteil wandelt in den meisten Fällen eine bekannte Wechselspannung, wie die Netzspannung im deutschen Netz (230 V / 50 Hz), in eine gewünschte Gleichspannung um. Wechselspannungen lassen sich leichter als Gleichspannungen über weite Strecken transportieren, jedoch wird für die meisten elektrischen Geräte eine Gleichspannung benötigt. 
+Man teilt Netzteile in 2 Gruppen ein: \cite{Hering:2024}
+\begin{enumerate}
+	\item \textbf{Trafonetzteile:} groß und schwer, bestehen aus Transformator, Gleichrichter und Glättungskondensator
+	\item \textbf{Schaltnetzteile:} klein und leicht, sehr effizient, nutzen Halbleitertechnik
+\end{enumerate}
+Für die meisten elektronischen Bauteile werden heutzutage nur noch Schaltnetzteile eingesetzt. Sie sind leichter, effizienter, günstiger und deutlich kleiner. Im Folgenden wird daher vertieft auf das Schaltnetzteil eingegangen.\cite{Haeberle:2018} Ein Schaltnetzteil besteht aus den folgenden Bauteilen:
+	Netzgleichrichter
+	Schalter
+	Transformator
+ 	Ausgangsgleichrichterschaltung
+ 	Regelverstärker
+	Potentialtrennung
+	Steuer- und Überwachungsschaltung
+
+Die Eingangs-Netzfrequenz von 230 V wird im Netzgleichrichter gleichgerichtet und gesiebt. Der Schalter ist ein Halbleiterbauelement (Hochfrequenzschalter wie MOSFET) welcher aus der Gleichspannung eine Rechteckwechselspannung mit hoher Schaltfrequenz umwandelt. Der Transformator ist ein klassischer Ferritkern-Trafo und dient zur Spannungsübersetzung und zur galvanischen Trennung der Stromkreise. Im Ausgangsgleichrichter wird aus der hochfrequenten Wechselspannung eine eine kleine Gleichspannung gleichgerichtet und gesiebt. Der Regelverstärker dient zur Verstärkung der Ausgangsspannung und führt diese in den eingebauten Regelkreis des Schaltnetzteils. Um den Regelkreis und die empfindliche Elektronik vom Ausgangsstromkreis zu trennen, wird eine Potentialtrennung (Optokoppler) verwendet. Die Steuer- und Überwachungsschaltung wird mit einem Microcontroller realisiert. Dieser überwacht und steuert den Regelkreis und sorgt somit für eine konstante und stabile Ausgangsspannung. \cite{Haeberle:2018}
+
+\subsection{Schaltnetzteil:  MW HRP-75-12}
+\cite{MeanWell:2014} \cite{Reichelt:2025}
+
 \subsection{Spezifikation}
-\subsection{Einfacher Code}
 \subsection{Tests}
 \subsection{Einfache Anwendung}
 \subsection{Further Readings}

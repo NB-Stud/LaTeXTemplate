@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 19840 items from 5000.
+Reallocated field_info (elt_size=4) to 13540 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -27,52 +27,57 @@ I was expecting a `,' or a `}'---line 37 of file ../../../MLbib/MyLiterature.bib
  :   organization = {Arduino.cc}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 251 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 223 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  title={Tabellenbuch Elektrotechnik},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 269 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 106 entries,
+You've used 61 entries,
             6402 wiz_defined-function locations,
-            1890 strings with 34476 characters,
-and the built_in function-call counts, 855362 in all, are:
-= -- 65791
-> -- 16311
-< -- 4924
-+ -- 27511
-- -- 8641
-* -- 58615
-:= -- 95056
+            1588 strings with 21078 characters,
+and the built_in function-call counts, 330829 in all, are:
+= -- 21909
+> -- 7280
+< -- 2785
++ -- 8291
+- -- 3396
+* -- 21868
+:= -- 30615
 add.period$ -- 0
-call.type$ -- 106
-change.case$ -- 145
-chr.to.int$ -- 594
-cite$ -- 250
-duplicate$ -- 90702
-empty$ -- 74978
-format.name$ -- 6749
-if$ -- 170455
+call.type$ -- 61
+change.case$ -- 90
+chr.to.int$ -- 252
+cite$ -- 150
+duplicate$ -- 35229
+empty$ -- 31923
+format.name$ -- 2827
+if$ -- 69750
 int.to.chr$ -- 0
-int.to.str$ -- 332
+int.to.str$ -- 188
 missing$ -- 0
-newline$ -- 3689
-num.names$ -- 5331
-pop$ -- 38898
+newline$ -- 1578
+num.names$ -- 2958
+pop$ -- 20767
 preamble$ -- 1
-purify$ -- 2965
+purify$ -- 1567
 quote$ -- 0
-skip$ -- 22910
+skip$ -- 12611
 stack$ -- 0
-substring$ -- 119690
-swap$ -- 18169
-text.length$ -- 3623
-text.prefix$ -- 166
+substring$ -- 36423
+swap$ -- 9013
+text.length$ -- 1932
+text.prefix$ -- 91
 top$ -- 1
-type$ -- 3583
+type$ -- 2061
 warning$ -- 0
-while$ -- 11592
+while$ -- 3694
 width$ -- 0
-write$ -- 3584
-(There were 2 error messages)
+write$ -- 1518
+(There were 3 error messages)

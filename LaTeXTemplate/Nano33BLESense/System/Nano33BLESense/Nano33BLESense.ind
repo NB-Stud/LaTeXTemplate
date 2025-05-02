@@ -1,115 +1,115 @@
 \begin{theindex}
 
   \item  File
-    \subitem ArduinoBLE, 90
-    \subitem ArduinoBLE.h, 88
-    \subitem BuiltinLED.cpp, 34
-    \subitem BuiltinLED.h, 34
-    \subitem LED.cpp, 39
-    \subitem LED.h, 38
-    \subitem LSM9DS1, 90
-    \subitem Mag\_raw.txt, 24
-    \subitem Nano33BLE\_Led\_A0.ino, 84
-    \subitem PowerLED.cpp, 40
-    \subitem PowerLED.h, 40
-    \subitem RGBLED.cpp, 47
-    \subitem RGBLED.h, 46
-    \subitem SignsOfLife.cpp, 42
-    \subitem SignsOfLife.h, 42
-    \subitem Sketch -> Include Library -> Manage Library, 86
-    \subitem TestBattery.ino, 70, 72
+    \subitem ArduinoBLE, 92
+    \subitem ArduinoBLE.h, 90
+    \subitem BuiltinLED.cpp, 36
+    \subitem BuiltinLED.h, 36
+    \subitem LED.cpp, 41
+    \subitem LED.h, 40
+    \subitem LSM9DS1, 92
+    \subitem Mag\_raw.txt, 26
+    \subitem Nano33BLE\_Led\_A0.ino, 86
+    \subitem PowerLED.cpp, 42
+    \subitem PowerLED.h, 42
+    \subitem RGBLED.cpp, 49
+    \subitem RGBLED.h, 48
+    \subitem SignsOfLife.cpp, 44
+    \subitem SignsOfLife.h, 44
+    \subitem Sketch -> Include Library -> Manage Library, 88
+    \subitem TestBattery.ino, 72, 74
   \item  Inertial Measurement Unit
-    \subitem  \emph  {see} IMU, 11, 20
+    \subitem  \emph  {see} IMU, 13, 22
 
   \indexspace
 
   \item Acoustic Overload Point
-    \subitem  \emph  {see} AOP, 11, 25
-  \item AOP, 11, 25
+    \subitem  \emph  {see} AOP, 13, 27
+  \item AOP, 13, 27
 
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 11, 104
-  \item GPIO, 11, 104
+    \subitem  \emph  {see} GPIO, 13, 106
+  \item GPIO, 13, 106
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 11, 104
-  \item IDE, 11, 72
-  \item IMU, 11, 20, 23
+  \item I\textsuperscript  {2}C, 13, 106
+  \item IDE, 13, 74
+  \item IMU, 13, 22, 25
   \item Integrated Development Environment
-    \subitem  \emph  {see} IDE, 11
+    \subitem  \emph  {see} IDE, 13
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 11, 104
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 106
 
   \indexspace
 
   \item Japan Solderless Terminal
-    \subitem  \emph  {see} JST, 11, 78
-  \item JST, 11, 78
+    \subitem  \emph  {see} JST, 13, 80
+  \item JST, 13, 80
 
   \indexspace
 
-  \item LED, 11, 37, 38, 42, 45--49, 51, 52
-    \subitem Brightness, 51
-    \subitem Built-in LED, 33
-    \subitem Built-in RGB-LED, 45
-    \subitem Colors, 48
-    \subitem Power LED, 37
+  \item LED, 13, 39, 40, 44, 47--51, 53, 54
+    \subitem Brightness, 53
+    \subitem Built-in LED, 35
+    \subitem Built-in RGB-LED, 47
+    \subitem Colors, 50
+    \subitem Power LED, 39
   \item Light Emitting Diode
-    \subitem  \emph  {see} {LED}, 11, 37
+    \subitem  \emph  {see} {LED}, 13, 39
 
   \indexspace
 
-  \item mcd, 11, 46
+  \item mcd, 13, 48
   \item Millicandela
-    \subitem  \emph  {see} {mcd}, 11, 46
+    \subitem  \emph  {see} {mcd}, 13, 48
 
   \indexspace
 
-  \item PCB, 11, 73
-  \item PDM, 11, 25
+  \item PCB, 13, 75
+  \item PDM, 13, 27
   \item Pin
-    \subitem Pin 11, 55, 56
-    \subitem Pin 13, 33--35
-    \subitem Pin 22, 46
-    \subitem Pin 22,23,24, 46
-    \subitem Pin 23, 46
-    \subitem Pin 24, 46
-    \subitem Pin 25, 38, 40
+    \subitem Pin 11, 57, 58
+    \subitem Pin 13, 35--37
+    \subitem Pin 22, 48
+    \subitem Pin 22,23,24, 48
+    \subitem Pin 23, 48
+    \subitem Pin 24, 48
+    \subitem Pin 25, 40, 42
   \item Printed Circuit Board
-    \subitem \emph  {see} PB, 11, 73
+    \subitem \emph  {see} PB, 13, 75
   \item Pulse Density Modulation
-    \subitem  \emph  {see} PDM, 11, 25
+    \subitem  \emph  {see} PDM, 13, 27
   \item Pulse with Modulation
-    \subitem  \emph  {see} PWM Signal, 11, 38
+    \subitem  \emph  {see} PWM Signal, 13, 40
   \item Push Button
-    \subitem  Built-in Push Button, 55
-  \item PWM Signal, 11, 38, 45, 48
+    \subitem  Built-in Push Button, 57
+  \item PWM Signal, 13, 40, 47, 50
 
   \indexspace
 
-  \item SCL, 11, 104
-  \item SDA, 11, 104
+  \item SCL, 13, 106
+  \item SDA, 13, 106
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 11, 104
+    \subitem  \emph  {see} SCL, 13, 106
   \item Serial Data
-    \subitem  \emph  {see} SDA, 11, 104
+    \subitem  \emph  {see} SDA, 13, 106
   \item Serial Peripheral Interface
-    \subitem  \emph  {see} SPI, 11, 79
-  \item SPI, 11, 79
+    \subitem  \emph  {see} SPI, 13, 81
+  \item SPI, 13, 81
 
   \indexspace
 
-  \item UART, 11, 104
+  \item UART, 13, 106
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 11, 104
+    \subitem  \emph  {see} UART, 13, 106
 
   \indexspace
 
-  \item VCC, 11, 70, 104, 105
+  \item VCC, 13, 72, 106, 107
   \item Voltage at the Common Collector
-    \subitem  \emph  {see} VCC, 11, 70
+    \subitem  \emph  {see} VCC, 13, 72
 
 \end{theindex}
