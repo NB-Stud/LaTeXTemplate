@@ -295,11 +295,6 @@ Um eine Entfernung oder einen Abstand eines Objekts zu dem Sensor zu ermitteln, 
 
 Der Ultraschallabstandssensor in Abbildung~\ref{ultraschallsensor} enthält den Sensor HC-SR04. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt und ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt.  Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. Die Auflösung des Sensors beträgt $\pm 1$ mm. Angeschlossen wird der Abstandssensor über den \ac{vcc}-Pin, Trig/\ac{scl}-Pin, Echo/\ac{sda}-Pin und dem \ac{gnd}-Pin. Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
 
-%    \begin{center}
-%       \includegraphics[width=3in]{Sensor/HCSR04/HCSR04}
-%        \captionof{figure}{Ultraschallabstandssensor der Marke JOY-IT\cite{Simac:2017}}
-%        \label{Ultraschall Abstandssensor}
-%   \end{center}
 
 \begin{figure}[!ht]
 	\centering
@@ -362,60 +357,6 @@ Bei den folgenden Beispielprogrammen wird der Arduino Nano 33 BLE Sense verwende
 \subsection{Anwendungen}
 Ultraschallsensoren finden in der Praxis Anwendung in verschiedenen Bereichen, die auf die Ausbreitung des Schalls über unterschiedliche Medien basieren \cite{Hering:2023}. Es lassen sich drei Hauptkategorien unterscheiden: In der ersten Kategorie breitet sich der Schall über Luft aus. Typische Anwendungen sind hier Füllstandmessungen, Durchmessererfassungen bei Auf- und Abwickelsteuerungen sowie Kollisionsschutz und Objekterkennung \cite{Hering:2023}. Die zweite Kategorie umfasst Sensoren, bei denen sich der Schall über Flüssigkeiten ausbreitet. Diese finden vor allem im maritimen Bereich Verwendung, beispielsweise in Sonarsystemen zum Orten von Unterseebooten oder Fischschwärmen sowie in Echoloten zur Kartografie des Meeresbodens \cite{Hering:2021}. Die dritte Kategorie umfasst Körperschallsensoren, die in der Industrie zur zerstörungsfreien Materialprüfung sowie in der Medizin zur Ultraschalldiagnostik verwendet werden. \cite{Hering:2021}
 
-%\subsection{Beispiel - Manuelle Abstandsmessung}
-%Die manuelle Abstandsmessung mit dem Ultraschallsensor HC-SR04 erfolgt durch gezieltes
-%Senden eines Ultraschallimpulses (Trigger) und Messen der Zeit bis zum Empfang des
-%reflektierten Signals (Echo). Die Entfernung zum Objekt wird aus der halben Laufzeit des Signals
-%und der aktuellen Schallgeschwindigkeit berechnet, gemäß:\\
-%\begin{equation}
-%	\label{abstandManuell}
-%	s = \frac{1}{2} \cdot v_{\text{Schall}} \cdot t
-%\end{equation}
-
-
-%Dabei ist s der Abstand, $v_{\text{Schall}}$ die Schallgeschwindigkeit und t die gemessene Zeitdifferenz
-%\cite{Hering:2023}
-%Im manuellen Beispiel wird auf Bibliotheken verzichtet. Stattdessen erfolgt die Steuerung über
-%direkte Pin-Zugriffe und Zeitanalyse mit der Pulse-In-Funktion aus der Arduino-
-%Standardbibliothek. Dieses Vorgehen bietet volle Kontrolle über den Ablauf, ist jedoch anfälliger
-%für Timingfehler und benötigt eine Kalibrierung der Umgebungsparameter, wie z. B. Temperatur. \cite{Hering:2023}
-%Der Ablauf ist wie folgt:
-%\begin{enumerate}
-%	\item Trigger-Pin für 10 Mikrosekunden auf HIGH setzen (Anstoß des Schallimpulses).
-%	\item Echo-Pin überwachen: Pulse-In-Funktion misst, wie lange der Pin auf HIGH bleibt.
-%	\item Zeitwert wird in die Distanz umgerechnet, unter Annahme einer konstanten
-%	Schallgeschwindigkeit von z. B. 343,2 m/s (bei 20 °C) \cite{Hering:2023}
-%\end{enumerate}
-%Dieses Verfahren eignet sich besonders für den Einstieg und zur Überprüfung der Grundfunktion,
-%bevor komplexere Bibliotheken verwendet werden. Ein Vorteil besteht darin, dass systematische
-%Verzögerungen (Ausschwingzeit, Sensoreigenheiten) direkt analysiert und berücksichtigt werden
-%können \cite{Hering:2023}
-
-%\subsection{Beispiel}
-%\textbf{Funktionsweise im Projektkontext:}
-%\begin{itemize}
-%	\item Der Sensor ist oberhalb des Wasserbehälters befestigt und misst zyklisch den Abstand
-%	zur Wasseroberfläche.
-%	\item Die gemessene Distanz wird in einen Füllstand umgerechnet, wobei die volle und leere
-%	Höhe des Behälters als Referenz dienen.
-%	\item Der Wasserstand dient als Steuersignal für:
-%		\begin{itemize}
-	%			\item die Nachfülllogik (z. B. über ein Magnetventil),
-	%			\item die Sicherheitsabschaltung, falls der Wasserstand zu niedrig ist,
-	%			\item die visuelle Anzeige über LEDs oder auf einem Display.
-	%		\end{itemize}
-%\end{itemize}
-%Diese Methode ist ideal für dekorative Installationen wie Springbrunnen, bei denen Hygiene,
-%Wartungsfreiheit und Dichtigkeit entscheidend sind.\cite{Traenkler:2014}
-
-
-
-%\subsection{Beispiel - Code}
-%Nachfolgend ein vereinfachter Arduino-Sketch für ein Projekt, das den
-%Wasserstand auf einem seriellen Monitor ausgibt:
-
-
-%\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
 
 \section{Bibliothek}
 
@@ -446,26 +387,10 @@ Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von 
 \python{ping()}: Senden eines Ultraschallimpulses und Rückgabe der gemessenen Laufzeit in Mikrosekunden.\\
 \python{getDistance()}: Direkte Ausgabe der gemessenen Entfernung in Zentimetern basierend auf der Standard-Schallgeschwindigkeit in Luft.\\
 \python{pingMedian()}: Durchführung mehrerer Messungen und Rückgabe des Medianwertes zur Reduktion von Ausreißern.\\
-	%\item \textit{convert()}: Umrechnung einer bekannten Echozeit in Zentimeter zur manuellen Berechnung der Entfernung.
-	%\item \textit{lastDistance()}: Zugriff auf das letzte Messergebnis, ohne einen neuen Impuls auszulösen.
 
 Diese Funktionen ermöglichen eine einfache und präzise Nutzung von Ultraschallsensoren in verschiedenen Anwendungen, von der Einzelmessung bis hin zur Durchführung mehrerer Messungen zur Reduzierung von Ausreißern.
 
 
-
-
-%\subsection{Example - Dateien}
-%Die Projektdateien befinden sich im Ordner:
-%../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung
-%Sie bestehen aus:
-%\begin{itemize}
-%	\item dem Hauptsketch zur Wasserstandsmessung: \\ \texttt{../../Code/Arduino/UltraSonicHCSR04/wasserpegelMessung/wasserpegelMessung.ino}
-%	\item sowie Modulen zur Pumpensteuerung, Ventilregelung oder LED-Statusanzeige
-%\end{itemize}
-%Das gesamte System kann modular erweitert werden, z. B. durch Integration in ein IoT-
-%Framework wie Blynk oder MQTT zur Fernüberwachung.\cite{Traenkler:2014}
-
-%\section{Calibration}
 \section{Kalibrierung}
 Damit der HC-SR04 präzise misst, muss er kalibriert werden. Die wichtigste Einflussgröße ist die
 Schallgeschwindigkeit, da sie von der Umgebungstemperatur abhängt. Eine Kalibrierung erfolgt
@@ -476,13 +401,13 @@ Der Ultraschallabstandssensor wird für die Verwendung bei der Temperatur von 20
 %\Mynote{cite method}
 
 \section{Simple Code}
-Zur Überprüfung der grundlegenden Funktionalität des Ultraschallsensors wurde ein Simple Code \ref{lst:laufzeitMessung} verwendet. Das Programm dient zum einfachen Test mithilfe der NewPing-Bibliothek. Es misst die Laufzeit (Echozeit) des Schallsignals	. Die Werte werden anschließend über den Seriellen Monitor ausgegeben.
+Zur Überprüfung der grundlegenden Funktionalität des Ultraschallsensors wurde ein Simple Code \ref{code:laufzeitMessung} verwendet. Das Programm dient zum einfachen Test mithilfe der NewPing-Bibliothek. Es misst die Laufzeit (Echozeit) des Schallsignals	. Die Werte werden anschließend über den Seriellen Monitor ausgegeben.
 
-\begin{listing}
+\begin{code}
 	\caption{Einfacher Code zum Testen des Ultraschallsensors}
-	\label{lst:laufzeitMessung}
+	\label{code:laufzeitMessung}
 	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/laufzeitMessung/laufzeitMessung.ino}
-\end{listing}
+\end{code}
 
 
 %\section{Einfaches Beispiel zur Verwendung des Ultraschallabstandsensors}
@@ -523,20 +448,20 @@ Zur Überprüfung der grundlegenden Funktionalität des Ultraschallsensors wurde
 
 \section{Einfache Anwendung}
 In der Industrie ist es oft wichtig zu wissen, wann ein bestimmter Pegel einer Flüssigkeit unterschritten wird. Dafür können Ultraschallsensoren eingesetzt werden. Sie messen kontinuierlich den Pegel und können dem Programm so permanent einen Messwert bereitstellen. Wird ein bestimmter Messwert über- oder unterschritten, kann das Programm eine Warnmeldung erzeugen.
-Dieses Arduino-Programm \ref{lst:schwellenwert} nutzt einen HC-SR04 Ultraschallsensor, um die Entfernung zu einem Objekt kontinuierlich zu überwachen. Es erkennt, ob eine kritische Schwelle (25 cm) unterschritten wurde und gibt in diesem Fall eine Warnmeldung im Seriellen Monitor aus.
+Dieses Arduino-Programm \ref{code:schwellenwert} nutzt einen HC-SR04 Ultraschallsensor, um die Entfernung zu einem Objekt kontinuierlich zu überwachen. Es erkennt, ob eine kritische Schwelle (25 cm) unterschritten wurde und gibt in diesem Fall eine Warnmeldung im Seriellen Monitor aus.
 
-\begin{listing}
+\begin{code}[h!]
 	\caption{Einfache Anwendung als Schwellenwert-Melder}
-	\label{lst:schwellenwert}
+	\label{code:schwellenwert}
 	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/schwellenwertMeldung/schwellenwertMeldung.ino}
-\end{listing}
+\end{code}
 
 
 \section{Tests}
 \subsection{Einfacher Funktionstest}
 Beim einfachen Funktionstest wird überprüft, ob der Sensor korrekt anspricht und brauchbare
 Messwerte liefert. Dazu wird der HC-SR04 an einen Mikrocontroller (z. B. Arduino Nano 33 BLE
-Sense Lite) angeschlossen und ein einfacher Sketch  \ref{lst:entfernungMessung} aufgespielt, welcher die gemessene
+Sense Lite) angeschlossen und ein einfacher Sketch  \ref{code:entfernungMessung} aufgespielt, welcher die gemessene
 Entfernung über die serielle Schnittstelle ausgibt. \cite{Hering:2023}
 Ein Testobjekt wird in einem bekannten Abstand, typischerweise 20 cm, orthogonal vor den
 Sensor gehalten. Die gemessene Entfernung wird mit einem Maßband überprüft. Stimmen beide
@@ -544,11 +469,11 @@ Werte überein, ist die Grundfunktion des Sensors sichergestellt. Dieser Test ei
 insbesondere zur ersten Inbetriebnahme oder zur Überprüfung von Lötverbindungen,
 Spannungsversorgung und Signalverarbeitung.
 
-\begin{listing}
+\begin{code}[h!]
 	\caption{Code für die Messung einer Strecke}
-	\label{lst:entfernungMessung}
+	\label{code:entfernungMessung}
 	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/entfernungMessung/entfernungMessung.ino}
-\end{listing}
+\end{code}
 
 \subsection{Test aller Funktionen}
 Ein umfassender Funktionstest geht über die reine Abstandsmessung hinaus. Hierbei werden

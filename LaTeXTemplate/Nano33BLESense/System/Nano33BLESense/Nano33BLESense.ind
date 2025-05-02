@@ -1,157 +1,115 @@
 \begin{theindex}
 
-  \item 3D printer, 271
-
-  \indexspace
-
-  \item      Programmable Logic Controller, 269
   \item  File
-    \subitem Arduino LSM9DS1.h, 160
-    \subitem Arduino\_LSM9DS1.h, 159
-    \subitem ArduinoBLE, 198
-    \subitem ArduinoBLE.h, 196
-    \subitem Blink.ino, 268
-    \subitem Blink.py, 266
-    \subitem BuiltinLED.cpp, 42
-    \subitem BuiltinLED.h, 42
-    \subitem Kalman.h, 159, 160
-    \subitem LED.cpp, 47
-    \subitem LED.h, 46
-    \subitem LSM6DSOXSensor.h, 149
-    \subitem LSM9DS1, 198
-    \subitem Mag\_raw.txt, 32
-    \subitem Nano33BLE\_Led\_A0.ino, 192
-    \subitem output.wav, 92
-    \subitem PackageExample.py, 233
-    \subitem PDM.h, 112
-    \subitem pdm.h, 110, 111
-    \subitem PowerLED.cpp, 48
-    \subitem PowerLED.h, 48
-    \subitem RGBLED.cpp, 55
-    \subitem RGBLED.h, 54
-    \subitem SignsOfLife.cpp, 50
-    \subitem SignsOfLife.h, 50
-    \subitem SimpleAccelerometer, 133
-    \subitem Sketch -> Include Library -> Manage Library, 194
-    \subitem smoothedAudio.wav, 99
-    \subitem sound1.wav, 109
-    \subitem sound2.wav, 109
-    \subitem sound3.wav, 109
-    \subitem SSD1306Ascii.h, 135
-    \subitem TestBattery.ino, 178, 180
-    \subitem Wire.h, 135, 159, 161
-    \subitem wire.h, 160
+    \subitem ArduinoBLE, 90
+    \subitem ArduinoBLE.h, 88
+    \subitem BuiltinLED.cpp, 34
+    \subitem BuiltinLED.h, 34
+    \subitem LED.cpp, 39
+    \subitem LED.h, 38
+    \subitem LSM9DS1, 90
+    \subitem Mag\_raw.txt, 24
+    \subitem Nano33BLE\_Led\_A0.ino, 84
+    \subitem PowerLED.cpp, 40
+    \subitem PowerLED.h, 40
+    \subitem RGBLED.cpp, 47
+    \subitem RGBLED.h, 46
+    \subitem SignsOfLife.cpp, 42
+    \subitem SignsOfLife.h, 42
+    \subitem Sketch -> Include Library -> Manage Library, 86
+    \subitem TestBattery.ino, 70, 72
   \item  Inertial Measurement Unit
-    \subitem  \emph  {see} IMU, 19, 28
+    \subitem  \emph  {see} IMU, 11, 20
 
   \indexspace
 
   \item Acoustic Overload Point
-    \subitem  \emph  {see} AOP, 19, 33
-  \item AOP, 19, 33
-
-  \indexspace
-
-  \item CAGD, 271
-    \subitem Splines, 271
-  \item CNN, 19, 269
-  \item Computerized Numerical Control
-    \subitem  \emph  {see} {CNN}, 19, 269
-
-  \indexspace
-
-  \item Example, 233
-    \subitem Description, 233
-    \subitem Installation, 233
-    \subitem Introduction, 233
+    \subitem  \emph  {see} AOP, 11, 25
+  \item AOP, 11, 25
 
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 19, 212
-  \item GPIO, 19, 212
+    \subitem  \emph  {see} GPIO, 11, 104
+  \item GPIO, 11, 104
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 19, 212
-  \item IDE, 19, 180
-  \item IMU, 19, 28, 31
+  \item I\textsuperscript  {2}C, 11, 104
+  \item IDE, 11, 72
+  \item IMU, 11, 20, 23
   \item Integrated Development Environment
-    \subitem  \emph  {see} IDE, 19
+    \subitem  \emph  {see} IDE, 11
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 19, 212
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 11, 104
 
   \indexspace
 
   \item Japan Solderless Terminal
-    \subitem  \emph  {see} JST, 19, 186
-  \item JST, 19, 186
+    \subitem  \emph  {see} JST, 11, 78
+  \item JST, 11, 78
 
   \indexspace
 
-  \item LED, 19, 45, 46, 50, 53--57, 59, 60
-    \subitem Brightness, 59
-    \subitem Built-in LED, 41
-    \subitem Built-in RGB-LED, 53
-    \subitem Colors, 56
-    \subitem Power LED, 45
+  \item LED, 11, 37, 38, 42, 45--49, 51, 52
+    \subitem Brightness, 51
+    \subitem Built-in LED, 33
+    \subitem Built-in RGB-LED, 45
+    \subitem Colors, 48
+    \subitem Power LED, 37
   \item Light Emitting Diode
-    \subitem  \emph  {see} {LED}, 19, 45
+    \subitem  \emph  {see} {LED}, 11, 37
 
   \indexspace
 
-  \item mcd, 19, 54
+  \item mcd, 11, 46
   \item Millicandela
-    \subitem  \emph  {see} {mcd}, 19, 54
+    \subitem  \emph  {see} {mcd}, 11, 46
 
   \indexspace
 
-  \item PCB, 19, 181
-  \item PDM, 19, 33, 112
+  \item PCB, 11, 73
+  \item PDM, 11, 25
   \item Pin
-    \subitem Pin 11, 63, 64
-    \subitem Pin 13, 41--43
-    \subitem Pin 22, 54
-    \subitem Pin 22,23,24, 54
-    \subitem Pin 23, 54
-    \subitem Pin 24, 54
-    \subitem Pin 25, 46, 48
-  \item PLC, \see{         Programmable Logic Controller}{269}
+    \subitem Pin 11, 55, 56
+    \subitem Pin 13, 33--35
+    \subitem Pin 22, 46
+    \subitem Pin 22,23,24, 46
+    \subitem Pin 23, 46
+    \subitem Pin 24, 46
+    \subitem Pin 25, 38, 40
   \item Printed Circuit Board
-    \subitem \emph  {see} PB, 19, 181
+    \subitem \emph  {see} PB, 11, 73
   \item Pulse Density Modulation
-    \subitem  \emph  {see} PDM, 19, 33
+    \subitem  \emph  {see} PDM, 11, 25
   \item Pulse with Modulation
-    \subitem  \emph  {see} PWM Signal, 19, 46
+    \subitem  \emph  {see} PWM Signal, 11, 38
   \item Push Button
-    \subitem  Built-in Push Button, 63
-  \item PWM Signal, 19, 46, 53, 56
+    \subitem  Built-in Push Button, 55
+  \item PWM Signal, 11, 38, 45, 48
 
   \indexspace
 
-  \item SCL, 19, 212
-  \item SDA, 19, 212
+  \item SCL, 11, 104
+  \item SDA, 11, 104
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 19, 212
+    \subitem  \emph  {see} SCL, 11, 104
   \item Serial Data
-    \subitem  \emph  {see} SDA, 19, 212
+    \subitem  \emph  {see} SDA, 11, 104
   \item Serial Peripheral Interface
-    \subitem  \emph  {see} SPI, 19, 187
-  \item Speicherprogrammierbare Steuerung
-    \subitem  \emph  {see} SPS, 19, 269
-  \item SPI, 19, 187
-  \item SPS, 19, 269
+    \subitem  \emph  {see} SPI, 11, 79
+  \item SPI, 11, 79
 
   \indexspace
 
-  \item UART, 19, 212
+  \item UART, 11, 104
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 19, 212
+    \subitem  \emph  {see} UART, 11, 104
 
   \indexspace
 
-  \item VCC, 19, 178, 212, 213
+  \item VCC, 11, 70, 104, 105
   \item Voltage at the Common Collector
-    \subitem  \emph  {see} VCC, 19, 178
+    \subitem  \emph  {see} VCC, 11, 70
 
 \end{theindex}
