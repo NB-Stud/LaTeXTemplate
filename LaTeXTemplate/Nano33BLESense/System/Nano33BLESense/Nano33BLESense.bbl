@@ -429,6 +429,28 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Fluke:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{FLUKE}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{FLU}25}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Anleitung zum Messen von Widerstand}
+    \verb{url}
+    \verb https://www.fluke.com/de-de/mehr-erfahren/blog/digitalmultimeter/anle
+    \verb itung-zum-messen-von-widerstand
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{Farin:2002}{book}{}{}
     \name{author}{1}{}{%
       {{hash=FG}{%
@@ -749,6 +771,27 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Indicatorlight:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{Indicatorlight}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Ind}25}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{So verdrahten Sie Kippschalter}
+    \verb{url}
+    \verb https://de.indicatorlight.com/faq/toggle-button-switches/
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{JST:2016}{online}{}{}
     \list{publisher}{1}{%
       {J.S.T.}%
@@ -1012,6 +1055,27 @@
     \field{year}{2014}
   \endentry
 
+  \entry{NKKswitches:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{NKK Switches}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{NKK}25}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Schaltergrundlagen}
+    \verb{url}
+    \verb https://www.nkkswitches.de/learning/fundamentals/series_01.html
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{Raj:2019}{online}{}{}
     \name{author}{1}{}{%
       {{hash=RA}{%
@@ -1131,6 +1195,33 @@
     \field{year}{2024}
   \endentry
 
+  \entry{ReicheltKipp:2025}{online}{}{}
+    \name{editor}{1}{}{%
+      {{hash=R}{%
+         family={{Reichelt Online}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Rei}25}
+    \field{extraalpha}{1}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltKippschalter.pdf}{[pdf]}}}
+    \field{title}{Kippschalter - GOOBAY 10013}
+    \verb{url}
+    \verb https://www.reichelt.de/de/de/shop/produkt/miniatur-kippschalter\_ein
+    \verb -aus\_3\_a\_125\_v-359360
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{02}
+    \field{urlmonth}{05}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{Reichelt:2025}{online}{}{}
     \name{editor}{1}{}{%
       {{hash=R}{%
@@ -1143,6 +1234,7 @@
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
+    \field{extraalpha}{2}
     \field{sortinit}{R}
     \field{sortinithash}{R}
   \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltSchaltnetzteil.pdf}{[pdf]}}}
@@ -1628,6 +1720,25 @@
     \field{title}{Lehrbuch der Bauphysik}
     \field{month}{11}
     \field{year}{2022}
+  \endentry
+
+  \entry{Goobay:2023}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=g}{%
+         family={{goobay}},
+         familyi={g\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{g1}
+    \strng{fullhash}{g1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{goo}23}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/kippschalterHandbuch.pdf}{[pdf]}}}
+    \field{title}{Handbuch - goobay 10013}
+    \field{year}{2023}
   \endentry
 \enddatalist
 \endinput

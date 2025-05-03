@@ -400,13 +400,115 @@ tel, 2018. isbn: 978-3-808-53490-8.\cite{Haeberle:2018}
 
 \section{Kippschalter}
 \subsection{Einleitung}
+Kippschalter sind elektrische Bauteile, die durch ihre einfache Handhabung und Vielseitigkeit in elektronischen Systemen und Anlagen ihre Verwendung finden. Sie ermöglichen das Ein- und Ausschalten von Stromkreisen oder das Umschalten zwischen verschiedenen Betriebsmodi. 
+\cite{NKKswitches:2025} \cite{Indicatorlight:2025}
+
 \subsection{Grundlegende Informationen}
-\subsection{Schalter <Modell...>}
+Ein Kippschalter besteht typischerweise aus einem Hebel, der mechanisch zwei oder mehr elektrische Kontakte verbindet oder trennt. Beim Betätigen des Hebels bewegt sich ein beweglicher Kontakt, der entweder einen Stromkreis schließt oder öffnet. Diese mechanische Bewegung ermöglicht eine klare und stabile Schaltposition, was Kippschalter besonders zuverlässig macht. Je nach Ausführung können Kippschalter ein- oder mehrpolig sein und unterschiedliche Schaltfunktionen wie EIN/AUS, EIN/EIN oder EIN/AUS/EIN realisieren. Intern können sie entweder als Schließer oder Öffner funktionieren, zu sehen in \ref{skizzeSchalter}.\cite{NKKswitches:2025} \cite{Indicatorlight:2025}
+
+\begin{figure}[H]
+	\centering
+	\caption{Skizze der Schaltertypen}
+	\label{skizzeSchalter}
+	\resizebox{0.6\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ line width=2pt](13.75,4) to[short] (16.25,4);
+			\draw [ line width=2pt](16.25,4) to[short] (18.75,6.5);
+			\draw [ line width=2pt](20,4) to[short] (22.5,4);
+			\draw [ line width=2pt](13.75,4.5) to[short] (13.75,3.5);
+			\draw [ line width=2pt](22.5,4.5) to[short] (22.5,3.5);
+			\draw [ line width=2pt](13.75,-0.5) to[short] (13.75,-1.5);
+			\draw [ line width=2pt](22.5,-0.5) to[short] (22.5,-1.5);
+			\draw [ line width=2pt](13.75,-1) to[short] (17.5,-1);
+			\draw [ line width=2pt](17.5,-1) to[short] (17.5,-3.5);
+			\draw [ line width=2pt](22.5,-1) to[short] (20,-1);
+			\draw [ line width=2pt](20,-1) to[short] (17.5,-3.5);
+			\draw [ line width=2pt](17.5,-3.25) to[short] (17.5,-3);
+			\draw [ line width=2pt](17.5,-3.5) to[short] (17.5,-3.5);
+			\node [font=\Huge] at (14.25,4.5) {3};
+			\node [font=\Huge] at (22,4.5) {4};
+			\node [font=\Huge] at (14.25,-0.5) {1};
+			\node [font=\Huge] at (22,-0.5) {2};
+			\node [font=\Huge] at (26.25,-1) {\textbf{Öffnerkontakt}};
+			\node [font=\Huge] at (26.5,4) {\textbf{Schließerkontakt}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\subsection{Schalter: GOOBAY 10013}
+Der Goobay Miniatur-Kippschalter ist ein kompakter Schalter mit drei Pins und der Schaltfunktion EIN–AUS–EIN. Diese Konfiguration ermöglicht es, zwischen zwei Stromkreisen umzuschalten oder einen Stromkreis vollständig zu unterbrechen. Der Schalter ist ideal für Anwendungen im DIY-Bereich, Modellbau oder in elektronischen Projekten, bei denen Platzersparnis und Zuverlässigkeit gefragt sind. \cite{NKKswitches:2025} \cite{Goobay:2023} \cite{ReicheltKipp:2025}
+
 \subsection{Spezifikation}
-\subsection{Einfacher Code}
+\begin{itemize}
+	\item Kippschalter mit 2 Pins (Lötösen)
+	\item LxBxH: 8 x 5 x 7 mm
+	\item Nennstrom: 6 A bei 125 V AC oder 3 A bei 250 V AC
+	\item RoHS konform
+	\item Gewicht: 3 g
+	\item Farbe: Blau
+\end{itemize}
+
 \subsection{Tests}
+Man kann die Funktionalität des Kippschalters leicht testen. Da er als Schließer (EIN-AUS) ausgeführt ist, kann man eine einfache Durchgangsprüfung machen, wie in \ref{skizzeWiderstandtest} zu sehen. Man stellt das Wahlrad des Multimeters zuerst auf Widerstandsmessung. Danach schließt man das Multimeter mit den Anschlüssen für Widerstand und COM an den beiden Kontakten des Schalters an. Ist der Schalter geschlossen, zeigt das Multimeter einen hochohmigen Messwert. Schließt man jedoch den Schalter, wird der Widerstand sehr gering. Damit hat man überprüft, dass der Schalter einen Durchfluss des Stroms ermöglicht.\cite{NKKswitches:2025} \cite{Fluke:2025}
+
+\begin{figure}[H]
+	\centering
+	\caption{Messen des Widerstands}
+	\label{skizzeWiderstandtest}
+	\resizebox{0.5\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\node [font=\Huge] at (12,18.25) {\textbf{Multimeter}};
+			\node [font=\Huge] at (10,20.5) {\textbf{$\Omega$}};
+			\node [font=\Huge] at (13.5,20.5) {\textbf{COM}};
+			\draw [ line width=2pt ] (12,19.25) circle (3cm);
+			\draw [ line width=2pt](9,19.75) to[short] (15,19.75);
+			\draw [ line width=2pt](7.5,24) to[short] (10,24);
+			\draw [ line width=2pt](10,24) to[short] (12.5,26.5);
+			\draw [ line width=2pt](13.75,24) to[short] (15,24);
+			\draw [ line width=2pt](9.25,24) to[short, -o] (7.25,24) ;
+			\draw [ line width=2pt](13.75,24) to[short, -o] (16.5,24) ;
+			\node [font=\Huge, color={rgb,255:red,128; green,64; blue,64}] at (7.25,24.5) {\textbf{3}};
+			\node [font=\Huge, color={rgb,255:red,128; green,64; blue,64}] at (16.5,24.5) {\textbf{4}};
+			\draw [ line width=2pt](11.25,25.25) to[short] (11.25,27.75);
+			\draw [ line width=2pt](10,27.75) to[short] (12.5,27.75);
+			\draw [ line width=2pt](15,19.75) to[short, -o] (16.5,19.75) ;
+			\draw [ line width=2pt](9,19.75) to[short, -o] (7.25,19.75) ;
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](7.25,19.75) to[short] (7.25,24);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](16.5,19.75) to[short] (16.5,24);
+		\end{circuitikz}
+	}%
+\end{figure}
+
 \subsection{Einfache Anwendung}
-\subsection{Further Readings}
+Als einfache Anwendung kann man einen einfachen Lichtschalter betrachten. Eine Gleichstromquelle versorgt eine LED mit Vorwiderstand mit einer 5 V Spannung. Vor dem Widerstand ist ein einfacher Kippschalter als EIN-AUS eingebaut. Dieser kann den Stromkreis ein- und ausschalten. \ref{anwendungSchalter}
+
+\begin{figure}[H]
+	\centering
+	\caption{Einfache Anwendung des Schalters}
+	\label{anwendungSchalter}
+	\resizebox{0.6\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ line width=2pt](3.75,16.5) to[short] (6.25,16.5);
+			\draw [line width=2pt](6.25,16.5) to[normal open switch] (8.75,16.5);
+			\draw [ line width=2pt](8.75,16.5) to[european resistor] (8.75,14);
+			\draw [ line width=2pt](8.75,14) to[empty led] (8.75,10.25);
+			\draw [ line width=2pt](8.75,10.25) to[short] (3.75,10.25);
+			\draw [ line width=2pt](3.75,10.25) to[short] (3.75,11.5);
+			\node [font=\LARGE] at (2.25,13.25) {+5 V};
+			\node [font=\LARGE] at (10,15.25) {R470};
+			\node [font=\LARGE] at (10.25,12) {LED};
+			\node [font=\LARGE] at (7.75,17.5) {Schalter};
+			\draw [ line width=2pt](3.75,11.5) to[short] (3.75,12.75);
+			\draw [ line width=2pt](3.25,12.75) to[short] (4.25,12.75);
+			\draw [ line width=2pt](3,14) to[short] (4.5,14);
+			\draw [ line width=2pt](3.75,14) to[short] (3.75,16.5);
+		\end{circuitikz}
+	}%
+\end{figure}
+
 
 \section{MOSFET}
 \subsection{Einleitung}

@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 13540 items from 5000.
+Reallocated field_info (elt_size=4) to 14240 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -27,52 +27,62 @@ I was expecting a `,' or a `}'---line 37 of file ../../../MLbib/MyLiterature.bib
  :   organization = {Arduino.cc}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 271 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 161 of file ../../../MLbib/MyLiterature.bib
+ :   
+ :   note      = {\textcolor{blue}{\href{../../../MLbib/flukeOnline.pdf}{[pdf]}}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 295 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 549 of file ../../../MLbib/MyLiterature.bib
+ :   
+ :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 61 entries,
+You've used 66 entries,
             6402 wiz_defined-function locations,
-            1593 strings with 21162 characters,
-and the built_in function-call counts, 334586 in all, are:
-= -- 22207
-> -- 7413
-< -- 2818
-+ -- 8414
-- -- 3441
-* -- 22162
-:= -- 31044
+            1618 strings with 21942 characters,
+and the built_in function-call counts, 355677 in all, are:
+= -- 23273
+> -- 8101
+< -- 3001
++ -- 8922
+- -- 3817
+* -- 23557
+:= -- 32910
 add.period$ -- 0
-call.type$ -- 61
-change.case$ -- 88
-chr.to.int$ -- 252
-cite$ -- 148
-duplicate$ -- 35607
-empty$ -- 32142
-format.name$ -- 2897
-if$ -- 70526
+call.type$ -- 66
+change.case$ -- 93
+chr.to.int$ -- 276
+cite$ -- 158
+duplicate$ -- 37864
+empty$ -- 34284
+format.name$ -- 3153
+if$ -- 74956
 int.to.chr$ -- 0
-int.to.str$ -- 190
+int.to.str$ -- 203
 missing$ -- 0
-newline$ -- 1599
-num.names$ -- 3023
-pop$ -- 20764
+newline$ -- 1710
+num.names$ -- 3254
+pop$ -- 22432
 preamble$ -- 1
-purify$ -- 1599
+purify$ -- 1669
 quote$ -- 0
-skip$ -- 12805
+skip$ -- 13707
 stack$ -- 0
-substring$ -- 36888
-swap$ -- 9109
-text.length$ -- 1950
-text.prefix$ -- 91
+substring$ -- 38459
+swap$ -- 9748
+text.length$ -- 2118
+text.prefix$ -- 101
 top$ -- 1
-type$ -- 2061
+type$ -- 2231
 warning$ -- 0
-while$ -- 3746
+while$ -- 3967
 width$ -- 0
-write$ -- 1539
-(There were 2 error messages)
+write$ -- 1645
+(There were 4 error messages)
