@@ -174,49 +174,49 @@
 \contentsline {section}{\numberline {14.3}Netzteil}{117}{section.14.3}%
 \contentsline {subsection}{\numberline {14.3.1}Einleitung}{117}{subsection.14.3.1}%
 \contentsline {subsection}{\numberline {14.3.2}Grundlegende Informationen}{117}{subsection.14.3.2}%
-\contentsline {subsection}{\numberline {14.3.3}Schaltnetzteil: MW HRP-75-12}{118}{subsection.14.3.3}%
-\contentsline {subsection}{\numberline {14.3.4}Spezifikation}{120}{subsection.14.3.4}%
-\contentsline {subsection}{\numberline {14.3.5}Tests}{120}{subsection.14.3.5}%
+\contentsline {subsection}{\numberline {14.3.3}Schaltnetzteil: MW RD-50A}{118}{subsection.14.3.3}%
+\contentsline {subsection}{\numberline {14.3.4}Spezifikation}{118}{subsection.14.3.4}%
+\contentsline {subsection}{\numberline {14.3.5}Tests}{119}{subsection.14.3.5}%
 \contentsline {subsection}{\numberline {14.3.6}Einfache Anwendung}{120}{subsection.14.3.6}%
-\contentsline {subsection}{\numberline {14.3.7}Further Readings}{120}{subsection.14.3.7}%
-\contentsline {section}{\numberline {14.4}Bluetooth Modul}{120}{section.14.4}%
-\contentsline {subsection}{\numberline {14.4.1}Einleitung}{120}{subsection.14.4.1}%
-\contentsline {subsection}{\numberline {14.4.2}Grundlegende Informationen}{120}{subsection.14.4.2}%
-\contentsline {subsection}{\numberline {14.4.3}Modul <Modell...>}{120}{subsection.14.4.3}%
-\contentsline {subsection}{\numberline {14.4.4}Spezifikation}{120}{subsection.14.4.4}%
-\contentsline {subsection}{\numberline {14.4.5}Einfacher Code}{120}{subsection.14.4.5}%
-\contentsline {subsection}{\numberline {14.4.6}Tests}{120}{subsection.14.4.6}%
-\contentsline {subsection}{\numberline {14.4.7}Einfache Anwendung}{120}{subsection.14.4.7}%
-\contentsline {subsection}{\numberline {14.4.8}Further Readings}{120}{subsection.14.4.8}%
-\contentsline {section}{\numberline {14.5}Kippschalter}{120}{section.14.5}%
-\contentsline {subsection}{\numberline {14.5.1}Einleitung}{120}{subsection.14.5.1}%
-\contentsline {subsection}{\numberline {14.5.2}Grundlegende Informationen}{120}{subsection.14.5.2}%
-\contentsline {subsection}{\numberline {14.5.3}Schalter <Modell...>}{120}{subsection.14.5.3}%
-\contentsline {subsection}{\numberline {14.5.4}Spezifikation}{120}{subsection.14.5.4}%
-\contentsline {subsection}{\numberline {14.5.5}Einfacher Code}{120}{subsection.14.5.5}%
-\contentsline {subsection}{\numberline {14.5.6}Tests}{120}{subsection.14.5.6}%
-\contentsline {subsection}{\numberline {14.5.7}Einfache Anwendung}{120}{subsection.14.5.7}%
-\contentsline {subsection}{\numberline {14.5.8}Further Readings}{120}{subsection.14.5.8}%
-\contentsline {section}{\numberline {14.6}MOSFET}{120}{section.14.6}%
-\contentsline {subsection}{\numberline {14.6.1}Einleitung}{120}{subsection.14.6.1}%
-\contentsline {subsection}{\numberline {14.6.2}Grundlegende Informationen}{120}{subsection.14.6.2}%
-\contentsline {subsection}{\numberline {14.6.3}MOSFET <Modell...>}{120}{subsection.14.6.3}%
-\contentsline {subsection}{\numberline {14.6.4}Spezifikation}{120}{subsection.14.6.4}%
-\contentsline {subsection}{\numberline {14.6.5}Einfacher Code}{120}{subsection.14.6.5}%
-\contentsline {subsection}{\numberline {14.6.6}Tests}{120}{subsection.14.6.6}%
-\contentsline {subsection}{\numberline {14.6.7}Einfache Anwendung}{120}{subsection.14.6.7}%
-\contentsline {subsection}{\numberline {14.6.8}Further Readings}{120}{subsection.14.6.8}%
-\contentsline {section}{\numberline {14.7}Externe LED}{120}{section.14.7}%
-\contentsline {subsection}{\numberline {14.7.1}Einleitung}{120}{subsection.14.7.1}%
-\contentsline {subsection}{\numberline {14.7.2}Grundlegende Informationen}{120}{subsection.14.7.2}%
-\contentsline {subsection}{\numberline {14.7.3}LED <Modell...>}{120}{subsection.14.7.3}%
-\contentsline {subsection}{\numberline {14.7.4}Spezifikation}{120}{subsection.14.7.4}%
-\contentsline {subsection}{\numberline {14.7.5}Einfacher Code}{120}{subsection.14.7.5}%
-\contentsline {subsection}{\numberline {14.7.6}Tests}{120}{subsection.14.7.6}%
-\contentsline {subsection}{\numberline {14.7.7}Einfache Anwendung}{120}{subsection.14.7.7}%
-\contentsline {subsection}{\numberline {14.7.8}Further Readings}{120}{subsection.14.7.8}%
-\contentsline {part}{\numberline {IV}Anhang}{121}{part.4}%
-\contentsline {chapter}{\numberline {15}Materialliste}{123}{chapter.15}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{125}{chapter*.50}%
-\contentsline {chapter}{Stichwortverzeichnis}{129}{chapter*.50}%
-\contentsline {chapter}{Index}{129}{chapter*.50}%
+\contentsline {subsection}{\numberline {14.3.7}Further Readings}{122}{subsection.14.3.7}%
+\contentsline {section}{\numberline {14.4}Bluetooth Modul}{122}{section.14.4}%
+\contentsline {subsection}{\numberline {14.4.1}Einleitung}{124}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}Grundlegende Informationen}{124}{subsection.14.4.2}%
+\contentsline {subsection}{\numberline {14.4.3}Modul <Modell...>}{124}{subsection.14.4.3}%
+\contentsline {subsection}{\numberline {14.4.4}Spezifikation}{124}{subsection.14.4.4}%
+\contentsline {subsection}{\numberline {14.4.5}Einfacher Code}{124}{subsection.14.4.5}%
+\contentsline {subsection}{\numberline {14.4.6}Tests}{124}{subsection.14.4.6}%
+\contentsline {subsection}{\numberline {14.4.7}Einfache Anwendung}{124}{subsection.14.4.7}%
+\contentsline {subsection}{\numberline {14.4.8}Further Readings}{124}{subsection.14.4.8}%
+\contentsline {section}{\numberline {14.5}Kippschalter}{124}{section.14.5}%
+\contentsline {subsection}{\numberline {14.5.1}Einleitung}{124}{subsection.14.5.1}%
+\contentsline {subsection}{\numberline {14.5.2}Grundlegende Informationen}{124}{subsection.14.5.2}%
+\contentsline {subsection}{\numberline {14.5.3}Schalter <Modell...>}{124}{subsection.14.5.3}%
+\contentsline {subsection}{\numberline {14.5.4}Spezifikation}{124}{subsection.14.5.4}%
+\contentsline {subsection}{\numberline {14.5.5}Einfacher Code}{124}{subsection.14.5.5}%
+\contentsline {subsection}{\numberline {14.5.6}Tests}{124}{subsection.14.5.6}%
+\contentsline {subsection}{\numberline {14.5.7}Einfache Anwendung}{124}{subsection.14.5.7}%
+\contentsline {subsection}{\numberline {14.5.8}Further Readings}{124}{subsection.14.5.8}%
+\contentsline {section}{\numberline {14.6}MOSFET}{124}{section.14.6}%
+\contentsline {subsection}{\numberline {14.6.1}Einleitung}{124}{subsection.14.6.1}%
+\contentsline {subsection}{\numberline {14.6.2}Grundlegende Informationen}{124}{subsection.14.6.2}%
+\contentsline {subsection}{\numberline {14.6.3}MOSFET <Modell...>}{124}{subsection.14.6.3}%
+\contentsline {subsection}{\numberline {14.6.4}Spezifikation}{124}{subsection.14.6.4}%
+\contentsline {subsection}{\numberline {14.6.5}Einfacher Code}{124}{subsection.14.6.5}%
+\contentsline {subsection}{\numberline {14.6.6}Tests}{124}{subsection.14.6.6}%
+\contentsline {subsection}{\numberline {14.6.7}Einfache Anwendung}{124}{subsection.14.6.7}%
+\contentsline {subsection}{\numberline {14.6.8}Further Readings}{124}{subsection.14.6.8}%
+\contentsline {section}{\numberline {14.7}Externe LED}{124}{section.14.7}%
+\contentsline {subsection}{\numberline {14.7.1}Einleitung}{124}{subsection.14.7.1}%
+\contentsline {subsection}{\numberline {14.7.2}Grundlegende Informationen}{124}{subsection.14.7.2}%
+\contentsline {subsection}{\numberline {14.7.3}LED <Modell...>}{124}{subsection.14.7.3}%
+\contentsline {subsection}{\numberline {14.7.4}Spezifikation}{124}{subsection.14.7.4}%
+\contentsline {subsection}{\numberline {14.7.5}Einfacher Code}{124}{subsection.14.7.5}%
+\contentsline {subsection}{\numberline {14.7.6}Tests}{124}{subsection.14.7.6}%
+\contentsline {subsection}{\numberline {14.7.7}Einfache Anwendung}{124}{subsection.14.7.7}%
+\contentsline {subsection}{\numberline {14.7.8}Further Readings}{124}{subsection.14.7.8}%
+\contentsline {part}{\numberline {IV}Anhang}{125}{part.4}%
+\contentsline {chapter}{\numberline {15}Materialliste}{127}{chapter.15}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{129}{chapter*.56}%
+\contentsline {chapter}{Stichwortverzeichnis}{133}{chapter*.56}%
+\contentsline {chapter}{Index}{133}{chapter*.56}%

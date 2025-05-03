@@ -523,6 +523,33 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Haeberle:2018}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=H}{%
+         family={Haeberle},
+         familyi={H\bibinitperiod},
+      }}%
+      {{hash=I}{%
+         family={Isele},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Europa Lehrmittel}%
+    }
+    \strng{namehash}{HI1}
+    \strng{fullhash}{HI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{HI18}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{edition}{28}
+    \field{isbn}{978-3-808-53490-8}
+    \field{title}{Tabellenbuch Elektrotechnik}
+    \field{year}{2018}
+  \endentry
+
   \entry{Heinrich:2019}{book}{}{}
     \name{author}{3}{}{%
       {{hash=HB}{%
@@ -652,12 +679,6 @@
   \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/978-3-658-39491-2.pdf}{[pdf]}}}
     \field{title}{{Sensoren in Wissenschaft und Technik}}
     \field{year}{2023}
-  \endentry
-
-  \entry{Haeberle:2018}{book}{}{}
-    \field{labelalpha}{Hae}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
   \endentry
 
   \entry{Hering:2024}{book}{}{}
@@ -987,7 +1008,7 @@
     \field{sortinit}{M}
     \field{sortinithash}{M}
   \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchSchaltnetzteil.pdf}{[pdf]}}}
-    \field{title}{Handbuch HRP-75 Series}
+    \field{title}{Handbuch MW RD-50A Series}
     \field{year}{2014}
   \endentry
 
@@ -1128,7 +1149,7 @@
     \field{title}{Schaltnetzteil - MW HRP-75}
     \verb{url}
     \verb https://www.reichelt.de/de/de/shop/produkt/schaltnetzteil_geschlossen
-    \verb _75_w_12_v_6_3_a-148046#closemodal
+    \verb _50_w_5_12_v_6_a-137098#closemodal
     \endverb
     \field{year}{2025}
     \field{urlday}{02}
