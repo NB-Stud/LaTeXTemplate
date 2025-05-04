@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 14660 items from 5000.
+Reallocated field_info (elt_size=4) to 14520 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -41,48 +41,49 @@ I was expecting a `,' or a `}'---line 573 of file ../../../MLbib/MyLiterature.bi
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Alles2024"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 69 entries,
+You've used 67 entries,
             6402 wiz_defined-function locations,
-            1636 strings with 22499 characters,
-and the built_in function-call counts, 370856 in all, are:
-= -- 23972
-> -- 8903
-< -- 3131
-+ -- 9568
-- -- 4371
-* -- 24478
-:= -- 34452
+            1622 strings with 22098 characters,
+and the built_in function-call counts, 355681 in all, are:
+= -- 22797
+> -- 8631
+< -- 3005
++ -- 9232
+- -- 4293
+* -- 23405
+:= -- 33011
 add.period$ -- 0
-call.type$ -- 69
-change.case$ -- 96
-chr.to.int$ -- 324
-cite$ -- 164
-duplicate$ -- 39343
-empty$ -- 35681
-format.name$ -- 3315
-if$ -- 77876
+call.type$ -- 67
+change.case$ -- 94
+chr.to.int$ -- 312
+cite$ -- 160
+duplicate$ -- 37870
+empty$ -- 34295
+format.name$ -- 3191
+if$ -- 74637
 int.to.chr$ -- 0
-int.to.str$ -- 214
+int.to.str$ -- 208
 missing$ -- 0
-newline$ -- 1782
-num.names$ -- 3401
-pop$ -- 23429
+newline$ -- 1720
+num.names$ -- 3256
+pop$ -- 22738
 preamble$ -- 1
-purify$ -- 1711
+purify$ -- 1629
 quote$ -- 0
-skip$ -- 14295
+skip$ -- 13723
 stack$ -- 0
-substring$ -- 39575
-swap$ -- 10191
-text.length$ -- 2232
-text.prefix$ -- 107
+substring$ -- 37439
+swap$ -- 9821
+text.length$ -- 2162
+text.prefix$ -- 104
 top$ -- 1
-type$ -- 2333
+type$ -- 2265
 warning$ -- 0
-while$ -- 4127
+while$ -- 3960
 width$ -- 0
-write$ -- 1714
+write$ -- 1654
 (There were 4 error messages)

@@ -185,26 +185,26 @@
 \contentsline {subsection}{\numberline {13.5.4}Spezifikation}{121}{subsection.13.5.4}%
 \contentsline {subsection}{\numberline {13.5.5}Tests}{121}{subsection.13.5.5}%
 \contentsline {subsection}{\numberline {13.5.6}Einfache Anwendung}{122}{subsection.13.5.6}%
-\contentsline {section}{\numberline {13.6}MOSFET}{123}{section.13.6}%
-\contentsline {subsection}{\numberline {13.6.1}Einleitung}{123}{subsection.13.6.1}%
+\contentsline {section}{\numberline {13.6}MOS-FET}{122}{section.13.6}%
+\contentsline {subsection}{\numberline {13.6.1}Einleitung}{122}{subsection.13.6.1}%
 \contentsline {subsection}{\numberline {13.6.2}Grundlegende Informationen}{123}{subsection.13.6.2}%
-\contentsline {subsection}{\numberline {13.6.3}MOSFET <Modell...>}{123}{subsection.13.6.3}%
-\contentsline {subsection}{\numberline {13.6.4}Spezifikation}{123}{subsection.13.6.4}%
-\contentsline {subsection}{\numberline {13.6.5}Einfacher Code}{123}{subsection.13.6.5}%
-\contentsline {subsection}{\numberline {13.6.6}Tests}{123}{subsection.13.6.6}%
-\contentsline {subsection}{\numberline {13.6.7}Einfache Anwendung}{123}{subsection.13.6.7}%
-\contentsline {subsection}{\numberline {13.6.8}Further Readings}{123}{subsection.13.6.8}%
-\contentsline {section}{\numberline {13.7}Externe LED}{123}{section.13.7}%
-\contentsline {subsection}{\numberline {13.7.1}Einleitung}{123}{subsection.13.7.1}%
-\contentsline {subsection}{\numberline {13.7.2}Grundlegende Informationen}{123}{subsection.13.7.2}%
-\contentsline {subsection}{\numberline {13.7.3}LED CML Signalleuchte, blau, ultrahell, 12 VDC}{124}{subsection.13.7.3}%
-\contentsline {subsection}{\numberline {13.7.4}Spezifikation}{124}{subsection.13.7.4}%
-\contentsline {subsection}{\numberline {13.7.5}Einfacher Code}{124}{subsection.13.7.5}%
-\contentsline {subsection}{\numberline {13.7.6}Tests}{125}{subsection.13.7.6}%
-\contentsline {subsection}{\numberline {13.7.7}Einfache Anwendung}{125}{subsection.13.7.7}%
-\contentsline {subsection}{\numberline {13.7.8}Further Readings}{126}{subsection.13.7.8}%
-\contentsline {part}{\numberline {IV}Anhang}{127}{part.4}%
-\contentsline {chapter}{\numberline {14}Materialliste}{129}{chapter.14}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{131}{chapter*.65}%
-\contentsline {chapter}{Stichwortverzeichnis}{135}{chapter*.65}%
-\contentsline {chapter}{Index}{135}{chapter*.65}%
+\contentsline {subsection}{\numberline {13.6.3}MOS-FET <Modell...>}{124}{subsection.13.6.3}%
+\contentsline {subsection}{\numberline {13.6.4}Spezifikation}{124}{subsection.13.6.4}%
+\contentsline {subsection}{\numberline {13.6.5}Einfacher Code}{124}{subsection.13.6.5}%
+\contentsline {subsection}{\numberline {13.6.6}Tests}{124}{subsection.13.6.6}%
+\contentsline {subsection}{\numberline {13.6.7}Einfache Anwendung}{124}{subsection.13.6.7}%
+\contentsline {subsection}{\numberline {13.6.8}Further Readings}{124}{subsection.13.6.8}%
+\contentsline {section}{\numberline {13.7}Externe LED}{124}{section.13.7}%
+\contentsline {subsection}{\numberline {13.7.1}Einleitung}{124}{subsection.13.7.1}%
+\contentsline {subsection}{\numberline {13.7.2}Grundlegende Informationen}{124}{subsection.13.7.2}%
+\contentsline {subsection}{\numberline {13.7.3}LED CML Signalleuchte, blau, ultrahell, 12 VDC}{125}{subsection.13.7.3}%
+\contentsline {subsection}{\numberline {13.7.4}Spezifikation}{125}{subsection.13.7.4}%
+\contentsline {subsection}{\numberline {13.7.5}Einfacher Code}{125}{subsection.13.7.5}%
+\contentsline {subsection}{\numberline {13.7.6}Tests}{126}{subsection.13.7.6}%
+\contentsline {subsection}{\numberline {13.7.7}Einfache Anwendung}{126}{subsection.13.7.7}%
+\contentsline {subsection}{\numberline {13.7.8}Further Readings}{127}{subsection.13.7.8}%
+\contentsline {part}{\numberline {IV}Anhang}{129}{part.4}%
+\contentsline {chapter}{\numberline {14}Materialliste}{131}{chapter.14}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{133}{chapter*.65}%
+\contentsline {chapter}{Stichwortverzeichnis}{137}{chapter*.65}%
+\contentsline {chapter}{Index}{137}{chapter*.65}%
