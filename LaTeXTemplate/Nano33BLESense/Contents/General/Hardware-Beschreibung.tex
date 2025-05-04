@@ -530,7 +530,8 @@ Die Kennlinienfelder, die das Verhalten von Drainstrom (ID) in Abhängigkeit von
 
 Insgesamt bietet der MOS-FET viele Vorteile wie hohe Energieeffizienz und einfache Ansteuerung, erfordert aber eine sorgfältige Berücksichtigung seiner physikalischen Eigenschaften, insbesondere bei hohen Frequenzen oder großen Temperaturbereichen.\cite{Alles2024}
 
-MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- und p-Kanal-MOS-FETs. Diese Bezeichnungen beziehen sich auf die Art der Dotierung des Halbleitermaterials. Die Dotierung erfolgt entweder mit Donatoren (n-Typ, negativ) oder Akzeptoren (p-Typ, positiv), wodurch sich die elektrische Leitfähigkeit des Siliziums erhöht.
+
+MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- und p-Kanal-MOS-FETs. Diese Bezeichnungen beziehen sich auf die Art der Dotierung des Halbleitermaterials. Die Dotierung erfolgt entweder mit Donatoren (n-Typ, negativ) oder Akzeptoren (p-Typ, positiv), wodurch sich die elektrische Leitfähigkeit des Siliziums erhöht. \cite{RSOnlineMOSFET:2025}
 
 \textbf{N-Kanal-MOS-FET:}
 \begin{itemize}
@@ -548,11 +549,104 @@ MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- u
 	\item Funktionsweise: Der Transistor leitet bei negativer Gate-Spannung relativ zur Source
 	\item Schaltverhalten: Das Source-Potential ist höher als das Drain-Potential
 \end{itemize}
-\subsection{MOS-FET <Modell...>}
+\subsection{MOS-FET IRF9540N}
+Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spannungen entwickelt wurde. Er eignet sich besonders für Anwendungen, bei denen eine effektive Spannung mit Hilfe von Pulsweitenmodulation (PWM) gesenkt werden soll, wie z. B. beim Dimmen von LED-Beleuchtungen.\cite{ReicheltMOS:2025} (bild einfügen)
+\begin{figure}[!ht]
+	\centering
+	\caption{Skizze des MOS-FETs}
+	\label{fig:my_label}
+	\resizebox{0.5\textwidth}{!}{%
+				\rotatebox{90}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ fill={rgb,255:red,72; green,72; blue,72} , line width=1.2pt ] (1.25,-4.25) rectangle (10,-13);
+			\draw [line width=1.2pt, short] (1.25,-5.5) -- (1,-5.5);
+			\draw [line width=1.2pt, short] (1,-5.5) -- (1,-2.5);
+			\draw [line width=1.2pt, short] (1,-2.5) -- (1.5,-2.25);
+			\draw [line width=1.2pt, short] (1.5,-2.25) -- (1.5,-1.25);
+			\draw [line width=1.2pt, short] (1.5,-1.25) -- (1,-0.75);
+			\draw [line width=1.2pt, short] (1,-0.75) -- (1,0.75);
+			\draw [line width=1.2pt, short] (1,0.75) -- (10.25,0.75);
+			\draw [line width=1.2pt, short] (10,-5.5) -- (10.25,-5.5);
+			\draw [line width=1.2pt, short] (10.25,-5.5) -- (10.25,-2.5);
+			\draw [line width=1.2pt, short] (10.25,-2.5) -- (9.75,-2.25);
+			\draw [line width=1.2pt, short] (9.75,-2.25) -- (9.75,-1.25);
+			\draw [line width=1.2pt, short] (9.75,-1.25) -- (10.25,-0.75);
+			\draw [line width=1.2pt, short] (10.25,-0.75) -- (10.25,0.75);
+			\draw [ line width=1.2pt ] (5.75,-1.75) circle (1.25cm);
+			\draw [line width=1.2pt, short] (1.25,-5.5) -- (1.25,-4.25);
+			\draw [line width=1.2pt, short] (1.25,-4.25) -- (10,-4.25);
+			\draw [line width=1.2pt, short] (10,-4.25) -- (10,-5.5);
+			\draw [line width=1.2pt, short] (1.75,-13) -- (1.75,-14.25);
+			\draw [line width=1.2pt, short] (1.75,-14.25) -- (2,-14.5);
+			\draw [line width=1.2pt, short] (2,-14.5) -- (2,-20.25);
+			\draw [line width=1.2pt, short] (2,-20.25) -- (2.25,-20.75);
+			\draw [line width=1.2pt, short] (2.25,-20.75) -- (2.5,-20.75);
+			\draw [line width=1.2pt, short] (2.5,-20.75) -- (2.75,-20.25);
+			\draw [line width=1.2pt, short] (2.75,-20.25) -- (2.75,-14.5);
+			\draw [line width=1.2pt, short] (2.75,-14.5) -- (3,-14.25);
+			\draw [line width=1.2pt, short] (3,-14.25) -- (3,-13);
+			\draw [line width=1.2pt, short] (9.5,-13) -- (9.5,-14.25);
+			\draw [line width=1.2pt, short] (9.5,-14.25) -- (9.25,-14.5);
+			\draw [line width=1.2pt, short] (9.25,-14.5) -- (9.25,-20.25);
+			\draw [line width=1.2pt, short] (9.25,-20.25) -- (9,-20.75);
+			\draw [line width=1.2pt, short] (9,-20.75) -- (8.75,-20.75);
+			\draw [line width=1.2pt, short] (8.75,-20.75) -- (8.5,-20.25);
+			\draw [line width=1.2pt, short] (8.5,-20.25) -- (8.5,-14.5);
+			\draw [line width=1.2pt, short] (8.5,-14.5) -- (8.25,-14.25);
+			\draw [line width=1.2pt, short] (8.25,-14.25) -- (8.25,-13);
+			\draw [line width=1.2pt, short] (5,-13) -- (5,-14.25);
+			\draw [line width=1.2pt, short] (5,-14.25) -- (5.25,-14.5);
+			\draw [line width=1.2pt, short] (5.25,-14.5) -- (5.25,-20.25);
+			\draw [line width=1.2pt, short] (5.25,-20.25) -- (5.5,-20.75);
+			\draw [line width=1.2pt, short] (5.5,-20.75) -- (5.75,-20.75);
+			\draw [line width=1.2pt, short] (5.75,-20.75) -- (6,-20.25);
+			\draw [line width=1.2pt, short] (6,-20.25) -- (6,-14.5);
+			\draw [line width=1.2pt, short] (6,-14.5) -- (6.25,-14.25);
+			\draw [line width=1.2pt, short] (6.25,-14.25) -- (6.25,-13);
+			\node [font=\Huge, color={rgb,255:red,178; green,178; blue,178}] at (5.75,-6) {IRF9540N};
+			\node [font=\Huge, color={rgb,255:red,178; green,178; blue,178}] at (5.75,-8) {IORH228D};
+			\node [font=\Huge, color={rgb,255:red,178; green,178; blue,178}] at (5.75,-9) {B9P0};
+		\end{circuitikz}
+	}%
+}%
+\end{figure}
+
 \subsection{Spezifikation}
-\subsection{Einfacher Code}
+\subsubsection{Hauptmerkmale}
+\begin{itemize}
+	\item Modell: IRF9540N
+	\item Farbe der Platine: Schwarz
+	\item Kompatibilität: Arduino, Raspberry Pi, etc.
+	\item Besonderheiten: Der MOSFET bezieht Spannung auch über den SBC, wenn keine Source-Spannung verfügbar ist.
+	\item Effektivspannung lässt sich mit PWM senken.
+	\item Abmessungen: 40 mm x 22 mm x 20 mm
+	\item Maximale Eingangsspannung: 36 V
+	\item Maximale Eingangsstrom: 2 A
+\end{itemize}
+
+\subsubsection{Steuerung und Anschlüsse}
+\begin{itemize}
+	\item Steuerspannung: Mindestspannung 2 V
+	\item Anschlüsse:
+	\begin{itemize}
+		\item 2x 2 Pin Anschlussblöcke
+		\item 4 Pin female JST-Buchse
+	\end{itemize}
+	\item Pinbelegung der JST-Buchse:
+	\begin{itemize}
+		\item 1. GND: Ground
+		\item 2. VCC: Spannung
+		\item 3. NC: Nicht verbunden
+		\item 4. SIG: Signal
+	\end{itemize}
+\end{itemize}
+%\subsection{Einfacher Code}
+
 \subsection{Tests}
+
 \subsection{Einfache Anwendung}
+
 \subsection{Further Readings}
 
 \section{Externe LED}

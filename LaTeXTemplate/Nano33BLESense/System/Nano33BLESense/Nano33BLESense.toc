@@ -198,23 +198,25 @@
 \contentsline {section}{\numberline {14.6}MOS-FET}{124}{section.14.6}%
 \contentsline {subsection}{\numberline {14.6.1}Einleitung}{124}{subsection.14.6.1}%
 \contentsline {subsection}{\numberline {14.6.2}Grundlegende Informationen}{125}{subsection.14.6.2}%
-\contentsline {subsection}{\numberline {14.6.3}MOS-FET <Modell...>}{126}{subsection.14.6.3}%
+\contentsline {subsection}{\numberline {14.6.3}MOS-FET IRF9540N}{126}{subsection.14.6.3}%
 \contentsline {subsection}{\numberline {14.6.4}Spezifikation}{126}{subsection.14.6.4}%
-\contentsline {subsection}{\numberline {14.6.5}Einfacher Code}{126}{subsection.14.6.5}%
-\contentsline {subsection}{\numberline {14.6.6}Tests}{126}{subsection.14.6.6}%
-\contentsline {subsection}{\numberline {14.6.7}Einfache Anwendung}{126}{subsection.14.6.7}%
-\contentsline {subsection}{\numberline {14.6.8}Further Readings}{126}{subsection.14.6.8}%
-\contentsline {section}{\numberline {14.7}Externe LED}{126}{section.14.7}%
-\contentsline {subsection}{\numberline {14.7.1}Einleitung}{126}{subsection.14.7.1}%
-\contentsline {subsection}{\numberline {14.7.2}Grundlegende Informationen}{126}{subsection.14.7.2}%
-\contentsline {subsection}{\numberline {14.7.3}LED <Modell...>}{126}{subsection.14.7.3}%
-\contentsline {subsection}{\numberline {14.7.4}Spezifikation}{126}{subsection.14.7.4}%
-\contentsline {subsection}{\numberline {14.7.5}Einfacher Code}{126}{subsection.14.7.5}%
-\contentsline {subsection}{\numberline {14.7.6}Tests}{126}{subsection.14.7.6}%
-\contentsline {subsection}{\numberline {14.7.7}Einfache Anwendung}{126}{subsection.14.7.7}%
-\contentsline {subsection}{\numberline {14.7.8}Further Readings}{126}{subsection.14.7.8}%
-\contentsline {part}{\numberline {IV}Anhang}{127}{part.4}%
-\contentsline {chapter}{\numberline {15}Materialliste}{129}{chapter.15}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{131}{chapter*.59}%
-\contentsline {chapter}{Stichwortverzeichnis}{135}{chapter*.59}%
-\contentsline {chapter}{Index}{135}{chapter*.59}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{126}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse}{126}{subsubsection*.63}%
+\contentsline {subsection}{\numberline {14.6.5}Einfacher Code}{127}{subsection.14.6.5}%
+\contentsline {subsection}{\numberline {14.6.6}Tests}{127}{subsection.14.6.6}%
+\contentsline {subsection}{\numberline {14.6.7}Einfache Anwendung}{127}{subsection.14.6.7}%
+\contentsline {subsection}{\numberline {14.6.8}Further Readings}{127}{subsection.14.6.8}%
+\contentsline {section}{\numberline {14.7}Externe LED}{127}{section.14.7}%
+\contentsline {subsection}{\numberline {14.7.1}Einleitung}{127}{subsection.14.7.1}%
+\contentsline {subsection}{\numberline {14.7.2}Grundlegende Informationen}{127}{subsection.14.7.2}%
+\contentsline {subsection}{\numberline {14.7.3}LED <Modell...>}{127}{subsection.14.7.3}%
+\contentsline {subsection}{\numberline {14.7.4}Spezifikation}{127}{subsection.14.7.4}%
+\contentsline {subsection}{\numberline {14.7.5}Einfacher Code}{127}{subsection.14.7.5}%
+\contentsline {subsection}{\numberline {14.7.6}Tests}{127}{subsection.14.7.6}%
+\contentsline {subsection}{\numberline {14.7.7}Einfache Anwendung}{127}{subsection.14.7.7}%
+\contentsline {subsection}{\numberline {14.7.8}Further Readings}{127}{subsection.14.7.8}%
+\contentsline {part}{\numberline {IV}Anhang}{129}{part.4}%
+\contentsline {chapter}{\numberline {15}Materialliste}{131}{chapter.15}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{133}{chapter*.64}%
+\contentsline {chapter}{Stichwortverzeichnis}{137}{chapter*.64}%
+\contentsline {chapter}{Index}{137}{chapter*.64}%

@@ -424,6 +424,30 @@
     \field{year}{2016}
   \endentry
 
+  \entry{ReicheltMOS:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=ER}{%
+         family={Elektronik},
+         familyi={E\bibinitperiod},
+         given={Reichelt},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ER1}
+    \strng{fullhash}{ER1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ele25}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{MOSFET IRF9540N}
+    \verb{url}
+    \verb https://www.reichelt.de/de/de/shop/produkt/entwicklerboards_-_mosfet_
+    \verb irf9540n-316199
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{Filipi:2022}{online}{}{}
     \name{author}{2}{}{%
       {{hash=FP}{%
@@ -1101,6 +1125,29 @@
     \field{year}{2025}
   \endentry
 
+  \entry{RSOnlineMOSFET:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{RS Components}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{RS }25}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{note}{04-05-2025}
+    \field{title}{MOSFET Leitfaden}
+    \verb{url}
+    \verb https://de.rs-online.com/web/content/discovery-portal/produktratgeber
+    \verb /mosfet-leitfaden
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{Raj:2019}{online}{}{}
     \name{author}{1}{}{%
       {{hash=RA}{%
@@ -1153,8 +1200,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1178,8 +1225,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1202,8 +1249,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1227,8 +1274,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R3}
+    \strng{fullhash}{R3}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
@@ -1254,8 +1301,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R3}
+    \strng{fullhash}{R3}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
