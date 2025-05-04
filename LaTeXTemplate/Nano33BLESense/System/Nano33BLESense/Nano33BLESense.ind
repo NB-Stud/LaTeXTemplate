@@ -1,22 +1,22 @@
 \begin{theindex}
 
   \item  File
-    \subitem ArduinoBLE, 92
-    \subitem ArduinoBLE.h, 90
+    \subitem ArduinoBLE, 100
+    \subitem ArduinoBLE.h, 98
     \subitem BuiltinLED.cpp, 36
     \subitem BuiltinLED.h, 36
     \subitem LED.cpp, 41
     \subitem LED.h, 40
-    \subitem LSM9DS1, 92
+    \subitem LSM9DS1, 100
     \subitem Mag\_raw.txt, 26
-    \subitem Nano33BLE\_Led\_A0.ino, 86
+    \subitem Nano33BLE\_Led\_A0.ino, 94
     \subitem PowerLED.cpp, 42
     \subitem PowerLED.h, 42
     \subitem RGBLED.cpp, 49
     \subitem RGBLED.h, 48
     \subitem SignsOfLife.cpp, 44
     \subitem SignsOfLife.h, 44
-    \subitem Sketch -> Include Library -> Manage Library, 88
+    \subitem Sketch -> Include Library -> Manage Library, 96
     \subitem TestBattery.ino, 72, 74
   \item  Inertial Measurement Unit
     \subitem  \emph  {see} IMU, 13, 22
@@ -30,18 +30,18 @@
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 13, 106
-  \item GPIO, 13, 106
+    \subitem  \emph  {see} GPIO, 13, 114
+  \item GPIO, 13, 114
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 13, 106
+  \item I\textsuperscript  {2}C, 13, 114
   \item IDE, 13, 74
   \item IMU, 13, 22, 25
   \item Integrated Development Environment
     \subitem  \emph  {see} IDE, 13
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 106
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 114
 
   \indexspace
 
@@ -51,12 +51,13 @@
 
   \indexspace
 
-  \item LED, 13, 39, 40, 44, 47--51, 53, 54
+  \item LED, 13, 39, 40, 44, 47--51, 53, 54, 83--86
     \subitem Brightness, 53
     \subitem Built-in LED, 35
     \subitem Built-in RGB-LED, 47
     \subitem Colors, 50
     \subitem Power LED, 39
+    \subitem Standard LED, 85
   \item Light Emitting Diode
     \subitem  \emph  {see} {LED}, 13, 39
 
@@ -73,6 +74,7 @@
   \item Pin
     \subitem Pin 11, 57, 58
     \subitem Pin 13, 35--37
+    \subitem Pin 14, 88
     \subitem Pin 22, 48
     \subitem Pin 22,23,24, 48
     \subitem Pin 23, 48
@@ -86,29 +88,29 @@
     \subitem  \emph  {see} PWM Signal, 13, 40
   \item Push Button
     \subitem  Built-in Push Button, 57
-  \item PWM Signal, 13, 40, 47, 50
+  \item PWM Signal, 13, 40, 47, 50, 85
 
   \indexspace
 
-  \item SCL, 13, 106
-  \item SDA, 13, 106
+  \item SCL, 13, 114
+  \item SDA, 13, 114
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 13, 106
+    \subitem  \emph  {see} SCL, 13, 114
   \item Serial Data
-    \subitem  \emph  {see} SDA, 13, 106
+    \subitem  \emph  {see} SDA, 13, 114
   \item Serial Peripheral Interface
     \subitem  \emph  {see} SPI, 13, 81
   \item SPI, 13, 81
 
   \indexspace
 
-  \item UART, 13, 106
+  \item UART, 13, 114
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 13, 106
+    \subitem  \emph  {see} UART, 13, 114
 
   \indexspace
 
-  \item VCC, 13, 72, 106, 107
+  \item VCC, 13, 72, 114, 115
   \item Voltage at the Common Collector
     \subitem  \emph  {see} VCC, 13, 72
 
