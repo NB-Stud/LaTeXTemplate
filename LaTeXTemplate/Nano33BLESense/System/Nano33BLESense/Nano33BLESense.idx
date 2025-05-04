@@ -123,26 +123,47 @@
 \indexentry{JST}{80}
 \indexentry{Serial Peripheral Interface! \emph  {see} SPI}{81}
 \indexentry{SPI}{81}
-\indexentry{ File!Nano33BLE\_Led\_A0.ino}{86}
-\indexentry{ File!Sketch -> Include Library -> Manage Library}{88}
-\indexentry{ File!ArduinoBLE.h}{90}
-\indexentry{ File!ArduinoBLE}{92}
-\indexentry{ File!LSM9DS1}{92}
-\indexentry{VCC}{106}
-\indexentry{Serial Clock! \emph  {see} SCL}{106}
-\indexentry{SCL}{106}
-\indexentry{Serial Data! \emph  {see} SDA}{106}
-\indexentry{SDA}{106}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{106}
-\indexentry{GPIO}{106}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{106}
-\indexentry{UART}{106}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{106}
-\indexentry{I\textsuperscript  {2}C}{106}
-\indexentry{SCL}{106}
-\indexentry{SDA}{106}
-\indexentry{VCC}{106}
-\indexentry{GPIO}{106}
-\indexentry{UART}{106}
-\indexentry{I\textsuperscript  {2}C}{106}
-\indexentry{VCC}{107}
+\indexentry{LED}{83}
+\indexentry{LED}{83}
+\indexentry{LED}{83}
+\indexentry{LED}{83}
+\indexentry{LED}{83}
+\indexentry{LED}{83}
+\indexentry{LED}{83}
+\indexentry{LED}{84}
+\indexentry{LED}{84}
+\indexentry{LED}{84}
+\indexentry{LED}{84}
+\indexentry{LED}{84}
+\indexentry{LED}{84}
+\indexentry{LED}{84}
+\indexentry{LED}{85}
+\indexentry{LED!Standard LED}{85}
+\indexentry{LED}{85}
+\indexentry{PWM Signal}{85}
+\indexentry{LED}{86}
+\indexentry{LED}{86}
+\indexentry{Pin!Pin 14}{88}
+\indexentry{ File!Nano33BLE\_Led\_A0.ino}{94}
+\indexentry{ File!Sketch -> Include Library -> Manage Library}{96}
+\indexentry{ File!ArduinoBLE.h}{98}
+\indexentry{ File!ArduinoBLE}{100}
+\indexentry{ File!LSM9DS1}{100}
+\indexentry{VCC}{114}
+\indexentry{Serial Clock! \emph  {see} SCL}{114}
+\indexentry{SCL}{114}
+\indexentry{Serial Data! \emph  {see} SDA}{114}
+\indexentry{SDA}{114}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{114}
+\indexentry{GPIO}{114}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{114}
+\indexentry{UART}{114}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{114}
+\indexentry{I\textsuperscript  {2}C}{114}
+\indexentry{SCL}{114}
+\indexentry{SDA}{114}
+\indexentry{VCC}{114}
+\indexentry{GPIO}{114}
+\indexentry{UART}{114}
+\indexentry{I\textsuperscript  {2}C}{114}
+\indexentry{VCC}{115}
