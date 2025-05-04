@@ -16,7 +16,264 @@
 
 \chapter{Hardware-Beschreibung}
 \section{Sensor: HC-SR04}
-siehe oben...?
+\subsection{Einleitung}
+Ein Ultraschallsensor misst berührungslos den Abstand zwischen Sensor und einer Werkstückoberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung, Warenerkennung und Abstandsmessung.\cite{Arduino:2024} \cite{Traenkler:2018} \cite{Hering:2023}
+
+\subsection{Ultraschallsensoren zur Abstandsmessung}
+Ultraschallsensoren zur Abstandsmessung dienen der Ermittlung von Objektabständen
+über die Laufzeit von Ultraschallimpulsen und die Schallgeschwindigkeit. Da die
+Schallgeschwindigkeit temperatur- und luftdruckabhängig ist und zusätzlich durch die
+Luftzusammensetzung beeinflusst wird, ist bei der Auslegung auf solche
+Einflussfaktoren Rücksicht zu nehmen. Bei Nichtbeachtung sind Messungenauigkeiten
+in der Entfernungsmessung zu erwarten. \cite{Hesse:2009} Umwelteinflüsse wie Feuchte, Staub und
+Rauch beeinflussen die Messgenauigkeit nicht. Einige Gase und Flüssigkeiten können
+die Sensorfunktion jedoch beeinträchtigen oder gar untüchtig machen. Beispiele hierfür
+sind CO2 und Dämpfe von Lösungsmitteln. \cite{Hering:2012}
+Ultraschallsensoren können nach ihrem Sensorprinzip in Tastbetrieb und
+Schrankenbetrieb unterschieden werden. Der Tastbetrieb basiert dabei auf der
+Auswertung der Laufzeitmessung zwischen dem Senden und Empfangen des Schalls.
+Der Schrankenbetrieb dahingegen beruht auf der Kontrolle, ob das gesendete Signal
+empfangen wurde \cite{Heinrich:2019} Der Ultraschallsensor zur Abstandsmessung beruht auf ersterem
+Prinzip. Im Folgenden soll die Funktionsweise näher erläutert werden.
+Zunächst aktiviert die Steuerelektronik den Leistungsverstärker, welcher den
+Schallwandler mit einer elektrischen Leistung und einer Sinusspannung ansteuert.
+Dadurch arbeitet der Schallwandler als Lautsprecher und sendet einen
+Ultraschallimpuls, auch Burst genannt, aus. Bis der Schallwandler ausgeschwungen ist,
+dauert es zwei- bis dreimal so lang wie die Sendezeit. Anschließend leitet die
+Steuerelektronik den Empfangsbetrieb ein und der Schallwandler dient nun als
+Mikrofon. Sollte sich in der Schallkeule ein Objekt befinden, wird der Ultraschallimpuls
+zum Sender zurückreflektiert. Der Schallwandler beginnt zu schwingen und erzeugt eine
+Sinusschwingung, die auf einen Verstärker übertragen wird. Durch Autokorrelation wird
+kontrolliert, ob es sich bei dem reflektierten Schall wirklich um das Echo der
+ausgesandten Ultraschallwellen handelt. \cite{Hesse:2009}
+Eine ganze Bandbreite an Objekten unabhängig von der Oberflächenbescha`enheit,
+Farbe, Transparenz \cite{Hering:2012} und Form \cite{Hesse:2009} kann durch den Ultraschall erfasst werden.
+Der Ultraschall findet seine Anwendung in sehr vielen verschiedenen Bereichen \ref{grundlagen},
+näher soll auf ihre Anwendung in den Bereichen der Medizin und Industrie eingegangen
+werden.
+In der Medizin gehört der Ultraschall mit zu den wichtigsten und häufigsten genutzten
+Diagnoseverfahren. Er lässt sich vielfältig einsetzen. So dient es zur Erkennung und
+Darstellung von Organen, gefüllten Hohlräumen, Gefäßen, Knochen, Sehnen und
+anderen Objekten im menschlichen Körper. Kennzeichnend für die Anwendung des
+Ultraschalls in der Medizin ist außerdem sein geringes Gesundheitsrisiko für Patienten.
+In der Industrie gibt es vielfältige Einsatzbereiche von Ultraschallsensoren. Sie können
+der Überwachung von Stellplätzen in der Lagerhaltung, der Füllstandbestimmung von
+Schüttgütern \cite{Hesse:2009} oder der Detektion von Objekten und Grenzflächen dienen. Beispiel für letztere Erwähnung ist die Rückfahrhilfe bei Fahrzeugen. Eine weitere sehr wichtige
+Anwendung findet sich in der zerstörungsfreien Prüfung von Werkstücken und
+WerkstoNen wieder. Vorrangig wird dabei das Materialgefüge auf Unebenheiten und
+Au`älligkeiten überprüft. Solche Untersuchungen werden häufig für
+sicherheitsrelevante Bauteile wie Eisenbahnräder oder Druckbehälter für Atomanlagen
+verwendet \cite{Muller:2017}.
+
+\subsection{Grundlagen zur Verwendung eines Ultraschallsensors}
+%\label{grundlagen}
+Um einen Ultraschallsensor gezielt und effizient einsetzen zu können, ist ein
+grundlegendes Verständnis über die Funktionsweise, technischen Eigenschaften und
+Anwendungsvoraussetzungen abstandsmessender Ultraschallsensoren notwendig. Die
+folgenden Unterkapitel bieten eine strukturierte Einführung in die physikalischen und
+technischen Grundlagen des Sensors. Ziel ist es, ein tiefergehendes Verständnis für den
+Aufbau, die Signalverarbeitung und die praktische Handhabung eines Ultraschallsensors zu
+vermitteln. \cite{Arduino:2024}
+
+\subsection{Ultraschall-Abstandsensor HC-SR04}
+
+Der Ultraschallabstandssensor in Abbildung~\ref{ultraschallsensor} enthält den Sensor HC-SR04. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt und ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz. Er ist als zweiköpfiger Sensor ausgeführt, wodurch er über je einen Lautsprecher und ein Mikrofon verfügt.  Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. Die Auflösung des Sensors beträgt $\pm 1$ mm. Angeschlossen wird der Abstandssensor über den \ac{vcc}-Pin, Trig/\ac{scl}-Pin, Echo/\ac{sda}-Pin und dem \ac{gnd}-Pin. Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
+
+
+\begin{figure}[!ht]
+	\centering
+	\caption{Ultraschallsensor mit Pin-Belegung}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ fill={rgb,255:red,33; green,63; blue,171} ] (1.25,12) rectangle (12.5,7);
+			\draw [ fill={rgb,255:red,191; green,191; blue,191} ] (3.25,9.5) circle (1.75cm);
+			\draw [ fill={rgb,255:red,191; green,191; blue,191} ] (10.5,9.5) circle (1.75cm);
+			\draw [ fill={rgb,255:red,239; green,239; blue,239} ] (6.75,11) ellipse (1.25cm and 0.5cm);
+			\draw [ fill={rgb,255:red,227; green,227; blue,227} ] (1.5,11.75) circle (0.25cm);
+			\draw [ fill={rgb,255:red,227; green,227; blue,227} ] (1.5,7.25) circle (0.25cm);
+			\draw [ fill={rgb,255:red,227; green,227; blue,227} ] (12.25,11.75) circle (0.25cm);
+			\draw [ fill={rgb,255:red,227; green,227; blue,227} ] (12.25,7.25) circle (0.25cm);
+			\draw [ fill={rgb,255:red,6; green,6; blue,6} ] (3.25,9.5) circle (1.5cm);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} ] (10.5,9.5) circle (1.5cm);
+			\draw [ fill={rgb,255:red,239; green,239; blue,239} ] (3.25,9.5) circle (1.25cm);
+			\draw [ fill={rgb,255:red,239; green,239; blue,239} ] (10.5,9.5) circle (1.25cm);
+			\draw [ fill={rgb,255:red,255; green,0; blue,0} , rounded corners = 1.2] (6,7.25) rectangle (6.25,8);
+			\draw [ fill={rgb,255:red,53; green,148; blue,220} , rounded corners = 1.2] (6.5,8) rectangle (6.75,7.25);
+			\draw [ fill={rgb,255:red,146; green,69; blue,173} , rounded corners = 1.2] (7,8) rectangle (7.25,7.25);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} , rounded corners = 1.2] (7.5,8) rectangle (7.75,7.25);
+			\node [font=\LARGE] at (6.5,10) {HC-SR04};
+			\node [font=\normalsize, color={rgb,255:red,53; green,148; blue,220}, rotate around={90:(0,0)}] at (6.5,8.5) {Trig};
+			\node [font=\normalsize, color={rgb,255:red,146; green,69; blue,173}, rotate around={90:(0,0)}] at (7,8.5) {Echo};
+			\node [font=\normalsize, color={rgb,255:red,0; green,0; blue,0}, rotate around={90:(0,0)}] at (7.5,8.5) {Gnd};
+			\node [font=\normalsize, color={rgb,255:red,255; green,0; blue,0}, rotate around={90:(0,0)}] at (6,8.5) {Vcc};
+			\node [font=\huge] at (2,7.5) {T};
+			\node [font=\huge] at (11.5,7.5) {R};
+		\end{circuitikz}
+	}%
+	
+	\label{ultraschallsensor}
+\end{figure}
+
+\subsection{Spezifikation}
+
+Der Sensor HC-SR04 ist  zur Erfassung von Abständen in einem Bereich von 3 bis 400 cm mit einer Auflösung von $\pm 1$mm spezifiziert. Dafür nutzt er eine Schallfrequenz von 40 kHz.   Die Abmessungen des Sensors betragen in der Breite 43 mm, in der Höhe 15 mm und in der Tiefe 20 mm. 
+
+Angeschlossen wird der Abstandssensor über den \ac{scl}-Pin für das Triggersignal, den \ac{sda}-Pin fürs Echo, den \ac{vcc}-Pin zur Stromversorgung und dem \ac{gnd}-Pin. 
+
+Der Sensor kann über die drei Schnittstellen \ac{gpio}, \ac{uart} und \ac{i2c} verbunden werden \cite{Simac:2017}. 
+
+
+Bei den folgenden Beispielprogrammen wird der Arduino Nano 33 BLE Sense verwendet. In den Beispielen werden die Pins D6 und D9 für die Datenübertragung verwendet. In der Tabelle~\ref{PinBelegungUltraschall}  ist dies für die Grove-Schnittstelle festgehalten und zudem auch in der Abbildung \ref{ultraschallsensor} zu sehen.
+
+\begin{center}
+	\captionof{table}{Pinbelegung für den Ultraschallabstandssensor \cite{Simac:2017}}
+	\begin{tabular}{c|c}
+		Arduino Pin & Ultraschall Abstandssensor\\ \hline
+		D9 & Trig\\
+		D6 & Echo\\
+		3V3 & \acs{vcc}\\
+		\acs{gnd} & \acs{gnd}\\
+	\end{tabular}
+	\label{PinBelegungUltraschall}
+\end{center}
+
+\subsection{Anwendungen}
+Ultraschallsensoren finden in der Praxis Anwendung in verschiedenen Bereichen, die auf die Ausbreitung des Schalls über unterschiedliche Medien basieren \cite{Hering:2023}. Es lassen sich drei Hauptkategorien unterscheiden: In der ersten Kategorie breitet sich der Schall über Luft aus. Typische Anwendungen sind hier Füllstandmessungen, Durchmessererfassungen bei Auf- und Abwickelsteuerungen sowie Kollisionsschutz und Objekterkennung \cite{Hering:2023}. Die zweite Kategorie umfasst Sensoren, bei denen sich der Schall über Flüssigkeiten ausbreitet. Diese finden vor allem im maritimen Bereich Verwendung, beispielsweise in Sonarsystemen zum Orten von Unterseebooten oder Fischschwärmen sowie in Echoloten zur Kartografie des Meeresbodens \cite{Hering:2021}. Die dritte Kategorie umfasst Körperschallsensoren, die in der Industrie zur zerstörungsfreien Materialprüfung sowie in der Medizin zur Ultraschalldiagnostik verwendet werden. \cite{Hering:2021}
+
+\subsection{Bibliothek}
+
+\subsection*{Beschreibung}
+Zur Ansteuerung des Ultraschallsensors HC-SR04 wird eine Arduino-kompatible Bibliothek
+\python{NewPing} verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
+Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Triggern, zur
+Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2024}.
+
+\subsection*{Installation}
+Die Installation der Bibliothek \python{NewPing}, welche die Funktionalität des Ultraschallsensors HC-SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
+bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
+\cite{Arduino:2024}
+
+\textbf{Schrittweise Anleitung:}
+\begin{enumerate}
+	\item Öffne die Arduino IDE (Version 1.8.x oder neuer empfohlen).
+	\item Navigiere zu: Sketch > Bibliothek einbinden > Bibliotheken verwalten…
+	\item Im Suchfeld oben rechts den Begriff \python{NewPing} eingeben
+	\item Wähle den Eintrag \python{NewPing} by Tim Eckel aus (Version 1.9.7 oder neuer empfohlen).
+	\item Klicke auf \glqq Installieren\grqq.
+\end{enumerate}
+
+\subsection*{Funktionen}
+Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von Ultraschallsensoren erleichtern und erweitern. Die wichtigsten Funktionen sind: \cite{Arduino:2024}\\
+
+\python{NewPing()}: Initialisierung eines Sensors durch Angabe der Pins für Trigger- und Echo-Signale sowie der maximalen Messdistanz.\\
+\python{ping()}: Senden eines Ultraschallimpulses und Rückgabe der gemessenen Laufzeit in Mikrosekunden.\\
+\python{getDistance()}: Direkte Ausgabe der gemessenen Entfernung in Zentimetern basierend auf der Standard-Schallgeschwindigkeit in Luft.\\
+\python{pingMedian()}: Durchführung mehrerer Messungen und Rückgabe des Medianwertes zur Reduktion von Ausreißern.\\
+
+Diese Funktionen ermöglichen eine einfache und präzise Nutzung von Ultraschallsensoren in verschiedenen Anwendungen, von der Einzelmessung bis hin zur Durchführung mehrerer Messungen zur Reduzierung von Ausreißern.
+
+\subsection{Kalibrierung}
+Damit der HC-SR04 präzise misst, muss er kalibriert werden. Die wichtigste Einflussgröße ist die
+Schallgeschwindigkeit, da sie von der Umgebungstemperatur abhängt. Eine Kalibrierung erfolgt
+durch den Vergleich mit einer bekannten Referenzdistanz. Ergibt sich eine systematische
+Abweichung, kann diese durch einen festen Korrekturwert (Offset) oder durch Anpassung der
+Schallgeschwindigkeit ausgeglichen werden. \cite{Traenkler:2014}
+Der Ultraschallabstandssensor wird für die Verwendung bei der Temperatur von 20 °C ausgelegt. Die  berechnete Schallgeschwindigkeit $v_{Schall}=343,2\:\dfrac{\text{m}}{\text{s}}$ bei 20 °C wird für die Umrechnung der Schalldauer in die Distanz zur Reflexionsfläche verwendet.
+
+\subsection{Simple Code}
+Zur Überprüfung der grundlegenden Funktionalität des Ultraschallsensors wurde ein Simple Code \ref{code:laufzeitMessung} verwendet. Das Programm dient zum einfachen Test mithilfe der NewPing-Bibliothek. Es misst die Laufzeit (Echozeit) des Schallsignals	. Die Werte werden anschließend über den Seriellen Monitor ausgegeben.
+
+\begin{code}[H]
+	\caption{Einfacher Code zum Testen des Ultraschallsensors}
+	\label{code:laufzeitMessung}
+	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/laufzeitMessung/laufzeitMessung.ino}
+\end{code}
+
+\subsection{Einfache Anwendung}
+In der Industrie ist es oft wichtig zu wissen, wann ein bestimmter Pegel einer Flüssigkeit unterschritten wird. Dafür können Ultraschallsensoren eingesetzt werden. Sie messen kontinuierlich den Pegel und können dem Programm so permanent einen Messwert bereitstellen. Wird ein bestimmter Messwert über- oder unterschritten, kann das Programm eine Warnmeldung erzeugen.
+Dieses Arduino-Programm \ref{code:schwellenwert} nutzt einen HC-SR04 Ultraschallsensor, um die Entfernung zu einem Objekt kontinuierlich zu überwachen. Es erkennt, ob eine kritische Schwelle (25 cm) unterschritten wurde und gibt in diesem Fall eine Warnmeldung im Seriellen Monitor aus.
+
+\begin{code}[H]
+	\caption{Einfache Anwendung als Schwellenwert-Melder}
+	\label{code:schwellenwert}
+	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/schwellenwertMeldung/schwellenwertMeldung.ino}
+\end{code}
+
+\subsection{Tests}
+\subsection*{Einfacher Funktionstest}
+Beim einfachen Funktionstest wird überprüft, ob der Sensor korrekt anspricht und brauchbare
+Messwerte liefert. Dazu wird der HC-SR04 an einen Mikrocontroller (z. B. Arduino Nano 33 BLE
+Sense Lite) angeschlossen und ein einfacher Sketch  \ref{code:entfernungMessung} aufgespielt, welcher die gemessene
+Entfernung über die serielle Schnittstelle ausgibt. \cite{Hering:2023}
+Ein Testobjekt wird in einem bekannten Abstand, typischerweise 20 cm, orthogonal vor den
+Sensor gehalten. Die gemessene Entfernung wird mit einem Maßband überprüft. Stimmen beide
+Werte überein, ist die Grundfunktion des Sensors sichergestellt. Dieser Test eignet sich
+insbesondere zur ersten Inbetriebnahme oder zur Überprüfung von Lötverbindungen,
+Spannungsversorgung und Signalverarbeitung.
+
+\begin{code}[H]
+	\caption{Code für die Messung einer Strecke}
+	\label{code:entfernungMessung}
+	\ArduinoExternal{}{../../Code/Arduino/UltraSonicHCSR04/entfernungMessung/entfernungMessung.ino}
+\end{code}
+
+\subsection*{Test aller Funktionen}
+Ein umfassender Funktionstest geht über die reine Abstandsmessung hinaus. Hierbei werden
+systematisch verschiedene Einflüsse auf die Messgenauigkeit überprüft: \cite{Hering:2023}
+\begin{itemize}
+	\item \textbf{Oberflächenbeschaffenheit:} Glatte, harte Oberflächen liefern bessere Reflexionen als
+	weiche oder absorbierende Materialien wie Schaumstoff oder Stoff
+	\item \textbf{Ausrichtungswinkel:} Objekte, die schräg zur Sensorachse stehen, reflektieren das
+	Signal schlechter oder gar nicht. Der Test prüft, in welchem Winkelbereich zuverlässige
+	Ergebnisse erzielt werden.
+	\item \textbf{Entfernungsbereich:} Es wird getestet, ob der Sensor sowohl im Nahbereich (unter
+	10 cm) als auch im Fernbereich (bis 400 cm) verlässlich misst.
+	\item \textbf{Umwelteinflüsse:} Staub, leichte Luftströmungen oder Temperaturveränderungen
+	werden simuliert, um die Stabilität des Sensors unter realistischen Bedingungen zu
+	bewerten.
+	\item \textbf{Reproduzierbarkeit:} Mehrfache Messungen unter gleichen Bedingungen sollten
+	ähnliche Ergebnisse liefern. Eine Standardabweichung der Messwerte kann berechnet
+	werden, um die Präzision zu bewerten.
+\end{itemize}
+
+\subsection*{Lösungsansätze}
+Die Genauigkeit von Ultraschall-Abstandsmessungen hängt unter anderem von der Schallgeschwindigkeit ab, welche wiederum temperaturabhängig ist. Wird die Geschwindigkeit im Auswertungsprozess als konstanter Wert angenommen, kann es bei Abweichungen von der tatsächlichen Umgebungstemperatur zu Messfehlern kommen. Eine Möglichkeit zur Korrektur besteht darin, die aktuelle Temperatur zu erfassen und die Schallgeschwindigkeit entsprechend anzupassen.
+In vielen Systemen wird hierfür ein interner Temperatursensor verwendet. Liegt dieser jedoch direkt auf der Platine und ist in einem Gehäuse untergebracht, kann es durch Eigenwärme und Isolation zu einer zeitverzögerten oder verfälschten Temperaturmessung kommen. Die Verwendung eines separaten Temperatursensors außerhalb des Gehäuses wäre in solchen Fällen eine mögliche Lösung, ist jedoch mit zusätzlichem Aufwand verbunden.
+Für das vorliegende Projekt, bei dem ein visueller Effekt eines scheinbar schwebenden Wasserhahns erzeugt werden soll, ist eine sehr hohe Messgenauigkeit nicht zwingend erforderlich. Der Wasserstand im Behälter wird zusätzlich durch Bohrungen geregelt, die ein Überlaufen verhindern. Die Ultraschallmessung dient primär der groben Überwachung des Füllstandes, beispielsweise zur rechtzeitigen Nachfüllung. Geringe Messabweichungen durch temperaturbedingte Schwankungen der Schallgeschwindigkeit sind daher tolerierbar und haben keinen wesentlichen Einfluss auf die Funktionalität der Installation.
+
+\subsection{Weiterführende Anwendungen}
+Ultraschallsensoren wie der HC-SR04 finden in folgenden Gebieten ihre Anwendung:
+\begin{itemize}
+	\item \textbf{Robotik:} Hinderniserkennung und Kollisionsvermeidung bei autonomen Systemen
+	\cite{Traenkler:2014}
+	\item \textbf{Industrieautomation:} In Tanks und Silos, auch bei Staub oder Dampf \cite{Hering:2023}.
+	\item \textbf{Fahrzeugtechnik:} Einparkhilfen und Abstandswarnsysteme \cite{Hering:2023}.
+	\item \textbf{Medizin:} Kontaktlose Abstandsmessung in sterilen Umgebungen, z. B. bei
+	Desinfektionsstationen \cite{Hering:2023}
+\end{itemize}
+Die Stärken des Sensors liegen in der einfachen Integration, dem günstigen Preis und der
+Robustheit gegenüber Lichtverhältnissen oder Verschmutzung.
+Die genannten Eigenschaften werden auch in der Fachliteratur als Vorteile von
+Ultraschallsensoren gegenüber optischen Verfahren hervorgehoben \cite{Hering:2023}
+
+\subsection{Further Readings}
+Tränkler, H.-R.:mSensortechnik – Handbuch für Praxis und Wissenschaft. 2. Aufl., Springer Vieweg, 2018 \cite{Traenkler:2018}
+\begin{itemize}
+	\item Ein schöner Einstieg und Überblick über die Sensortechnik und ihre Anwendung heutzutage.
+\end{itemize} 
+
+Hering, E.: Sensoren in Wissenschaft und Technik – Funktionsweise und Einsatzgebiete. 3. Aufl., Springer Vieweg, 2023 \cite{Hering:2023}
+\begin{itemize}
+	\item Ein tiefer Einblick in die Sensortechnik, besonders schöne Abbildungen und Erklärungen. Von Grund auf an eine Einführung für Ultraschallsensoren
+\end{itemize} 
+
+Arduino AG: NewPing – Library Documentation, Arduino.cc, abgerufen 2025. \cite{Arduino:2024}
+\begin{itemize}
+	\item 	Auf der Arduino Website kann man sich viele Extra-Informationen zum Arduino und weiterführende Anwendungen, Beispiele und Projekte anschauen.
+\end{itemize}
+
+
 \section{Aktor: Pumpe}
 \subsection{Einleitung}
 \subsection{Grundlegende Informationen}

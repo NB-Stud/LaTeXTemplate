@@ -40,11 +40,10 @@
 \contentsline {code}{\numberline {12.1}{\ignorespaces Arduino BLE Tutorial Battery Level Indicator Code}}{89}{code.caption.31}%
 \addvspace {10\p@ }
 \contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{109}{code.caption.47}%
-\contentsline {code}{\numberline {13.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{112}{code.caption.48}%
-\contentsline {code}{\numberline {13.3}{\ignorespaces Code für die Messung einer Strecke}}{113}{code.caption.49}%
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {14.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{121}{code.caption.55}%
-\contentsline {code}{\numberline {14.2}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{127}{code.caption.60}%
-\contentsline {code}{\numberline {14.3}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{128}{code.caption.61}%
+\contentsline {code}{\numberline {13.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{111}{code.caption.48}%
+\contentsline {code}{\numberline {13.3}{\ignorespaces Code für die Messung einer Strecke}}{113}{code.caption.50}%
+\contentsline {code}{\numberline {13.4}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{119}{code.caption.58}%
+\contentsline {code}{\numberline {13.5}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{125}{code.caption.63}%
+\contentsline {code}{\numberline {13.6}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{126}{code.caption.64}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
