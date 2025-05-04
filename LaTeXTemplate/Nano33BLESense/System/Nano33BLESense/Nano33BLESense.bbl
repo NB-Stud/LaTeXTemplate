@@ -385,6 +385,25 @@
     \field{year}{2021}
   \endentry
 
+  \entry{CML:2011}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CML}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{CML}11}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchLED.pdf}{[pdf]}}}
+    \field{title}{Handbuch - CML LED-Signalleuchte}
+    \field{year}{2011}
+  \endentry
+
   \entry{DIN:13850}{book}{}{}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Din}
@@ -449,6 +468,32 @@
     \verb itung-zum-messen-von-widerstand
     \endverb
     \field{year}{2025}
+  \endentry
+
+  \entry{Falcon:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={{Falcon Illumination}},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F2}
+    \strng{fullhash}{F2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Fal}25}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/falconOnline.pdf}{[pdf]}}}
+    \field{title}{Wie funktioniert eine LED?}
+    \verb{url}
+    \verb https://www.falconillumination.de/de/wissenswertes/wie-funktioniert-e
+    \verb ine-led.html
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{03}
+    \field{urlmonth}{05}
+    \field{urlyear}{2025}
   \endentry
 
   \entry{Farin:2002}{book}{}{}
@@ -1222,7 +1267,7 @@
     \field{urlyear}{2025}
   \endentry
 
-  \entry{Reichelt:2025}{online}{}{}
+  \entry{ReicheltLED:2025}{online}{}{}
     \name{editor}{1}{}{%
       {{hash=R}{%
          family={{Reichelt Online}},
@@ -1235,6 +1280,33 @@
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
     \field{extraalpha}{2}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/ledOnline.pdf}{[pdf]}}}
+    \field{title}{LED - CML}
+    \verb{url}
+    \verb https://www.reichelt.de/de/de/shop/produkt/led-signalleuchte_blau_-_u
+    \verb ltrahell_12_vac_vdc_8_mm_600_mcd-271924
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{04}
+    \field{urlmonth}{05}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{Reichelt:2025}{online}{}{}
+    \name{editor}{1}{}{%
+      {{hash=R}{%
+         family={{Reichelt Online}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Rei}25}
+    \field{extraalpha}{3}
     \field{sortinit}{R}
     \field{sortinithash}{R}
   \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltSchaltnetzteil.pdf}{[pdf]}}}

@@ -44,5 +44,7 @@
 \contentsline {code}{\numberline {13.3}{\ignorespaces Code für die Messung einer Strecke}}{113}{code.caption.49}%
 \addvspace {10\p@ }
 \contentsline {code}{\numberline {14.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{121}{code.caption.55}%
+\contentsline {code}{\numberline {14.2}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{127}{code.caption.60}%
+\contentsline {code}{\numberline {14.3}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{128}{code.caption.61}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
