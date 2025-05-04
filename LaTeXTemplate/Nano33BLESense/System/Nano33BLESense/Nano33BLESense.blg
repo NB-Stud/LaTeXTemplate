@@ -41,49 +41,48 @@ I was expecting a `,' or a `}'---line 565 of file ../../../MLbib/MyLiterature.bi
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Alles:2024"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 66 entries,
+You've used 67 entries,
             6402 wiz_defined-function locations,
-            1620 strings with 21962 characters,
-and the built_in function-call counts, 355677 in all, are:
-= -- 23273
-> -- 8101
-< -- 3001
-+ -- 8922
-- -- 3817
-* -- 23557
-:= -- 32910
+            1623 strings with 22039 characters,
+and the built_in function-call counts, 360459 in all, are:
+= -- 23578
+> -- 8192
+< -- 3041
++ -- 9021
+- -- 3843
+* -- 23871
+:= -- 33336
 add.period$ -- 0
-call.type$ -- 66
-change.case$ -- 93
+call.type$ -- 67
+change.case$ -- 94
 chr.to.int$ -- 276
-cite$ -- 158
-duplicate$ -- 37864
-empty$ -- 34284
-format.name$ -- 3153
-if$ -- 74956
+cite$ -- 160
+duplicate$ -- 38427
+empty$ -- 34747
+format.name$ -- 3205
+if$ -- 75978
 int.to.chr$ -- 0
-int.to.str$ -- 203
+int.to.str$ -- 206
 missing$ -- 0
-newline$ -- 1710
-num.names$ -- 3254
-pop$ -- 22432
+newline$ -- 1735
+num.names$ -- 3310
+pop$ -- 22771
 preamble$ -- 1
-purify$ -- 1669
+purify$ -- 1692
 quote$ -- 0
-skip$ -- 13707
+skip$ -- 13915
 stack$ -- 0
-substring$ -- 38459
-swap$ -- 9748
-text.length$ -- 2118
-text.prefix$ -- 101
+substring$ -- 38892
+swap$ -- 9890
+text.length$ -- 2148
+text.prefix$ -- 103
 top$ -- 1
-type$ -- 2231
+type$ -- 2265
 warning$ -- 0
-while$ -- 3967
+while$ -- 4025
 width$ -- 0
-write$ -- 1645
+write$ -- 1669
 (There were 4 error messages)
