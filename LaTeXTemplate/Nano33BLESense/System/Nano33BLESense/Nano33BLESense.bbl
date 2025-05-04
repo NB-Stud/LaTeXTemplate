@@ -40,6 +40,31 @@
     \field{year}{2024}
   \endentry
 
+  \entry{Alles2024}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Alles},
+         familyi={A\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{AM1}
+    \strng{fullhash}{AM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{All24}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{edition}{1}
+    \field{isbn}{978-3-662-69278-3}
+    \field{title}{Einführung in die elektronische Schaltungstechnik}
+    \field{year}{2024}
+  \endentry
+
   \entry{ArduinoNano33Manual:2022}{online}{}{}
     \list{publisher}{1}{%
       {Arduino}%
