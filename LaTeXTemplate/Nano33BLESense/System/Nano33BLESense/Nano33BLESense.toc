@@ -202,10 +202,9 @@
 \contentsline {subsection}{\numberline {14.6.4}Spezifikation}{126}{subsection.14.6.4}%
 \contentsline {subsubsection}{\nonumberline Hauptmerkmale}{126}{subsubsection*.61}%
 \contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse}{126}{subsubsection*.63}%
-\contentsline {subsection}{\numberline {14.6.5}Einfacher Code}{127}{subsection.14.6.5}%
-\contentsline {subsection}{\numberline {14.6.6}Tests}{127}{subsection.14.6.6}%
-\contentsline {subsection}{\numberline {14.6.7}Einfache Anwendung}{127}{subsection.14.6.7}%
-\contentsline {subsection}{\numberline {14.6.8}Further Readings}{127}{subsection.14.6.8}%
+\contentsline {subsection}{\numberline {14.6.5}Tests}{127}{subsection.14.6.5}%
+\contentsline {subsection}{\numberline {14.6.6}Einfache Anwendung}{127}{subsection.14.6.6}%
+\contentsline {subsection}{\numberline {14.6.7}Further Readings}{127}{subsection.14.6.7}%
 \contentsline {section}{\numberline {14.7}Externe LED}{127}{section.14.7}%
 \contentsline {subsection}{\numberline {14.7.1}Einleitung}{127}{subsection.14.7.1}%
 \contentsline {subsection}{\numberline {14.7.2}Grundlegende Informationen}{127}{subsection.14.7.2}%
