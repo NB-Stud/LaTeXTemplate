@@ -37,19 +37,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {12.1}{\ignorespaces Defining the pin for an external LED}}{86}{code.12.1}%
-\contentsline {code}{\numberline {12.2}{\ignorespaces Defining the pin for an external LED}}{86}{code.12.2}%
-\contentsline {code}{\numberline {12.3}{\ignorespaces Swichting On the LED}}{86}{code.12.3}%
-\contentsline {code}{\numberline {12.4}{\ignorespaces Simple sketch to test a LED}}{86}{code.12.4}%
-\contentsline {code}{\numberline {12.5}{\ignorespaces Simple sketch to test a LED with pulse width modulation}}{87}{code.12.5}%
-\contentsline {code}{\numberline {12.6}{\ignorespaces Simple sketch to control an external LED. Here, pushing the built-in button is handled by an interrupt. Then the LED switch on for 2 sec.}}{89}{code.12.6}%
+\contentsline {code}{\numberline {12.1}{\ignorespaces Arduino BLE Tutorial Battery Level Indicator Code}}{89}{code.caption.31}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {13.1}{\ignorespaces Arduino BLE Tutorial Battery Level Indicator Code}}{97}{code.caption.31}%
+\contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{109}{code.caption.47}%
+\contentsline {code}{\numberline {13.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{112}{code.caption.48}%
+\contentsline {code}{\numberline {13.3}{\ignorespaces Code für die Messung einer Strecke}}{113}{code.caption.49}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {14.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{117}{code.caption.47}%
-\contentsline {code}{\numberline {14.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{120}{code.caption.48}%
-\contentsline {code}{\numberline {14.3}{\ignorespaces Code für die Messung einer Strecke}}{121}{code.caption.49}%
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {15.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{129}{code.caption.55}%
+\contentsline {code}{\numberline {14.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{121}{code.caption.55}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

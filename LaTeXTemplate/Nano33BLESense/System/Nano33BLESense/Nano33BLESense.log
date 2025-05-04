@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  4 MAY 2025 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  4 MAY 2025 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5224,7 +5224,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 94.
 See the caption package documentation for explanation.
 
-) (../../Contents/General/LEDExternal.tex
+) (../../Contents/General/BlueTooth.tex
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5240,219 +5240,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 ]
 chapter 12.
-Package biblatex Info: Reference segment=55 on input line 26.
-Package biblatex Info: Setting label 'refsegment:055' on input line 26.
-
-LaTeX Warning: Citation 'Quadrios:2020' on page 83 undefined on input line 42.
-
-
-
-[83]
-
-LaTeX Warning: Citation 'Kainka:2009' on page 84 undefined on input line 74.
-
-
-LaTeX Warning: Citation 'Baichtal:2018' on page 84 undefined on input line 74.
-
-Package biblatex Info: Reference segment=56 on input line 79.
-Package biblatex Info: Setting label 'refsegment:056' on input line 79.
-
-LaTeX Warning: Citation 'Quadrios:2020' on page 84 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'Huiyuan:2017' on page 84 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'Quadrios:2020' on page 84 undefined on input line 83.
-
-
-LaTeX Warning: Reference `LED:Standard' on page 84 undefined on input line 86.
-
-<../../Images/Sensor/Resistor/R.jpg, id=2368, 767.75143pt x 190.53pt>
-File: ../../Images/Sensor/Resistor/R.jpg Graphic file (type jpg)
-<use ../../Images/Sensor/Resistor/R.jpg>
-Package pdftex.def Info: ../../Images/Sensor/Resistor/R.jpg  used on input line
- 91.
-(pdftex.def)             Requested size: 295.90979pt x 73.43712pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 92.
-See the caption package documentation for explanation.
-
-<../../Images/Sensor/LED/LED.jpg, id=2369, 356.83313pt x 473.51906pt>
-File: ../../Images/Sensor/LED/LED.jpg Graphic file (type jpg)
-<use ../../Images/Sensor/LED/LED.jpg>
-Package pdftex.def Info: ../../Images/Sensor/LED/LED.jpg  used on input line 10
-0.
-(pdftex.def)             Requested size: 110.96687pt x 147.2518pt.
-<../../Images/Sensor/LED/LED2.jpg, id=2370, 406.51875pt x 426.84468pt>
-File: ../../Images/Sensor/LED/LED2.jpg Graphic file (type jpg)
-<use ../../Images/Sensor/LED/LED2.jpg>
-Package pdftex.def Info: ../../Images/Sensor/LED/LED2.jpg  used on input line 1
-01.
-(pdftex.def)             Requested size: 110.96687pt x 116.51314pt.
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 102.
-See the caption package documentation for explanation.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[84 <../../Images/Sensor/Resistor/R.jpg>]
-<../../Images/Sensor/LED/circuitLED.png, id=2378, 1927.2pt x 1084.05pt>
-File: ../../Images/Sensor/LED/circuitLED.png Graphic file (type png)
-<use ../../Images/Sensor/LED/circuitLED.png>
-Package pdftex.def Info: ../../Images/Sensor/LED/circuitLED.png  used on input 
-line 107.
-(pdftex.def)             Requested size: 295.90979pt x 166.43805pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 108.
-See the caption package documentation for explanation.
-
-Package biblatex Info: Reference segment=57 on input line 117.
-Package biblatex Info: Setting label 'refsegment:057' on input line 117.
-Package marginnote Info: Suggest that margin note 85.1 will be on
-(marginnote)             absolute page 85.
-(marginnote)             This may be wrong on input line 123.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 123.
-Package marginnote Info: Suggest that margin note 85.2 will be on
-(marginnote)             absolute page 85.
-(marginnote)             This may be wrong on input line 131.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 131.
-Package marginnote Info: Suggest that margin note 85.3 will be on
-(marginnote)             absolute page 85.
-(marginnote)             This may be wrong on input line 138.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 138.
-Package biblatex Info: Reference segment=58 on input line 140.
-Package biblatex Info: Setting label 'refsegment:058' on input line 140.
-Package biblatex Info: Reference segment=59 on input line 146.
-Package biblatex Info: Setting label 'refsegment:059' on input line 146.
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[85 <../../Images/Sensor/LED/LED.jpg> <../../Images/Sensor/LED/LED2.jpg> <../..
-/Images/Sensor/LED/circuitLED.png>]
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 156.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 164.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 172.
-See the caption package documentation for explanation.
-
-Package biblatex Info: Reference segment=60 on input line 187.
-Package biblatex Info: Setting label 'refsegment:060' on input line 187.
-
-LaTeX Warning: Reference `Nano:LEDTest' on page 86 undefined on input line 191.
-
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 194.
-See the caption package documentation for explanation.
-
-(../../Code/Nano33BLESense/Test/TestLED.ino
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[86])
-
-LaTeX Warning: Reference `Nano:TestLEDPWM' on page 87 undefined on input line 2
-02.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 205.
-See the caption package documentation for explanation.
-
-(../../Code/Nano33BLESense/Test/TestLEDBrightness.ino
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[87])
-Package biblatex Info: Reference segment=61 on input line 213.
-Package biblatex Info: Setting label 'refsegment:061' on input line 213.
-
-
-LaTeX Warning: Reference `Nano:TestLEDInterrupt' on page 88 undefined on input 
-line 215.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 220.
-See the caption package documentation for explanation.
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[88] (../../Code/Nano33BLESense/Test/TestPushButtonInterrupt.ino
-Underfull \vbox (badness 1902) has occurred while \output is active []
-
-
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[89])
-Package biblatex Info: Reference segment=62 on input line 229.
-Package biblatex Info: Setting label 'refsegment:062' on input line 229.
-Package marginnote Info: Suggest that margin note 90.1 will be on
-(marginnote)             absolute page 90.
-(marginnote)             This may be wrong on input line 233.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 233.
-) (../../Contents/General/BlueTooth.tex
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[90]
-chapter 13.
 
 Overfull \hbox (101.9142pt too wide) in paragraph at lines 17--18
 [][]$\T1/pcr/l/it/10 https : / / www . instructables . com / Arduino-[]NANO-[]3
@@ -5489,25 +5276,22 @@ Overfull \hbox (34.9142pt too wide) in paragraph at lines 24--25
 oth-[]low-[]energy-[]setup/$[][] 
  []
 
-<../../Images/Bluetooth/BleBulletinBoardModel.png, id=2667, 658.46pt x 509.905p
+<../../Images/Bluetooth/BleBulletinBoardModel.png, id=2369, 658.46pt x 509.905p
 t>
 File: ../../Images/Bluetooth/BleBulletinBoardModel.png Graphic file (type png)
 <use ../../Images/Bluetooth/BleBulletinBoardModel.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BleBulletinBoardModel.png  used
  on input line 29.
 (pdftex.def)             Requested size: 369.88583pt x 286.4396pt.
-Package biblatex Info: Reference segment=63 on input line 34.
-Package biblatex Info: Setting label 'refsegment:063' on input line 34.
-Package biblatex Info: Reference segment=64 on input line 57.
-Package biblatex Info: Setting label 'refsegment:064' on input line 57.
-Package biblatex Info: Reference segment=65 on input line 63.
-Package biblatex Info: Setting label 'refsegment:065' on input line 63.
+Package biblatex Info: Reference segment=55 on input line 34.
+Package biblatex Info: Setting label 'refsegment:055' on input line 34.
+Package biblatex Info: Reference segment=56 on input line 57.
+Package biblatex Info: Setting label 'refsegment:056' on input line 57.
+Package biblatex Info: Reference segment=57 on input line 63.
+Package biblatex Info: Setting label 'refsegment:057' on input line 63.
 
 
-[91
-
-
-]
+[83]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5516,12 +5300,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[92 <../../Images/BlueTooth/BleBulletinBoardModel.png>]
-Package biblatex Info: Reference segment=66 on input line 77.
-Package biblatex Info: Setting label 'refsegment:066' on input line 77.
-Package biblatex Info: Reference segment=67 on input line 86.
-Package biblatex Info: Setting label 'refsegment:067' on input line 86.
-<../../Images/Bluetooth/AndroidMenu.png, id=2696, 880.03781pt x 441.14813pt>
+[84 <../../Images/BlueTooth/BleBulletinBoardModel.png>]
+Package biblatex Info: Reference segment=58 on input line 77.
+Package biblatex Info: Setting label 'refsegment:058' on input line 77.
+Package biblatex Info: Reference segment=59 on input line 86.
+Package biblatex Info: Setting label 'refsegment:059' on input line 86.
+<../../Images/Bluetooth/AndroidMenu.png, id=2397, 880.03781pt x 441.14813pt>
 File: ../../Images/Bluetooth/AndroidMenu.png Graphic file (type png)
 <use ../../Images/Bluetooth/AndroidMenu.png>
 Package pdftex.def Info: ../../Images/Bluetooth/AndroidMenu.png  used on input 
@@ -5536,10 +5320,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[93 <../../Images/BlueTooth/AndroidMenu.png>]
-Package biblatex Info: Reference segment=68 on input line 111.
-Package biblatex Info: Setting label 'refsegment:068' on input line 111.
-<../../Images/BlueTooth/BlueToothApp01.png, id=2703, 469.00218pt x 119.69719pt>
+[85 <../../Images/BlueTooth/AndroidMenu.png>]
+Package biblatex Info: Reference segment=60 on input line 111.
+Package biblatex Info: Setting label 'refsegment:060' on input line 111.
+<../../Images/BlueTooth/BlueToothApp01.png, id=2405, 469.00218pt x 119.69719pt>
 
 File: ../../Images/BlueTooth/BlueToothApp01.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp01.png>
@@ -5552,7 +5336,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 122.
 See the caption package documentation for explanation.
 
-<../../Images/BlueTooth/BlueToothApp02.png, id=2704, 458.46281pt x 821.31844pt>
+<../../Images/BlueTooth/BlueToothApp02.png, id=2406, 458.46281pt x 821.31844pt>
 
 File: ../../Images/BlueTooth/BlueToothApp02.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp02.png>
@@ -5573,8 +5357,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[94 <../../Images/BlueTooth/BlueToothApp01.png>]
-<../../Images/BlueTooth/BlueToothApp03.png, id=2712, 462.22687pt x 822.82407pt>
+[86 <../../Images/BlueTooth/BlueToothApp01.png>]
+<../../Images/BlueTooth/BlueToothApp03.png, id=2413, 462.22687pt x 822.82407pt>
 
 File: ../../Images/BlueTooth/BlueToothApp03.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp03.png>
@@ -5587,8 +5371,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 144.
 See the caption package documentation for explanation.
 
-Package biblatex Info: Reference segment=69 on input line 152.
-Package biblatex Info: Setting label 'refsegment:069' on input line 152.
+Package biblatex Info: Reference segment=61 on input line 152.
+Package biblatex Info: Setting label 'refsegment:061' on input line 152.
 
 Underfull \vbox (badness 2134) has occurred while \output is active []
 
@@ -5601,12 +5385,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[95 <../../Images/BlueTooth/BlueToothApp02.png> <../../Images/BlueTooth/BlueToo
+[87 <../../Images/BlueTooth/BlueToothApp02.png> <../../Images/BlueTooth/BlueToo
 thApp03.png>]
-Package marginnote Info: Suggest that margin note 96.1 will be on
-(marginnote)             absolute page 96.
-(marginnote)             This may be wrong on input line 168.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 168.
+Package marginnote Info: Margin note 88.1 is on absolute page 88 on input line 
+168.
+Package marginnote Info: xpos seems to be 319.80391pt on input line 168.
 File: ../../Images/Bluetooth/BleBulletinBoardModel.png Graphic file (type png)
 <use ../../Images/Bluetooth/BleBulletinBoardModel.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BleBulletinBoardModel.png  used
@@ -5621,7 +5404,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[96]
+[88]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5630,7 +5413,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[97]
+[89]
 Overfull \hbox (86.1188pt too wide) in paragraph at lines 265--266
 [][][][][][][][][][][][][][][][][][] 
  []
@@ -5644,7 +5427,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[98]
+[90]
 Overfull \hbox (50.11844pt too wide) in paragraph at lines 299--300
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -5655,7 +5438,7 @@ Overfull \hbox (242.12039pt too wide) in paragraph at lines 331--332
 ][][][] 
  []
 
-<../../Images/Bluetooth/BatteryApp.png, id=2809, 324.21124pt x 229.85875pt>
+<../../Images/Bluetooth/BatteryApp.png, id=2502, 324.21124pt x 229.85875pt>
 File: ../../Images/Bluetooth/BatteryApp.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryApp.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BatteryApp.png  used on input l
@@ -5670,7 +5453,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[99]
+[91]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5679,7 +5462,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[100 <../../Images/BlueTooth/BatteryApp.png>]
+[92 <../../Images/BlueTooth/BatteryApp.png>]
 Overfull \hbox (50.11844pt too wide) in paragraph at lines 423--424
 [][][][][][][][][][][][][][][][][][] 
  []
@@ -5698,18 +5481,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[101]
+[93]
 Overfull \hbox (116.11911pt too wide) in paragraph at lines 449--450
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<../../Images/Bluetooth/BatteryAppAcc.png, id=2924, 363.60844pt x 775.39688pt>
+<../../Images/Bluetooth/BatteryAppAcc.png, id=2616, 363.60844pt x 775.39688pt>
 File: ../../Images/Bluetooth/BatteryAppAcc.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryAppAcc.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BatteryAppAcc.png  used on inpu
 t line 500.
 (pdftex.def)             Requested size: 221.93375pt x 473.2872pt.
-<../../Images/Bluetooth/BatteryAppAcc2.png, id=2925, 366.61969pt x 779.16093pt>
+<../../Images/Bluetooth/BatteryAppAcc2.png, id=2617, 366.61969pt x 779.16093pt>
 
 File: ../../Images/Bluetooth/BatteryAppAcc2.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryAppAcc2.png>
@@ -5725,7 +5508,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[102]
+[94]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5734,7 +5517,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[103 <../../Images/BlueTooth/BatteryAppAcc.png>]
+[95 <../../Images/BlueTooth/BatteryAppAcc.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5743,9 +5526,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[104 <../../Images/BlueTooth/BatteryAppAcc2.png>]
-Package biblatex Info: Reference segment=70 on input line 524.
-Package biblatex Info: Setting label 'refsegment:070' on input line 524.
+[96 <../../Images/BlueTooth/BatteryAppAcc2.png>]
+Package biblatex Info: Reference segment=62 on input line 524.
+Package biblatex Info: Setting label 'refsegment:062' on input line 524.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -5787,11 +5570,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\font' on input line 524.
 
-Package biblatex Info: Reference segment=71 on input line 542.
-Package biblatex Info: Setting label 'refsegment:071' on input line 542.
-Package biblatex Info: Reference segment=72 on input line 545.
-Package biblatex Info: Setting label 'refsegment:072' on input line 545.
-<../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg, id=2995, 237.88875pt x 
+Package biblatex Info: Reference segment=63 on input line 542.
+Package biblatex Info: Setting label 'refsegment:063' on input line 542.
+Package biblatex Info: Reference segment=64 on input line 545.
+Package biblatex Info: Setting label 'refsegment:064' on input line 545.
+<../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg, id=2687, 237.88875pt x 
 223.43475pt>
 File: ../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg Graphic file (type 
 jpg)
@@ -5813,9 +5596,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[105 <../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg>]
-Package biblatex Info: Reference segment=73 on input line 561.
-Package biblatex Info: Setting label 'refsegment:073' on input line 561.
+[97 <../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg>]
+Package biblatex Info: Reference segment=65 on input line 561.
+Package biblatex Info: Setting label 'refsegment:065' on input line 561.
 
 Overfull \hbox (28.85257pt too wide) in paragraph at lines 650--651
  [] 
@@ -5833,17 +5616,17 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[106]
-Package biblatex Info: Reference segment=74 on input line 655.
-Package biblatex Info: Setting label 'refsegment:074' on input line 655.
+[98]
+Package biblatex Info: Reference segment=66 on input line 655.
+Package biblatex Info: Setting label 'refsegment:066' on input line 655.
 
 Overfull \hbox (204.11417pt too wide) in paragraph at lines 657--658
 [][]$\T1/pcr/l/it/10 https : / / www . hackster . io / sridhar-[]rajagopal / co
 ntrol-[]arduino-[]nano-[]ble-[]with-[]bluetooth-[]python-[]331e33$[][] 
  []
 
-Package biblatex Info: Reference segment=75 on input line 662.
-Package biblatex Info: Setting label 'refsegment:075' on input line 662.
+Package biblatex Info: Reference segment=67 on input line 662.
+Package biblatex Info: Setting label 'refsegment:067' on input line 662.
 
 
 
@@ -5853,7 +5636,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[107]
+[99]
 Overfull \hbox (8.11801pt too wide) in paragraph at lines 671--672
 [][][][][][][][][][][][][][][][][][][][] 
  []
@@ -5922,7 +5705,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[108]
+[100]
 Overfull \hbox (26.1182pt too wide) in paragraph at lines 756--757
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -5941,7 +5724,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[109]) (../../Contents/General/SensorHCSR04.tex
+[101]) (../../Contents/General/SensorHCSR04.tex
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5950,20 +5733,20 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[110]
-chapter 14.
-Package biblatex Info: Reference segment=76 on input line 19.
-Package biblatex Info: Setting label 'refsegment:076' on input line 19.
-Package biblatex Info: Reference segment=77 on input line 22.
-Package biblatex Info: Setting label 'refsegment:077' on input line 22.
+[102]
+chapter 13.
+Package biblatex Info: Reference segment=68 on input line 19.
+Package biblatex Info: Setting label 'refsegment:068' on input line 19.
+Package biblatex Info: Reference segment=69 on input line 22.
+Package biblatex Info: Setting label 'refsegment:069' on input line 22.
 
 
-[111
+[103
 
 
 ]
-Package biblatex Info: Reference segment=78 on input line 68.
-Package biblatex Info: Setting label 'refsegment:078' on input line 68.
+Package biblatex Info: Reference segment=70 on input line 68.
+Package biblatex Info: Setting label 'refsegment:070' on input line 68.
 
 
 
@@ -5973,7 +5756,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[112]
+[104]
 Overfull \hbox (67.46603pt too wide) in paragraph at lines 171--171
  [] 
  []
@@ -6000,11 +5783,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[113]
-Package biblatex Info: Reference segment=79 on input line 294.
-Package biblatex Info: Setting label 'refsegment:079' on input line 294.
-Package biblatex Info: Reference segment=80 on input line 334.
-Package biblatex Info: Setting label 'refsegment:080' on input line 334.
+[105]
+Package biblatex Info: Reference segment=71 on input line 294.
+Package biblatex Info: Setting label 'refsegment:071' on input line 294.
+Package biblatex Info: Reference segment=72 on input line 334.
+Package biblatex Info: Setting label 'refsegment:072' on input line 334.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -6020,9 +5803,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[114]
-Package biblatex Info: Reference segment=81 on input line 361.
-Package biblatex Info: Setting label 'refsegment:081' on input line 361.
+[106]
+Package biblatex Info: Reference segment=73 on input line 361.
+Package biblatex Info: Setting label 'refsegment:073' on input line 361.
 
 
 
@@ -6032,7 +5815,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[115]
+[107]
 Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
@@ -6042,13 +5825,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 386--390
 
  []
 
-Package biblatex Info: Reference segment=82 on input line 394.
-Package biblatex Info: Setting label 'refsegment:082' on input line 394.
-Package biblatex Info: Reference segment=83 on input line 403.
-Package biblatex Info: Setting label 'refsegment:083' on input line 403.
+Package biblatex Info: Reference segment=74 on input line 394.
+Package biblatex Info: Setting label 'refsegment:074' on input line 394.
+Package biblatex Info: Reference segment=75 on input line 403.
+Package biblatex Info: Setting label 'refsegment:075' on input line 403.
 (../../Code/Arduino/UltraSonicHCSR04/laufzeitMessung/laufzeitMessung.ino)
-Package biblatex Info: Reference segment=84 on input line 449.
-Package biblatex Info: Setting label 'refsegment:084' on input line 449.
+Package biblatex Info: Reference segment=76 on input line 449.
+Package biblatex Info: Setting label 'refsegment:076' on input line 449.
 
 
 
@@ -6058,7 +5841,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[116]
+[108]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6067,7 +5850,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[117]
+[109]
 (../../Code/Arduino/UltraSonicHCSR04/schwellenwertMeldung/schwellenwertMeldung.
 ino)
 Overfull \hbox (16.42801pt too wide) in paragraph at lines 456--456
@@ -6081,8 +5864,8 @@ LaTeX Warning: Float too large for page by 62.66312pt on input line 457.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package biblatex Info: Reference segment=85 on input line 460.
-Package biblatex Info: Setting label 'refsegment:085' on input line 460.
+Package biblatex Info: Reference segment=77 on input line 460.
+Package biblatex Info: Setting label 'refsegment:077' on input line 460.
 (../../Code/Arduino/UltraSonicHCSR04/entfernungMessung/entfernungMessung.ino)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -6102,11 +5885,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[118]
-Package biblatex Info: Reference segment=86 on input line 506.
-Package biblatex Info: Setting label 'refsegment:086' on input line 506.
-Package biblatex Info: Reference segment=87 on input line 521.
-Package biblatex Info: Setting label 'refsegment:087' on input line 521.
+[110]
+Package biblatex Info: Reference segment=78 on input line 506.
+Package biblatex Info: Setting label 'refsegment:078' on input line 506.
+Package biblatex Info: Reference segment=79 on input line 521.
+Package biblatex Info: Setting label 'refsegment:079' on input line 521.
 )
 
 
@@ -6116,7 +5899,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[119]
+[111]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6125,7 +5908,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[120]
+[112]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6134,9 +5917,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[121]
+[113]
 
-[122
+[114
 
 
 ]
@@ -6146,19 +5929,19 @@ Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)              on input line 190.
 
 
-[123]
+[115]
 
-[124] (../../Contents/General/Hardware-Beschreibung.tex
-chapter 15.
-Package biblatex Info: Reference segment=88 on input line 18.
-Package biblatex Info: Setting label 'refsegment:088' on input line 18.
-Package biblatex Info: Reference segment=89 on input line 20.
-Package biblatex Info: Setting label 'refsegment:089' on input line 20.
-Package biblatex Info: Reference segment=90 on input line 30.
-Package biblatex Info: Setting label 'refsegment:090' on input line 30.
+[116] (../../Contents/General/Hardware-Beschreibung.tex
+chapter 14.
+Package biblatex Info: Reference segment=80 on input line 18.
+Package biblatex Info: Setting label 'refsegment:080' on input line 18.
+Package biblatex Info: Reference segment=81 on input line 20.
+Package biblatex Info: Setting label 'refsegment:081' on input line 20.
+Package biblatex Info: Reference segment=82 on input line 30.
+Package biblatex Info: Setting label 'refsegment:082' on input line 30.
 
 
-[125
+[117
 
 
 ]
@@ -6173,7 +5956,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[126]
+[118]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6185,7 +5968,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[127]
+[119]
 (../../Code/Arduino/Schaltnetzteil/anwendungSchaltnetzteil/anwendungSchaltnetzt
 eil.ino)
 Overfull \hbox (13.12413pt too wide) in paragraph at lines 370--370
@@ -6205,7 +5988,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[128]
+[120]
 Overfull \vbox (24.66318pt too high) has occurred while \output is active []
 
 
@@ -6217,11 +6000,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[129]
-Package biblatex Info: Reference segment=91 on input line 390.
-Package biblatex Info: Setting label 'refsegment:091' on input line 390.
-Package biblatex Info: Reference segment=92 on input line 401.
-Package biblatex Info: Setting label 'refsegment:092' on input line 401.
+[121]
+Package biblatex Info: Reference segment=83 on input line 390.
+Package biblatex Info: Setting label 'refsegment:083' on input line 390.
+Package biblatex Info: Reference segment=84 on input line 401.
+Package biblatex Info: Setting label 'refsegment:084' on input line 401.
 
 
 
@@ -6231,7 +6014,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[130]
+[122]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <24.88> on input line 481.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -6250,15 +6033,35 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[131]
-Package biblatex Info: Reference segment=93 on input line 513.
-Package biblatex Info: Setting label 'refsegment:093' on input line 513.
-Package biblatex Info: Reference segment=94 on input line 523.
-Package biblatex Info: Setting label 'refsegment:094' on input line 523.
+[123]
+Package biblatex Info: Reference segment=85 on input line 513.
+Package biblatex Info: Setting label 'refsegment:085' on input line 513.
+
+
+LaTeX Warning: Citation 'Alles2024' on page 124 undefined on input line 515.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[124]
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[125]
+Package biblatex Info: Reference segment=86 on input line 558.
+Package biblatex Info: Setting label 'refsegment:086' on input line 558.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6267,31 +6070,20 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[132]
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[133]
-
-[134
-
-
-]
+[126]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 213.
 
 
-[135]
+[127
 
-[136] (../../Contents/Nano33BLESense/MateriallisteNano.tex
-chapter 16.
+
+]
+
+[128] (../../Contents/Nano33BLESense/MateriallisteNano.tex
+chapter 15.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
@@ -6302,7 +6094,7 @@ Underfull \hbox (badness 1694) in paragraph at lines 19--20
 \T1/lmr/m/n/10 (+20) - ARD NANO
  []
 
-<../../Images/Nano33BLESense/abx00031_front_1_2.jpg, id=3666, 376.40625pt x 282
+<../../Images/Nano33BLESense/abx00031_front_1_2.jpg, id=3292, 376.40625pt x 282
 .30469pt>
 File: ../../Images/Nano33BLESense/abx00031_front_1_2.jpg Graphic file (type jpg
 )
@@ -6320,7 +6112,7 @@ Underfull \hbox (badness 1694) in paragraph at lines 24--25
 \T1/lmr/m/n/10 (+20) - ARD NANO
  []
 
-<../../Images/Nano33BLESense/ARDNanano33BSH2.png, id=3668, 579.16376pt x 230.86
+<../../Images/Nano33BLESense/ARDNanano33BSH2.png, id=3294, 579.16376pt x 230.86
 25pt>
 File: ../../Images/Nano33BLESense/ARDNanano33BSH2.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/ARDNanano33BSH2.png>
@@ -6337,7 +6129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 \T1/lmr/m/n/10 (+20) - ARD Kit
  []
 
-<../../Images/Nano33BLESense/ArduinoKit.png, id=3670, 903.375pt x 581.17125pt>
+<../../Images/Nano33BLESense/ArduinoKit.png, id=3296, 903.375pt x 581.17125pt>
 File: ../../Images/Nano33BLESense/ArduinoKit.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/ArduinoKit.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/ArduinoKit.png  used on in
@@ -6358,7 +6150,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 \T1/lmr/m/n/10 (+20) B0226 Lens
  []
 
-<../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg, id=3672, 1290.82
+<../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg, id=3298, 1290.82
 25pt x 980.66376pt>
 File: ../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg Graphic file
  (type jpg)
@@ -6366,7 +6158,7 @@ File: ../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg Graphic file
 Package pdftex.def Info: ../../Images/CAM/LensCalibrationTool/LensCalibrationTo
 ol.jpg  used on input line 36.
 (pdftex.def)             Requested size: 73.97603pt x 56.1887pt.
-<../../Images/Nano33BLESense/case.png, id=3674, 803.0pt x 602.25pt>
+<../../Images/Nano33BLESense/case.png, id=3300, 803.0pt x 602.25pt>
 File: ../../Images/Nano33BLESense/case.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/case.png>
 Package pdftex.def Info: ../../Images/Nano33BLESense/case.png  used on input li
@@ -6374,7 +6166,7 @@ ne 39.
 (pdftex.def)             Requested size: 73.97603pt x 55.47751pt.
 )
 
-[137
+[129
 
 
  <../../Images/Nano33BLESense/abx00031_front_1_2.jpg> <../../Images/Nano33BLESe
@@ -6382,7 +6174,7 @@ nse/ARDNanano33BSH2.png> <../../Images/Nano33BLESense/ArduinoKit.png> <../../Im
 ages/CAM/LensCalibrationTool/LensCalibrationTool.jpg> <../../Images/Nano33BLESe
 nse/case.png (PNG copy)>]
 
-[138
+[130
 
 
 ]
@@ -6405,7 +6197,7 @@ ngen /
 
 
 
-[139]
+[131]
 Overfull \hbox (22.58615pt too wide) in paragraph at lines 261--261
 \T1/pcr/l/it/10 www . fluke . com / de -[] de / mehr -[] erfahren / blog / digi
 talmultimeter /
@@ -6434,7 +6226,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[140]
+[132]
 Overfull \hbox (19.73988pt too wide) in paragraph at lines 261--261
 []\T1/lmr/m/n/10 (-20) NKK Switches. \T1/lmr/m/it/10 (-20) Schal-ter-grund-la-g
 en\T1/lmr/m/n/10 (-20) . 2025. \T1/lmr/m/sc/10 (-20) url\T1/lmr/m/n/10 (-20) : 
@@ -6457,7 +6249,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[141]
+[133]
 Overfull \hbox (1.33017pt too wide) in paragraph at lines 261--261
 \T1/lmr/m/it/10 (-20) tion Sen-sor Data\T1/lmr/m/n/10 (-20) . [][][pdf][][]. Be
 rke^^?ley, CA: Apress, 2021. \T1/lmr/m/sc/10 (-20) isbn\T1/lmr/m/n/10 (-20) : 9
@@ -6473,23 +6265,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[142]
+[134]
 runsystem(makeindex Nano33BLESense.idx)...executed safely (allowed).
 
  (./Nano33BLESense.ind
 
 
 
-[143
+[135
 
 
 
-])
-
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (135 not 143).
-               Rerun to correct this.
-
-(./Nano33BLESense.aux)
+]) (./Nano33BLESense.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -6521,303 +6308,35 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 77 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 107492 strings out of 473190
- 2830400 string characters out of 5719979
- 4518667 words of memory out of 5000000
- 126693 multiletter control sequences out of 15000+600000
- 759759 words of font info for 457 fonts, out of 8000000 for 9000
+ 107046 strings out of 473190
+ 2821701 string characters out of 5719979
+ 4518690 words of memory out of 5000000
+ 126588 multiletter control sequences out of 15000+600000
+ 759842 words of font info for 458 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 108i,13n,134p,10909b,3600s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.13.1} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.13.3} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{equation.13.2} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.12.10} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.12.5} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.12.4} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.7.8} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.7.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.7.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.7.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.7.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.7.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.7.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.7.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.6.8} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.6.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.6.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.6.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.6.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.5.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.5.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.5.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.5.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.5.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.4.8} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.4.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.4.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.4.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.4.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.4.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.4.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.4.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.3.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.3.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.3.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.3.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.2.8} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.2.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.2.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.2.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.2.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.2.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.2.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.14.2.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.10.3} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.10.2} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.10.1} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.5.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.13.1} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.13} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.12} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.11} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.10} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.9} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.1} has been referenced but does not
- exist, replaced by a fixed one
-
-<c:/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/texlive/
-2025/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><c:/texlive/2025/texmf-dist/f
-onts/type1/public/lm/lmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/
-lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:
-/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2025/texm
-f-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/
-public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb
-><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/t
-exmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2025/texmf-dist/fonts/type
-1/public/lm/lmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb
-><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/
-texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2025/texmf-dist/fonts/t
-ype1/public/lm/lmss17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lms
-s8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texli
-ve/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist
-/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/co
-urier/ucrb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
->
-Output written on Nano33BLESense.pdf (143 pages, 7274463 bytes).
+ 108i,13n,134p,10909b,3379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.
+pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><c:/texlive/2
+025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2025/texmf-dist/fon
+ts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm
+/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/t
+exlive/2025/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2025/texmf-d
+ist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/pub
+lic/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c
+:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2025/texmf
+-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/pu
+blic/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><
+c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2025/te
+xmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2025/texmf-dist/fonts/typ
+e1/public/lm/lmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx
+10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive
+/2025/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2025/texmf-dist/fo
+nts/type1/urw/courier/ucrb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/co
+urier/ucrr8a.pfb>
+Output written on Nano33BLESense.pdf (135 pages, 7133213 bytes).
 PDF statistics:
- 5119 PDF objects out of 5155 (max. 8388607)
- 4788 compressed objects within 48 object streams
- 2392 named destinations out of 2487 (max. 500000)
- 104463 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 4638 PDF objects out of 5155 (max. 8388607)
+ 4324 compressed objects within 44 object streams
+ 2060 named destinations out of 2073 (max. 500000)
+ 104339 words of extra memory for PDF output out of 106986 (max. 10000000)
 
