@@ -182,40 +182,40 @@
 \contentsline {section}{\numberline {14.4}Bluetooth Modul}{122}{section.14.4}%
 \contentsline {subsection}{\numberline {14.4.1}Einleitung}{122}{subsection.14.4.1}%
 \contentsline {subsection}{\numberline {14.4.2}Grundlegende Informationen}{122}{subsection.14.4.2}%
-\contentsline {subsection}{\numberline {14.4.3}Modul <Modell...>}{122}{subsection.14.4.3}%
-\contentsline {subsection}{\numberline {14.4.4}Spezifikation}{122}{subsection.14.4.4}%
-\contentsline {subsection}{\numberline {14.4.5}Einfacher Code}{122}{subsection.14.4.5}%
-\contentsline {subsection}{\numberline {14.4.6}Tests}{122}{subsection.14.4.6}%
-\contentsline {subsection}{\numberline {14.4.7}Einfache Anwendung}{122}{subsection.14.4.7}%
-\contentsline {subsection}{\numberline {14.4.8}Further Readings}{122}{subsection.14.4.8}%
-\contentsline {section}{\numberline {14.5}Kippschalter}{122}{section.14.5}%
-\contentsline {subsection}{\numberline {14.5.1}Einleitung}{122}{subsection.14.5.1}%
-\contentsline {subsection}{\numberline {14.5.2}Grundlegende Informationen}{122}{subsection.14.5.2}%
-\contentsline {subsection}{\numberline {14.5.3}Schalter: GOOBAY 10013}{123}{subsection.14.5.3}%
-\contentsline {subsection}{\numberline {14.5.4}Spezifikation}{123}{subsection.14.5.4}%
-\contentsline {subsection}{\numberline {14.5.5}Tests}{123}{subsection.14.5.5}%
-\contentsline {subsection}{\numberline {14.5.6}Einfache Anwendung}{124}{subsection.14.5.6}%
-\contentsline {section}{\numberline {14.6}MOS-FET}{124}{section.14.6}%
-\contentsline {subsection}{\numberline {14.6.1}Einleitung}{124}{subsection.14.6.1}%
-\contentsline {subsection}{\numberline {14.6.2}Grundlegende Informationen}{125}{subsection.14.6.2}%
-\contentsline {subsection}{\numberline {14.6.3}MOS-FET IRF9540N}{126}{subsection.14.6.3}%
-\contentsline {subsection}{\numberline {14.6.4}Spezifikation}{126}{subsection.14.6.4}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{126}{subsubsection*.61}%
-\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse}{126}{subsubsection*.63}%
-\contentsline {subsection}{\numberline {14.6.5}Tests}{127}{subsection.14.6.5}%
-\contentsline {subsection}{\numberline {14.6.6}Einfache Anwendung}{127}{subsection.14.6.6}%
-\contentsline {subsection}{\numberline {14.6.7}Further Readings}{127}{subsection.14.6.7}%
-\contentsline {section}{\numberline {14.7}Externe LED}{127}{section.14.7}%
-\contentsline {subsection}{\numberline {14.7.1}Einleitung}{127}{subsection.14.7.1}%
-\contentsline {subsection}{\numberline {14.7.2}Grundlegende Informationen}{127}{subsection.14.7.2}%
-\contentsline {subsection}{\numberline {14.7.3}LED <Modell...>}{127}{subsection.14.7.3}%
-\contentsline {subsection}{\numberline {14.7.4}Spezifikation}{127}{subsection.14.7.4}%
-\contentsline {subsection}{\numberline {14.7.5}Einfacher Code}{127}{subsection.14.7.5}%
-\contentsline {subsection}{\numberline {14.7.6}Tests}{127}{subsection.14.7.6}%
-\contentsline {subsection}{\numberline {14.7.7}Einfache Anwendung}{127}{subsection.14.7.7}%
-\contentsline {subsection}{\numberline {14.7.8}Further Readings}{127}{subsection.14.7.8}%
-\contentsline {part}{\numberline {IV}Anhang}{129}{part.4}%
-\contentsline {chapter}{\numberline {15}Materialliste}{131}{chapter.15}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{133}{chapter*.64}%
-\contentsline {chapter}{Stichwortverzeichnis}{137}{chapter*.64}%
-\contentsline {chapter}{Index}{137}{chapter*.64}%
+\contentsline {subsection}{\numberline {14.4.3}Bluetooth Modul: HC-05}{123}{subsection.14.4.3}%
+\contentsline {subsection}{\numberline {14.4.4}Spezifikation}{123}{subsection.14.4.4}%
+\contentsline {subsection}{\numberline {14.4.5}Einfacher Code}{124}{subsection.14.4.5}%
+\contentsline {subsection}{\numberline {14.4.6}Tests}{124}{subsection.14.4.6}%
+\contentsline {subsection}{\numberline {14.4.7}Einfache Anwendung}{124}{subsection.14.4.7}%
+\contentsline {subsection}{\numberline {14.4.8}Further Readings}{124}{subsection.14.4.8}%
+\contentsline {section}{\numberline {14.5}Kippschalter}{124}{section.14.5}%
+\contentsline {subsection}{\numberline {14.5.1}Einleitung}{124}{subsection.14.5.1}%
+\contentsline {subsection}{\numberline {14.5.2}Grundlegende Informationen}{124}{subsection.14.5.2}%
+\contentsline {subsection}{\numberline {14.5.3}Schalter: GOOBAY 10013}{125}{subsection.14.5.3}%
+\contentsline {subsection}{\numberline {14.5.4}Spezifikation}{125}{subsection.14.5.4}%
+\contentsline {subsection}{\numberline {14.5.5}Tests}{125}{subsection.14.5.5}%
+\contentsline {subsection}{\numberline {14.5.6}Einfache Anwendung}{126}{subsection.14.5.6}%
+\contentsline {section}{\numberline {14.6}MOS-FET}{126}{section.14.6}%
+\contentsline {subsection}{\numberline {14.6.1}Einleitung}{126}{subsection.14.6.1}%
+\contentsline {subsection}{\numberline {14.6.2}Grundlegende Informationen}{127}{subsection.14.6.2}%
+\contentsline {subsection}{\numberline {14.6.3}MOS-FET IRF9540N}{128}{subsection.14.6.3}%
+\contentsline {subsection}{\numberline {14.6.4}Spezifikation}{128}{subsection.14.6.4}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale}{128}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse}{128}{subsubsection*.63}%
+\contentsline {subsection}{\numberline {14.6.5}Tests}{129}{subsection.14.6.5}%
+\contentsline {subsection}{\numberline {14.6.6}Einfache Anwendung}{129}{subsection.14.6.6}%
+\contentsline {subsection}{\numberline {14.6.7}Further Readings}{129}{subsection.14.6.7}%
+\contentsline {section}{\numberline {14.7}Externe LED}{129}{section.14.7}%
+\contentsline {subsection}{\numberline {14.7.1}Einleitung}{129}{subsection.14.7.1}%
+\contentsline {subsection}{\numberline {14.7.2}Grundlegende Informationen}{129}{subsection.14.7.2}%
+\contentsline {subsection}{\numberline {14.7.3}LED <Modell...>}{129}{subsection.14.7.3}%
+\contentsline {subsection}{\numberline {14.7.4}Spezifikation}{129}{subsection.14.7.4}%
+\contentsline {subsection}{\numberline {14.7.5}Einfacher Code}{129}{subsection.14.7.5}%
+\contentsline {subsection}{\numberline {14.7.6}Tests}{129}{subsection.14.7.6}%
+\contentsline {subsection}{\numberline {14.7.7}Einfache Anwendung}{129}{subsection.14.7.7}%
+\contentsline {subsection}{\numberline {14.7.8}Further Readings}{129}{subsection.14.7.8}%
+\contentsline {part}{\numberline {IV}Anhang}{131}{part.4}%
+\contentsline {chapter}{\numberline {15}Materialliste}{133}{chapter.15}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{135}{chapter*.64}%
+\contentsline {chapter}{Stichwortverzeichnis}{139}{chapter*.64}%
+\contentsline {chapter}{Index}{139}{chapter*.64}%
