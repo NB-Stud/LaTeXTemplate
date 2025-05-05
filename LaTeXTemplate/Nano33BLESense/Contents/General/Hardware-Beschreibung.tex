@@ -647,9 +647,47 @@ tel, 2018. isbn: 978-3-808-53490-8.\cite{Haeberle:2018}
 \section{Bluetooth Modul}
 
 \subsection{Einleitung}
+	Bluetooth-Module sind elektronische Komponenten, die drahtlose Kommunikation zwischen Geräten ermöglichen. Sie wandeln elektrische Signale in Funkwellen um und sorgen so für eine zuverlässige Datenübertragung über kurze Distanzen. Grundsätzlich unterscheidet man Bluetooth Classic (für kontinuierliche Verbindungen wie Audio-Streaming) und Bluetooth Low Energy (BLE) (energiesparend für Geräte mit begrenzter Akkulaufzeit). Ihre Hauptaufgabe ist es, Geräte wie Kopfhörer, Sensoren oder Smart-Home-Systeme einfach und kabellos zu vernetzen – ohne komplexe Infrastruktur.
+	
 \subsection{Grundlegende Informationen}
-\subsection{Modul <Modell...>}
+Bluetooth-Module sind spezialisierte Hardwarekomponenten, die eine drahtlose Kommunikation zwischen Geräten über kurze Distanzen ermöglichen. Typischerweise decken sie Reichweiten von 10 bis 30 Metern ab, abhängig von Umgebungsfaktoren wie Wänden oder Störquellen. Im Kern bestehen diese Module aus einem Bluetooth-Chip, einer Antenne sowie unterstützender Elektronik wie Spannungsreglern oder Schnittstellen-ICs. Um Platz und Energie zu sparen, werden sie häufig als System-on-a-Chip (SoC) realisiert, bei dem alle notwendigen Komponenten in einem einzigen, kompakten Bauteil integriert sind.
+Die Technologie nutzt das 2,4-GHz-ISM-Band (2400–2483,5 MHz), ein lizenzfreies Frequenzspektrum, das auch von WLAN, Mikrowellen und anderen Funkstandards genutzt wird. Um Interferenzen zu vermeiden, setzt Bluetooth auf Frequency Hopping: Das Modul wechselt bis zu 1600-mal pro Sekunde zwischen 79 definierten Kanälen, wobei jeder Kanal eine Bandbreite von 1 MHz besitzt. Die genaue Frequenz eines Kanals k lässt sich durch die Gleichung 
+\begin{equation}
+f_k =2402+k  
+\end{equation}
+berechnen, wobei k Werte von 0 bis 78 annimmt. Dieser dynamische Kanalwechsel sorgt für eine robuste Verbindung, selbst in frequenzbelasteten Umgebungen.
+Grundsätzlich unterscheidet man zwei Bluetooth-Varianten: 
+Bluetooth Classic und Bluetooth Low Energy (BLE). Bluetooth Classic ist für Anwendungen mit hohen Datenraten ausgelegt, etwa Audio-Streaming für Kopfhörer oder Lautsprecher, und erreicht bis zu 3 Mbps (Megabit pro Sekunde) durch Erweiterungen wie EDR (Enhanced Data Rate).
+BLE hingegen wurde für Geräte entwickelt, die extrem energieeffizient arbeiten müssen, wie Wearables oder Sensoren in IoT-Netzwerken. Hier liegt die maximale Datenrate bei 1 Mbps, während der Stromverbrauch im Standby-Modus oft unter 15 µA bleibt – ideal für Batteriebetrieb über Monate oder Jahre.
+Die Reichweite eines Bluetooth-Moduls hängt maßgeblich von seiner Sendeleistung (TX Power) ab. 
+Geräte der Klasse 1 (bis 100 mW Sendeleistung) können theoretisch bis zu 100 Meter überbrücken, während Module der Klasse 2 (2,5 mW) auf etwa 10 Meter und Klasse-3-Geräte (1 mW) auf rund 1 Meter begrenzt sind. In der Praxis reduzieren Hindernisse wie Wände oder elektronische Störquellen diese Werte jedoch deutlich.
+Ein kritischer Aspekt ist die Sicherheit. Bluetooth verwendet AES-128-Verschlüsselung, um Daten vor unbefugtem Zugriff zu schützen. Beim Verbindungsaufbau (Pairing) kommen zudem Protokolle wie Elliptic Curve Diffie-Hellman (ECDH) zum Einsatz, die einen sicheren Schlüsselaustausch ermöglichen und Man-in-the-Middle-Angriffe erschweren. Dank standardisierter Profile – vordefinierter Regeln für spezifische Anwendungen – lassen sich Geräte unterschiedlicher Hersteller problemlos koppeln. Beispiele sind das *A2DP-Profil* für Audio-Streaming oder das HID-Profil für Tastaturen und Mäuse.
+Bluetooth-Module sind heute in nahezu allen Consumer-Geräten zu finden, von Smartphones über Smart-Home-Steuerungen bis hin zu industriellen Sensornetzwerken. Ihre Stärke liegt in der einfachen Integration: Über Schnittstellen wie UART oder SPI können sie direkt mit Mikrocontrollern wie Arduino oder Raspberry Pi verbunden werden, um Projekte schnell drahtlos zu machen. Dennoch stößt die Technologie an Grenzen, wenn es um hohe Reichweiten, extrem hohe Datenmengen (z. B. Video-Streaming) oder komplexe Mesh-Netzwerke geht – hier sind Alternativen wie WLAN oder Zigbee oft besser geeignet.
+Zusammenfassend bilden Bluetooth-Module das technische Rückgrat für unzählige kabellose Anwendungen des täglichen Lebens. Sie kombinieren Energieeffizienz mit standardisierter Kompatibilität und bleiben dabei für Nutzer weitgehend unsichtbar. Mathematische Grundlagen wie Frequenzberechnung, Verschlüsselungsalgorithmen oder Leistungsbilanzierung sorgen im Hintergrund für Zuverlässigkeit, während Anwender lediglich die simplicity der „Plug-and-Play“-Vernetzung schätzen.
+
+\subsection{Bluetooth Modul: HC-05}
+Das HC-05 ist ein weit verbreitetes Bluetooth-Modul für die drahtlose Serial-Communication (UART). Es eignet sich besonders für Projekte, bei denen Mikrocontroller wie Arduino oder Raspberry Pi kabellos mit Smartphones, PCs oder anderen Geräten kommunizieren sollen. Im Folgenden werden die technischen Spezifikationen, Funktionen und typischen Einsatzgebiete des Moduls vorgestellt.
+
 \subsection{Spezifikation}
+Das HC-05 ist ein klassisches Bluetooth-Modul, das auf dem Bluetooth-2.0-Standard mit EDR (Enhanced Data Rate) basiert. Dieser Standard ermöglicht eine maximale theoretische Datenrate von 2,1 Mbps, wobei in der Praxis jedoch meist Baudraten zwischen 9600 und 115.200 Baud zum Einsatz kommen – abhängig von der Konfiguration und der Stabilität der Funkverbindung. Das Modul nutzt das 2,4-GHz-ISM-Band und unterteilt dieses in 79 Kanäle, wobei es durch Frequency Hopping (bis zu 1600 Kanalwechsel pro Sekunde) Störungen durch andere Funkgeräte wie WLAN-Router oder Mikrowellen minimiert.
+Die Reichweite des HC-05 liegt bei bis zu 10 Metern unter freien Bedingungen, was der Klasse 2 (2,5 mW Sendeleistung) entspricht. In realen Umgebungen mit Hindernissen wie Wänden oder elektronischen Störquellen kann diese jedoch deutlich reduziert sein. Die Betriebsspannung des Moduls liegt zwischen 3,3 und 5 V DC, wobei die Eingangsspannung sorgfältig angepasst werden muss: Während das Modul intern mit 3,3 V arbeitet, toleriert es bei korrektem Anschluss (z. B. über einen Spannungsteiler am RXD-Pin) auch 5-V-Systeme wie den Arduino Uno.
+Der Stromverbrauch variiert je nach Betriebszustand: Im aktiven Modus zieht das HC-05 etwa 30 mA, während es im Standby- oder Pairing-Modus auf unter 1 mA absinkt. Dies macht es zwar weniger energieeffizient als moderne BLE-Module, für kurzzeitige Projekte oder netzbetriebene Anwendungen ist der Verbrauch jedoch akzeptabel.
+Ein zentrales Merkmal des HC-05 ist die Unterstützung des SPP (Serial Port Profile), das eine serielle Kommunikation über Bluetooth emuliert. Dies erlaubt die nahtlose Integration in Mikrocontroller-Projekte, bei denen Daten über UART-Schnittstellen (TXD/RXD) gesendet und empfangen werden. Das Modul kann in zwei Betriebsmodi konfiguriert werden:
+•	Im Slave-Modus wartet es passiv auf Verbindungen von Master-Geräten wie Smartphones oder Laptops.
+•	Im Master-Modus sucht es aktiv nach anderen Bluetooth-Geräten und initiiert Pairings – ideal für Projekte, bei denen das HC-05 selbst die Verbindung steuern soll.
+Die Konfiguration erfolgt über AT-Befehle, die im AT-Kommandomodus (aktiviert durch High-Pegel am EN/KEY-Pin) gesendet werden. Hier lassen sich Parameter wie der Gerätename, die Baudrate oder die Rolle (Master/Slave) anpassen. Standardmäßig arbeitet das Modul mit 38400 Baud im AT-Modus, kann aber für die Datenübertragung auf niedrigere Raten heruntergesetzt werden, um Kompatibilität mit älteren Mikrocontrollern zu gewährleisten.
+Sicherheitstechnisch setzt das HC-05 auf PIN-basiertes Pairing (Standard-PIN: „1234“) und unterstützt grundlegende Verschlüsselungsmethoden, um Daten vor unbefugtem Zugriff zu schützen. Für hochsensible Anwendungen ist jedoch eine zusätzliche Absicherung auf App- oder Protokollebene ratsam.
+Zusammenfassend bietet das HC-05 eine robuste, einfach zu implementierende Lösung für drahtlose Serial-Communication – besonders dort, wo Kosten und Kompatibilität im Vordergrund stehen. Seine technischen Spezifikationen machen es zum Klassiker für Einsteiger, auch wenn moderne Anforderungen wie extreme Energieeffizienz oder hohe Datenraten hier Grenzen setzen.
+Pin-Belegung und Anschluss
+Das HC-05-Modul verfügt über sechs Pins, wobei die wichtigsten für die Basisnutzung sind:
+%\begin{itemize}
+%	\iteam\textit{VCC:} Spannungseingang (3,3V-5V),
+%	\iteam\textit{GND:} Massenanschluss,
+%	\iteam\textit{TXD:} Serielle Datenausgabe (sendet Daten an den Mikrocontroller),
+%	\iteam\textit{RXD:} Serielle Dateneingabe (empfängt Daten vom Mikrocontroller),
+%	\iteam\textit{EN/KEY:} Aktiviert den AT-Konfigurationsmodus (High = AT-Befehle möglich),
+%	\iteam\textit{STATE:} Signalisiert den Verbindungsstatus (High = verbunden),
+%\end{iteamize}
 \subsection{Einfacher Code}
 \subsection{Tests}
 \subsection{Einfache Anwendung}
@@ -787,7 +825,8 @@ Die Kennlinienfelder, die das Verhalten von Drainstrom (ID) in Abhängigkeit von
 
 Insgesamt bietet der MOS-FET viele Vorteile wie hohe Energieeffizienz und einfache Ansteuerung, erfordert aber eine sorgfältige Berücksichtigung seiner physikalischen Eigenschaften, insbesondere bei hohen Frequenzen oder großen Temperaturbereichen.\cite{Alles2024}
 
-MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- und p-Kanal-MOS-FETs. Diese Bezeichnungen beziehen sich auf die Art der Dotierung des Halbleitermaterials. Die Dotierung erfolgt entweder mit Donatoren (n-Typ, negativ) oder Akzeptoren (p-Typ, positiv), wodurch sich die elektrische Leitfähigkeit des Siliziums erhöht.
+
+MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- und p-Kanal-MOS-FETs. Diese Bezeichnungen beziehen sich auf die Art der Dotierung des Halbleitermaterials. Die Dotierung erfolgt entweder mit Donatoren (n-Typ, negativ) oder Akzeptoren (p-Typ, positiv), wodurch sich die elektrische Leitfähigkeit des Siliziums erhöht. \cite{RSOnlineMOSFET:2025}
 
 \textbf{N-Kanal-MOS-FET:}
 \begin{itemize}
@@ -805,11 +844,104 @@ MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- u
 	\item Funktionsweise: Der Transistor leitet bei negativer Gate-Spannung relativ zur Source
 	\item Schaltverhalten: Das Source-Potential ist höher als das Drain-Potential
 \end{itemize}
-\subsection{MOS-FET <Modell...>}
+\subsection{MOS-FET IRF9540N}
+Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spannungen entwickelt wurde. Er eignet sich besonders für Anwendungen, bei denen eine effektive Spannung mit Hilfe von Pulsweitenmodulation (PWM) gesenkt werden soll, wie z. B. beim Dimmen von LED-Beleuchtungen.\cite{ReicheltMOS:2025} (bild einfügen)
+\begin{figure}[!ht]
+	\centering
+	\caption{Skizze des MOS-FETs}
+	\label{fig:my_label}
+	\resizebox{0.5\textwidth}{!}{%
+				\rotatebox{90}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ fill={rgb,255:red,72; green,72; blue,72} , line width=1.2pt ] (1.25,-4.25) rectangle (10,-13);
+			\draw [line width=1.2pt, short] (1.25,-5.5) -- (1,-5.5);
+			\draw [line width=1.2pt, short] (1,-5.5) -- (1,-2.5);
+			\draw [line width=1.2pt, short] (1,-2.5) -- (1.5,-2.25);
+			\draw [line width=1.2pt, short] (1.5,-2.25) -- (1.5,-1.25);
+			\draw [line width=1.2pt, short] (1.5,-1.25) -- (1,-0.75);
+			\draw [line width=1.2pt, short] (1,-0.75) -- (1,0.75);
+			\draw [line width=1.2pt, short] (1,0.75) -- (10.25,0.75);
+			\draw [line width=1.2pt, short] (10,-5.5) -- (10.25,-5.5);
+			\draw [line width=1.2pt, short] (10.25,-5.5) -- (10.25,-2.5);
+			\draw [line width=1.2pt, short] (10.25,-2.5) -- (9.75,-2.25);
+			\draw [line width=1.2pt, short] (9.75,-2.25) -- (9.75,-1.25);
+			\draw [line width=1.2pt, short] (9.75,-1.25) -- (10.25,-0.75);
+			\draw [line width=1.2pt, short] (10.25,-0.75) -- (10.25,0.75);
+			\draw [ line width=1.2pt ] (5.75,-1.75) circle (1.25cm);
+			\draw [line width=1.2pt, short] (1.25,-5.5) -- (1.25,-4.25);
+			\draw [line width=1.2pt, short] (1.25,-4.25) -- (10,-4.25);
+			\draw [line width=1.2pt, short] (10,-4.25) -- (10,-5.5);
+			\draw [line width=1.2pt, short] (1.75,-13) -- (1.75,-14.25);
+			\draw [line width=1.2pt, short] (1.75,-14.25) -- (2,-14.5);
+			\draw [line width=1.2pt, short] (2,-14.5) -- (2,-20.25);
+			\draw [line width=1.2pt, short] (2,-20.25) -- (2.25,-20.75);
+			\draw [line width=1.2pt, short] (2.25,-20.75) -- (2.5,-20.75);
+			\draw [line width=1.2pt, short] (2.5,-20.75) -- (2.75,-20.25);
+			\draw [line width=1.2pt, short] (2.75,-20.25) -- (2.75,-14.5);
+			\draw [line width=1.2pt, short] (2.75,-14.5) -- (3,-14.25);
+			\draw [line width=1.2pt, short] (3,-14.25) -- (3,-13);
+			\draw [line width=1.2pt, short] (9.5,-13) -- (9.5,-14.25);
+			\draw [line width=1.2pt, short] (9.5,-14.25) -- (9.25,-14.5);
+			\draw [line width=1.2pt, short] (9.25,-14.5) -- (9.25,-20.25);
+			\draw [line width=1.2pt, short] (9.25,-20.25) -- (9,-20.75);
+			\draw [line width=1.2pt, short] (9,-20.75) -- (8.75,-20.75);
+			\draw [line width=1.2pt, short] (8.75,-20.75) -- (8.5,-20.25);
+			\draw [line width=1.2pt, short] (8.5,-20.25) -- (8.5,-14.5);
+			\draw [line width=1.2pt, short] (8.5,-14.5) -- (8.25,-14.25);
+			\draw [line width=1.2pt, short] (8.25,-14.25) -- (8.25,-13);
+			\draw [line width=1.2pt, short] (5,-13) -- (5,-14.25);
+			\draw [line width=1.2pt, short] (5,-14.25) -- (5.25,-14.5);
+			\draw [line width=1.2pt, short] (5.25,-14.5) -- (5.25,-20.25);
+			\draw [line width=1.2pt, short] (5.25,-20.25) -- (5.5,-20.75);
+			\draw [line width=1.2pt, short] (5.5,-20.75) -- (5.75,-20.75);
+			\draw [line width=1.2pt, short] (5.75,-20.75) -- (6,-20.25);
+			\draw [line width=1.2pt, short] (6,-20.25) -- (6,-14.5);
+			\draw [line width=1.2pt, short] (6,-14.5) -- (6.25,-14.25);
+			\draw [line width=1.2pt, short] (6.25,-14.25) -- (6.25,-13);
+			\node [font=\Huge, color={rgb,255:red,178; green,178; blue,178}] at (5.75,-6) {IRF9540N};
+			\node [font=\Huge, color={rgb,255:red,178; green,178; blue,178}] at (5.75,-8) {IORH228D};
+			\node [font=\Huge, color={rgb,255:red,178; green,178; blue,178}] at (5.75,-9) {B9P0};
+		\end{circuitikz}
+	}%
+}%
+\end{figure}
+
 \subsection{Spezifikation}
-\subsection{Einfacher Code}
+\subsubsection{Hauptmerkmale}
+\begin{itemize}
+	\item Modell: IRF9540N
+	\item Farbe der Platine: Schwarz
+	\item Kompatibilität: Arduino, Raspberry Pi, etc.
+	\item Besonderheiten: Der MOSFET bezieht Spannung auch über den SBC, wenn keine Source-Spannung verfügbar ist.
+	\item Effektivspannung lässt sich mit PWM senken.
+	\item Abmessungen: 40 mm x 22 mm x 20 mm
+	\item Maximale Eingangsspannung: 36 V
+	\item Maximale Eingangsstrom: 2 A
+\end{itemize}
+
+\subsubsection{Steuerung und Anschlüsse}
+\begin{itemize}
+	\item Steuerspannung: Mindestspannung 2 V
+	\item Anschlüsse:
+	\begin{itemize}
+		\item 2x 2 Pin Anschlussblöcke
+		\item 4 Pin female JST-Buchse
+	\end{itemize}
+	\item Pinbelegung der JST-Buchse:
+	\begin{itemize}
+		\item 1. GND: Ground
+		\item 2. VCC: Spannung
+		\item 3. NC: Nicht verbunden
+		\item 4. SIG: Signal
+	\end{itemize}
+\end{itemize}
+%\subsection{Einfacher Code}
+
 \subsection{Tests}
+
 \subsection{Einfache Anwendung}
+
 \subsection{Further Readings}
 
 \section{Externe LED}
