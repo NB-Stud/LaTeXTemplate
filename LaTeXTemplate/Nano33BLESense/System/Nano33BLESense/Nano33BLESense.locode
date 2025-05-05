@@ -42,8 +42,11 @@
 \contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{109}{code.caption.47}%
 \contentsline {code}{\numberline {13.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{111}{code.caption.48}%
 \contentsline {code}{\numberline {13.3}{\ignorespaces Code für die Messung einer Strecke}}{113}{code.caption.50}%
-\contentsline {code}{\numberline {13.4}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{119}{code.caption.58}%
-\contentsline {code}{\numberline {13.5}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{126}{code.caption.63}%
-\contentsline {code}{\numberline {13.6}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{127}{code.caption.64}%
+\contentsline {code}{\numberline {13.4}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{120}{code.caption.62}%
+\contentsline {code}{\numberline {13.5}{\ignorespaces Einfacher Code zur Fehlererkennung}}{122}{code.caption.63}%
+\contentsline {code}{\numberline {13.6}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{126}{code.caption.69}%
+\contentsline {code}{\numberline {13.7}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{136}{code.caption.79}%
+\contentsline {code}{\numberline {13.8}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{137}{code.caption.80}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

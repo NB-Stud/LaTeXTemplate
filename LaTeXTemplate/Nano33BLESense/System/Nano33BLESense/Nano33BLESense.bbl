@@ -404,6 +404,47 @@
     \field{year}{2011}
   \endentry
 
+  \entry{Comet:2004}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{Comet}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Com}04}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchPumpe.pdf}{[pdf]}}}
+    \field{title}{Handbuch - Comet Tauchpumpe 12 V Elegant}
+    \field{year}{2004}
+  \endentry
+
+  \entry{ConradPumpe:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{Conrad}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C3}
+    \strng{fullhash}{C3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Con}25}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Niedervolt Tauchpumpe Comet 12 V Elegant}
+    \verb{url}
+    \verb https://www.conrad.de/de/p/comet-1300-01-00-niedervolt-tauchpumpe-600
+    \verb -l-h-5-5-m-1435461.html?refresh=true#productDownloads
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{DIN:13850}{book}{}{}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Din}
@@ -416,30 +457,6 @@
     \verb ngen/wdc-beuth:din21:233572513
     \endverb
     \field{year}{2016}
-  \endentry
-
-  \entry{ReicheltMOS:2025}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=ER}{%
-         family={Elektronik},
-         familyi={E\bibinitperiod},
-         given={Reichelt},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ER1}
-    \strng{fullhash}{ER1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ele25}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{title}{MOSFET IRF9540N}
-    \verb{url}
-    \verb https://www.reichelt.de/de/de/shop/produkt/entwicklerboards_-_mosfet_
-    \verb irf9540n-316199
-    \endverb
-    \field{year}{2025}
   \endentry
 
   \entry{Filipi:2022}{online}{}{}
@@ -547,6 +564,38 @@
       {San Diego, CA}%
     }
     \field{year}{2002}
+  \endentry
+
+  \entry{Gulich:2020}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=GJF}{%
+         family={G{\"u}lich},
+         familyi={G\bibinitperiod},
+         given={Johann\bibnamedelima Friedrich},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GJF}{%
+         family={G{\"u}lich},
+         familyi={G\bibinitperiod},
+         given={Johann\bibnamedelima Friedrich},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{GJFGJF1}
+    \strng{fullhash}{GJFGJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{GG20}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{pages}{45\bibrangedash 82}
+    \field{title}{Bauarten und Leistungsdaten}
+    \field{journaltitle}{Kreiselpumpen: Handbuch f{\"u}r Entwicklung,
+  Anlagenplanung und Betrieb}
+    \field{year}{2020}
   \endentry
 
   \entry{ArduinoShield:2021}{misc}{}{}
@@ -1145,29 +1194,6 @@
     \field{year}{2025}
   \endentry
 
-  \entry{RSOnlineMOSFET:2025}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=R}{%
-         family={{RS Components}},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{RS }25}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{note}{04-05-2025}
-    \field{title}{MOSFET Leitfaden}
-    \verb{url}
-    \verb https://de.rs-online.com/web/content/discovery-portal/produktratgeber
-    \verb /mosfet-leitfaden
-    \endverb
-    \field{year}{2025}
-  \endentry
-
   \entry{Raj:2019}{online}{}{}
     \name{author}{1}{}{%
       {{hash=RA}{%
@@ -1220,8 +1246,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1245,8 +1271,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1269,8 +1295,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1294,8 +1320,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R3}
-    \strng{fullhash}{R3}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
@@ -1321,8 +1347,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R3}
-    \strng{fullhash}{R3}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
@@ -1436,6 +1462,29 @@
     \verb https://books.google.de/books?id=uZadszSGe9MC
     \endverb
     \field{year}{2007}
+  \endentry
+
+  \entry{Schulz:2013}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=SH}{%
+         family={Schulz},
+         familyi={S\bibinitperiod},
+         given={Hellmuth},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{SH1}
+    \strng{fullhash}{SH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sch13}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Die Pumpen: Arbeitsweise, Berechnung, Konstruktion}
+    \field{year}{2013}
   \endentry
 
   \entry{Scherer:2022}{article}{}{}
@@ -1666,6 +1715,32 @@
     \field{urlday}{23}
     \field{urlmonth}{06}
     \field{urlyear}{2023}
+  \endentry
+
+  \entry{Surek:2021}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=SD}{%
+         family={Surek},
+         familyi={S\bibinitperiod},
+         given={Dominik},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SD1}
+    \strng{fullhash}{SD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sur21}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{Handbuch Maschinenbau: Grundlagen und Anwendungen der
+  Maschinenbau-Technik}
+    \field{pages}{1039\bibrangedash 1053}
+    \field{title}{Pumpen}
+    \field{year}{2021}
   \endentry
 
   \entry{Traenkler:2014}{book}{}{}

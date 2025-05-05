@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 14520 items from 5000.
+Reallocated field_info (elt_size=4) to 15500 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -27,63 +27,70 @@ I was expecting a `,' or a `}'---line 37 of file ../../../MLbib/MyLiterature.bib
  :   organization = {Arduino.cc}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 171 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 135 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  note      = {\textcolor{blue}{\href{../../../MLbib/conradPumpe.pdf}{[pdf]}}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 195 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/flukeOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 319 of file ../../../MLbib/MyLiterature.bib
+Repeated entry---line 357 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 573 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 611 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Alles2024"
+Warning--I didn't find a database entry for "RSOnlineMOSFET:2025"
+Warning--I didn't find a database entry for "ReicheltMOS:2025"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 67 entries,
+You've used 72 entries,
             6402 wiz_defined-function locations,
-            1622 strings with 22098 characters,
-and the built_in function-call counts, 355681 in all, are:
-= -- 22797
-> -- 8631
-< -- 3005
-+ -- 9232
-- -- 4293
-* -- 23405
-:= -- 33011
+            1653 strings with 22904 characters,
+and the built_in function-call counts, 382808 in all, are:
+= -- 24655
+> -- 9131
+< -- 3201
++ -- 9746
+- -- 4452
+* -- 25328
+:= -- 35546
 add.period$ -- 0
-call.type$ -- 67
-change.case$ -- 94
+call.type$ -- 72
+change.case$ -- 99
 chr.to.int$ -- 312
-cite$ -- 160
-duplicate$ -- 37870
-empty$ -- 34295
-format.name$ -- 3191
-if$ -- 74637
+cite$ -- 170
+duplicate$ -- 40660
+empty$ -- 36941
+format.name$ -- 3479
+if$ -- 80469
 int.to.chr$ -- 0
-int.to.str$ -- 208
+int.to.str$ -- 225
 missing$ -- 0
-newline$ -- 1720
-num.names$ -- 3256
-pop$ -- 22738
+newline$ -- 1840
+num.names$ -- 3533
+pop$ -- 24452
 preamble$ -- 1
-purify$ -- 1629
+purify$ -- 1736
 quote$ -- 0
-skip$ -- 13723
+skip$ -- 14759
 stack$ -- 0
-substring$ -- 37439
-swap$ -- 9821
-text.length$ -- 2162
-text.prefix$ -- 104
+substring$ -- 40614
+swap$ -- 10493
+text.length$ -- 2318
+text.prefix$ -- 113
 top$ -- 1
-type$ -- 2265
+type$ -- 2435
 warning$ -- 0
-while$ -- 3960
+while$ -- 4258
 width$ -- 0
-write$ -- 1654
-(There were 4 error messages)
+write$ -- 1769
+(There were 5 error messages)
