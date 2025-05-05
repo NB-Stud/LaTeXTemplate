@@ -40,6 +40,31 @@
     \field{year}{2024}
   \endentry
 
+  \entry{Alles2024}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Alles},
+         familyi={A\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{AM1}
+    \strng{fullhash}{AM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{All24}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{edition}{1}
+    \field{isbn}{978-3-662-69278-3}
+    \field{title}{Einführung in die elektronische Schaltungstechnik}
+    \field{year}{2024}
+  \endentry
+
   \entry{ArduinoNano33Manual:2022}{online}{}{}
     \list{publisher}{1}{%
       {Arduino}%
@@ -1194,6 +1219,29 @@
     \field{year}{2025}
   \endentry
 
+  \entry{RSOnlineMOSFET:2025}{online}{}{}
+    \name{editor}{1}{}{%
+      {{hash=R}{%
+         family={{RS Components}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{RS }25}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/RSComponents.pdf}{[pdf]}}}
+    \field{title}{MOSFET Leitfaden}
+    \verb{url}
+    \verb https://de.rs-online.com/web/content/discovery-portal/produktratgeber
+    \verb /mosfet-leitfaden
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{Raj:2019}{online}{}{}
     \name{author}{1}{}{%
       {{hash=RA}{%
@@ -1246,8 +1294,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1271,8 +1319,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1295,8 +1343,8 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
+    \strng{namehash}{R2}
+    \strng{fullhash}{R2}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
@@ -1313,6 +1361,33 @@
     \field{year}{2024}
   \endentry
 
+  \entry{ReicheltMOS:2025}{online}{}{}
+    \name{editor}{1}{}{%
+      {{hash=R}{%
+         family={{Reichelt Online}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R3}
+    \strng{fullhash}{R3}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Rei}25}
+    \field{extraalpha}{1}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltMOSFET.pdf}{[pdf]}}}
+    \field{title}{COM - MOS-FET}
+    \verb{url}
+    \verb https://www.reichelt.de/de/de/shop/produkt/entwicklerboards_-_mosfet_
+    \verb irf9540n-316199
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{04}
+    \field{urlmonth}{05}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{ReicheltKipp:2025}{online}{}{}
     \name{editor}{1}{}{%
       {{hash=R}{%
@@ -1320,12 +1395,12 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R3}
+    \strng{fullhash}{R3}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
-    \field{extraalpha}{1}
+    \field{extraalpha}{2}
     \field{sortinit}{R}
     \field{sortinithash}{R}
   \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltKippschalter.pdf}{[pdf]}}}
@@ -1347,12 +1422,12 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R3}
+    \strng{fullhash}{R3}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
-    \field{extraalpha}{2}
+    \field{extraalpha}{3}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{note}{\textcolor{blue}{\href{../../../MLbib/ledOnline.pdf}{[pdf]}}}
@@ -1374,12 +1449,12 @@
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R3}
+    \strng{fullhash}{R3}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}25}
-    \field{extraalpha}{3}
+    \field{extraalpha}{4}
     \field{sortinit}{R}
     \field{sortinithash}{R}
   \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltSchaltnetzteil.pdf}{[pdf]}}}
