@@ -856,6 +856,7 @@ Zusammenfassend bilden Bluetooth-Module das technische Rückgrat für unzählige
 
 \begin{figure}[!ht]
 	\centering
+	\caption{Skizze des Bluetooth Moduls HC-05}
 	\resizebox{1\textwidth}{!}{%
 		\begin{circuitikz}
 			\tikzstyle{every node}=[font=\LARGE]
@@ -943,10 +944,10 @@ Zusammenfassend bilden Bluetooth-Module das technische Rückgrat für unzählige
 			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (7,-42) {\textbf{STATE}};
 		\end{circuitikz}
 	}%
-	\label{fig:my_label}
+	\label{fig:skizzeBluetooth}
 \end{figure}
 
-Das HC-05 ist ein weit verbreitetes Bluetooth-Modul für die drahtlose Serial-Communication (UART). Es eignet sich besonders für Projekte, bei denen Mikrocontroller wie Arduino oder Raspberry Pi kabellos mit Smartphones, PCs oder anderen Geräten kommunizieren sollen. Im Folgenden werden die technischen Spezifikationen, Funktionen und typischen Einsatzgebiete des Moduls vorgestellt.
+Das HC-05 ist ein weit verbreitetes Bluetooth-Modul für die drahtlose Serial-Communication (UART), zu sehen in \ref{fig:skizzeBluetooth}. Es eignet sich besonders für Projekte, bei denen Mikrocontroller wie Arduino oder Raspberry Pi kabellos mit Smartphones, PCs oder anderen Geräten kommunizieren sollen. Im Folgenden werden die technischen Spezifikationen, Funktionen und typischen Einsatzgebiete des Moduls vorgestellt.
 
 \subsection{Spezifikation}
 Das HC-05 ist ein klassisches Bluetooth-Modul, das auf dem Bluetooth-2.0-Standard mit EDR (Enhanced Data Rate) basiert. Dieser Standard ermöglicht eine maximale theoretische Datenrate von 2,1 Mbps, wobei in der Praxis jedoch meist Baudraten zwischen 9600 und 115.200 Baud zum Einsatz kommen – abhängig von der Konfiguration und der Stabilität der Funkverbindung. Das Modul nutzt das 2,4-GHz-ISM-Band und unterteilt dieses in 79 Kanäle, wobei es durch Frequency Hopping (bis zu 1600 Kanalwechsel pro Sekunde) Störungen durch andere Funkgeräte wie WLAN-Router oder Mikrowellen minimiert.
@@ -1004,19 +1005,19 @@ Installation: Download:
 
 
 \subsection{Einfacher Code}
-Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der folgende Code verwendet werden. Der Code überprüft ob das HC-05 mit dem Smartphone verbunden ist und ob die Übertragung von Daten Funktioniert. Um das Smartphone mit dem HC-05 zu verbinden wird ebenfalls ein Code benötigt dieser ist falls er nicht verändert wurde: 1234 oder 0000 falls der Code geändert wurde kann dieser über ein I2C und einem entsprechenden Code ausgelesen werden.
+Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der folgende Code verwendet werden. Der Code überprüft ob das HC-05 mit dem Smartphone verbunden ist und ob die Übertragung von Daten Funktioniert. Um das Smartphone mit dem HC-05 zu verbinden wird ebenfalls ein Code benötigt dieser ist falls er nicht verändert wurde: 1234 oder 0000 falls der Code geändert wurde kann dieser über ein I2C und einem entsprechenden Code ausgelesen werden. \ref{code:bluetoothEinfach}
 
 \begin{code}[H]
 	\caption{Code zur Überprüfung der Funktionalität}
-	\label{code:Einfacher_Code}
-	\ArduinoExternal{}{../../Code/Arduino/Bluetooth Modul/Einfacher_Code/Einfacher_Code.ino}
+	\label{code:bluetoothEinfach}
+	\ArduinoExternal{}{../../Code/Arduino/Bluetooth Modul/bluetoothBeispiel/bluetoothBeispiel.ino}
 \end{code}
 
 
 \subsection{Tests}
 
 \subsection{Einfache Anwendung}
-Als Beispielhafte Anwendung für den HC-05 kann das Modul über einen Arduino und einem Relais mit einer Stehlampe verschaltet  werden. Wenn man das System dann mit einem Smartphone verbindet kann die Stehlampe über das System mit den HC-05 ein und ausgeschaltet werden. Das System kann folgenderweise verbunden werden: 
+Als Beispielhafte Anwendung für den HC-05 kann das Modul über einen Arduino und einem Relais mit einer Stehlampe verschaltet  werden. Zu sehen in folgendem Code: \ref{code:bluetoothAnwendung}. Wenn man das System dann mit einem Smartphone verbindet kann die Stehlampe über das System mit den HC-05 ein und ausgeschaltet werden. Das System kann folgenderweise verbunden werden \ref{tab:Pin Belegung}: 
 \begin{table}[h]
 	\centering
 	\caption{Pin Belegung}
@@ -1035,8 +1036,8 @@ Die Stehlampe wird dann noch mit dem Relais verbunden. Dann kann auch schon der 
 
 \begin{code}[H]
 	\caption{Code zur Überprüfung der Funktionalität}
-	\label{code:Einfache_Anwendung}
-	\ArduinoExternal{}{../../Code/Arduino/Bluetooth Modul/Einfache_Anwendung/Einfache_Anwendung.ino}
+	\label{code:bluetoothAnwendung}
+	\ArduinoExternal{}{../../Code/Arduino/Bluetooth Modul/bluetoothAnwendung/bluetoothAnwendung.ino}
 \end{code}
 		 
 
