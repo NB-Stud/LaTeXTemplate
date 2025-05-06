@@ -2,67 +2,67 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Arduino Nano 33 BLE Sense Rev. 2, see \href {https://store.arduino.cc/arduino-nano-33-ble-sense}{Arduino Store}}}{20}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Arduino Nano 33 BLE Sense Rev. 1}}{21}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Arduino Nano 33 BLE Sense Lite}}{22}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces \relax }}{23}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Pin assignment of the Arduino Nano 33 BLE Sense}}{24}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Circuit diagram microphone}}{29}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Connection with BLE and smartphone}}{30}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Simple sketch to seen Arduino battery }}{30}{figure.2.8}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Arduino Nano 33 BLE Pin Configuration}}{32}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Arduino Nano 33 BLE Sense Rev. 2, see \href {https://store.arduino.cc/arduino-nano-33-ble-sense}{Arduino Store}}}{18}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Arduino Nano 33 BLE Sense Rev. 1}}{19}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Arduino Nano 33 BLE Sense Lite}}{20}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \relax }}{21}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Pin assignment of the Arduino Nano 33 BLE Sense}}{22}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Circuit diagram microphone}}{27}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Connection with BLE and smartphone}}{28}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Simple sketch to seen Arduino battery }}{28}{figure.2.8}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Arduino Nano 33 BLE Pin Configuration}}{30}{figure.caption.14}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Arduino Nano 33 BLE Sense's Reset Button}}{33}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Arduino Nano 33 BLE Sense's Reset Button}}{31}{figure.3.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Arduino Nano 33 BLE Sense's built-in LED with Pin 13}}{35}{figure.4.1}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Arduino Nano 33 BLE Sense's built-in LED with Pin 13}}{33}{figure.4.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Arduino Nano 33 BLE Sense's Power LED with Pin 25}}{39}{figure.5.1}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Arduino Nano 33 BLE Sense's Power LED with Pin 25}}{37}{figure.5.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Arduino Nano 33 BLE Sense's RGB LED with Pin 22, Pin 23, and Pin 24}}{47}{figure.6.1}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Arduino Nano 33 BLE Sense's RGB LED with Pin 22, Pin 23, and Pin 24}}{45}{figure.6.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces The Tiny Machine Learning Shield}}{57}{figure.7.1}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces The Tiny Machine Learning Shield}}{55}{figure.7.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Das Tiny Machine Learning Kit}}{65}{figure.caption.21}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Das Tiny Machine Learning Shield}}{66}{figure.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Pin-Belegung des Tiny Machine Learning Shields}}{66}{figure.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Das OV7675 Kameramodul}}{67}{figure.caption.22}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Ein USB-A auf Micro-USB Kabel}}{67}{figure.caption.23}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Das Tiny Machine Learning Kit}}{63}{figure.caption.21}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Das Tiny Machine Learning Shield}}{64}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Pin-Belegung des Tiny Machine Learning Shields}}{64}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Das OV7675 Kameramodul}}{65}{figure.caption.22}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Ein USB-A auf Micro-USB Kabel}}{65}{figure.caption.23}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Montage des Clips}}{70}{figure.9.1}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Komplettes System mit Batterie}}{70}{figure.9.2}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Batterieclip für 9-Volt-Block\blx@tocontentsinit {0}\cite {Reichelt:2024a}}}{72}{figure.caption.24}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Voltage Sensor 170640 von dem Hersteller \textit {Shenzhen Global Technology Co., Ltd}\blx@tocontentsinit {0}\cite {Shenzhen:2015}}}{72}{figure.9.4}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Testoutput des Spannungssensors}}{74}{figure.caption.26}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Montage des Clips}}{68}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Komplettes System mit Batterie}}{68}{figure.9.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Batterieclip für 9-Volt-Block\blx@tocontentsinit {0}\cite {Reichelt:2024a}}}{70}{figure.caption.24}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Voltage Sensor 170640 von dem Hersteller \textit {Shenzhen Global Technology Co., Ltd}\blx@tocontentsinit {0}\cite {Shenzhen:2015}}}{70}{figure.9.4}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Testoutput des Spannungssensors}}{72}{figure.caption.26}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces JST connector type VH \textcolor {blue}{\url {https://www.jst-mfg.com/product/index.php?series=262}} }}{76}{figure.10.1}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces JST connector type VH \blx@tocontentsinit {0}\cite {JST:2022}}}{77}{figure.10.2}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces JST connector type PHR-2 \blx@tocontentsinit {0}\cite {JST:2022}}}{77}{figure.10.3}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces JST connector type VH \textcolor {blue}{\url {https://www.jst-mfg.com/product/index.php?series=262}} }}{74}{figure.10.1}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces JST connector type VH \blx@tocontentsinit {0}\cite {JST:2022}}}{75}{figure.10.2}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces JST connector type PHR-2 \blx@tocontentsinit {0}\cite {JST:2022}}}{75}{figure.10.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Mikrocontroller gesteckt auf dem Shield}}{79}{figure.11.1}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Grove-Universal-Kabel\blx@tocontentsinit {0}\cite {Reichelt:2024b}}}{80}{figure.caption.27}%
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Grove Jumper zu Grove 4 Pin-Kabel\blx@tocontentsinit {0}\cite {Reichelt:2024g}}}{80}{figure.11.3}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Mikrocontroller gesteckt auf dem Shield}}{77}{figure.11.1}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Grove-Universal-Kabel\blx@tocontentsinit {0}\cite {Reichelt:2024b}}}{78}{figure.caption.27}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Grove Jumper zu Grove 4 Pin-Kabel\blx@tocontentsinit {0}\cite {Reichelt:2024g}}}{78}{figure.11.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces BLE Devices -- Peripheral and Central Devices}}{84}{figure.caption.28}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Step 2: Creating the Custom Android Menus and Generating the Code}}{85}{figure.caption.29}%
-\contentsline {figure}{\numberline {12.3}{\ignorespaces App nRF is searching the Arduino Nano BLE Sense}}{86}{figure.12.3}%
-\contentsline {figure}{\numberline {12.4}{\ignorespaces App nRF is searching the Arduino Nano BLE Sense}}{87}{figure.12.4}%
-\contentsline {figure}{\numberline {12.5}{\ignorespaces App nRF is getting data the Arduino Nano BLE Sense}}{87}{figure.12.5}%
-\contentsline {figure}{\numberline {12.6}{\ignorespaces BLE Devices -- Peripheral and Central Devices}}{90}{figure.caption.30}%
-\contentsline {figure}{\numberline {12.7}{\ignorespaces Battery app ``nRF Connect''}}{92}{figure.caption.32}%
-\contentsline {figure}{\numberline {12.8}{\ignorespaces nRF Connect Screen}}{95}{figure.caption.41}%
-\contentsline {figure}{\numberline {12.9}{\ignorespaces Accelerometer Values Read from Arduino Using BLE}}{96}{figure.caption.42}%
-\contentsline {figure}{\numberline {12.10}{\ignorespaces Bluetooth Connection}}{97}{figure.12.10}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces BLE Devices -- Peripheral and Central Devices}}{82}{figure.caption.28}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Step 2: Creating the Custom Android Menus and Generating the Code}}{83}{figure.caption.29}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces App nRF is searching the Arduino Nano BLE Sense}}{84}{figure.12.3}%
+\contentsline {figure}{\numberline {12.4}{\ignorespaces App nRF is searching the Arduino Nano BLE Sense}}{85}{figure.12.4}%
+\contentsline {figure}{\numberline {12.5}{\ignorespaces App nRF is getting data the Arduino Nano BLE Sense}}{85}{figure.12.5}%
+\contentsline {figure}{\numberline {12.6}{\ignorespaces BLE Devices -- Peripheral and Central Devices}}{88}{figure.caption.30}%
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Battery app ``nRF Connect''}}{90}{figure.caption.32}%
+\contentsline {figure}{\numberline {12.8}{\ignorespaces nRF Connect Screen}}{93}{figure.caption.41}%
+\contentsline {figure}{\numberline {12.9}{\ignorespaces Accelerometer Values Read from Arduino Using BLE}}{94}{figure.caption.42}%
+\contentsline {figure}{\numberline {12.10}{\ignorespaces Bluetooth Connection}}{95}{figure.12.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{106}{figure.caption.43}%
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Aufbau eines Schaltnetzteils}}{123}{figure.caption.64}%
-\contentsline {figure}{\numberline {13.3}{\ignorespaces Skizze des Netzteils}}{124}{figure.caption.66}%
-\contentsline {figure}{\numberline {13.4}{\ignorespaces Spannungsmessung des Netzteils}}{125}{figure.caption.67}%
-\contentsline {figure}{\numberline {13.5}{\ignorespaces Anwendung des Netzteils für 2 seperate Stromkreise}}{125}{figure.caption.68}%
-\contentsline {figure}{\numberline {13.6}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{129}{figure.caption.74}%
-\contentsline {figure}{\numberline {13.7}{\ignorespaces Skizze der Schaltertypen}}{134}{figure.caption.78}%
-\contentsline {figure}{\numberline {13.8}{\ignorespaces Messen des Widerstands}}{135}{figure.caption.79}%
-\contentsline {figure}{\numberline {13.9}{\ignorespaces Einfache Anwendung des Schalters}}{135}{figure.caption.80}%
-\contentsline {figure}{\numberline {13.10}{\ignorespaces Skizze des MOS-FETs}}{137}{figure.caption.81}%
-\contentsline {figure}{\numberline {13.11}{\ignorespaces Aufbau einer LED}}{140}{figure.caption.87}%
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{104}{figure.caption.43}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Aufbau eines Schaltnetzteils}}{121}{figure.caption.64}%
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Skizze des Netzteils}}{122}{figure.caption.66}%
+\contentsline {figure}{\numberline {13.4}{\ignorespaces Spannungsmessung des Netzteils}}{123}{figure.caption.67}%
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Anwendung des Netzteils für 2 seperate Stromkreise}}{123}{figure.caption.68}%
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{127}{figure.caption.74}%
+\contentsline {figure}{\numberline {13.7}{\ignorespaces Skizze der Schaltertypen}}{132}{figure.caption.78}%
+\contentsline {figure}{\numberline {13.8}{\ignorespaces Messen des Widerstands}}{133}{figure.caption.79}%
+\contentsline {figure}{\numberline {13.9}{\ignorespaces Einfache Anwendung des Schalters}}{133}{figure.caption.80}%
+\contentsline {figure}{\numberline {13.10}{\ignorespaces Skizze des MOS-FETs}}{135}{figure.caption.81}%
+\contentsline {figure}{\numberline {13.11}{\ignorespaces Aufbau einer LED}}{138}{figure.caption.87}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
