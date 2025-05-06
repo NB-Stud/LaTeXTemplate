@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  5 MAY 2025 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  6 MAY 2025 08:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6221,6 +6221,24 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 ]
 chapter 14.
 
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 20--21
+\T1/lmr/m/n/10 (+20) - HC-05 Blue^^?
+ []
+
+<../../Images/MateriallisteBilder/bluetoothModul.png, id=3618, 602.25pt x 224.8
+4pt>
+File: ../../Images/MateriallisteBilder/bluetoothModul.png Graphic file (type pn
+g)
+<use ../../Images/MateriallisteBilder/bluetoothModul.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/bluetoothModul.png  u
+sed on input line 22.
+(pdftex.def)             Requested size: 55.4806pt x 20.7116pt.
+
 ! LaTeX Error: Unicode character   (U+202F)
                not set up for use with LaTeX.
 
@@ -6228,7 +6246,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 	1 & Schaltnetzteil 50 
+l.24 	1 & Schaltnetzteil 50 
                               W (5 V / 12 V, 6 A) geschlossen
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6241,7 +6259,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 	1 & Schaltnetzteil 50 W (5 
+l.24 	1 & Schaltnetzteil 50 W (5 
                                      V / 12 V, 6 A) geschlossen
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6254,7 +6272,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 	1 & Schaltnetzteil 50 W (5 V / 12 
+l.24 	1 & Schaltnetzteil 50 W (5 V / 12 
                                               V, 6 A) geschlossen
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6267,28 +6285,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 ...chaltnetzteil 50 W (5 V / 12 V, 6 
+l.24 ...chaltnetzteil 50 W (5 V / 12 V, 6 
                                                   A) geschlossen
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 21--22
+Underfull \hbox (badness 3343) in paragraph at lines 25--26
 \T1/lmr/m/n/10 (+20) - Schalt^^?net^^?zteil
  []
 
-<../../Images/MateriallisteBilder/netzteilBild.png, id=3618, 602.25pt x 451.687
+<../../Images/MateriallisteBilder/netzteilBild.png, id=3620, 602.25pt x 451.687
 5pt>
 File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 
 <use ../../Images/MateriallisteBilder/netzteilBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
-d on input line 23.
+d on input line 27.
 (pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
 
 ! LaTeX Error: Unicode character   (U+202F)
@@ -6298,7 +6316,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 	1 & COMET Niedervolt Tauchpumpe 12 
+l.29 	1 & COMET Niedervolt Tauchpumpe 12 
                                            V, 600 l/h, 5{,}5 m
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6311,7 +6329,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 ...COMET Niedervolt Tauchpumpe 12 V, 600 
+l.29 ...COMET Niedervolt Tauchpumpe 12 V, 600 
                                                   l/h, 5{,}5 m
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6324,17 +6342,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 ...olt Tauchpumpe 12 V, 600 l/h, 5{,}5 
+l.29 ...olt Tauchpumpe 12 V, 600 l/h, 5{,}5 
                                                   m
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<../../Images/MateriallisteBilder/pumpeBild.png, id=3620, 1003.75pt x 1003.75pt
+<../../Images/MateriallisteBilder/pumpeBild.png, id=3622, 1003.75pt x 1003.75pt
 >
 File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpeBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/pumpeBild.png  used o
-n input line 28.
+n input line 32.
 (pdftex.def)             Requested size: 55.4806pt x 55.47444pt.
 
 ! LaTeX Error: Unicode character   (U+202F)
@@ -6344,7 +6362,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 	1 & Blaue LED-Signalleuchte 12 
+l.34 	1 & Blaue LED-Signalleuchte 12 
                                        V, 8 mm, 600 mcd
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6357,7 +6375,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 	1 & Blaue LED-Signalleuchte 12 V, 8 
+l.34 	1 & Blaue LED-Signalleuchte 12 V, 8 
                                               mm, 600 mcd
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6370,27 +6388,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 ...e LED-Signalleuchte 12 V, 8 mm, 600 
+l.34 ...e LED-Signalleuchte 12 V, 8 mm, 600 
                                                   mcd
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 30--31
+Underfull \hbox (badness 1087) in paragraph at lines 34--35
 []|\T1/lmr/m/n/10 (+20) Blaue LED-Sig^^?nalleuchte 12V, 8mm,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/blaueLED.png, id=3622, 602.25pt x 296.10625pt
+<../../Images/MateriallisteBilder/blaueLED.png, id=3624, 602.25pt x 296.10625pt
 >
 File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/blaueLED.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/blaueLED.png  used on
- input line 33.
+ input line 37.
 (pdftex.def)             Requested size: 55.4806pt x 27.27643pt.
 
 ! LaTeX Error: Unicode character   (U+202F)
@@ -6400,7 +6418,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 	1 & Grüne LED-Signalleuchte 12 
+l.39 	1 & Grüne LED-Signalleuchte 12 
                                         V, 8 mm, 1300 mcd
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6413,7 +6431,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 	1 & Grüne LED-Signalleuchte 12 V, 8 
+l.39 	1 & Grüne LED-Signalleuchte 12 V, 8 
                                                mm, 1300 mcd
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6426,39 +6444,39 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ... LED-Signalleuchte 12 V, 8 mm, 1300 
+l.39 ... LED-Signalleuchte 12 V, 8 mm, 1300 
                                                   mcd
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/greenLED.png, id=3624, 602.25pt x 351.3125pt>
+<../../Images/MateriallisteBilder/greenLED.png, id=3626, 602.25pt x 351.3125pt>
 
 File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/greenLED.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/greenLED.png  used on
- input line 38.
+ input line 42.
 (pdftex.def)             Requested size: 55.4806pt x 32.36188pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \T1/lmr/m/n/10 (+20) - IRF9540N
  []
 
-<../../Images/MateriallisteBilder/mosfetBild.png, id=3626, 602.25pt x 454.69875
+<../../Images/MateriallisteBilder/mosfetBild.png, id=3628, 602.25pt x 454.69875
 pt>
 File: ../../Images/MateriallisteBilder/mosfetBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/mosfetBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/mosfetBild.png  used 
-on input line 43.
+on input line 47.
 (pdftex.def)             Requested size: 55.4806pt x 41.88551pt.
 
 ! LaTeX Error: Unicode character   (U+202F)
@@ -6468,7 +6486,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 	1 & Miniatur-Kippschalter EIN/AUS 3 
+l.48 ...mn{4}{c}{\footnotesize(3 × 1{,}20 €)}
+                                                   \\ \hline
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 	1 & Miniatur-Kippschalter EIN/AUS 3 
                                             A, 125 V
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -6481,144 +6512,54 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...iniatur-Kippschalter EIN/AUS 3 A, 125 
+l.50 ...iniatur-Kippschalter EIN/AUS 3 A, 125 
                                                   V
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 45--46
+Underfull \hbox (badness 2205) in paragraph at lines 50--51
 []|\T1/lmr/m/n/10 (+20) Miniatur-Kippschalter EIN/AUS 3A,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/kippschalterBild.png, id=3628, 602.25pt x 141
+<../../Images/MateriallisteBilder/kippschalterBild.png, id=3630, 602.25pt x 141
 2.27625pt>
 File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
 png)
 <use ../../Images/MateriallisteBilder/kippschalterBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/kippschalterBild.png 
- used on input line 48.
+ used on input line 53.
 (pdftex.def)             Requested size: 27.7403pt x 65.0366pt.
-)
-
-[139 <../../Images/MateriallisteBilder/netzteilBild.png> <../../Images/Material
-listeBilder/pumpeBild.png> <../../Images/MateriallisteBilder/blaueLED.png> <../
-../Images/MateriallisteBilder/greenLED.png> <../../Images/MateriallisteBilder/m
-osfetBild.png> <../../Images/MateriallisteBilder/kippschalterBild.png>]
-
-[140
+[139 <../../Images/MateriallisteBilder/bluetoothModul.png> <../../Images/Materi
+allisteBilder/netzteilBild.png> <../../Images/MateriallisteBilder/pumpeBild.png
+> <../../Images/MateriallisteBilder/blaueLED.png> <../../Images/MateriallisteBi
+lder/greenLED.png> <../../Images/MateriallisteBilder/mosfetBild.png>])
 
 
-]
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[140 <../../Images/MateriallisteBilder/kippschalterBild.png>]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 214.
 
 
-[141]
-
-[142] (../../Contents/Nano33BLESense/MateriallisteNano.tex
-chapter 15.
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-[]|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 19--20
-\T1/lmr/m/n/10 (+20) - ARD NANO
- []
-
-<../../Images/Nano33BLESense/abx00031_front_1_2.jpg, id=3671, 376.40625pt x 282
-.30469pt>
-File: ../../Images/Nano33BLESense/abx00031_front_1_2.jpg Graphic file (type jpg
-)
-<use ../../Images/Nano33BLESense/abx00031_front_1_2.jpg>
-Package pdftex.def Info: ../../Images/Nano33BLESense/abx00031_front_1_2.jpg  us
-ed on input line 21.
-(pdftex.def)             Requested size: 73.97603pt x 55.4821pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-[]|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 24--25
-\T1/lmr/m/n/10 (+20) - ARD NANO
- []
-
-<../../Images/Nano33BLESense/ARDNanano33BSH2.png, id=3673, 579.16376pt x 230.86
-25pt>
-File: ../../Images/Nano33BLESense/ARDNanano33BSH2.png Graphic file (type png)
-<use ../../Images/Nano33BLESense/ARDNanano33BSH2.png>
-Package pdftex.def Info: ../../Images/Nano33BLESense/ARDNanano33BSH2.png  used 
-on input line 26.
-(pdftex.def)             Requested size: 73.97603pt x 29.48477pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-[]|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-\T1/lmr/m/n/10 (+20) - ARD Kit
- []
-
-<../../Images/Nano33BLESense/ArduinoKit.png, id=3675, 903.375pt x 581.17125pt>
-File: ../../Images/Nano33BLESense/ArduinoKit.png Graphic file (type png)
-<use ../../Images/Nano33BLESense/ArduinoKit.png>
-Package pdftex.def Info: ../../Images/Nano33BLESense/ArduinoKit.png  used on in
-put line 31.
-(pdftex.def)             Requested size: 73.97603pt x 47.5854pt.
-
-Overfull \hbox (13.54993pt too wide) in paragraph at lines 34--35
-[]|[]\T1/lmr/m/n/10 (-20) www.welectron.com
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-\T1/lmr/m/n/10 (+20) - Ar^^?d^^?u^^?cam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-\T1/lmr/m/n/10 (+20) B0226 Lens
- []
-
-<../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg, id=3677, 1290.82
-25pt x 980.66376pt>
-File: ../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg Graphic file
- (type jpg)
-<use ../../Images/CAM/LensCalibrationTool/LensCalibrationTool.jpg>
-Package pdftex.def Info: ../../Images/CAM/LensCalibrationTool/LensCalibrationTo
-ol.jpg  used on input line 36.
-(pdftex.def)             Requested size: 73.97603pt x 56.1887pt.
-<../../Images/Nano33BLESense/case.png, id=3679, 803.0pt x 602.25pt>
-File: ../../Images/Nano33BLESense/case.png Graphic file (type png)
-<use ../../Images/Nano33BLESense/case.png>
-Package pdftex.def Info: ../../Images/Nano33BLESense/case.png  used on input li
-ne 39.
-(pdftex.def)             Requested size: 73.97603pt x 55.47751pt.
-)
-
-[143
-
-
- <../../Images/Nano33BLESense/abx00031_front_1_2.jpg> <../../Images/Nano33BLESe
-nse/ARDNanano33BSH2.png> <../../Images/Nano33BLESense/ArduinoKit.png> <../../Im
-ages/CAM/LensCalibrationTool/LensCalibrationTool.jpg> <../../Images/Nano33BLESe
-nse/case.png (PNG copy)>]
-
-[144
+[141
 
 
 ]
+
+[142]
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
@@ -6632,7 +6573,10 @@ wiki -[] content . arduino . cc / en / Guide / NANO33BLESense$[]\T1/lmr/m/n/10
 
 
 
-[145]
+[143
+
+
+]
 Overfull \hbox (27.88615pt too wide) in paragraph at lines 262--262
 \T1/pcr/l/it/10 de / de / mitwirken / normenausschuesse / nam / veroeffentlichu
 ngen /
@@ -6672,7 +6616,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[146]
+[144]
 Overfull \hbox (10.41827pt too wide) in paragraph at lines 262--262
 \T1/lmr/m/it/10 (-20) men-tieren mit Ar-duino und Rasp-berry Pi\T1/lmr/m/n/10 (
 -20) . dpunkt, 2014. \T1/lmr/m/sc/10 (-20) isbn\T1/lmr/m/n/10 (-20) : 978338649
@@ -6702,7 +6646,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[147]
+[145]
 Overfull \hbox (11.72404pt too wide) in paragraph at lines 262--262
 []\T1/lmr/m/n/10 (-20) H. Schulz. \T1/lmr/m/it/10 (-20) Die Pumpen: Ar-beitswei
 se, Berech-nung, Kon-struk-tion\T1/lmr/m/n/10 (-20) . Springer-Ver^^?
@@ -6724,7 +6668,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[148]
+[146]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6733,9 +6677,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[149]
+[147]
 
-[150
+[148
 
 
 ]
@@ -6745,9 +6689,9 @@ runsystem(makeindex Nano33BLESense.idx)...executed safely (allowed).
 
 
 
-[151
+[149
 
-]) (./Nano33BLESense.aux)
+]) [150] (./Nano33BLESense.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -6761,6 +6705,9 @@ LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
+
+
+LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
 
 Package rerunfilecheck Info: File `Nano33BLESense.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -6779,37 +6726,41 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 77 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 106431 strings out of 473190
- 2815201 string characters out of 5716853
- 4559848 words of memory out of 5000000
- 125674 multiletter control sequences out of 15000+600000
+ 106348 strings out of 473190
+ 2811648 string characters out of 5716853
+ 4559847 words of memory out of 5000000
+ 125597 multiletter control sequences out of 15000+600000
  759367 words of font info for 456 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,13n,134p,10909b,3379s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/fe
-ybr10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.
-pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><c:/LaT
-eX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/LaTeX/texlive/2
-025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/LaTeX/texlive/2025/texmf-di
-st/fonts/type1/public/lm/lmcsc10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/ty
-pe1/public/lm/lmmi10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/l
-m/lmmi7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><
-c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/LaTeX/texl
-ive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/LaTeX/texlive/2025/texm
-f-dist/fonts/type1/public/lm/lmr5.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/t
-ype1/public/lm/lmr7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm
-/lmr8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c
-:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/LaTeX/texl
-ive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/LaTeX/texlive/2025/tex
-mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmssbx10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/pub
-lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
-.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
-aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (151 pages, 9414199 bytes).
+
+pdfTeX warning (dest): name{chapter.15} has been referenced but does not exist,
+ replaced by a fixed one
+
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb><c:/La
+TeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/LaTeX/te
+xlive/2025/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><c:/LaTeX/texlive/2025/
+texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/LaTeX/texlive/2025/texmf-dist/f
+onts/type1/public/lm/lmbx12.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/p
+ublic/lm/lmcsc10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lm
+mi10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/
+LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/LaTeX/texlive
+/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/LaTeX/texlive/2025/texmf-d
+ist/fonts/type1/public/lm/lmr17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/typ
+e1/public/lm/lmr5.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/l
+mr7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/La
+TeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/LaTeX/texlive/
+2025/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/LaTeX/texlive/2025/texmf-d
+ist/fonts/type1/public/lm/lmss17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/ty
+pe1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm
+/lmssbx10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pf
+b><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/LaTeX/t
+exlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/LaTeX/texlive/202
+5/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on Nano33BLESense.pdf (150 pages, 8258230 bytes).
 PDF statistics:
- 5074 PDF objects out of 5155 (max. 8388607)
- 4727 compressed objects within 48 object streams
- 2347 named destinations out of 2487 (max. 500000)
- 102241 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 5044 PDF objects out of 5155 (max. 8388607)
+ 4703 compressed objects within 48 object streams
+ 2344 named destinations out of 2487 (max. 500000)
+ 102213 words of extra memory for PDF output out of 106986 (max. 10000000)
 
