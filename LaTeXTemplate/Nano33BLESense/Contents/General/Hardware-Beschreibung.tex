@@ -1301,10 +1301,15 @@ Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spann
 %\subsection{Einfacher Code}
 
 \subsection{Tests}
-
+Um einen MOS-FET zu testen, kann man eine einfache Widerstandsmessung mit einem Multimeter durchführen. Zuerst stellt man das Multimeter auf Widerstandsmessung und verbindet die Messspitzen mit den Drain- und Source-Anschlüssen des MOS-FETs. Ist keine Spannung am Gate angelegt, sollte der Widerstand zwischen Drain und Source hoch sein, was bedeutet, dass der MOS-FET „aus“ ist und keinen Strom fließen lässt. Wird jedoch eine Spannung (z. B. 9V) zwischen Gate und Source angelegt, sollte der Widerstand zwischen Drain und Source stark sinken, da der MOS-FET nun „ein“ ist und den Stromfluss ermöglicht. Diese einfache Prüfung bestätigt, ob der MOS-FET ordnungsgemäß funktioniert.
 \subsection{Einfache Anwendung}
-
-\subsection{Further Readings}
+In dieser einfachen Schaltung wird ein MOS-FET (z.B. IRF9540N) verwendet, um eine LED ein- und auszuschalten. Der Gate-Anschlus des MOS-FETs wird direkt von einem digitalen Ausgang eines Mikrocontrollers (z.B Arduino) angesteuert. Wenn das Gate auf einen bestimmten Pegel geschaltet wird, leitet der MOS-FET und die LED leuchtet. Wird das Gate-Signal entfernt oder umgekehrt, unterbricht der MOS-FET den Stromfluss und die LED geht aus. Diese Anwendung zeigt das grundlegende Prinzip: ein kleiner Steuerstrom am Gate kann eine größere Last im Drain-Source-Zweig ein- oder ausschalten. 
+\begin{code}[H]
+	\caption{Einfacher Code zum Verwenden des MOS-FETs}
+	\label{code:AnwendungMOSFET}
+	\ArduinoExternal{}{../../Code/Arduino/MOSFET/simpleMOSFET.ino}
+\end{code}
+%\subsection{Further Readings}
 
 \section{Externe LED}
 \subsection{Einleitung}
