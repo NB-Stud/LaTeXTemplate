@@ -1271,7 +1271,7 @@ Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spann
 \end{figure}
 
 \subsection{Spezifikation}
-\subsubsection{Hauptmerkmale}
+\subsubsection{Hauptmerkmale \cite{ReicheltMOS:2025}}
 \begin{itemize}
 	\item Modell: IRF9540N
 	\item Farbe der Platine: Schwarz
@@ -1283,7 +1283,7 @@ Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spann
 	\item Maximale Eingangsstrom: 2 A
 \end{itemize}
 
-\subsubsection{Steuerung und Anschlüsse}
+\subsubsection{Steuerung und Anschlüsse \cite{ReicheltMOS:2025}}
 \begin{itemize}
 	\item Steuerspannung: Mindestspannung 2 V
 	\item Anschlüsse:
@@ -1291,24 +1291,37 @@ Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spann
 		\item 2x 2 Pin Anschlussblöcke
 		\item 4 Pin female JST-Buchse
 	\end{itemize}
-	\item Pinbelegung der JST-Buchse:
-	\begin{itemize}
-		\item 1. GND: Ground
-		\item 2. VCC: Spannung
-		\item 3. NC: Nicht verbunden
-		\item 4. SIG: Signal
-	\end{itemize}
-\end{itemize}
-%\subsection{Einfacher Code}
+	\item Pinbelegung gemäß der Tabelle \ref{PinBelegungMOSFET}
 
+		\begin{center}
+			\captionof{table}{Pinbelegung für das MOS-FET \cite{ReicheltMOSFETManual:2025}}
+			\begin{tabular}{c|c}
+				Arduino & MOS-FET\\ \hline
+				GND & GND (Pin1)\\
+				5V & VCC (Pin2)\\
+				NC & NC (Pin3)\\
+				Digital Pin 2 & Signal (Pin4)\\
+			\end{tabular}
+			\label{PinBelegungMOSFET}
+		\end{center}
+	\end{itemize}
+\subsection{Einfacher Code}
+Dies ist ein einfacher Code zur Ansteuerung eines MOSFETs.
+Wird der Signal-Pin auf High gesetzt, aktiviert sich der Ausgang.
+Im folgenden Codebeispiel wird der Ausgang alle 15 Sekunden für eine Dauer von 10 Sekunden eingeschaltet.\cite{ReicheltMOSFETManual:2025}
+\begin{code}[H]
+	\caption{Einfacher Code zum Testen des MOS-FETs}
+	\label{code:simpleMOSFET}
+	\ArduinoExternal{}{../../Code/Arduino/MOSFET/simpleMOSFET.ino}
+\end{code}
 \subsection{Tests}
 Um einen MOS-FET zu testen, kann man eine einfache Widerstandsmessung mit einem Multimeter durchführen. Zuerst stellt man das Multimeter auf Widerstandsmessung und verbindet die Messspitzen mit den Drain- und Source-Anschlüssen des MOS-FETs. Ist keine Spannung am Gate angelegt, sollte der Widerstand zwischen Drain und Source hoch sein, was bedeutet, dass der MOS-FET „aus“ ist und keinen Strom fließen lässt. Wird jedoch eine Spannung (z. B. 9V) zwischen Gate und Source angelegt, sollte der Widerstand zwischen Drain und Source stark sinken, da der MOS-FET nun „ein“ ist und den Stromfluss ermöglicht. Diese einfache Prüfung bestätigt, ob der MOS-FET ordnungsgemäß funktioniert.
 \subsection{Einfache Anwendung}
 In dieser einfachen Schaltung wird ein MOS-FET (z.B. IRF9540N) verwendet, um eine LED ein- und auszuschalten. Der Gate-Anschlus des MOS-FETs wird direkt von einem digitalen Ausgang eines Mikrocontrollers (z.B Arduino) angesteuert. Wenn das Gate auf einen bestimmten Pegel geschaltet wird, leitet der MOS-FET und die LED leuchtet. Wird das Gate-Signal entfernt oder umgekehrt, unterbricht der MOS-FET den Stromfluss und die LED geht aus. Diese Anwendung zeigt das grundlegende Prinzip: ein kleiner Steuerstrom am Gate kann eine größere Last im Drain-Source-Zweig ein- oder ausschalten. 
 \begin{code}[H]
-	\caption{Einfacher Code zum Verwenden des MOS-FETs}
+	\caption{Einfache Anwendung zum Verwenden des MOS-FETs}
 	\label{code:AnwendungMOSFET}
-	\ArduinoExternal{}{../../Code/Arduino/MOSFET/simpleMOSFET.ino}
+	\ArduinoExternal{}{../../Code/Arduino/MOSFET/testMOSFET.ino}
 \end{code}
 %\subsection{Further Readings}
 
