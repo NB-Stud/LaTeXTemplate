@@ -45,8 +45,10 @@
 \contentsline {code}{\numberline {13.4}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{120}{code.caption.62}%
 \contentsline {code}{\numberline {13.5}{\ignorespaces Einfacher Code zur Fehlererkennung}}{122}{code.caption.63}%
 \contentsline {code}{\numberline {13.6}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{126}{code.caption.69}%
-\contentsline {code}{\numberline {13.7}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{136}{code.caption.79}%
-\contentsline {code}{\numberline {13.8}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{137}{code.caption.80}%
+\contentsline {code}{\numberline {13.7}{\ignorespaces Code zur Überprüfung der Funktionalität}}{131}{code.caption.75}%
+\contentsline {code}{\numberline {13.8}{\ignorespaces Code zur Überprüfung der Funktionalität}}{132}{code.caption.77}%
+\contentsline {code}{\numberline {13.9}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{139}{code.caption.87}%
+\contentsline {code}{\numberline {13.10}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{140}{code.caption.88}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
