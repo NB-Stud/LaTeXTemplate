@@ -33,23 +33,26 @@
 \contentsline {code}{\numberline {7.4}{\ignorespaces Simple sketch connects the push button with an interrupt.}}{60}{code.7.4}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {9.1}{\ignorespaces Beispiel-Sketch zum Testen der Batterie}}{73}{code.caption.25}%
+\addvspace {10\p@ }
+\contentsline {code}{\numberline {10.1}{\ignorespaces Arduino BLE Tutorial Battery Level Indicator Code}}{79}{code.caption.25}%
+\addvspace {10\p@ }
+\contentsline {code}{\numberline {11.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{101}{code.caption.41}%
+\contentsline {code}{\numberline {11.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{103}{code.caption.42}%
+\contentsline {code}{\numberline {11.3}{\ignorespaces Code für die Messung einer Strecke}}{105}{code.caption.43}%
+\addvspace {10\p@ }
+\contentsline {code}{\numberline {12.1}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{113}{code.caption.44}%
+\contentsline {code}{\numberline {12.2}{\ignorespaces Einfacher Code zur Fehlererkennung}}{115}{code.caption.45}%
+\addvspace {10\p@ }
+\contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{121}{code.caption.51}%
+\addvspace {10\p@ }
+\contentsline {code}{\numberline {14.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{127}{code.caption.53}%
+\contentsline {code}{\numberline {14.2}{\ignorespaces Code zur Überprüfung der Funktionalität}}{128}{code.caption.55}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {code}{\numberline {16.1}{\ignorespaces Einfacher Code zum Testen des MOS-FETs}}{139}{code.caption.65}%
+\contentsline {code}{\numberline {16.2}{\ignorespaces Einfache Anwendung zum Verwenden des MOS-FETs}}{140}{code.caption.66}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {12.1}{\ignorespaces Arduino BLE Tutorial Battery Level Indicator Code}}{89}{code.caption.31}%
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{109}{code.caption.47}%
-\contentsline {code}{\numberline {13.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{111}{code.caption.48}%
-\contentsline {code}{\numberline {13.3}{\ignorespaces Code für die Messung einer Strecke}}{113}{code.caption.50}%
-\contentsline {code}{\numberline {13.4}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{120}{code.caption.62}%
-\contentsline {code}{\numberline {13.5}{\ignorespaces Einfacher Code zur Fehlererkennung}}{122}{code.caption.63}%
-\contentsline {code}{\numberline {13.6}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{126}{code.caption.69}%
-\contentsline {code}{\numberline {13.7}{\ignorespaces Code zur Überprüfung der Funktionalität}}{131}{code.caption.75}%
-\contentsline {code}{\numberline {13.8}{\ignorespaces Code zur Überprüfung der Funktionalität}}{133}{code.caption.77}%
-\contentsline {code}{\numberline {13.9}{\ignorespaces Einfacher Code zum Testen des MOS-FETs}}{139}{code.caption.87}%
-\contentsline {code}{\numberline {13.10}{\ignorespaces Einfache Anwendung zum Verwenden des MOS-FETs}}{140}{code.caption.88}%
-\contentsline {code}{\numberline {13.11}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{142}{code.caption.90}%
-\contentsline {code}{\numberline {13.12}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{143}{code.caption.91}%
+\contentsline {code}{\numberline {17.1}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{143}{code.caption.68}%
+\contentsline {code}{\numberline {17.2}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{144}{code.caption.69}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

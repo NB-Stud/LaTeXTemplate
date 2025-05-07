@@ -1,0 +1,138 @@
+%%%
+%
+% $Autor: Gruppe 05 $
+% $Datum: 2025-05-02 $
+% $Dateiname: Externe LED
+% $Version: 1 $
+%
+% !TeX spellcheck = de_DE/GB
+% !TeX program = pdflatex
+% !BIB program = biber/bibtex
+% !TeX encoding = utf8
+%
+%%%
+
+
+\chapter{Externe LED}
+\section{Einleitung}
+Leuchtdioden, kurz LEDs (Light Emitting Diodes), sind aus der heutigen Elektronik nicht mehr wegzudenken. Sie bieten eine energieeffiziente, langlebige und kompakte Lösung zur Lichterzeugung – sei es in Haushaltsgeräten, Automobiltechnik, Signalanlagen oder modernen Beleuchtungssystemen. Aufgrund ihrer hohen Schaltgeschwindigkeit und Robustheit sind LEDs auch in der Kommunikationstechnik und im Maschinenbau weit verbreitet. \cite{Haeberle:2018} \cite{Hering:2024}
+
+\section{Grundlegende Informationen}
+Eine LED ist eine spezielle Form der Diode, die bei Durchfluss eines elektrischen Stroms Licht emittiert. Im Gegensatz zu herkömmlichen Glühlampen erzeugen LEDs Licht nicht durch Erhitzen eines Drahts, sondern durch sogenannte Elektrolumineszenz: Elektronen und \glqq Löcher\grqq  rekombinieren in einem Halbleitermaterial (meist Gallium- oder Siliciumverbindungen). Rekombinieren bedeutet, dass ein freies Elektron in ein Loch fällt und dessen Energieplatz im Kristallgitter besetzt. Dabei verliert das Elektron Energie – diese Energie wird nicht als Wärme, sondern als Licht (Photon) abgegeben. Die Menge an Energie, die beim Rekombinieren freigesetzt wird, entspricht der Bandlücke des Halbleitermaterials – also dem Unterschied zwischen dem Energiezustand des Elektrons und dem des Lochs. Diese Energie wird als Licht einer bestimmten Farbe (also mit bestimmter Wellenlänge) abgestrahlt. Eine große Bandlücke bedeutet kurzwelliges Licht (Blau, UV) und eine kurze Bandlücke bedeutet langwelliges Licht (Rot). \cite{Haeberle:2018} \cite{Hering:2024} \cite{Falcon:2025}
+
+Grundlegend ist eine LED wie in \ref{skizzeLED} mit den folgenden Komponenten aufgebaut:
+\begin{itemize}
+	\item Anode und Kathode (positive und negative Anschlüsse)
+	\item LED - Chip, der das Licht erzeugt
+	\item Halbleiter-Kristall (Silicium/Germanium)
+	\item Epoxidharzgehäuse: schützt das Bauteil und lässt das Licht ausstrahlen
+	\item Gegebenenfalls Vorlaufwiderstand 
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\caption{Aufbau einer LED}
+	\label{skizzeLED}
+	\resizebox{0.6\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ line width=2pt ] (2.5,14) rectangle (17.5,11.5);
+			\draw [line width=2pt, short] (3.75,11.5) -- (3.75,4);
+			\draw [line width=2pt, short] (6.25,11.5) -- (6.25,4);
+			\draw [line width=2pt, short] (16.25,11.5) -- (16.25,4);
+			\draw [line width=2pt, short] (13.75,4) -- (13.75,11.5);
+			\draw [line width=2pt, dashed] (3.75,11.5) -- (3.75,14);
+			\draw [line width=2pt, dashed] (6.25,11.5) -- (6.25,14);
+			\draw [line width=2pt, dashed] (13.75,11.5) -- (13.75,14);
+			\draw [line width=2pt, dashed] (16.25,11.5) -- (16.25,14);
+			\draw [line width=2pt, short] (6.25,14) -- (6.25,16.5);
+			\draw [line width=2pt, short] (6.25,16.5) -- (5,16.5);
+			\draw [line width=2pt, short] (5,16.5) -- (5,22.75);
+			\draw [line width=2pt, short] (3.75,14) -- (3.75,22.75);
+			\draw [line width=2pt, short] (3.75,22.75) -- (5,22.75);
+			\draw [line width=2pt, short] (16.25,14) -- (16.25,22.75);
+			\draw [line width=2pt, short] (13.75,14) -- (13.75,17.75);
+			\draw [line width=2pt, short] (13.75,17.75) -- (11.25,17.75);
+			\draw [line width=2pt, short] (11.25,17.75) -- (8.75,22.75);
+			\draw [line width=2pt, short] (8.75,22.75) -- (16.25,22.75);
+			\draw [ color={rgb,255:red,0; green,255; blue,255} , fill={rgb,255:red,0; green,255; blue,255}, line width=2pt , rounded corners = 7.5] (10.5,23.25) rectangle (15,22.75);
+			\draw [ color={rgb,255:red,255; green,255; blue,0} , fill={rgb,255:red,255; green,255; blue,0}, line width=2pt ] (12.75,23.75) circle (0.5cm);
+			\draw [line width=2pt, short] (3,14) -- (3,24);
+			\draw [line width=2pt, short] (16.75,14) -- (16.75,24);
+			\draw [line width=2pt, short] (3,24) -- (7.5,29);
+			\draw [line width=2pt, short] (16.75,24) -- (12.5,29);
+			\draw [line width=2pt, short] (12.5,29) -- (7.5,29);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, ->, >=Stealth] (20.25,20) -- (14,20);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, ->, >=Stealth] (18,27.25) -- (14,23);
+			\draw [line width=2pt, short] (4.5,22.75) -- (5.25,23.75);
+			\draw [line width=2pt, short] (5.25,23.75) -- (6.5,24.25);
+			\draw [line width=2pt, short] (6.5,24.25) -- (8.5,24.5);
+			\draw [line width=2pt, short] (8.5,24.5) -- (10.25,24.5);
+			\draw [line width=2pt, short] (10.25,24.5) -- (11.75,24.25);
+			\draw [line width=2pt, short] (11.75,24.25) -- (12.5,23.75);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, ->, >=Stealth] (2.5,28) -- (6.25,24.25);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, ->, >=Stealth] (-0.75,9.25) -- (5,9.25);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, ->, >=Stealth] (19.5,9.5) -- (15.25,9.5);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (20,27.5) {\textbf{Kristall}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (22.75,20) {\textbf{Trägerplatte}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (21.25,9.5) {\textbf{Kathode}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (-3.5,9.5) {\textbf{Anode}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (0.5,28.5) {\textbf{Draht}};
+			\draw [ color={rgb,255:red,255; green,0; blue,0} , fill={rgb,255:red,255; green,0; blue,0}, line width=2pt ] (4.75,6) rectangle (5,4.25);
+			\draw [ color={rgb,255:red,255; green,0; blue,0} , fill={rgb,255:red,255; green,0; blue,0}, line width=2pt ] (4,5.25) rectangle (5.75,5);
+			\draw [ color={rgb,255:red,255; green,0; blue,0} , fill={rgb,255:red,255; green,0; blue,0}, line width=2pt ] (14,5) rectangle (15.75,5.25);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, ->, >=Stealth] (13.5,31.75) -- (11.25,29.25);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (15.75,32) {\textbf{Epoxidharzgehäuse}};
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, ->, >=Stealth] (15.75,28) -- (13,24.25);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (16.25,28.75) {\textbf{LED - Chip}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\section{LED CML Signalleuchte, blau, ultrahell, 12 VDC}
+Die Signalleuchte von CML ist eine ultrahelle blaue LED mit einem Durchmesser von 8 mm. Sie eignet sich besonders für Anwendungen, bei denen eine auffällige visuelle Anzeige erforderlich ist.
+\cite{ReicheltLED:2025} \cite{CML:2011}
+
+\section{Spezifikation}
+\begin{itemize}
+	\item Farbe: Blau
+	\item Lichtstärke: 600 mcd
+	\item Versorgungsspannung: 12 V AC/DC
+	\item Einbaugröße: 8 mm Durchmesser, passend für Standard-Bohrungen in Frontplatten oder Gehäusen
+	\item Anschluss: FASTON-Anschlüsse oder Lötanschlüsse für einfache Integration
+	\item Besonderheiten: Integrierter Vorwiderstand, der den direkten Anschluss an 12 V ermöglicht, ohne dass zusätzliche Komponenten erforderlich sind
+\end{itemize}
+\cite{ReicheltLED:2025} \cite{CML:2011}
+
+
+\section{Einfacher Code}
+Ein einfacher Code wäre die Ansteuerung einer externen LED.\ref{code:ansteuerungLED}
+\begin{code}[H]
+	\caption{Einfacher Code zur Ansteuerung einer externen LED	}
+	\label{code:ansteuerungLED}
+	\ArduinoExternal{}{../../Code/Arduino/Externe LED/ansteuerungLED/ansteuerungLED.ino}
+\end{code}
+
+\section{Tests}
+Die LED ist leicht zu testen indem man sie an eine 12 V Stromversorgung anschließt, ein Vorwiderstand ist bei dieser spezifischen LED nicht nötig, da dieser bereits integriert ist.
+
+\section{Einfache Anwendung}
+Als einfache Anwendung eignet sich eine Blinkfrequenz-Schaltung. Dieser Code \ref{code:blinkenLED} lässt eine LED drei mal mit 1 Hz blinken, dann fünf mal bei 2 Hz und dann zehn mal mit 5 Hz.
+\begin{code}[H]
+	\caption{Einfacher Code zum Blinken einer externen LED	}
+	\label{code:blinkenLED}
+	\ArduinoExternal{}{../../Code/Arduino/Externe LED/blinkenLED/blinkenLED.ino}
+\end{code}
+
+\section{Further Readings}
+Haeberle and Isele. Tabellenbuch Elektrotechnik. 28th ed. Europa Lehrmit-
+tel, 2018. isbn: 978-3-808-53490-8.\cite{Haeberle:2018}
+\begin{itemize}
+	\item Ein tolles Tabellenbuch in dem viel Grundlagenwissen vermittelt wird. Zudem sind die einfache Skizzen und Erklärungen hervorzuheben.
+\end{itemize}
+
+Falcon Illumination. Wie funktioniert eine LED? {\textcolor{blue}{\href{../../../MLbib/falconOnline.pdf}{[pdf]}}}. 2025.  
+URL: \url{https://www.falconillumination.de/de/wissenswertes/wie-funktioniert-eine-led.html} \cite{Falcon:2025}
+\begin{itemize}
+	\item Sehr spannende Website mit einfachen Erklärungen rund um das Thema Beleuchtungstechnik.
+\end{itemize}

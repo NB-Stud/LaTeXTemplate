@@ -1,23 +1,22 @@
 \begin{theindex}
 
   \item  File
-    \subitem ArduinoBLE, 92
-    \subitem ArduinoBLE.h, 90
+    \subitem ArduinoBLE, 82
+    \subitem ArduinoBLE.h, 80
     \subitem BuiltinLED.cpp, 36
     \subitem BuiltinLED.h, 36
     \subitem LED.cpp, 41
     \subitem LED.h, 40
-    \subitem LSM9DS1, 92
+    \subitem LSM9DS1, 82
     \subitem Mag\_raw.txt, 26
-    \subitem Nano33BLE\_Led\_A0.ino, 86
+    \subitem Nano33BLE\_Led\_A0.ino, 76
     \subitem PowerLED.cpp, 42
     \subitem PowerLED.h, 42
     \subitem RGBLED.cpp, 49
     \subitem RGBLED.h, 48
     \subitem SignsOfLife.cpp, 44
     \subitem SignsOfLife.h, 44
-    \subitem Sketch -> Include Library -> Manage Library, 88
-    \subitem TestBattery.ino, 72, 74
+    \subitem Sketch -> Include Library -> Manage Library, 78
   \item  Inertial Measurement Unit
     \subitem  \emph  {see} IMU, 13, 22
 
@@ -30,24 +29,21 @@
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 13, 106
-  \item GPIO, 13, 106, 107
+    \subitem  \emph  {see} GPIO, 13, 98
+  \item GPIO, 13, 98
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 13, 106, 107
-  \item IDE, 13, 74
+  \item I\textsuperscript  {2}C, 13, 98
   \item IMU, 13, 22, 25
-  \item Integrated Development Environment
-    \subitem  \emph  {see} IDE, 13
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 106
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 98
 
   \indexspace
 
   \item Japan Solderless Terminal
-    \subitem  \emph  {see} JST, 13, 80
-  \item JST, 13, 80
+    \subitem  \emph  {see} JST, 13, 70
+  \item JST, 13, 70
 
   \indexspace
 
@@ -68,7 +64,7 @@
 
   \indexspace
 
-  \item PCB, 13, 75
+  \item PCB, 13, 65
   \item PDM, 13, 27
   \item Pin
     \subitem Pin 11, 57, 58
@@ -79,7 +75,7 @@
     \subitem Pin 24, 48
     \subitem Pin 25, 40, 42
   \item Printed Circuit Board
-    \subitem \emph  {see} PB, 13, 75
+    \subitem \emph  {see} PB, 13, 65
   \item Pulse Density Modulation
     \subitem  \emph  {see} PDM, 13, 27
   \item Pulse with Modulation
@@ -90,26 +86,26 @@
 
   \indexspace
 
-  \item SCL, 13, 106, 107
-  \item SDA, 13, 106, 107
+  \item SCL, 13, 98
+  \item SDA, 13, 98
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 13, 106
+    \subitem  \emph  {see} SCL, 13, 98
   \item Serial Data
-    \subitem  \emph  {see} SDA, 13, 106
+    \subitem  \emph  {see} SDA, 13, 98
   \item Serial Peripheral Interface
-    \subitem  \emph  {see} SPI, 13, 81
-  \item SPI, 13, 81
+    \subitem  \emph  {see} SPI, 13, 71
+  \item SPI, 13, 71
 
   \indexspace
 
-  \item UART, 13, 106, 107
+  \item UART, 13, 98
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 13, 106
+    \subitem  \emph  {see} UART, 13, 98
 
   \indexspace
 
-  \item VCC, 13, 72, 106, 107
+  \item VCC, 13, 98, 99
   \item Voltage at the Common Collector
-    \subitem  \emph  {see} VCC, 13, 72
+    \subitem  \emph  {see} VCC, 13, 98
 
 \end{theindex}
