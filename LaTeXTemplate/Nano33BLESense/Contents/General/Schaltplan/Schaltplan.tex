@@ -1,0 +1,80 @@
+%%%
+%
+% $Autor: Gruppe 05 $
+% $Datum: 2025-05-02 $
+% $Dateiname: Schaltplan
+% $Version: 1 $
+%
+% !TeX spellcheck = de_DE/GB
+% !TeX program = pdflatex
+% !BIB program = biber/bibtex
+% !TeX encoding = utf8
+%
+%%%
+\chapter{Schaltpläne für den Magic Faucet Fountain}
+\section{Versorgungsspannungen 5 V und 12 V}
+\begin{figure}[H]
+	\centering
+	%\caption{Schaltplan für die Versorgungsspannung 5 / 12 V}
+	\label{versorgungSchaltplan}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ line width=2pt](-27.5,-1) to[short, -o] (-27.5,-2.25) ;
+			\draw [ line width=2pt](-26.25,-1) to[short, -o] (-26.25,-2.25) ;
+			\draw [ line width=2pt](-25,-1) to[short, -o] (-25,-2.25) ;
+			\draw [ line width=2pt , rounded corners = 12.0] (-12.5,6.5) rectangle (-2.5,1.5);
+			\draw [ line width=2pt](-11.25,5.5) to[short, -o] (-11.25,6.75) ;
+			\draw [ line width=2pt](-10,5.5) to[short, -o] (-10,6.75) ;
+			\draw [ line width=2pt](-8.75,5.5) to[short, -o] (-8.75,6.75) ;
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-27.5,-3.75) {\textbf{L1}};
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-26.25,-3.5) {\textbf{N}};
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-25,-3.5) {\textbf{PE}};
+			\draw [ line width=2pt , rounded corners = 12.0, dashed] (-28.75,-1) rectangle  (-23.75,-4.75);
+			\node [font=\Huge] at (-26.5,-5.75) {\textbf{Netzkabel}};
+			\node [font=\Huge] at (-26.5,-7) {\textbf{230 V / 50 Hz}};
+			\node [font=\Huge] at (-11.25,4.5) {\textbf{1}};
+			\node [font=\Huge] at (-10,4.5) {\textbf{2}};
+			\node [font=\Huge] at (-8.75,4.5) {\textbf{3}};
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-27.5,-0.75) -- (-27.5,12.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-27.5,12.75) -- (-11.25,12.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-11.25,12.75) -- (-11.25,6.75);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-26.25,-0.75) -- (-26.25,11.5);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-26.25,11.5) -- (-10,11.5);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-10,11.5) -- (-10,6.75);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-25,-0.75) -- (-25,10.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-25,10.25) -- (-8.75,10.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-8.75,10.25) -- (-8.75,7);
+			\draw [ line width=2pt](-7.5,5.5) to[short, -o] (-7.5,6.75) ;
+			\draw [ line width=2pt](-6.25,5.5) to[short, -o] (-6.25,6.75) ;
+			\draw [ line width=2pt](-5,5.5) to[short, -o] (-5,6.75) ;
+			\draw [ line width=2pt](-3.75,5.5) to[short, -o] (-3.75,6.75) ;
+			\node [font=\Huge] at (-8.25,2.5) {\textbf{MW RD-50A}};
+			\draw [ line width=2pt](-7.5,7) to[short] (-7.5,12.75);
+			\draw [ line width=2pt](-7.5,12.75) to[short] (3.75,12.75);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-6.25,6.75) to[short] (-6.25,11.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-6.25,11.5) to[short] (3.75,11.5);
+			\draw [ line width=2pt](-5,7) to[short] (-5,9);
+			\draw [ line width=2pt](-5,9) to[short] (3.75,9);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](-3.75,6.75) to[short] (-3.75,7.75);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](-3.75,7.75) to[short] (3.75,7.75);
+			\node [font=\Huge, color={rgb,255:red,128; green,0; blue,255}] at (5.25,7.75) {\textbf{+ 12 V}};
+			\node [font=\Huge] at (6.25,9) {\textbf{GND (12V)}};
+			\node [font=\Huge] at (6,12.75) {\textbf{GND (5V)}};
+			\node [font=\Huge, color={rgb,255:red,255; green,128; blue,0}] at (5.25,11.5) {\textbf{+ 5 V}};
+			\node [font=\Huge] at (-7.5,4.5) {\textbf{4}};
+			\node [font=\Huge] at (-6.25,4.5) {\textbf{5}};
+			\node [font=\Huge] at (-5,4.5) {\textbf{6}};
+			\node [font=\Huge] at (-3.75,4.5) {\textbf{7}};
+			\draw [ line width=2pt ] (-26.25,4) ellipse (2.5cm and 0.25cm);
+			\node [font=\Huge] at (-20.75,4) {\textbf{3 x $\emptyset$1,5 mm2}};
+			\draw [line width=2pt, dashed] (1.25,7.25) -- (1.25,13.25);
+			\node [font=\Huge] at (1.25,13.75) {\textbf{4 x $\emptyset$0,5 mm2}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\section{Aktor/Sensor Netz}
+
+
+\section{Versorgung Arduino}
