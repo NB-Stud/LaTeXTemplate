@@ -1,148 +1,148 @@
-\indexentry{AOP}{11}
-\indexentry{Acoustic Overload Point! \emph  {see} AOP}{11}
-\indexentry{GPIO}{11}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{11}
-\indexentry{I\textsuperscript  {2}C}{11}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{11}
-\indexentry{IDE}{11}
-\indexentry{Integrated Development Environment! \emph  {see} IDE}{11}
-\indexentry{IMU}{11}
-\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{11}
-\indexentry{JST}{11}
-\indexentry{Japan Solderless Terminal! \emph  {see} JST}{11}
-\indexentry{LED}{11}
-\indexentry{Light Emitting Diode! \emph  {see} {LED}}{11}
-\indexentry{mcd}{11}
-\indexentry{Millicandela! \emph  {see} {mcd}}{11}
-\indexentry{PCB}{11}
-\indexentry{Printed Circuit Board!\emph  {see} PB}{11}
-\indexentry{PDM}{11}
-\indexentry{Pulse Density Modulation! \emph  {see} PDM}{11}
-\indexentry{PWM Signal}{11}
-\indexentry{Pulse with Modulation! \emph  {see} PWM Signal}{11}
-\indexentry{SCL}{11}
-\indexentry{Serial Clock! \emph  {see} SCL}{11}
-\indexentry{SDA}{11}
-\indexentry{Serial Data! \emph  {see} SDA}{11}
-\indexentry{SPI}{11}
-\indexentry{Serial Peripheral Interface! \emph  {see} SPI}{11}
-\indexentry{UART}{11}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{11}
-\indexentry{VCC}{11}
-\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{11}
-\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{20}
-\indexentry{IMU}{20}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{IMU}{23}
-\indexentry{ File!Mag\_raw.txt}{24}
-\indexentry{Acoustic Overload Point! \emph  {see} AOP}{25}
-\indexentry{AOP}{25}
-\indexentry{Pulse Density Modulation! \emph  {see} PDM}{25}
-\indexentry{PDM}{25}
-\indexentry{LED!Built-in LED}{33}
-\indexentry{Pin!Pin 13}{33}
-\indexentry{ File!BuiltinLED.h}{34}
-\indexentry{Pin!Pin 13}{34}
-\indexentry{ File!BuiltinLED.cpp}{34}
+\indexentry{AOP}{13}
+\indexentry{Acoustic Overload Point! \emph  {see} AOP}{13}
+\indexentry{GPIO}{13}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{13}
+\indexentry{I\textsuperscript  {2}C}{13}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{13}
+\indexentry{IDE}{13}
+\indexentry{Integrated Development Environment! \emph  {see} IDE}{13}
+\indexentry{IMU}{13}
+\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{13}
+\indexentry{JST}{13}
+\indexentry{Japan Solderless Terminal! \emph  {see} JST}{13}
+\indexentry{LED}{13}
+\indexentry{Light Emitting Diode! \emph  {see} {LED}}{13}
+\indexentry{mcd}{13}
+\indexentry{Millicandela! \emph  {see} {mcd}}{13}
+\indexentry{PCB}{13}
+\indexentry{Printed Circuit Board!\emph  {see} PB}{13}
+\indexentry{PDM}{13}
+\indexentry{Pulse Density Modulation! \emph  {see} PDM}{13}
+\indexentry{PWM Signal}{13}
+\indexentry{Pulse with Modulation! \emph  {see} PWM Signal}{13}
+\indexentry{SCL}{13}
+\indexentry{Serial Clock! \emph  {see} SCL}{13}
+\indexentry{SDA}{13}
+\indexentry{Serial Data! \emph  {see} SDA}{13}
+\indexentry{SPI}{13}
+\indexentry{Serial Peripheral Interface! \emph  {see} SPI}{13}
+\indexentry{UART}{13}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{13}
+\indexentry{VCC}{13}
+\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{13}
+\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{22}
+\indexentry{IMU}{22}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{IMU}{25}
+\indexentry{ File!Mag\_raw.txt}{26}
+\indexentry{Acoustic Overload Point! \emph  {see} AOP}{27}
+\indexentry{AOP}{27}
+\indexentry{Pulse Density Modulation! \emph  {see} PDM}{27}
+\indexentry{PDM}{27}
+\indexentry{LED!Built-in LED}{35}
 \indexentry{Pin!Pin 13}{35}
-\indexentry{LED!Power LED}{37}
-\indexentry{Light Emitting Diode! \emph  {see} {LED}}{37}
-\indexentry{LED}{37}
-\indexentry{LED}{37}
-\indexentry{LED}{37}
-\indexentry{LED}{37}
-\indexentry{LED}{37}
-\indexentry{LED}{38}
-\indexentry{Pin!Pin 25}{38}
-\indexentry{Pulse with Modulation! \emph  {see} PWM Signal}{38}
-\indexentry{PWM Signal}{38}
-\indexentry{LED}{38}
-\indexentry{LED}{38}
-\indexentry{ File!LED.h}{38}
-\indexentry{ File!LED.cpp}{39}
-\indexentry{ File!PowerLED.h}{40}
+\indexentry{ File!BuiltinLED.h}{36}
+\indexentry{Pin!Pin 13}{36}
+\indexentry{ File!BuiltinLED.cpp}{36}
+\indexentry{Pin!Pin 13}{37}
+\indexentry{LED!Power LED}{39}
+\indexentry{Light Emitting Diode! \emph  {see} {LED}}{39}
+\indexentry{LED}{39}
+\indexentry{LED}{39}
+\indexentry{LED}{39}
+\indexentry{LED}{39}
+\indexentry{LED}{39}
+\indexentry{LED}{40}
 \indexentry{Pin!Pin 25}{40}
-\indexentry{ File!PowerLED.cpp}{40}
-\indexentry{LED}{42}
-\indexentry{ File!SignsOfLife.h}{42}
-\indexentry{ File!SignsOfLife.cpp}{42}
-\indexentry{LED!Built-in RGB-LED}{45}
-\indexentry{LED}{45}
-\indexentry{LED}{45}
-\indexentry{LED}{45}
-\indexentry{PWM Signal}{45}
-\indexentry{LED}{45}
-\indexentry{LED}{45}
-\indexentry{LED}{45}
-\indexentry{LED}{45}
-\indexentry{LED}{45}
-\indexentry{PWM Signal}{45}
-\indexentry{LED}{45}
-\indexentry{LED}{45}
-\indexentry{Millicandela! \emph  {see} {mcd}}{46}
-\indexentry{mcd}{46}
-\indexentry{Pin!Pin 22,23,24}{46}
-\indexentry{LED}{46}
-\indexentry{LED}{46}
-\indexentry{ File!RGBLED.h}{46}
-\indexentry{Pin!Pin 22}{46}
-\indexentry{Pin!Pin 23}{46}
-\indexentry{Pin!Pin 24}{46}
-\indexentry{ File!RGBLED.cpp}{47}
+\indexentry{Pulse with Modulation! \emph  {see} PWM Signal}{40}
+\indexentry{PWM Signal}{40}
+\indexentry{LED}{40}
+\indexentry{LED}{40}
+\indexentry{ File!LED.h}{40}
+\indexentry{ File!LED.cpp}{41}
+\indexentry{ File!PowerLED.h}{42}
+\indexentry{Pin!Pin 25}{42}
+\indexentry{ File!PowerLED.cpp}{42}
+\indexentry{LED}{44}
+\indexentry{ File!SignsOfLife.h}{44}
+\indexentry{ File!SignsOfLife.cpp}{44}
+\indexentry{LED!Built-in RGB-LED}{47}
 \indexentry{LED}{47}
-\indexentry{LED!Colors}{48}
+\indexentry{LED}{47}
+\indexentry{LED}{47}
+\indexentry{PWM Signal}{47}
+\indexentry{LED}{47}
+\indexentry{LED}{47}
+\indexentry{LED}{47}
+\indexentry{LED}{47}
+\indexentry{LED}{47}
+\indexentry{PWM Signal}{47}
+\indexentry{LED}{47}
+\indexentry{LED}{47}
+\indexentry{Millicandela! \emph  {see} {mcd}}{48}
+\indexentry{mcd}{48}
+\indexentry{Pin!Pin 22,23,24}{48}
 \indexentry{LED}{48}
-\indexentry{PWM Signal}{48}
 \indexentry{LED}{48}
+\indexentry{ File!RGBLED.h}{48}
+\indexentry{Pin!Pin 22}{48}
+\indexentry{Pin!Pin 23}{48}
+\indexentry{Pin!Pin 24}{48}
+\indexentry{ File!RGBLED.cpp}{49}
 \indexentry{LED}{49}
-\indexentry{LED}{49}
-\indexentry{LED}{49}
-\indexentry{LED!Brightness}{51}
+\indexentry{LED!Colors}{50}
+\indexentry{LED}{50}
+\indexentry{PWM Signal}{50}
+\indexentry{LED}{50}
 \indexentry{LED}{51}
-\indexentry{LED}{52}
-\indexentry{LED}{52}
-\indexentry{Push Button! Built-in Push Button}{55}
-\indexentry{Pin!Pin 11}{55}
-\indexentry{Pin!Pin 11}{56}
-\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{70}
-\indexentry{VCC}{70}
-\indexentry{ File!TestBattery.ino}{70}
+\indexentry{LED}{51}
+\indexentry{LED}{51}
+\indexentry{LED!Brightness}{53}
+\indexentry{LED}{53}
+\indexentry{LED}{54}
+\indexentry{LED}{54}
+\indexentry{Push Button! Built-in Push Button}{57}
+\indexentry{Pin!Pin 11}{57}
+\indexentry{Pin!Pin 11}{58}
+\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{72}
+\indexentry{VCC}{72}
 \indexentry{ File!TestBattery.ino}{72}
-\indexentry{IDE}{72}
-\indexentry{Printed Circuit Board!\emph  {see} PB}{73}
-\indexentry{PCB}{73}
-\indexentry{Japan Solderless Terminal! \emph  {see} JST}{78}
-\indexentry{JST}{78}
-\indexentry{Serial Peripheral Interface! \emph  {see} SPI}{79}
-\indexentry{SPI}{79}
-\indexentry{ File!Nano33BLE\_Led\_A0.ino}{84}
-\indexentry{ File!Sketch -> Include Library -> Manage Library}{86}
-\indexentry{ File!ArduinoBLE.h}{88}
-\indexentry{ File!ArduinoBLE}{90}
-\indexentry{ File!LSM9DS1}{90}
-\indexentry{VCC}{104}
-\indexentry{Serial Clock! \emph  {see} SCL}{104}
-\indexentry{SCL}{104}
-\indexentry{Serial Data! \emph  {see} SDA}{104}
-\indexentry{SDA}{104}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{104}
-\indexentry{GPIO}{104}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{104}
-\indexentry{UART}{104}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{104}
-\indexentry{I\textsuperscript  {2}C}{104}
-\indexentry{SCL}{105}
-\indexentry{SDA}{105}
-\indexentry{VCC}{105}
-\indexentry{GPIO}{105}
-\indexentry{UART}{105}
-\indexentry{I\textsuperscript  {2}C}{105}
-\indexentry{VCC}{105}
+\indexentry{ File!TestBattery.ino}{74}
+\indexentry{IDE}{74}
+\indexentry{Printed Circuit Board!\emph  {see} PB}{75}
+\indexentry{PCB}{75}
+\indexentry{Japan Solderless Terminal! \emph  {see} JST}{80}
+\indexentry{JST}{80}
+\indexentry{Serial Peripheral Interface! \emph  {see} SPI}{81}
+\indexentry{SPI}{81}
+\indexentry{ File!Nano33BLE\_Led\_A0.ino}{86}
+\indexentry{ File!Sketch -> Include Library -> Manage Library}{88}
+\indexentry{ File!ArduinoBLE.h}{90}
+\indexentry{ File!ArduinoBLE}{92}
+\indexentry{ File!LSM9DS1}{92}
+\indexentry{VCC}{106}
+\indexentry{Serial Clock! \emph  {see} SCL}{106}
+\indexentry{SCL}{106}
+\indexentry{Serial Data! \emph  {see} SDA}{106}
+\indexentry{SDA}{106}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{106}
+\indexentry{GPIO}{106}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{106}
+\indexentry{UART}{106}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{106}
+\indexentry{I\textsuperscript  {2}C}{106}
+\indexentry{SCL}{107}
+\indexentry{SDA}{107}
+\indexentry{VCC}{107}
+\indexentry{GPIO}{107}
+\indexentry{UART}{107}
+\indexentry{I\textsuperscript  {2}C}{107}
+\indexentry{VCC}{107}
