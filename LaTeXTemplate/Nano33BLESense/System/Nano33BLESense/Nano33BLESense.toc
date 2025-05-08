@@ -216,21 +216,12 @@
 \contentsline {section}{\numberline {17.6}Tests}{143}{section.17.6}%
 \contentsline {section}{\numberline {17.7}Einfache Anwendung}{143}{section.17.7}%
 \contentsline {section}{\numberline {17.8}Further Readings}{144}{section.17.8}%
-\contentsline {chapter}{\numberline {18}LM2596S DC-DC Spannungsregler}{145}{chapter.18}%
-\contentsline {section}{\numberline {18.1}Einleitung}{145}{section.18.1}%
-\contentsline {section}{\numberline {18.2}Grundlegende Informationen}{145}{section.18.2}%
-\contentsline {section}{\numberline {18.3}LM2596S DC-DC}{145}{section.18.3}%
-\contentsline {section}{\numberline {18.4}Spezifikation}{145}{section.18.4}%
-\contentsline {section}{\numberline {18.5}Einfacher Code}{145}{section.18.5}%
-\contentsline {section}{\numberline {18.6}Tests}{145}{section.18.6}%
-\contentsline {section}{\numberline {18.7}Einfache Anwendung}{145}{section.18.7}%
-\contentsline {section}{\numberline {18.8}Further Readings}{145}{section.18.8}%
-\contentsline {chapter}{\numberline {19}Materialliste Magic Faucet Fountain}{147}{chapter.19}%
-\contentsline {chapter}{\numberline {20}Schaltpläne für den Magic Faucet Fountain}{149}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Versorgungsspannungen 5 V und 12 V}{149}{section.20.1}%
-\contentsline {section}{\numberline {20.2}5 V Netz mit Arduino und BT-Modul}{149}{section.20.2}%
-\contentsline {section}{\numberline {20.3}5/12 V Netz mit Aktoren}{150}{section.20.3}%
-\contentsline {part}{\numberline {IV}Anhang}{151}{part.4}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{153}{chapter*.73}%
-\contentsline {chapter}{Stichwortverzeichnis}{158}{chapter*.73}%
-\contentsline {chapter}{Index}{159}{chapter*.73}%
+\contentsline {chapter}{\numberline {18}Materialliste Magic Faucet Fountain}{145}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Schaltpläne für den Magic Faucet Fountain}{147}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Versorgungsspannungen 5 V und 12 V}{147}{section.19.1}%
+\contentsline {section}{\numberline {19.2}5 V Netz mit Arduino und BT-Modul}{148}{section.19.2}%
+\contentsline {section}{\numberline {19.3}5/12 V Netz mit Aktoren}{148}{section.19.3}%
+\contentsline {part}{\numberline {IV}Anhang}{149}{part.4}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{151}{chapter*.73}%
+\contentsline {chapter}{Stichwortverzeichnis}{156}{chapter*.73}%
+\contentsline {chapter}{Index}{157}{chapter*.73}%
