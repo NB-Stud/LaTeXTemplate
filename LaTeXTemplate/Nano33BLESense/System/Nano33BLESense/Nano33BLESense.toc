@@ -217,7 +217,6 @@
 \contentsline {section}{\numberline {17.7}Einfache Anwendung}{143}{section.17.7}%
 \contentsline {section}{\numberline {17.8}Further Readings}{144}{section.17.8}%
 \contentsline {chapter}{\numberline {18}Materialliste Magic Faucet Fountain}{145}{chapter.18}%
-<<<<<<< HEAD
 \contentsline {chapter}{\numberline {19}Projekt: Magic Faucet Fountain}{147}{chapter.19}%
 \contentsline {section}{\numberline {19.1}Beschreibung}{147}{section.19.1}%
 \contentsline {section}{\numberline {19.2}Aufbau}{147}{section.19.2}%
@@ -227,40 +226,17 @@
 \contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{148}{subsubsection*.71}%
 \contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{149}{subsubsection*.74}%
 \contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{149}{subsubsection*.77}%
-\contentsline {section}{\numberline {19.4}Software-Schnittstellen}{150}{section.19.4}%
-\contentsline {subsection}{\numberline {19.4.1}Code}{150}{subsection.19.4.1}%
-\contentsline {section}{\numberline {19.5}Installation}{150}{section.19.5}%
-\contentsline {subsection}{\numberline {19.5.1}Mechanischer Aufbau}{150}{subsection.19.5.1}%
-\contentsline {subsection}{\numberline {19.5.2}Elektrische Installation}{150}{subsection.19.5.2}%
-\contentsline {subsection}{\numberline {19.5.3}Software und App-Verbindung}{151}{subsection.19.5.3}%
-\contentsline {subsection}{\numberline {19.5.4}Software und App-Verbindung}{151}{subsection.19.5.4}%
-\contentsline {section}{\numberline {19.6}Konfiguration}{151}{section.19.6}%
-\contentsline {section}{\numberline {19.7}Einschränkungen}{152}{section.19.7}%
-\contentsline {section}{\numberline {19.8}Schlussfolgerung}{152}{section.19.8}%
-\contentsline {part}{\numberline {IV}Anhang}{153}{part.4}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{155}{chapter*.79}%
-\contentsline {chapter}{Stichwortverzeichnis}{160}{chapter*.79}%
-\contentsline {chapter}{Index}{161}{chapter*.79}%
-=======
-\contentsline {chapter}{\numberline {19}Schaltpläne für den Magic Faucet Fountain}{147}{chapter.19}%
-\contentsline {section}{\numberline {19.1}Versorgungsspannungen 5 V und 12 V}{147}{section.19.1}%
-\contentsline {section}{\numberline {19.2}5 V Netz mit Arduino und BT-Modul}{148}{section.19.2}%
-\contentsline {section}{\numberline {19.3}5/12 V Netz mit Aktoren}{148}{section.19.3}%
-\contentsline {chapter}{\numberline {20}Code und Ablaufdiagramm der Anwendung}{149}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Ablaufdiagramm der Anwendung}{150}{section.20.1}%
-\contentsline {section}{\numberline {20.2}Code der Anwendung}{150}{section.20.2}%
-\contentsline {chapter}{\numberline {21}Projekt: Magic Faucet Fountain}{151}{chapter.21}%
-\contentsline {section}{\numberline {21.1}Beschreibung}{151}{section.21.1}%
-\contentsline {section}{\numberline {21.2}Aufbau}{151}{section.21.2}%
-\contentsline {subsection}{\numberline {21.2.1}Abmaße}{151}{subsection.21.2.1}%
-\contentsline {subsection}{\numberline {21.2.2}Hardware-Schnittstellen}{151}{subsection.21.2.2}%
-\contentsline {subsection}{\numberline {21.2.3}Software-Schnittstellen}{151}{subsection.21.2.3}%
-\contentsline {section}{\numberline {21.3}Installation}{151}{section.21.3}%
-\contentsline {section}{\numberline {21.4}Konfiguration}{152}{section.21.4}%
-\contentsline {section}{\numberline {21.5}Einschränkungen}{152}{section.21.5}%
-\contentsline {section}{\numberline {21.6}Schlussfolgerung}{152}{section.21.6}%
-\contentsline {part}{\numberline {IV}Anhang}{153}{part.4}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{155}{chapter*.74}%
-\contentsline {chapter}{Stichwortverzeichnis}{160}{chapter*.74}%
-\contentsline {chapter}{Index}{161}{chapter*.74}%
->>>>>>> fd2eb29dc083a54fde54f8c23761d66ce1e161e2
+\contentsline {section}{\numberline {19.4}Software-Schnittstellen}{151}{section.19.4}%
+\contentsline {subsection}{\numberline {19.4.1}Code der Anwendung}{151}{subsection.19.4.1}%
+\contentsline {section}{\numberline {19.5}Installation}{152}{section.19.5}%
+\contentsline {subsection}{\numberline {19.5.1}Mechanischer Aufbau}{152}{subsection.19.5.1}%
+\contentsline {subsection}{\numberline {19.5.2}Elektrische Installation}{152}{subsection.19.5.2}%
+\contentsline {subsection}{\numberline {19.5.3}Software und App-Verbindung}{153}{subsection.19.5.3}%
+\contentsline {subsection}{\numberline {19.5.4}Software und App-Verbindung}{153}{subsection.19.5.4}%
+\contentsline {section}{\numberline {19.6}Konfiguration}{153}{section.19.6}%
+\contentsline {section}{\numberline {19.7}Einschränkungen}{154}{section.19.7}%
+\contentsline {section}{\numberline {19.8}Schlussfolgerung}{154}{section.19.8}%
+\contentsline {part}{\numberline {IV}Anhang}{155}{part.4}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{157}{chapter*.80}%
+\contentsline {chapter}{Stichwortverzeichnis}{162}{chapter*.80}%
+\contentsline {chapter}{Index}{163}{chapter*.80}%

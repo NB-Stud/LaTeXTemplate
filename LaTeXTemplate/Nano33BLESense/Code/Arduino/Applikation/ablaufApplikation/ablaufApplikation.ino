@@ -1,12 +1,12 @@
 /**
  * @file ablaufApplikation.ino
- * @brief Automatisierter Blumentopf mit Bluetooth-Status, Pumpe und Wasserstandsmessung.
+ * @brief Automated flowerpot with Bluetooth status, pump control, and water level measurement.
  */
 
 #include <SoftwareSerial.h>
 #include <RemoteXY.h>
 
-// RemoteXY Bluetooth (HC-05) über SoftwareSerial
+// RemoteXY Bluetooth (HC-05) via SoftwareSerial
 #define REMOTEXY_SERIAL_RX 10
 #define REMOTEXY_SERIAL_TX 11
 #define REMOTEXY_SERIAL_SPEED 9600
@@ -20,13 +20,13 @@ uint8_t RemoteXY_CONF[] =
  115,0 };
 
 struct {
-  uint8_t pumpSwitch;       ///< 0 = Aus, 1 = An
-  char statusText[128];     ///< Textanzeige für Warnungen
-  uint8_t connect_flag;     ///< Bluetooth-Verbindungsstatus
+  uint8_t pumpSwitch;       ///< 0 = Off, 1 = On
+  char statusText[128];     ///< Text display for warnings
+  uint8_t connect_flag;     ///< Bluetooth connection status
 } RemoteXY;
 #pragma pack(pop)
 
-// Pin-Definitionen
+// Pin definitions
 const int PIN_LED_GREEN = 2;
 const int PIN_LED_BLUE = 3;
 const int PIN_PUMP = 4;
@@ -40,7 +40,7 @@ unsigned long lastBlinkTime = 0;
 bool blueLedState = false;
 
 /**
- * @brief Initialisiert Pins und RemoteXY
+ * @brief Initializes pins and RemoteXY
  */
 void setup() {
   pinMode(PIN_LED_GREEN, OUTPUT);
@@ -49,13 +49,13 @@ void setup() {
   pinMode(PIN_TRIGGER, OUTPUT);
   pinMode(PIN_ECHO, INPUT);
 
-  digitalWrite(PIN_LED_GREEN, HIGH); // Grüne LED dauerhaft ein
+  digitalWrite(PIN_LED_GREEN, HIGH); // Green LED always on
 
   RemoteXY_Init();
 }
 
 /**
- * @brief Hauptloop: Messung, Anzeige, Bluetooth-Status und Pumpensteuerung
+ * @brief Main loop: water level measurement, display update, Bluetooth status, and pump control
  */
 void loop() {
   RemoteXY_Handler();
@@ -63,21 +63,21 @@ void loop() {
 
   int distance = measureWaterLevel();
 
-  // Basis-Meldung
+  // Basic warning message
   if (distance > MAX_WATER_LEVEL) {
-    strcpy(RemoteXY.statusText, "WARNUNG: Kein Wasser mehr!");
+    strcpy(RemoteXY.statusText, "WARNING: No water left!");
   } 
   else if (distance < MIN_WATER_LEVEL) {
-    strcpy(RemoteXY.statusText, "WARNUNG: Pegel niedrig!");
+    strcpy(RemoteXY.statusText, "WARNING: Low level!");
     if (RemoteXY.pumpSwitch) {
-      strcat(RemoteXY.statusText, " - Pumpe deaktiviert!");
+      strcat(RemoteXY.statusText, " - Pump deactivated!");
     }
   } 
   else {
-    strcpy(RemoteXY.statusText, "Pegel OK.");
+    strcpy(RemoteXY.statusText, "Level OK.");
   }
 
-  // Pumpe nur aktiv, wenn manuell EIN und Pegel ausreichend
+  // Pump only active when switched ON and water level is sufficient
   if (RemoteXY.pumpSwitch && distance >= MIN_WATER_LEVEL) {
     digitalWrite(PIN_PUMP, HIGH);
   } else {
@@ -88,8 +88,8 @@ void loop() {
 }
 
 /**
- * @brief Misst den Abstand (Wasserstand) mit Ultraschallsensor HC-SR04
- * @return Abstand in Zentimeter
+ * @brief Measures the distance (water level) using HC-SR04 ultrasonic sensor
+ * @return Distance in centimeters
  */
 int measureWaterLevel() {
   digitalWrite(PIN_TRIGGER, LOW);
@@ -104,11 +104,11 @@ int measureWaterLevel() {
 }
 
 /**
- * @brief Steuert die blaue LED je nach Bluetooth-Status (blinken oder dauerhaft an)
+ * @brief Controls the blue LED depending on Bluetooth connection (blinking or solid)
  */
 void updateBluetoothStatusLED() {
   if (RemoteXY.connect_flag) {
-    digitalWrite(PIN_LED_BLUE, HIGH);  // Verbindung -> LED an
+    digitalWrite(PIN_LED_BLUE, HIGH);  // Connected -> LED on
   } else {
     unsigned long currentTime = millis();
     if (currentTime - lastBlinkTime >= 500) {
