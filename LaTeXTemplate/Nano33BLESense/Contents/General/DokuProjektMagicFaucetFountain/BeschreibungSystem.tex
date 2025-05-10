@@ -1,0 +1,86 @@
+%%%%%%%%%%%%
+%
+% $Autor: Wings $
+% $Datum: 2019-03-05 08:03:15Z $
+% $Pfad: TemplateSensor $
+% $Version: 4250 $
+% !TeX spellcheck = en_GB/de_DE
+% !TeX encoding = utf8
+% !TeX root = filename 
+% !TeX TXS-program:bibliography = txs:///biber
+%
+%%%%%%%%%%%%
+
+% Structure
+\chapter{Projekt: Magic Faucet Fountain}
+
+
+\section{Beschreibung}
+Das Projekt Magic Faucen Fountain beschäftigt sich mit der Umsetzung eines Brunnens, der die optische Täuschung eines schwebenden Wasserhahn erzeugt. Dabei scheint es, als würde Wasser kontinuierlich aus einem frei schwebenden Hahn fließen - ganz ohne sichtbare Verbindung zur Wasserquelle.
+
+Dieser Effekt wird durch ein transparentes Acrylrohr realisiert, das sowohl den Wasserfluss leitet als auch die tragende Struktur für den Hahn darstellt. Da das Rohr hinter dem gleichmäßig fließenden Wasser optisch kaum wahrnehmbar ist, entsteht der Eindruck eines schwebenden Hahns.
+
+Der Wasserstrom wird über eine kleine elektrische Pumpe erzeugt, die über ein MOS-FET angesteuert wird. Der MOS-FET fungiert als elektronischer Schalter und wird von einem digitalen Ausgang des Arduino-Boards gesteuert. Der Arduino ist über Bluetooth mit einer mobilen App verbunden. Über die App kann der Benutzer den Brunnen bequem ein- und ausschalten.
+
+Ein weiterer Bestandteil des Systems ist ein Ultraschallsensor, der den Wasserstand im Vorratsbehälter misst. Der aktuelle Füllstand wird ebenfalls in der App angezeigt, wodurch der Benutzer rechtzeitig erkennen kann, wann Wasser nachgefüllt werden muss.
+
+
+\section{Aufbau}
+Detaillierte Beschreibung des Aufbaus der Schaltung und des mechanischen Teils
+
+Wahl der Komponenten (z. B. MOSFET, Wasserpumpe, etc.)
+
+Designüberlegungen (Platzierung, Designentscheidungen)
+\subsection{Abmaße}
+
+Physische Abmessungen des Aufbaus
+
+Platzbedarf und Gestaltung des Systems (z. B. Kompaktheit, Gehäuse)
+
+Gewicht und andere relevante Maße
+
+\subsection{Hardware-Schnittstellen}
+
+Beschreibung der elektrischen Verbindungen
+
+Erklärung der einzelnen Schnittstellen (z. B. GPIO zum MOSFET, Verbindung zu Pumpe)
+
+Power-Management (Stromversorgung und -verbrauch)
+
+\subsection{Software-Schnittstellen}
+Verwendete Softwareumgebung (z. B. Python, RPi.GPIO)
+
+Erklärung der verwendeten Protokolle und Schnittstellen (z. B. GPIO-API, Zeitsteuerung)
+
+Kommunikation zwischen Software und Hardware (wie das Signal vom GPIO an den MOSFET geht)
+\section{Installation}
+Schritt-für-Schritt-Anleitung für den Aufbau der Hardware
+
+Softwareinstallation und -einrichtung (Bibliotheken, Abhängigkeiten)
+\begin{itemize}
+    \item data types
+    \item data structure
+    \item data quantity
+    \item data quality
+\end{itemize}
+
+\section{Konfiguration}
+Einstellung der Zeitintervalle und Systemparameter (z. B. Dauer des Wasserflusses)
+
+Anpassung der Hardwareverbindungen (z. B. Pumpe, MOSFET)
+
+Konfiguration der Software (z. B. GPIO-Pins)
+\section{Einschränkungen}
+
+Identifikation von Problemen oder Einschränkungen (z. B. Schwierigkeiten bei der Hardwareintegration oder Softwarebugs)
+
+
+
+\section{Schlussfolgerung}
+Zusammenfassung der Projektergebnisse
+
+Reflexion über die Zielerreichung
+
+Mögliche Weiterentwicklungen und zukünftige Anwendungen
+
+
