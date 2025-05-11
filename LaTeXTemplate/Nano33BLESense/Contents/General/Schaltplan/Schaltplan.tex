@@ -1,0 +1,339 @@
+%%%
+%
+% $Autor: Gruppe 05 $
+% $Datum: 2025-05-02 $
+% $Dateiname: Schaltplan
+% $Version: 1 $
+%
+% !TeX spellcheck = de_DE/GB
+% !TeX program = pdflatex
+% !BIB program = biber/bibtex
+% !TeX encoding = utf8
+%
+%%%
+\chapter{Schaltpläne für den Magic Faucet Fountain}
+\section{Versorgungsspannungen 5 V und 12 V}
+\begin{figure}[H]
+	\centering
+	\label{versorgungSchaltplan}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ line width=2pt](-27.5,-1) to[short, -o] (-27.5,-2.25) ;
+			\draw [ line width=2pt](-26.25,-1) to[short, -o] (-26.25,-2.25) ;
+			\draw [ line width=2pt](-25,-1) to[short, -o] (-25,-2.25) ;
+			\draw [ line width=2pt , rounded corners = 12.0] (-12.5,6.5) rectangle (-2.5,1.5);
+			\draw [ line width=2pt](-11.25,5.5) to[short, -o] (-11.25,6.75) ;
+			\draw [ line width=2pt](-10,5.5) to[short, -o] (-10,6.75) ;
+			\draw [ line width=2pt](-8.75,5.5) to[short, -o] (-8.75,6.75) ;
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-27.5,-3.75) {\textbf{L1}};
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-26.25,-3.5) {\textbf{N}};
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-25,-3.5) {\textbf{PE}};
+			\draw [ line width=2pt , rounded corners = 12.0, dashed] (-28.75,-1) rectangle  (-23.75,-4.75);
+			\node [font=\Huge] at (-26.5,-5.75) {\textbf{Netzkabel}};
+			\node [font=\Huge] at (-26.5,-7) {\textbf{230 V / 50 Hz}};
+			\node [font=\Huge] at (-11.25,4.5) {\textbf{1}};
+			\node [font=\Huge] at (-10,4.5) {\textbf{2}};
+			\node [font=\Huge] at (-8.75,4.5) {\textbf{3}};
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-27.5,-0.75) -- (-27.5,12.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-27.5,12.75) -- (-11.25,12.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-11.25,12.75) -- (-11.25,6.75);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-26.25,-0.75) -- (-26.25,11.5);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-26.25,11.5) -- (-10,11.5);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-10,11.5) -- (-10,6.75);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-25,-0.75) -- (-25,10.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-25,10.25) -- (-8.75,10.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-8.75,10.25) -- (-8.75,7);
+			\draw [ line width=2pt](-7.5,5.5) to[short, -o] (-7.5,6.75) ;
+			\draw [ line width=2pt](-6.25,5.5) to[short, -o] (-6.25,6.75) ;
+			\draw [ line width=2pt](-5,5.5) to[short, -o] (-5,6.75) ;
+			\draw [ line width=2pt](-3.75,5.5) to[short, -o] (-3.75,6.75) ;
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (-8.25,2.5) {\textbf{MW RD-50A}};
+			\draw [ line width=2pt](-7.5,7) to[short] (-7.5,12.75);
+			\draw [ line width=2pt](-7.5,12.75) to[short] (3.75,12.75);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-6.25,6.75) to[short] (-6.25,11.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-6.25,11.5) to[short] (3.75,11.5);
+			\draw [ line width=2pt](-5,7) to[short] (-5,9);
+			\draw [ line width=2pt](-5,9) to[short] (3.75,9);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](-3.75,6.75) to[short] (-3.75,7.75);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](-3.75,7.75) to[short] (3.75,7.75);
+			\node [font=\Huge, color={rgb,255:red,128; green,0; blue,255}] at (5.25,7.75) {\textbf{+ 12 V}};
+			\node [font=\Huge] at (6.25,9) {\textbf{GND (12V)}};
+			\node [font=\Huge] at (6,12.75) {\textbf{GND (5V)}};
+			\node [font=\Huge, color={rgb,255:red,255; green,128; blue,0}] at (5.25,11.5) {\textbf{+ 5 V}};
+			\node [font=\Huge] at (-7.5,4.5) {\textbf{4}};
+			\node [font=\Huge] at (-6.25,4.5) {\textbf{5}};
+			\node [font=\Huge] at (-5,4.5) {\textbf{6}};
+			\node [font=\Huge] at (-3.75,4.5) {\textbf{7}};
+			\draw [ line width=2pt ] (-26.25,4) ellipse (2.5cm and 0.25cm);
+			\node [font=\Huge] at (-20.75,4) {\textbf{3 x $\emptyset$1,5 mm2}};
+			\draw [line width=2pt, dashed] (1.25,7.25) -- (1.25,13.25);
+			\node [font=\Huge] at (1.25,13.75) {\textbf{4 x $\emptyset$0,5 mm2}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\section{5 V Netz mit Arduino und BT-Modul}
+\begin{figure}[H]
+	\centering
+	\label{5vSchaltplan}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-5,16.5) to[short] (36.25,16.5);
+			\draw [ line width=2pt](-5,-24.75) to[short] (32.5,-24.75);
+			\draw [ line width=2pt , rounded corners = 12.0] (5,-13.5) rectangle (15,-18.5);
+			\draw [ line width=2pt , rounded corners = 12.0] (5,6.5) rectangle (15,11.5);
+			\draw [ line width=2pt , rounded corners = 12.0] (25,8) rectangle (32.5,-14.75);
+			\draw [ line width=2pt](6.25,7.75) to[short, -o] (6.25,5.25) ;
+			\draw [ line width=2pt](8.75,7.75) to[short, -o] (8.75,5.25) ;
+			\draw [ line width=2pt](11.25,7.75) to[short, -o] (11.25,5.25) ;
+			\draw [ line width=2pt](13.75,7.75) to[short, -o] (13.75,5.25) ;
+			\node [font=\Huge] at (6.25,8.5) {\textbf{Vcc}};
+			\node [font=\Huge] at (8.75,8.5) {\textbf{Trig}};
+			\node [font=\Huge] at (11.25,8.5) {\textbf{Echo}};
+			\node [font=\Huge] at (13.75,8.5) {\textbf{GND}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (10,10.25) {\textbf{HC-SR04}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (10,-17.5) {\textbf{HC-05}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}, rotate around={-90:(0,0)}] at (28.75,-3.75) {\textbf{Arduino Nano 33 BLE Sense (Lite)}};
+			\draw [ line width=2pt](6.25,-14.75) to[short, -o] (6.25,-12.25) ;
+			\draw [ line width=2pt](8.75,-14.75) to[short, -o] (8.75,-12.25) ;
+			\draw [ line width=2pt](11.25,-14.75) to[short, -o] (11.25,-12.25) ;
+			\draw [ line width=2pt](13.75,-14.75) to[short, -o] (13.75,-12.25) ;
+			\node [font=\Huge] at (6.25,-15.25) {\textbf{Vcc}};
+			\node [font=\Huge] at (8.75,-15.25) {\textbf{GND}};
+			\node [font=\Huge] at (13.75,-15.25) {\textbf{RXD}};
+			\node [font=\Huge] at (11.25,-15.25) {\textbf{TXD}};
+			\draw [ line width=2pt](31.25,5.25) to[short, -o] (33.75,5.25) ;
+			\draw [ line width=2pt](31.25,0.25) to[short, -o] (33.75,0.25) ;
+			\draw [ line width=2pt](26.25,5.25) to[short, -o] (23.75,5.25) ;
+			\draw [ line width=2pt](26.25,2.75) to[short, -o] (23.75,2.75) ;
+			\draw [ line width=2pt](26.25,0.25) to[short, -o] (23.75,0.25) ;
+			\draw [ line width=2pt](26.25,-2.25) to[short, -o] (23.75,-2.25) ;
+			\draw [ line width=2pt](26.25,-4.75) to[short, -o] (23.75,-4.75) ;
+			\draw [ line width=2pt](26.25,-7.25) to[short, -o] (23.75,-7.25) ;
+			\draw [ line width=2pt](26.25,-9.75) to[short, -o] (23.75,-9.75) ;
+			\draw [ line width=2pt](26.25,-12.25) to[short, -o] (23.75,-12.25) ;
+			\node [font=\Huge] at (31.25,6) {\textbf{VIN}};
+			\node [font=\Huge] at (31.25,1) {\textbf{3V3}};
+			\node [font=\Huge] at (26.25,6) {\textbf{GND}};
+			\node [font=\Huge] at (26.25,3.5) {\textbf{TX}};
+			\node [font=\Huge] at (26.25,1) {\textbf{RX}};
+			\node [font=\Huge] at (26.25,-1.75) {\textbf{D2}};
+			\node [font=\Huge] at (26.25,-4) {\textbf{D3}};
+			\node [font=\Huge] at (26.25,-6.5) {\textbf{D4}};
+			\node [font=\Huge] at (26.25,-9) {\textbf{D6}};
+			\node [font=\Huge] at (26.25,-11.5) {\textbf{D9}};
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](36.25,16.5) to[short] (36.25,5.25);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](36.25,5.25) to[short] (33.75,5.25);
+			\draw [ line width=2pt](8.75,-12.25) to[short] (8.75,-9.75);
+			\draw [ line width=2pt](8.75,-9.75) to[short] (2.5,-9.75);
+			\draw [ line width=2pt](2.5,-9.75) to[short] (2.5,-24.75);
+			\node at (2.5,-24.75) [circ] {};
+			\node [font=\Huge] at (-7.5,-24.75) {\textbf{GND (5V)}};
+			\draw [ line width=2pt](23.75,5.25) to[short] (21.25,5.25);
+			\draw [ line width=2pt](36.25,-24.75) to[short] (32.5,-24.75);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](6.25,-12.25) to[short] (6.25,-7.25);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](6.25,-7.25) to[short] (-1.25,-7.25);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-1.25,-7.25) to[short] (-1.25,16.5);
+			\node at (-1.25,16.5) [circ, color={rgb,255:red,255; green,128; blue,0}] {};
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](33.75,0.25) to[short] (35,0.25);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](35,0.25) to[short] (35,14);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](35,14) to[short] (3.75,14);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](3.75,14) to[short] (3.75,4);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](3.75,4) to[short] (6.25,4);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](6.25,4) to[short] (6.25,5.25);
+			\draw [ line width=2pt](21.25,5.25) to[short] (13.75,5.25);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](23.5,-12.25) to[short] (17.5,-12.25);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](17.5,-12.25) to[short] (17.5,-8.5);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](17.5,-8.5) to[short] (8.75,-8.5);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](8.75,-8.5) to[short] (8.75,5.25);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](11.25,5.25) to[short] (11.25,-9.75);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](11.25,-9.75) to[short] (23.75,-9.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](23.75,2.75) to[short] (10,2.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](10,2.75) to[short] (10,-11);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](10,-11) to[short] (11.25,-11);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](11.25,-11) to[short] (11.25,-12.25);
+			\draw [ color={rgb,255:red,215; green,215; blue,0}, , line width=2pt](23.75,0.25) to[short] (13.75,0.25);
+			\draw [ color={rgb,255:red,215; green,215; blue,0}, , line width=2pt](13.75,0.25) to[short] (13.75,-12);
+			\draw [ line width=2pt](31.25,-12.25) to[short, -o] (33.75,-12.25) ;
+			\draw [ line width=2pt](36.25,-24.75) to[short] (36.25,-12.25);
+			\draw [ line width=2pt](36.25,-12.25) to[short] (33.75,-12.25);
+			\node [font=\Huge] at (31.25,-11.5) {\textbf{GND}};
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](23.75,-7.25) to[short] (22.5,-7.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](22.5,-7.25) to[short] (22.5,-17.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](22.5,-17.25) to[short] (41.25,-17.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](23.75,-4.75) to[short] (21.25,-4.75);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](21.25,-4.75) to[short] (21.25,-18.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](21.25,-18.5) to[short] (41.25,-18.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](23.5,-2.25) to[short] (20,-2.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](20,-2.25) to[short] (20,-19.75);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](20,-19.75) to[short] (41.25,-19.75);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (39.75,-17.25) -- (41.25,-17.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (40,-18.5) -- (41.25,-18.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (40,-19.75) -- (41.25,-19.75);
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (44.5,-19.75) {\textbf{12V/MOSFET.1}};
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (44.5,-18.5) {\textbf{12V/MOSFET.2}};
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (44.5,-17.25) {\textbf{12V/MOSFET.3}};
+			\draw (-5,16.5) to[short] (-6.5,16.5);
+			\draw [ line width=2pt](-5,16.5) to[short] (-7.5,16.5);
+			\draw [ line width=2pt](-11.25,16.5) to[short] (-8.75,19);
+			\draw [ line width=2pt](-13.75,16.5) to[short] (-11.25,16.5);
+			\draw [ line width=2pt](-10,17.75) to[short] (-10,20.25);
+			\draw [ line width=2pt](-10,20.25) to[short] (-8.75,20.25);
+			\draw [ line width=2pt](-10,20.25) to[short] (-11.25,20.25);
+			\draw [ line width=2pt](-11.25,20.25) to[short] (-11.25,19.75);
+			\draw [ line width=2pt](-8.75,20.25) to[short] (-8.75,19.75);
+			\node [font=\Huge] at (-12,17.25) {3};
+			\node [font=\Huge] at (-7,17.25) {4};
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-13.75,16.5) to[short] (-17.5,16.5);
+			\node [font=\Huge, color={rgb,255:red,255; green,128; blue,0}] at (-20,16.5) {+ 5 V};
+			\draw [ line width=2pt , rounded corners = 12.0, dashed] (-13.75,21.5) rectangle  (-5,14);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (-9.25,22.25) {\textbf{Kippschalter}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\section{5/12 V Netz mit Aktoren}
+\begin{figure}[H]
+	\centering
+	\label{12vSchaltplan}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](5,170.25) to[short] (32.5,170.25);
+			\node [font=\Huge, color={rgb,255:red,128; green,0; blue,255}] at (2.75,170.25) {\textbf{+ 12 V}};
+			\draw [ line width=2pt](5,139) to[short] (37.5,139);
+			\node [font=\Huge] at (2,139) {\textbf{GND (12V)}};
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, line width=2pt, short] (5,169) -- (28.75,169);
+			\node [font=\Huge, color={rgb,255:red,255; green,128; blue,0}] at (3,169) {\textbf{+ 5 V}};
+			\node [font=\Huge] at (2.25,140.25) {\textbf{GND (5V)}};
+			\draw [line width=2pt, short] (5,140.25) -- (28.75,140.25);
+			\draw [ line width=2pt , rounded corners = 12.0] (8.75,161.5) rectangle (13.75,155.25);
+			\draw [ line width=2pt , rounded corners = 12.0] (20,161.5) rectangle (25,155.25);
+			\draw [ line width=2pt , rounded corners = 12.0] (31.25,161.5) rectangle (36.25,155.25);
+			\draw [ line width=2pt](10,161) to[short, -o] (10,162.5) ;
+			\draw [ line width=2pt](12.5,161) to[short, -o] (12.5,162.5) ;
+			\draw [ line width=2pt](21.25,161) to[short, -o] (21.25,162.5) ;
+			\draw [ line width=2pt](23.75,161) to[short, -o] (23.75,162.5) ;
+			\draw [ line width=2pt](32.5,161) to[short, -o] (32.5,162.5) ;
+			\draw [ line width=2pt](35,161) to[short, -o] (35,162.5) ;
+			\draw [ line width=2pt](35,155.75) to[short, -o] (35,154) ;
+			\draw [ line width=2pt](32.5,155.75) to[short, -o] (32.5,154) ;
+			\draw [ line width=2pt](23.75,155.75) to[short, -o] (23.75,154) ;
+			\draw [ line width=2pt](21.25,155.75) to[short, -o] (21.25,154) ;
+			\draw [ line width=2pt](12.5,155.75) to[short, -o] (12.5,154) ;
+			\draw [ line width=2pt](10,155.75) to[short, -o] (10,154) ;
+			\draw [ line width=2pt](9.25,159.5) to[short, -o] (7.5,159.5) ;
+			\draw [ line width=2pt](9.25,158.25) to[short, -o] (7.5,158.25) ;
+			\draw [ line width=2pt](9.25,157) to[short, -o] (7.5,157) ;
+			\draw [ line width=2pt ] (11.25,145) circle (2.75cm);
+			\draw [ line width=2pt ] (22.5,145) circle (2.75cm);
+			\draw [ line width=2pt](10,146.5) to[short, -o] (10,149) ;
+			\draw [ line width=2pt](12.5,146.5) to[short, -o] (12.5,149) ;
+			\draw [ line width=2pt](21.25,146.5) to[short, -o] (21.25,149) ;
+			\draw [ line width=2pt](23.75,146.5) to[short, -o] (23.75,149) ;
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](10,149) to[short] (10,154);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](21.25,149) to[short] (21.25,154);
+			\draw [ line width=2pt](12.5,149) to[short] (12.5,154);
+			\draw [ line width=2pt](23.75,149) to[short] (23.75,154);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (11.25,144.5) {\textbf{LED GN}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (22.5,144.5) {\textbf{LED BL}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (11.25,160.5) {\textbf{MOSFET.1}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (22.5,160.5) {\textbf{MOSFET.2}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (33.75,160.5) {\textbf{MOSFET.3}};
+			\draw [ line width=2pt](12.5,162.75) to[short] (12.5,164);
+			\draw [ line width=2pt](12.5,164) to[short] (15,164);
+			\draw [ line width=2pt](15,164) to[short] (15,139);
+			\draw [ line width=2pt](23.75,162.75) to[short] (23.75,164);
+			\draw [ line width=2pt](23.75,164) to[short] (26.25,164);
+			\draw [ line width=2pt](26.25,164) to[short] (26.25,139);
+			\draw [ line width=2pt](35,162.75) to[short] (35,164);
+			\draw [ line width=2pt](35,164) to[short] (37.5,164);
+			\draw [ line width=2pt](37.5,164) to[short] (37.5,139);
+			\node at (26.25,139) [circ] {};
+			\node at (15,139) [circ] {};
+			\node at (10,170.25) [circ, color={rgb,255:red,128; green,0; blue,255}] {};
+			\node at (21.25,170.25) [circ, color={rgb,255:red,128; green,0; blue,255}] {};
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](32.5,170.25) to[short] (32.5,162.75);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](21.25,170.25) to[short] (21.25,162.75);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](10,170.25) to[short] (10,162.75);
+			\draw [ line width=2pt ] (33.75,145) circle (2.75cm);
+			\draw [ line width=2pt](32.5,146.5) to[short, -o] (32.5,149) ;
+			\draw [ line width=2pt](35,146.5) to[short, -o] (35,149) ;
+			\draw [ line width=2pt](35,149) to[short] (35,154);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](32.5,149) to[short] (32.5,154);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (33.75,144.5) {\textbf{Pumpe}};
+			\node [font=\Huge] at (32.5,146) {\textbf{+}};
+			\node [font=\Huge] at (35,146) {\textbf{-}};
+			\node [font=\Huge] at (21.25,145.75) {\textbf{+}};
+			\node [font=\Huge] at (10,145.75) {\textbf{+}};
+			\node [font=\Huge] at (12.5,145.75) {\textbf{-}};
+			\node [font=\Huge] at (23.75,145.75) {\textbf{-}};
+			\node [font=\Huge] at (33.75,154.5) {\textbf{Vout}};
+			\node [font=\Huge] at (22.5,154.5) {\textbf{Vout}};
+			\node [font=\Huge] at (11.25,154.5) {\textbf{Vout}};
+			\node [font=\Huge] at (33.75,162.25) {\textbf{Vin}};
+			\node [font=\Huge] at (22.5,162.25) {\textbf{Vin}};
+			\node [font=\Huge] at (11.25,162.25) {\textbf{Vin}};
+			\draw [ line width=2pt](7.5,158.25) to[short] (6.25,158.25);
+			\draw [ line width=2pt](6.25,158.25) to[short] (6.25,140.25);
+			\draw [ line width=2pt](18.75,158.25) to[short] (17.5,158.25);
+			\draw [ line width=2pt](17.5,158.25) to[short] (17.5,140.25);
+			\draw [ line width=2pt](30,158.25) to[short] (28.75,158.25);
+			\draw [ line width=2pt](28.75,158.25) to[short] (28.75,140.25);
+			\node at (6.25,140.25) [circ] {};
+			\node at (17.5,140.25) [circ] {};
+			\draw [ line width=2pt](20.5,158.25) to[short, -o] (18.75,158.25) ;
+			\draw [ line width=2pt](31.75,158.25) to[short, -o] (30,158.25) ;
+			\draw [ line width=2pt](31.75,159.5) to[short, -o] (30,159.5) ;
+			\draw [ line width=2pt](31.75,157) to[short, -o] (30,157) ;
+			\draw [ line width=2pt](20.5,157) to[short, -o] (18.75,157) ;
+			\draw [ line width=2pt](20.5,159.5) to[short, -o] (18.75,159.5) ;
+			\node [font=\Huge] at (9.25,154) {\textbf{+}};
+			\node [font=\Huge] at (20.5,154) {\textbf{+}};
+			\node [font=\Huge] at (31.75,154) {\textbf{+}};
+			\node [font=\Huge] at (31.75,162.75) {\textbf{+}};
+			\node [font=\Huge] at (20.25,162.75) {\textbf{+}};
+			\node [font=\Huge] at (9.25,162.75) {\textbf{+}};
+			\node [font=\Huge] at (13.25,162.75) {\textbf{-}};
+			\node [font=\Huge] at (24.5,162.75) {\textbf{-}};
+			\node [font=\Huge] at (35.75,162.5) {\textbf{-}};
+			\node [font=\Huge] at (35.75,154) {\textbf{-}};
+			\node [font=\Huge] at (24.5,154) {\textbf{-}};
+			\node [font=\Huge] at (13.25,154) {\textbf{-}};
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](7.5,159.5) to[short] (6.25,159.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](6.25,159.5) to[short] (6.25,169);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](18.75,159.5) to[short] (17.5,159.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](17.5,159.5) to[short] (17.5,169);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](30,159.5) to[short] (28.75,159.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](28.75,159.5) to[short] (28.75,169);
+			\node at (6.25,169) [circ, color={rgb,255:red,255; green,128; blue,0}] {};
+			\node at (17.5,169) [circ, color={rgb,255:red,255; green,128; blue,0}] {};
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](30,157) to[short] (27.5,157);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](27.5,157) to[short] (27.5,166.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](27.5,166.5) to[short] (0,166.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](18.75,157) to[short] (16.25,157);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](16.25,157) to[short] (16.25,165.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](16.25,165.25) to[short] (0,165.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](7.25,157) to[short] (5,157);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](5,157) to[short] (5,164);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](5,164) to[short] (0,164);
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (-3,164) {\textbf{Arduino/D2}};
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (-3,165.25) {\textbf{Arduino/D3}};
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (-3,166.5) {\textbf{Arduino/D4}};
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (0,166.5) -- (1.25,166.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (0,165.25) -- (1.25,165.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (0,164) -- (1.25,164);
+			\node [font=\LARGE] at (9.75,159.5) {\textbf{Vcc}};
+			\node [font=\LARGE] at (10,158.25) {\textbf{GND}};
+			\node [font=\LARGE] at (21,159.5) {\textbf{Vcc}};
+			\node [font=\LARGE] at (21.25,158.25) {\textbf{GND}};
+			\node [font=\LARGE] at (32.25,159.5) {\textbf{Vcc}};
+			\node [font=\LARGE] at (32.5,158.25) {\textbf{GND}};
+			\node [font=\LARGE] at (9.75,157) {\textbf{Sig}};
+			\node [font=\LARGE] at (21,157) {\textbf{Sig}};
+			\node [font=\LARGE] at (32.25,157) {\textbf{Sig}};
+		\end{circuitikz}
+	}%
+\end{figure}

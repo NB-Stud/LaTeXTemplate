@@ -1287,6 +1287,32 @@
     \field{year}{2011}
   \endentry
 
+  \entry{ReicheltMOSFETManual:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Reichelt Online}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R3}
+    \strng{fullhash}{R3}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Rei}22}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/MOSFETanleitung.pdf}{[pdf]}}}
+    \field{title}{Anleitung – COM-MOSFET Modul}
+    \verb{url}
+    \verb https://cdn-reichelt.de/documents/datenblatt/A300/COM-MOSFET_ANLEITUN
+    \verb G_2022-07-20.pdf
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{06}
+    \field{urlmonth}{05}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{Reichelt:2024b}{misc}{}{}
     \name{editor}{1}{}{%
       {{hash=R}{%

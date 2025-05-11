@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 15500 items from 5000.
+Reallocated field_info (elt_size=4) to 15640 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -46,7 +46,7 @@ I was expecting a `,' or a `}'---line 629 of file ../../../MLbib/MyLiterature.bi
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 827 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 843 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate      = {2025-05-04}
 (Error may have been on previous line)
@@ -54,45 +54,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 75 entries,
+You've used 76 entries,
             6402 wiz_defined-function locations,
-            1663 strings with 23325 characters,
-and the built_in function-call counts, 397527 in all, are:
-= -- 25434
-> -- 9675
-< -- 3324
-+ -- 10198
-- -- 4774
-* -- 26264
-:= -- 36924
+            1669 strings with 23566 characters,
+and the built_in function-call counts, 403180 in all, are:
+= -- 25685
+> -- 10035
+< -- 3371
++ -- 10493
+- -- 5038
+* -- 26592
+:= -- 37541
 add.period$ -- 0
-call.type$ -- 75
-change.case$ -- 102
-chr.to.int$ -- 336
-cite$ -- 176
-duplicate$ -- 42192
-empty$ -- 38374
-format.name$ -- 3643
-if$ -- 83515
+call.type$ -- 76
+change.case$ -- 103
+chr.to.int$ -- 360
+cite$ -- 178
+duplicate$ -- 42713
+empty$ -- 38859
+format.name$ -- 3699
+if$ -- 84537
 int.to.chr$ -- 0
-int.to.str$ -- 237
+int.to.str$ -- 241
 missing$ -- 0
-newline$ -- 1915
-num.names$ -- 3691
-pop$ -- 25456
+newline$ -- 1941
+num.names$ -- 3742
+pop$ -- 25788
 preamble$ -- 1
-purify$ -- 1787
+purify$ -- 1801
 quote$ -- 0
-skip$ -- 15375
+skip$ -- 15581
 stack$ -- 0
-substring$ -- 41795
-swap$ -- 10925
-text.length$ -- 2422
-text.prefix$ -- 119
+substring$ -- 42221
+swap$ -- 11084
+text.length$ -- 2462
+text.prefix$ -- 121
 top$ -- 1
-type$ -- 2537
+type$ -- 2571
 warning$ -- 0
-while$ -- 4419
+while$ -- 4479
 width$ -- 0
-write$ -- 1841
+write$ -- 1866
 (There were 6 error messages)

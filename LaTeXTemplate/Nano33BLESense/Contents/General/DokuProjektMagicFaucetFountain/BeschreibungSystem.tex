@@ -1,0 +1,572 @@
+%%%%%%%%%%%%
+%
+% $Autor: Wings $
+% $Datum: 2019-03-05 08:03:15Z $
+% $Pfad: TemplateSensor $
+% $Version: 4250 $
+% !TeX spellcheck = en_GB/de_DE
+% !TeX encoding = utf8
+% !TeX root = filename 
+% !TeX TXS-program:bibliography = txs:///biber
+%
+%%%%%%%%%%%%
+
+% Structure
+\chapter{Projekt: Magic Faucet Fountain}
+
+
+\section{Beschreibung}
+Das Projekt Magic Faucen Fountain beschäftigt sich mit der Umsetzung eines Brunnens, der die optische Täuschung eines schwebenden Wasserhahn erzeugt. Dabei scheint es, als würde Wasser kontinuierlich aus einem frei schwebenden Hahn fließen - ganz ohne sichtbare Verbindung zur Wasserquelle.
+
+Dieser Effekt wird durch ein transparentes Acrylrohr realisiert, das sowohl den Wasserfluss leitet als auch die tragende Struktur für den Hahn darstellt. Da das Rohr hinter dem gleichmäßig fließenden Wasser optisch kaum wahrnehmbar ist, entsteht der Eindruck eines schwebenden Hahns.
+
+Der Wasserstrom wird über eine kleine elektrische Pumpe erzeugt, die über ein MOS-FET angesteuert wird. Der MOS-FET fungiert als elektronischer Schalter und wird von einem digitalen Ausgang des Arduino-Boards gesteuert. Der Arduino ist über Bluetooth mit einer mobilen App verbunden. Über die App kann der Benutzer den Brunnen bequem ein- und ausschalten.
+
+Ein weiterer Bestandteil des Systems ist ein Ultraschallsensor, der den Wasserstand im Vorratsbehälter misst. Der aktuelle Füllstand wird ebenfalls in der App angezeigt, wodurch der Benutzer rechtzeitig erkennen kann, wann Wasser nachgefüllt werden muss.
+
+
+\section{Aufbau}
+Die mechanische Struktur des Magic Faucet Fountain basiert auf einem dekorativen Blumentopf, der gleichzeitig als Wasserreservoir und Trägerelement für den sichtbaren Aufbau dient. Der Blumentopf wird durch einen funktional gestalteten Deckel verschlossen, der sowohl mechanische als auch gestalterische Funktionen erfüllt.
+
+Zentral im Deckel befindet sich eine Durchgangsbohrung, durch die ein transparentes Acrylrohr senkrecht nach oben geführt wird. Am oberen Ende des Rohrs ist ein dekorativer Wasserhahn angebracht. Direkt unterhalb dieses Hahns befinden sich feine Austrittsbohrungen, durch die Wasser kontrolliert herausfließt. Aufgrund der Transparenz des Rohrs und des gleichmäßigen Wasserstroms entsteht die Illusion eines frei schwebenden, endlos fließenden Wasserhahns.
+
+Seitlich im Deckel befinden sich zusätzliche Rücklaufbohrungen, über die das Wasser zurück in den Blumentopf gelangt. Eine im Inneren platzierte Wasserpumpe sorgt für den geschlossenen Wasserkreislauf, indem sie das Wasser wieder nach oben in das Acrylrohr befördert.
+
+An der Unterseite des Deckels ist eine Gewindeaufnahme integriert, an der ein senkrecht montiertes Führungsrohr angebracht ist. In diesem Rohr befindet sich ein frei beweglicher Schwimmer, der den Wasserstand abbildet. Das Rohr ist unten mit einem fest montierten Deckel verschlossen, in den ein Gitter direkt eingearbeitet ist. Dieses verhindert das Herausfallen des Schwimmers, ermöglicht aber den Wassereintritt. Über der Rohröffnung ist ein Ultraschallsensor montiert, der den Abstand zum Schwimmer misst und so den Wasserstand erkennt.
+
+Die elektronischen und steuerungstechnischen Komponenten wie Arduino, MOS-FET, Spannungsversorgung, Bluetooth-Modul sowie die Status-LEDs und der Kippschalter befinden sich in einem separaten Gehäuse, das als elektronischer Kasten (E-Kasten) ausgeführt ist. Dieser Kasten schützt die Elektronik vor Feuchtigkeit und erlaubt einen strukturierten, servicefreundlichen Aufbau. Die Leitungen zur Pumpe, zum Ultraschallsensor und zu den LEDs werden durch entsprechende Kabeldurchführungen zwischen dem E-Kasten und der Hauptbaugruppe verbunden.
+
+Zur optischen Aufwertung kann die Oberseite des Deckels mit dekorativen Steinen oder anderen Gestaltungselementen versehen werden, wodurch die technische Funktion harmonisch in ein ästhetisches Gesamtbild eingebettet wird.
+
+\subsection{Abmaß}
+
+Physische Abmessungen des Aufbaus
+
+<<<<<<< HEAD
+Platzbedarf und Gestaltung des Systems (z.B. Kompaktheit, Gehäuse)
+=======
+%Platzbedarf und Gestaltung des Systems (z. B. Kompaktheit, Gehäuse)
+>>>>>>> fd2eb29dc083a54fde54f8c23761d66ce1e161e2
+
+Gewicht und andere relevante Maße
+
+\section{Hardware-Schnittstellen}
+
+
+<<<<<<< HEAD
+Erklärung der einzelnen Schnittstellen
+
+Power-Management (Stromversorgung und -verbrauch)
+\subsection{Schaltpläne}
+\subsubsection{Versorgungsspannungen 5 V und 12 V}
+\begin{figure}[H]
+	\centering
+	\label{versorgungSchaltplan}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ line width=2pt](-27.5,-1) to[short, -o] (-27.5,-2.25) ;
+			\draw [ line width=2pt](-26.25,-1) to[short, -o] (-26.25,-2.25) ;
+			\draw [ line width=2pt](-25,-1) to[short, -o] (-25,-2.25) ;
+			\draw [ line width=2pt , rounded corners = 12.0] (-12.5,6.5) rectangle (-2.5,1.5);
+			\draw [ line width=2pt](-11.25,5.5) to[short, -o] (-11.25,6.75) ;
+			\draw [ line width=2pt](-10,5.5) to[short, -o] (-10,6.75) ;
+			\draw [ line width=2pt](-8.75,5.5) to[short, -o] (-8.75,6.75) ;
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-27.5,-3.75) {\textbf{L1}};
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-26.25,-3.5) {\textbf{N}};
+			\node [font=\Huge, rotate around={90:(0,0)}] at (-25,-3.5) {\textbf{PE}};
+			\draw [ line width=2pt , rounded corners = 12.0, dashed] (-28.75,-1) rectangle  (-23.75,-4.75);
+			\node [font=\Huge] at (-26.5,-5.75) {\textbf{Netzkabel}};
+			\node [font=\Huge] at (-26.5,-7) {\textbf{230 V / 50 Hz}};
+			\node [font=\Huge] at (-11.25,4.5) {\textbf{1}};
+			\node [font=\Huge] at (-10,4.5) {\textbf{2}};
+			\node [font=\Huge] at (-8.75,4.5) {\textbf{3}};
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-27.5,-0.75) -- (-27.5,12.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-27.5,12.75) -- (-11.25,12.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, line width=2pt, short] (-11.25,12.75) -- (-11.25,6.75);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-26.25,-0.75) -- (-26.25,11.5);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-26.25,11.5) -- (-10,11.5);
+			\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=2pt, short] (-10,11.5) -- (-10,6.75);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-25,-0.75) -- (-25,10.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-25,10.25) -- (-8.75,10.25);
+			\draw [ color={rgb,255:red,0; green,128; blue,0}, line width=2pt, short] (-8.75,10.25) -- (-8.75,7);
+			\draw [ line width=2pt](-7.5,5.5) to[short, -o] (-7.5,6.75) ;
+			\draw [ line width=2pt](-6.25,5.5) to[short, -o] (-6.25,6.75) ;
+			\draw [ line width=2pt](-5,5.5) to[short, -o] (-5,6.75) ;
+			\draw [ line width=2pt](-3.75,5.5) to[short, -o] (-3.75,6.75) ;
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (-8.25,2.5) {\textbf{MW RD-50A}};
+			\draw [ line width=2pt](-7.5,7) to[short] (-7.5,12.75);
+			\draw [ line width=2pt](-7.5,12.75) to[short] (3.75,12.75);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-6.25,6.75) to[short] (-6.25,11.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-6.25,11.5) to[short] (3.75,11.5);
+			\draw [ line width=2pt](-5,7) to[short] (-5,9);
+			\draw [ line width=2pt](-5,9) to[short] (3.75,9);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](-3.75,6.75) to[short] (-3.75,7.75);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](-3.75,7.75) to[short] (3.75,7.75);
+			\node [font=\Huge, color={rgb,255:red,128; green,0; blue,255}] at (5.25,7.75) {\textbf{+ 12 V}};
+			\node [font=\Huge] at (6.25,9) {\textbf{GND (12V)}};
+			\node [font=\Huge] at (6,12.75) {\textbf{GND (5V)}};
+			\node [font=\Huge, color={rgb,255:red,255; green,128; blue,0}] at (5.25,11.5) {\textbf{+ 5 V}};
+			\node [font=\Huge] at (-7.5,4.5) {\textbf{4}};
+			\node [font=\Huge] at (-6.25,4.5) {\textbf{5}};
+			\node [font=\Huge] at (-5,4.5) {\textbf{6}};
+			\node [font=\Huge] at (-3.75,4.5) {\textbf{7}};
+			\draw [ line width=2pt ] (-26.25,4) ellipse (2.5cm and 0.25cm);
+			\node [font=\Huge] at (-20.75,4) {\textbf{3 x $\emptyset$1,5 mm2}};
+			\draw [line width=2pt, dashed] (1.25,7.25) -- (1.25,13.25);
+			\node [font=\Huge] at (1.25,13.75) {\textbf{4 x $\emptyset$0,5 mm2}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\subsubsection{5 V Netz mit Arduino und BT-Modul}
+\begin{figure}[H]
+	\centering
+	\label{5vSchaltplan}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-5,16.5) to[short] (36.25,16.5);
+			\draw [ line width=2pt](-5,-24.75) to[short] (32.5,-24.75);
+			\draw [ line width=2pt , rounded corners = 12.0] (5,-13.5) rectangle (15,-18.5);
+			\draw [ line width=2pt , rounded corners = 12.0] (5,6.5) rectangle (15,11.5);
+			\draw [ line width=2pt , rounded corners = 12.0] (25,8) rectangle (32.5,-14.75);
+			\draw [ line width=2pt](6.25,7.75) to[short, -o] (6.25,5.25) ;
+			\draw [ line width=2pt](8.75,7.75) to[short, -o] (8.75,5.25) ;
+			\draw [ line width=2pt](11.25,7.75) to[short, -o] (11.25,5.25) ;
+			\draw [ line width=2pt](13.75,7.75) to[short, -o] (13.75,5.25) ;
+			\node [font=\Huge] at (6.25,8.5) {\textbf{Vcc}};
+			\node [font=\Huge] at (8.75,8.5) {\textbf{Trig}};
+			\node [font=\Huge] at (11.25,8.5) {\textbf{Echo}};
+			\node [font=\Huge] at (13.75,8.5) {\textbf{GND}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (10,10.25) {\textbf{HC-SR04}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (10,-17.5) {\textbf{HC-05}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}, rotate around={-90:(0,0)}] at (28.75,-3.75) {\textbf{Arduino Nano 33 BLE Sense (Lite)}};
+			\draw [ line width=2pt](6.25,-14.75) to[short, -o] (6.25,-12.25) ;
+			\draw [ line width=2pt](8.75,-14.75) to[short, -o] (8.75,-12.25) ;
+			\draw [ line width=2pt](11.25,-14.75) to[short, -o] (11.25,-12.25) ;
+			\draw [ line width=2pt](13.75,-14.75) to[short, -o] (13.75,-12.25) ;
+			\node [font=\Huge] at (6.25,-15.25) {\textbf{Vcc}};
+			\node [font=\Huge] at (8.75,-15.25) {\textbf{GND}};
+			\node [font=\Huge] at (13.75,-15.25) {\textbf{RXD}};
+			\node [font=\Huge] at (11.25,-15.25) {\textbf{TXD}};
+			\draw [ line width=2pt](31.25,5.25) to[short, -o] (33.75,5.25) ;
+			\draw [ line width=2pt](31.25,0.25) to[short, -o] (33.75,0.25) ;
+			\draw [ line width=2pt](26.25,5.25) to[short, -o] (23.75,5.25) ;
+			\draw [ line width=2pt](26.25,2.75) to[short, -o] (23.75,2.75) ;
+			\draw [ line width=2pt](26.25,0.25) to[short, -o] (23.75,0.25) ;
+			\draw [ line width=2pt](26.25,-2.25) to[short, -o] (23.75,-2.25) ;
+			\draw [ line width=2pt](26.25,-4.75) to[short, -o] (23.75,-4.75) ;
+			\draw [ line width=2pt](26.25,-7.25) to[short, -o] (23.75,-7.25) ;
+			\draw [ line width=2pt](26.25,-9.75) to[short, -o] (23.75,-9.75) ;
+			\draw [ line width=2pt](26.25,-12.25) to[short, -o] (23.75,-12.25) ;
+			\node [font=\Huge] at (31.25,6) {\textbf{VIN}};
+			\node [font=\Huge] at (31.25,1) {\textbf{3V3}};
+			\node [font=\Huge] at (26.25,6) {\textbf{GND}};
+			\node [font=\Huge] at (26.25,3.5) {\textbf{TX}};
+			\node [font=\Huge] at (26.25,1) {\textbf{RX}};
+			\node [font=\Huge] at (26.25,-1.75) {\textbf{D2}};
+			\node [font=\Huge] at (26.25,-4) {\textbf{D3}};
+			\node [font=\Huge] at (26.25,-6.5) {\textbf{D4}};
+			\node [font=\Huge] at (26.25,-9) {\textbf{D6}};
+			\node [font=\Huge] at (26.25,-11.5) {\textbf{D9}};
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](36.25,16.5) to[short] (36.25,5.25);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](36.25,5.25) to[short] (33.75,5.25);
+			\draw [ line width=2pt](8.75,-12.25) to[short] (8.75,-9.75);
+			\draw [ line width=2pt](8.75,-9.75) to[short] (2.5,-9.75);
+			\draw [ line width=2pt](2.5,-9.75) to[short] (2.5,-24.75);
+			\node at (2.5,-24.75) [circ] {};
+			\node [font=\Huge] at (-7.5,-24.75) {\textbf{GND (5V)}};
+			\draw [ line width=2pt](23.75,5.25) to[short] (21.25,5.25);
+			\draw [ line width=2pt](36.25,-24.75) to[short] (32.5,-24.75);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](6.25,-12.25) to[short] (6.25,-7.25);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](6.25,-7.25) to[short] (-1.25,-7.25);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-1.25,-7.25) to[short] (-1.25,16.5);
+			\node at (-1.25,16.5) [circ, color={rgb,255:red,255; green,128; blue,0}] {};
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](33.75,0.25) to[short] (35,0.25);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](35,0.25) to[short] (35,14);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](35,14) to[short] (3.75,14);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](3.75,14) to[short] (3.75,4);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](3.75,4) to[short] (6.25,4);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](6.25,4) to[short] (6.25,5.25);
+			\draw [ line width=2pt](21.25,5.25) to[short] (13.75,5.25);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](23.5,-12.25) to[short] (17.5,-12.25);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](17.5,-12.25) to[short] (17.5,-8.5);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](17.5,-8.5) to[short] (8.75,-8.5);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](8.75,-8.5) to[short] (8.75,5.25);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](11.25,5.25) to[short] (11.25,-9.75);
+			\draw [ color={rgb,255:red,0; green,255; blue,0}, , line width=2pt](11.25,-9.75) to[short] (23.75,-9.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](23.75,2.75) to[short] (10,2.75);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](10,2.75) to[short] (10,-11);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](10,-11) to[short] (11.25,-11);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](11.25,-11) to[short] (11.25,-12.25);
+			\draw [ color={rgb,255:red,215; green,215; blue,0}, , line width=2pt](23.75,0.25) to[short] (13.75,0.25);
+			\draw [ color={rgb,255:red,215; green,215; blue,0}, , line width=2pt](13.75,0.25) to[short] (13.75,-12);
+			\draw [ line width=2pt](31.25,-12.25) to[short, -o] (33.75,-12.25) ;
+			\draw [ line width=2pt](36.25,-24.75) to[short] (36.25,-12.25);
+			\draw [ line width=2pt](36.25,-12.25) to[short] (33.75,-12.25);
+			\node [font=\Huge] at (31.25,-11.5) {\textbf{GND}};
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](23.75,-7.25) to[short] (22.5,-7.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](22.5,-7.25) to[short] (22.5,-17.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](22.5,-17.25) to[short] (41.25,-17.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](23.75,-4.75) to[short] (21.25,-4.75);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](21.25,-4.75) to[short] (21.25,-18.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](21.25,-18.5) to[short] (41.25,-18.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](23.5,-2.25) to[short] (20,-2.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](20,-2.25) to[short] (20,-19.75);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](20,-19.75) to[short] (41.25,-19.75);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (39.75,-17.25) -- (41.25,-17.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (40,-18.5) -- (41.25,-18.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (40,-19.75) -- (41.25,-19.75);
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (46.5,-19.75) {\textbf{12V/MOSFET.1}};
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (46.5,-18.5) {\textbf{12V/MOSFET.2}};
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (46.5,-17.25) {\textbf{12V/MOSFET.3}};
+			\draw (-5,16.5) to[short] (-6.5,16.5);
+			\draw [ line width=2pt](-5,16.5) to[short] (-7.5,16.5);
+			\draw [ line width=2pt](-11.25,16.5) to[short] (-8.75,19);
+			\draw [ line width=2pt](-13.75,16.5) to[short] (-11.25,16.5);
+			\draw [ line width=2pt](-10,17.75) to[short] (-10,20.25);
+			\draw [ line width=2pt](-10,20.25) to[short] (-8.75,20.25);
+			\draw [ line width=2pt](-10,20.25) to[short] (-11.25,20.25);
+			\draw [ line width=2pt](-11.25,20.25) to[short] (-11.25,19.75);
+			\draw [ line width=2pt](-8.75,20.25) to[short] (-8.75,19.75);
+			\node [font=\Huge] at (-12,17.25) {3};
+			\node [font=\Huge] at (-7,17.25) {4};
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](-13.75,16.5) to[short] (-17.5,16.5);
+			\node [font=\Huge, color={rgb,255:red,255; green,128; blue,0}] at (-20,16.5) {+ 5 V};
+			\draw [ line width=2pt , rounded corners = 12.0, dashed] (-13.75,21.5) rectangle  (-5,14);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (-9.25,22.25) {\textbf{Kippschalter}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\subsubsection{5/12 V Netz mit Aktoren}
+\begin{figure}[H]
+	\centering
+	\label{12vSchaltplan}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](5,170.25) to[short] (32.5,170.25);
+			\node [font=\Huge, color={rgb,255:red,128; green,0; blue,255}] at (2.75,170.25) {\textbf{+ 12 V}};
+			\draw [ line width=2pt](5,139) to[short] (37.5,139);
+			\node [font=\Huge] at (2,139) {\textbf{GND (12V)}};
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, line width=2pt, short] (5,169) -- (28.75,169);
+			\node [font=\Huge, color={rgb,255:red,255; green,128; blue,0}] at (3,169) {\textbf{+ 5 V}};
+			\node [font=\Huge] at (2.25,140.25) {\textbf{GND (5V)}};
+			\draw [line width=2pt, short] (5,140.25) -- (28.75,140.25);
+			\draw [ line width=2pt , rounded corners = 12.0] (8.75,161.5) rectangle (13.75,155.25);
+			\draw [ line width=2pt , rounded corners = 12.0] (20,161.5) rectangle (25,155.25);
+			\draw [ line width=2pt , rounded corners = 12.0] (31.25,161.5) rectangle (36.25,155.25);
+			\draw [ line width=2pt](10,161) to[short, -o] (10,162.5) ;
+			\draw [ line width=2pt](12.5,161) to[short, -o] (12.5,162.5) ;
+			\draw [ line width=2pt](21.25,161) to[short, -o] (21.25,162.5) ;
+			\draw [ line width=2pt](23.75,161) to[short, -o] (23.75,162.5) ;
+			\draw [ line width=2pt](32.5,161) to[short, -o] (32.5,162.5) ;
+			\draw [ line width=2pt](35,161) to[short, -o] (35,162.5) ;
+			\draw [ line width=2pt](35,155.75) to[short, -o] (35,154) ;
+			\draw [ line width=2pt](32.5,155.75) to[short, -o] (32.5,154) ;
+			\draw [ line width=2pt](23.75,155.75) to[short, -o] (23.75,154) ;
+			\draw [ line width=2pt](21.25,155.75) to[short, -o] (21.25,154) ;
+			\draw [ line width=2pt](12.5,155.75) to[short, -o] (12.5,154) ;
+			\draw [ line width=2pt](10,155.75) to[short, -o] (10,154) ;
+			\draw [ line width=2pt](9.25,159.5) to[short, -o] (7.5,159.5) ;
+			\draw [ line width=2pt](9.25,158.25) to[short, -o] (7.5,158.25) ;
+			\draw [ line width=2pt](9.25,157) to[short, -o] (7.5,157) ;
+			\draw [ line width=2pt ] (11.25,145) circle (2.75cm);
+			\draw [ line width=2pt ] (22.5,145) circle (2.75cm);
+			\draw [ line width=2pt](10,146.5) to[short, -o] (10,149) ;
+			\draw [ line width=2pt](12.5,146.5) to[short, -o] (12.5,149) ;
+			\draw [ line width=2pt](21.25,146.5) to[short, -o] (21.25,149) ;
+			\draw [ line width=2pt](23.75,146.5) to[short, -o] (23.75,149) ;
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](10,149) to[short] (10,154);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](21.25,149) to[short] (21.25,154);
+			\draw [ line width=2pt](12.5,149) to[short] (12.5,154);
+			\draw [ line width=2pt](23.75,149) to[short] (23.75,154);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (11.25,144.5) {\textbf{LED GN}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (22.5,144.5) {\textbf{LED BL}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (11.25,160.5) {\textbf{MOSFET.1}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (22.5,160.5) {\textbf{MOSFET.2}};
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (33.75,160.5) {\textbf{MOSFET.3}};
+			\draw [ line width=2pt](12.5,162.75) to[short] (12.5,164);
+			\draw [ line width=2pt](12.5,164) to[short] (15,164);
+			\draw [ line width=2pt](15,164) to[short] (15,139);
+			\draw [ line width=2pt](23.75,162.75) to[short] (23.75,164);
+			\draw [ line width=2pt](23.75,164) to[short] (26.25,164);
+			\draw [ line width=2pt](26.25,164) to[short] (26.25,139);
+			\draw [ line width=2pt](35,162.75) to[short] (35,164);
+			\draw [ line width=2pt](35,164) to[short] (37.5,164);
+			\draw [ line width=2pt](37.5,164) to[short] (37.5,139);
+			\node at (26.25,139) [circ] {};
+			\node at (15,139) [circ] {};
+			\node at (10,170.25) [circ, color={rgb,255:red,128; green,0; blue,255}] {};
+			\node at (21.25,170.25) [circ, color={rgb,255:red,128; green,0; blue,255}] {};
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](32.5,170.25) to[short] (32.5,162.75);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](21.25,170.25) to[short] (21.25,162.75);
+			\draw [ color={rgb,255:red,128; green,0; blue,255}, , line width=2pt](10,170.25) to[short] (10,162.75);
+			\draw [ line width=2pt ] (33.75,145) circle (2.75cm);
+			\draw [ line width=2pt](32.5,146.5) to[short, -o] (32.5,149) ;
+			\draw [ line width=2pt](35,146.5) to[short, -o] (35,149) ;
+			\draw [ line width=2pt](35,149) to[short] (35,154);
+			\draw [ color={rgb,255:red,255; green,0; blue,0}, , line width=2pt](32.5,149) to[short] (32.5,154);
+			\node [font=\Huge, color={rgb,255:red,0; green,0; blue,255}] at (33.75,144.5) {\textbf{Pumpe}};
+			\node [font=\Huge] at (32.5,146) {\textbf{+}};
+			\node [font=\Huge] at (35,146) {\textbf{-}};
+			\node [font=\Huge] at (21.25,145.75) {\textbf{+}};
+			\node [font=\Huge] at (10,145.75) {\textbf{+}};
+			\node [font=\Huge] at (12.5,145.75) {\textbf{-}};
+			\node [font=\Huge] at (23.75,145.75) {\textbf{-}};
+			\node [font=\Huge] at (33.75,154.5) {\textbf{Vout}};
+			\node [font=\Huge] at (22.5,154.5) {\textbf{Vout}};
+			\node [font=\Huge] at (11.25,154.5) {\textbf{Vout}};
+			\node [font=\Huge] at (33.75,162.25) {\textbf{Vin}};
+			\node [font=\Huge] at (22.5,162.25) {\textbf{Vin}};
+			\node [font=\Huge] at (11.25,162.25) {\textbf{Vin}};
+			\draw [ line width=2pt](7.5,158.25) to[short] (6.25,158.25);
+			\draw [ line width=2pt](6.25,158.25) to[short] (6.25,140.25);
+			\draw [ line width=2pt](18.75,158.25) to[short] (17.5,158.25);
+			\draw [ line width=2pt](17.5,158.25) to[short] (17.5,140.25);
+			\draw [ line width=2pt](30,158.25) to[short] (28.75,158.25);
+			\draw [ line width=2pt](28.75,158.25) to[short] (28.75,140.25);
+			\node at (6.25,140.25) [circ] {};
+			\node at (17.5,140.25) [circ] {};
+			\draw [ line width=2pt](20.5,158.25) to[short, -o] (18.75,158.25) ;
+			\draw [ line width=2pt](31.75,158.25) to[short, -o] (30,158.25) ;
+			\draw [ line width=2pt](31.75,159.5) to[short, -o] (30,159.5) ;
+			\draw [ line width=2pt](31.75,157) to[short, -o] (30,157) ;
+			\draw [ line width=2pt](20.5,157) to[short, -o] (18.75,157) ;
+			\draw [ line width=2pt](20.5,159.5) to[short, -o] (18.75,159.5) ;
+			\node [font=\Huge] at (9.25,154) {\textbf{+}};
+			\node [font=\Huge] at (20.5,154) {\textbf{+}};
+			\node [font=\Huge] at (31.75,154) {\textbf{+}};
+			\node [font=\Huge] at (31.75,162.75) {\textbf{+}};
+			\node [font=\Huge] at (20.25,162.75) {\textbf{+}};
+			\node [font=\Huge] at (9.25,162.75) {\textbf{+}};
+			\node [font=\Huge] at (13.25,162.75) {\textbf{-}};
+			\node [font=\Huge] at (24.5,162.75) {\textbf{-}};
+			\node [font=\Huge] at (35.75,162.5) {\textbf{-}};
+			\node [font=\Huge] at (35.75,154) {\textbf{-}};
+			\node [font=\Huge] at (24.5,154) {\textbf{-}};
+			\node [font=\Huge] at (13.25,154) {\textbf{-}};
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](7.5,159.5) to[short] (6.25,159.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](6.25,159.5) to[short] (6.25,169);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](18.75,159.5) to[short] (17.5,159.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](17.5,159.5) to[short] (17.5,169);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](30,159.5) to[short] (28.75,159.5);
+			\draw [ color={rgb,255:red,255; green,128; blue,0}, , line width=2pt](28.75,159.5) to[short] (28.75,169);
+			\node at (6.25,169) [circ, color={rgb,255:red,255; green,128; blue,0}] {};
+			\node at (17.5,169) [circ, color={rgb,255:red,255; green,128; blue,0}] {};
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](30,157) to[short] (27.5,157);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](27.5,157) to[short] (27.5,166.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](27.5,166.5) to[short] (0,166.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](18.75,157) to[short] (16.25,157);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](16.25,157) to[short] (16.25,165.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](16.25,165.25) to[short] (0,165.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](7.25,157) to[short] (5,157);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](5,157) to[short] (5,164);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, , line width=2pt](5,164) to[short] (0,164);
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (-3,164) {\textbf{Arduino/D2}};
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (-3,165.25) {\textbf{Arduino/D3}};
+			\node [font=\Huge, color={rgb,255:red,64; green,128; blue,128}] at (-3,166.5) {\textbf{Arduino/D4}};
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (0,166.5) -- (1.25,166.5);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (0,165.25) -- (1.25,165.25);
+			\draw [ color={rgb,255:red,64; green,128; blue,128}, line width=2pt, ->, >=Stealth] (0,164) -- (1.25,164);
+			\node [font=\LARGE] at (9.75,159.5) {\textbf{Vcc}};
+			\node [font=\LARGE] at (10,158.25) {\textbf{GND}};
+			\node [font=\LARGE] at (21,159.5) {\textbf{Vcc}};
+			\node [font=\LARGE] at (21.25,158.25) {\textbf{GND}};
+			\node [font=\LARGE] at (32.25,159.5) {\textbf{Vcc}};
+			\node [font=\LARGE] at (32.5,158.25) {\textbf{GND}};
+			\node [font=\LARGE] at (9.75,157) {\textbf{Sig}};
+			\node [font=\LARGE] at (21,157) {\textbf{Sig}};
+			\node [font=\LARGE] at (32.25,157) {\textbf{Sig}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\section{Software-Schnittstellen}
+
+\subsection{Ablaufdiagramm der Anwendung}
+\begin{figure}[H]
+	\centering
+	\label{ablaufdiagramm}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\Huge]
+			\draw [ line width=2pt , rounded corners = 12.0] (-51.25,175.25) rectangle  node {\Huge \textbf{Start RemoteXY}} (-43.75,172.5);
+			\draw [ line width=2pt , rounded corners = 12.0] (-58.75,180.25) rectangle  node {\Huge \textbf{Start}} (-51.25,177.75);
+			\draw [ line width=2pt , rounded corners = 12.0] (-65,175.25) rectangle  node {\Huge \textbf{Programm Initialisieren}} (-55,172.75);
+			\draw [ color={rgb,255:red,0; green,0; blue,255} , line width=2pt , rounded corners = 12.0] (-63.75,170.25) rectangle  node {\Huge \textbf{Grüne LED EIN}} (-56.25,167.75);
+			\draw [line width=2pt, short] (-51.25,179) -- (-47.5,179);
+			\draw [line width=2pt, short] (-58.75,179) -- (-60,179);
+			\draw [line width=2pt, short] (-60,179) -- (-60,177.75);
+			\draw [line width=2pt, ->, >=Stealth] (-60,177.75) -- (-60,175.5);
+			\draw [line width=2pt, ->, >=Stealth] (-47.5,179) -- (-47.5,175.5);
+			\draw [line width=2pt, ->, >=Stealth] (-60,172.75) -- (-60,170.5);
+			\draw [ line width=2pt , rounded corners = 12.0] (-51,166.375) -- (-47.375,164.5) -- (-43.75,166.375) -- (-47.375,168.25) -- cycle;
+			\node [font=\Huge] at (-47.375,166.375) {\textbf{BT Signal?}};
+			\draw [line width=2pt, short] (-43.75,166.5) -- (-40.5,166.5);
+			\draw [ color={rgb,255:red,0; green,0; blue,255} , line width=2pt , rounded corners = 12.0] (-40,167.75) rectangle  node {\Huge \textbf{Blaue LED Blinken}} (-31.25,165.25);
+			\draw [line width=2pt, short] (-36.5,167.75) -- (-36.5,169.5);
+			\draw [line width=2pt, short] (-36.5,169.5) -- (-36.5,170.25);
+			\draw [line width=2pt, short] (-47.5,172.5) -- (-47.5,168.25);
+			\draw [line width=2pt, ->, >=Stealth] (-47.5,169.5) -- (-47.5,168.25);
+			\draw [line width=2pt, ->, >=Stealth] (-36.5,170.25) -- (-47.25,170.25);
+			\draw [ color={rgb,255:red,0; green,0; blue,255} , line width=2pt , rounded corners = 12.0] (-51.25,161.5) rectangle  node {\Huge \textbf{Blaue LED EIN}} (-43.75,159);
+			\draw [line width=2pt, ->, >=Stealth] (-47.5,164.5) -- (-47.5,161.5);
+			\draw [line width=2pt, ->, >=Stealth] (-41.25,166.5) -- (-40.25,166.5);
+			\node [font=\Huge] at (-42.25,167.25) {\textbf{Nein}};
+			\node [font=\Huge] at (-48.5,163.25) {\textbf{Ja}};
+			\draw [ line width=2pt , rounded corners = 12.0] (-67,161.875) -- (-62.375,159.75) -- (-57.75,161.875) -- (-62.375,164) -- cycle;
+			\node [font=\Huge] at (-62.375,161.875) {\textbf{Pegel < 20 cm?}};
+			\draw [line width=2pt, short] (-60,167.75) -- (-60,166.5);
+			\draw [line width=2pt, short] (-60,166.5) -- (-62.25,166.5);
+			\draw [line width=2pt, ->, >=Stealth] (-62.25,166.5) -- (-62.25,164);
+			\draw [line width=2pt, ->, >=Stealth] (-62.5,159.75) -- (-62.5,156.75);
+			\node [font=\Huge] at (-63.25,158.25) {\textbf{Ja}};
+			\draw [ color={rgb,255:red,0; green,0; blue,255} , line width=2pt , rounded corners = 12.0] (-66.25,156.5) rectangle  node {\Huge \textbf{Pumpe EIN}} (-58.75,154);
+			\draw [line width=2pt, ->, >=Stealth] (-62.5,154) -- (-62.5,152.75);
+			\draw [ line width=2pt , rounded corners = 12.0] (-67,151) -- (-62.625,149.25) -- (-58.25,151) -- (-62.625,152.75) -- cycle;
+			\node [font=\Huge] at (-62.625,151) {\textbf{Pegel > 20 cm?}};
+			\draw [line width=2pt, ->, >=Stealth] (-66.75,151) -- (-70,151);
+			\draw [ color={rgb,255:red,255; green,0; blue,0} , line width=2pt , rounded corners = 12.0] (-84.75,150.25) rectangle  node {\Huge \textbf{Warnung: Pegel Maximum erreicht!}} (-70,151.5);
+			\node [font=\Huge] at (-68.25,151.75) {\textbf{Ja}};
+			\draw [ color={rgb,255:red,0; green,0; blue,255} , line width=2pt , rounded corners = 12.0] (-81.75,147.75) rectangle  node {\Huge \textbf{Pumpe AUS}} (-73.75,145.25);
+			\draw [line width=2pt, ->, >=Stealth] (-77.5,150.25) -- (-77.5,148);
+			\draw [line width=2pt, short] (-58.25,151) -- (-56.25,151);
+			\draw [line width=2pt, short] (-56.25,151) -- (-56.25,155.25);
+			\draw [line width=2pt, ->, >=Stealth] (-56.25,155.25) -- (-58.5,155.25);
+			\node [font=\Huge] at (-57.5,151.75) {\textbf{Nein}};
+			\draw [line width=2pt, short] (-57.75,161.75) -- (-54.75,161.75);
+			\draw [line width=2pt, short] (-55,161.75) -- (-55,146.5);
+			\draw [line width=2pt, ->, >=Stealth] (-55,146.5) -- (-73.5,146.5);
+			\node [font=\Huge] at (-56.5,162.5) {\textbf{Nein}};
+			\draw [ line width=2pt , rounded corners = 12.0] (-78.75,162) -- (-74.25,160) -- (-69.75,162) -- (-74.25,164) -- cycle;
+			\node [font=\Huge] at (-74.25,162) {\textbf{Pegel < 5 cm?}};
+			\draw [line width=2pt, short] (-74.25,160) -- (-74.25,155.5);
+			\draw [line width=2pt, ->, >=Stealth] (-74.25,155.25) -- (-66.5,155.25);
+			\node [font=\Huge] at (-75.5,158) {\textbf{Nein}};
+			\draw [line width=2pt, ->, >=Stealth] (-78.75,162) -- (-80.25,162);
+			\draw [ color={rgb,255:red,255; green,0; blue,0} , line width=2pt , rounded corners = 12.0] (-95.5,162.75) rectangle  node {\Huge \textbf{Warnung: Pegel Minimum erreicht!}} (-80.25,161.25);
+			\node [font=\Huge] at (-78.5,163.25) {\textbf{Ja}};
+			\draw [line width=2pt, short] (-83.75,161) -- (-83.75,155.25);
+			\draw [line width=2pt, ->, >=Stealth] (-83.75,155.25) -- (-74.5,155.25);
+			\draw [line width=2pt, ->, >=Stealth] (-66.75,162) -- (-69.75,162);
+		\end{circuitikz}
+	}%
+\end{figure}
+
+\subsection{Code der Anwendung}
+
+\begin{code}[H]
+	\label{code:codeApplikation}
+	\ArduinoExternal{}{../../Code/Arduino/Applikation/ablaufApplikation/ablaufApplikation.ino}
+\end{code}
+
+\section{Installation}
+Die Installation des Magic Faucet Fountain gliedert sich in zwei Hauptbereiche: den mechanischen Aufbau der Baugruppe und die elektrische Inbetriebnahme der Steuerungskomponenten. Im Folgenden werden beide Teile Schritt für Schritt erläutert.
+\subsection{Mechanischer Aufbau}
+\begin{itemize}
+	\item Der Blumentopf wird als zentrales Bauteil aufgestellt und mit einem speziell angefertigten Deckel verschlossen. Dieser beinhaltet:
+	\begin{itemize}
+        	\item Eine zentrale Öffnung zur Durchführung des Acrylrohrs, das den Wasserfluss führt.
+        	\item Mehrere Rücklaufbohrungen, durch die Wasser in den Topf zurückfließt.
+	        \item Eine Gewindeaufnahme auf der Unterseite zur Befestigung des Führungsrohrs für den Schwimmer.
+	\end{itemize}
+	\item Das transparente Acrylrohr wird vertikal durch den Deckel geführt und oben mit einem dekorativen Wasserhahn verbunden. Kleine Bohrungen im Rohr direkt unter dem Hahn ermöglichen den sichtbaren Wasseraustritt.
+	\item Das Führungsrohr wird senkrecht unter dem Deckel montiert. Im Inneren befindet sich ein Schwimmer, der sich mit dem Wasserstand bewegt.
+	\item Der untere Abschluss des Führungsrohrs besteht aus einem fest verschlossenen Deckel mit integriertem Gitter, das den Schwimmer sichert und den Wassereintritt erlaubt.
+	\item Der Ultraschallsensor wird oberhalb des Führungsrohrs an der Aufnahme befestigt und misst den Abstand zum Schwimmer zur Bestimmung des Füllstands.
+	\item Auf dem Deckel können zur Gestaltung Dekosteine oder andere Elemente platziert werden.
+\end{itemize}
+\subsection{Elektrische Installation}
+Alle elektronischen Komponenten sind im separaten E-Kasten untergebracht, der außerhalb des Blumentopfs montiert wird und Feuchtigkeitsschutz sowie einfache Wartung ermöglicht.
+
+Folgende Komponenten sind dort integriert:
+\begin{itemize}
+    \item Arduino-Mikrocontroller, als zentrale Steuereinheit.
+    \item MOS-FET-Schaltkreis zur Ansteuerung der Tauchpumpe, die das Wasser durch das Acrylrohr fördert.
+    \item Ultraschallsensor, über digitale Pins mit dem Arduino verbunden.
+    \item Bluetooth-Modul, über serielle Schnittstelle angebunden.
+    \item Zwei Status-LEDs:
+    	\begin{itemize}
+        \item Grüne LED: zeigt den Betriebszustand an – leuchtet, wenn der Kippschalter eingeschaltet ist.
+        \item Blaue LED: zeigt den Bluetooth-Zustand – blinkt bei Verbindungssuche, leuchtet bei bestehender Verbindung.
+        \end{itemize}
+    \item Kippschalter als Hauptschalter für das gesamte System.
+    \item Stromversorgung über externes Netzteil, angeschlossen an den E-Kasten.
+    \item Alle Verbindungen zur Pumpe, zu den Sensoren und zu den LEDs sind über robuste Steckverbindungen aus dem E-Kasten herausgeführt.
+\end{itemize}
+\subsection{Software und App-Verbindung}
+\begin{itemize}
+\item Nach dem Einschalten über den Kippschalter (→ grüne LED leuchtet), startet der Arduino.
+\item Die Bluetooth-Verbindung wird automatisch aktiviert (→ blaue LED blinkt).
+\item Über eine passende Smartphone-App kann:
+    \begin{itemize}
+	\item Die Pumpe ein- und ausgeschaltet werden.
+	\item Der aktuelle Wasserstand basierend auf den Sensordaten angezeigt werden.
+	\item Der Bluetooth-Status überwacht werden.
+    \end{itemize}
+\end{itemize}
+\subsection{Software und App-Verbindung}
+\begin{enumerate}
+	\item Wasser einfüllen: Der Topf wird so weit befüllt, dass die Pumpe vollständig untergetaucht ist.
+	\item System einschalten: Kippschalter betätigen → grüne LED zeigt Betriebsbereitschaft.
+	\item Bluetooth koppeln: Verbindung mit der App herstellen → blaue LED bleibt dauerhaft an.
+	\item Funktionstest: Pumpe über App starten, Wasserfluss beobachten.
+\end{enumerate}
+\section{Konfiguration}
+Die Konfiguration des Magic Faucet Fountain umfasst die Inbetriebnahme und Abstimmung der elektronischen Komponenten sowie die Kopplung mit der mobilen App. Ziel ist es, die Steuerung des Brunnens per Bluetooth zuverlässig zu ermöglichen und eine präzise Füllstandsanzeige über den Ultraschallsensor bereitzustellen.
+\begin{enumerate}
+	\item Elektrische Inbetriebnahme
+	\begin{itemize}
+		\item Vor dem Einschalten müssen alle elektrischen Verbindungen überprüft werden: Die Pumpe, der Ultraschallsensor, die Status-LEDs, der MOS-FET, der Kippschalter und das Bluetooth-Modul müssen korrekt mit dem Arduino verbunden sein.
+		\item Die Stromversorgung wird über den Kippschalter aktiviert. Beim Einschalten leuchtet die grüne Betriebs-LED zur Bestätigung.
+	\end{itemize}
+	\item Bluetooth-Konfiguration
+	\begin{itemize}
+		\item Nach dem Einschalten beginnt die blaue LED zu blinken, was signalisiert, dass das Bluetooth-Modul aktiv ist und auf eine Verbindung wartet.
+		\item Über die App wird das Bluetooth-Modul des Brunnens gesucht und gekoppelt. Nach erfolgreicher Verbindung wechselt die blaue LED von Blinken auf Dauerlicht.
+		\item Die App ermöglicht das manuelle Ein- und Ausschalten der Pumpe sowie die Anzeige des aktuellen Wasserstands.
+	\end{itemize}
+	\item Füllstanderfassung
+		\begin{itemize}
+		\item Der Ultraschallsensor misst kontinuierlich den Abstand zum Schwimmer im Führungsrohr. Die Werte werden vom Arduino verarbeitet und über Bluetooth an die App gesendet.
+		\item In der App wird der Wasserstand durch einen Ladebalken visualisiert und zusätzlich als Zahlenwert in Millilitern angegeben.
+	\end{itemize}
+	\item Software-Einstellungen
+	\begin{itemize}
+		\item Die Arduino-Firmware enthält die Steuerlogik für:
+		\begin{itemize}
+			\item Die Pumpensteuerung (an/aus via MOS-FET).
+			\item Die Auswertung der Ultraschallsensordaten.
+			\item Die Ansteuerung der Status-LEDs.
+		\end{itemize}
+	\end{itemize}
+	\item Systemtest
+		\begin{itemize}
+		\item Nach der vollständigen Konfiguration sollte ein Testlauf durchgeführt werden, bei dem:
+		\begin{itemize}
+			\item Die Bluetooth-Verbindung getestet wird.
+			\item Der Wasserstand korrekt in der App angezeigt wird.
+			\item Die Pumpe zuverlässig über die App geschaltet werden kann.
+			\item Die LEDs den korrekten Verbindungs- und Betriebsstatus anzeigen.
+		\end{itemize}
+		\item Über die App wird das Bluetooth-Modul des Brunnens gesucht und gekoppelt. Nach erfolgreicher Verbindung wechselt die blaue LED von Blinken auf Dauerlicht.
+		\item Die App ermöglicht das manuelle Ein- und Ausschalten der Pumpe sowie die Anzeige des aktuellen Wasserstands.
+	\end{itemize}
+\end{enumerate}
+\section{Einschränkungen}
+
+Identifikation von Problemen oder Einschränkungen (z.B. Schwierigkeiten bei der Hardwareintegration oder Softwarebugs)
+
+
+
+\section{Schlussfolgerung}
+Zusammenfassung der Projektergebnisse
+
+Reflexion über die Zielerreichung
+
+Mögliche Weiterentwicklungen und zukünftige Anwendungen
+
+

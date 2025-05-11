@@ -1,18 +1,28 @@
-/**
- * @brief Simple MOSFET control example using an LED
- * Turns an LED on and off using a MOSFET and Arduino pin.
- */
+from time import sleep
+import RPi.GPIO as GPIO
 
-#define MOSFET_GATE_PIN 3
+# Set the pin numbering mode to BOARD (uses physical pin numbers)
+GPIO.setmode(GPIO.BOARD)
 
-void setup() {
-  pinMode(MOSFET_GATE_PIN, OUTPUT);
-}
+# Define the signal pin number
+Signal_Pin = 16
 
-void loop() {
-  digitalWrite(MOSFET_GATE_PIN, LOW);  // For P-Kanal MOSFET: Turn ON
-  delay(1000);                         // LED ON for 1 second
+# Set the signal pin as an output
+GPIO.setup(Signal_Pin, GPIO.OUT)
 
-  digitalWrite(MOSFET_GATE_PIN, HIGH); // Turn OFF
-  delay(1000);                         // LED OFF for 1 second
-}
+try:
+    # Infinite loop to toggle the output
+    while True:
+        # Turn the output ON (set pin HIGH)
+        GPIO.output(Signal_Pin, GPIO.HIGH)
+        print("Output activated")
+        sleep(10)  # Keep output on for 10 seconds
+
+        # Turn the output OFF (set pin LOW)
+        GPIO.output(Signal_Pin, GPIO.LOW)
+        print("Output deactivated")
+        sleep(5)  # Wait 5 seconds before turning it on again
+
+except KeyboardInterrupt:
+    # Clean up GPIO settings when the program is interrupted (e.g., with Ctrl+C)
+    GPIO.cleanup()

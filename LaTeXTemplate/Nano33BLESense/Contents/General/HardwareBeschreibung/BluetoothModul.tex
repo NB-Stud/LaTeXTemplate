@@ -1,0 +1,248 @@
+%%%
+%
+% $Autor: Gruppe 05 $
+% $Datum: 2025-05-02 $
+% $Dateiname: Bluetooth Modul
+% $Version: 1 $
+%
+% !TeX spellcheck = de_DE/GB
+% !TeX program = pdflatex
+% !BIB program = biber/bibtex
+% !TeX encoding = utf8
+%
+%%%
+
+
+\chapter{Bluetooth Modul HC-05}
+
+\section{Einleitung}
+Bluetooth-Module sind elektronische Komponenten, die drahtlose Kommunikation zwischen Geräten ermöglichen. Sie wandeln elektrische Signale in Funkwellen um und sorgen so für eine zuverlässige Datenübertragung über kurze Distanzen. Grundsätzlich unterscheidet man Bluetooth Classic (für kontinuierliche Verbindungen wie Audio-Streaming) und Bluetooth Low Energy (BLE) (energiesparend für Geräte mit begrenzter Akkulaufzeit). Ihre Hauptaufgabe ist es, Geräte wie Kopfhörer, Sensoren oder Smart-Home-Systeme einfach und kabellos zu vernetzen – ohne komplexe Infrastruktur.
+
+\section{Grundlegende Informationen}
+Bluetooth-Module sind spezialisierte Hardwarekomponenten, die eine drahtlose Kommunikation zwischen Geräten über kurze Distanzen ermöglichen. Typischerweise decken sie Reichweiten von 10 bis 30 Metern ab, abhängig von Umgebungsfaktoren wie Wänden oder Störquellen. Im Kern bestehen diese Module aus einem Bluetooth-Chip, einer Antenne sowie unterstützender Elektronik wie Spannungsreglern oder Schnittstellen-ICs. Um Platz und Energie zu sparen, werden sie häufig als System-on-a-Chip (SoC) realisiert, bei dem alle notwendigen Komponenten in einem einzigen, kompakten Bauteil integriert sind.
+Die Technologie nutzt das 2,4-GHz-ISM-Band (2400–2483,5 MHz), ein lizenzfreies Frequenzspektrum, das auch von WLAN, Mikrowellen und anderen Funkstandards genutzt wird. Um Interferenzen zu vermeiden, setzt Bluetooth auf Frequency Hopping: Das Modul wechselt bis zu 1600-mal pro Sekunde zwischen 79 definierten Kanälen, wobei jeder Kanal eine Bandbreite von 1 MHz besitzt. Die genaue Frequenz eines Kanals k lässt sich durch die Gleichung 
+\begin{equation}
+	f_k =2402+k  
+\end{equation}
+berechnen, wobei k Werte von 0 bis 78 annimmt. Dieser dynamische Kanalwechsel sorgt für eine robuste Verbindung, selbst in frequenzbelasteten Umgebungen.
+
+\subsection{Bluetooth Varianten}
+
+Grundsätzlich unterscheidet man zwei Bluetooth-Varianten: 
+Bluetooth Classic und Bluetooth Low Energy (BLE).
+
+Bluetooth Classic ist für Anwendungen mit hohen Datenraten ausgelegt, etwa Audio-Streaming für Kopfhörer oder Lautsprecher, und erreicht bis zu 3 Mbps (Megabit pro Sekunde) durch Erweiterungen wie EDR (Enhanced Data Rate).
+
+BLE hingegen wurde für Geräte entwickelt, die extrem energieeffizient arbeiten müssen, wie Wearables oder Sensoren in IoT-Netzwerken. Hier liegt die maximale Datenrate bei 1 Mbps, während der Stromverbrauch im Standby-Modus oft unter 15 µA bleibt – ideal für Batteriebetrieb über Monate oder Jahre.
+
+\subsection{Reichweite und Sendeleistung}
+
+Die Reichweite eines Bluetooth-Moduls hängt maßgeblich von seiner Sendeleistung (TX Power) ab. 
+
+Geräte der Klasse 1 (bis 100 mW Sendeleistung) können theoretisch bis zu 100 Meter überbrücken, 
+
+während Module der Klasse 2 (2,5 mW) auf etwa 10 Meter und
+
+Klasse-3-Geräte (1 mW) auf rund 1 Meter begrenzt sind. In der Praxis reduzieren Hindernisse wie Wände oder elektronische Störquellen diese Werte jedoch deutlich.
+
+\subsection{Daten Übertragung}
+Ein kritischer Aspekt ist die Sicherheit. Bluetooth verwendet AES-128-Verschlüsselung, um Daten vor unbefugtem Zugriff zu schützen. Beim Verbindungsaufbau (Pairing) kommen zudem Protokolle wie Elliptic Curve Diffie-Hellman (ECDH) zum Einsatz, die einen sicheren Schlüsselaustausch ermöglichen und Man-in-the-Middle-Angriffe erschweren. Dank standardisierter Profile – vordefinierter Regeln für spezifische Anwendungen – lassen sich Geräte unterschiedlicher Hersteller problemlos koppeln. Beispiele sind das *A2DP-Profil* für Audio-Streaming oder das HID-Profil für Tastaturen und Mäuse.
+
+\subsection{Anwendungen}
+
+Bluetooth-Module sind heute in nahezu allen Consumer-Geräten zu finden, von Smartphones über Smart-Home-Steuerungen bis hin zu industriellen Sensornetzwerken. 
+Ihre Stärke liegt in der einfachen Integration: Über Schnittstellen wie UART oder SPI können sie direkt mit Mikrocontrollern wie Arduino oder Raspberry Pi verbunden werden, um Projekte schnell drahtlos zu machen. 
+Dennoch stößt die Technologie an Grenzen, wenn es um hohe Reichweiten, extrem hohe Datenmengen (z. B. Video-Streaming) oder komplexe Mesh-Netzwerke geht – hier sind Alternativen wie WLAN oder Zigbee oft besser geeignet.
+Zusammenfassend bilden Bluetooth-Module das technische Rückgrat für unzählige kabellose Anwendungen des täglichen Lebens. Sie kombinieren Energieeffizienz mit standardisierter Kompatibilität und bleiben dabei für Nutzer weitgehend unsichtbar. Mathematische Grundlagen wie Frequenzberechnung, Verschlüsselungsalgorithmen oder Leistungsbilanzierung sorgen im Hintergrund für Zuverlässigkeit, während Anwender lediglich die simplicity der „Plug-and-Play“-Vernetzung schätzen.
+
+\section{Bluetooth Modul: HC-05}
+
+\begin{figure}[H]
+	\centering
+	\caption{Skizze des Bluetooth Moduls HC-05}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ fill={rgb,255:red,49; green,54; blue,191} ] (10.25,-32) rectangle (-13.25,-42.75);
+			\draw [ color={rgb,255:red,59; green,176; blue,66} , fill={rgb,255:red,59; green,176; blue,66}] (-13,-33) rectangle (5.25,-41.75);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} , rounded corners = 11.4] (8.75,-32.25) rectangle (10.25,-33.75);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} , rounded corners = 11.4] (8.75,-34) rectangle (10.25,-35.5);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} , rounded corners = 11.4] (8.75,-41) rectangle (10.25,-42.5);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} , rounded corners = 11.4] (8.75,-39.25) rectangle (10.25,-40.75);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} , rounded corners = 11.4] (8.75,-37.5) rectangle (10.25,-39);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} , rounded corners = 11.4] (8.75,-35.75) rectangle (10.25,-37.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (3.75,-32.25) rectangle (4.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}, rotate around={-90:(5.375, -33.75)}] (5,-33.25) rectangle (5.75,-34.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}, rotate around={-90:(5.375, -34.75)}] (5,-34.25) rectangle (5.75,-35.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}, rotate around={-90:(5.375, -35.75)}] (5,-35.25) rectangle (5.75,-36.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}, rotate around={-90:(5.375, -36.75)}] (5,-36.25) rectangle (5.75,-37.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}, rotate around={-90:(5.375, -38)}] (5,-37.5) rectangle (5.75,-38.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}, rotate around={-90:(5.375, -39)}] (5,-38.5) rectangle (5.75,-39.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}, rotate around={-90:(5.375, -40)}] (5,-39.5) rectangle (5.75,-40.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}, rotate around={-90:(5.375, -41)}] (5,-40.5) rectangle (5.75,-41.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (2.75,-32.25) rectangle (3.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (1.75,-32.25) rectangle (2.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (0.75,-32.25) rectangle (1.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-0.25,-32.25) rectangle (0.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-1.25,-32.25) rectangle (-0.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-2.25,-32.25) rectangle (-1.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-3.25,-32.25) rectangle (-2.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-4.25,-32.25) rectangle (-3.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-5.25,-32.25) rectangle (-4.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-6.25,-32.25) rectangle (-5.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-7.25,-32.25) rectangle (-6.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-8.25,-32.25) rectangle (-7.5,-33.25);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (3.75,-41.5) rectangle (4.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (2.75,-41.5) rectangle (3.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (1.75,-41.5) rectangle (2.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (0.75,-41.5) rectangle (1.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-0.25,-41.5) rectangle (0.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-1.25,-41.5) rectangle (-0.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-2.25,-41.5) rectangle (-1.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-3.25,-41.5) rectangle (-2.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-4.25,-41.5) rectangle (-3.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-5.25,-41.5) rectangle (-4.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-6.25,-41.5) rectangle (-5.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-7.25,-41.5) rectangle (-6.5,-42.5);
+			\draw [ color={rgb,255:red,184; green,184; blue,184} , fill={rgb,255:red,184; green,184; blue,184}] (-8.25,-41.5) rectangle (-7.5,-42.5);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} ] (4.5,-33.75) rectangle (0.5,-39);
+			\draw [ fill={rgb,255:red,0; green,0; blue,0} ] (-0.5,-33.75) rectangle (-6,-39);
+			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (-3.25,-35.75) {HC-05};
+			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (-3.25,-36.75) {Bluetooth};
+			\draw [ color={rgb,255:red,136; green,136; blue,136} , fill={rgb,255:red,156; green,156; blue,156}, rounded corners = 5.4] (9.5,-32.75) rectangle (12.25,-33.25);
+			\draw [ color={rgb,255:red,156; green,156; blue,156} , fill={rgb,255:red,156; green,156; blue,156}] (12,-32.75) rectangle (12.5,-33.25);
+			\draw [ color={rgb,255:red,136; green,136; blue,136} , fill={rgb,255:red,156; green,156; blue,156}, rounded corners = 5.4] (9.5,-34.5) rectangle (12.25,-35);
+			\draw [ color={rgb,255:red,156; green,156; blue,156} , fill={rgb,255:red,156; green,156; blue,156}] (12,-34.5) rectangle (12.5,-35);
+			\draw [ color={rgb,255:red,136; green,136; blue,136} , fill={rgb,255:red,156; green,156; blue,156}, rounded corners = 5.4] (9.5,-36.25) rectangle (12.25,-36.75);
+			\draw [ color={rgb,255:red,156; green,156; blue,156} , fill={rgb,255:red,156; green,156; blue,156}] (12,-36.25) rectangle (12.5,-36.75);
+			\draw [ color={rgb,255:red,136; green,136; blue,136} , fill={rgb,255:red,156; green,156; blue,156}, rounded corners = 5.4] (9.5,-38) rectangle (12.25,-38.5);
+			\draw [ color={rgb,255:red,156; green,156; blue,156} , fill={rgb,255:red,156; green,156; blue,156}] (12,-38) rectangle (12.5,-38.5);
+			\draw [ color={rgb,255:red,136; green,136; blue,136} , fill={rgb,255:red,156; green,156; blue,156}, rounded corners = 5.4] (9.5,-39.75) rectangle (12.25,-40.25);
+			\draw [ color={rgb,255:red,156; green,156; blue,156} , fill={rgb,255:red,156; green,156; blue,156}] (12,-39.75) rectangle (12.5,-40.25);
+			\draw [ color={rgb,255:red,136; green,136; blue,136} , fill={rgb,255:red,156; green,156; blue,156}, rounded corners = 5.4] (9.5,-41.5) rectangle (12.25,-42);
+			\draw [ color={rgb,255:red,156; green,156; blue,156} , fill={rgb,255:red,156; green,156; blue,156}] (12,-41.5) rectangle (12.5,-42);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-9,-40.25) rectangle (-12.5,-39.75);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-9.5,-39.75) rectangle (-9,-39);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12.5,-39) rectangle (-9.5,-39.5);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12,-39) rectangle (-12.5,-38.25);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-9,-38.25) rectangle (-12,-38.75);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-9.5,-38.25) rectangle (-9,-37.5);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12.5,-37.5) rectangle (-9.5,-38);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12,-37.5) rectangle (-12.5,-36.75);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-9,-36.75) rectangle (-12,-37.25);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-9.5,-36.75) rectangle (-9,-36);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12.5,-36) rectangle (-9.5,-36.5);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12,-36) rectangle (-12.5,-35.25);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-9,-35.25) rectangle (-12,-35.75);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-9.5,-35.25) rectangle (-9,-34.5);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12.5,-34.5) rectangle (-9.5,-35);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12,-34.5) rectangle (-12.5,-33.75);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-8.25,-33.75) rectangle (-12,-34.25);
+			\draw [ color={rgb,255:red,234; green,238; blue,23} , fill={rgb,255:red,234; green,238; blue,23}] (-12.5,-40.25) rectangle (-12,-41);
+			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (7.25,-33.25) {\textbf{EN }};
+			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (7.5,-35) {\textbf{VCC}};
+			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (7.5,-36.75) {\textbf{GND}};
+			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (7.5,-38.5) {\textbf{TXD}};
+			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (7.5,-40.25) {\textbf{RXD}};
+			\node [font=\Huge, color={rgb,255:red,255; green,255; blue,255}] at (7,-42) {\textbf{STATE}};
+		\end{circuitikz}
+	}%
+	\label{fig:skizzeBluetooth}
+\end{figure}
+
+Das HC-05 ist ein weit verbreitetes Bluetooth-Modul für die drahtlose Serial-Communication (UART), zu sehen in \ref{fig:skizzeBluetooth}. Es eignet sich besonders für Projekte, bei denen Mikrocontroller wie Arduino oder Raspberry Pi kabellos mit Smartphones, PCs oder anderen Geräten kommunizieren sollen. Im Folgenden werden die technischen Spezifikationen, Funktionen und typischen Einsatzgebiete des Moduls vorgestellt.
+
+\section{Spezifikation}
+Das HC-05 ist ein klassisches Bluetooth-Modul, das auf dem Bluetooth-2.0-Standard mit EDR (Enhanced Data Rate) basiert. Dieser Standard ermöglicht eine maximale theoretische Datenrate von 2,1 Mbps, wobei in der Praxis jedoch meist Baudraten zwischen 9600 und 115.200 Baud zum Einsatz kommen – abhängig von der Konfiguration und der Stabilität der Funkverbindung. Das Modul nutzt das 2,4-GHz-ISM-Band und unterteilt dieses in 79 Kanäle, wobei es durch Frequency Hopping (bis zu 1600 Kanalwechsel pro Sekunde) Störungen durch andere Funkgeräte wie WLAN-Router oder Mikrowellen minimiert.
+
+Die Reichweite des HC-05 liegt bei bis zu 10 Metern unter freien Bedingungen, was der Klasse 2 (2,5 mW Sendeleistung) entspricht. In realen Umgebungen mit Hindernissen wie Wänden oder elektronischen Störquellen kann diese jedoch deutlich reduziert sein. Die Betriebsspannung des Moduls liegt zwischen 3,3 und 5 V DC, wobei die Eingangsspannung sorgfältig angepasst werden muss: Während das Modul intern mit 3,3 V arbeitet, toleriert es bei korrektem Anschluss (z. B. über einen Spannungsteiler am RXD-Pin) auch 5-V-Systeme wie den Arduino Uno.
+
+Der Stromverbrauch variiert je nach Betriebszustand: Im aktiven Modus zieht das HC-05 etwa 30 mA, während es im Standby- oder Pairing-Modus auf unter 1 mA absinkt. Dies macht es zwar weniger energieeffizient als moderne BLE-Module, für kurzzeitige Projekte oder netzbetriebene Anwendungen ist der Verbrauch jedoch akzeptabel.
+Ein zentrales Merkmal des HC-05 ist die Unterstützung des SPP (Serial Port Profile), das eine serielle Kommunikation über Bluetooth emuliert. Dies erlaubt die nahtlose Integration in Mikrocontroller-Projekte, bei denen Daten über UART-Schnittstellen (TXD/RXD) gesendet und empfangen werden. Das Modul kann in zwei Betriebsmodi konfiguriert werden:
+
+
+•	Im Slave-Modus wartet es passiv auf Verbindungen von Master-Geräten wie Smartphones oder Laptops.
+
+•	Im Master-Modus sucht es aktiv nach anderen Bluetooth-Geräten und initiiert Pairings – ideal für Projekte, bei denen das HC-05 selbst die Verbindung steuern soll.
+
+
+Die Konfiguration erfolgt über AT-Befehle, die im AT-Kommandomodus (aktiviert durch High-Pegel am EN/KEY-Pin) gesendet werden. Hier lassen sich Parameter wie der Gerätename, die Baudrate oder die Rolle (Master/Slave) anpassen. Standardmäßig arbeitet das Modul mit 38400 Baud im AT-Modus, kann aber für die Datenübertragung auf niedrigere Raten heruntergesetzt werden, um Kompatibilität mit älteren Mikrocontrollern zu gewährleisten.
+Sicherheitstechnisch setzt das HC-05 auf PIN-basiertes Pairing (Standard-PIN: „1234“) und unterstützt grundlegende Verschlüsselungsmethoden, um Daten vor unbefugtem Zugriff zu schützen. Für hochsensible Anwendungen ist jedoch eine zusätzliche Absicherung auf App- oder Protokollebene ratsam.\\
+
+
+Zusammenfassend bietet das HC-05 eine robuste, einfach zu implementierende Lösung für drahtlose Serial-Communication – besonders dort, wo Kosten und Kompatibilität im Vordergrund stehen. Seine technischen Spezifikationen machen es zum Klassiker für Einsteiger, auch wenn moderne Anforderungen wie extreme Energieeffizienz oder hohe Datenraten hier Grenzen setzen.\\
+
+Pin-Belegung und Anschluss
+Das HC-05-Modul verfügt über sechs Pins, wobei die wichtigsten für die Basisnutzung sind:
+
+\begin{itemize}
+	\item\textit{VCC:} Spannungseingang (3,3V-5V),
+	\item\textit{GND:} Massenanschluss,
+	\item\textit{TXD:} Serielle Datenausgabe (sendet Daten an den Mikrocontroller),
+	\item\textit{RXD:} Serielle Dateneingabe (empfängt Daten vom Mikrocontroller),
+	\item\textit{EN/KEY:} Aktiviert den AT-Konfigurationsmodus (High = AT-Befehle möglich),
+	\item\textit{STATE:} Signalisiert den Verbindungsstatus (High = verbunden),
+\end{itemize}
+
+\section{Bibliotheken}
+
+Um die Kommunikation zwischen Arduino und HC-05 zu ermöglichen wird die Bibliothek SoftwareSerial.h benötigt. Durch die Verwendung der Bibliothek kann der HC-05 über beliebige Pins Kommunizieren. Die Bibliothek wird hier mit der Installation der aktuellsten Version von Arduino-IDE (Version 2.2.1) mit Installiert.Falls die Bibliothek dennoch fehlen sollte kann sie wie folgt Installiert werden:
+
+\begin{itemize}
+	\item Bibliothek über Arduino Libery List Herunterladen
+	\item Öffen Sie die Arduino-IDE
+	\item Gehen Sie zu Sketch > Bibliothek einbinden > .ZIP-Bibliothek hinzufügen.
+	\item Wählen Sie die heruntergeladene ZIP-Datei aus
+	\item Die Bibliothek wird automatisch im Ordner Documents/Arduino/libraries/ installiert 
+\end{itemize}
+
+Optional kann man noch die Bibliothek HC05Libary Installieren mit dieser Bibliothek wird das Senden von AT-Befehlen vereinfacht.\\
+
+Installation: Download:
+
+\begin{itemize}
+	\item GitHub: https://github.com/evankale/ArduinoHC05
+	\item Klicke auf Code > Download ZIP.
+	\item In der Arduino-IDE: Sketch > Bibliothek einbinden > .ZIP-Bibliothek hinzufügen.
+\end{itemize}
+
+
+\section{Einfacher Code}
+Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der folgende Code verwendet werden. Der Code überprüft ob das HC-05 mit dem Smartphone verbunden ist und ob die Übertragung von Daten Funktioniert. Um das Smartphone mit dem HC-05 zu verbinden wird ebenfalls ein Code benötigt dieser ist falls er nicht verändert wurde: 1234 oder 0000 falls der Code geändert wurde kann dieser über ein I2C und einem entsprechenden Code ausgelesen werden. \ref{code:bluetoothEinfach}
+
+\begin{code}[H]
+	\caption{Code zur Überprüfung der Funktionalität}
+	\label{code:bluetoothEinfach}
+	\ArduinoExternal{}{../../Code/Arduino/Bluetooth Modul/bluetoothBeispiel/bluetoothBeispiel.ino}
+\end{code}
+
+
+\section{Tests}
+
+\section{Einfache Anwendung}
+Als Beispielhafte Anwendung für den HC-05 kann das Modul über einen Arduino und einem Relais mit einer Stehlampe verschaltet  werden. Zu sehen in folgendem Code: \ref{code:bluetoothAnwendung}. Wenn man das System dann mit einem Smartphone verbindet kann die Stehlampe über das System mit den HC-05 ein und ausgeschaltet werden. Das System kann folgenderweise verbunden werden \ref{tab:Pin Belegung}: 
+\begin{table}[h]
+	\centering
+	\caption{Pin Belegung}
+	\begin{tabular}{|l|l|l|}
+		\textbf{Arduino} & \textbf{HC-05} & \textbf{Realis}\\ \hline
+		RX(Pin 2) 		 & 		TX 		  &        -       \\ \hline
+		TX(Pin 3)		 &		RX		  &		   -	   \\ \hline
+		5V (oder 3.3V)   &		VCC		  &		   -	   \\ \hline
+		GND				 &		GND		  &		   -       \\ \hline
+		Pin 7			 &       -		  &IN(Steuereingang)\\ \hline
+	\end{tabular}
+	\label{tab:Pin Belegung}
+\end{table}
+
+Die Stehlampe wird dann noch mit dem Relais verbunden. Dann kann auch schon der Code für die Anwendung Installiert werden.
+
+\begin{code}[H]
+	\caption{Code zur Überprüfung der Funktionalität}
+	\label{code:bluetoothAnwendung}
+	\ArduinoExternal{}{../../Code/Arduino/Bluetooth Modul/bluetoothAnwendung/bluetoothAnwendung.ino}
+\end{code}
+
+
+
+\section{Further Readings}

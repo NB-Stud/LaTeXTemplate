@@ -1,0 +1,180 @@
+%%%
+%
+% $Autor: Gruppe 05 $
+% $Datum: 2025-05-02 $
+% $Dateiname: Pumpe
+% $Version: 1 $
+%
+% !TeX spellcheck = de_DE/GB
+% !TeX program = pdflatex
+% !BIB program = biber/bibtex
+% !TeX encoding = utf8
+%
+%%%
+
+
+\chapter{Comet Tauchpumpe ELEGANT 12V}
+\section{Einführung}
+Pumpen sind Einrichtungen zur Förderung von flüssigen Medien von einem niedrigeren auf ein höheres statisches Druckniveau. Dieser Vorgang wird über verschiedene Wege erreicht. 
+Ein höheres statisches Druckniveau kann durch folgende Verfahren erreicht werden: 
+\begin{itemize}
+	\item das Einwirken einer Druckraft, 
+	\item die Übertragung mechanischer Arbeit, 
+	\item den Impulsaustausch, 
+	\item das Zumischen von Druckluft zum Förderwasser, 
+	\item die Stoßwirkung einer in ihrer Bewegung gehemmten Wassersäule oder 
+	\item durch Ausnutzung der Zähigkeit des Mediums unter Verwendung eines Förder-gewindes 
+\end{itemize}
+All die verschiedenen Arbeitsweisen beeinflussen die Pumpenbauart. Die häufigsten vorkommenden Pumpen sind die Verdränger- und Kreiselpumpe. 
+Im Folgenden wird näher auf die Kreiselpumpe eingegangen. 
+Kreispumpen gibt es in ein- oder mehrstufigen Ausführungen. Ihre Arbeitsweise ist gleich, sie unterscheiden sich lediglich in ihrem Aufbau.\cite{Schulz:2013}
+Pumpen sind oft Komponenten von komplexen Prozessen, deren Ausfall erhebliche Auswirkungen verursachen kann. Die Anforderung an maximale Betriebssicherheit ist daher von besonderer Bedeutung.\cite{Gulich:2020}
+
+\subsection{Arbeitsweise Kreiselpumpen}
+Die Kreiselpumpe verfügt über ein rotierendes Laufrad mit Schaufeln. Dieses Rad über-trägt mechanische Arbeit auf die in den Laufradkanälen befindliche Flüssigkeit, die da-bei durch Fliehkräfte aus dem Laufrad verdrängt wird. Durch den Vorgang kommt es zur Druckerhöhung und Geschwindigkeitszunahme des Mediums. Die gleichzeitige Zunahme der Absolutgeschwindigkeit des Fördermittels stellt eine unerwünschte Strömungsbegleiterscheinung dar, da in der Pumpe vorrangig eine Druckerhöhung erzielt werden soll. Daher muss diese anschließend in Druckenergie umgewandelt werden. Die Umwandlung wird durch das um das Laufrad befindliche ringförmige Leitrad realisiert. Zusammen bilden Lauf- und Leitrad eine Stufe (daher einstufige Kreiselpumpe).
+Die kontinuierliche Aufrechterhaltung der Strömung erfolgt dadurch, dass durch die aus dem drehenden Laufrad verdrängte Flüssigkeit eine Saugwirkung erzeugt und das gleiche Volumen an Flüssigkeit über Saugstutzen wieder in die Pumpe eintritt. 
+Die Wahl einer Kreiselpumpe erfolgt nach Förderhöhe und Druckhöhe. So kann nach der Förderhöhe in Nieder, - Mittel – und Hochdruckpumpen unterteilt werden. Im Hin-blick auf die Druckhöhe, wählt man bei großen Druckhöhen mehrstufige Kreiselpumpen. Sie sind im Aufbau wie die einstufigen Kreiselpumpen mit dem einzigen Unter-schied, dass mehrere Stufen (gleichartige Lauf- und Leiträder) hintereinandergeschaltet sind. Dabei wird die Anzahl der Stufen durch die Förderhöhe, Drehzahl der Pumpe und die Größe des Volumenstromes bestimmt. 
+Bei geringen Förderhöhen und großen Volumenströmen entspricht die Laufradform, die dem Francisrade bei Wasserturbinen. Die Schaufeln des Laufrades sind bei dieser Bauart räumlich gekrümmt bzw. verwunden. Eine Erhöhung des Volumenstroms bei gering bleibender Förderhöhe erfordert eine mehrströmige Ausführung der Pumpe. Bei dieser Bauart sind mehrere Laufräder parallelgeschaltet. Verwirklicht wird das Ganze durch zwei Einzelräder, welche zu einem Radpaar mit doppelseitigem Wassereintritt vereinigt werden. Beispiele für mehrströmige Pumpen sind Kühlwasserpumpen für Kondensationsanlagen. Eine weitere Anwendung bei gleichbleibenden Bedingungen (Vergrößerung Volumenstrom, klein bleibende Förderhöhe) findet die Pumpe halbaxialer Bauart. Diese Bauart zeichnet sich dadurch aus, dass die axial eintretende Flüssigkeit nur noch eine geringe Umlenkung nach der radialen Richtung erfährt. Sie ersetzt die mehrstufige und bildet den Übergang von der Radial- zur Axialpumpe. Reine Axialpumpen eignen sich besonders zur Überwindung großer Volumenströme bei geringen Strecken.\cite{Schulz:2013}
+
+\section{Charakteristische Größen von Pumpen}
+Pumpen werden durch charakteristische Größen beschrieben. Im Folgenden sollen die Hauptparameter näher erläutert werden.
+
+\subsection{Volumenstrom}
+Der Volumenstrom oder Durchsatz gibt an, wie viel Raum ein Medium pro Zeiteinheit durchströmt. Er wird definiert durch:
+
+\begin{equation}
+	\dot{V} = \frac{\dot{m}}{\rho}
+\end{equation}
+
+Die Einheit ist beispielsweise \si{m^3/h}, \si{m^3/s}, \si{l/s} oder \si{l/min}.
+
+Der Volumenstrom setzt sich aus dem effektiv geförderten Volumenstrom und dem Leckvolumenstrom zusammen. Daraus ergibt sich der äußere und innere Dichtheitsgrad:
+
+\begin{equation}
+	\lambda = \frac{\dot{V}_s}{\dot{V}_i}
+\end{equation}
+
+Der Dichtheitsgrad ist dimensionslos und liegt typischerweise zwischen 0{,}92 und 0{,}98.
+
+\subsection{Förderhöhe}
+Die Förderhöhe (auch Nutzförderhöhe) ergibt sich aus der Summe der Saughöhe \( H_s \) und der Druckhöhe \( H_D \):
+
+\begin{equation}
+	H = H_s + H_D
+\end{equation}
+
+Für eine genauere Beschreibung der Förderhöhe werden zusätzlich Druckverluste und Geschwindigkeitsänderungen berücksichtigt. Die vollständige Formel lautet:
+
+\begin{equation}
+	H = h_{\text{geo}} + \frac{p_D - p_S}{g \cdot \rho} + \frac{c_D^2 - c_S^2}{2g} + H_V
+\end{equation}
+
+Diese setzt sich zusammen aus der geodätischen Höhe, den statischen Drücken im Druck- und Saugbehälter, den mittleren Strömungsgeschwindigkeiten im Aus- und Eingangsquerschnitt der Pumpe und den Druckverlusten.
+
+\subsection{Nutzleistung}
+
+Die Nutzleistung ergibt sich aus dem Massenstrom und der spezifischen Nutzarbeit der Pumpe:
+
+\begin{equation}
+	P_N = g \cdot \rho \cdot \dot{V} \cdot H
+\end{equation}
+
+\subsection{Pumpenwirkungsgrad}
+
+Der Pumpenwirkungsgrad berechnet sich als Verhältnis von Nutzleistung zur Kupplungsleistung:
+
+\begin{equation}
+	\eta_P = \frac{P_N}{P_K}
+\end{equation}
+
+Ist der hydraulische, volumetrische, Radreibungs- und mechanische Wirkungsgrad bekannt, so ergibt sich der gesamte Pumpenwirkungsgrad als Produkt:
+
+\begin{equation}
+	\eta_P = \eta_h \cdot \eta_{\text{vol}} \cdot \eta_R \cdot \eta_m
+\end{equation}
+
+Für Kreiselpumpen gelten typischerweise folgende Wirkungsgradbereiche:
+
+\begin{itemize}
+	\item Hydraulischer Wirkungsgrad: \( \eta_h = 0{,}82 - 0{,}95 \)
+	\item Mechanischer Wirkungsgrad: \( \eta_m = 0{,}95 - 0{,}98 \)
+	\item Motorwirkungsgrad: \( \eta_M = 0{,}82 - 0{,}95 \)
+	\item Kupplungswirkungsgrad: \( \eta_K = 0{,}82 - 0{,}95 \)
+\end{itemize}
+
+\subsection{Kupplungsleistung}
+
+Die Kupplungsleistung ist die mechanische Leistung, die zum Antrieb der Pumpe erforderlich ist. Sie setzt sich aus allen Leistungsverlusten zusammen:
+
+\begin{equation}
+	P_K = P_N + P_h + P_{\text{vol}} + P_R + P_m
+\end{equation}
+
+Dazu gehören hydraulische und mechanische Verluste, Radseitenreibungsverluste, Wirbel- und Wandreibungsverluste, Spaltverluste an den Dichtflächen, Ventilverluste sowie Lagerreibungsverluste.
+
+\subsection{Anlagenkennlinie}
+
+Alle Pumpenanlagen besitzen eine Anlagenkennlinie \( H_A = f(\dot{V}, d) \), die sich aus der Bernoulli-Gleichung ergibt:
+
+\begin{equation}
+	H_A = \frac{p_D - p_S}{g \cdot \rho} + \frac{c_D^2 - c_S^2}{2g} + H_{\text{geo}} + H_V
+\end{equation}
+
+Bei der Verwendung eines offenen Behälters entfällt der erste Term, da der Umgebungsdruck konstant ist. Die Gleichung vereinfacht sich dann zu:
+
+\begin{equation}
+	H_A = \frac{c_D^2 - c_S^2}{2g} + H_{\text{geo}} + H_V
+\end{equation}
+\cite{Surek:2021}
+
+\section{Comet Tauchpumpe ELEGANT 12V}
+Die COMET ELEGANT 12V ist eine kompakte, leistungsfähige Niedervolt-Tauchpumpe für sauberes Wasser, auch geeignet für Trinkwasser. Sie ist dauerlaufge-eignet und ist für den Betrieb mit einem 12V DC-Netzteil oder Akku ausgelegt. \cite{Comet:2004} \cite{ConradPumpe:2025}
+
+\section{Spezifikation}
+\subsection{Technische Daten:}
+\begin{itemize}
+	\item Betriebsspannung: 12 Volt DC
+	\item Stromaufnahme: max. 2,2 A
+	\item Leistungsaufnahme: 15 – 24 W
+	\item Förderleistung: max. 10 l/min
+	\item Förderhöhe: max. 5,5 m
+	\item Fördermenge: max. 600 l/h
+	\item Förderdruck: max. 0,55 bar 
+	\item Durchmesser: 38 mm
+	\item Höhe: 104 mm
+	\item Kabellänge: 1 m
+	\item Anschlussfarben: Braun (+) / Blau (–)
+\end{itemize}
+\subsection{Weitere Eigenschaften}
+\begin{itemize}
+	\item Trockenlaufsicher bis zu 2 Stunden
+	\item Dauerlaufgeeigent mit einer Lebensdauer von ca. 450-500 Betriebsstunden 
+	\item Wasserverträglichkeit bis zu 60°, auch für Trinkwasser geeignet
+	\item Passend für Schläuche mit 10 mm Innendurchmesser
+	\item Optional erweiterbar mit: Rückschlagventil mit Entlüftung, Entlüftungsstutzen, Feinfilter 
+\end{itemize}
+\cite{Comet:2004} \cite{ConradPumpe:2025}
+
+
+\section{Einfacher Code}
+Ein einfacher Beispielcode ist eine Wasserstandkontrolle. Es wird eine Meldung ausgegeben, wenn der Wasserstand zu niedrig ist. \ref{code:ansteuerungPumpe}
+
+\begin{code}[H]
+	\caption{Einfacher Code zur Ansteuerung einer Pumpe}
+	\label{code:ansteuerungPumpe}
+	\ArduinoExternal{}{../../Code/Arduino/Pumpe/ansteuerungPumpe/ansteuerungPumpe.ino}
+\end{code}
+
+\section{Tests}
+\section{Einfache Anwendung}
+Eine Anwendung ist die Fehlererkennung für den Fall, dass kein Wasser durch die Pumpe befördert wird. 
+Ein Ultraschallsensor misst vor dem Start der Pumpe den Wasserstand. Nach dem Start wird der Wasserstand erneut gemessen. Ändert sich der Wasserstand nicht, gibt es eine Meldung.\ref{code:fehlererkennungPumpe}
+
+\begin{code}[H]
+	\caption{Einfacher Code zur Fehlererkennung}
+	\label{code:fehlererkennungPumpe}
+	\ArduinoExternal{}{../../Code/Arduino/Pumpe/fehlererkennungPumpe/fehlererkennungPumpe.ino}
+\end{code}
+
+
+\section{Further Readings}
