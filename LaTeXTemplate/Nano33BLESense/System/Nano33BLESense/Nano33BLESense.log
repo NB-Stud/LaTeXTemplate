@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.21)  6 MAY 2025 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.21)  6 MAY 2025 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6059,6 +6059,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [127]
 
+LaTeX Warning: Reference `fig:skizzeBluetooth' on page 128 undefined on input l
+ine 950.
+
+
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -6067,12 +6072,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [128]
-Underfull \hbox (badness 10000) in paragraph at lines 965--967
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
+Underfull \hbox (badness 10000) in paragraph at lines 966--968
 
  []
 
@@ -6086,11 +6086,20 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [129]
-Underfull \hbox (badness 10000) in paragraph at lines 995--996
+Underfull \hbox (badness 10000) in paragraph at lines 970--971
 
  []
 
-(../../Code/Arduino/Bluetooth Modul/Einfacher_Code/Einfacher_Code.ino)
+
+Underfull \hbox (badness 10000) in paragraph at lines 996--997
+
+ []
+
+
+LaTeX Warning: Reference `code:bluetoothEinfach' on page 130 undefined on input
+ line 1008.
+
+(../../Code/Arduino/Bluetooth Modul/bluetoothBeispiel/bluetoothBeispiel.ino)
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6100,98 +6109,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [130]
-(../../Code/Arduino/Bluetooth Modul/Einfache_Anwendung/Einfache_Anwendung.ino
 
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 #define RELAY_PIN 7  // Arduino-Pin für 
-                                             das Relais
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
+LaTeX Warning: Reference `code:bluetoothAnwendung' on page 131 undefined on inp
+ut line 1020.
 
 
-! LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 #define RELAY_PIN 7  // Arduino-Pin für 
-                                             das Relais
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...intln("Stehleuchte bereit! Sende 'E' für 
-                                                  EIN, 'A' für AUS.");
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...intln("Stehleuchte bereit! Sende 'E' für 
-                                                  EIN, 'A' für AUS.");
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...chte bereit! Sende 'E' für EIN, 'A' für 
-                                                  AUS.");
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-! LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...chte bereit! Sende 'E' für EIN, 'A' für 
-                                                  AUS.");
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -6204,10 +6126,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [131]
-Package biblatex Info: Reference segment=72 on input line 1058.
-Package biblatex Info: Setting label 'refsegment:072' on input line 1058.
-
-Underfull \vbox (badness 4096) has occurred while \output is active []
+(../../Code/Arduino/Bluetooth Modul/bluetoothAnwendung/bluetoothAnwendung.ino)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -6219,14 +6139,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [132]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 1138.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 1138.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 1138.
+Package biblatex Info: Reference segment=72 on input line 1059.
+Package biblatex Info: Setting label 'refsegment:072' on input line 1059.
 
-Underfull \vbox (badness 2126) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -6238,9 +6154,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [133]
-Package biblatex Info: Reference segment=73 on input line 1170.
-Package biblatex Info: Setting label 'refsegment:073' on input line 1170.
-
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6250,6 +6163,15 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [134]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 1139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 1139.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 1139.
+Package biblatex Info: Reference segment=73 on input line 1171.
+Package biblatex Info: Setting label 'refsegment:073' on input line 1171.
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6267,10 +6189,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[136] (../../Code/Arduino/MOSFET/simpleMOSFET.ino)
-Package biblatex Info: Reference segment=74 on input line 1314.
-Package biblatex Info: Setting label 'refsegment:074' on input line 1314.
-
+[136]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6279,30 +6198,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[137]
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[138] (../../Code/Arduino/Externe LED/ansteuerungLED/ansteuerungLED.ino)
-(../../Code/Arduino/Externe LED/blinkenLED/blinkenLED.ino)
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[139]
-Overfull \hbox (17.41417pt too wide) in paragraph at lines 1432--1435
-\T1/pcr/l/it/10 falconillumination . de / de / wissenswertes / wie-[]funktionie
-rt-[]eine-[]led .
- []
+[137] (../../Code/Arduino/MOSFET/simpleMOSFET.ino)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -6313,7 +6210,31 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[140]) (../../Contents/General/Materialliste Magic Faucet Fountain.tex
+[138]
+Package biblatex Info: Reference segment=74 on input line 1315.
+Package biblatex Info: Setting label 'refsegment:074' on input line 1315.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[139] (../../Code/Arduino/Externe LED/ansteuerungLED/ansteuerungLED.ino)
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[140] (../../Code/Arduino/Externe LED/blinkenLED/blinkenLED.ino)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6323,11 +6244,21 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [141]
+Overfull \hbox (17.41417pt too wide) in paragraph at lines 1433--1436
+\T1/pcr/l/it/10 falconillumination . de / de / wissenswertes / wie-[]funktionie
+rt-[]eine-[]led .
+ []
 
-[142
+) (../../Contents/General/Materialliste Magic Faucet Fountain.tex
 
 
-]
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[142]
 chapter 14.
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
@@ -6339,7 +6270,7 @@ Underfull \hbox (badness 4454) in paragraph at lines 20--21
 \T1/lmr/m/n/10 (+20) - HC-05 Blue^^?
  []
 
-<../../Images/MateriallisteBilder/bluetoothModul.png, id=3730, 602.25pt x 224.8
+<../../Images/MateriallisteBilder/bluetoothModul.png, id=3769, 602.25pt x 224.8
 4pt>
 File: ../../Images/MateriallisteBilder/bluetoothModul.png Graphic file (type pn
 g)
@@ -6409,7 +6340,7 @@ Underfull \hbox (badness 3343) in paragraph at lines 25--26
 \T1/lmr/m/n/10 (+20) - Schalt^^?net^^?zteil
  []
 
-<../../Images/MateriallisteBilder/netzteilBild.png, id=3732, 602.25pt x 451.687
+<../../Images/MateriallisteBilder/netzteilBild.png, id=3771, 602.25pt x 451.687
 5pt>
 File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 
@@ -6456,7 +6387,7 @@ l.29 ...olt Tauchpumpe 12 V, 600 l/h, 5{,}5 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<../../Images/MateriallisteBilder/pumpeBild.png, id=3734, 1003.75pt x 1003.75pt
+<../../Images/MateriallisteBilder/pumpeBild.png, id=3773, 1003.75pt x 1003.75pt
 >
 File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpeBild.png>
@@ -6512,7 +6443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/blaueLED.png, id=3736, 602.25pt x 296.10625pt
+<../../Images/MateriallisteBilder/blaueLED.png, id=3775, 602.25pt x 296.10625pt
 >
 File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/blaueLED.png>
@@ -6563,7 +6494,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/greenLED.png, id=3738, 602.25pt x 351.3125pt>
+<../../Images/MateriallisteBilder/greenLED.png, id=3777, 602.25pt x 351.3125pt>
 
 File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/greenLED.png>
@@ -6580,7 +6511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 \T1/lmr/m/n/10 (+20) - IRF9540N
  []
 
-<../../Images/MateriallisteBilder/mosfetBild.png, id=3740, 602.25pt x 454.69875
+<../../Images/MateriallisteBilder/mosfetBild.png, id=3779, 602.25pt x 454.69875
 pt>
 File: ../../Images/MateriallisteBilder/mosfetBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/mosfetBild.png>
@@ -6636,7 +6567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/kippschalterBild.png, id=3742, 602.25pt x 141
+<../../Images/MateriallisteBilder/kippschalterBild.png, id=3781, 602.25pt x 141
 2.27625pt>
 File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
 png)
@@ -6644,10 +6575,13 @@ png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/kippschalterBild.png 
  used on input line 53.
 (pdftex.def)             Requested size: 27.7403pt x 65.0366pt.
-[143 <../../Images/MateriallisteBilder/bluetoothModul.png> <../../Images/Materi
-allisteBilder/netzteilBild.png> <../../Images/MateriallisteBilder/pumpeBild.png
-> <../../Images/MateriallisteBilder/blaueLED.png> <../../Images/MateriallisteBi
-lder/greenLED.png> <../../Images/MateriallisteBilder/mosfetBild.png>])
+[143
+
+
+ <../../Images/MateriallisteBilder/bluetoothModul.png> <../../Images/Materialli
+steBilder/netzteilBild.png> <../../Images/MateriallisteBilder/pumpeBild.png> <.
+./../Images/MateriallisteBilder/blaueLED.png> <../../Images/MateriallisteBilder
+/greenLED.png> <../../Images/MateriallisteBilder/mosfetBild.png>])
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6839,10 +6773,10 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 106487 strings out of 473190
- 2810195 string characters out of 5719979
+ 106574 strings out of 473190
+ 2812364 string characters out of 5719979
  4560736 words of memory out of 5000000
- 125639 multiletter control sequences out of 15000+600000
+ 125686 multiletter control sequences out of 15000+600000
  759600 words of font info for 458 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3379s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -6865,10 +6799,10 @@ exlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-
 dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/ur
 w/courier/ucrb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb>
-Output written on Nano33BLESense.pdf (153 pages, 8278604 bytes).
+Output written on Nano33BLESense.pdf (153 pages, 8285125 bytes).
 PDF statistics:
- 5178 PDF objects out of 6186 (max. 8388607)
- 4833 compressed objects within 49 object streams
- 2425 named destinations out of 2487 (max. 500000)
+ 5224 PDF objects out of 6186 (max. 8388607)
+ 4879 compressed objects within 49 object streams
+ 2465 named destinations out of 2487 (max. 500000)
  102213 words of extra memory for PDF output out of 106986 (max. 10000000)
 
