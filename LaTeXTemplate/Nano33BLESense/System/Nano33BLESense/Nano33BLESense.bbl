@@ -106,26 +106,6 @@
     \field{urlyear}{2024}
   \endentry
 
-  \entry{ArduinoKit:2022}{online}{}{}
-    \list{publisher}{1}{%
-      {Arduino}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ard}
-    \field{extraalpha}{3}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-  \field{note}{\href{../../../MLbib/Arduino/ArduinoStoreTinyMLKit.pdf}{[pdf]}}
-    \field{title}{Arduino Tiny Machine Learning Kit}
-    \verb{url}
-    \verb https://store.arduino.cc/products/arduino-tiny-machine-learning-kit
-    \endverb
-    \field{year}{2022}
-    \field{urlday}{23}
-    \field{urlmonth}{06}
-    \field{urlyear}{2023}
-  \endentry
-
   \entry{Arduino:2021}{online}{}{}
     \name{editor}{1}{}{%
       {{hash=A}{%
@@ -1270,23 +1250,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{Reichelt:2011}{manual}{}{}
-    \list{organization}{1}{%
-      {{Reichelt Elektronik GmbH}}%
-    }
-    \keyw{9 Volt Block , I-Form, Zeichnung}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Rei}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{note}{Das Datenblatt liefert allgemeine Informationen zum
-  Batterieclip. Die H{\"o}he des Batterieclips ist nicht aufgef{\"u}hrt.}
-    \field{number}{11445}
-    \field{title}{Batterieclip f{\"u}r 9-Volt-Block}
-    \field{month}{07}
-    \field{year}{2011}
-  \endentry
-
   \entry{ReicheltMOSFETManual:2025}{online}{}{}
     \name{author}{1}{}{%
       {{hash=R}{%
@@ -1338,30 +1301,6 @@
     \field{year}{2024}
   \endentry
 
-  \entry{Reichelt:2024a}{misc}{}{}
-    \name{editor}{1}{}{%
-      {{hash=R}{%
-         family={{Reichelt Elektronik GmbH}},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Rei}24}
-    \field{extraalpha}{2}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{note}{Online; accessed 17.04.2024}
-    \field{title}{Batterieclip f{\"u}r 9-Volt-Block, vertikal}
-    \verb{url}
-    \verb https://www.reichelt.de/batterieclip-fuer-9-volt-block-vertikal-clip-
-    \verb 9v-p6665.html
-    \endverb
-    \field{year}{2024}
-  \endentry
-
   \entry{Reichelt:2024g}{misc}{}{}
     \name{editor}{1}{}{%
       {{hash=R}{%
@@ -1374,7 +1313,7 @@
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
     \field{labelalpha}{{Rei}24}
-    \field{extraalpha}{3}
+    \field{extraalpha}{2}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{note}{Online; accessed 06.06.2024}
@@ -1538,6 +1477,34 @@
     \field{year}{2014}
   \endentry
 
+  \entry{Sauter:2022}{book}{}{}
+    \name{editor}{1}{}{%
+      {{hash=SM}{%
+         family={Sauter},
+         familyi={S\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Vieweg}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sau22}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{edition}{8}
+    \field{isbn}{978-3-658-36963-7}
+    \field{title}{Grundkurs Mobile Kommunikationssysteme}
+    \list{location}{1}{%
+      {Köln, Deutschland}%
+    }
+    \field{year}{2022}
+  \endentry
+
   \entry{schanda:2007}{book}{}{}
     \name{author}{1}{}{%
       {{hash=SJ}{%
@@ -1675,21 +1642,6 @@
       {Shenzhen Headquarters}%
     }
     \field{year}{2016}
-  \endentry
-
-  \entry{Shenzhen:2015}{manual}{}{}
-    \list{organization}{1}{%
-      {Shenzhen Global Tech Co}%
-    }
-    \keyw{Spannungssensor, Aufl{\"o}sung, Anwendungsbeispiele, Spezifikationen}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{She}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/Sensor/Spannung/Spannungssensor.pdf}{[pdf]}}}
-    \field{number}{170640}
-    \field{title}{Voltage Sensor / 170640 - Data Sheet}
-    \field{year}{2015}
   \endentry
 
   \entry{Simac:2017}{manual}{}{}
@@ -1844,6 +1796,41 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Tippler:2024}{book}{}{}
+    \name{author}{2}{}{%
+      {{hash=TPA}{%
+         family={Tipler},
+         familyi={T\bibinitperiod},
+         given={Paul\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mosca},
+         familyi={M\bibinitperiod},
+         given={Gene},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Spektrum Berlin}%
+    }
+    \keyw{Physik, Mechanik, Thermodynamik, Elektrodynamik, Optik, Atomphysik,
+  Physikaufgaben}
+    \strng{namehash}{TPAMG1}
+    \strng{fullhash}{TPAMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{TM24}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{edition}{9}
+    \field{isbn}{978-3-662-67936-4}
+    \field{pages}{423\bibrangedash 427}
+    \field{title}{Tipler Physik}
+    \field{month}{05}
+    \field{year}{2024}
+  \endentry
+
   \entry{Traenkler:2014}{book}{}{}
     \name{editor}{2}{}{%
       {{hash=THR}{%
@@ -1951,6 +1938,35 @@
     \field{title}{Volumio mit Drehgebern erweitern}
     \field{journaltitle}{Make Magazin}
     \field{year}{2024}
+  \endentry
+
+  \entry{Willems:2022}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=WWM}{%
+         family={Willems},
+         familyi={W\bibinitperiod},
+         given={Wolfgang\bibnamedelima M.},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Vieweg Wiesbaden}%
+    }
+    \keyw{Raumakustik, Schallschutz, W{\"a}rmebewegung, W{\"a}rmebr{\"u}cken,
+  Brandverhalten, Klimagerechtes Bauen}
+    \strng{namehash}{WWM1}
+    \strng{fullhash}{WWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wil22}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{edition}{9}
+    \field{isbn}{978-3-658-34093-3}
+    \field{pages}{567\bibrangedash 568}
+    \field{title}{Lehrbuch der Bauphysik}
+    \field{month}{11}
+    \field{year}{2022}
   \endentry
 
   \entry{Goobay:2023}{misc}{}{}

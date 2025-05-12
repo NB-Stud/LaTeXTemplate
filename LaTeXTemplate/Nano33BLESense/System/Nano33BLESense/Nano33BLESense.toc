@@ -178,12 +178,12 @@
 \contentsline {section}{\numberline {14.1}Einleitung}{123}{section.14.1}%
 \contentsline {section}{\numberline {14.2}Grundlegende Informationen}{123}{section.14.2}%
 \contentsline {subsection}{\numberline {14.2.1}Bluetooth Varianten}{123}{subsection.14.2.1}%
-\contentsline {subsection}{\numberline {14.2.2}Reichweite und Sendeleistung}{123}{subsection.14.2.2}%
+\contentsline {subsection}{\numberline {14.2.2}Reichweite und Sendeleistung}{124}{subsection.14.2.2}%
 \contentsline {subsection}{\numberline {14.2.3}Daten Übertragung}{124}{subsection.14.2.3}%
 \contentsline {subsection}{\numberline {14.2.4}Anwendungen}{124}{subsection.14.2.4}%
-\contentsline {section}{\numberline {14.3}Bluetooth Modul: HC-05}{124}{section.14.3}%
+\contentsline {section}{\numberline {14.3}Bluetooth Modul: HC-05}{125}{section.14.3}%
 \contentsline {section}{\numberline {14.4}Spezifikation}{125}{section.14.4}%
-\contentsline {section}{\numberline {14.5}Bibliotheken}{126}{section.14.5}%
+\contentsline {section}{\numberline {14.5}Bibliotheken}{125}{section.14.5}%
 \contentsline {section}{\numberline {14.6}Einfacher Code}{126}{section.14.6}%
 \contentsline {section}{\numberline {14.7}Tests}{127}{section.14.7}%
 \contentsline {section}{\numberline {14.8}Einfache Anwendung}{127}{section.14.8}%

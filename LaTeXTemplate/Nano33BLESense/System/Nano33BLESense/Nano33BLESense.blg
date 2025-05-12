@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 15640 items from 5000.
+Reallocated field_info (elt_size=4) to 15500 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -41,12 +41,17 @@ Repeated entry---line 375 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 629 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 455 of file ../../../MLbib/MyLiterature.bib
+ : 
+ : %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 641 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 843 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 855 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate      = {2025-05-04}
 (Error may have been on previous line)
@@ -54,45 +59,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 76 entries,
+You've used 75 entries,
             6402 wiz_defined-function locations,
-            1669 strings with 23566 characters,
-and the built_in function-call counts, 403180 in all, are:
-= -- 25685
-> -- 10035
-< -- 3371
-+ -- 10493
-- -- 5038
-* -- 26592
-:= -- 37541
+            1669 strings with 23290 characters,
+and the built_in function-call counts, 410352 in all, are:
+= -- 26625
+> -- 9990
+< -- 3386
++ -- 10591
+- -- 4866
+* -- 27240
+:= -- 38566
 add.period$ -- 0
-call.type$ -- 76
-change.case$ -- 103
-chr.to.int$ -- 360
-cite$ -- 178
-duplicate$ -- 42713
-empty$ -- 38859
-format.name$ -- 3699
-if$ -- 84537
+call.type$ -- 75
+change.case$ -- 96
+chr.to.int$ -- 342
+cite$ -- 170
+duplicate$ -- 43327
+empty$ -- 39213
+format.name$ -- 3817
+if$ -- 86111
 int.to.chr$ -- 0
-int.to.str$ -- 241
+int.to.str$ -- 239
 missing$ -- 0
-newline$ -- 1941
-num.names$ -- 3742
-pop$ -- 25788
+newline$ -- 1956
+num.names$ -- 3856
+pop$ -- 25488
 preamble$ -- 1
-purify$ -- 1801
+purify$ -- 1839
 quote$ -- 0
-skip$ -- 15581
+skip$ -- 15828
 stack$ -- 0
-substring$ -- 42221
-swap$ -- 11084
-text.length$ -- 2462
+substring$ -- 44028
+swap$ -- 11090
+text.length$ -- 2458
 text.prefix$ -- 121
 top$ -- 1
-type$ -- 2571
+type$ -- 2537
 warning$ -- 0
-while$ -- 4479
+while$ -- 4613
 width$ -- 0
-write$ -- 1866
-(There were 6 error messages)
+write$ -- 1882
+(There were 7 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.21)  11 MAY 2025 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.21)  12 MAY 2025 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2684,11 +2684,11 @@ ed!
 (tocbasic)                Currently used number width = 25.55551pt,
 (tocbasic)                Wanted number separation    = 3.99994pt,
 (tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 134.
+e 122.
 
 
-Overfull \hbox (2.55548pt too wide) detected at line 134
-\T1/lmr/m/n/10 12.10. 
+Overfull \hbox (2.55548pt too wide) detected at line 122
+\T1/lmr/m/n/10 10.10. 
  []
 
 
@@ -2697,11 +2697,11 @@ ed!
 (tocbasic)                Currently used number width = 25.55551pt,
 (tocbasic)                Wanted number separation    = 3.99994pt,
 (tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 135.
+e 123.
 
 
-Overfull \hbox (2.55548pt too wide) detected at line 135
-\T1/lmr/m/n/10 12.11. 
+Overfull \hbox (2.55548pt too wide) detected at line 123
+\T1/lmr/m/n/10 10.11. 
  []
 
 
@@ -2710,11 +2710,11 @@ ed!
 (tocbasic)                Currently used number width = 25.55551pt,
 (tocbasic)                Wanted number separation    = 3.99994pt,
 (tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 136.
+e 124.
 
 
-Overfull \hbox (2.55548pt too wide) detected at line 136
-\T1/lmr/m/n/10 12.12. 
+Overfull \hbox (2.55548pt too wide) detected at line 124
+\T1/lmr/m/n/10 10.12. 
  []
 
 
@@ -2723,11 +2723,11 @@ ed!
 (tocbasic)                Currently used number width = 25.55551pt,
 (tocbasic)                Wanted number separation    = 3.99994pt,
 (tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 137.
+e 125.
 
 
-Overfull \hbox (2.55548pt too wide) detected at line 137
-\T1/lmr/m/n/10 12.13. 
+Overfull \hbox (2.55548pt too wide) detected at line 125
+\T1/lmr/m/n/10 10.13. 
  []
 
 
@@ -2736,21 +2736,50 @@ eased!
 (tocbasic)                Currently used number width = 33.33327pt,
 (tocbasic)                Wanted number separation    = 3.99994pt,
 (tocbasic)                Reserved number width       = 31.99997pt on input lin
-e 138.
+e 126.
 
 
-Overfull \hbox (1.3333pt too wide) detected at line 138
-\T1/lmr/m/n/10 12.13.1. 
+Overfull \hbox (1.3333pt too wide) detected at line 126
+\T1/lmr/m/n/10 10.13.1. 
  []
 
 
-Overfull \hbox (4.29994pt too wide) detected at line 139
- []\T1/lmss/bx/n/12 103
+Package tocbasic Warning: number width of section toc entries should be increas
+ed!
+(tocbasic)                Currently used number width = 25.55551pt,
+(tocbasic)                Wanted number separation    = 3.99994pt,
+(tocbasic)                Reserved number width       = 23.00003pt on input lin
+e 145.
+
+
+Overfull \hbox (2.55548pt too wide) detected at line 145
+\T1/lmr/m/n/10 11.10. 
  []
 
 
-Overfull \hbox (0.99997pt too wide) detected at line 140
- []\T1/lmss/bx/n/10 105
+Package tocbasic Warning: number width of subsection toc entries should be incr
+eased!
+(tocbasic)                Currently used number width = 33.33327pt,
+(tocbasic)                Wanted number separation    = 3.99994pt,
+(tocbasic)                Reserved number width       = 31.99997pt on input lin
+e 146.
+
+
+Overfull \hbox (1.3333pt too wide) detected at line 146
+\T1/lmr/m/n/10 11.10.1. 
+ []
+
+
+Package tocbasic Warning: number width of subsection toc entries should be incr
+eased!
+(tocbasic)                Currently used number width = 33.33327pt,
+(tocbasic)                Wanted number separation    = 3.99994pt,
+(tocbasic)                Reserved number width       = 31.99997pt on input lin
+e 147.
+
+
+Overfull \hbox (1.3333pt too wide) detected at line 147
+\T1/lmr/m/n/10 11.10.2. 
  []
 
 
@@ -2769,50 +2798,62 @@ eased!
 (tocbasic)                Currently used number width = 33.33327pt,
 (tocbasic)                Wanted number separation    = 3.99994pt,
 (tocbasic)                Reserved number width       = 31.99997pt on input lin
-e 151.
+e 148.
 
 
-Overfull \hbox (1.3333pt too wide) detected at line 151
-\T1/lmr/m/n/10 13.1.10. 
+Overfull \hbox (1.3333pt too wide) detected at line 148
+\T1/lmr/m/n/10 11.10.3. 
  []
 
 
-Package tocbasic Warning: number width of subsection toc entries should be incr
-eased!
-(tocbasic)                Currently used number width = 33.33327pt,
+Package tocbasic Warning: number width of section toc entries should be increas
+ed!
+(tocbasic)                Currently used number width = 25.55551pt,
 (tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 31.99997pt on input lin
-e 152.
+(tocbasic)                Reserved number width       = 23.00003pt on input lin
+e 149.
 
 
-Overfull \hbox (1.3333pt too wide) detected at line 152
-\T1/lmr/m/n/10 13.1.11. 
+Overfull \hbox (2.55548pt too wide) detected at line 149
+\T1/lmr/m/n/10 11.11. 
  []
 
 
-Package tocbasic Warning: number width of subsection toc entries should be incr
-eased!
-(tocbasic)                Currently used number width = 33.33327pt,
+Package tocbasic Warning: number width of section toc entries should be increas
+ed!
+(tocbasic)                Currently used number width = 25.55551pt,
 (tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 31.99997pt on input lin
-e 153.
+(tocbasic)                Reserved number width       = 23.00003pt on input lin
+e 150.
 
 
-Overfull \hbox (1.3333pt too wide) detected at line 153
-\T1/lmr/m/n/10 13.1.12. 
+Overfull \hbox (2.55548pt too wide) detected at line 150
+\T1/lmr/m/n/10 11.12. 
  []
 
 
-Package tocbasic Warning: number width of subsection toc entries should be incr
-eased!
-(tocbasic)                Currently used number width = 33.33327pt,
-(tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 31.99997pt on input lin
-e 154.
+Overfull \hbox (0.99997pt too wide) detected at line 151
+ []\T1/lmss/bx/n/10 109
+ []
 
 
-Overfull \hbox (1.3333pt too wide) detected at line 154
-\T1/lmr/m/n/10 13.1.13. 
+Overfull \hbox (0.99997pt too wide) detected at line 169
+ []\T1/lmss/bx/n/10 117
+ []
+
+
+Overfull \hbox (0.99997pt too wide) detected at line 177
+ []\T1/lmss/bx/n/10 123
+ []
+
+
+Overfull \hbox (0.99997pt too wide) detected at line 191
+ []\T1/lmss/bx/n/10 131
+ []
+
+
+Overfull \hbox (0.99997pt too wide) detected at line 198
+ []\T1/lmss/bx/n/10 135
  []
 
 
@@ -2825,28 +2866,38 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [6]
-Overfull \hbox (0.99997pt too wide) detected at line 207
- []\T1/lmss/bx/n/10 143
+Overfull \hbox (0.99997pt too wide) detected at line 210
+ []\T1/lmss/bx/n/10 141
  []
 
 
-Overfull \hbox (4.29994pt too wide) detected at line 208
- []\T1/lmss/bx/n/12 145
+Overfull \hbox (0.99997pt too wide) detected at line 219
+ []\T1/lmss/bx/n/10 145
  []
 
 
-Overfull \hbox (0.99997pt too wide) detected at line 209
+Overfull \hbox (0.99997pt too wide) detected at line 220
  []\T1/lmss/bx/n/10 147
  []
 
 
-Overfull \hbox (0.99997pt too wide) detected at line 210
- []\T1/lmss/bx/n/10 152
+Overfull \hbox (4.29994pt too wide) detected at line 240
+ []\T1/lmss/bx/n/12 157
  []
 
 
-Overfull \hbox (0.99997pt too wide) detected at line 211
- []\T1/lmss/bx/n/10 153
+Overfull \hbox (0.99997pt too wide) detected at line 241
+ []\T1/lmss/bx/n/10 159
+ []
+
+
+Overfull \hbox (0.99997pt too wide) detected at line 242
+ []\T1/lmss/bx/n/10 164
+ []
+
+
+Overfull \hbox (0.99997pt too wide) detected at line 243
+ []\T1/lmss/bx/n/10 165
  []
 
 )
@@ -2869,50 +2920,24 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 ] (./Nano33BLESense.lof
 
+Package tocbasic Warning: number width of figure toc entries should be increase
+d!
+(tocbasic)                Currently used number width = 25.55551pt,
+(tocbasic)                Wanted number separation    = 3.99994pt,
+(tocbasic)                Reserved number width       = 23.00003pt on input lin
+e 42.
+
+
+Overfull \hbox (2.55548pt too wide) detected at line 42
+\T1/lmr/m/n/10 10.10. 
+ []
+
+
+
 [9
 
 
-]
-
-Package tocbasic Warning: number width of figure toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 25.55551pt,
-(tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 54.
-
-
-Overfull \hbox (2.55548pt too wide) detected at line 54
-\T1/lmr/m/n/10 12.10. 
- []
-
-
-Package tocbasic Warning: number width of figure toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 25.55551pt,
-(tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 65.
-
-
-Overfull \hbox (2.55548pt too wide) detected at line 65
-\T1/lmr/m/n/10 13.10. 
- []
-
-
-Package tocbasic Warning: number width of figure toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 25.55551pt,
-(tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 66.
-
-
-Overfull \hbox (2.55548pt too wide) detected at line 66
-\T1/lmr/m/n/10 13.11. 
- []
-
-)
+])
 \tf@lof=\write9
 \openout9 = `Nano33BLESense.lof'.
 
@@ -2927,43 +2952,16 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [10] (./Nano33BLESense.locode
 
-Package tocbasic Warning: number width of figure toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 25.55551pt,
-(tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 51.
-
-
-Overfull \hbox (2.55548pt too wide) detected at line 51
-\T1/lmr/m/n/10 13.10. 
- []
-
-
-Package tocbasic Warning: number width of figure toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 25.55551pt,
-(tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 52.
-
-
-Overfull \hbox (2.55548pt too wide) detected at line 52
-\T1/lmr/m/n/10 13.11. 
- []
-
-)
-\tf@locode=\write10
-\openout10 = `Nano33BLESense.locode'.
-
-
-
 [11
 
 
 
 
-]
+])
+\tf@locode=\write10
+\openout10 = `Nano33BLESense.locode'.
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -3636,7 +3634,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [26]
-<../../Images/Microphon/MikrophonCP.png, id=823, 455.20062pt x 310.15875pt>
+<../../Images/Microphon/MikrophonCP.png, id=867, 455.20062pt x 310.15875pt>
 File: ../../Images/Microphon/MikrophonCP.png Graphic file (type png)
 <use ../../Images/Microphon/MikrophonCP.png>
 Package pdftex.def Info: ../../Images/Microphon/MikrophonCP.png  used on input 
@@ -3686,7 +3684,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [29 <../../Images/Microphon/MikrophonCP.png>]
-<../../Images/Bluetooth/connectionBLE.png, id=891, 429.10312pt x 104.64093pt>
+<../../Images/Bluetooth/connectionBLE.png, id=935, 429.10312pt x 104.64093pt>
 File: ../../Images/Bluetooth/connectionBLE.png Graphic file (type png)
 <use ../../Images/Bluetooth/connectionBLE.png>
 Package pdftex.def Info: ../../Images/Bluetooth/connectionBLE.png  used on inpu
@@ -3716,7 +3714,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [30 <../../Images/BlueTooth/connectionBLE.png>]
-<../../Images/Nano33BLESense/Schnittstellen.png, id=944, 490.08093pt x 490.0809
+<../../Images/Nano33BLESense/Schnittstellen.png, id=989, 490.08093pt x 490.0809
 3pt>
 File: ../../Images/Nano33BLESense/Schnittstellen.png Graphic file (type png)
 <use ../../Images/Nano33BLESense/Schnittstellen.png>
@@ -4866,7 +4864,7 @@ Package biblatex Info: Reference segment=42 on input line 20.
 Package biblatex Info: Setting label 'refsegment:042' on input line 20.
 Package biblatex Info: Reference segment=43 on input line 34.
 Package biblatex Info: Setting label 'refsegment:043' on input line 34.
-<../../Images/JSTConnectors/JSTVH.jpg, id=2119, 54.2025pt x 54.2025pt>
+<../../Images/JSTConnectors/JSTVH.jpg, id=2163, 54.2025pt x 54.2025pt>
 File: ../../Images/JSTConnectors/JSTVH.jpg Graphic file (type jpg)
 <use ../../Images/JSTConnectors/JSTVH.jpg>
 Package pdftex.def Info: ../../Images/JSTConnectors/JSTVH.jpg  used on input li
@@ -4893,7 +4891,7 @@ https : / / www . jst-[]mfg . com / product /
 
 Package biblatex Info: Reference segment=44 on input line 70.
 Package biblatex Info: Setting label 'refsegment:044' on input line 70.
-<../../Images/JSTConnectors/JSTPH.jpg, id=2133, 54.2025pt x 54.2025pt>
+<../../Images/JSTConnectors/JSTPH.jpg, id=2176, 54.2025pt x 54.2025pt>
 File: ../../Images/JSTConnectors/JSTPH.jpg Graphic file (type jpg)
 <use ../../Images/JSTConnectors/JSTPH.jpg>
 Package pdftex.def Info: ../../Images/JSTConnectors/JSTPH.jpg  used on input li
@@ -4917,7 +4915,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [66 <../../Images/JSTConnectors/JSTVH.jpg>]
-<../../Images/JSTConnectors/PHR-2.jpg, id=2146, 642.4pt x 642.4pt>
+<../../Images/JSTConnectors/PHR-2.jpg, id=2186, 642.4pt x 642.4pt>
 File: ../../Images/JSTConnectors/PHR-2.jpg Graphic file (type jpg)
 <use ../../Images/JSTConnectors/PHR-2.jpg>
 Package pdftex.def Info: ../../Images/JSTConnectors/PHR-2.jpg  used on input li
@@ -4946,7 +4944,7 @@ g>]
 
 ]
 chapter 9.
-<../../Images/Grove/Shield.jpg, id=2166, 1606.0pt x 1204.5pt>
+<../../Images/Grove/Shield.jpg, id=2204, 1606.0pt x 1204.5pt>
 File: ../../Images/Grove/Shield.jpg Graphic file (type jpg)
 <use ../../Images/Grove/Shield.jpg>
 Package pdftex.def Info: ../../Images/Grove/Shield.jpg  used on input line 28.
@@ -4959,12 +4957,9 @@ See the caption package documentation for explanation.
 Package biblatex Info: Reference segment=45 on input line 34.
 Package biblatex Info: Setting label 'refsegment:045' on input line 34.
 
-Underfull \vbox (badness 1019) has occurred while \output is active []
-
-
 
 [69 <../../Images/Grove/Shield.jpg>]
-<../../Images/Grove/UniversalCable.jpg, id=2178, 638.385pt x 443.6575pt>
+<../../Images/Grove/UniversalCable.jpg, id=2216, 638.385pt x 443.6575pt>
 File: ../../Images/Grove/UniversalCable.jpg Graphic file (type jpg)
 <use ../../Images/Grove/UniversalCable.jpg>
 Package pdftex.def Info: ../../Images/Grove/UniversalCable.jpg  used on input l
@@ -4972,7 +4967,7 @@ ine 40.
 (pdftex.def)             Requested size: 216.81pt x 150.6723pt.
 Package biblatex Info: Reference segment=46 on input line 46.
 Package biblatex Info: Setting label 'refsegment:046' on input line 46.
-<../../Images/Grove/Grove2Pin.jpg, id=2183, 562.1pt x 375.4025pt>
+<../../Images/Grove/Grove2Pin.jpg, id=2221, 562.1pt x 375.4025pt>
 File: ../../Images/Grove/Grove2Pin.jpg Graphic file (type jpg)
 <use ../../Images/Grove/Grove2Pin.jpg>
 Package pdftex.def Info: ../../Images/Grove/Grove2Pin.jpg  used on input line 5
@@ -5063,7 +5058,7 @@ Overfull \hbox (34.9142pt too wide) in paragraph at lines 24--25
 oth-[]low-[]energy-[]setup/$[][] 
  []
 
-<../../Images/Bluetooth/BleBulletinBoardModel.png, id=2220, 658.46pt x 509.905p
+<../../Images/Bluetooth/BleBulletinBoardModel.png, id=2254, 658.46pt x 509.905p
 t>
 File: ../../Images/Bluetooth/BleBulletinBoardModel.png Graphic file (type png)
 <use ../../Images/Bluetooth/BleBulletinBoardModel.png>
@@ -5092,7 +5087,7 @@ Package biblatex Info: Reference segment=51 on input line 77.
 Package biblatex Info: Setting label 'refsegment:051' on input line 77.
 Package biblatex Info: Reference segment=52 on input line 86.
 Package biblatex Info: Setting label 'refsegment:052' on input line 86.
-<../../Images/Bluetooth/AndroidMenu.png, id=2248, 880.03781pt x 441.14813pt>
+<../../Images/Bluetooth/AndroidMenu.png, id=2283, 880.03781pt x 441.14813pt>
 File: ../../Images/Bluetooth/AndroidMenu.png Graphic file (type png)
 <use ../../Images/Bluetooth/AndroidMenu.png>
 Package pdftex.def Info: ../../Images/Bluetooth/AndroidMenu.png  used on input 
@@ -5110,7 +5105,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [75 <../../Images/BlueTooth/AndroidMenu.png>]
 Package biblatex Info: Reference segment=53 on input line 111.
 Package biblatex Info: Setting label 'refsegment:053' on input line 111.
-<../../Images/BlueTooth/BlueToothApp01.png, id=2257, 469.00218pt x 119.69719pt>
+<../../Images/BlueTooth/BlueToothApp01.png, id=2290, 469.00218pt x 119.69719pt>
 
 File: ../../Images/BlueTooth/BlueToothApp01.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp01.png>
@@ -5123,7 +5118,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 122.
 See the caption package documentation for explanation.
 
-<../../Images/BlueTooth/BlueToothApp02.png, id=2258, 458.46281pt x 821.31844pt>
+<../../Images/BlueTooth/BlueToothApp02.png, id=2291, 458.46281pt x 821.31844pt>
 
 File: ../../Images/BlueTooth/BlueToothApp02.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp02.png>
@@ -5145,7 +5140,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [76 <../../Images/BlueTooth/BlueToothApp01.png>]
-<../../Images/BlueTooth/BlueToothApp03.png, id=2266, 462.22687pt x 822.82407pt>
+<../../Images/BlueTooth/BlueToothApp03.png, id=2298, 462.22687pt x 822.82407pt>
 
 File: ../../Images/BlueTooth/BlueToothApp03.png Graphic file (type png)
 <use ../../Images/BlueTooth/BlueToothApp03.png>
@@ -5174,10 +5169,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [77 <../../Images/BlueTooth/BlueToothApp02.png> <../../Images/BlueTooth/BlueToo
 thApp03.png>]
-Package marginnote Info: Suggest that margin note 78.1 will be on
-(marginnote)             absolute page 78.
-(marginnote)             This may be wrong on input line 168.
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 168.
+Package marginnote Info: Margin note 78.1 is on absolute page 78 on input line 
+168.
+Package marginnote Info: xpos seems to be 319.80391pt on input line 168.
 File: ../../Images/Bluetooth/BleBulletinBoardModel.png Graphic file (type png)
 <use ../../Images/Bluetooth/BleBulletinBoardModel.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BleBulletinBoardModel.png  used
@@ -5226,7 +5220,7 @@ Overfull \hbox (242.12039pt too wide) in paragraph at lines 331--332
 ][][][] 
  []
 
-<../../Images/Bluetooth/BatteryApp.png, id=2364, 324.21124pt x 229.85875pt>
+<../../Images/Bluetooth/BatteryApp.png, id=2388, 324.21124pt x 229.85875pt>
 File: ../../Images/Bluetooth/BatteryApp.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryApp.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BatteryApp.png  used on input l
@@ -5274,13 +5268,13 @@ Overfull \hbox (116.11911pt too wide) in paragraph at lines 449--450
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<../../Images/Bluetooth/BatteryAppAcc.png, id=2479, 363.60844pt x 775.39688pt>
+<../../Images/Bluetooth/BatteryAppAcc.png, id=2501, 363.60844pt x 775.39688pt>
 File: ../../Images/Bluetooth/BatteryAppAcc.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryAppAcc.png>
 Package pdftex.def Info: ../../Images/Bluetooth/BatteryAppAcc.png  used on inpu
 t line 500.
 (pdftex.def)             Requested size: 221.93375pt x 473.2872pt.
-<../../Images/Bluetooth/BatteryAppAcc2.png, id=2480, 366.61969pt x 779.16093pt>
+<../../Images/Bluetooth/BatteryAppAcc2.png, id=2502, 366.61969pt x 779.16093pt>
 
 File: ../../Images/Bluetooth/BatteryAppAcc2.png Graphic file (type png)
 <use ../../Images/Bluetooth/BatteryAppAcc2.png>
@@ -5362,7 +5356,7 @@ Package biblatex Info: Reference segment=56 on input line 542.
 Package biblatex Info: Setting label 'refsegment:056' on input line 542.
 Package biblatex Info: Reference segment=57 on input line 545.
 Package biblatex Info: Setting label 'refsegment:057' on input line 545.
-<../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg, id=2553, 237.88875pt x 
+<../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg, id=2572, 237.88875pt x 
 223.43475pt>
 File: ../../Images/Nano33BLESense/TestsoftwareBluetooth.jpg Graphic file (type 
 jpg)
@@ -5540,9 +5534,6 @@ Package biblatex Info: Setting label 'refsegment:061' on input line 19.
 Package biblatex Info: Reference segment=62 on input line 22.
 Package biblatex Info: Setting label 'refsegment:062' on input line 22.
 
-LaTeX Warning: Reference `grundlagen' on page 95 undefined on input line 51.
-
-
 
 [95
 
@@ -5550,30 +5541,6 @@ LaTeX Warning: Reference `grundlagen' on page 95 undefined on input line 51.
 ]
 Package biblatex Info: Reference segment=63 on input line 68.
 Package biblatex Info: Setting label 'refsegment:063' on input line 68.
-
-
-LaTeX Warning: Citation 'Tippler:2024' on page 96 undefined on input line 80.
-
-
-LaTeX Warning: Reference `fig:grundlagenSchall' on page 96 undefined on input l
-ine 81.
-
-
-LaTeX Warning: Reference `Vschall' on page 96 undefined on input line 134.
-
-
-LaTeX Warning: Citation 'Tippler:2024' on page 96 undefined on input line 141.
-
-
-LaTeX Warning: Citation 'Tippler:2024' on page 96 undefined on input line 142.
-
-
-LaTeX Warning: Citation 'Willems:2022' on page 96 undefined on input line 142.
-
-
-LaTeX Warning: Reference `schallfunktion' on page 96 undefined on input line 14
-4.
-
 
 
 
@@ -5589,19 +5556,17 @@ Overfull \hbox (67.46603pt too wide) in paragraph at lines 171--171
  []
 
 
-LaTeX Warning: Reference `Wellenlaenge' on page 97 undefined on input line 176.
+Overfull \hbox (7.73613pt too wide) in paragraph at lines 183--184
+\OML/lmm/m/it/10 v[]$ \T1/lmr/m/n/10 (-20) die Wellen^^?länge des Schalls berec
+h^^?nen [[]Wil22[]]. Diese be^^?trägt bei einer angenomme^^?
+ []
 
 
-
-LaTeX Warning: Citation 'Willems:2022' on page 97 undefined on input line 183.
-
-
-LaTeX Warning: Reference `AbschnittVschall' on page 97 undefined on input line 
-183.
-
-
-LaTeX Warning: Reference `TastbetriebELM' on page 97 undefined on input line 23
-3.
+Overfull \hbox (15.38268pt too wide) in paragraph at lines 183--184
+\T1/lmr/m/n/10 (-20) nen Fre^^?quenz von $\OML/lmm/m/it/10 f \OT1/lmr/m/n/10 (-
+20) = 40 []$ \T1/lmr/m/n/10 (-20) und der in Ab^^?schnitt []11.3.2[] berech^^?n
+eten Schallgeschwindigkeit
+ []
 
 
 
@@ -5973,8 +5938,11 @@ Package biblatex Info: Setting label 'refsegment:089' on input line 21.
 
 
 ]
-Package biblatex Info: Reference segment=90 on input line 58.
-Package biblatex Info: Setting label 'refsegment:090' on input line 58.
+Package biblatex Info: Reference segment=90 on input line 64.
+Package biblatex Info: Setting label 'refsegment:090' on input line 64.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 
@@ -5985,15 +5953,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [124]
-Package biblatex Info: Reference segment=91 on input line 155.
-Package biblatex Info: Setting label 'refsegment:091' on input line 155.
+Package biblatex Info: Reference segment=91 on input line 161.
+Package biblatex Info: Setting label 'refsegment:091' on input line 161.
+Package biblatex Info: Reference segment=92 on input line 165.
+Package biblatex Info: Setting label 'refsegment:092' on input line 165.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
@@ -6007,16 +5972,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [125]
-Package biblatex Info: Reference segment=92 on input line 187.
-Package biblatex Info: Setting label 'refsegment:092' on input line 187.
+Package biblatex Info: Reference segment=93 on input line 188.
+Package biblatex Info: Setting label 'refsegment:093' on input line 188.
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-Package biblatex Info: Reference segment=93 on input line 210.
-Package biblatex Info: Setting label 'refsegment:093' on input line 210.
 (../../Code/Arduino/Bluetooth Modul/bluetoothBeispiel/bluetoothBeispiel.ino)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6026,10 +5988,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [126]
-Package biblatex Info: Reference segment=94 on input line 220.
-Package biblatex Info: Setting label 'refsegment:094' on input line 220.
-Package biblatex Info: Reference segment=95 on input line 222.
-Package biblatex Info: Setting label 'refsegment:095' on input line 222.
+Package biblatex Info: Reference segment=94 on input line 198.
+Package biblatex Info: Setting label 'refsegment:094' on input line 198.
+Package biblatex Info: Reference segment=95 on input line 200.
+Package biblatex Info: Setting label 'refsegment:095' on input line 200.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -6044,7 +6006,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [127]
-Overfull \vbox (52.56328pt too high) has occurred while \output is active []
+Overfull \vbox (52.96327pt too high) has occurred while \output is active []
 
 
 
@@ -6056,8 +6018,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [128]
-Package biblatex Info: Reference segment=96 on input line 248.
-Package biblatex Info: Setting label 'refsegment:096' on input line 248.
+Package biblatex Info: Reference segment=96 on input line 227.
+Package biblatex Info: Setting label 'refsegment:096' on input line 227.
 ) (../../Contents/General/HardwareBeschreibung/Kippschalter.tex
 
 
@@ -6132,11 +6094,6 @@ Package biblatex Info: Setting label 'refsegment:0104' on input line 19.
 [135]
 Package biblatex Info: Reference segment=105 on input line 57.
 Package biblatex Info: Setting label 'refsegment:0105' on input line 57.
-
-
-LaTeX Warning: Reference `skizzeMosfet' on page 136 undefined on input line 58.
-
-
 Package biblatex Info: Reference segment=106 on input line 120.
 Package biblatex Info: Setting label 'refsegment:0106' on input line 120.
 
@@ -6149,13 +6106,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [136]
-
-LaTeX Warning: Reference `PinBelegungMOSFET' on page 137 undefined on input lin
-e 141.
-
-
-LaTeX Warning: Reference `MOSFETpin' on page 137 undefined on input line 141.
-
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 144.
@@ -6292,7 +6242,7 @@ Underfull \hbox (badness 4454) in paragraph at lines 20--21
 \T1/lmr/m/n/10 (+20) - HC-05 Blue^^?
  []
 
-<../../Images/MateriallisteBilder/bluetoothModul.png, id=3839, 602.25pt x 224.8
+<../../Images/MateriallisteBilder/bluetoothModul.png, id=3779, 602.25pt x 224.8
 4pt>
 File: ../../Images/MateriallisteBilder/bluetoothModul.png Graphic file (type pn
 g)
@@ -6310,7 +6260,7 @@ Underfull \hbox (badness 3343) in paragraph at lines 25--26
 \T1/lmr/m/n/10 (+20) - Schalt^^?net^^?zteil
  []
 
-<../../Images/MateriallisteBilder/netzteilBild.png, id=3841, 602.25pt x 451.687
+<../../Images/MateriallisteBilder/netzteilBild.png, id=3781, 602.25pt x 451.687
 5pt>
 File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 
@@ -6318,7 +6268,7 @@ File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
 d on input line 27.
 (pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
-<../../Images/MateriallisteBilder/pumpeBild.png, id=3843, 1003.75pt x 1003.75pt
+<../../Images/MateriallisteBilder/pumpeBild.png, id=3783, 1003.75pt x 1003.75pt
 >
 File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpeBild.png>
@@ -6330,7 +6280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/blaueLED.png, id=3845, 602.25pt x 296.10625pt
+<../../Images/MateriallisteBilder/blaueLED.png, id=3785, 602.25pt x 296.10625pt
 >
 File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/blaueLED.png>
@@ -6342,7 +6292,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/greenLED.png, id=3847, 602.25pt x 351.3125pt>
+<../../Images/MateriallisteBilder/greenLED.png, id=3787, 602.25pt x 351.3125pt>
 
 File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/greenLED.png>
@@ -6359,7 +6309,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 \T1/lmr/m/n/10 (+20) - IRF9540N
  []
 
-<../../Images/MateriallisteBilder/mosfetBild.png, id=3849, 602.25pt x 454.69875
+<../../Images/MateriallisteBilder/mosfetBild.png, id=3789, 602.25pt x 454.69875
 pt>
 File: ../../Images/MateriallisteBilder/mosfetBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/mosfetBild.png>
@@ -6371,7 +6321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/kippschalterBild.png, id=3851, 602.25pt x 141
+<../../Images/MateriallisteBilder/kippschalterBild.png, id=3791, 602.25pt x 141
 2.27625pt>
 File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
 png)
@@ -6549,17 +6499,17 @@ wiki -[] content . arduino . cc / en / Guide / NANO33BLESense$[]\T1/lmr/m/n/10
  []
 
 
-
-[159
-
-
-]
 Overfull \hbox (27.88615pt too wide) in paragraph at lines 282--282
 \T1/pcr/l/it/10 de / de / mitwirken / normenausschuesse / nam / veroeffentlichu
 ngen /
  []
 
 
+
+[159
+
+
+]
 Overfull \hbox (22.58615pt too wide) in paragraph at lines 282--282
 \T1/pcr/l/it/10 www . fluke . com / de -[] de / mehr -[] erfahren / blog / digi
 talmultimeter /
@@ -6585,6 +6535,13 @@ Overfull \hbox (8.42166pt too wide) in paragraph at lines 282--282
  []
 
 
+Overfull \hbox (10.41827pt too wide) in paragraph at lines 282--282
+\T1/lmr/m/it/10 (-20) men-tieren mit Ar-duino und Rasp-berry Pi\T1/lmr/m/n/10 (
+-20) . dpunkt, 2014. \T1/lmr/m/sc/10 (-20) isbn\T1/lmr/m/n/10 (-20) : 978338649
+01607. 
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6594,13 +6551,6 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [160]
-Overfull \hbox (10.41827pt too wide) in paragraph at lines 282--282
-\T1/lmr/m/it/10 (-20) men-tieren mit Ar-duino und Rasp-berry Pi\T1/lmr/m/n/10 (
--20) . dpunkt, 2014. \T1/lmr/m/sc/10 (-20) isbn\T1/lmr/m/n/10 (-20) : 978338649
-01607. 
- []
-
-
 Overfull \hbox (19.73988pt too wide) in paragraph at lines 282--282
 []\T1/lmr/m/n/10 (-20) NKK Switches. \T1/lmr/m/it/10 (-20) Schal-ter-grund-la-g
 en\T1/lmr/m/n/10 (-20) . 2025. \T1/lmr/m/sc/10 (-20) url\T1/lmr/m/n/10 (-20) : 
@@ -6674,12 +6624,7 @@ runsystem(makeindex Nano33BLESense.idx)...executed safely (allowed).
 
 [165
 
-])
-
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (153 not 165).
-               Rerun to correct this.
-
-(./Nano33BLESense.aux)
+]) (./Nano33BLESense.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -6696,11 +6641,6 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Nano33BLESense.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                Nano33BLESense
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 \openout1 = `Nano33BLESense.run.xml'.
 
@@ -6711,515 +6651,36 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 111351 strings out of 473190
- 2942597 string characters out of 5719979
- 4628881 words of memory out of 5000000
- 130183 multiletter control sequences out of 15000+600000
- 763524 words of font info for 467 fonts, out of 8000000 for 9000
+ 111210 strings out of 473190
+ 2940033 string characters out of 5719979
+ 4633835 words of memory out of 5000000
+ 130167 multiletter control sequences out of 15000+600000
+ 763482 words of font info for 465 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3379s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.caption.76} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.65} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.13.1} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.11.3} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.11.2} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.89} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.88} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.86} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.77} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.75} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.63} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.62} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.50} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.48} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.47} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{code.caption.31} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.87} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.81} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.80} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.74} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.68} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.66} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.12.10} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.12.5} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.12.4} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.12.3} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.29} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.28} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.11.3} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.27} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.11.1} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.10.2} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.10.1} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.9.4} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.9.2} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter*.90} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.7.8} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.7.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.7.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.7.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.7.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.7.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.7.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.7.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.6.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.5.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.5.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.5.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.5.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.5.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.5.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.9} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.8} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.4.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.3.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.2.8} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.2.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.2.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.2.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.2.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.2.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.2.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.2.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.13} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.12} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.11} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.10} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.9} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.8} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.13.1.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.13.1} has been referenced but does no
-t exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.13} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.12} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.11} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.10} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.12.9} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.7} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.6} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.5} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.4} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.12.7.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.10.3.3} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.10.3.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.10.3.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.10.2.2} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.10.2.1} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.9.4.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.9.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.9.4} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.9.0.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-<c:/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb><c:/texlive/
-2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/texlive/2025/texmf-d
-ist/fonts/type1/public/lm/lmbsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/p
-ublic/lm/lmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pf
-b><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/202
-5/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lm
-r10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive
-/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fo
-nts/type1/public/lm/lmr5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/
-lmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive
-/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2025/texmf-dist/f
-onts/type1/public/lm/lmro10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/
-lm/lmss17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/t
-exlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2025/texm
-f-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1
-/public/lm/lmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a
-.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (165 pages, 5947882 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feybr10.
+pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/texl
+ive/2025/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><c:/texlive/2025/texmf-di
+st/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/pub
+lic/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
+><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb><c:/texlive/2025/
+texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/ty
+pe1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12
+.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/20
+25/texmf-dist/fonts/type1/public/lm/lmr5.pfb><c:/texlive/2025/texmf-dist/fonts/
+type1/public/lm/lmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2
+025/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2025/texmf-dist/fon
+ts/type1/public/lm/lmss17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm
+/lmss8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/t
+exlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-
+dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/ur
+w/courier/ucrb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a
+.pfb>
+Output written on Nano33BLESense.pdf (165 pages, 5944160 bytes).
 PDF statistics:
- 5651 PDF objects out of 6186 (max. 8388607)
- 5304 compressed objects within 54 object streams
- 2712 named destinations out of 2984 (max. 500000)
+ 5536 PDF objects out of 6186 (max. 8388607)
+ 5191 compressed objects within 52 object streams
+ 2591 named destinations out of 2984 (max. 500000)
  106501 words of extra memory for PDF output out of 106986 (max. 10000000)
 
