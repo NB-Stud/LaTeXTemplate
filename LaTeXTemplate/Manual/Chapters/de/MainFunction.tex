@@ -86,12 +86,68 @@ Sobald Sie Ihren Magic Faucet Fountain erhalten oder gekauft haben, können Sie 
 Nachdem Sie den Blumentopf und den Deckel ausgepackt haben, überprüfen Sie bitte, ob alle Bestandteile des Produkts vorhanden sind. Um den Magic Faucet Fountain aufzubauen, müssen Sie lediglich den Deckel auf den Blumentopf montieren und die dekorativen Steine auf den Deckel legen. Danach füllen Sie das Wasser bis zur Markierung auf. Abschließend können Sie das Netzkabel anschließen und mit dem Einrichten der App beginnen! Falls Sie genauere Informationen zum Aufbau benötigen, schauen Sie einfach in der Skizze \ref{fig:Skizze} nach!
 
 \section{Einrichten der App}
-Laden Sie sich die RemoteXY - App über den Google Playstore oder den Appstore auf Ihr Smartphone herunter. Schalten Sie die Bluetooth-Verbindung auf Ihrem Smartphone ein und suchen Sie nach in der Nähe befindlichen Geräten. In der RemoteXY-App können Sie dann anschließend die Verbindung mit dem Magic Faucet Fountain herstellen. Nun können Sie Ihren Magic Faucet Fountain nutzen!
-Die App, wie in \ref{fig:appAnsicht} dargestellt, verfügt über eine Darstellung des Blumentopfes und eine Füllstandsanzeige. Zudem lässt sich die Pumpe mit zwei Knöpfen ansteuern.
+Laden Sie sich die RemoteXY - App über den Google Playstore oder den Appstore auf Ihr Smartphone herunter. Schalten Sie die Bluetooth-Verbindung auf Ihrem Smartphone ein und suchen Sie nach in der Nähe befindlichen Geräten. Schalten Sie den Netzwerkkasten über den Kippschalter ein und überprüfen Sie, ob die grüne LED leuchtet. Ist dies der Fall warten Sie auf das Blinken der blauen LED. Sobald dies der Fall ist können Sie in der RemoteXY-App die Verbindung mit dem Magic Faucet Fountain herstellen. Die Verbindung ist hergestellt, sobald die blaue LED konstant leuchtet. Nun können Sie Ihren Magic Faucet Fountain nutzen!
+Die App, wie in \ref{fig:ansichtApp} dargestellt, verfügt über eine Darstellung des Blumentopfes und eine Füllstandsanzeige. Zudem lässt sich die Pumpe mit zwei Knöpfen ansteuern.
 
-\begin{figure}[!ht]
-	\centering
+
+\begin{figure}[]
+		\centering
+		\resizebox{1\textwidth}{!}{%
+			\begin{circuitikz}
+				\tikzstyle{every node}=[font=\LARGE]
+				
+				% Gehäuse
+				\draw [fill={rgb,255:red,128; green,128; blue,128}, line width=2pt] (-5,12) rectangle (12.5,7);
+				\draw [fill={rgb,255:red,128; green,128; blue,128}, line width=1pt] (-5,12) -- (12.5,12) -- (15,14.5) -- (-2.5,14.5) -- cycle;
+				\draw [line width=2pt](-5,12) -- (-2.5,14.5);
+				\draw [line width=2pt](-2.5,14.5) -- (15,14.5);
+				\draw [line width=2pt](12.5,12) -- (15,14.5);
+				\draw [line width=2pt](12.5,7) -- (15,9.5);
+				\draw [line width=2pt](15,9.5) -- (15,14.5);
+				\draw [fill={rgb,255:red,128; green,128; blue,128}, line width=1pt] (12.5,7) -- (15,9.5) -- (15,14.5) -- (12.5,12) -- cycle;
+				
+				% Obere LED-Kappen (Ellipse oben)
+				\draw [color=blue, fill=blue, line width=2pt] (0,13.25) ellipse (1.25cm and 0.25cm);
+				\draw [color=green!50!black, fill=green, line width=2pt] (3.75,13.25) ellipse (1.25cm and 0.25cm);
+				\draw [fill=gray!50, line width=2pt] (8.75,13.25) ellipse (1.25cm and 0.25cm);
+				
+				% Zylinderkörper der LEDs
+				\draw [color=blue, fill=blue] (-1.25,13.25) rectangle (1.25,15);
+				\draw [color=green!50!black, fill=green] (2.5,13.25) rectangle (5,15);
+				% Beschriftungen über den Komponenten
+				\node at (0,17.5) {\textbf{LED Blau}};
+				\node at (3.75,17.5) {\textbf{LED Grün}};
+				\node at (8.75,17.5) {\textbf{Kippschalter}};
+				\draw [->, >=Stealth] (0,17) -- (0,15.5);
+				\draw [->, >=Stealth] (3.75,17) -- (3.75,15.5);
+				\draw [->, >=Stealth] (9.25,17) -- (9.25,16);
+				% Untere Halbellipsen (schwarze Kurven)
+				\draw [color=black, line width=1pt, domain=-1.25:1.25, samples=100] 
+				plot (\x, {-0.25 * sqrt(1 - (\x/1.25)^2) + 13.25});
+				\draw [color=black, line width=1pt, domain=2.5:5, samples=100] 
+				plot (\x, {-0.25 * sqrt(1 - ((\x - 3.75)/1.25)^2) + 13.25});
+				
+				% Oberer Ellipsenrand (Top-Kappe)
+				\draw [fill=green, line width=2pt] (3.75,15) ellipse (1.25cm and 0.25cm);
+				\draw [fill=blue, line width=2pt] (0,15) ellipse (1.25cm and 0.25cm);
+				
+				% Kippschalter
+				\draw [fill=gray!50, line width=0.8pt] (8.25,13.25) -- (9.25,13.25) -- (9.75,15.5) -- (8.75,15.5) -- cycle;
+				\draw [fill=gray!50, line width=0.5pt] (9.25,15.5) ellipse (0.5cm and 0.25cm);
+				%Kabel
+				\draw [line width=10pt, short] (13.75,9.5) .. controls (19,10.5) and (17.75,8.5) .. (21.25,9.5);
+				\draw [line width=10pt, short] (-5,9.5) .. controls (-7.5,10.75) and (-7.75,8.25) .. (-10,9.5);
+			\end{circuitikz}
+		}%
 	
+		\caption{Netzteil des Magic Faucet Fountain}
+	\label{fig:ansichtApp}
+\end{figure}
+	
+
+
+\begin{figure}[]
+	\centering
 	\resizebox{0.75\textwidth}{!}{%
 		\begin{circuitikz}
 			\tikzstyle{every node}=[font=\LARGE]
@@ -143,4 +199,3 @@ Die App, wie in \ref{fig:appAnsicht} dargestellt, verfügt über eine Darstellun
     \label{fig:appAnsicht}
 \end{figure}
 
-\newpage

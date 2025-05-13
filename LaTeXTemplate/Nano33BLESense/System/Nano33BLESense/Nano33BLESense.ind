@@ -1,111 +1,54 @@
 \begin{theindex}
 
   \item  File
-    \subitem ArduinoBLE, 82
-    \subitem ArduinoBLE.h, 80
-    \subitem BuiltinLED.cpp, 36
-    \subitem BuiltinLED.h, 36
-    \subitem LED.cpp, 41
-    \subitem LED.h, 40
-    \subitem LSM9DS1, 82
-    \subitem Mag\_raw.txt, 26
-    \subitem Nano33BLE\_Led\_A0.ino, 76
-    \subitem PowerLED.cpp, 42
-    \subitem PowerLED.h, 42
-    \subitem RGBLED.cpp, 49
-    \subitem RGBLED.h, 48
-    \subitem SignsOfLife.cpp, 44
-    \subitem SignsOfLife.h, 44
-    \subitem Sketch -> Include Library -> Manage Library, 78
+    \subitem Arduino, 24
+    \subitem blink.ino, 37, 38
+    \subitem blnik.ino, 33
+    \subitem Fade, 38
+    \subitem File/Examples/01.Basics, 38
+    \subitem libraries, 26--28
+    \subitem MySketch, 24
+    \subitem MySketch.ino, 24
+    \subitem Nano33BLESenseLE, 26
+    \subitem Nano33BLESenseLED, 27, 28
   \item  Inertial Measurement Unit
-    \subitem  \emph  {see} IMU, 13, 22
-
-  \indexspace
-
-  \item Acoustic Overload Point
-    \subitem  \emph  {see} AOP, 13, 27
-  \item AOP, 13, 27
+    \subitem  \emph  {see} IMU, 11, 44
 
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 13, 98
-  \item GPIO, 13, 98
+    \subitem  \emph  {see} GPIO, 11, 54
+  \item GPIO, 11, 54, 55
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 13, 98
-  \item IMU, 13, 22, 25
+  \item I\textsuperscript  {2}C, 11, 54, 55
+  \item IDE, 11, 38
+  \item IMU, 11, 44
+  \item Integrated Development Environment
+    \subitem  \emph  {see} IDE, 11, 38
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 98
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 11, 54
 
   \indexspace
 
-  \item Japan Solderless Terminal
-    \subitem  \emph  {see} JST, 13, 70
-  \item JST, 13, 70
-
-  \indexspace
-
-  \item LED, 13, 39, 40, 44, 47--51, 53, 54
-    \subitem Brightness, 53
-    \subitem Built-in LED, 35
-    \subitem Built-in RGB-LED, 47
-    \subitem Colors, 50
-    \subitem Power LED, 39
-  \item Light Emitting Diode
-    \subitem  \emph  {see} {LED}, 13, 39
-
-  \indexspace
-
-  \item mcd, 13, 48
-  \item Millicandela
-    \subitem  \emph  {see} {mcd}, 13, 48
-
-  \indexspace
-
-  \item PCB, 13, 65
-  \item PDM, 13, 27
-  \item Pin
-    \subitem Pin 11, 57, 58
-    \subitem Pin 13, 35--37
-    \subitem Pin 22, 48
-    \subitem Pin 22,23,24, 48
-    \subitem Pin 23, 48
-    \subitem Pin 24, 48
-    \subitem Pin 25, 40, 42
-  \item Printed Circuit Board
-    \subitem \emph  {see} PB, 13, 65
-  \item Pulse Density Modulation
-    \subitem  \emph  {see} PDM, 13, 27
-  \item Pulse with Modulation
-    \subitem  \emph  {see} PWM Signal, 13, 40
-  \item Push Button
-    \subitem  Built-in Push Button, 57
-  \item PWM Signal, 13, 40, 47, 50
-
-  \indexspace
-
-  \item SCL, 13, 98
-  \item SDA, 13, 98
+  \item SCL, 11, 54, 55
+  \item SDA, 11, 54, 55
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 13, 98
+    \subitem  \emph  {see} SCL, 11, 54
   \item Serial Data
-    \subitem  \emph  {see} SDA, 13, 98
-  \item Serial Peripheral Interface
-    \subitem  \emph  {see} SPI, 13, 71
-  \item SPI, 13, 71
+    \subitem  \emph  {see} SDA, 11, 54
 
   \indexspace
 
-  \item UART, 13, 98
+  \item UART, 11, 54, 55
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 13, 98
+    \subitem  \emph  {see} UART, 11, 54
 
   \indexspace
 
-  \item VCC, 13, 98, 99
+  \item VCC, 11, 54, 55
   \item Voltage at the Common Collector
-    \subitem  \emph  {see} VCC, 13, 98
+    \subitem  \emph  {see} VCC, 11, 54
 
 \end{theindex}
