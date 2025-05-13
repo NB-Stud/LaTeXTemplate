@@ -38,29 +38,28 @@ Die elektronischen und steuerungstechnischen Komponenten wie Arduino, MOS-FET, S
 Zur optischen Aufwertung kann die Oberseite des Deckels mit dekorativen Steinen oder anderen Gestaltungselementen versehen werden, wodurch die technische Funktion harmonisch in ein ästhetisches Gesamtbild eingebettet wird.
 
 \subsection{Abmaß}
-
-Physische Abmessungen des Aufbaus
-
-<<<<<<< HEAD
-Platzbedarf und Gestaltung des Systems (z.B. Kompaktheit, Gehäuse)
-=======
-%Platzbedarf und Gestaltung des Systems (z. B. Kompaktheit, Gehäuse)
->>>>>>> fd2eb29dc083a54fde54f8c23761d66ce1e161e2
-
-Gewicht und andere relevante Maße
-
+Da der endgültige Aufbau des Projekts „Magic Faucet Fountain“ zum Zeitpunkt der Dokumentation noch nicht erfolgt ist, können die Abmessungen lediglich auf Basis der entworfenen Komponenten und Gehäusekonzepte geschätzt werden. Die Steuerungseinheit inklusive Arduino, MOS-FET-Schaltung und Stromversorgung soll in einem kompakten Gehäuse untergebracht werden. Die Wasserinstallation mit Pumpe und transparentem Rohrsystem wird so dimensioniert, dass sie sich auf einer Fläche von ca. 40 cm × 40 cm bei einer Höhe von maximal 60 cm aufbauen lässt. Genauere Angaben erfolgen nach Fertigstellung des physischen Prototyps.
 \section{Hardware-Schnittstellen}
 
+Die Magic Faucet Fountain besteht aus verschiedenen Hardware-Komponenten, welche durch physische Verbindungen miteinander kommunizieren und Daten austauschen. In diesem Kapitel sollen diese Schnittstellen mit Schaltplänen veranschaulicht mittels dieser erklärt werden.
 
-<<<<<<< HEAD
-Erklärung der einzelnen Schnittstellen
-
-Power-Management (Stromversorgung und -verbrauch)
 \subsection{Schaltpläne}
 \subsubsection{Versorgungsspannungen 5 V und 12 V}
+Die im Schaltplan in Abbildung \ref{SchaltplanVersorgung} dargestellten Komponenten umfassen den Netzanschluss (230 V AC / 50 Hz) sowie das Schaltnetzteil vom Typ MW RD-50A. Dieses wandelt die Netzspannung in geregelte Gleichspannungen von 5 V und 12 V DC um, die für den Betrieb der Steuereinheit und der Aktoren erforderlich sind. Der Anschluss erfolgt über:
+\begin{itemize}
+	\item 3-adriges Netzkabel (\(1{,}5\,\text{mm}^2\))
+	\item 4-adriges Verbindungskabel (\(0{,}5\,\text{mm}^2\)) für:
+	\begin{itemize}
+		\item +5 V (z. B. Arduino, BT-Modul)
+		\item GND (5 V)
+		\item +12 V (z. B. Pumpe)
+		\item GND (12 V)
+	\end{itemize}
+\end{itemize}
 \begin{figure}[H]
 	\centering
-	\label{versorgungSchaltplan}
+	\caption{Versorgungsschaltplan}
+	\label{SchaltplanVersorgung}
 	\resizebox{1\textwidth}{!}{%
 		\begin{circuitikz}
 			\tikzstyle{every node}=[font=\Huge]
@@ -116,12 +115,21 @@ Power-Management (Stromversorgung und -verbrauch)
 			\node [font=\Huge] at (1.25,13.75) {\textbf{4 x $\emptyset$0,5 mm2}};
 		\end{circuitikz}
 	}%
+
 \end{figure}
 
 \subsubsection{5 V Netz mit Arduino und BT-Modul}
+Im Schaltplan \ref{5VSchaltplan} sind der Arduino Nano, das HC-05 Bluetooth-Modul und die Stromversorgung durch das Netzteil als Komponenten zu entnehmen. Es lassen sich folgende Schnittstellen aus der Schaltung herleiten:
+	\begin{itemize}
+	\item UART-Schnittstelle für die Bluetooth-Kommunikation (siehe TXD/RXD Verbindung zwischen Arduino und HC-05
+	\item Digitale Ausgänge D2, D3, D4 zur Steuerung der Gate-Anschlüsse der MOS-FET-Schaltung für die Pumpe und LEDs
+	\item Spannungsversorgung 5 V / GND
+\end{itemize}
+Der Arduino verarbeitet die über das Bluetooth-Modul eingehenden Steuerbefehle und schaltet gezielt die Ausgänge zur Ansteuerung der Aktoren. Über den HC-05 erfolgt die drahtlose Verbindung mit einem Smartphone.
 \begin{figure}[H]
 	\centering
-	\label{5vSchaltplan}
+	\caption{Schaltplan: Arduino-basierte Steuerungseinheit mit Bluetooth-Kommunikation}
+	\label{5VSchaltplan}
 	\resizebox{1\textwidth}{!}{%
 		\begin{circuitikz}
 			\tikzstyle{every node}=[font=\Huge]
@@ -240,9 +248,21 @@ Power-Management (Stromversorgung und -verbrauch)
 \end{figure}
 
 \subsubsection{5/12 V Netz mit Aktoren}
+Komponenten dieser Schaltung sind: 3x N-Kanal-MOS-FETs, LED-Leuchten (grün und blau) und die Wasserpumpe. Dem Aufbau der Schaltung ist zu entnehmen, dass jeder MOS-FET als Schalter arbeitet, der über den Arduino gesteuert wird. Die genaue Ansteuerung der Komponenten durch den Arduino wird in Tabelle \ref{AnsteuerungArduino} dargestellt.
+	\begin{center}
+	\captionof{table}{Ansteuerung der Komponenten durch den Arduino}
+	\begin{tabular}{c|c|c|c}
+		MOS-FET & Gesteuertes Element & Arduino Pin & Versorgungsspannung\\ \hline
+		 1 & LED grün & D4 & 5 V\\
+	     2 & LED blau & D3 & 5 V\\
+	     3 & Wasserpumpe & D2 & 12 V\\
+	\end{tabular}
+	\label{AnsteuerungArduino}
+\end{center}
+Die +Vin-Anschlüsse der Aktoren erhalten jeweils die notwendige Betriebsspannung direkt vom Netzteil, während die Schaltung über den MOS-FET den Stromfluss zum Masseanschluss (GND) kontrolliert. Eine detaillierte Darstellung der Schaltung ist in Abbildung \ref{12VSchaltplan} zu finden.
 \begin{figure}[H]
 	\centering
-	\label{12vSchaltplan}
+	\caption{5/12 V Netz mit Aktoren}
 	\resizebox{1\textwidth}{!}{%
 		\begin{circuitikz}
 			\tikzstyle{every node}=[font=\Huge]
@@ -381,13 +401,35 @@ Power-Management (Stromversorgung und -verbrauch)
 			\node [font=\LARGE] at (32.25,157) {\textbf{Sig}};
 		\end{circuitikz}
 	}%
+		\label{12VSchaltplan}
 \end{figure}
 
 \section{Software-Schnittstellen}
+In dem Projekt Magic Faucet Fountain, bei dem ein Mikrokontroller bzw. der Arduino und ein Bluetooth-Modul (hier: HC-05) verwendet werden, beziehen sich Software-Schnittstellen auf die programmatische Kommunikation und Steuerung zwischen den Systemkomponenten. 
+\subsubsection{Bluetooth-Kommunikationsschnittstelle}
+Die an der Bluetooth-Kommunikation beteiligten Komponenten sind der Arduino, HC-05 Bluetooth-Modul und das Smartphone mit der Bluetooth-App. 
+Die serielle Kommunikation über UART (TX/RX) stellt die Hauptschnittstelle für die Steuerung dar. Eine Bluetooth-App sendet ASCII-Befehle oder einfache Steuersignale an den Arduino. Dieser wertet die empfangenen Daten aus und aktiviert über seine digitalen Pins die entsprechenden MOS-FET-Schaltungen.
+\subsubsection{Arduino-Programmierschnittstelle}
+Der Arduino Mikrokontroller wird mit einem Arduino Sketch (Arduino DIE) programmiert, der folgende Aufgaben übernimmt:
+\begin{itemize}
+	\item Initialisierung der Pins
+	\item Einrichtung der seriellen Schnittstelle (Serial.begin(9600))
+	\item Einlesen und Interpretieren von Bluetooth-Befehlen
+	\item Setzen der Ausgänge zur Ansteuerung der Aktoren
+\end{itemize}
 
+\subsubsection{Anwendungsprogrammierschnittstelle auf Befehlsebene}
+Die Bluetooth-App kommuniziert mit dem Arduino über eine einfache Befehlssprache, z.B.:
+\begin{itemize}
+	\item „On1“: LED ein
+	\item „Off3“: Pumpe aus
+\end{itemize}
+Der Arduino-Sketch interpretiert diese Befehle als Teil eines einfachen protokollbasierten Interfaces. Diese Art der Schnittstelle ist textbasiert.
 \subsection{Ablaufdiagramm der Anwendung}
+Zur Veranschaulichung des Zusammenspiels der beschriebenen Software-Schnittstellen dient das in Abbildung \ref{ablaufdiagramm} dargestellte Ablaufdiagramm. Es zeigt den strukturierten Programmablauf vom Start der Anwendung über die Initialisierung und Bluetooth-Kommunikation bis hin zur Ansteuerung der LEDs und der Wasserpumpe. Zudem wird der Umgang mit kritischen Zuständen wie zu hohen oder zu niedrigen Wasserständen abgebildet. 
 \begin{figure}[H]
 	\centering
+	\caption{Ablaufdiagramm}
 	\label{ablaufdiagramm}
 	\resizebox{1\textwidth}{!}{%
 		\begin{circuitikz}
@@ -556,10 +598,13 @@ Die Konfiguration des Magic Faucet Fountain umfasst die Inbetriebnahme und Absti
 	\end{itemize}
 \end{enumerate}
 \section{Einschränkungen}
-
-Identifikation von Problemen oder Einschränkungen (z.B. Schwierigkeiten bei der Hardwareintegration oder Softwarebugs)
-
-
+Da das Projekt sich noch in der finalen Planungs- und Dokumentationsphase befindet, konnten einige Einschränkungen nur theoretisch erkannt werden:
+\begin{itemize}
+	\item Praxistests fehlen bislang, weshalb reale Probleme bei der Wasserführung, Abdichtung oder elektrischen Sicherheit noch nicht abschließend beurteilt werden können.
+	\item Die Stromversorgung muss bei der Kombination von 5 V- und 12 V-Komponenten mit Bedacht gewählt werden, um Störungen oder Überlastungen zu vermeiden.
+	\item Die Bluetooth-Kommunikation hängt von der Stabilität der Verbindung und der verwendeten App ab, mögliche Verbindungsabbrüche sind noch nicht erprobt.
+	\item Platzbedarf und Montage könnten im späteren Aufbau auf bisher nicht eingeplante bauliche Herausforderungen stoßen.
+\end{itemize}
 
 %\section{Schlussfolgerung}
 %Zusammenfassung der Projektergebnisse

@@ -152,22 +152,26 @@
 \contentsline {subsection}{\numberline {13.3.1}Schaltpläne}{104}{subsection.13.3.1}%
 \contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{104}{subsubsection*.45}%
 \contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{105}{subsubsection*.48}%
-\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{105}{subsubsection*.51}%
-\contentsline {section}{\numberline {13.4}Software-Schnittstellen}{106}{section.13.4}%
-\contentsline {subsection}{\numberline {13.4.1}Ablaufdiagramm der Anwendung}{106}{subsection.13.4.1}%
-\contentsline {subsection}{\numberline {13.4.2}Code der Anwendung}{108}{subsection.13.4.2}%
-\contentsline {section}{\numberline {13.5}Installation}{109}{section.13.5}%
-\contentsline {subsection}{\numberline {13.5.1}Mechanischer Aufbau}{109}{subsection.13.5.1}%
-\contentsline {subsection}{\numberline {13.5.2}Elektrische Installation}{109}{subsection.13.5.2}%
-\contentsline {subsection}{\numberline {13.5.3}Software und App-Verbindung}{110}{subsection.13.5.3}%
-\contentsline {subsection}{\numberline {13.5.4}Software und App-Verbindung}{110}{subsection.13.5.4}%
-\contentsline {section}{\numberline {13.6}Konfiguration}{110}{section.13.6}%
-\contentsline {section}{\numberline {13.7}Einschränkungen}{111}{section.13.7}%
-\contentsline {chapter}{\numberline {14}Schlussfolgerung}{113}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Zusammenfassung der Projektergebnisse}{113}{section.14.1}%
-\contentsline {section}{\numberline {14.2}Reflexion über die Zielerreichung}{113}{section.14.2}%
-\contentsline {section}{\numberline {14.3}Mögliche Weiterentwicklungen und zukünftige Anwendungen}{113}{section.14.3}%
-\contentsline {part}{\numberline {III}Anhang}{115}{part.3}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{117}{chapter*.55}%
-\contentsline {chapter}{Stichwortverzeichnis}{122}{chapter*.55}%
-\contentsline {chapter}{Index}{123}{chapter*.55}%
+\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{106}{subsubsection*.51}%
+\contentsline {section}{\numberline {13.4}Software-Schnittstellen}{107}{section.13.4}%
+\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{107}{subsubsection*.54}%
+\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{107}{subsubsection*.56}%
+\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{108}{subsubsection*.58}%
+\contentsline {subsection}{\numberline {13.4.1}Ablaufdiagramm der Anwendung}{108}{subsection.13.4.1}%
+\contentsline {subsection}{\numberline {13.4.2}Code der Anwendung}{110}{subsection.13.4.2}%
+\contentsline {section}{\numberline {13.5}Installation}{111}{section.13.5}%
+\contentsline {subsection}{\numberline {13.5.1}Mechanischer Aufbau}{111}{subsection.13.5.1}%
+\contentsline {subsection}{\numberline {13.5.2}Elektrische Installation}{111}{subsection.13.5.2}%
+\contentsline {subsection}{\numberline {13.5.3}Software und App-Verbindung}{112}{subsection.13.5.3}%
+\contentsline {subsection}{\numberline {13.5.4}Software und App-Verbindung}{112}{subsection.13.5.4}%
+\contentsline {section}{\numberline {13.6}Konfiguration}{112}{section.13.6}%
+\contentsline {section}{\numberline {13.7}Einschränkungen}{113}{section.13.7}%
+\contentsline {chapter}{\numberline {14}Schlussfolgerungen}{115}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Zusammenfassung der Projektergebnisse}{115}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Reflexion über die Zielerreichung}{115}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Mögliche Weiterentwicklungen}{115}{section.14.3}%
+\contentsline {section}{\numberline {14.4}Zukünftige Anwendungen}{115}{section.14.4}%
+\contentsline {part}{\numberline {III}Anhang}{117}{part.3}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{119}{chapter*.61}%
+\contentsline {chapter}{Stichwortverzeichnis}{124}{chapter*.61}%
+\contentsline {chapter}{Index}{125}{chapter*.61}%
