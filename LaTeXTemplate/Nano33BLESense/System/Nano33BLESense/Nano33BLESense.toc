@@ -150,13 +150,13 @@
 \contentsline {subsection}{\numberline {13.2.1}Abmaß}{104}{subsection.13.2.1}%
 \contentsline {section}{\numberline {13.3}Hardware-Schnittstellen}{104}{section.13.3}%
 \contentsline {subsection}{\numberline {13.3.1}Schaltpläne}{104}{subsection.13.3.1}%
-\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{104}{subsubsection*.45}%
-\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{105}{subsubsection*.48}%
-\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{106}{subsubsection*.51}%
+\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{104}{subsubsection*.46}%
+\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{105}{subsubsection*.49}%
+\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{106}{subsubsection*.52}%
 \contentsline {section}{\numberline {13.4}Software-Schnittstellen}{107}{section.13.4}%
-\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{107}{subsubsection*.54}%
-\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{107}{subsubsection*.56}%
-\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{108}{subsubsection*.58}%
+\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{107}{subsubsection*.55}%
+\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{107}{subsubsection*.57}%
+\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{108}{subsubsection*.59}%
 \contentsline {subsection}{\numberline {13.4.1}Ablaufdiagramm der Anwendung}{108}{subsection.13.4.1}%
 \contentsline {subsection}{\numberline {13.4.2}Code der Anwendung}{110}{subsection.13.4.2}%
 \contentsline {section}{\numberline {13.5}Installation}{111}{section.13.5}%
@@ -172,6 +172,6 @@
 \contentsline {section}{\numberline {14.3}Mögliche Weiterentwicklungen}{115}{section.14.3}%
 \contentsline {section}{\numberline {14.4}Zukünftige Anwendungen}{115}{section.14.4}%
 \contentsline {part}{\numberline {III}Anhang}{117}{part.3}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{119}{chapter*.61}%
-\contentsline {chapter}{Stichwortverzeichnis}{124}{chapter*.61}%
-\contentsline {chapter}{Index}{125}{chapter*.61}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{119}{chapter*.62}%
+\contentsline {chapter}{Stichwortverzeichnis}{124}{chapter*.62}%
+\contentsline {chapter}{Index}{125}{chapter*.62}%
