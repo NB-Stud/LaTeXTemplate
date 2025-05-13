@@ -183,61 +183,67 @@
 \contentsline {subsection}{\numberline {14.2.4}Anwendungen}{124}{subsection.14.2.4}%
 \contentsline {section}{\numberline {14.3}Bluetooth Modul: HC-05}{125}{section.14.3}%
 \contentsline {section}{\numberline {14.4}Spezifikation}{125}{section.14.4}%
-\contentsline {section}{\numberline {14.5}Bibliotheken}{125}{section.14.5}%
-\contentsline {section}{\numberline {14.6}Einfacher Code}{126}{section.14.6}%
-\contentsline {section}{\numberline {14.7}Tests}{127}{section.14.7}%
-\contentsline {section}{\numberline {14.8}Einfache Anwendung}{127}{section.14.8}%
-\contentsline {section}{\numberline {14.9}Further Readings}{129}{section.14.9}%
-\contentsline {chapter}{\numberline {15}Kippschalter: GOOBAY 10013}{131}{chapter.15}%
-\contentsline {section}{\numberline {15.1}Einleitung}{131}{section.15.1}%
-\contentsline {section}{\numberline {15.2}Grundlegende Informationen}{131}{section.15.2}%
-\contentsline {section}{\numberline {15.3}Schalter: GOOBAY 10013}{131}{section.15.3}%
-\contentsline {section}{\numberline {15.4}Spezifikation}{131}{section.15.4}%
-\contentsline {section}{\numberline {15.5}Tests}{132}{section.15.5}%
-\contentsline {section}{\numberline {15.6}Einfache Anwendung}{132}{section.15.6}%
-\contentsline {chapter}{\numberline {16}MOS-FET}{135}{chapter.16}%
-\contentsline {section}{\numberline {16.1}Einleitung}{135}{section.16.1}%
-\contentsline {section}{\numberline {16.2}Grundlegende Informationen}{135}{section.16.2}%
-\contentsline {subsection}{\numberline {16.2.1}N-Kanal-MOS-FET}{136}{subsection.16.2.1}%
-\contentsline {subsection}{\numberline {16.2.2}P-Kanal-MOS-FET}{136}{subsection.16.2.2}%
-\contentsline {section}{\numberline {16.3}MOS-FET IRF9540N}{136}{section.16.3}%
-\contentsline {section}{\numberline {16.4}Spezifikation}{136}{section.16.4}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{136}{subsubsection*.61}%
-\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{137}{subsubsection*.63}%
-\contentsline {section}{\numberline {16.5}Einfacher Code}{138}{section.16.5}%
-\contentsline {section}{\numberline {16.6}Tests}{139}{section.16.6}%
-\contentsline {section}{\numberline {16.7}Einfache Anwendung}{139}{section.16.7}%
-\contentsline {chapter}{\numberline {17}Externe LED}{141}{chapter.17}%
-\contentsline {section}{\numberline {17.1}Einleitung}{141}{section.17.1}%
-\contentsline {section}{\numberline {17.2}Grundlegende Informationen}{141}{section.17.2}%
-\contentsline {section}{\numberline {17.3}LED CML Signalleuchte, blau, ultrahell, 12 VDC}{142}{section.17.3}%
-\contentsline {section}{\numberline {17.4}Spezifikation}{142}{section.17.4}%
-\contentsline {section}{\numberline {17.5}Einfacher Code}{142}{section.17.5}%
-\contentsline {section}{\numberline {17.6}Tests}{143}{section.17.6}%
-\contentsline {section}{\numberline {17.7}Einfache Anwendung}{143}{section.17.7}%
-\contentsline {section}{\numberline {17.8}Further Readings}{144}{section.17.8}%
-\contentsline {chapter}{\numberline {18}Materialliste Magic Faucet Fountain}{145}{chapter.18}%
-\contentsline {chapter}{\numberline {19}Projekt: Magic Faucet Fountain}{147}{chapter.19}%
-\contentsline {section}{\numberline {19.1}Beschreibung}{147}{section.19.1}%
-\contentsline {section}{\numberline {19.2}Aufbau}{147}{section.19.2}%
-\contentsline {subsection}{\numberline {19.2.1}Abmaß}{148}{subsection.19.2.1}%
-\contentsline {section}{\numberline {19.3}Hardware-Schnittstellen}{148}{section.19.3}%
-\contentsline {subsection}{\numberline {19.3.1}Schaltpläne}{148}{subsection.19.3.1}%
-\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{148}{subsubsection*.71}%
-\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{149}{subsubsection*.74}%
-\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{149}{subsubsection*.77}%
-\contentsline {section}{\numberline {19.4}Software-Schnittstellen}{150}{section.19.4}%
-\contentsline {subsection}{\numberline {19.4.1}Ablaufdiagramm der Anwendung}{150}{subsection.19.4.1}%
-\contentsline {subsection}{\numberline {19.4.2}Code der Anwendung}{152}{subsection.19.4.2}%
-\contentsline {section}{\numberline {19.5}Installation}{153}{section.19.5}%
-\contentsline {subsection}{\numberline {19.5.1}Mechanischer Aufbau}{153}{subsection.19.5.1}%
-\contentsline {subsection}{\numberline {19.5.2}Elektrische Installation}{153}{subsection.19.5.2}%
-\contentsline {subsection}{\numberline {19.5.3}Software und App-Verbindung}{154}{subsection.19.5.3}%
-\contentsline {subsection}{\numberline {19.5.4}Software und App-Verbindung}{154}{subsection.19.5.4}%
-\contentsline {section}{\numberline {19.6}Konfiguration}{154}{section.19.6}%
-\contentsline {section}{\numberline {19.7}Einschränkungen}{155}{section.19.7}%
-\contentsline {section}{\numberline {19.8}Schlussfolgerung}{155}{section.19.8}%
-\contentsline {part}{\numberline {IV}Anhang}{157}{part.4}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{159}{chapter*.81}%
-\contentsline {chapter}{Stichwortverzeichnis}{164}{chapter*.81}%
-\contentsline {chapter}{Index}{165}{chapter*.81}%
+\contentsline {subsection}{\numberline {14.4.1}Hardware-Spezifikation}{125}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}Elektrische Eigenschaften}{126}{subsection.14.4.2}%
+\contentsline {subsection}{\numberline {14.4.3}Schnittstellen und Anschlüsse}{126}{subsection.14.4.3}%
+\contentsline {subsection}{\numberline {14.4.4}Mechanische und Umgebungsbedingungen}{127}{subsection.14.4.4}%
+\contentsline {subsection}{\numberline {14.4.5}Zusätzliche Hardware-Features}{128}{subsection.14.4.5}%
+\contentsline {subsection}{\numberline {14.4.6}Pinbelegung (Auszug)}{128}{subsection.14.4.6}%
+\contentsline {section}{\numberline {14.5}Bibliotheken}{128}{section.14.5}%
+\contentsline {section}{\numberline {14.6}Einfacher Code}{129}{section.14.6}%
+\contentsline {section}{\numberline {14.7}Tests}{130}{section.14.7}%
+\contentsline {section}{\numberline {14.8}Einfache Anwendung}{130}{section.14.8}%
+\contentsline {section}{\numberline {14.9}Further Readings}{132}{section.14.9}%
+\contentsline {chapter}{\numberline {15}Kippschalter: GOOBAY 10013}{133}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Einleitung}{133}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Grundlegende Informationen}{133}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Schalter: GOOBAY 10013}{133}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Spezifikation}{133}{section.15.4}%
+\contentsline {section}{\numberline {15.5}Tests}{134}{section.15.5}%
+\contentsline {section}{\numberline {15.6}Einfache Anwendung}{134}{section.15.6}%
+\contentsline {chapter}{\numberline {16}MOS-FET}{137}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Einleitung}{137}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Grundlegende Informationen}{137}{section.16.2}%
+\contentsline {subsection}{\numberline {16.2.1}N-Kanal-MOS-FET}{138}{subsection.16.2.1}%
+\contentsline {subsection}{\numberline {16.2.2}P-Kanal-MOS-FET}{138}{subsection.16.2.2}%
+\contentsline {section}{\numberline {16.3}MOS-FET IRF9540N}{138}{section.16.3}%
+\contentsline {section}{\numberline {16.4}Spezifikation}{138}{section.16.4}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{138}{subsubsection*.63}%
+\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{139}{subsubsection*.65}%
+\contentsline {section}{\numberline {16.5}Einfacher Code}{140}{section.16.5}%
+\contentsline {section}{\numberline {16.6}Tests}{141}{section.16.6}%
+\contentsline {section}{\numberline {16.7}Einfache Anwendung}{141}{section.16.7}%
+\contentsline {chapter}{\numberline {17}Externe LED}{143}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Einleitung}{143}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Grundlegende Informationen}{143}{section.17.2}%
+\contentsline {section}{\numberline {17.3}LED CML Signalleuchte, blau, ultrahell, 12 VDC}{144}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Spezifikation}{144}{section.17.4}%
+\contentsline {section}{\numberline {17.5}Einfacher Code}{144}{section.17.5}%
+\contentsline {section}{\numberline {17.6}Tests}{145}{section.17.6}%
+\contentsline {section}{\numberline {17.7}Einfache Anwendung}{145}{section.17.7}%
+\contentsline {section}{\numberline {17.8}Further Readings}{146}{section.17.8}%
+\contentsline {chapter}{\numberline {18}Materialliste Magic Faucet Fountain}{147}{chapter.18}%
+\contentsline {chapter}{\numberline {19}Projekt: Magic Faucet Fountain}{149}{chapter.19}%
+\contentsline {section}{\numberline {19.1}Beschreibung}{149}{section.19.1}%
+\contentsline {section}{\numberline {19.2}Aufbau}{149}{section.19.2}%
+\contentsline {subsection}{\numberline {19.2.1}Abmaß}{150}{subsection.19.2.1}%
+\contentsline {section}{\numberline {19.3}Hardware-Schnittstellen}{150}{section.19.3}%
+\contentsline {subsection}{\numberline {19.3.1}Schaltpläne}{150}{subsection.19.3.1}%
+\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{150}{subsubsection*.73}%
+\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{151}{subsubsection*.76}%
+\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{151}{subsubsection*.79}%
+\contentsline {section}{\numberline {19.4}Software-Schnittstellen}{152}{section.19.4}%
+\contentsline {subsection}{\numberline {19.4.1}Ablaufdiagramm der Anwendung}{152}{subsection.19.4.1}%
+\contentsline {subsection}{\numberline {19.4.2}Code der Anwendung}{154}{subsection.19.4.2}%
+\contentsline {section}{\numberline {19.5}Installation}{155}{section.19.5}%
+\contentsline {subsection}{\numberline {19.5.1}Mechanischer Aufbau}{155}{subsection.19.5.1}%
+\contentsline {subsection}{\numberline {19.5.2}Elektrische Installation}{155}{subsection.19.5.2}%
+\contentsline {subsection}{\numberline {19.5.3}Software und App-Verbindung}{156}{subsection.19.5.3}%
+\contentsline {subsection}{\numberline {19.5.4}Software und App-Verbindung}{156}{subsection.19.5.4}%
+\contentsline {section}{\numberline {19.6}Konfiguration}{156}{section.19.6}%
+\contentsline {section}{\numberline {19.7}Einschränkungen}{157}{section.19.7}%
+\contentsline {section}{\numberline {19.8}Schlussfolgerung}{157}{section.19.8}%
+\contentsline {part}{\numberline {IV}Anhang}{159}{part.4}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{161}{chapter*.83}%
+\contentsline {chapter}{Stichwortverzeichnis}{166}{chapter*.83}%
+\contentsline {chapter}{Index}{167}{chapter*.83}%
