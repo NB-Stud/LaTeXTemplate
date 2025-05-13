@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 15500 items from 5000.
+Reallocated field_info (elt_size=4) to 10740 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -27,31 +27,31 @@ I was expecting a `,' or a `}'---line 55 of file ../../../MLbib/MyLiterature.bib
  :   organization = {Arduino.cc}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 153 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 167 of file ../../../MLbib/MyLiterature.bib
  :  
  :  note      = {\textcolor{blue}{\href{../../../MLbib/conradPumpe.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 213 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 227 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/flukeOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 375 of file ../../../MLbib/MyLiterature.bib
+Repeated entry---line 389 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 455 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 469 of file ../../../MLbib/MyLiterature.bib
  : 
  : %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 641 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 655 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 855 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 869 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate      = {2025-05-04}
 (Error may have been on previous line)
@@ -59,45 +59,45 @@ I'm skipping whatever remains of this entry
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 75 entries,
+You've used 41 entries,
             6402 wiz_defined-function locations,
-            1669 strings with 23290 characters,
-and the built_in function-call counts, 410352 in all, are:
-= -- 26625
-> -- 9990
-< -- 3386
-+ -- 10591
-- -- 4866
-* -- 27240
-:= -- 38566
+            1460 strings with 16608 characters,
+and the built_in function-call counts, 232658 in all, are:
+= -- 15213
+> -- 5859
+< -- 1814
++ -- 6223
+- -- 2848
+* -- 15646
+:= -- 22778
 add.period$ -- 0
-call.type$ -- 75
-change.case$ -- 96
-chr.to.int$ -- 342
-cite$ -- 170
-duplicate$ -- 43327
-empty$ -- 39213
-format.name$ -- 3817
-if$ -- 86111
+call.type$ -- 41
+change.case$ -- 44
+chr.to.int$ -- 215
+cite$ -- 84
+duplicate$ -- 24478
+empty$ -- 21675
+format.name$ -- 2336
+if$ -- 48532
 int.to.chr$ -- 0
-int.to.str$ -- 239
+int.to.str$ -- 124
 missing$ -- 0
-newline$ -- 1956
-num.names$ -- 3856
-pop$ -- 25488
+newline$ -- 1090
+num.names$ -- 2180
+pop$ -- 13850
 preamble$ -- 1
-purify$ -- 1839
+purify$ -- 963
 quote$ -- 0
-skip$ -- 15828
+skip$ -- 8811
 stack$ -- 0
-substring$ -- 44028
-swap$ -- 11090
-text.length$ -- 2458
-text.prefix$ -- 121
+substring$ -- 25201
+swap$ -- 6006
+text.length$ -- 1389
+text.prefix$ -- 65
 top$ -- 1
-type$ -- 2537
+type$ -- 1382
 warning$ -- 0
-while$ -- 4613
+while$ -- 2759
 width$ -- 0
-write$ -- 1882
+write$ -- 1050
 (There were 7 error messages)
