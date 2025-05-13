@@ -156,12 +156,237 @@ Zusammenfassend bilden Bluetooth-Module das technische Rückgrat für unzählige
 	\label{fig:skizzeBluetooth}
 \end{figure}
 
-Das HC-05 ist ein weit verbreitetes Bluetooth-Modul für die drahtlose Serial-Communication (UART), zu sehen in \ref{fig:skizzeBluetooth}. Es eignet sich besonders für Projekte, bei denen Mikrocontroller wie Arduino oder Raspberry Pi kabellos mit Smartphones, PCs oder anderen Geräten kommunizieren sollen. Im Folgenden werden die technischen Spezifikationen, Funktionen und typischen Einsatzgebiete des Moduls vorgestellt.
+Das HC-05 Bluetooth-Modul, zu sehen in  \ref{fig:skizzeBluetooth}, ist ein serielles Kommunikationsmodul, das auf der Bluetooth-Spezifikation V2.0+EDR basiert und für drahtlose Datenübertragung über das Serial Port Protocol (SPP) konzipiert ist. Es ermöglicht sowohl Master- als auch Slave-Betriebsmodi und wird häufig in Embedded-Systemen zur Integration von Bluetooth-Funktionalität eingesetzt \cite{HC05Datasheet:2010}
 
 \section{Spezifikation}
 
-Das HC-05 Bluetooth-Modul ist ein serielles Kommunikationsmodul, das auf der Bluetooth-Spezifikation V2.0+EDR basiert und für drahtlose Datenübertragung über das Serial Port Protocol (SPP) konzipiert ist. Es ermöglicht sowohl Master- als auch Slave-Betriebsmodi und wird häufig in Embedded-Systemen zur Integration von Bluetooth-Funktionalität eingesetzt \cite{}
+??????????????????????????????ß
 
+\subsection {Hardware-Spezifikation}
+
+Die Kommunikationsfähigkeiten des HC-05-Moduls bilden die Grundlage seiner Einsatzflexibilität in drahtlosen Systemen. Als Bluetooth-V2.0+EDR-Modul nutzt es das 2,4-GHz-ISM-Band, das weltweit für industrielle, wissenschaftliche und medizinische Anwendungen lizenzfrei genutzt werden kann. Die Kombination aus GFSK-Modulation (Gaussian Frequency Shift Keying) und Adaptive Frequency Hopping (AFH) gewährleistet eine robuste Datenübertragung selbst in frequenzbelasteten Umgebungen. AFH reduziert Interferenzen durch dynamische Kanalwechsel, was besonders in Umgebungen mit mehreren Funkgeräten kritisch ist.\\
+Im Detail umfassen die Leistungsmerkmale:
+
+\begin{enumerate}
+	\item Protokoll und Datenraten
+		\begin{itemize}
+			\item Bluetooth V2.0+EDR (Enhanced Data Rate) mit einer maximalen Datenrate von 3 Mbps im synchronen Modus und 2,1 Mbps im asynchronen Modus \cite{ReicheltHC05:2025}\cite{HC05Datasheet:2010}.
+			\item Unterstützung des Serial Port Profiles (SPP) für bidirektionale Master-/Slave-Kommunikation \cite{ReicheltHC05:2025}.
+		\end{itemize}
+	\item Sende- und Empfängerleistung 
+		\begin{itemize} 
+			\item Sendeleistung: +4 dBm (Klasse 2), geeignet für Reichweiten bis zu 10 m in offenen Räumen (Quelle 2, S. 1).
+			\item Empfindlichkeit: -80 dBm (typisch) bzw. -84 dBm bei einer Bitfehlerrate (BER) von 0,1 \% – ein Wert, der eine zuverlässige Verbindung auch bei schwachen Signalen ermöglicht \cite{HC05Datasheet:2010}\cite{ReicheltHC05:2025}.
+		\end{itemize}
+\end{enumerate}
+	
+Diese Parameter positionieren das HC-05-Modul als geeignete Lösung für Anwendungen wie Industrieautomation, IoT-Sensornetzwerke und Consumer-Geräte, bei denen Zuverlässigkeit und moderate Reichweite im Vordergrund stehen.
+
+
+
+\subsection{Elektrische Eigenschaften}
+
+Die elektrische Integration des Moduls erfordert eine präzise Abstimmung der Spannungsversorgung und Stromaufnahme, um Kompatibilität mit gängigen Mikrocontrollern zu gewährleisten. Das Modul ist speziell für Low-Power-Anwendungen optimiert, was durch folgende Merkmale erreicht wird:
+
+\begin{enumerate}
+	\item Spannungsversorgung 
+		\begin{itemize}
+			\item Betriebsspannung: +3,3 V DC (±5 \%), versorgt durch einen integrierten Linearregler, der Eingangsspannungen bis 5 V toleriert \cite{ReicheltHC05:2025}.
+			\item I/O-Spannungspegel: 1,8–3,6 V, ermöglicht die direkte Anbindung an 3,3-V- und 5-V-Systeme ohne zusätzliche Pegelwandler \cite{HC05Datasheet:2010}.
+		\end{itemize}
+		
+	\item Stromverbrauch 
+	
+		\begin{itemize}
+			\item Typischer Betriebsstrom: 50 mA im aktiven Modus \cite{ReicheltHC05:2025}.
+			\item Energiesparmodi: Programmierbare SNIFF-Modi reduzieren den Verbrauch durch intermittierende Aktivität, ideal für batteriebetriebene Geräte \cite{HC05Datasheet:2010}.
+		\end{itemize}
+\end{enumerate}
+
+Diese Eigenschaften machen das HC-05-Modul zu einer energieeffizienten Option für Projekte mit begrenzten Stromressourcen, wie tragbare Geräte oder Fernsensoren.
+
+
+
+
+\subsection{Schnittstellen und Anschlüsse}
+
+Die Flexibilität des HC-05-Moduls zeigt sich in seiner Unterstützung für multiple Schnittstellen, die eine nahtlose Integration in bestehende Systemarchitekturen ermöglichen.
+
+\begin{figure}[H]
+	\centering
+	\caption{ Schnittstellen und Anschlüsse HC-05}
+	\resizebox{0.5\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ color={rgb,255:red,170; green,167; blue,167} , line width=2pt ] (-5,20.75) rectangle (3.25,6.75);
+			\draw [ color={rgb,255:red,170; green,167; blue,167} , line width=2pt ] (-5,20.75) rectangle (3.25,23.5);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 18.5)}] (3,19.25) rectangle (3.75,17.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 17.5)}] (3,18.25) rectangle (3.75,16.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 16.5)}] (3,17.25) rectangle (3.75,15.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 15.5)}] (3,16.25) rectangle (3.75,14.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 14.5)}] (3,15.25) rectangle (3.75,13.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 13.5)}] (3,14.25) rectangle (3.75,12.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 12.5)}] (3,13.25) rectangle (3.75,11.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 11.5)}] (3,12.25) rectangle (3.75,10.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 10.5)}] (3,11.25) rectangle (3.75,9.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 9.5)}] (3,10.25) rectangle (3.75,8.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 8.5)}] (3,9.25) rectangle (3.75,7.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 7.5)}] (3,8.25) rectangle (3.75,6.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(3.375, 19.5)}] (3,20.25) rectangle (3.75,18.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 18.5)}] (-5.5,19.25) rectangle (-4.75,17.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 17.5)}] (-5.5,18.25) rectangle (-4.75,16.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 16.5)}] (-5.5,17.25) rectangle (-4.75,15.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 15.5)}] (-5.5,16.25) rectangle (-4.75,14.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 14.5)}] (-5.5,15.25) rectangle (-4.75,13.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 13.5)}] (-5.5,14.25) rectangle (-4.75,12.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 12.5)}] (-5.5,13.25) rectangle (-4.75,11.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 11.5)}] (-5.5,12.25) rectangle (-4.75,10.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 10.5)}] (-5.5,11.25) rectangle (-4.75,9.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 9.5)}] (-5.5,10.25) rectangle (-4.75,8.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 8.5)}] (-5.5,9.25) rectangle (-4.75,7.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 7.5)}] (-5.5,8.25) rectangle (-4.75,6.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt , rotate around={90:(-5.125, 19.5)}] (-5.5,20.25) rectangle (-4.75,18.75);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt ] (2.25,7) rectangle (3,5.5);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt ] (1.25,7) rectangle (2,5.5);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt ] (0.25,7) rectangle (1,5.5);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt ] (-0.75,7) rectangle (0,5.5);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt ] (-1.75,7) rectangle (-1,5.5);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt ] (-2.75,7) rectangle (-2,5.5);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt ] (-3.75,7) rectangle (-3,5.5);
+			\draw [ fill={rgb,255:red,185; green,177; blue,177} , line width=1pt ] (-4.75,7) rectangle (-4,5.5);
+			\node [font=\LARGE] at (-6.5,19.5) {TX};
+			\node [font=\LARGE] at (-6.5,18.5) {RX};
+			\node [font=\LARGE] at (-6.75,17.5) {  CTS};
+			\node [font=\LARGE] at (-6.75,16.5) {  RTS};
+			\node [font=\LARGE] at (-7.5,15.5) {PCM\_CLK};
+			\node [font=\LARGE] at (-7.5,14.5) {PCM\_OUT};
+			\node [font=\LARGE] at (-7.25,13.5) {PCM\_IN};
+			\node [font=\LARGE] at (-7.75,12.5) {PCM\_SYNC};
+			\node [font=\LARGE] at (-6.75,11.5) {AIO0};
+			\node [font=\LARGE] at (-6.75,10.5) {AIO1};
+			\node [font=\LARGE] at (-7,9.5) {RESET};
+			\node [font=\LARGE] at (-6.75,8.5) {3.3 V};
+			\node [font=\LARGE] at (-6.75,7.5) {GND};
+			\node [font=\LARGE] at (5.25,19.5) {PIO11};
+			\node [font=\LARGE] at (5.25,18.5) {PIO10};
+			\node [font=\LARGE] at (5,17.5) { PIO9};
+			\node [font=\LARGE] at (5,16.5) { PIO8};
+			\node [font=\LARGE] at (5,15.5) { PIO7};
+			\node [font=\LARGE] at (5,14.5) { PIO6};
+			\node [font=\LARGE] at (5,13.5) { PIO5};
+			\node [font=\LARGE] at (5,12.5) { PIO4};
+			\node [font=\LARGE] at (5,11.5) { PIO3};
+			\node [font=\LARGE] at (5,10.5) { PIO2};
+			\node [font=\LARGE] at (5,9.5) { PIO1};
+			\node [font=\LARGE] at (5,8.5) {PIO0};
+			\node [font=\LARGE] at (5,7.5) {GND};
+			\node [font=\LARGE, rotate around={90:(0,0)}] at (-4.25,4.75) {NC};
+			\node [font=\LARGE, rotate around={90:(0,0)}] at (-3.25,4) {USB\_D-};
+			\node [font=\LARGE, rotate around={90:(0,0)}] at (-2.25,4.5) {CSB};
+			\node [font=\LARGE, rotate around={90:(0,0)}] at (-1.25,4.25) {MOSI};
+			\node [font=\LARGE, rotate around={90:(0,0)}] at (-0.25,4.25) {MISO};
+			\node [font=\LARGE, rotate around={90:(0,0)}] at (0.75,4.5) {CLK};
+			\node [font=\LARGE, rotate around={90:(0,0)}] at (1.75,4) {USB\_D+};
+			\node [font=\LARGE, rotate around={90:(0,0)}] at (2.75,4.5) {GND};
+		\end{circuitikz}
+	}%
+	\label{fig:HC05Schaltplan}
+\end{figure}
+
+\begin{enumerate}
+	\item UART-Schnittstelle:
+	\begin{itemize}
+		\item Standardkonfiguration: 38400 Baud, 8 Datenbits, 1 Stoppbit, keine Parität – eine Einstellung, die mit den meisten Mikrocontrollern kompatibel ist \cite{HC05Datasheet:2010}.
+		\item Programmierbare Baudraten: Anpassbar von 2400 bis 1382400 Baud, um höhere Datenraten oder spezielle Protokolle zu unterstützen \cite{ReicheltHC05:2025}.
+		\item Pin-Details
+		\begin{itemize}
+			\item UART\_RX (Pin 2): Empfängt serielle Daten (CMOS-Eingang mit Pull-Down-Widerstand zur Vermeidung von Floating-Signalen) \cite{HC05Datasheet:2010}.
+			\item UART\_TX (Pin 1): Sendet serielle Daten (CMOS-Ausgang mit Pull-Up-Widerstand für stabile Logikpegel) \cite{HC05Datasheet:2010}.
+		\end{itemize}
+		\end{itemize} 
+	\item SPI-Schnittstelle 
+	\begin{itemize}
+		\item Ermöglicht die Anbindung an Peripheriegeräte oder Mikrocontroller mit SPI-Bus.
+		\item Pins:
+		\begin{itemize}
+			\item SPI\_CLK (Pin 19): Taktsignal für die SPI-Kommunikation \cite{HC05Datasheet:2010}.
+			\item SPI\_MISO (Pin 18) und SPI\_MOSI (Pin 17): Datenleitungen für Eingabe und Ausgabe \cite{HC05Datasheet:2010}.
+			\item SPI\_CSB (Pin 16): Chip-Select-Pin (aktiv niedrig) zur Steuerung der Geräteauswahl \cite{HC05Datasheet:2010}.
+		\end{itemize}
+		\end{itemize}
+		\item GPIO-Pins: 
+		\begin{itemize}
+			\item 12 programmierbare I/O-Pins (PIO0–PIO11):
+			\begin{itemize}
+				\item PIO10 (Pin 33) und PIO11 (Pin 34): Steuern die Status-LEDs (rot/blau), deren Blinkmuster Verbindungszustände wie Paarung oder Trennung anzeigen \cite{HC05Datasheet:2010}.
+				\item PIO0 (Pin 23) und PIO1 (Pin 24): Optional zur Ansteuerung externer RF-Komponenten wie LNA (Low-Noise Amplifier) oder PA (Power Amplifier) \cite{HC05Datasheet:2010}.
+			\end{itemize}
+		\end{itemize}
+	
+	\end{enumerate}
+	
+Diese Schnittstellenvielfalt ermöglicht Anwendungen von der einfachen seriellen Datenübertragung bis zur komplexen Steuerung externer Hardwarekomponenten.	
+	
+\subsection {Mechanische und Umgebungsbedingungen}
+
+Die mechanische Robustheit und Umgebungstoleranz des HC-05-Moduls sind entscheidend für den Einsatz in anspruchsvollen Umgebungen.
+
+\begin{enumerate}
+	\item Abmessung:
+	\begin{itemize}
+		\item Größe: 12,7 mm × 27 mm – ein kompaktes Design, das die Integration in platzbeschränkte Gehäuse erleichtert \cite{HC05Datasheet:2010}.
+	\end{itemize}
+	\item Umgebungsbedingung 
+	\begin{itemize}
+		\item Betriebstemperatur: -5 °C bis +45 °C, was den Einsatz in den meisten Indoor-Umgebungen abdeckt \cite{ReicheltHC05:2025}.
+		\item Lagerungstemperatur: Obwohl nicht explizit spezifiziert, ist das Modul durch seine Bauweise für industrielle Anwendungen mit moderaten Temperaturschwankungen geeignet \cite{HC05Datasheet:2010}.
+	\end{itemize} 
+\end{enumerate}
+
+Diese Spezifikationen unterstreichen die Eignung des Moduls für Anwendungen in der Automatisierungstechnik, Smart-Home-Systemen und mobilen Geräten.
+
+\subsection{ Zusätzliche Hardware-Features}
+
+Neben den Kernfunktionen bietet das HC-05-Modul weitere Hardwaremerkmale, die seine Vielseitigkeit erhöhen:
+
+\begin{enumerate}
+	\item Integrierte Antenne:
+	\begin{itemize}
+		\item Eliminiert die Notwendigkeit externer Antennen und reduziert den Platzbedarf auf der Leiterplatte \cite{HC05Datasheet:2010}.
+	\end{itemize}
+	\item Reset-Funktion
+	\begin{itemize}
+		\item RESETB (Pin 11): Ein aktiver Low-Impuls (>5 ms) setzt das Modul zurück, was bei Softwarefehlern oder Neukonfigurationen nützlich ist \cite{HC05Datasheet:2010}.
+	\end{itemize}
+	\item USB-Anschluss:
+	\begin{itemize}
+		\item \textcolor{red}{USB (Pin 15): Optionaler Anschluss für USB v1.1/2.0, allerdings ohne detaillierte Dokumentation in den Quellen – möglicherweise für Firmware-Updates oder alternative Kommunikationswege \cite{HC05Datasheet:2010}.}
+	\end{itemize}
+\end{enumerate}
+Diese Features tragen zur Reduzierung externer Komponenten bei und vereinfachen die Prototypenentwicklung.
+
+
+
+\subsection{Pinbelegung (Auszug)}
+	
+	Die Pinbelegung des HC-05-Moduls ist entscheidend für die korrekte Verdrahtung in Schaltungen. Die folgende Tabelle fasst die wichtigsten Pins zusammen:
+	
+\begin{table}[h]
+	\centering
+	\caption{Die Wichtigsten Pins des HC-05}
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Pin-Nr.} & \textbf{Name} & \textbf{Funktion} 			 & 		\textbf{Anmerkung}	   \\ \hline
+			 1	 		 & 	UART\_TX 	 & Serieller Datenausgang   	 &  CMOS-Ausgang mit Pull-Up   \\ \hline
+			 2		 	 &	UART\_RX	 & Serieller Dateneingeng		 &  CMOS-Eingang mit Pull-Down \\ \hline
+			12   		 &	3.3\,VCC     & Spannungsversorgung (+3,3\,V) &  Integrierter Linearregler  \\ \hline
+		 13,21,22		 &	GND		     & Masseanschluss				 &  Mehrere Pins zur Erdung    \\ \hline
+
+	\end{tabular}
+	\label{tab:Pin Belegung}
+\end{table}
+
+	
 \section{Bibliotheken}
 
 Um die Kommunikation zwischen Arduino und HC-05 zu ermöglichen wird die Bibliothek SoftwareSerial.h benötigt. Durch die Verwendung der Bibliothek kann der HC-05 über beliebige Pins Kommunizieren. Die Bibliothek wird hier mit der Installation der aktuellsten Version von Arduino-IDE (Version 2.2.1) mit Installiert.Falls die Bibliothek dennoch fehlen sollte kann sie wie folgt Installiert werden:
