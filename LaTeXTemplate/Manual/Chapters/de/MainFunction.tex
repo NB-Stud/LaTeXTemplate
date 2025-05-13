@@ -87,12 +87,10 @@ Nachdem Sie den Blumentopf und den Deckel ausgepackt haben, überprüfen Sie bit
 
 \section{Einrichten der App}
 Laden Sie sich die RemoteXY - App über den Google Playstore oder den Appstore auf Ihr Smartphone herunter. Schalten Sie die Bluetooth-Verbindung auf Ihrem Smartphone ein und suchen Sie nach in der Nähe befindlichen Geräten. Schalten Sie den Netzwerkkasten über den Kippschalter ein und überprüfen Sie, ob die grüne LED leuchtet. Ist dies der Fall warten Sie auf das Blinken der blauen LED. Sobald dies der Fall ist können Sie in der RemoteXY-App die Verbindung mit dem Magic Faucet Fountain herstellen. Die Verbindung ist hergestellt, sobald die blaue LED konstant leuchtet. Nun können Sie Ihren Magic Faucet Fountain nutzen!
-Die App, wie in \ref{fig:appAnsicht} dargestellt, verfügt über eine Darstellung des Blumentopfes und eine Füllstandsanzeige. Zudem lässt sich die Pumpe mit zwei Knöpfen ansteuern.
+Die App, wie in \ref{fig:ansichtApp} dargestellt, verfügt über eine Darstellung des Blumentopfes und eine Füllstandsanzeige. Zudem lässt sich die Pumpe mit zwei Knöpfen ansteuern.
 
-\begin{figure}[!ht]
-	\centering
-	
-	\begin{figure}[!ht]
+
+\begin{figure}[]
 		\centering
 		\resizebox{1\textwidth}{!}{%
 			\begin{circuitikz}
@@ -118,7 +116,7 @@ Die App, wie in \ref{fig:appAnsicht} dargestellt, verfügt über eine Darstellun
 				\draw [color=green!50!black, fill=green] (2.5,13.25) rectangle (5,15);
 				% Beschriftungen über den Komponenten
 				\node at (0,17.5) {\textbf{LED Blau}};
-				\node at (3.75,17.5) {\textbf{LED Gruen}};
+				\node at (3.75,17.5) {\textbf{LED Grün}};
 				\node at (8.75,17.5) {\textbf{Kippschalter}};
 				\draw [->, >=Stealth] (0,17) -- (0,15.5);
 				\draw [->, >=Stealth] (3.75,17) -- (3.75,15.5);
@@ -143,14 +141,13 @@ Die App, wie in \ref{fig:appAnsicht} dargestellt, verfügt über eine Darstellun
 		}%
 	
 		\caption{Netzteil des Magic Faucet Fountain}
-	\label{fig:appAnsicht}
-	\end{figure}
+	\label{fig:ansichtApp}
+\end{figure}
 	
 
 
-\begin{figure}[!ht]
+\begin{figure}[]
 	\centering
-	
 	\resizebox{0.75\textwidth}{!}{%
 		\begin{circuitikz}
 			\tikzstyle{every node}=[font=\LARGE]
@@ -202,4 +199,3 @@ Die App, wie in \ref{fig:appAnsicht} dargestellt, verfügt über eine Darstellun
     \label{fig:appAnsicht}
 \end{figure}
 
-\newpage
