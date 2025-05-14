@@ -25,31 +25,29 @@
 \contentsline {subsection}{\numberline {2.5.3}Verwendung symbolischer Links zur Bibliotheksintegration}{27}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Windows-Tool \textcolor {ShellColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-mklink}} zur Erstellung symbolischer Links}{28}{subsection.2.5.4}%
 \contentsline {subsection}{\numberline {2.5.5}Überprüfung der Bibliotheksverfügbarkeit in der Arduino IDE}{29}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Serieller Monitor}{30}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.6}Serieller Monitor}{29}{subsection.2.5.6}%
 \contentsline {subsection}{\numberline {2.5.7}Serieller Plotter}{30}{subsection.2.5.7}%
 \contentsline {section}{\numberline {2.6}Beispiel-Sketches}{30}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Debugging}{31}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Funktionsumfang}{31}{subsection.2.7.1}%
-\contentsline {section}{\numberline {2.8}Autocompletion}{31}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Conclusion}{31}{section.2.9}%
-\contentsline {chapter}{\numberline {3}Setup for the Arduino Nano 33 BLE Sense}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Configuration for the Arduino Nano 33 BLE Sense}{33}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Installation of the driver}{33}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Connection and Configuration of the Arduino Board to the Computer}{34}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Select the Appropriate Port}{34}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Upload and Verify a Sketch}{36}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Test the Configuration}{37}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Testing the Steps by an Example Sketch \textcolor {FileColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-blink.ino}}}{37}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Description of Basic Sketch for Printing 'Hello'}{38}{subsection.3.3.2}%
+\contentsline {section}{\numberline {2.7}Debugging}{30}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Autovervollständigung}{31}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Zusammenfassung}{31}{section.2.9}%
+\contentsline {chapter}{\numberline {3}Einrichtung des Arduino Nano 33 BLE Sense}{33}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Einführung}{33}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Konfiguration des Arduino Nano 33 BLE Sense}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Verbindung und Konfiguration des Arduino-Boards mit dem Computer}{34}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Auswahl des richtigen Ports}{35}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Sketch verifizieren und hochladen}{37}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Konfiguration testen}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Test der Einrichtung mit dem Beispiel-Sketch \textcolor {FileColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-blink.ino}}}{38}{subsection.3.3.1}%
 \contentsline {chapter}{\numberline {4}Arduino Nano 33 BLE Sense}{41}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Arduino Nano 33 BLE Sense}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Unterschied zwischen dem Arduino Nano 33 BLE Sense Rev1, dem Arduino Nano 33 BLE Sense Rev2 und dem Arduino Nano 33 BLE Sense Lite}{42}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}What is the difference between Rev1 and Rev2?}{42}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Changes in the Sketch}{43}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Arduino Nano 33 BLE Sense Lite}{44}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}On-Board Sensor Description}{44}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Arduino Nano 33 BLE Pin Configuration}{47}{section.4.4}%
+\contentsline {section}{\numberline {4.2}Unterschied zwischen dem Arduino Nano 33 BLE Sense Rev1, dem Arduino Nano 33 BLE Sense Rev2 und dem Arduino Nano 33 BLE Sense Lite}{43}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Worin unterscheiden sich Rev1 und Rev2?}{43}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Arduino Nano 33 BLE Sense Lite}{44}{subsection.4.2.2}%
+\contentsline {subsubsection}{\nonumberline Unterschiede zur Rev1}{44}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Technische Hintergründe}{44}{subsubsection*.39}%
+\contentsline {section}{\numberline {4.3}Beschreibung der On-Board Sensoren}{45}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pinbelegung des Arduino Nano 33 BLE}{47}{section.4.4}%
 \contentsline {part}{\numberline {II}Harwarebeschreibung: Magic Faucet Fountain}{49}{part.2}%
 \contentsline {chapter}{\numberline {5}Materialliste Magic Faucet Fountain}{51}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Ultraschallsensor HC-SR04}{53}{chapter.6}%
@@ -135,8 +133,8 @@
 \contentsline {subsection}{\numberline {11.2.2}P-Kanal-MOS-FET}{96}{subsection.11.2.2}%
 \contentsline {section}{\numberline {11.3}MOS-FET IRF9540N}{96}{section.11.3}%
 \contentsline {section}{\numberline {11.4}Spezifikation}{96}{section.11.4}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{96}{subsubsection*.51}%
-\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{97}{subsubsection*.53}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{96}{subsubsection*.67}%
+\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{97}{subsubsection*.69}%
 \contentsline {section}{\numberline {11.5}Einfacher Code}{98}{section.11.5}%
 \contentsline {section}{\numberline {11.6}Tests}{99}{section.11.6}%
 \contentsline {section}{\numberline {11.7}Einfache Anwendung}{99}{section.11.7}%
@@ -156,13 +154,13 @@
 \contentsline {subsection}{\numberline {13.2.1}Abmaß}{108}{subsection.13.2.1}%
 \contentsline {section}{\numberline {13.3}Hardware-Schnittstellen}{108}{section.13.3}%
 \contentsline {subsection}{\numberline {13.3.1}Schaltpläne}{108}{subsection.13.3.1}%
-\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{108}{subsubsection*.62}%
-\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{109}{subsubsection*.65}%
-\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{110}{subsubsection*.68}%
+\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{108}{subsubsection*.78}%
+\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{109}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{110}{subsubsection*.84}%
 \contentsline {section}{\numberline {13.4}Software-Schnittstellen}{111}{section.13.4}%
-\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{111}{subsubsection*.71}%
-\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{111}{subsubsection*.73}%
-\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{112}{subsubsection*.75}%
+\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{111}{subsubsection*.87}%
+\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{111}{subsubsection*.89}%
+\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{112}{subsubsection*.91}%
 \contentsline {subsection}{\numberline {13.4.1}Ablaufdiagramm der Anwendung}{112}{subsection.13.4.1}%
 \contentsline {subsection}{\numberline {13.4.2}Code der Anwendung}{114}{subsection.13.4.2}%
 \contentsline {section}{\numberline {13.5}Installation}{115}{section.13.5}%
@@ -178,6 +176,6 @@
 \contentsline {section}{\numberline {14.3}Mögliche Weiterentwicklungen}{119}{section.14.3}%
 \contentsline {section}{\numberline {14.4}Zukünftige Anwendungen}{119}{section.14.4}%
 \contentsline {part}{\numberline {IV}Anhang}{121}{part.4}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{123}{chapter*.78}%
-\contentsline {chapter}{Stichwortverzeichnis}{126}{chapter*.78}%
-\contentsline {chapter}{Index}{127}{chapter*.78}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{123}{chapter*.94}%
+\contentsline {chapter}{Stichwortverzeichnis}{126}{chapter*.94}%
+\contentsline {chapter}{Index}{127}{chapter*.94}%

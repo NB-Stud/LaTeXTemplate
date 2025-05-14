@@ -397,36 +397,17 @@ Symbolische Links ermöglichen die Speicherung von Bibliotheken an einem anderen
 	\end{figure}
 	
 \end{enumerate}
+
+\textbf{Führe \SHELL{mklink} aus:} Die Eingabeaufforderung für die Erstellung eines symbolischen Links ist: {\small \SHELL {mklink /D "TargetPath" "SourcePath"}}
+\\
+\textbf{Zielverzeichnis:} Das Verzeichnis, bei dem die Arduino IDE die Bibliothek erwartet: \FILE{Bibliotheken}.
 		
-\bigskip
-
-		
-For this example, the library is located at: 
-
-
-{\small\SHELL{C:/Users/MSRLabor/Documents/GitHub/241031ArduinoNano33BLESense/report/Code/Nano33BLESense/Nano33BLESenseLED}}
-
+Für dieses Beispiel ist die Bibliothek hier: \\
+{\small\SHELL{C:/Benutzer/<Benutzername>/Dokumente/Desktop/Nano33BLESenseLED}}
 \medskip
 
-
-The target path in the Arduino IDE’s libraries folder is: 
-
-
-{\small\SHELL{C:/Users/MSRLabor/Documents/Arduino/libraries/Nano33BLESenseLED}}
-
-\medskip
-
-The full command can be seen in Figure \ref{fig:cmdSynthax}.
-
-\begin{center}\centering
-	\includegraphics[width=10cm]{Arduino/ArdiunoIDE2/cmdSynthax.png}
-	\captionof{figure}{Command Prompt}
-	\label{fig:cmdSynthax}		
-\end{center}
-
-
-\textbf{Verifying the Symbolic Link:} After executing the command, navigate to the folder \FILE{libraries}. A folder named \FILE{Nano33BLESenseLED} should be present, acting as a symbolic link pointing to the actual library location.
-
+Das Zielverzeichnis für die den Bibliotheksordner ist: \\
+{\small\SHELL{C:/Benutzer/<Benutzername>/Dokumente/Arduino/Bibliotheken/Nano33BLESenseLED}}
 
 
 \subsection{Überprüfung der Bibliotheksverfügbarkeit in der Arduino IDE}
@@ -505,29 +486,39 @@ Der Debugger in der Arduino IDE 2.3.6 ist ein leistungsfähiges Werkzeug zur Feh
 \end{itemize}
 
 
-\section{Autocompletion}
+\section{Autovervollständigung}
 
-Autocompletion is a key feature in Arduino IDE version 2, making it easier to code by suggesting functions and elements from the Arduino API. This feature helps identify and complete code more quickly, improving efficiency and accuracy.
-
-For autocompletion to work, the board must be selected in the IDE. This ensures that the editor recognizes the correct functions and libraries for the specific board, allowing accurate suggestions. ~\ref{autocomplete}
+Die Autovervollständigung ist eine Schlüsselfunktion der Arduino IDE Version 2, die das Programmieren durch intelligente Vorschläge für Funktionen und Elemente der Arduino-API wesentlich vereinfacht. Diese Funktion unterstützt Entwickler bei der schnelleren und präziseren Code-Erstellung. ~\ref{fig:arduinoAuto}
 
 
-\begin{center}
-        \includegraphics[width=0.7\linewidth]{Arduino/ArdiunoIDE2/autocomplete.png}
-        \captionof{figure}{Autocomplete}\label{autocomplete}
-\end{center}
-
-
-\section{Conclusion}
-This guide provides an overview of key features in Arduino IDE 2, along with references to detailed articles for further exploration. Each section aims to enhance understanding and enjoyment of the wide range of functionalities included in the IDE.
-
-
-
-\begin{figure}[H]\centering
-    \includegraphics[width=10cm]{Arduino/ArdiunoIDE2/MenuBarOption}
-    \caption{Menu Bar Option}
-    \label{fig::MenuBarOption}		
+\begin{figure}[H]
+	\centering
+	\caption{Autovervollständigen in der Arduino-IDE}
+	\label{fig:arduinoAuto}
+	\includegraphics[width=0.8\textwidth]{Arduino/ArduinoIDE/arduinoAuto.png}
 \end{figure}
+
+
+\section{Zusammenfassung}
+Diese Anleitung bietet einen umfassenden Überblick über die wesentlichen Funktionen der Arduino IDE 2 und verweist auf detaillierte Artikel für vertiefende Informationen. Die einzelnen Abschnitte sind darauf ausgerichtet, das Verständnis und die effektive Nutzung der vielfältigen Möglichkeiten der Entwicklungsumgebung zu fördern.
+
+\subsection*{Wesentliche Erkenntnisse}
+\begin{itemize}
+	\item Die Arduino IDE 2 vereint alle wichtigen Werkzeuge für die Arduino-Entwicklung in einer modernen Oberfläche
+	\item Neue Funktionen wie der integrierte Debugger und verbesserte Code-Vervollständigung beschleunigen den Entwicklungsprozess
+	\item Die Cloud-Integration ermöglicht flexible Arbeitsabläufe über mehrere Geräte hinweg
+	\item Umfangreiche Dokumentation und Beispielsketche erleichtern den Einstieg
+\end{itemize}
+
+\subsection*{Empfehlungen für Nutzer}
+\begin{itemize}
+	\item Regelmäßige Updates der IDE durchführen
+	\item Die offizielle Dokumentation für fortgeschrittene Themen nutzen
+	\item Community-Beispiele als Lerngrundlage verwenden
+	\item Debugging-Funktionen für komplexe Projekte einsetzen
+\end{itemize}
+
+Die Arduino IDE 2 stellt eine leistungsfähige Plattform für Einsteiger und erfahrene Entwickler dar, die kontinuierlich weiterentwickelt wird. Durch die systematische Nutzung der beschriebenen Funktionen können Projekte effizienter realisiert und Probleme schneller gelöst werden.
 
 
 

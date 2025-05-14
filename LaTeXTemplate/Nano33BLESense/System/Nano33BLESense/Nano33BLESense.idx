@@ -2,8 +2,6 @@
 \indexentry{General Purpose Input Output! \emph  {see} GPIO}{11}
 \indexentry{I\textsuperscript  {2}C}{11}
 \indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{11}
-\indexentry{IDE}{11}
-\indexentry{Integrated Development Environment! \emph  {see} IDE}{11}
 \indexentry{IMU}{11}
 \indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{11}
 \indexentry{SCL}{11}
@@ -22,21 +20,12 @@
 \indexentry{ File!Nano33BLESenseLED}{27}
 \indexentry{ File!Bibliotheken}{27}
 \indexentry{ File!libraries}{28}
-\indexentry{ File!libraries}{29}
+\indexentry{ File!Bibliotheken}{29}
 \indexentry{ File!Nano33BLESenseLED}{29}
-\indexentry{ File!Nano33BLESenseLED}{29}
-\indexentry{ File!blnik.ino}{33}
-\indexentry{ File!blink.ino}{37}
-\indexentry{ File!blink.ino}{37}
-\indexentry{ File!blink.ino}{37}
 \indexentry{ File!blink.ino}{38}
 \indexentry{ File!blink.ino}{38}
-\indexentry{Integrated Development Environment! \emph  {see} IDE}{38}
-\indexentry{IDE}{38}
-\indexentry{ File!File/Examples/01.Basics}{38}
-\indexentry{ File!Fade}{38}
-\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{44}
-\indexentry{IMU}{44}
+\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{45}
+\indexentry{IMU}{45}
 \indexentry{Voltage at the Common Collector! \emph  {see} VCC}{56}
 \indexentry{VCC}{56}
 \indexentry{Serial Clock! \emph  {see} SCL}{56}

@@ -3,17 +3,14 @@
   \item  File
     \subitem .ino, 24
     \subitem Arduino, 24
-    \subitem Bibliotheken, 27
-    \subitem blink.ino, 37, 38
-    \subitem blnik.ino, 33
-    \subitem Fade, 38
-    \subitem File/Examples/01.Basics, 38
-    \subitem libraries, 28, 29
+    \subitem Bibliotheken, 27, 29
+    \subitem blink.ino, 38
+    \subitem libraries, 28
     \subitem MySketch, 24
     \subitem MySketch.ino, 24
     \subitem Nano33BLESenseLED, 27, 29
   \item  Inertial Measurement Unit
-    \subitem  \emph  {see} IMU, 11, 44
+    \subitem  \emph  {see} IMU, 11, 45
 
   \indexspace
 
@@ -24,10 +21,7 @@
   \indexspace
 
   \item I\textsuperscript  {2}C, 11, 56, 57
-  \item IDE, 11, 38
-  \item IMU, 11, 44
-  \item Integrated Development Environment
-    \subitem  \emph  {see} IDE, 11, 38
+  \item IMU, 11, 45
   \item Inter-Integrated Circuit
     \subitem  \emph  {see} I\textsuperscript  {2}C, 11, 56
 
