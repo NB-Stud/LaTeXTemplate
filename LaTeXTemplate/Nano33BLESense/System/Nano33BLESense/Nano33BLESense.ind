@@ -3,53 +3,53 @@
   \item  File
     \subitem .ino, 24
     \subitem Arduino, 24
+    \subitem Bibliotheken, 27
     \subitem blink.ino, 37, 38
     \subitem blnik.ino, 33
     \subitem Fade, 38
     \subitem File/Examples/01.Basics, 38
-    \subitem libraries, 27--29
+    \subitem libraries, 28, 29
     \subitem MySketch, 24
     \subitem MySketch.ino, 24
-    \subitem Nano33BLESenseLE, 27
-    \subitem Nano33BLESenseLED, 28, 29
+    \subitem Nano33BLESenseLED, 27, 29
   \item  Inertial Measurement Unit
     \subitem  \emph  {see} IMU, 11, 44
 
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 11, 54
-  \item GPIO, 11, 54, 55
+    \subitem  \emph  {see} GPIO, 11, 56
+  \item GPIO, 11, 56, 57
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 11, 54, 55
+  \item I\textsuperscript  {2}C, 11, 56, 57
   \item IDE, 11, 38
   \item IMU, 11, 44
   \item Integrated Development Environment
     \subitem  \emph  {see} IDE, 11, 38
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 11, 54
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 11, 56
 
   \indexspace
 
-  \item SCL, 11, 54, 55
-  \item SDA, 11, 54, 55
+  \item SCL, 11, 56, 57
+  \item SDA, 11, 56, 57
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 11, 54
+    \subitem  \emph  {see} SCL, 11, 56
   \item Serial Data
-    \subitem  \emph  {see} SDA, 11, 54
+    \subitem  \emph  {see} SDA, 11, 56
 
   \indexspace
 
-  \item UART, 11, 54, 55
+  \item UART, 11, 56, 57
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 11, 54
+    \subitem  \emph  {see} UART, 11, 56
 
   \indexspace
 
-  \item VCC, 11, 54, 55
+  \item VCC, 11, 56, 57
   \item Voltage at the Common Collector
-    \subitem  \emph  {see} VCC, 11, 54
+    \subitem  \emph  {see} VCC, 11, 56
 
 \end{theindex}

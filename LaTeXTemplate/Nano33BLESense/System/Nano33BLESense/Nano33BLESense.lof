@@ -13,22 +13,20 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Das Sketchbook auf der Arduino IDE}}{24}{figure.caption.13}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Die Board-Verwaltung auf der Arduino IDE}}{25}{figure.caption.14}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Der Bibliotheksverwalter auf der Arduino IDE}}{26}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Command Prompt with Administrator Privileges}}{28}{figure.2.12}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Command Prompt}}{28}{figure.2.13}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Including the Nano33BLESenseLED Library}}{29}{figure.2.14}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Serial Monitor}}{30}{figure.2.15}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Examples}}{31}{figure.2.16}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Debugging Example}}{31}{figure.2.17}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Autocomplete}}{32}{figure.2.18}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Menu Bar Option}}{32}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Administrator-Eingabeaufforderung in Windows}}{28}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Command Prompt}}{29}{figure.2.13}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Einbindung der Nano33BLESenseLED-Bibliothek}}{29}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Beispielsketche in der Arduino IDE}}{30}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Autocomplete}}{31}{figure.2.16}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Menu Bar Option}}{32}{figure.caption.19}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Arduino Mbed OS Nano Boards Installation}}{34}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Select the Connected board - here Arduino Nano 33 BLE Sense}}{34}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Select the Connected board - here Arduino Nano 33 BLE Sense}}{34}{figure.caption.20}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Arduino Nano 33 BLE Sense Reset Button}}{35}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces green and orange Builtin-LED}}{36}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Select Available Port for Uploading Arduino Sketch}}{36}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Upload the Program in Arduino board}}{37}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Setting the Port}}{37}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Select Available Port for Uploading Arduino Sketch}}{36}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Upload the Program in Arduino board}}{37}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Setting the Port}}{37}{figure.caption.23}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces LED Example Sketch}}{38}{figure.3.8}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces LED-Built Example}}{38}{figure.3.9}%
 \addvspace {10\p@ }
@@ -39,33 +37,34 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Pin assignment of the Arduino Nano 33 BLE Sense}}{46}{figure.4.5}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Connection with BLE and smartphone}}{46}{figure.4.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Frequenz der verschiedenen Schall-Arten}}{52}{figure.caption.22}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{53}{figure.caption.23}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{54}{figure.caption.24}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{54}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Frequenz der verschiedenen Schall-Arten}}{54}{figure.caption.25}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{55}{figure.caption.26}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{56}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{56}{figure.caption.28}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Aufbau eines Schaltnetzteils}}{74}{figure.caption.31}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Skizze des Netzteils}}{75}{figure.caption.33}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Spannungsmessung des Netzteils}}{75}{figure.caption.34}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Anwendung des Netzteils für 2 seperate Stromkreise}}{76}{figure.caption.35}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Aufbau eines Schaltnetzteils}}{76}{figure.caption.34}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Skizze des Netzteils}}{77}{figure.caption.36}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Spannungsmessung des Netzteils}}{77}{figure.caption.37}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Anwendung des Netzteils für 2 seperate Stromkreise}}{78}{figure.caption.38}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{81}{figure.caption.37}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{83}{figure.caption.40}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Schnittstellen und Anschlüsse HC-05}}{84}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Skizze der Schaltertypen}}{87}{figure.caption.41}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Messen des Widerstands}}{88}{figure.caption.42}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Einfache Anwendung des Schalters}}{89}{figure.caption.43}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Skizze der Schaltertypen}}{91}{figure.caption.46}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Messen des Widerstands}}{92}{figure.caption.47}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Einfache Anwendung des Schalters}}{93}{figure.caption.48}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Skizze des MOS-FETs}}{92}{figure.caption.44}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Pinbelegung des MOS-FETs}}{94}{figure.caption.49}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Skizze des MOS-FETs}}{96}{figure.caption.49}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Pinbelegung des MOS-FETs}}{98}{figure.caption.54}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Aufbau einer LED}}{98}{figure.caption.52}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Aufbau einer LED}}{102}{figure.caption.57}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{103}{figure.caption.44}%
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Versorgungsschaltplan}}{105}{figure.caption.47}%
-\contentsline {figure}{\numberline {13.3}{\ignorespaces Schaltplan: Arduino-basierte Steuerungseinheit mit Bluetooth-Kommunikation}}{106}{figure.caption.50}%
-\contentsline {figure}{\numberline {13.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{107}{figure.caption.53}%
-\contentsline {figure}{\numberline {13.5}{\ignorespaces Ablaufdiagramm}}{108}{figure.caption.60}%
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{107}{figure.caption.60}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Versorgungsschaltplan}}{109}{figure.caption.63}%
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Schaltplan: Arduino-basierte Steuerungseinheit mit Bluetooth-Kommunikation}}{110}{figure.caption.66}%
+\contentsline {figure}{\numberline {13.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{111}{figure.caption.69}%
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Ablaufdiagramm}}{112}{figure.caption.76}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

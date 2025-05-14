@@ -18,13 +18,10 @@
 \indexentry{ File!MySketch.ino}{24}
 \indexentry{ File!MySketch}{24}
 \indexentry{ File!Arduino}{24}
-\indexentry{ File!Nano33BLESenseLE}{27}
-\indexentry{ File!libraries}{27}
-\indexentry{ File!libraries}{27}
+\indexentry{ File!Bibliotheken}{27}
+\indexentry{ File!Nano33BLESenseLED}{27}
+\indexentry{ File!Bibliotheken}{27}
 \indexentry{ File!libraries}{28}
-\indexentry{ File!libraries}{28}
-\indexentry{ File!Nano33BLESenseLED}{28}
-\indexentry{ File!libraries}{29}
 \indexentry{ File!libraries}{29}
 \indexentry{ File!Nano33BLESenseLED}{29}
 \indexentry{ File!Nano33BLESenseLED}{29}
@@ -40,22 +37,22 @@
 \indexentry{ File!Fade}{38}
 \indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{44}
 \indexentry{IMU}{44}
-\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{54}
-\indexentry{VCC}{54}
-\indexentry{Serial Clock! \emph  {see} SCL}{54}
-\indexentry{SCL}{54}
-\indexentry{Serial Data! \emph  {see} SDA}{54}
-\indexentry{SDA}{54}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{54}
-\indexentry{GPIO}{54}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{54}
-\indexentry{UART}{54}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{54}
-\indexentry{I\textsuperscript  {2}C}{54}
-\indexentry{SCL}{55}
-\indexentry{SDA}{55}
-\indexentry{VCC}{55}
-\indexentry{GPIO}{55}
-\indexentry{UART}{55}
-\indexentry{I\textsuperscript  {2}C}{55}
-\indexentry{VCC}{55}
+\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{56}
+\indexentry{VCC}{56}
+\indexentry{Serial Clock! \emph  {see} SCL}{56}
+\indexentry{SCL}{56}
+\indexentry{Serial Data! \emph  {see} SDA}{56}
+\indexentry{SDA}{56}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{56}
+\indexentry{GPIO}{56}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{56}
+\indexentry{UART}{56}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{56}
+\indexentry{I\textsuperscript  {2}C}{56}
+\indexentry{SCL}{57}
+\indexentry{SDA}{57}
+\indexentry{VCC}{57}
+\indexentry{GPIO}{57}
+\indexentry{UART}{57}
+\indexentry{I\textsuperscript  {2}C}{57}
+\indexentry{VCC}{57}
