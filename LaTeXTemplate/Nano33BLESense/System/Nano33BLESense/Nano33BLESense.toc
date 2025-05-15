@@ -1,181 +1,206 @@
 \acswitchoff 
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Contents}{3}{chapter*.1}%
-\contentsline {chapter}{List of Figures}{7}{chapter*.2}%
-\contentsline {chapter}{ List of Listings}{9}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}Einleitung}{13}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Herausforderungen}{13}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Lösungen}{13}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Struktur des Dokuments}{13}{section.1.3}%
-\contentsline {part}{\numberline {I}Arduino Nano 33 BLE Sense}{15}{part.1}%
-\contentsline {chapter}{\numberline {2}Arduino IDE 2.3.6}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Beschreibung der Arduino IDE}{17}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Installation der Arduino IDE}{18}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Download der Arduino IDE}{18}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Installation auf Windows}{18}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Installation (MacOS)}{23}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Übersicht}{23}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Funktionen}{24}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Sketchbook}{24}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Board-Verwaltung}{24}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Bibliotheksverwalter}{25}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Integration und Verwendung einer benutzerdefinierten Bibliothek in der Arduino IDE}{26}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Erstellung der Bibliotheksdateien}{26}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Installation und Integration der Bibliothek}{27}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Verwendung symbolischer Links zur Bibliotheksintegration}{27}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Windows-Tool \textcolor {ShellColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-mklink}} zur Erstellung symbolischer Links}{28}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Überprüfung der Bibliotheksverfügbarkeit in der Arduino IDE}{29}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Serieller Monitor}{29}{subsection.2.5.6}%
-\contentsline {subsection}{\numberline {2.5.7}Serieller Plotter}{30}{subsection.2.5.7}%
-\contentsline {section}{\numberline {2.6}Beispiel-Sketches}{30}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Debugging}{30}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Autovervollständigung}{31}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Zusammenfassung}{31}{section.2.9}%
-\contentsline {chapter}{\numberline {3}Einrichtung des Arduino Nano 33 BLE Sense}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Einführung}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Konfiguration des Arduino Nano 33 BLE Sense}{33}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Verbindung und Konfiguration des Arduino-Boards mit dem Computer}{34}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Auswahl des richtigen Ports}{35}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Sketch verifizieren und hochladen}{37}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Konfiguration testen}{38}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Test der Einrichtung mit dem Beispiel-Sketch \textcolor {FileColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-blink.ino}}}{38}{subsection.3.3.1}%
-\contentsline {chapter}{\numberline {4}Arduino Nano 33 BLE Sense}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Arduino Nano 33 BLE Sense}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Unterschied zwischen dem Arduino Nano 33 BLE Sense Rev1, dem Arduino Nano 33 BLE Sense Rev2 und dem Arduino Nano 33 BLE Sense Lite}{43}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Worin unterscheiden sich Rev1 und Rev2?}{43}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Arduino Nano 33 BLE Sense Lite}{44}{subsection.4.2.2}%
-\contentsline {subsubsection}{\nonumberline Unterschiede zur Rev1}{44}{subsubsection*.37}%
-\contentsline {subsubsection}{\nonumberline Technische Hintergründe}{44}{subsubsection*.39}%
-\contentsline {section}{\numberline {4.3}Beschreibung der On-Board Sensoren}{45}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Pinbelegung des Arduino Nano 33 BLE}{47}{section.4.4}%
-\contentsline {part}{\numberline {II}Harwarebeschreibung: Magic Faucet Fountain}{49}{part.2}%
-\contentsline {chapter}{\numberline {5}Materialliste Magic Faucet Fountain}{51}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Ultraschallsensor HC-SR04}{53}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Einleitung}{53}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Ultraschallsensoren zur Abstandsmessung}{53}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Grundlagen zur Verwendung eines Ultraschallsensors}{54}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Grundlagen Schall}{54}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Schallgeschwindigkeit und Wellenlänge}{54}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Weg- und Abstandsmessung mit Ultraschall}{55}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Ultraschall-Abstandsensor HC-SR04}{56}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Spezifikation}{57}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Anwendungen}{57}{subsection.6.5.1}%
-\contentsline {section}{\numberline {6.6}Bibliothek}{57}{section.6.6}%
-\contentsline {subsection}{\numberline {6.6.1}Beschreibung}{57}{subsection.6.6.1}%
-\contentsline {subsection}{\numberline {6.6.2}Installation}{57}{subsection.6.6.2}%
-\contentsline {subsection}{\numberline {6.6.3}Funktionen}{58}{subsection.6.6.3}%
-\contentsline {section}{\numberline {6.7}Kalibrierung}{58}{section.6.7}%
-\contentsline {section}{\numberline {6.8}Simple Code}{58}{section.6.8}%
-\contentsline {section}{\numberline {6.9}Einfache Anwendung}{58}{section.6.9}%
-\contentsline {section}{\numberline {6.10}Tests}{62}{section.6.10}%
-\contentsline {subsection}{\numberline {6.10.1}Einfacher Funktionstest}{62}{subsection.6.10.1}%
-\contentsline {subsection}{\numberline {6.10.2}Test aller Funktionen}{63}{subsection.6.10.2}%
-\contentsline {subsection}{\numberline {6.10.3}Lösungsansätze}{64}{subsection.6.10.3}%
-\contentsline {section}{\numberline {6.11}Weiterführende Anwendungen}{64}{section.6.11}%
-\contentsline {section}{\numberline {6.12}Further Readings}{65}{section.6.12}%
-\contentsline {chapter}{\numberline {7}Comet Tauchpumpe ELEGANT 12V}{67}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Einführung}{67}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Arbeitsweise Kreiselpumpen}{67}{subsection.7.1.1}%
-\contentsline {section}{\numberline {7.2}Charakteristische Größen von Pumpen}{68}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Volumenstrom}{68}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Förderhöhe}{68}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Nutzleistung}{68}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4}Pumpenwirkungsgrad}{69}{subsection.7.2.4}%
-\contentsline {subsection}{\numberline {7.2.5}Kupplungsleistung}{69}{subsection.7.2.5}%
-\contentsline {subsection}{\numberline {7.2.6}Anlagenkennlinie}{69}{subsection.7.2.6}%
-\contentsline {section}{\numberline {7.3}Comet Tauchpumpe ELEGANT 12V}{69}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Spezifikation}{70}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Technische Daten:}{70}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Weitere Eigenschaften}{70}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Einfacher Code}{70}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Tests}{72}{section.7.6}%
-\contentsline {section}{\numberline {7.7}Einfache Anwendung}{72}{section.7.7}%
-\contentsline {section}{\numberline {7.8}Further Readings}{74}{section.7.8}%
-\contentsline {chapter}{\numberline {8}Schaltnetzteil: MW RD-50A}{75}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Einleitung}{75}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Grundlegende Informationen}{75}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Schaltnetzteil: MW RD-50A}{76}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Spezifikation}{76}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Tests}{77}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Einfache Anwendung}{77}{section.8.6}%
-\contentsline {section}{\numberline {8.7}Further Readings}{80}{section.8.7}%
-\contentsline {chapter}{\numberline {9}Bluetooth Modul HC-05}{81}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Einleitung}{81}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Grundlegende Informationen}{81}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Bluetooth Varianten}{81}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Reichweite und Sendeleistung}{82}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Daten Übertragung}{82}{subsection.9.2.3}%
-\contentsline {subsection}{\numberline {9.2.4}Anwendungen}{82}{subsection.9.2.4}%
-\contentsline {section}{\numberline {9.3}Bluetooth Modul: HC-05}{83}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Spezifikation}{83}{section.9.4}%
-\contentsline {subsection}{\numberline {9.4.1}Hardware-Spezifikation}{83}{subsection.9.4.1}%
-\contentsline {subsection}{\numberline {9.4.2}Elektrische Eigenschaften}{84}{subsection.9.4.2}%
-\contentsline {subsection}{\numberline {9.4.3}Schnittstellen und Anschlüsse}{84}{subsection.9.4.3}%
-\contentsline {subsection}{\numberline {9.4.4}Mechanische und Umgebungsbedingungen}{85}{subsection.9.4.4}%
-\contentsline {subsection}{\numberline {9.4.5}Zusätzliche Hardware-Features}{86}{subsection.9.4.5}%
-\contentsline {subsection}{\numberline {9.4.6}Pinbelegung (Auszug)}{86}{subsection.9.4.6}%
-\contentsline {section}{\numberline {9.5}Bibliotheken}{86}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Einfacher Code}{87}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Tests}{88}{section.9.7}%
-\contentsline {section}{\numberline {9.8}Einfache Anwendung}{88}{section.9.8}%
-\contentsline {section}{\numberline {9.9}Further Readings}{90}{section.9.9}%
-\contentsline {chapter}{\numberline {10}Kippschalter: GOOBAY 10013}{91}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Einleitung}{91}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Grundlegende Informationen}{91}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Schalter: GOOBAY 10013}{91}{section.10.3}%
+\contentsline {chapter}{List of Figures}{9}{chapter*.2}%
+\contentsline {chapter}{ List of Listings}{11}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Einleitung}{15}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Herausforderungen}{15}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Lösungen}{15}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Struktur des Dokuments}{15}{section.1.3}%
+\contentsline {part}{\numberline {I}Arduino Nano 33 BLE Sense}{17}{part.1}%
+\contentsline {chapter}{\numberline {2}Arduino IDE 2.3.6}{19}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Beschreibung der Arduino IDE}{19}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Installation der Arduino IDE}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Download der Arduino IDE}{20}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Installation auf Windows}{20}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Installation (MacOS)}{25}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Übersicht}{25}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Funktionen}{26}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Sketchbook}{26}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Board-Verwaltung}{26}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Bibliotheksverwalter}{27}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Integration und Verwendung einer benutzerdefinierten Bibliothek in der Arduino IDE}{28}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Erstellung der Bibliotheksdateien}{28}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Installation und Integration der Bibliothek}{29}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Verwendung symbolischer Links zur Bibliotheksintegration}{29}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Windows-Tool \textcolor {ShellColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-mklink}} zur Erstellung symbolischer Links}{30}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Überprüfung der Bibliotheksverfügbarkeit in der Arduino IDE}{31}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Serieller Monitor}{31}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.7}Serieller Plotter}{32}{subsection.2.5.7}%
+\contentsline {section}{\numberline {2.6}Beispiel-Sketches}{32}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Debugging}{32}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Autovervollständigung}{33}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Zusammenfassung}{33}{section.2.9}%
+\contentsline {chapter}{\numberline {3}Einrichtung des Arduino Nano 33 BLE Sense}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Einführung}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Konfiguration des Arduino Nano 33 BLE Sense}{35}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Verbindung und Konfiguration des Arduino-Boards mit dem Computer}{36}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Auswahl des richtigen Ports}{37}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Sketch verifizieren und hochladen}{39}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Konfiguration testen}{40}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Test der Einrichtung mit dem Beispiel-Sketch \textcolor {FileColor}{\texttt {\fontdimen 2\font =0.4em\fontdimen 3\font =0.2em\fontdimen 4\font =0.1em\fontdimen 7\font =0.1em\hyphenchar \font =`\-blink.ino}}}{40}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {4}Arduino Nano 33 BLE Sense}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Arduino Nano 33 BLE Sense}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Unterschied zwischen dem Arduino Nano 33 BLE Sense Rev1, dem Arduino Nano 33 BLE Sense Rev2 und dem Arduino Nano 33 BLE Sense Lite}{45}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Worin unterscheiden sich Rev1 und Rev2?}{45}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Arduino Nano 33 BLE Sense Lite}{46}{subsection.4.2.2}%
+\contentsline {subsubsection}{\nonumberline Unterschiede zur Rev1}{46}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Technische Hintergründe}{46}{subsubsection*.39}%
+\contentsline {section}{\numberline {4.3}Beschreibung der On-Board Sensoren}{47}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pinbelegung des Arduino Nano 33 BLE}{49}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Spannungswandler MPM3610}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Allgemein Spannungswandler}{51}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Allgemeines Funktionsprinzip}{51}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Schaltregler (Schaltende DC-DC-Wandler)}{51}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Abwärtswandler}{52}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Aufwärtswandler}{52}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Spannungswandler MPM3610}{52}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}AAM-Regelbetrieb}{53}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}DCM-Steuerungsbetrieb}{53}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}CCM-Steuerbetrieb}{53}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Interner VCC-Regler}{53}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Fehlerverstärker (EA)}{53}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Unterspannungsabschaltung (UVLO)}{53}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Enable Control (EN)}{54}{subsection.5.3.7}%
+\contentsline {subsection}{\numberline {5.3.8}Soft-Start}{54}{subsection.5.3.8}%
+\contentsline {subsection}{\numberline {5.3.9}Pre-Bias-Start}{54}{subsection.5.3.9}%
+\contentsline {subsection}{\numberline {5.3.10}Überstromschutz (OCP) und Schluckauf}{54}{subsection.5.3.10}%
+\contentsline {subsection}{\numberline {5.3.11}Thermische Abschaltung (TSD)}{54}{subsection.5.3.11}%
+\contentsline {subsection}{\numberline {5.3.12}Floating-Treiber und Bootstrap-Aufladung}{54}{subsection.5.3.12}%
+\contentsline {subsection}{\numberline {5.3.13}Starten und Herunterfahren}{54}{subsection.5.3.13}%
+\contentsline {subsection}{\numberline {5.3.14}Zusätzliche RC-Snubber-Schaltung}{54}{subsection.5.3.14}%
+\contentsline {subsection}{\numberline {5.3.15}Wirkungsgrad}{55}{subsection.5.3.15}%
+\contentsline {section}{\numberline {5.4}Spezifikationen}{55}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Anwendung}{55}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Further Readings}{55}{section.5.6}%
+\contentsline {part}{\numberline {II}Harwarebeschreibung: Magic Faucet Fountain}{57}{part.2}%
+\contentsline {chapter}{\numberline {6}Materialliste Magic Faucet Fountain}{59}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Ultraschallsensor HC-SR04}{61}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Einleitung}{61}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Ultraschallsensoren zur Abstandsmessung}{61}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Grundlagen zur Verwendung eines Ultraschallsensors}{62}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Grundlagen Schall}{62}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Schallgeschwindigkeit und Wellenlänge}{62}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Weg- und Abstandsmessung mit Ultraschall}{63}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Ultraschall-Abstandsensor HC-SR04}{64}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Spezifikation}{65}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}Anwendungen}{65}{subsection.7.5.1}%
+\contentsline {section}{\numberline {7.6}Bibliothek}{65}{section.7.6}%
+\contentsline {subsection}{\numberline {7.6.1}Beschreibung}{65}{subsection.7.6.1}%
+\contentsline {subsection}{\numberline {7.6.2}Installation}{65}{subsection.7.6.2}%
+\contentsline {subsection}{\numberline {7.6.3}Funktionen}{66}{subsection.7.6.3}%
+\contentsline {section}{\numberline {7.7}Kalibrierung}{66}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Simple Code}{66}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Einfache Anwendung}{66}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Tests}{70}{section.7.10}%
+\contentsline {subsection}{\numberline {7.10.1}Einfacher Funktionstest}{70}{subsection.7.10.1}%
+\contentsline {subsection}{\numberline {7.10.2}Test aller Funktionen}{71}{subsection.7.10.2}%
+\contentsline {subsection}{\numberline {7.10.3}Lösungsansätze}{72}{subsection.7.10.3}%
+\contentsline {section}{\numberline {7.11}Weiterführende Anwendungen}{72}{section.7.11}%
+\contentsline {section}{\numberline {7.12}Further Readings}{73}{section.7.12}%
+\contentsline {chapter}{\numberline {8}Comet Tauchpumpe ELEGANT 12V}{75}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Einführung}{75}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Arbeitsweise Kreiselpumpen}{75}{subsection.8.1.1}%
+\contentsline {section}{\numberline {8.2}Charakteristische Größen von Pumpen}{76}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Volumenstrom}{76}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Förderhöhe}{76}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Nutzleistung}{76}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.4}Pumpenwirkungsgrad}{77}{subsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.2.5}Kupplungsleistung}{77}{subsection.8.2.5}%
+\contentsline {subsection}{\numberline {8.2.6}Anlagenkennlinie}{77}{subsection.8.2.6}%
+\contentsline {section}{\numberline {8.3}Comet Tauchpumpe ELEGANT 12V}{77}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Spezifikation}{78}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Technische Daten:}{78}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Weitere Eigenschaften}{78}{subsection.8.4.2}%
+\contentsline {section}{\numberline {8.5}Einfacher Code}{78}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Tests}{80}{section.8.6}%
+\contentsline {section}{\numberline {8.7}Einfache Anwendung}{80}{section.8.7}%
+\contentsline {section}{\numberline {8.8}Further Readings}{82}{section.8.8}%
+\contentsline {chapter}{\numberline {9}Schaltnetzteil: MW RD-50A}{83}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Einleitung}{83}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Grundlegende Informationen}{83}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Schaltnetzteil: MW RD-50A}{84}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Spezifikation}{84}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Tests}{85}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Einfache Anwendung}{85}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Further Readings}{88}{section.9.7}%
+\contentsline {chapter}{\numberline {10}Bluetooth Modul HC-05}{89}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Einleitung}{89}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Grundlegende Informationen}{89}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Bluetooth Varianten}{89}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Reichweite und Sendeleistung}{90}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Daten Übertragung}{90}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.4}Anwendungen}{90}{subsection.10.2.4}%
+\contentsline {section}{\numberline {10.3}Bluetooth Modul: HC-05}{91}{section.10.3}%
 \contentsline {section}{\numberline {10.4}Spezifikation}{91}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Tests}{92}{section.10.5}%
-\contentsline {section}{\numberline {10.6}Einfache Anwendung}{92}{section.10.6}%
-\contentsline {chapter}{\numberline {11}MOS-FET}{95}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Einleitung}{95}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Grundlegende Informationen}{95}{section.11.2}%
-\contentsline {subsection}{\numberline {11.2.1}N-Kanal-MOS-FET}{96}{subsection.11.2.1}%
-\contentsline {subsection}{\numberline {11.2.2}P-Kanal-MOS-FET}{96}{subsection.11.2.2}%
-\contentsline {section}{\numberline {11.3}MOS-FET IRF9540N}{96}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Spezifikation}{96}{section.11.4}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{96}{subsubsection*.67}%
-\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{97}{subsubsection*.69}%
-\contentsline {section}{\numberline {11.5}Einfacher Code}{98}{section.11.5}%
-\contentsline {section}{\numberline {11.6}Tests}{99}{section.11.6}%
-\contentsline {section}{\numberline {11.7}Einfache Anwendung}{99}{section.11.7}%
-\contentsline {chapter}{\numberline {12}Externe LED}{101}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Einleitung}{101}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Grundlegende Informationen}{101}{section.12.2}%
-\contentsline {section}{\numberline {12.3}LED CML Signalleuchte, blau, ultrahell, 12 VDC}{102}{section.12.3}%
-\contentsline {section}{\numberline {12.4}Spezifikation}{102}{section.12.4}%
-\contentsline {section}{\numberline {12.5}Einfacher Code}{102}{section.12.5}%
-\contentsline {section}{\numberline {12.6}Tests}{103}{section.12.6}%
-\contentsline {section}{\numberline {12.7}Einfache Anwendung}{103}{section.12.7}%
-\contentsline {section}{\numberline {12.8}Further Readings}{104}{section.12.8}%
-\contentsline {part}{\numberline {III}Applikation: Magic Faucet Fountain}{105}{part.3}%
-\contentsline {chapter}{\numberline {13}Projekt: Magic Faucet Fountain}{107}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Beschreibung}{107}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Aufbau}{107}{section.13.2}%
-\contentsline {subsection}{\numberline {13.2.1}Abmaß}{108}{subsection.13.2.1}%
-\contentsline {section}{\numberline {13.3}Hardware-Schnittstellen}{108}{section.13.3}%
-\contentsline {subsection}{\numberline {13.3.1}Schaltpläne}{108}{subsection.13.3.1}%
-\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{108}{subsubsection*.78}%
-\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{109}{subsubsection*.81}%
-\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{110}{subsubsection*.84}%
-\contentsline {section}{\numberline {13.4}Software-Schnittstellen}{111}{section.13.4}%
-\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{111}{subsubsection*.87}%
-\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{111}{subsubsection*.89}%
-\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{112}{subsubsection*.91}%
-\contentsline {subsection}{\numberline {13.4.1}Ablaufdiagramm der Anwendung}{112}{subsection.13.4.1}%
-\contentsline {subsection}{\numberline {13.4.2}Code der Anwendung}{114}{subsection.13.4.2}%
-\contentsline {section}{\numberline {13.5}Installation}{115}{section.13.5}%
-\contentsline {subsection}{\numberline {13.5.1}Mechanischer Aufbau}{115}{subsection.13.5.1}%
-\contentsline {subsection}{\numberline {13.5.2}Elektrische Installation}{115}{subsection.13.5.2}%
-\contentsline {subsection}{\numberline {13.5.3}Software und App-Verbindung}{116}{subsection.13.5.3}%
-\contentsline {subsection}{\numberline {13.5.4}Software und App-Verbindung}{116}{subsection.13.5.4}%
-\contentsline {section}{\numberline {13.6}Konfiguration}{116}{section.13.6}%
-\contentsline {section}{\numberline {13.7}Einschränkungen}{117}{section.13.7}%
-\contentsline {chapter}{\numberline {14}Schlussfolgerungen}{119}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Zusammenfassung der Projektergebnisse}{119}{section.14.1}%
-\contentsline {section}{\numberline {14.2}Reflexion über die Zielerreichung}{119}{section.14.2}%
-\contentsline {section}{\numberline {14.3}Mögliche Weiterentwicklungen}{119}{section.14.3}%
-\contentsline {section}{\numberline {14.4}Zukünftige Anwendungen}{119}{section.14.4}%
-\contentsline {part}{\numberline {IV}Anhang}{121}{part.4}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{123}{chapter*.94}%
-\contentsline {chapter}{Stichwortverzeichnis}{126}{chapter*.94}%
-\contentsline {chapter}{Index}{127}{chapter*.94}%
+\contentsline {subsection}{\numberline {10.4.1}Hardware-Spezifikation}{91}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Elektrische Eigenschaften}{92}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}Schnittstellen und Anschlüsse}{92}{subsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.4.4}Mechanische und Umgebungsbedingungen}{93}{subsection.10.4.4}%
+\contentsline {subsection}{\numberline {10.4.5}Zusätzliche Hardware-Features}{94}{subsection.10.4.5}%
+\contentsline {subsection}{\numberline {10.4.6}Pinbelegung (Auszug)}{94}{subsection.10.4.6}%
+\contentsline {section}{\numberline {10.5}Bibliotheken}{94}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Einfacher Code}{95}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Tests}{96}{section.10.7}%
+\contentsline {section}{\numberline {10.8}Einfache Anwendung}{96}{section.10.8}%
+\contentsline {section}{\numberline {10.9}Further Readings}{98}{section.10.9}%
+\contentsline {chapter}{\numberline {11}Kippschalter: GOOBAY 10013}{99}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Einleitung}{99}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Grundlegende Informationen}{99}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Schalter: GOOBAY 10013}{99}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Spezifikation}{99}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Tests}{100}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Einfache Anwendung}{100}{section.11.6}%
+\contentsline {chapter}{\numberline {12}MOS-FET}{103}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Einleitung}{103}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Grundlegende Informationen}{103}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}N-Kanal-MOS-FET}{104}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}P-Kanal-MOS-FET}{104}{subsection.12.2.2}%
+\contentsline {section}{\numberline {12.3}MOS-FET IRF9540N}{104}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Spezifikation}{104}{section.12.4}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{104}{subsubsection*.67}%
+\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{105}{subsubsection*.69}%
+\contentsline {section}{\numberline {12.5}Einfacher Code}{106}{section.12.5}%
+\contentsline {section}{\numberline {12.6}Tests}{107}{section.12.6}%
+\contentsline {section}{\numberline {12.7}Einfache Anwendung}{107}{section.12.7}%
+\contentsline {chapter}{\numberline {13}Externe LED}{109}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Einleitung}{109}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Grundlegende Informationen}{109}{section.13.2}%
+\contentsline {section}{\numberline {13.3}LED CML Signalleuchte, blau, ultrahell, 12 VDC}{110}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Spezifikation}{110}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Einfacher Code}{110}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Tests}{111}{section.13.6}%
+\contentsline {section}{\numberline {13.7}Einfache Anwendung}{111}{section.13.7}%
+\contentsline {section}{\numberline {13.8}Further Readings}{112}{section.13.8}%
+\contentsline {part}{\numberline {III}Applikation: Magic Faucet Fountain}{113}{part.3}%
+\contentsline {chapter}{\numberline {14}Projekt: Magic Faucet Fountain}{115}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Beschreibung}{115}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Aufbau}{115}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}Abmaß}{116}{subsection.14.2.1}%
+\contentsline {section}{\numberline {14.3}Hardware-Schnittstellen}{116}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}Schaltpläne}{116}{subsection.14.3.1}%
+\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{116}{subsubsection*.78}%
+\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{117}{subsubsection*.81}%
+\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{118}{subsubsection*.84}%
+\contentsline {section}{\numberline {14.4}Software-Schnittstellen}{119}{section.14.4}%
+\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{119}{subsubsection*.87}%
+\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{119}{subsubsection*.89}%
+\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{120}{subsubsection*.91}%
+\contentsline {subsection}{\numberline {14.4.1}Ablaufdiagramm der Anwendung}{120}{subsection.14.4.1}%
+\contentsline {subsection}{\numberline {14.4.2}Code der Anwendung}{122}{subsection.14.4.2}%
+\contentsline {section}{\numberline {14.5}Installation}{123}{section.14.5}%
+\contentsline {subsection}{\numberline {14.5.1}Mechanischer Aufbau}{123}{subsection.14.5.1}%
+\contentsline {subsection}{\numberline {14.5.2}Elektrische Installation}{123}{subsection.14.5.2}%
+\contentsline {subsection}{\numberline {14.5.3}Software und App-Verbindung}{124}{subsection.14.5.3}%
+\contentsline {subsection}{\numberline {14.5.4}Software und App-Verbindung}{124}{subsection.14.5.4}%
+\contentsline {section}{\numberline {14.6}Konfiguration}{124}{section.14.6}%
+\contentsline {section}{\numberline {14.7}Einschränkungen}{125}{section.14.7}%
+\contentsline {chapter}{\numberline {15}Schlussfolgerungen}{127}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Zusammenfassung der Projektergebnisse}{127}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Reflexion über die Zielerreichung}{127}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Mögliche Weiterentwicklungen}{127}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Zukünftige Anwendungen}{127}{section.15.4}%
+\contentsline {part}{\numberline {IV}Anhang}{129}{part.4}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{131}{chapter*.94}%
+\contentsline {chapter}{Stichwortverzeichnis}{134}{chapter*.94}%
+\contentsline {chapter}{Index}{135}{chapter*.94}%

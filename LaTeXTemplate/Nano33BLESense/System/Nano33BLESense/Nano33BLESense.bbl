@@ -621,6 +621,25 @@
     \field{year}{2017}
   \endentry
 
+  \entry{MPS:2015}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={{MPS}},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{MPS}15}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+  \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchMPM.pdf}{[pdf]}}}
+    \field{title}{Handbuch - MPM3610}
+    \field{year}{2015}
+  \endentry
+
   \entry{MeanWell:2014}{misc}{}{}
     \list{publisher}{1}{%
       {Mean Well}%
@@ -908,6 +927,28 @@
     \field{year}{2017}
   \endentry
 
+  \entry{HC05Datasheet:2010}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=SI}{%
+         family={Studio},
+         familyi={S\bibinitperiod},
+         given={ITead},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SI1}
+    \strng{fullhash}{SI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Stu10}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/HC-05
+  Datasheet.pdf}{[pdf]}}}
+    \field{title}{Datenblatt – HC-05-Bluetooth to Serial Port Module}
+    \field{year}{2010}
+  \endentry
+
   \entry{Surek:2021}{book}{}{}
     \name{author}{1}{}{%
       {{hash=SD}{%
@@ -1102,6 +1143,30 @@
   \field{note}{\textcolor{blue}{\href{../../../MLbib/kippschalterHandbuch.pdf}{[pdf]}}}
     \field{title}{Handbuch - goobay 10013}
     \field{year}{2023}
+  \endentry
+
+  \entry{ReicheltHC05:2025}{online}{}{}
+    \name{editor}{1}{}{%
+      {{hash=r}{%
+         family={reichelt},
+         familyi={r\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{r1}
+    \strng{fullhash}{r1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{rei25}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/HC-05 Modul online
+  ALLNET REICHELT.pdf}{[pdf]}}}
+    \field{title}{Webseite reichelt HC-05}
+    \verb{url}
+    \verb https://www.reichelt.de/de/de/shop/produkt/arduino_-_4duino_wireless_
+    \verb modul_hc-05_4-pin-170173
+    \endverb
+    \field{year}{2025}
   \endentry
 \enddatalist
 \endinput

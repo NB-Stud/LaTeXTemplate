@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10740 items from 5000.
+Reallocated field_info (elt_size=4) to 11300 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -41,63 +41,64 @@ Repeated entry---line 389 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 469 of file ../../../MLbib/MyLiterature.bib
- : 
- : %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 655 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 661 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 869 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 875 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate      = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 891 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  urldate      = {2025-05-13}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Ekbert:2014"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 41 entries,
+You've used 44 entries,
             6402 wiz_defined-function locations,
-            1460 strings with 16608 characters,
-and the built_in function-call counts, 232658 in all, are:
-= -- 15213
-> -- 5859
-< -- 1814
-+ -- 6223
-- -- 2848
-* -- 15646
-:= -- 22778
+            1480 strings with 17148 characters,
+and the built_in function-call counts, 244503 in all, are:
+= -- 15859
+> -- 6105
+< -- 1910
++ -- 6420
+- -- 2930
+* -- 16438
+:= -- 23780
 add.period$ -- 0
-call.type$ -- 41
-change.case$ -- 44
+call.type$ -- 44
+change.case$ -- 47
 chr.to.int$ -- 215
-cite$ -- 84
-duplicate$ -- 24478
-empty$ -- 21675
-format.name$ -- 2336
-if$ -- 48532
+cite$ -- 90
+duplicate$ -- 25867
+empty$ -- 22916
+format.name$ -- 2487
+if$ -- 51124
 int.to.chr$ -- 0
-int.to.str$ -- 124
+int.to.str$ -- 130
 missing$ -- 0
-newline$ -- 1090
-num.names$ -- 2180
-pop$ -- 13850
+newline$ -- 1153
+num.names$ -- 2315
+pop$ -- 14861
 preamble$ -- 1
-purify$ -- 963
+purify$ -- 1005
 quote$ -- 0
-skip$ -- 8811
+skip$ -- 9334
 stack$ -- 0
-substring$ -- 25201
-swap$ -- 6006
-text.length$ -- 1389
-text.prefix$ -- 65
+substring$ -- 26066
+swap$ -- 6366
+text.length$ -- 1479
+text.prefix$ -- 71
 top$ -- 1
-type$ -- 1382
+type$ -- 1484
 warning$ -- 0
-while$ -- 2759
+while$ -- 2895
 width$ -- 0
-write$ -- 1050
+write$ -- 1110
 (There were 7 error messages)

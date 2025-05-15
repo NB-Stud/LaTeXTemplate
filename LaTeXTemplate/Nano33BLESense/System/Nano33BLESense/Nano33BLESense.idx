@@ -1,47 +1,47 @@
-\indexentry{GPIO}{11}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{11}
-\indexentry{I\textsuperscript  {2}C}{11}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{11}
-\indexentry{IMU}{11}
-\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{11}
-\indexentry{SCL}{11}
-\indexentry{Serial Clock! \emph  {see} SCL}{11}
-\indexentry{SDA}{11}
-\indexentry{Serial Data! \emph  {see} SDA}{11}
-\indexentry{UART}{11}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{11}
-\indexentry{VCC}{11}
-\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{11}
-\indexentry{ File!.ino}{24}
-\indexentry{ File!MySketch.ino}{24}
-\indexentry{ File!MySketch}{24}
-\indexentry{ File!Arduino}{24}
-\indexentry{ File!Bibliotheken}{27}
-\indexentry{ File!Nano33BLESenseLED}{27}
-\indexentry{ File!Bibliotheken}{27}
-\indexentry{ File!libraries}{28}
+\indexentry{GPIO}{13}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{13}
+\indexentry{I\textsuperscript  {2}C}{13}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{13}
+\indexentry{IMU}{13}
+\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{13}
+\indexentry{SCL}{13}
+\indexentry{Serial Clock! \emph  {see} SCL}{13}
+\indexentry{SDA}{13}
+\indexentry{Serial Data! \emph  {see} SDA}{13}
+\indexentry{UART}{13}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{13}
+\indexentry{VCC}{13}
+\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{13}
+\indexentry{ File!.ino}{26}
+\indexentry{ File!MySketch.ino}{26}
+\indexentry{ File!MySketch}{26}
+\indexentry{ File!Arduino}{26}
 \indexentry{ File!Bibliotheken}{29}
 \indexentry{ File!Nano33BLESenseLED}{29}
-\indexentry{ File!blink.ino}{38}
-\indexentry{ File!blink.ino}{38}
-\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{45}
-\indexentry{IMU}{45}
-\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{56}
-\indexentry{VCC}{56}
-\indexentry{Serial Clock! \emph  {see} SCL}{56}
-\indexentry{SCL}{56}
-\indexentry{Serial Data! \emph  {see} SDA}{56}
-\indexentry{SDA}{56}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{56}
-\indexentry{GPIO}{56}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{56}
-\indexentry{UART}{56}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{56}
-\indexentry{I\textsuperscript  {2}C}{56}
-\indexentry{SCL}{57}
-\indexentry{SDA}{57}
-\indexentry{VCC}{57}
-\indexentry{GPIO}{57}
-\indexentry{UART}{57}
-\indexentry{I\textsuperscript  {2}C}{57}
-\indexentry{VCC}{57}
+\indexentry{ File!Bibliotheken}{29}
+\indexentry{ File!libraries}{30}
+\indexentry{ File!Bibliotheken}{31}
+\indexentry{ File!Nano33BLESenseLED}{31}
+\indexentry{ File!blink.ino}{40}
+\indexentry{ File!blink.ino}{40}
+\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{47}
+\indexentry{IMU}{47}
+\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{64}
+\indexentry{VCC}{64}
+\indexentry{Serial Clock! \emph  {see} SCL}{64}
+\indexentry{SCL}{64}
+\indexentry{Serial Data! \emph  {see} SDA}{64}
+\indexentry{SDA}{64}
+\indexentry{General Purpose Input Output! \emph  {see} GPIO}{64}
+\indexentry{GPIO}{64}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{64}
+\indexentry{UART}{64}
+\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{64}
+\indexentry{I\textsuperscript  {2}C}{64}
+\indexentry{SCL}{65}
+\indexentry{SDA}{65}
+\indexentry{VCC}{65}
+\indexentry{GPIO}{65}
+\indexentry{UART}{65}
+\indexentry{I\textsuperscript  {2}C}{65}
+\indexentry{VCC}{65}
