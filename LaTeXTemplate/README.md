@@ -1,56 +1,72 @@
-# A25-<Magic Faucet Fountain>
+# A25-07<Magic Faucet Fountain>
 
 ![Logo](./Nano33BLESense/Images/Allgemein/LogoDataScienceGruenBlau.jpg "Our Logo")
 
 # Autoren
-1. Kornichenkova   Valeria  7024769
+1. Kornichenkova   Valeriia 7024769
 2. Neumann         Sven     7025068
 3. Yüce            Asena    7024749
 4. Maschke         Carl     7024640
-5. Brams           Nina     7024847
+5. Braams          Nina     7024847
+
 # Beschreibung
+Das Projekt Magic Faucen Fountain beschäftigt sich mit der Umsetzung eines Brunnens, der die optische Täuschung eines schwebenden Wasserhahns erzeugt. Dabei scheint es, als würde Wasser kontinuierlich aus einem frei schwebenden Hahn fließen - ganz ohne sichtbare Verbindung zur Wasserquelle
 
+# Problemlösung
+Dieser Effekt wird durch ein transparentes Acrylrohr realisiert, das sowohl den Wasserfluss leitet als auch die tragende Struktur für den Hahn darstellt. Da das Rohr hinter dem gleichmäßig fließenden Wasser optisch kaum wahrnehmbar ist, entsteht der Eindruck eines schwebenden Hahns.
 
+Der Wasserstrom wird über eine kleine elektrische Pumpe erzeugt, die über ein MOS-FET angesteuert wird. Der MOS-FET fungiert als elektronischer Schalter und wird von einem digitalen Ausgang des Arduino-Boards gesteuert. Der Arduino ist über Bluetooth mit einer mobilen App verbunden. Über die App kann der Benutzer den Brunnen bequem ein- und ausschalten.
 
+Ein weiterer Bestandteil des Systems ist ein Ultraschallsensor, der den Wasserstand im Vorratsbehälter misst. Der aktuelle Füllstand wird ebenfalls in der App angezeigt, wodurch der Benutzer rechtzeitig erkennen kann, wann Wasser nachgefüllt werden muss.
 
+# Verzeichnisstruktur
+├── Demontageanleitung
+│   └── Demontageanleitung.pdf
+│   └── Demontageanleitung.tex [Link!]
+├── Haftungsübernahme
+│   └── Haftungsübernahme.pdf
+│   └── Haftungsübernahme.tex [Link!]
+├── Handbuch Magic Faucet Fountain
+│   └── Handbuch Magic Faucet Fountain.pdf 
+│   └── Handbuch Magic Faucet Fountain.tex [Link!]
+├── MLBib
+│   └── jetson.pdf
+│   └── Literature.pdf
+│   └── MyLiterature.pdf
+│   └── PDF-Literatur
+├── Montageanleitung
+│   └── Montageanleitung.pdf
+│   └── Montageanleitung.tex [Link!]
+├── Nano33BLESense
+│   └── Code
+│   └── Contents
+│   └── General
+│   └── Images
+│   └── System
+│   └── tikz
+├── Poster
+│   └── images
+│   └── Poster Magic Faucet Fountain.pdf
+│   └── Poster Magic Faucet Fountain.tex [Link!]
+├── Präsentation
+│   └── Template
+│       └── Code
+│       └── Documents
+│       └── images
+│       └── img
+│       └── slides
+│       └── Presentation Magic Faucet Fountain.pdf
+│       └── Presentation Magic Faucet Fountain.tex [Link!]
+├── XMind
+│   └── Automatisierungssystem.xmind [Link!]
+├── author.xlsx [Link!]
+└── README.md
 
-# Aufgaben
+# Beschreibung der Verzeichnisse
 
-Sie haben eine Aufgabenstellung erhalten. Beim Umgang mit dem LaTeX-Projekt sind u.a. folgende Punkte zu beachten:
+# Links zu den Verzeichnissen
 
+# Beschreibung der Dateien
 
-- Verbessern Sie die Hardware-Beschreibung durch Anpassungen gemäß den Templates und durch die Verwendung von tikz, lstinput
-- Entfernen Sie in der Datei "Nano33BLESense/System/Nano33BLESense/Nano33BLESense.tex" die Zeilen mit Eingaben, die für Ihr Projekt nicht notwendig sind
-- Fügen Sie in der Datei "Nano33BLESense/System/Nano33BLESense/Nano33BLESense.tex" die Zeile mit den Eingaben ein, die notwendig sind.
+# Links zu den Dateien
 
-
-
-Einige Bib-Dateien sind vorhanden:
-- "MLlib/jetson.bib" nicht ändern!!!!!
-- Verwenden Sie die Datei "MLlib/jetson.bib"
-- Fügen Sie Ihre Quellen der Datei "MLbib/MyLiterature.bib" zu
-
-
-Arbeiten Sie für die Entwicklerdokumentation in dem Ordner "Nano33BLESense"; die Hauptdatei ist "Nano33BLESense/System/Nano33BLESense/Nano33BLESense.tex"
-
-
-Zu tun:
-- Bericht
-- Handbuch (Manual)
-- Poster
-- Präsentationen
-- Entwicklung
-- Montageanleitung
-- Demontageanleitung
-- Schnelleinstieg
-- Mindmap (Xmind)
-- Readme.md
-- Author.xlsx
-
-
-
-# Notice
-
-Verwenden Sie in diesem Dokument die Markdown-Syntax:
-+ Deutsch: https://markdown.de/
-+ Englisch: https://daringfireball.net/projects/markdown/syntax/
