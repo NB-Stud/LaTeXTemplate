@@ -27,7 +27,7 @@ k lässt sich durch die Gleichung
 \end{equation}
 berechnen, wobei k Werte von 0 bis 78 annimmt. Dieser dynamische Kanalwechsel sorgt für eine robuste Verbindung, selbst in frequenzbelasteten Umgebungen \cite{Sauter:2022}.
 
-\subsection{Bluetooth Varianten}
+\subsection{Bluetooth-Varianten}
 
 Grundsätzlich unterscheidet man zwei Bluetooth-Varianten: 
 Bluetooth Classic und Bluetooth Low Energy (BLE).
@@ -51,7 +51,7 @@ Die Reichweite eines Bluetooth-Moduls hängt maßgeblich von seiner Sendeleistun
 
 In der Praxis reduzieren Hindernisse wie Wände oder elektronische Störquellen diese Werte jedoch deutlich  \cite{Sauter:2022}.
 
-\subsection{Daten Übertragung}
+\subsection{Datenübertragung}
 Ein kritischer Aspekt ist die Sicherheit. Bluetooth verwendet AES-128-Verschlüsselung, um Daten vor unbefugtem Zugriff zu schützen. Beim Verbindungsaufbau (Pairing) kommen zudem Protokolle wie Elliptic Curve Diffie-Hellman (ECDH) zum Einsatz, die einen sicheren Schlüsselaustausch ermöglichen und Man-in-the-Middle-Angriffe erschweren. Dank standardisierter Profile – vordefinierter Regeln für spezifische Anwendungen – lassen sich Geräte unterschiedlicher Hersteller problemlos koppeln. Beispiele sind das *A2DP-Profil* für Audio-Streaming oder das HID-Profil für Tastaturen und Mäuse \cite{Sauter:2022}.
 
 \subsection{Anwendungen}
@@ -160,7 +160,6 @@ Das HC-05 Bluetooth-Modul, zu sehen in  \ref{fig:skizzeBluetooth}, ist ein serie
 
 \section{Spezifikation}
 
-??????????????????????????????ß
 
 \subsection {Hardware-Spezifikation}
 
@@ -389,24 +388,24 @@ Diese Features tragen zur Reduzierung externer Komponenten bei und vereinfachen 
 	
 \section{Bibliotheken}
 
-Um die Kommunikation zwischen Arduino und HC-05 zu ermöglichen wird die Bibliothek SoftwareSerial.h benötigt. Durch die Verwendung der Bibliothek kann der HC-05 über beliebige Pins Kommunizieren. Die Bibliothek wird hier mit der Installation der aktuellsten Version von Arduino-IDE (Version 2.2.1) mit Installiert.Falls die Bibliothek dennoch fehlen sollte kann sie wie folgt Installiert werden:
+Um die Kommunikation zwischen Arduino und HC-05 zu ermöglichen wird die Bibliothek SoftwareSerial.h benötigt. Durch die Verwendung der Bibliothek kann der HC-05 über beliebige Pins Kommunizieren. Die Bibliothek wird hier mit der Installation der aktuellsten Version von Arduino-IDE (Version 2.3.6) mit Installiert. Falls die Bibliothek dennoch fehlen sollte kann sie wie folgt Installiert werden:
 
 \begin{itemize}
-	\item Bibliothek über Arduino Libery List Herunterladen
+	\item Bibliothek über Arduino Bibliotheken-Liste Herunterladen
 	\item Öffen Sie die Arduino-IDE
-	\item Gehen Sie zu Sketch > Bibliothek einbinden > .ZIP-Bibliothek hinzufügen.
+	\item Gehen Sie zu \menu{Sketch > Bibliothek einbinden > .ZIP-Bibliothek hinzufügen.}
 	\item Wählen Sie die heruntergeladene ZIP-Datei aus
 	\item Die Bibliothek wird automatisch im Ordner Documents/Arduino/libraries/ installiert 
 \end{itemize}
 
-Optional kann man noch die Bibliothek HC05Libary Installieren mit dieser Bibliothek wird das Senden von AT-Befehlen vereinfacht.\\
+Optional kann man noch die Bibliothek HC05Libary installieren, denn mit dieser Bibliothek wird das Senden von AT-Befehlen vereinfacht.\\
 
-Installation: Download:
+\subsection{Installation und Download}
 
 \begin{itemize}
-	\item GitHub: https://github.com/evankale/ArduinoHC05
-	\item Klicke auf Code > Download ZIP.
-	\item In der Arduino-IDE: Sketch > Bibliothek einbinden > .ZIP-Bibliothek hinzufügen.
+	\item GitHub: \HREF{HC05 - evankale}{https://github.com/evankale/ArduinoHC05}
+	\item Klicke auf \menu{Code > Download ZIP.}
+	\item In der Arduino-IDE: \menu{Sketch > Bibliothek einbinden > .ZIP-Bibliothek hinzufügen.}
 \end{itemize}
 
 

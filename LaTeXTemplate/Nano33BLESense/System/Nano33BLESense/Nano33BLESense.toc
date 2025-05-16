@@ -127,9 +127,9 @@
 \contentsline {chapter}{\numberline {10}Bluetooth Modul HC-05}{89}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Einleitung}{89}{section.10.1}%
 \contentsline {section}{\numberline {10.2}Grundlegende Informationen}{89}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Bluetooth Varianten}{89}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.1}Bluetooth-Varianten}{89}{subsection.10.2.1}%
 \contentsline {subsection}{\numberline {10.2.2}Reichweite und Sendeleistung}{90}{subsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.2.3}Daten Übertragung}{90}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.3}Datenübertragung}{90}{subsection.10.2.3}%
 \contentsline {subsection}{\numberline {10.2.4}Anwendungen}{90}{subsection.10.2.4}%
 \contentsline {section}{\numberline {10.3}Bluetooth Modul: HC-05}{91}{section.10.3}%
 \contentsline {section}{\numberline {10.4}Spezifikation}{91}{section.10.4}%
@@ -140,6 +140,7 @@
 \contentsline {subsection}{\numberline {10.4.5}Zusätzliche Hardware-Features}{94}{subsection.10.4.5}%
 \contentsline {subsection}{\numberline {10.4.6}Pinbelegung (Auszug)}{94}{subsection.10.4.6}%
 \contentsline {section}{\numberline {10.5}Bibliotheken}{94}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Installation und Download}{95}{subsection.10.5.1}%
 \contentsline {section}{\numberline {10.6}Einfacher Code}{95}{section.10.6}%
 \contentsline {section}{\numberline {10.7}Tests}{96}{section.10.7}%
 \contentsline {section}{\numberline {10.8}Einfache Anwendung}{96}{section.10.8}%
