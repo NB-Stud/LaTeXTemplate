@@ -140,11 +140,11 @@
 \contentsline {subsection}{\numberline {10.4.5}Zusätzliche Hardware-Features}{94}{subsection.10.4.5}%
 \contentsline {subsection}{\numberline {10.4.6}Pinbelegung (Auszug)}{94}{subsection.10.4.6}%
 \contentsline {section}{\numberline {10.5}Bibliotheken}{94}{section.10.5}%
-\contentsline {subsection}{\numberline {10.5.1}Installation und Download}{95}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.1}Installation und Download}{94}{subsection.10.5.1}%
 \contentsline {section}{\numberline {10.6}Einfacher Code}{95}{section.10.6}%
 \contentsline {section}{\numberline {10.7}Tests}{96}{section.10.7}%
 \contentsline {section}{\numberline {10.8}Einfache Anwendung}{96}{section.10.8}%
-\contentsline {section}{\numberline {10.9}Further Readings}{98}{section.10.9}%
+\contentsline {section}{\numberline {10.9}Further Readings}{97}{section.10.9}%
 \contentsline {chapter}{\numberline {11}Kippschalter: GOOBAY 10013}{99}{chapter.11}%
 \contentsline {section}{\numberline {11.1}Einleitung}{99}{section.11.1}%
 \contentsline {section}{\numberline {11.2}Grundlegende Informationen}{99}{section.11.2}%

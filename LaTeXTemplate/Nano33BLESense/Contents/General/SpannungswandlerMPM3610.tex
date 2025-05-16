@@ -15,11 +15,11 @@
 
 \chapter{Spannungswandler MPM3610}
 
-Der Arduino Nano 33 BLE Sense benötigt grundsätzlich eine Versorgungsspannung von 3.3 V. Um auf 3.3V zu kommen benötigt der Arduino einen Spannungswandler, auch DC-DC-Wandler genannt, denn die Eingangsspannung muss mindestens 4.5 V betragen. Auf dem Arduino ist bereits ein Spannungswandler verbaut. Dies erübrigt einen externen Spannungswandler und spart zudem Platz ein. \cite{Arduino:2024}
+Der Arduino Nano 33 BLE Sense benötigt grundsätzlich eine Versorgungsspannung von 3.3 V. Um auf 3.3V zu kommen benötigt der Arduino einen Spannungswandler, auch DC-DC-Wandler genannt, denn die Eingangsspannung muss mindestens 4.5 V betragen. Auf dem Arduino ist bereits ein Spannungswandler verbaut. Dies erübrigt einen externen Spannungswandler und spart zudem Platz ein. \cite{ArduinoDoc:2024}
 
 \bigskip
 
-Dies ist auf den spezifisch genutzten DC-DC-Wandler in dem Arduino zurückzuführen. Der MPM3610 hat einen Eingangsspannungsbereich von 4.5  V - 21 V und gibt immer 3.3 V an den Arduino aus. Aufgrund dessen kann eine 9 V Lithium Batterie genutzt werden, die über einen Batterieclip mit dem Arduino verbunden wird. \cite{Arduino:2024} \cite{MPS:2015}
+Dies ist auf den spezifisch genutzten DC-DC-Wandler in dem Arduino zurückzuführen. Der MPM3610 hat einen Eingangsspannungsbereich von 4.5  V - 21 V und gibt immer 3.3 V an den Arduino aus. Aufgrund dessen kann eine 9 V Lithium Batterie genutzt werden, die über einen Batterieclip mit dem Arduino verbunden wird. \cite{ArduinoDoc:2024} \cite{MPS:2015}
 
 \section{Allgemein Spannungswandler}
 
@@ -27,7 +27,7 @@ Ein Spannungswandler bezeichnet man meistens einen Regler, der eine Gleichspannu
 
 \subsection{Allgemeines Funktionsprinzip}
 
-Ein Spannungswandler muss ein Regelkreis besitzen, damit die Ausgangsspannung „unabhängig“ von der Eingangsspannung geregelt werden kann. Die Ausgangsspannung wird überwacht und mit dem Sollwert abgeglichen. Wenn die Spannung angepasst werden muss, kann dies unter anderem über die Transistoren stattfinden, welche unter anderem in Schaltreglern ihre Anwendung finden. Im Folgenden wird nur auf Schaltregler eingegangen, da dies im Arduino verbaut ist.  \cite{Ekbert:2014} \cite{Arduino:2024}
+Ein Spannungswandler muss ein Regelkreis besitzen, damit die Ausgangsspannung „unabhängig“ von der Eingangsspannung geregelt werden kann. Die Ausgangsspannung wird überwacht und mit dem Sollwert abgeglichen. Wenn die Spannung angepasst werden muss, kann dies unter anderem über die Transistoren stattfinden, welche unter anderem in Schaltreglern ihre Anwendung finden. Im Folgenden wird nur auf Schaltregler eingegangen, da dies im Arduino verbaut ist.  \cite{Ekbert:2014} \cite{ArduinoDoc:2024}
 
 
 

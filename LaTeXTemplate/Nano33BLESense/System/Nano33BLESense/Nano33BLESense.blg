@@ -17,87 +17,83 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11300 items from 5000.
+Reallocated field_info (elt_size=4) to 11020 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
 Database file #4: ../../../MLbib/MyLiterature.bib
-I was expecting a `,' or a `}'---line 55 of file ../../../MLbib/MyLiterature.bib
- :   
- :   organization = {Arduino.cc}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 167 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 151 of file ../../../MLbib/MyLiterature.bib
  :  
  :  note      = {\textcolor{blue}{\href{../../../MLbib/conradPumpe.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 245 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 229 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/flukeOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 407 of file ../../../MLbib/MyLiterature.bib
+Repeated entry---line 391 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 679 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 663 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 893 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 887 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate      = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 909 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 903 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate      = {2025-05-13}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Arduino:2025"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 45 entries,
+You've used 42 entries,
             6402 wiz_defined-function locations,
-            1486 strings with 17386 characters,
-and the built_in function-call counts, 254876 in all, are:
-= -- 16711
-> -- 6305
-< -- 2002
-+ -- 6744
-- -- 3001
-* -- 17108
-:= -- 24845
+            1473 strings with 17042 characters,
+and the built_in function-call counts, 238365 in all, are:
+= -- 15524
+> -- 6217
+< -- 1897
++ -- 6552
+- -- 3102
+* -- 15874
+:= -- 23271
 add.period$ -- 0
-call.type$ -- 45
-change.case$ -- 48
-chr.to.int$ -- 215
-cite$ -- 92
-duplicate$ -- 26995
-empty$ -- 23731
-format.name$ -- 2581
-if$ -- 53288
+call.type$ -- 42
+change.case$ -- 45
+chr.to.int$ -- 227
+cite$ -- 86
+duplicate$ -- 25060
+empty$ -- 22102
+format.name$ -- 2383
+if$ -- 49641
 int.to.chr$ -- 0
-int.to.str$ -- 134
+int.to.str$ -- 126
 missing$ -- 0
-newline$ -- 1198
-num.names$ -- 2416
-pop$ -- 15240
+newline$ -- 1123
+num.names$ -- 2275
+pop$ -- 14149
 preamble$ -- 1
-purify$ -- 1077
+purify$ -- 1029
 quote$ -- 0
-skip$ -- 9747
+skip$ -- 9169
 stack$ -- 0
-substring$ -- 27459
-swap$ -- 6598
-text.length$ -- 1521
-text.prefix$ -- 72
+substring$ -- 25473
+swap$ -- 6210
+text.length$ -- 1419
+text.prefix$ -- 68
 top$ -- 1
-type$ -- 1518
+type$ -- 1416
 warning$ -- 0
-while$ -- 3029
+while$ -- 2801
 width$ -- 0
-write$ -- 1154
-(There were 7 error messages)
+write$ -- 1082
+(There were 6 error messages)

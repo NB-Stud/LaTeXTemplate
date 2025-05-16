@@ -17,7 +17,7 @@
 %\Mynote{cite books, applications, board}
 
 \section{Einleitung}
-Ein Ultraschallsensor misst berührungslos den Abstand zwischen Sensor und einer Werkstückoberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung, Warenerkennung und Abstandsmessung.\cite{Arduino:2024} \cite{Traenkler:2018} \cite{Hering:2023}
+Ein Ultraschallsensor misst berührungslos den Abstand zwischen Sensor und einer Werkstückoberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung, Warenerkennung und Abstandsmessung.\cite{ArduinoWeb:2025} \cite{Traenkler:2018} \cite{Hering:2023}
 
 \section{Ultraschallsensoren zur Abstandsmessung}
 Ultraschallsensoren zur Abstandsmessung dienen der Ermittlung von Objektabständen
@@ -73,7 +73,7 @@ Anwendungsvoraussetzungen abstandsmessender Ultraschallsensoren notwendig. Die
 folgenden Unterkapitel bieten eine strukturierte Einführung in die physikalischen und
 technischen Grundlagen des Sensors. Ziel ist es, ein tiefergehendes Verständnis für den
 Aufbau, die Signalverarbeitung und die praktische Handhabung eines Ultraschallsensors zu
-vermitteln. \cite{Arduino:2024}
+vermitteln. \cite{ArduinoWeb:2025}
 
 \subsection{Grundlagen Schall}
 
@@ -364,12 +364,12 @@ Ultraschallsensoren finden in der Praxis Anwendung in verschiedenen Bereichen, d
 Zur Ansteuerung des Ultraschallsensors HC-SR04 wird eine Arduino-kompatible Bibliothek
 \python{NewPing} verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
 Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Triggern, zur
-Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2024}.
+Laufzeitmessung und zur Berechnung der Distanz \cite{ArduinoDoc:2024}.
 
 \subsection{Installation}
 Die Installation der Bibliothek \python{NewPing}, welche die Funktionalität des Ultraschallsensors HC-SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
 bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
-\cite{Arduino:2024}
+\cite{ArduinoDoc:2024}
 
 \textbf{Schrittweise Anleitung:}
 \begin{enumerate}
@@ -381,7 +381,7 @@ bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheke
 \end{enumerate}
 
 \subsection{Funktionen}
-Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von Ultraschallsensoren erleichtern und erweitern. Die wichtigsten Funktionen sind: \cite{Arduino:2024}\\
+Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von Ultraschallsensoren erleichtern und erweitern. Die wichtigsten Funktionen sind: \cite{ArduinoDoc:2024}\\
 
 \python{NewPing()}: Initialisierung eines Sensors durch Angabe der Pins für Trigger- und Echo-Signale sowie der maximalen Messdistanz.\\
 \python{ping()}: Senden eines Ultraschallimpulses und Rückgabe der gemessenen Laufzeit in Mikrosekunden.\\
@@ -529,7 +529,7 @@ Ultraschallsensoren gegenüber optischen Verfahren hervorgehoben \cite{Hering:20
 			\item Ein tiefer Einblick in die Sensortechnik, besonders schöne Abbildungen und Erklärungen. Von Grund auf an eine Einführung für Ultraschallsensoren
 		\end{itemize} 
 
-		Arduino AG: NewPing – Library Documentation, Arduino.cc, abgerufen 2025. \cite{Arduino:2024}
+		Arduino AG: NewPing – Library Documentation, Arduino.cc, abgerufen 2025. \cite{ArduinoDoc:2024}
 		\begin{itemize}
 			\item 	Auf der Arduino Website kann man sich viele Extra-Informationen zum Arduino und weiterführende Anwendungen, Beispiele und Projekte anschauen.
 		\end{itemize}
