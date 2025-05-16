@@ -32,73 +32,72 @@ I was expecting a `,' or a `}'---line 167 of file ../../../MLbib/MyLiterature.bi
  :  note      = {\textcolor{blue}{\href{../../../MLbib/conradPumpe.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 227 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 245 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/flukeOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 389 of file ../../../MLbib/MyLiterature.bib
+Repeated entry---line 407 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 661 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 679 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 875 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 893 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate      = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 891 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 909 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate      = {2025-05-13}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Ekbert:2014"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 44 entries,
+You've used 45 entries,
             6402 wiz_defined-function locations,
-            1480 strings with 17148 characters,
-and the built_in function-call counts, 244503 in all, are:
-= -- 15859
-> -- 6105
-< -- 1910
-+ -- 6420
-- -- 2930
-* -- 16438
-:= -- 23780
+            1486 strings with 17386 characters,
+and the built_in function-call counts, 254876 in all, are:
+= -- 16711
+> -- 6305
+< -- 2002
++ -- 6744
+- -- 3001
+* -- 17108
+:= -- 24845
 add.period$ -- 0
-call.type$ -- 44
-change.case$ -- 47
+call.type$ -- 45
+change.case$ -- 48
 chr.to.int$ -- 215
-cite$ -- 90
-duplicate$ -- 25867
-empty$ -- 22916
-format.name$ -- 2487
-if$ -- 51124
+cite$ -- 92
+duplicate$ -- 26995
+empty$ -- 23731
+format.name$ -- 2581
+if$ -- 53288
 int.to.chr$ -- 0
-int.to.str$ -- 130
+int.to.str$ -- 134
 missing$ -- 0
-newline$ -- 1153
-num.names$ -- 2315
-pop$ -- 14861
+newline$ -- 1198
+num.names$ -- 2416
+pop$ -- 15240
 preamble$ -- 1
-purify$ -- 1005
+purify$ -- 1077
 quote$ -- 0
-skip$ -- 9334
+skip$ -- 9747
 stack$ -- 0
-substring$ -- 26066
-swap$ -- 6366
-text.length$ -- 1479
-text.prefix$ -- 71
+substring$ -- 27459
+swap$ -- 6598
+text.length$ -- 1521
+text.prefix$ -- 72
 top$ -- 1
-type$ -- 1484
+type$ -- 1518
 warning$ -- 0
-while$ -- 2895
+while$ -- 3029
 width$ -- 0
-write$ -- 1110
+write$ -- 1154
 (There were 7 error messages)
