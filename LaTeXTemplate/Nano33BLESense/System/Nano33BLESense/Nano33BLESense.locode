@@ -1,59 +1,28 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {2.1}{\ignorespaces Simple example using of the builtin microphone of the Arduino Nano 33 BLE Sense}}{28}{code.caption.13}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {4.1}{\ignorespaces Header file without comments for using the Built-in LED}}{36}{code.4.1}%
-\contentsline {code}{\numberline {4.2}{\ignorespaces Code file without comments for using the Built-in LED}}{36}{code.4.2}%
-\contentsline {code}{\numberline {4.3}{\ignorespaces Simple sketch without comments to control the built-in LED}}{37}{code.4.3}%
-\contentsline {code}{\numberline {4.4}{\ignorespaces Simple sketch to test the built-in LED}}{37}{code.4.4}%
-\contentsline {code}{\numberline {4.5}{\ignorespaces A simple watch dog: A simple watchdog: the built-in LED is switched on for 1 second every 30 seconds.}}{38}{code.4.5}%
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {5.1}{\ignorespaces Header file without comments for using a LED}}{41}{code.5.1}%
-\contentsline {code}{\numberline {5.2}{\ignorespaces Code file without comments for using a LED}}{41}{code.5.2}%
-\contentsline {code}{\numberline {5.3}{\ignorespaces Header file with doxygen comments for using the Power LED}}{42}{code.5.3}%
-\contentsline {code}{\numberline {5.4}{\ignorespaces Code file with doxygen comments for using the Power LED}}{42}{code.5.4}%
-\contentsline {code}{\numberline {5.5}{\ignorespaces Simple sketch to control the power LED}}{42}{code.5.5}%
-\contentsline {code}{\numberline {5.6}{\ignorespaces Simple sketch to check the battery state using the power LED}}{43}{code.5.6}%
-\contentsline {code}{\numberline {5.7}{\ignorespaces Simple code for signs of life}}{44}{code.5.7}%
-\contentsline {code}{\numberline {5.8}{\ignorespaces Simple code for signs of life}}{44}{code.5.8}%
-\contentsline {code}{\numberline {5.9}{\ignorespaces Simple sketch to check the battery state using the power LED}}{45}{code.5.9}%
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {6.1}{\ignorespaces Header file without comments for using the RGB-LED}}{48}{code.6.1}%
-\contentsline {code}{\numberline {6.2}{\ignorespaces Code file without comments for using the RGB-LED}}{49}{code.6.2}%
-\contentsline {code}{\numberline {6.3}{\ignorespaces Simple sketch to test the RGB LED}}{49}{code.6.3}%
-\contentsline {code}{\numberline {6.4}{\ignorespaces value between 0 and 255 to write to the RGB LED}}{51}{code.6.4}%
-\contentsline {code}{\numberline {6.5}{\ignorespaces Different brightness levels for the RGB-LED colors}}{53}{code.6.5}%
-\contentsline {code}{\numberline {6.6}{\ignorespaces A simple watch dog: A simple watchdog: the built-in RGB-LED is switched on for 1 second every 30 seconds.}}{54}{code.6.6}%
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {7.1}{\ignorespaces Defining the built-in button's pin as an input.}}{58}{code.7.1}%
-\contentsline {code}{\numberline {7.2}{\ignorespaces Read the built-in button's state}}{58}{code.7.2}%
-\contentsline {code}{\numberline {7.3}{\ignorespaces Simple sketch to test the push button and the built-in LED}}{58}{code.7.3}%
-\contentsline {code}{\numberline {7.4}{\ignorespaces Simple sketch connects the push button with an interrupt.}}{60}{code.7.4}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {10.1}{\ignorespaces Arduino BLE Tutorial Battery Level Indicator Code}}{79}{code.caption.25}%
+\contentsline {code}{\numberline {5.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{57}{code.caption.15}%
+\contentsline {code}{\numberline {5.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{59}{code.caption.16}%
+\contentsline {code}{\numberline {5.3}{\ignorespaces Code für die Messung einer Strecke}}{61}{code.caption.17}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {11.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{101}{code.caption.41}%
-\contentsline {code}{\numberline {11.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{103}{code.caption.42}%
-\contentsline {code}{\numberline {11.3}{\ignorespaces Code für die Messung einer Strecke}}{105}{code.caption.43}%
+\contentsline {code}{\numberline {6.1}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{69}{code.caption.18}%
+\contentsline {code}{\numberline {6.2}{\ignorespaces Einfacher Code zur Fehlererkennung}}{71}{code.caption.19}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {12.1}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{113}{code.caption.44}%
-\contentsline {code}{\numberline {12.2}{\ignorespaces Einfacher Code zur Fehlererkennung}}{115}{code.caption.45}%
+\contentsline {code}{\numberline {7.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{77}{code.caption.25}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{121}{code.caption.51}%
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {14.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{130}{code.caption.55}%
-\contentsline {code}{\numberline {14.2}{\ignorespaces Code zur Überprüfung der Funktionalität}}{131}{code.caption.57}%
+\contentsline {code}{\numberline {8.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{86}{code.caption.29}%
+\contentsline {code}{\numberline {8.2}{\ignorespaces Code zur Überprüfung der Funktionalität}}{87}{code.caption.31}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {16.1}{\ignorespaces Einfacher Code zum Testen des MOS-FETs}}{141}{code.caption.67}%
-\contentsline {code}{\numberline {16.2}{\ignorespaces Einfache Anwendung zum Verwenden des MOS-FETs}}{142}{code.caption.68}%
+\contentsline {code}{\numberline {10.1}{\ignorespaces Einfacher Code zum Testen des MOS-FETs}}{97}{code.caption.41}%
+\contentsline {code}{\numberline {10.2}{\ignorespaces Einfache Anwendung zum Verwenden des MOS-FETs}}{98}{code.caption.42}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {17.1}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{145}{code.caption.70}%
-\contentsline {code}{\numberline {17.2}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{146}{code.caption.71}%
+\contentsline {code}{\numberline {11.1}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{101}{code.caption.44}%
+\contentsline {code}{\numberline {11.2}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{102}{code.caption.45}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
