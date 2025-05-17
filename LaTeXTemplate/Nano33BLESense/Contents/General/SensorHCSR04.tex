@@ -17,7 +17,7 @@
 %\Mynote{cite books, applications, board}
 
 \section{Einleitung}
-Ein Ultraschallsensor misst berührungslos den Abstand zwischen Sensor und einer Werkstückoberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung, Warenerkennung und Abstandsmessung.\cite{Arduino:2024} \cite{Traenkler:2018} \cite{Hering:2023}
+Ein Ultraschallsensor misst berührungslos den Abstand zwischen Sensor und einer Werkstückoberfläche. Aus dieser Distanz kann der aktuelle Abstand zu der Oberfläche berechnet werden. Der Sensor arbeitet nach dem Prinzip der Laufzeitmessung von Ultraschallwellen und bietet eine einfache, kostengünstige und präzise Möglichkeit zur Pegelüberwachung, Warenerkennung und Abstandsmessung.\cite{ArduinoWeb:2025} \cite{Traenkler:2018} \cite{Hering:2023}
 
 \section{Ultraschallsensoren zur Abstandsmessung}
 Ultraschallsensoren zur Abstandsmessung dienen der Ermittlung von Objektabständen
@@ -73,7 +73,7 @@ Anwendungsvoraussetzungen abstandsmessender Ultraschallsensoren notwendig. Die
 folgenden Unterkapitel bieten eine strukturierte Einführung in die physikalischen und
 technischen Grundlagen des Sensors. Ziel ist es, ein tiefergehendes Verständnis für den
 Aufbau, die Signalverarbeitung und die praktische Handhabung eines Ultraschallsensors zu
-vermitteln. \cite{Arduino:2024}
+vermitteln. \cite{ArduinoWeb:2025}
 
 \subsection{Grundlagen Schall}
 
@@ -364,24 +364,24 @@ Ultraschallsensoren finden in der Praxis Anwendung in verschiedenen Bereichen, d
 Zur Ansteuerung des Ultraschallsensors HC-SR04 wird eine Arduino-kompatible Bibliothek
 \python{NewPing} verwendet, die die Initialisierung des Sensors sowie das Senden und Empfangen von
 Ultraschallsignalen abstrahiert. Diese Bibliothek kapselt die Funktionen zum Triggern, zur
-Laufzeitmessung und zur Berechnung der Distanz \cite{Arduino:2024}.
+Laufzeitmessung und zur Berechnung der Distanz \cite{ArduinoDoc:2024}.
 
 \subsection{Installation}
 Die Installation der Bibliothek \python{NewPing}, welche die Funktionalität des Ultraschallsensors HC-SR04 unter Arduino abstrahiert, erfolgt über den Bibliotheksverwalter der Arduino IDE. Diese
 bietet eine benutzerfreundliche Oberfläche zur Integration externer Bibliotheken.
-\cite{Arduino:2024}
+\cite{ArduinoDoc:2024}
 
 \textbf{Schrittweise Anleitung:}
 \begin{enumerate}
-	\item Öffne die Arduino IDE (Version 1.8.x oder neuer empfohlen).
-	\item Navigiere zu: Sketch > Bibliothek einbinden > Bibliotheken verwalten…
+	\item Öffne die Arduino IDE (Version 2.3.6 oder neuer empfohlen).
+	\item Navigiere zu: \menu{Sketch > Bibliothek einbinden > Bibliotheken verwalten…}
 	\item Im Suchfeld oben rechts den Begriff \python{NewPing} eingeben
 	\item Wähle den Eintrag \python{NewPing} by Tim Eckel aus (Version 1.9.7 oder neuer empfohlen).
-	\item Klicke auf \glqq Installieren \grqq.
+	\item Klicke auf \glqq Installieren\grqq.
 \end{enumerate}
 
 \subsection{Funktionen}
-Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von Ultraschallsensoren erleichtern und erweitern. Die wichtigsten Funktionen sind: \cite{Arduino:2024}\\
+Die NewPing-Bibliothek bietet eine Vielzahl von Funktionen, die die Nutzung von Ultraschallsensoren erleichtern und erweitern. Die wichtigsten Funktionen sind: \cite{ArduinoDoc:2024}\\
 
 \python{NewPing()}: Initialisierung eines Sensors durch Angabe der Pins für Trigger- und Echo-Signale sowie der maximalen Messdistanz.\\
 \python{ping()}: Senden eines Ultraschallimpulses und Rückgabe der gemessenen Laufzeit in Mikrosekunden.\\
@@ -496,9 +496,9 @@ systematisch verschiedene Einflüsse auf die Messgenauigkeit überprüft: \cite{
 
 \subsection{Lösungsansätze}
 
-%Um große mögliche Messfehler aufgrund einer fest hinterlegten Schallgeschwindigkeit zu vermeiden, soll die Temperatur von dem internen Temperatursensor des Arduino Nano 33 BLE Sense Lite bei einer Abstandsmessung erfasst und auf dessen Grundlage die Schallgeschwindigkeit berechnet werden. Da der Sensor jedoch auf der Platine ist, diese sich bei Benutzung selbst erwärmt und zusätzlich in einem Gehäuse verbaut ist, dessen Material gute wärmeisolierende Eigenschaften hat, ist die von ihm gemessene Temperatur zeitabhängig. Daraus folgt, dass seine Messwerte nicht für die Berechnung der Schallgeschwindigkeit verwendet werden können.
-%Die Verwendung eines zusätzlichen Temperatursensors wäre eine mögliche Lösung. Daher wird, um eine zu große Abweichung des angezeigten Messwertes zu verhindern, der für den Sensor zugelassene Temperaturbereich eingeschränkt. Ein möglicher Temperaturbereich ist zwischen $17 \:\text{\textcelsius \:und} \:23 \:\text{\textcelsius}$. In diesem Bereich liegt die Abweichung der Schallgeschwindigkeit bei unter $0,5\%$. Ob diese Genauigkeit ausreichend ist, ist von der Anwendung abhängig.
-Die Genauigkeit von Ultraschall-Abstandsmessungen hängt unter anderem von der Schallgeschwindigkeit ab, welche wiederum temperaturabhängig ist. Wird die Geschwindigkeit im Auswertungsprozess als konstanter Wert angenommen, kann es bei Abweichungen von der tatsächlichen Umgebungstemperatur zu Messfehlern kommen. Eine Möglichkeit zur Korrektur besteht darin, die aktuelle Temperatur zu erfassen und die Schallgeschwindigkeit entsprechend anzupassen.
+Die Genauigkeit von Ultraschall-Abstandsmessungen hängt unter anderem von der Schallgeschwindigkeit ab, welche wiederum temperaturabhängig ist. 
+
+Wird die Schallgeschwindigkeit im Auswertungsprozess als konstanter Wert angenommen, kann es bei Abweichungen von der tatsächlichen Umgebungstemperatur zu Messfehlern kommen. Eine Möglichkeit zur Korrektur besteht darin, die aktuelle Temperatur zu erfassen und die Schallgeschwindigkeit entsprechend anzupassen.
 In vielen Systemen wird hierfür ein interner Temperatursensor verwendet. Liegt dieser jedoch direkt auf der Platine und ist in einem Gehäuse untergebracht, kann es durch Eigenwärme und Isolation zu einer zeitverzögerten oder verfälschten Temperaturmessung kommen. Die Verwendung eines separaten Temperatursensors außerhalb des Gehäuses wäre in solchen Fällen eine mögliche Lösung, ist jedoch mit zusätzlichem Aufwand verbunden.
 Für das vorliegende Projekt, bei dem ein visueller Effekt eines scheinbar schwebenden Wasserhahns erzeugt werden soll, ist eine sehr hohe Messgenauigkeit nicht zwingend erforderlich. Der Wasserstand im Behälter wird zusätzlich durch Bohrungen geregelt, die ein Überlaufen verhindern. Die Ultraschallmessung dient primär der groben Überwachung des Füllstandes, beispielsweise zur rechtzeitigen Nachfüllung. Geringe Messabweichungen durch temperaturbedingte Schwankungen der Schallgeschwindigkeit sind daher tolerierbar und haben keinen wesentlichen Einfluss auf die Funktionalität der Installation.
 
@@ -529,7 +529,7 @@ Ultraschallsensoren gegenüber optischen Verfahren hervorgehoben \cite{Hering:20
 			\item Ein tiefer Einblick in die Sensortechnik, besonders schöne Abbildungen und Erklärungen. Von Grund auf an eine Einführung für Ultraschallsensoren
 		\end{itemize} 
 
-		Arduino AG: NewPing – Library Documentation, Arduino.cc, abgerufen 2025. \cite{Arduino:2024}
+		Arduino AG: NewPing – Library Documentation, Arduino.cc, abgerufen 2025. \cite{ArduinoDoc:2024}
 		\begin{itemize}
 			\item 	Auf der Arduino Website kann man sich viele Extra-Informationen zum Arduino und weiterführende Anwendungen, Beispiele und Projekte anschauen.
 		\end{itemize}

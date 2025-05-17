@@ -1,54 +1,49 @@
 \begin{theindex}
 
   \item  File
-    \subitem Arduino, 24
-    \subitem blink.ino, 37, 38
-    \subitem blnik.ino, 33
-    \subitem Fade, 38
-    \subitem File/Examples/01.Basics, 38
-    \subitem libraries, 26--28
-    \subitem MySketch, 24
-    \subitem MySketch.ino, 24
-    \subitem Nano33BLESenseLE, 26
-    \subitem Nano33BLESenseLED, 27, 28
+    \subitem .ino, 26
+    \subitem Arduino, 26
+    \subitem Bibliotheken, 29, 31
+    \subitem blink.ino, 40
+    \subitem libraries, 30
+    \subitem MySketch, 26
+    \subitem MySketch.ino, 26
+    \subitem Nano33BLESenseLED, 29, 31
   \item  Inertial Measurement Unit
-    \subitem  \emph  {see} IMU, 11, 44
+    \subitem  \emph  {see} IMU, 13, 47
 
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 11, 54
-  \item GPIO, 11, 54, 55
+    \subitem  \emph  {see} GPIO, 13, 64
+  \item GPIO, 13, 64, 65
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 11, 54, 55
-  \item IDE, 11, 38
-  \item IMU, 11, 44
-  \item Integrated Development Environment
-    \subitem  \emph  {see} IDE, 11, 38
+  \item I\textsuperscript  {2}C, 13, 64, 65
+  \item IMU, 13, 47
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 11, 54
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 64
 
   \indexspace
 
-  \item SCL, 11, 54, 55
-  \item SDA, 11, 54, 55
+  \item SCL, 13, 64, 65
+  \item SDA, 13, 64, 65
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 11, 54
+    \subitem  \emph  {see} SCL, 13, 64
   \item Serial Data
-    \subitem  \emph  {see} SDA, 11, 54
+    \subitem  \emph  {see} SDA, 13, 64
 
   \indexspace
 
-  \item UART, 11, 54, 55
+  \item UART, 13, 64, 65
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 11, 54
+    \subitem  \emph  {see} UART, 13, 64
 
   \indexspace
 
-  \item VCC, 11, 54, 55
+  \item VCC, 13, 64, 65
   \item Voltage at the Common Collector
-    \subitem  \emph  {see} VCC, 11, 54
+    \subitem  \emph  {see} VCC, 13, 64
 
 \end{theindex}
