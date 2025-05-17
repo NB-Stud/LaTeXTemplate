@@ -45,7 +45,7 @@
   \entry{ArduinoDoc:2024}{online}{}{}
     \name{author}{1}{}{%
       {{hash=A}{%
-         family={{Arduino}},
+         family={Arduino},
          familyi={A\bibinitperiod},
       }}%
     }
@@ -53,10 +53,11 @@
     \strng{fullhash}{A1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Ard}24}
+    \field{labelalpha}{Ard24}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/newPingOnline.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/newPingOnline.pdf}{[pdf]}}}
     \field{title}{NewPing Library Documentation}
     \verb{url}
     \verb https://docs.arduino.cc/libraries/newping/
@@ -67,7 +68,7 @@
   \entry{ArduinoWeb:2025}{online}{}{}
     \name{author}{1}{}{%
       {{hash=A}{%
-         family={{Arduino}},
+         family={Arduino},
          familyi={A\bibinitperiod},
       }}%
     }
@@ -75,10 +76,11 @@
     \strng{fullhash}{A1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Ard}25}
+    \field{labelalpha}{Ard25}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/arduinoOnline.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/arduinoOnline.pdf}{[pdf]}}}
     \field{title}{Arduino IDE 2.0}
     \verb{url}
     \verb https://docs.arduino.cc/software/ide/#ide-v2
@@ -89,7 +91,7 @@
   \entry{CML:2011}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=C}{%
-         family={{CML}},
+         family={CML},
          familyi={C\bibinitperiod},
       }}%
     }
@@ -97,10 +99,11 @@
     \strng{fullhash}{C1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{CML}11}
+    \field{labelalpha}{CML11}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchLED.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/handbuchLED.pdf}{[pdf]}}}
     \field{title}{Handbuch - CML LED-Signalleuchte}
     \field{year}{2011}
   \endentry
@@ -108,7 +111,7 @@
   \entry{Comet:2004}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=C}{%
-         family={{Comet}},
+         family={Comet},
          familyi={C\bibinitperiod},
       }}%
     }
@@ -116,28 +119,84 @@
     \strng{fullhash}{C2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Com}04}
+    \field{labelalpha}{Com04}
     \field{sortinit}{C}
     \field{sortinithash}{C}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchPumpe.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/handbuchPumpe.pdf}{[pdf]}}}
     \field{title}{Handbuch - Comet Tauchpumpe 12 V Elegant}
     \field{year}{2004}
   \endentry
 
-  \entry{ConradPumpe:2025}{online}{}{}
+  \entry{RSOnlineMOSFET:2025}{online}{}{}
     \name{author}{1}{}{%
-      {{hash=C}{%
-         family={{Conrad}},
+      {{hash=CR}{%
+         family={Components},
          familyi={C\bibinitperiod},
+         given={RS},
+         giveni={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C3}
-    \strng{fullhash}{C3}
+    \strng{namehash}{CR1}
+    \strng{fullhash}{CR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Con}25}
+    \field{labelalpha}{Com25}
     \field{sortinit}{C}
     \field{sortinithash}{C}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/RSComponents.pdf}{[pdf]}}}
+    \field{title}{MOSFET Leitfaden}
+    \verb{url}
+    \verb https://de.rs-online.com/web/content/discovery-portal/produktratgeber
+    \verb /mosfet-leitfaden
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{Ekbert:2014}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=EH}{%
+         family={Ekbert},
+         familyi={E\bibinitperiod},
+         given={Hering},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag Berlin Heidelberg}%
+    }
+    \strng{namehash}{EH1}
+    \strng{fullhash}{EH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ekb14}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{isbn}{978-3-642-05499-0}
+    \field{title}{Elektronik für Ingenieure und Naturwissenschaftler}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2014}
+  \endentry
+
+  \entry{ConradPumpe:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=EC}{%
+         family={Electronic},
+         familyi={E\bibinitperiod},
+         given={Conrad},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EC1}
+    \strng{fullhash}{EC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ele25}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
     \field{title}{Niedervolt Tauchpumpe Comet 12 V Elegant}
     \verb{url}
     \verb https://www.conrad.de/de/p/comet-1300-01-00-niedervolt-tauchpumpe-600
@@ -146,55 +205,10 @@
     \field{year}{2025}
   \endentry
 
-  \entry{Ekbert:2014}{book}{}{}
-    \name{author}{3}{}{%
-      {{hash=EH}{%
-         family={Ekbert},
-         familyi={E\bibinitperiod},
-         given={Hering},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=KB}{%
-         family={Klaus},
-         familyi={K\bibinitperiod},
-         given={Bressler},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=GR}{%
-         family={Gutekunst},
-         familyi={G\bibinitperiod},
-         given={Robert},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer-Verlag Berlin Heidelberg}%
-    }
-    \strng{namehash}{EHKBGR1}
-    \strng{fullhash}{EHKBGR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{EKG14}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \verb{doi}
-    \verb 10.1007/978-3-642-05499-0
-    \endverb
-    \field{isbn}{978-3-642-05499-0}
-    \field{title}{Elektronik für Ingenieure und Naturwissenschaftler}
-    \verb{url}
-    \verb https://link.springer.com/book/10.1007/978-3-642-05499-0
-    \endverb
-    \list{location}{1}{%
-      {Berlin, Heidelberg}%
-    }
-    \field{year}{2014}
-  \endentry
-
   \entry{Fluke:2025}{online}{}{}
     \name{author}{1}{}{%
       {{hash=F}{%
-         family={{FLUKE}},
+         family={FLUKE},
          familyi={F\bibinitperiod},
       }}%
     }
@@ -202,7 +216,7 @@
     \strng{fullhash}{F1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{FLU}25}
+    \field{labelalpha}{FLU25}
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \field{title}{Anleitung zum Messen von Widerstand}
@@ -213,61 +227,26 @@
     \field{year}{2025}
   \endentry
 
-  \entry{Falcon:2025}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=F}{%
-         family={{Falcon Illumination}},
-         familyi={F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{F2}
-    \strng{fullhash}{F2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{Fal}25}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/falconOnline.pdf}{[pdf]}}}
-    \field{title}{Wie funktioniert eine LED?}
-    \verb{url}
-    \verb https://www.falconillumination.de/de/wissenswertes/wie-funktioniert-e
-    \verb ine-led.html
-    \endverb
-    \field{year}{2025}
-    \field{urlday}{03}
-    \field{urlmonth}{05}
-    \field{urlyear}{2025}
-  \endentry
-
   \entry{Gulich:2020}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=GJF}{%
-         family={G{\"u}lich},
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={Gülich},
          familyi={G\bibinitperiod},
-         given={Johann\bibnamedelima Friedrich},
-         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=GJF}{%
-         family={G{\"u}lich},
-         familyi={G\bibinitperiod},
-         given={Johann\bibnamedelima Friedrich},
-         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {Springer}%
     }
-    \strng{namehash}{GJFGJF1}
-    \strng{fullhash}{GJFGJF1}
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{GG20}
+    \field{labelalpha}{Gü20}
     \field{sortinit}{G}
     \field{sortinithash}{G}
     \field{pages}{45\bibrangedash 82}
-    \field{title}{Bauarten und Leistungsdaten}
-    \field{journaltitle}{Kreiselpumpen: Handbuch f{\"u}r Entwicklung,
-  Anlagenplanung und Betrieb}
+    \field{title}{Kreiselpumpen: Handbuch für Entwicklung, Anlagenplanung und
+  Betrieb}
     \field{year}{2020}
   \endentry
 
@@ -339,102 +318,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{Heinrich:2019}{book}{}{}
-    \name{author}{3}{}{%
-      {{hash=HB}{%
-         family={Heinrich},
-         familyi={H\bibinitperiod},
-         given={Berthold},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=LP}{%
-         family={Linke},
-         familyi={L\bibinitperiod},
-         given={Petra},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=GM}{%
-         family={Gl{\"o}ckler},
-         familyi={G\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer-Verlag}%
-    }
-    \strng{namehash}{HBLPGM1}
-    \strng{fullhash}{HBLPGM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{HLG19}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Grundlagen Automatisierung: Erfassen-Steuern-Regeln}
-    \field{year}{2019}
-  \endentry
-
-  \entry{Hesse:2009}{book}{}{}
-    \name{author}{2}{}{%
-      {{hash=HS}{%
-         family={Hesse},
-         familyi={H\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Schnell},
-         familyi={S\bibinitperiod},
-         given={Gerhard},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{HSSG1}
-    \strng{fullhash}{HSSG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{HS09}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Sensoren f{\"u}r die Prozess-und Fabrikautomation}
-    \field{volume}{5}
-    \field{year}{2009}
-  \endentry
-
-  \entry{Hering:2012}{book}{}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{2}{}{%
-      {{hash=HE}{%
-         family={Hering},
-         familyi={H\bibinitperiod},
-         given={Ekbert},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Sch{\"o}nfelder},
-         familyi={S\bibinitperiod},
-         given={Gert},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{HESG+1}
-    \strng{fullhash}{HESG+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{HS+12}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Sensoren in Wissenschaft und Technik}
-    \field{year}{2012}
-  \endentry
-
   \entry{Hering:2023}{book}{}{}
     \name{author}{2}{}{%
       {{hash=HE}{%
@@ -470,41 +353,69 @@
     \field{year}{2023}
   \endentry
 
-  \entry{Hering:2024}{book}{}{}
-    \name{author}{4}{}{%
+  \entry{Heinrich:2019}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HB}{%
+         family={Heinrich},
+         familyi={H\bibinitperiod},
+         given={Berthold},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{HB1}
+    \strng{fullhash}{HB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hei19}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Grundlagen Automatisierung: Erfassen-Steuern-Regeln}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Hering:2012}{book}{}{}
+    \name{author}{1}{}{%
       {{hash=HE}{%
          family={Hering},
          familyi={H\bibinitperiod},
          given={Ekbert},
          giveni={E\bibinitperiod},
       }}%
-      {{hash=MR}{%
-         family={Martin},
-         familyi={M\bibinitperiod},
-         given={Rolf},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=KJ}{%
-         family={Kempkes},
-         familyi={K\bibinitperiod},
-         given={Joachim},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=GJ}{%
-         family={Gutekunst},
-         familyi={G\bibinitperiod},
-         given={J{\"u}rgen},
-         giveni={J\bibinitperiod},
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HE1}
+    \strng{fullhash}{HE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Her12}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Sensoren in Wissenschaft und Technik}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Hering:2024}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HM}{%
+         family={Hering},
+         familyi={H\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {Springer}%
     }
-    \strng{namehash}{HE+1}
-    \strng{fullhash}{HEMRKJGJ1}
+    \strng{namehash}{HM1}
+    \strng{fullhash}{HM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{Her+24}
+    \field{labelalpha}{Her24}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{edition}{5}
@@ -514,10 +425,63 @@
     \field{year}{2024}
   \endentry
 
+  \entry{Hesse:2009}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Hesse},
+         familyi={H\bibinitperiod},
+         given={Schnell},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hes09}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Sensoren für die Prozess-und Fabrikautomation}
+    \field{volume}{5}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Falcon:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=IF}{%
+         family={Illumination},
+         familyi={I\bibinitperiod},
+         given={Falcon},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IF1}
+    \strng{fullhash}{IF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ill25}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/falconOnline.pdf}{[pdf]}}}
+    \field{title}{Wie funktioniert eine LED?}
+    \verb{url}
+    \verb https://www.falconillumination.de/de/wissenswertes/wie-funktioniert-e
+    \verb ine-led.html
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{03}
+    \field{urlmonth}{05}
+    \field{urlyear}{2025}
+  \endentry
+
   \entry{Indicatorlight:2025}{online}{}{}
     \name{author}{1}{}{%
       {{hash=I}{%
-         family={{Indicatorlight}},
+         family={Indicatorlight},
          familyi={I\bibinitperiod},
       }}%
     }
@@ -525,9 +489,11 @@
     \strng{fullhash}{I1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Ind}25}
+    \field{labelalpha}{Ind25}
     \field{sortinit}{I}
     \field{sortinithash}{I}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/indicatorOnline.pdf}{[pdf]}}}
     \field{title}{So verdrahten Sie Kippschalter}
     \verb{url}
     \verb https://de.indicatorlight.com/faq/toggle-button-switches/
@@ -535,39 +501,10 @@
     \field{year}{2025}
   \endentry
 
-  \entry{Muller:2017}{book}{}{}
-    \name{author}{2}{}{%
-      {{hash=MG}{%
-         family={M{\"u}ller},
-         familyi={M\bibinitperiod},
-         given={Gerhard},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=MM}{%
-         family={M{\"o}ser},
-         familyi={M\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{MGMM1}
-    \strng{fullhash}{MGMM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{MM17}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{title}{Ultraschall in Medizin und Technik}
-    \field{year}{2017}
-  \endentry
-
   \entry{MPS:2015}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=M}{%
-         family={{MPS}},
+         family={MPS},
          familyi={M\bibinitperiod},
       }}%
     }
@@ -575,63 +512,54 @@
     \strng{fullhash}{M1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{MPS}15}
+    \field{labelalpha}{MPS15}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchMPM.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/handbuchMPM.pdf}{[pdf]}}}
     \field{title}{Handbuch - MPM3610}
     \field{year}{2015}
   \endentry
 
-  \entry{MeanWell:2014}{misc}{}{}
-    \list{publisher}{1}{%
-      {Mean Well}%
-    }
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Mea}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/handbuchSchaltnetzteil.pdf}{[pdf]}}}
-    \field{title}{Handbuch MW RD-50A Series}
-    \field{year}{2014}
-  \endentry
-
-  \entry{NKKswitches:2025}{online}{}{}
+  \entry{Muller:2017}{book}{}{}
     \name{author}{1}{}{%
-      {{hash=N}{%
-         family={{NKK Switches}},
-         familyi={N\bibinitperiod},
+      {{hash=MG}{%
+         family={Müller},
+         familyi={M\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
       }}%
     }
-    \strng{namehash}{N1}
-    \strng{fullhash}{N1}
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MG1}
+    \strng{fullhash}{MG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{NKK}25}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{title}{Schaltergrundlagen}
-    \verb{url}
-    \verb https://www.nkkswitches.de/learning/fundamentals/series_01.html
-    \endverb
-    \field{year}{2025}
+    \field{labelalpha}{Mü17}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Ultraschall in Medizin und Technik}
+    \field{year}{2017}
   \endentry
 
   \entry{Paradise:2025}{online}{}{}
-    \name{editor}{1}{}{%
+    \name{author}{1}{}{%
       {{hash=P}{%
-         family={{Paradisetronics}},
+         family={Paradisetronics},
          familyi={P\bibinitperiod},
       }}%
     }
     \strng{namehash}{P1}
     \strng{fullhash}{P1}
-    \field{labelnamesource}{editor}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Par}25}
+    \field{labelalpha}{Par25}
     \field{sortinit}{P}
     \field{sortinithash}{P}
-    \field{note}{\textcolor{blue}{\href{../../../MLbib/rev2Online.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/rev2Online.pdf}{[pdf]}}}
     \field{title}{Arduino Nano 33 BLE Sense Rev2}
     \verb{url}
     \verb https://paradisetronic.com/products/arduino-nano-33-ble-sense-rev2
@@ -640,29 +568,6 @@
     \field{urlday}{02}
     \field{urlmonth}{05}
     \field{urlyear}{2025}
-  \endentry
-
-  \entry{RSOnlineMOSFET:2025}{online}{}{}
-    \name{editor}{1}{}{%
-      {{hash=R}{%
-         family={{RS Components}},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{{RS }25}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/RSComponents.pdf}{[pdf]}}}
-    \field{title}{MOSFET Leitfaden}
-    \verb{url}
-    \verb https://de.rs-online.com/web/content/discovery-portal/produktratgeber
-    \verb /mosfet-leitfaden
-    \endverb
-    \field{year}{2025}
   \endentry
 
   \entry{Raj:2019}{online}{}{}
@@ -684,6 +589,8 @@
     \field{labelalpha}{Raj19}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/raj19Online.pdf}{[pdf]}}}
     \field{title}{Arduino Nano 33 BLE Sense Review - What's New and How to Get
   Started?}
     \verb{url}
@@ -696,18 +603,19 @@
   \entry{ReicheltMOSFETManual:2025}{online}{}{}
     \name{author}{1}{}{%
       {{hash=R}{%
-         family={{Reichelt Online}},
+         family={Reichelt},
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Rei}22}
+    \field{labelalpha}{Rei22}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/MOSFETanleitung.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/MOSFETanleitung.pdf}{[pdf]}}}
     \field{title}{Anleitung – COM-MOSFET Modul}
     \verb{url}
     \verb https://cdn-reichelt.de/documents/datenblatt/A300/COM-MOSFET_ANLEITUN
@@ -720,21 +628,22 @@
   \endentry
 
   \entry{ReicheltMOS:2025}{online}{}{}
-    \name{editor}{1}{}{%
+    \name{author}{1}{}{%
       {{hash=R}{%
-         family={{Reichelt Online}},
+         family={Reichelt},
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
-    \field{labelnamesource}{editor}
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Rei}25}
+    \field{labelalpha}{Rei25}
     \field{extraalpha}{1}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltMOSFET.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/reicheltMOSFET.pdf}{[pdf]}}}
     \field{title}{COM - MOS-FET}
     \verb{url}
     \verb https://www.reichelt.de/de/de/shop/produkt/entwicklerboards_-_mosfet_
@@ -747,21 +656,22 @@
   \endentry
 
   \entry{ReicheltKipp:2025}{online}{}{}
-    \name{editor}{1}{}{%
+    \name{author}{1}{}{%
       {{hash=R}{%
-         family={{Reichelt Online}},
+         family={Reichelt},
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
-    \field{labelnamesource}{editor}
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Rei}25}
+    \field{labelalpha}{Rei25}
     \field{extraalpha}{2}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltKippschalter.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/reicheltKippschalter.pdf}{[pdf]}}}
     \field{title}{Kippschalter - GOOBAY 10013}
     \verb{url}
     \verb https://www.reichelt.de/de/de/shop/produkt/miniatur-kippschalter\_ein
@@ -774,21 +684,22 @@
   \endentry
 
   \entry{ReicheltLED:2025}{online}{}{}
-    \name{editor}{1}{}{%
+    \name{author}{1}{}{%
       {{hash=R}{%
-         family={{Reichelt Online}},
+         family={Reichelt},
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
-    \field{labelnamesource}{editor}
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Rei}25}
+    \field{labelalpha}{Rei25}
     \field{extraalpha}{3}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{note}{\textcolor{blue}{\href{../../../MLbib/ledOnline.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/ledOnline.pdf}{[pdf]}}}
     \field{title}{LED - CML}
     \verb{url}
     \verb https://www.reichelt.de/de/de/shop/produkt/led-signalleuchte_blau_-_u
@@ -801,21 +712,22 @@
   \endentry
 
   \entry{Reichelt:2025}{online}{}{}
-    \name{editor}{1}{}{%
+    \name{author}{1}{}{%
       {{hash=R}{%
-         family={{Reichelt Online}},
+         family={Reichelt},
          familyi={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{R2}
-    \strng{fullhash}{R2}
-    \field{labelnamesource}{editor}
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{Rei}25}
+    \field{labelalpha}{Rei25}
     \field{extraalpha}{4}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/reicheltSchaltnetzteil.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/reicheltSchaltnetzteil.pdf}{[pdf]}}}
     \field{title}{Schaltnetzteil - MW HRP-75}
     \verb{url}
     \verb https://www.reichelt.de/de/de/shop/produkt/schaltnetzteil_geschlossen
@@ -827,8 +739,33 @@
     \field{urlyear}{2025}
   \endentry
 
+  \entry{ReicheltHC05:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={Reichelt},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Rei25}
+    \field{extraalpha}{5}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF Literatur/HC-05
+  Modul online ALLNET REICHELT.pdf}{[pdf]}}}
+    \field{title}{Webseite Reichelt HC-05}
+    \verb{url}
+    \verb https://www.reichelt.de/de/de/shop/produkt/arduino_-_4duino_wireless_
+    \verb modul_hc-05_4-pin-170173
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{Sauter:2022}{book}{}{}
-    \name{editor}{1}{}{%
+    \name{author}{1}{}{%
       {{hash=SM}{%
          family={Sauter},
          familyi={S\bibinitperiod},
@@ -841,7 +778,7 @@
     }
     \strng{namehash}{SM1}
     \strng{fullhash}{SM1}
-    \field{labelnamesource}{editor}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Sau22}
     \field{sortinit}{S}
@@ -911,7 +848,7 @@
     \field{labelalpha}{Stu10}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{note}{\textcolor{blue}{\href{../../../MLbib/HC-05
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF Literatur/HC-05
   Datasheet.pdf}{[pdf]}}}
     \field{title}{Datenblatt – HC-05-Bluetooth to Serial Port Module}
     \field{year}{2010}
@@ -936,11 +873,35 @@
     \field{labelalpha}{Sur21}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{booktitle}{Handbuch Maschinenbau: Grundlagen und Anwendungen der
-  Maschinenbau-Technik}
     \field{pages}{1039\bibrangedash 1053}
-    \field{title}{Pumpen}
+    \field{title}{Handbuch Maschinenbau: Grundlagen und Anwendungen der
+  Maschinenbau-Technik}
     \field{year}{2021}
+  \endentry
+
+  \entry{NKKswitches:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=SN}{%
+         family={Switches},
+         familyi={S\bibinitperiod},
+         given={NKK},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SN1}
+    \strng{fullhash}{SN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Swi25}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/kippschalterOnline.pdf}{[pdf]}}}
+    \field{title}{Schaltergrundlagen}
+    \verb{url}
+    \verb https://www.nkkswitches.de/learning/fundamentals/series_01.html
+    \endverb
+    \field{year}{2025}
   \endentry
 
   \entry{Tippler:2024}{book}{}{}
@@ -1032,7 +993,7 @@
   \endentry
 
   \entry{Traenkler:2018}{book}{}{}
-    \name{editor}{2}{}{%
+    \name{author}{2}{}{%
       {{hash=THR}{%
          family={Tränkler},
          familyi={T\bibinitperiod},
@@ -1051,7 +1012,7 @@
     }
     \strng{namehash}{THRRLM1}
     \strng{fullhash}{THRRLM1}
-    \field{labelnamesource}{editor}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{TR18}
     \field{sortinit}{T}
@@ -1063,6 +1024,28 @@
       {Berlin, Heidelberg}%
     }
     \field{year}{2018}
+  \endentry
+
+  \entry{MeanWell:2014}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=WM}{%
+         family={Well},
+         familyi={W\bibinitperiod},
+         given={Mean},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WM1}
+    \strng{fullhash}{WM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wel14}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/handbuchSchaltnetzteil.pdf}{[pdf]}}}
+    \field{title}{Handbuch MW RD-50A Series}
+    \field{year}{2014}
   \endentry
 
   \entry{Willems:2022}{book}{}{}
@@ -1097,7 +1080,7 @@
   \entry{Goobay:2023}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=g}{%
-         family={{goobay}},
+         family={goobay},
          familyi={g\bibinitperiod},
       }}%
     }
@@ -1105,36 +1088,13 @@
     \strng{fullhash}{g1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{{goo}23}
+    \field{labelalpha}{goo23}
     \field{sortinit}{G}
     \field{sortinithash}{G}
-  \field{note}{\textcolor{blue}{\href{../../../MLbib/kippschalterHandbuch.pdf}{[pdf]}}}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/kippschalterHandbuch.pdf}{[pdf]}}}
     \field{title}{Handbuch - goobay 10013}
     \field{year}{2023}
-  \endentry
-
-  \entry{ReicheltHC05:2025}{online}{}{}
-    \name{editor}{1}{}{%
-      {{hash=r}{%
-         family={reichelt},
-         familyi={r\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{r1}
-    \strng{fullhash}{r1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{rei25}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{note}{\textcolor{blue}{\href{../../../MLbib/HC-05 Modul online
-  ALLNET REICHELT.pdf}{[pdf]}}}
-    \field{title}{Webseite reichelt HC-05}
-    \verb{url}
-    \verb https://www.reichelt.de/de/de/shop/produkt/arduino_-_4duino_wireless_
-    \verb modul_hc-05_4-pin-170173
-    \endverb
-    \field{year}{2025}
   \endentry
 \enddatalist
 \endinput

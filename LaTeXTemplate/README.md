@@ -33,7 +33,7 @@ Ein weiterer Bestandteil des Systems ist ein Ultraschallsensor, der den Wasserst
 │   └── jetson.pdf
 │   └── Literature.pdf
 │   └── MyLiterature.pdf
-│   └── PDF-Literatur
+│   └── PDF Literatur
 ├── Montageanleitung
 │   └── Montageanleitung.pdf
 │   └── Montageanleitung.tex [Link!]

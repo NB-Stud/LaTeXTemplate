@@ -57,14 +57,87 @@ Einsatzgebiete: Z.B. Mikroprozessoren
 
 \bigskip
 
-%\begin{figure}[htbp]
-%	\centering
-%	\resizebox{0.8\linewidth}{!}{%
-%		\input{../../tikz/tikzAbwärtswandler}
-%	}
-%	\caption{Abwärtswandler}
-%	\label{fig:Abwärtswandler}
-%\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\resizebox{0.8\linewidth}{!}{%
+		\begin{tikzpicture}
+			\tikzstyle{every node}=[font=\LARGE]
+			
+			% linke Spannungsquelle und Schalter
+			\draw (11.25,16.25) circle (0.15cm);
+			\draw (11.25,14.5) circle (0.15cm);
+			\draw [->, thick] (11.25,16.1) -- (11.25,14.65);
+			\draw (13,16.25) circle (0.15cm);
+			\draw (11.4,16.25) -- (12.85,16.25);
+			\draw (13,16.1) -- (13,15.5);
+			\draw (13,15.25) -- (13,13.75);
+			\draw (11.4,14.5) -- (13,14.5);
+			\draw (13.15,16.25) -- (15,16.75);
+			
+			% Verbindung zu Diode
+			\draw (15.25,16.25) circle (0.15cm);
+			\draw (15.4,16.25) -- (16.6,16.25);
+			
+			% linker schwarzer Punkt
+			\draw[fill=black] (16.75,16.25) circle (0.15cm);
+			\draw (16.75,16.1) -- (16.75,15.25);
+			\draw (16.25,15.25) -- (17.25,15.25);
+			\draw (16.75,15.25) -- (16.25,14.5);
+			\draw (16.25,14.5) -- (17.25,14.5);
+			\draw (16.75,15.25) -- (17.25,14.5);
+			\draw (16.75,15.25) -- (16.75,13.75);
+			\draw (16.25,13.75) -- (17.25,13.75);
+			
+			% Verbindung von Diode zu Kondensator
+			\draw (12.5,13.75) -- (13.5,13.75);
+			\draw (12.5,15.5) -- (13.5,15.5);
+			\draw (12.5,15.25) -- (13.5,15.25);
+			
+			% Spule (gleichgerichtete Welle)
+			\draw (16.75,16.25) -- (17.0,16.25);
+			\draw[thick, samples=100, domain=0:4*pi]
+			plot (\x*0.15 + 17.0, {abs(0.3*sin(deg(\x))) + 16.25});
+			\draw (18.9,16.25) -- (19.25,16.25);
+			
+			% rechter schwarzer Punkt
+			\draw[fill=black] (19.25,16.25) circle (0.15cm);
+			\draw (19.25,16.1) -- (19.25,15.25);
+			\draw (18.75,15.25) -- (19.75,15.25);
+			\draw (18.75,15.0) -- (19.75,15.0);
+			\draw (19.25,15.0) -- (19.25,13.75);
+			\draw (18.75,13.75) -- (19.75,13.75);
+			
+			% Ausgangskondensator
+			\draw (19.5,16.25) -- (21,16.25);
+			\draw (21.25,16.25) circle (0.15cm);
+			\draw (21.25,14.75) circle (0.15cm);
+			\draw [->, thick] (21.25,16.1) -- (21.25,14.9);
+			\draw (21.1,14.75) -- (20.5,14.75);
+			\draw (20.5,14.75) -- (20.5,13.75);
+			\draw (20.0,13.75) -- (21,13.75);
+			
+			% Endausgang
+			\draw (21.75,14.5) -- (22,14.5);
+			\draw (21.75,16.5) -- (22,16.5);
+			\draw (22,16.75) -- (22,16.25);
+			\draw (21.75,16.5) -- (22.25,16.5);
+			\draw (22,14.5) -- (22.25,14.5);
+			
+			% Spannungsquelle links
+			\draw (10,14.25) -- (10.5,14.25);
+			\draw (10,16.5) -- (10.5,16.5);
+			\draw (10.25,16.25) -- (10.25,16.75);
+			
+			% Beschriftungen
+			\node [font=\LARGE] at (13.5,17) {S};
+			\node [font=\LARGE] at (18.5,17.5) {L};
+			\node [font=\LARGE] at (15.5,14.5) {D};
+			\node [font=\LARGE] at (18.5,14.5) {C};
+		\end{tikzpicture}
+	}
+	\caption{Abwärtswandler}
+	\label{fig:Abwärtswandler}
+\end{figure}
 
 \subsection{Aufwärtswandler }
 
@@ -76,14 +149,101 @@ Einsatzgebiete: Z.B. Elektromotoren
 
 \bigskip
 
-%\begin{figure}[htbp]
-%	\centering
-%	\resizebox{0.8\linewidth}{!}{%
-%		\input{../../tikz/tikzAufwärtswandler}
-%	}
-%	\caption{Aufwärtswandler}
-%	\label{fig:Aufwärtswandler}
-%\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\resizebox{0.8\linewidth}{!}{%
+		\begin{tikzpicture}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw  (6.25,18) circle (0.5cm);
+			\draw  (6.25,18.5) -- (6.25,20.5);
+			\draw  (6.25,17.5) -- (6.25,15.75);
+			\draw  (6.25,15.75) -- (6.25,15.25);
+			\draw  (6.25,20.5) -- (7.25,20.5);
+			\draw  (7.5,20.5) circle (0.25cm);
+			\draw  (6.25,15.25) -- (7.25,15.25);
+			\draw  (7.5,15.25) circle (0.25cm);
+			\draw  (8.75,18.5) -- (9.75,18.5);
+			\draw  (8.75,18.25) -- (9.75,18.25);
+			\draw  (12,20.5) circle (0.25cm);
+			\draw  (12,20.25) -- (12,18.75);
+			\draw  (11.5,18.5) -- (12,18);
+			\draw  (12,18) -- (12,15.75);
+			\draw  (12,15.25) circle (0.25cm);
+			\draw  (12,15.75) -- (12,15.5);
+			\draw  (12,15) -- (12,14.25);
+			\draw  (11.5,14.25) -- (12.5,14.25);
+			\draw  (12.25,20.5) -- (13.75,20.5);
+			\draw  (13.75,21) -- (13.75,20);
+			\draw  (13.75,20) -- (14.5,20.5);
+			\draw  (13.75,21) -- (14.5,20.5);
+			\draw  (14.5,21) -- (14.5,20);
+			\draw  (13.75,20.5) -- (15.75,20.5);
+			\draw  (16,20.5) circle (0.25cm);
+			\draw  (16,20) -- (16,18.5);
+			\draw  (15.5,18.5) -- (16.5,18.5);
+			\draw  (15.5,18.25) -- (16.5,18.25);
+			\draw  (16,20) -- (16,20.25);
+			\draw  (16,15.25) circle (0.25cm);
+			\draw  (12.25,15.25) -- (15.75,15.25);
+			\draw (16,18.25) -- (16,15.5);
+			\draw  (17.75,20.5) circle (0.25cm);
+			\draw (18,20.5) -- (19.25,20.5);
+			\draw [->, thick] (17.75,20) -- (17.75,15.75);
+			\draw  (17.75,15.25) circle (0.25cm);
+			\draw  (16.25,15.25) -- (17.5,15.25);
+			\draw  (19.25,20.5) -- (19.25,18.75);
+			\draw  (19,18.75) rectangle (19.5,17.75);
+			\draw  (19.25,17.75) -- (19.25,15.25);
+			\draw  (18,15.25) -- (19.25,15.25);
+			\draw  (16.25,20.5) -- (17.5,20.5);
+			\draw  (9.25,20.5) circle (0.25cm);
+			\draw  (9.25,15.25) circle (0.25cm);
+			\draw  (7.75,20.5) -- (9,20.5);
+			%\draw  (9.5,20.5) -- (11.75,20.5);
+			\draw  (9.25,20.25) -- (9.25,18.5);
+			\draw (9.25,18.25) -- (9.25,15.5);
+			\draw  (7.75,15.25) -- (9,15.25);
+			\draw  (9.5,15.25) -- (11.75,15.25);
+			\draw [->, thick] (7.5,20) -- (7.5,16);
+			\draw  (6,18.25) -- (6.5,18.25);
+			\draw  (6,18) -- (6.5,18);
+			\draw  (7,21.25) -- (7,20.75);
+			\draw  (6.75,21) -- (7.25,21);
+			\draw  (6.75,14.75) -- (7.25,14.75);
+			\draw  (8.75,19) -- (8.75,18.5);
+			\draw  (8.5,18.75) -- (9,18.75);
+			\node [font=\LARGE] at (10,18) {$C_1$};
+			\node [font=\LARGE] at (13,18) {L};
+			\node [font=\LARGE] at (14,21.5) {D};
+			\node [font=\LARGE] at (16.75,17.75) {$C_2$};
+			\node [font=\LARGE] at (20.5,18.5) {$R_L$};
+			\node [font=\LARGE] at (18.5,16.75) {$U_A$};
+			\node [font=\LARGE] at (8.25,16.75) {$U_E$};
+			\node [font=\LARGE] at (10.5,21.75) {$U_L$};
+			\draw  (15.5,19) -- (15.5,18.5);
+			\draw  (15.25,18.75) -- (15.75,18.75);
+			\draw  (17.25,21.5) -- (17.25,21);
+			\draw (17,21.25) -- (17.5,21.25);
+			\draw  (17.25,14.75) -- (17.75,14.75);
+			\draw [->, thick] (9.75,21.25) -- (11.5,21.25);
+			
+			% Verbindung von linkem Kreis bis Spulenanfang
+			\draw (9.5,20.5) -- (9.9,20.5);
+			
+			% Spule (gleichgerichtete Sinuswelle, verlängert)
+			\draw[thick, domain=0:3*pi, samples=150]
+			plot (\x/6 + 9.9, {0.2*abs(sin(deg(\x))) + 20.5});
+			
+			% Verbindung vom Spulenende bis rechtem Kreis
+			\draw (11.45,20.5) -- (11.75,20.5);
+			
+			
+			
+		\end{tikzpicture}
+	}
+	\caption{Aufwärtswandler}
+	\label{fig:Aufwärtswandler}
+\end{figure}
 
 \bigskip
 
@@ -95,43 +255,43 @@ Der MPM3610 ist ein synchrones, gleichgerichtetes Abwärtswandlermodul \ref{fig:
 
 \bigskip
 
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=0.8\textwidth]{MWIVR/BlockDiagrammSpannungswandler}
-%	\caption{Funktions Block-Diagramm Spannungswandler}
-%	\label{fig:FBDS}
-%\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{MPM3610/BlockdiagrammSpannungswandler}
+	\caption{Funktions Block-Diagramm Spannungswandler}
+	\label{fig:FBDS}
+\end{figure}
 
 Dabei kann der Wandler zwischen drei Arbeitsmodi unterscheiden: Erweiterte asynchrone Modulation (AAM, diskontinuierlicher Leitungsmodus (DCM) und kontinuierlicher Leitungsmodus (CCM). \cite{MPS:2015}
 
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=0.8\textwidth]{MWIVR/BeispielanwendungSpannungswandler}
-%	\caption{Beispielanwendung Spannungswandler}
-%	\label{fig:BeispielSW}
-%\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{MPM3610/BeispielanwendungSpannungswandler}
+	\caption{Beispielanwendung Spannungswandler}
+	\label{fig:BeispielSW}
+\end{figure}
 
 \subsection{AAM-Regelbetrieb}
 
 Bei geringer Last arbeitet der MPM3610 im AAM-Modus \ref{fig:AAMRegelbetrieb}. In diesem Modus wird Energie eingespart, indem die Transistoren Impulse der Schaltzyklen überspringen. So wird nur so viel Energie geliefert, wie auch wirklich nötig ist. Hier wird intern über VAAM mit VCOMP verglichen. VAAM wird über einen Widerstand am AAM-Pin eingestellt. Wenn VCOMP < VAAM, dann ist die Last sehr klein und Schaltzyklen werden übersprungen, was Energie spart. Wenn VCOMP > VAAM, dann ist die Last höher und es wird mehr Energie benötigt. Das bedeutet, dass der interne Takt wieder freigegeben wird bzw. Schaltzyklen stattfinden. Der HS-FET (High-Side-MOSFET) wird eingeschaltet bei höherer Last. Dieser ist zwischen VIN und Spule geschaltet und leitet den Stromfluss in die Spule (VILsense). Diese wird solange aufgeladen, bis der durch VCOMP vorgegebene Zielstrom erreicht wird, woraufhin der HS-FET wieder abschaltet. \cite{MPS:2015}
 
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=0.8\textwidth]{MWIVR/AAM-Regelbetrieb}
-%	\caption{Spannungswandler AAM-Regelbetrieb}
-%	\label{fig:AAMRegelbetrieb}
-%\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{MPM3610/aamRegelbetrieb}
+	\caption{Spannungswandler AAM-Regelbetrieb}
+	\label{fig:AAMRegelbetrieb}
+\end{figure}
 
 \subsection{DCM-Steuerungsbetrieb}
 
 Mit steigendem Ausgangsstrom wird VCOMP hochgefahren und signalisiert dem Regler, dass mehr Energie benötigt wird. Sobald VCOMP > VAAM ist, wechselt das Gerät in den DCM-Modus \ref{fig:DCMSteuerungsbetrieb} und startet einen PWM-Zyklus mit einem internen 2-MHz-Takt. Der HS-FET wird eingeschaltet und bleibt an, bis VILsense den von VCOMP gesetzten Zielwert erreicht. Nach einer kurzen Totzeit schaltet sich der LS-FET ein und leitet den Strom zum Ausgang und zur Masse, bis der Induktivitätsstromwert auf Null sinkt. So wird die benötigte Ausgangsspannung geregelt. \cite{MPS:2015}
 
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=0.8\textwidth]{MWIVR/DCM-Steuerungsbetrieb}
-%	\caption{Spannungswandler DCM-Steuerungsbetrieb}
-%	\label{fig:DCMSteuerungsbetrieb}
-%\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{MPM3610/dcmSteuerungsbetrieb}
+	\caption{Spannungswandler DCM-Steuerungsbetrieb}
+	\label{fig:DCMSteuerungsbetrieb}
+\end{figure}
 
 
 \subsection{CCM-Steuerbetrieb}
@@ -186,12 +346,12 @@ Optional kann eine RC-Snubber-Schaltung eingesetzt werden, um Spannungsspitzen z
 
 Der Wirkungsgrad des Spannungswandlers für die Umwandlung auf 3,3 V Ausgangsspannung \ref{fig:WirkungsgradSpannungswandler} , mit welcher der Arduino arbeitet, ist für Ströme im Bereich von 0,01 A bis ca. 0,1 A bei höherer Eingangspannung größer. Für Ströme im Bereich von ca. 0,1 A bis 1 A sinkt der Wirkungsgrad mit zunehmender Eingangsspannung. 
 
-%\begin{figure}[h]
-%	\centering
-%	\includegraphics[width=0.8\textwidth]{MWIVR/WirkungsgradSpannungswandler}
-%	\caption{Spannungswandler Wirkungsgrad \cite{MPS:2015}}
-%	\label{fig:WirkungsgradSpannungswandler}
-%\end{figure}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{MPM3610/spannungswandlerWirkungsgrad}
+	\caption{Spannungswandler Wirkungsgrad \cite{MPS:2015}}
+	\label{fig:WirkungsgradSpannungswandler}
+\end{figure}
 
 
 \section{Spezifikationen}

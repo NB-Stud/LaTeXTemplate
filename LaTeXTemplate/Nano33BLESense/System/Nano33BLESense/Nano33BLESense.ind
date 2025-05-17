@@ -15,35 +15,35 @@
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 13, 64
-  \item GPIO, 13, 64, 65
+    \subitem  \emph  {see} GPIO, 13, 68
+  \item GPIO, 13, 68, 69
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 13, 64, 65
+  \item I\textsuperscript  {2}C, 13, 68, 69
   \item IMU, 13, 47
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 64
+    \subitem  \emph  {see} I\textsuperscript  {2}C, 13, 68
 
   \indexspace
 
-  \item SCL, 13, 64, 65
-  \item SDA, 13, 64, 65
+  \item SCL, 13, 68, 69
+  \item SDA, 13, 68, 69
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 13, 64
+    \subitem  \emph  {see} SCL, 13, 68
   \item Serial Data
-    \subitem  \emph  {see} SDA, 13, 64
+    \subitem  \emph  {see} SDA, 13, 68
 
   \indexspace
 
-  \item UART, 13, 64, 65
+  \item UART, 13, 68, 69
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 13, 64
+    \subitem  \emph  {see} UART, 13, 68
 
   \indexspace
 
-  \item VCC, 13, 64, 65
+  \item VCC, 13, 68, 69
   \item Voltage at the Common Collector
-    \subitem  \emph  {see} VCC, 13, 64
+    \subitem  \emph  {see} VCC, 13, 68
 
 \end{theindex}

@@ -22,33 +22,28 @@ Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
 Database file #4: ../../../MLbib/MyLiterature.bib
-I was expecting a `,' or a `}'---line 151 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 141 of file ../../../MLbib/MyLiterature.bib
  :  
- :  note      = {\textcolor{blue}{\href{../../../MLbib/conradPumpe.pdf}{[pdf]}}},
+ :  note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/conradPumpe.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 229 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 205 of file ../../../MLbib/MyLiterature.bib
  :   
- :   note      = {\textcolor{blue}{\href{../../../MLbib/flukeOnline.pdf}{[pdf]}}},
+ :   note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/flukeOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 391 of file ../../../MLbib/MyLiterature.bib
+Repeated entry---line 323 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 663 of file ../../../MLbib/MyLiterature.bib
- :   
- :   note      = {\textcolor{blue}{\href{../../../MLbib/kippschalterOnline.pdf}{[pdf]}}},
+I was expecting a `,' or a `}'---line 685 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  urldate   = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 887 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 703 of file ../../../MLbib/MyLiterature.bib
  :  
- :  urldate      = {2025-05-04}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 903 of file ../../../MLbib/MyLiterature.bib
- :  
- :  urldate      = {2025-05-13}
+ :  urldate   = {2025-05-13}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Arduino:2025"
@@ -57,43 +52,43 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 42 entries,
             6402 wiz_defined-function locations,
-            1473 strings with 17042 characters,
-and the built_in function-call counts, 238365 in all, are:
-= -- 15524
-> -- 6217
-< -- 1897
-+ -- 6552
-- -- 3102
-* -- 15874
-:= -- 23271
+            1471 strings with 17083 characters,
+and the built_in function-call counts, 214604 in all, are:
+= -- 13238
+> -- 5972
+< -- 1863
++ -- 5753
+- -- 2922
+* -- 13800
+:= -- 20133
 add.period$ -- 0
 call.type$ -- 42
-change.case$ -- 45
+change.case$ -- 43
 chr.to.int$ -- 227
-cite$ -- 86
-duplicate$ -- 25060
-empty$ -- 22102
-format.name$ -- 2383
-if$ -- 49641
+cite$ -- 84
+duplicate$ -- 23260
+empty$ -- 20108
+format.name$ -- 2229
+if$ -- 44744
 int.to.chr$ -- 0
-int.to.str$ -- 126
+int.to.str$ -- 123
 missing$ -- 0
-newline$ -- 1123
-num.names$ -- 2275
-pop$ -- 14149
+newline$ -- 1065
+num.names$ -- 2296
+pop$ -- 13954
 preamble$ -- 1
-purify$ -- 1029
+purify$ -- 996
 quote$ -- 0
-skip$ -- 9169
+skip$ -- 9031
 stack$ -- 0
-substring$ -- 25473
-swap$ -- 6210
-text.length$ -- 1419
-text.prefix$ -- 68
+substring$ -- 20269
+swap$ -- 6054
+text.length$ -- 1384
+text.prefix$ -- 75
 top$ -- 1
 type$ -- 1416
 warning$ -- 0
-while$ -- 2801
+while$ -- 2497
 width$ -- 0
-write$ -- 1082
-(There were 6 error messages)
+write$ -- 1024
+(There were 5 error messages)
