@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  17 MAY 2025 21:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  17 MAY 2025 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1823,54 +1823,6 @@ l.14 \chapter
 
 ]
 chapter 2.
-
-! LaTeX Error: Environment circuitikz undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 	}
-       %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-<argument> ...e {every node}=[font=\LARGE ] \draw 
-                                                  (-156.75,-250.75) to[europ...
-l.26 	}
-       %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... resistor] (-143.25,-250.75); \draw 
-                                                  (-143.5,-253.5) to[europea...
-l.26 	}
-       %
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{figure} on input line 18 ended by \end{circuitikz}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 	}
-       %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ) (./Chapters/de/Assembly.tex
 
 [3]
@@ -1889,18 +1841,19 @@ chapter 3.
 
 ]
 chapter 4.
-) (./Chapters/de/FinalSteps.tex
-
-[7]
-
-[8
 
 
-]
+[7{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+(./Chapters/de/FinalSteps.tex
+
+[8]
 chapter 5.
 )
 
-[9]
+[9
+
+
+]
 
 [10
 
@@ -1914,10 +1867,6 @@ LaTeX Warning: Empty bibliography on input line 73.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `"Montageanleitung Magic Faucet Fountain".out
 ' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1927,32 +1876,34 @@ in".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59209 strings out of 473190
- 1463194 string characters out of 5719979
- 2492408 words of memory out of 5000000
- 81492 multiletter control sequences out of 15000+600000
- 602372 words of font info for 209 fonts, out of 8000000 for 9000
+ 59324 strings out of 473190
+ 1465290 string characters out of 5719979
+ 2495351 words of memory out of 5000000
+ 81558 multiletter control sequences out of 15000+600000
+ 605625 words of font info for 230 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,10n,111p,10935b,2483s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{figure.2.1} has been referenced but does not exist,
- replaced by a fixed one
+pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
+, replaced by a fixed one
 
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texli
 ve/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/texlive/2025/te
 xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/f
-onts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1
-/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm
--super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfs
-l1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb>
-<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texliv
-e/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2025/tex
-mf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on "Montageanleitung Magic Faucet Fountain.pdf" (19 pages, 19858
-2 bytes).
+onts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm
+-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfr
+m1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texliv
+e/2025/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texlive/2025/tex
+mf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fo
+nts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/
+public/cm-super/sftt1095.pfb>
+Output written on "Montageanleitung Magic Faucet Fountain.pdf" (19 pages, 24409
+5 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 39501 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 236 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 47693 words of extra memory for PDF output out of 51595 (max. 10000000)
 
