@@ -20,8 +20,7 @@ Bluetooth-Module sind elektronische Komponenten, die drahtlose Kommunikation zwi
 
 \section{Grundlegende Informationen}
 Bluetooth-Module sind spezialisierte Hardwarekomponenten, die eine drahtlose Kommunikation zwischen Geräten über kurze Distanzen ermöglichen. Typischerweise decken sie Reichweiten von 10 bis 30 Metern ab, abhängig von Umgebungsfaktoren wie Wänden oder Störquellen. Im Kern bestehen diese Module aus einem Bluetooth-Chip, einer Antenne sowie unterstützender Elektronik wie Spannungsreglern oder Schnittstellen-ICs. Um Platz und Energie zu sparen, werden sie häufig als System-on-a-Chip (SoC) realisiert, bei dem alle notwendigen Komponenten in einem einzigen, kompakten Bauteil integriert sind.
-Die Technologie nutzt das 2,4-GHz-ISM-Band (2400–2483,5 MHz), ein lizenzfreies Frequenzspektrum, das auch von WLAN, Mikrowellen und anderen Funkstandards genutzt wird. Um Interferenzen zu vermeiden, setzt Bluetooth auf Frequency Hopping: Das Modul wechselt bis zu 1600-mal pro Sekunde zwischen 79 definierten Kanälen, wobei jeder Kanal eine Bandbreite von 1 MHz besitzt. Die genaue Frequenz eines Kanals k. \\
-k lässt sich durch die Gleichung
+Die Technologie nutzt das 2,4-GHz-ISM-Band (2400–2483,5 MHz), ein lizenzfreies Frequenzspektrum, das auch von WLAN, Mikrowellen und anderen Funkstandards genutzt wird. Um Interferenzen zu vermeiden, setzt Bluetooth auf Frequency Hopping: Das Modul wechselt bis zu 1600-mal pro Sekunde zwischen 79 definierten Kanälen, wobei jeder Kanal eine Bandbreite von 1 MHz besitzt. Die genaue Frequenz eines Kanals k lässt sich durch die Gleichung
 \begin{equation}
 	f_k =2402+k \: [MHz] 
 \end{equation}
@@ -409,8 +408,9 @@ Optional kann man noch die Bibliothek HC05Libary installieren, denn mit dieser B
 \end{itemize}
 
 
-\section{Einfacher Code}
-Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der folgende Code verwendet werden. Der Code überprüft ob das HC-05 mit dem Smartphone verbunden ist und ob die Übertragung von Daten Funktioniert. Um das Smartphone mit dem HC-05 zu verbinden wird ebenfalls ein Code benötigt dieser ist falls er nicht verändert wurde: 1234 oder 0000 falls der Code geändert wurde kann dieser über ein I2C und einem entsprechenden Code ausgelesen werden. \ref{code:bluetoothEinfach}
+\section{Tests}
+
+Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der folgende Code verwendet werden. Der Code überprüft ob das HC-05 mit dem Smartphone verbunden ist und ob die Übertragung von Daten Funktioniert. Um das Smartphone mit dem HC-05 zu verbinden wird ein Code benötigt dieser ist falls er nicht verändert wurde: 1234 oder 0000 falls der Code geändert wurde kann dieser über ein I2C und einem entsprechenden Programmbefehl ausgelesen werden. \ref{code:bluetoothEinfach}
 
 \begin{code}[H]
 	\caption{Code zur Überprüfung der Funktionalität}
@@ -419,7 +419,6 @@ Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der
 \end{code}
 
 
-\section{Tests}
 
 \section{Einfache Anwendung}
 Als Beispielhafte Anwendung für den HC-05 kann das Modul über einen Arduino und einem Relais mit einer Stehlampe verschaltet  werden. Zu sehen in folgendem Code: \ref{code:bluetoothAnwendung}. Wenn man das System dann mit einem Smartphone verbindet kann die Stehlampe über das System mit den HC-05 ein und ausgeschaltet werden. Das System kann folgenderweise verbunden werden \ref{tab:Pin Belegung}: 
@@ -449,3 +448,7 @@ Die Stehlampe wird dann noch mit dem Relais verbunden. Dann kann auch schon der 
 
 
 \section{Further Readings}
+
+
+
+
