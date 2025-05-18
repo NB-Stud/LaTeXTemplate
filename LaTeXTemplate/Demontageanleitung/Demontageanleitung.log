@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  18 MAY 2025 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  18 MAY 2025 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Montageanleitung Magic Faucet Fountain.tex"
-(./Montageanleitung Magic Faucet Fountain.tex
+**Demontageanleitung.tex
+(./Demontageanleitung.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrbook.cls
@@ -900,10 +900,10 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 \@indexfile=\write4
-\openout4 = `"Montageanleitung Magic Faucet Fountain.idx"'.
+\openout4 = `Demontageanleitung.idx'.
 
 
-Writing index file "Montageanleitung Magic Faucet Fountain".idx
+Writing index file Demontageanleitung.idx
 (c:/texlive/2025/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2021/11/10 v5.6 Nomenclature package
 
@@ -925,10 +925,10 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \nomitemsep=\skip96
 )
 \@nomenclaturefile=\write5
-\openout5 = `"Montageanleitung Magic Faucet Fountain.nlo"'.
+\openout5 = `Demontageanleitung.nlo'.
 
-Package nomencl Info: Writing nomenclature file "Montageanleitung Magic Faucet 
-Fountain".nlo on input line 70.
+Package nomencl Info: Writing nomenclature file Demontageanleitung.nlo on input
+ line 70.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
@@ -1513,125 +1513,50 @@ File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 ))
-(c:/texlive/2025/texmf-dist/tex/latex/circuitikz/circuitikz.sty
-Package: circuitikz 2025/03/21{} The CircuiTikz circuit drawing package version
- 1.7.2
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
-e.tex
-File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen312
-\pgfarrowlength=\dimen313
-\pgfarrowwidth=\dimen314
-\pgfarrowlinewidth=\dimen315
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
-brarybending.code.tex
-File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
-File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
-
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransform
-ations.code.tex
-File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgftransformnonlinearflatness=\dimen316
-)
-(c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.cod
-e.tex
-File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@curvilinear@time@a=\dimen317
-\pgf@curvilinear@length@a=\dimen318
-\pgf@curvilinear@length@b=\dimen319
-\pgf@curvilinear@length@c=\dimen320
-\pgf@curvilinear@length@d=\dimen321
-)
-\pgf@arrows@the@rigidity=\dimen322
-)) (c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count564
-\pgf@circ@count@b=\count565
-\pgf@circ@count@c=\count566
-\pgf@circ@res@up=\dimen323
-\pgf@circ@res@down=\dimen324
-\pgf@circ@res@zero=\dimen325
-\pgf@circ@res@left=\dimen326
-\pgf@circ@res@right=\dimen327
-\pgf@circ@res@other=\dimen328
-\pgf@circ@res@step=\dimen329
-\pgf@circ@res@temp=\dimen330
-\pgf@circ@Rlen=\dimen331
-\pgf@circ@scaled@Rlen=\dimen332
-\pgfstartlinewidth=\dimen333
-) (c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
-\ctikz@scratchbox=\box97
-)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count567
-)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen334
-)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
-(c:/texlive/2025/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
-(c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count568
-\float@exts=\toks60
-\float@box=\box98
-\@float@everytoks=\toks61
-\@floatcapt=\box99
-)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count569
-\@quotereset=\count570
-(./Montageanleitung Magic Faucet Fountain.aux
+\@quotelevel=\count564
+\@quotereset=\count565
+(./Demontageanleitung.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 (babel)             Reported  on input line 14.
 )
-\openout1 = `"Montageanleitung Magic Faucet Fountain.aux"'.
+\openout1 = `Demontageanleitung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count571
-\scratchdimen=\dimen335
-\scratchbox=\box100
-\nofMPsegments=\count572
-\nofMParguments=\count573
-\everyMPshowfont=\toks62
-\MPscratchCnt=\count574
-\MPscratchDim=\dimen336
-\MPnumerator=\count575
-\makeMPintoPDFobject=\count576
-\everyMPtoPDFconversion=\toks63
+\scratchcounter=\count566
+\scratchdimen=\dimen312
+\scratchbox=\box97
+\nofMPsegments=\count567
+\nofMParguments=\count568
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count569
+\MPscratchDim=\dimen313
+\MPnumerator=\count570
+\makeMPintoPDFobject=\count571
+\everyMPtoPDFconversion=\toks61
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1641,12 +1566,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 34.
 
-(./Montageanleitung Magic Faucet Fountain.out)
-(./Montageanleitung Magic Faucet Fountain.out)
+(./Demontageanleitung.out) (./Demontageanleitung.out)
 \@outlinefile=\write7
-\openout7 = `"Montageanleitung Magic Faucet Fountain.out"'.
+\openout7 = `Demontageanleitung.out'.
 
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
@@ -1655,7 +1579,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 35.
+(scrbook)           before \begin{document} on input line 34.
 
 (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1663,10 +1587,10 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
-\BKM@id=\count577
+\BKM@id=\count572
 ))
-\c@lstlisting=\count578
-Package tocbasic Info: setting babel extension for `lol' on input line 35.
+\c@lstlisting=\count573
+Package tocbasic Info: setting babel extension for `lol' on input line 34.
 \scr@dte@lstlisting@maxnumwidth=\skip98
 
 (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionar
@@ -1675,7 +1599,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 35.
+or `german'. on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1731,36 +1655,35 @@ File: german.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `"Montageanleitung Magic Faucet Fountain.bcf"'.
+\openout3 = `Demontageanleitung.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"Montageanleitung Magic Faucet Fountain".bbl' 
-found.
+Package biblatex Info: ... file 'Demontageanleitung.bbl' found.
 
-(./Montageanleitung Magic Faucet Fountain.bbl)
-Package biblatex Info: Reference section=0 on input line 35.
-Package biblatex Info: Reference segment=0 on input line 35.
+(./Demontageanleitung.bbl)
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 35.
+ on input line 34.
 
-LaTeX Info: Redefining \microtypecontext on input line 35.
-Package microtype Info: Applying patch `item' on input line 35.
-Package microtype Info: Applying patch `toc' on input line 35.
-Package microtype Info: Applying patch `eqnum' on input line 35.
-Package microtype Info: Applying patch `footnote' on input line 35.
-Package microtype Info: Applying patch `verbatim' on input line 35.
-LaTeX Info: Redefining \microtypesetup on input line 35.
+LaTeX Info: Redefining \microtypecontext on input line 34.
+Package microtype Info: Applying patch `item' on input line 34.
+Package microtype Info: Applying patch `toc' on input line 34.
+Package microtype Info: Applying patch `eqnum' on input line 34.
+Package microtype Info: Applying patch `footnote' on input line 34.
+Package microtype Info: Applying patch `verbatim' on input line 34.
+LaTeX Info: Redefining \microtypesetup on input line 34.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 35.
+LaTeX Info: Redefining \showhyphens on input line 34.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1813,12 +1736,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/
 texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
-Package tocbasic Info: character protrusion at toc deactivated on input line 44
+Package tocbasic Info: character protrusion at toc deactivated on input line 42
 .
 
-(./Montageanleitung Magic Faucet Fountain.toc)
+(./Demontageanleitung.toc)
 \tf@toc=\write8
-\openout8 = `"Montageanleitung Magic Faucet Fountain.toc"'.
+\openout8 = `Demontageanleitung.toc'.
 
 
 
@@ -1831,11 +1754,11 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 44
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 48
+Package tocbasic Info: character protrusion at lof deactivated on input line 46
 .
- (./Montageanleitung Magic Faucet Fountain.lof)
+ (./Demontageanleitung.lof)
 \tf@lof=\write9
-\openout9 = `"Montageanleitung Magic Faucet Fountain.lof"'.
+\openout9 = `Demontageanleitung.lof'.
 
 
 
@@ -1848,11 +1771,11 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 48
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 52
+Package tocbasic Info: character protrusion at lot deactivated on input line 50
 .
- (./Montageanleitung Magic Faucet Fountain.lot)
+ (./Demontageanleitung.lot)
 \tf@lot=\write10
-\openout10 = `"Montageanleitung Magic Faucet Fountain.lot"'.
+\openout10 = `Demontageanleitung.lot'.
 
 
 
@@ -1866,12 +1789,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 52
 
 ] (./Chapters/de/Introduction.tex
 chapter 1.
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 23--28
-[] 
- []
-
-) (./Chapters/de/BillOfMaterials.tex
+) (./Chapters/de/ToolsAndEquipment.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1879,7 +1797,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.14 \chapter
-             {Material- und Werkzeugliste} [1
+             {Erforderliche Werkzeuge und Hilfsmittel} [1
 
 
 ]
@@ -1889,104 +1807,70 @@ l.14 \chapter
 
 ]
 chapter 2.
+) (./Chapters/de/DisassemblyProcedure.tex
 
+[3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[3
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.146 
-      ]) (./Chapters/de/Assembly.tex
-
-Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported  on input line 14.
 [4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.14 \chapter
-             {Schrittweise Montage}
-pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.14 \chapter
-             {Schrittweise Montage}]
-chapter 3.
-) (./Chapters/de/FunctionalTest.tex
-
-[5
 
 
 ]
+chapter 3.
+) (./Chapters/de/Storage.tex
+
+[5]
 
 [6
 
 
 ]
 chapter 4.
-
-
-[7{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
-(./Chapters/de/FinalSteps.tex
-
-[8]
-chapter 5.
 )
 
-[9
+[7]
+
+[8
 
 
 ]
 
-[10
+LaTeX Warning: Empty bibliography on input line 72.
 
-
-]
-
-LaTeX Warning: Empty bibliography on input line 74.
-
-(./Montageanleitung Magic Faucet Fountain.aux)
+(./Demontageanleitung.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `"Montageanleitung Magic Faucet Fountain".out
-' has not changed.
+Package rerunfilecheck Info: File `Demontageanleitung.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package logreq Info: Writing requests to '"Montageanleitung Magic Faucet Founta
-in".run.xml'.
-\openout1 = `"Montageanleitung Magic Faucet Fountain.run.xml"'.
+Package logreq Info: Writing requests to 'Demontageanleitung.run.xml'.
+\openout1 = `Demontageanleitung.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 77441 strings out of 473190
- 2011386 string characters out of 5719979
- 3282211 words of memory out of 5000000
- 99607 multiletter control sequences out of 15000+600000
- 606527 words of font info for 233 fonts, out of 8000000 for 9000
+ 59143 strings out of 473190
+ 1460784 string characters out of 5719979
+ 2492161 words of memory out of 5000000
+ 81445 multiletter control sequences out of 15000+600000
+ 598972 words of font info for 196 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
- 110i,10n,111p,10935b,2483s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
-live/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/texlive/2025/
-texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist
-/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/typ
-e1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/
-cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/s
-frm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pf
-b><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb><c:/texl
-ive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/t
-exmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texlive/2025/texmf-dist/
-fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type
-1/public/cm-super/sfsx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/c
-m-super/sftt1095.pfb>
-Output written on "Montageanleitung Magic Faucet Fountain.pdf" (17 pages, 26028
-7 bytes).
+ 110i,7n,111p,10913b,2483s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texli
+ve/2025/texmf-dist/fonts/type1/public/cm-super/sfbl2074.pfb><c:/texlive/2025/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/f
+onts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm
+-super/sfss2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfs
+x1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb>
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on Demontageanleitung.pdf (15 pages, 164152 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 49741 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 35397 words of extra memory for PDF output out of 35830 (max. 10000000)
 
