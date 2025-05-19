@@ -125,7 +125,7 @@
 \contentsline {section}{\numberline {9.5}Tests}{89}{section.9.5}%
 \contentsline {section}{\numberline {9.6}Einfache Anwendung}{89}{section.9.6}%
 \contentsline {section}{\numberline {9.7}Further Readings}{92}{section.9.7}%
-\contentsline {chapter}{\numberline {10}Bluetooth Modul HC-05}{93}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Bluetooth Module}{93}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Einleitung}{93}{section.10.1}%
 \contentsline {section}{\numberline {10.2}Grundlegende Informationen}{93}{section.10.2}%
 \contentsline {subsection}{\numberline {10.2.1}Bluetooth-Varianten}{93}{subsection.10.2.1}%
@@ -144,7 +144,7 @@
 \contentsline {subsection}{\numberline {10.5.1}Installation und Download}{98}{subsection.10.5.1}%
 \contentsline {section}{\numberline {10.6}Tests}{99}{section.10.6}%
 \contentsline {section}{\numberline {10.7}Einfache Anwendung}{100}{section.10.7}%
-\contentsline {section}{\numberline {10.8}Further Readings}{101}{section.10.8}%
+\contentsline {section}{\numberline {10.8}Further Readings}{102}{section.10.8}%
 \contentsline {chapter}{\numberline {11}Kippschalter: GOOBAY 10013}{103}{chapter.11}%
 \contentsline {section}{\numberline {11.1}Einleitung}{103}{section.11.1}%
 \contentsline {section}{\numberline {11.2}Grundlegende Informationen}{103}{section.11.2}%

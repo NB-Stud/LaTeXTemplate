@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11020 items from 5000.
+Reallocated field_info (elt_size=4) to 11300 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -36,59 +36,64 @@ Repeated entry---line 323 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 685 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 695 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 703 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 713 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-13}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 837 of file ../../../MLbib/MyLiterature.bib
+ : @online{Wolles 
+ :                Elektronikkiste:2019,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Arduino:2025"
+Warning--I didn't find a database entry for "WollesElektronikkiste:2019"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 42 entries,
+You've used 43 entries,
             6402 wiz_defined-function locations,
-            1471 strings with 17083 characters,
-and the built_in function-call counts, 214604 in all, are:
-= -- 13238
-> -- 5972
-< -- 1863
-+ -- 5753
-- -- 2922
-* -- 13800
-:= -- 20133
+            1478 strings with 17249 characters,
+and the built_in function-call counts, 220561 in all, are:
+= -- 13676
+> -- 6063
+< -- 1903
++ -- 5854
+- -- 2948
+* -- 14240
+:= -- 20692
 add.period$ -- 0
-call.type$ -- 42
-change.case$ -- 43
+call.type$ -- 43
+change.case$ -- 44
 chr.to.int$ -- 227
-cite$ -- 84
-duplicate$ -- 23260
-empty$ -- 20108
-format.name$ -- 2229
-if$ -- 44744
+cite$ -- 86
+duplicate$ -- 23820
+empty$ -- 20701
+format.name$ -- 2281
+if$ -- 46029
 int.to.chr$ -- 0
-int.to.str$ -- 123
+int.to.str$ -- 126
 missing$ -- 0
-newline$ -- 1065
-num.names$ -- 2296
-pop$ -- 13954
+newline$ -- 1089
+num.names$ -- 2352
+pop$ -- 14295
 preamble$ -- 1
-purify$ -- 996
+purify$ -- 1019
 quote$ -- 0
-skip$ -- 9031
+skip$ -- 9239
 stack$ -- 0
-substring$ -- 20269
-swap$ -- 6054
-text.length$ -- 1384
-text.prefix$ -- 75
+substring$ -- 21099
+swap$ -- 6190
+text.length$ -- 1414
+text.prefix$ -- 77
 top$ -- 1
-type$ -- 1416
+type$ -- 1450
 warning$ -- 0
-while$ -- 2497
+while$ -- 2555
 width$ -- 0
-write$ -- 1024
-(There were 5 error messages)
+write$ -- 1047
+(There were 6 error messages)

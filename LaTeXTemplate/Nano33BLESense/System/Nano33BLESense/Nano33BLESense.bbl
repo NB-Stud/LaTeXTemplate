@@ -544,6 +544,30 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Osterhage:2018}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=OWW}{%
+         family={Osterhage},
+         familyi={O\bibinitperiod},
+         given={Wolgang\bibnamedelima W.},
+         giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{OWW1}
+    \strng{fullhash}{OWW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ost18}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{isbn}{978-3-662-57903-9}
+    \field{title}{Sicherheitskonzepte in der mobilen Kommunikation}
+    \field{year}{2018}
+  \endentry
+
   \entry{Paradise:2025}{online}{}{}
     \name{author}{1}{}{%
       {{hash=P}{%

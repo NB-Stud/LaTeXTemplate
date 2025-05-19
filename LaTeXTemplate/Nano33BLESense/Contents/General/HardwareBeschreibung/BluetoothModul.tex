@@ -13,10 +13,10 @@
 %%%
 
 
-\chapter{Bluetooth Modul HC-05}
+\chapter{Bluetooth Module}
 
 \section{Einleitung}
-Bluetooth-Module sind elektronische Komponenten, die drahtlose Kommunikation zwischen Geräten ermöglichen. Sie wandeln elektrische Signale in Funkwellen um und sorgen so für eine  zuverlässige Datenübertragung über kurze Distanzen. Grundsätzlich unterscheidet man Bluetooth Classic (für kontinuierliche Verbindungen wie Audio-Streaming) und Bluetooth Low Energy (BLE) (energiesparend für Geräte mit begrenzter Akkulaufzeit). Ihre Hauptaufgabe ist es, Geräte wie Kopfhörer, Sensoren oder Smart-Home-Systeme einfach und kabellos zu vernetzen – ohne komplexe Infrastruktur \cite{Sauter:2022}.
+Bluetooth-Module sind elektronische Komponenten, die drahtlose Kommunikation zwischen Geräten ermöglichen. Sie wandeln elektrische Signale in Funkwellen um und sorgen so für eine  zuverlässige Datenübertragung über kurze Distanzen. Grundsätzlich unterscheidet man Bluetooth Classic (für kontinuierliche Verbindungen wie Audio-Streaming) und Bluetooth Low Energy (BLE) (energiesparend für Geräte mit begrenzter Akkulaufzeit). Ihre Hauptaufgabe ist es, Geräte wie Kopfhörer, Sensoren oder Smart-Home-Systeme einfach und kabellos ohne komplexe Infrastruktur zu vernetzen \cite{Sauter:2022}.
 
 \section{Grundlegende Informationen}
 Bluetooth-Module sind spezialisierte Hardwarekomponenten, die eine drahtlose Kommunikation zwischen Geräten über kurze Distanzen ermöglichen. Typischerweise decken sie Reichweiten von 10 bis 30 Metern ab, abhängig von Umgebungsfaktoren wie Wänden oder Störquellen. Im Kern bestehen diese Module aus einem Bluetooth-Chip, einer Antenne sowie unterstützender Elektronik wie Spannungsreglern oder Schnittstellen-ICs. Um Platz und Energie zu sparen, werden sie häufig als System-on-a-Chip (SoC) realisiert, bei dem alle notwendigen Komponenten in einem einzigen, kompakten Bauteil integriert sind.
@@ -51,7 +51,7 @@ Die Reichweite eines Bluetooth-Moduls hängt maßgeblich von seiner Sendeleistun
 In der Praxis reduzieren Hindernisse wie Wände oder elektronische Störquellen diese Werte jedoch deutlich  \cite{Sauter:2022}.
 
 \subsection{Datenübertragung}
-Ein kritischer Aspekt ist die Sicherheit. Bluetooth verwendet AES-128-Verschlüsselung, um Daten vor unbefugtem Zugriff zu schützen. Beim Verbindungsaufbau (Pairing) kommen zudem Protokolle wie Elliptic Curve Diffie-Hellman (ECDH) zum Einsatz, die einen sicheren Schlüsselaustausch ermöglichen und Man-in-the-Middle-Angriffe erschweren. Dank standardisierter Profile – vordefinierter Regeln für spezifische Anwendungen – lassen sich Geräte unterschiedlicher Hersteller problemlos koppeln. Beispiele sind das *A2DP-Profil* für Audio-Streaming oder das HID-Profil für Tastaturen und Mäuse \cite{Sauter:2022}.
+Ein kritischer Aspekt ist die Sicherheit. Bluetooth verwendet AES-128-Verschlüsselung, um Daten vor unbefugtem Zugriff zu schützen. Beim Verbindungsaufbau (Pairing) kommen zudem Protokolle wie Elliptic Curve Diffie-Hellman (ECDH) zum Einsatz, die einen sicheren Schlüsselaustausch ermöglichen und Man-in-the-Middle-Angriffe erschweren. Dank standardisierter Profile – vordefinierter Regeln für spezifische Anwendungen – lassen sich Geräte unterschiedlicher Hersteller problemlos koppeln. Beispiele sind das "A2DP-Profil" für Audio-Streaming oder das HID-Profil für Tastaturen und Mäuse \cite{Sauter:2022}.
 
 \subsection{Anwendungen}
 
@@ -173,7 +173,7 @@ Im Detail umfassen die Leistungsmerkmale:
 		\end{itemize}
 	\item Sende- und Empfängerleistung 
 		\begin{itemize} 
-			\item Sendeleistung: +4 dBm (Klasse 2), geeignet für Reichweiten bis zu 10 m in offenen Räumen (Quelle 2, S. 1).
+			\item Sendeleistung: +4 dBm (Klasse 2), geeignet für Reichweiten bis zu 10 m in offenen Räumen \cite{HC05Datasheet:2010}
 			\item Empfindlichkeit: -80 dBm (typisch) bzw. -84 dBm bei einer Bitfehlerrate (BER) von 0,1 \% – ein Wert, der eine zuverlässige Verbindung auch bei schwachen Signalen ermöglicht \cite{HC05Datasheet:2010}\cite{ReicheltHC05:2025}.
 		\end{itemize}
 \end{enumerate}
@@ -448,6 +448,16 @@ Die Stehlampe wird dann noch mit dem Relais verbunden. Dann kann auch schon der 
 
 
 \section{Further Readings}
+W. Osterhage *Sicherheitskonzepte in der mobilen Kommunikation*. 5. Auflage. Springer, 2024. ISBN:  978-3-662-57903-9.\cite{Osterhage:2018}
+\begin{itemize}
+	\item Das Buch bietet einen guten Überblick über sicherheitsrelevante Aspekte mobiler Funktechnologien, einschließlich Bluetooth. Es behandelt grundlegende Bedrohungen und zeigt mögliche Schutzmaßnahmen auf.
+\end{itemize}
+
+W. Ewald *HC-05 und HC-06 Bluetooth Module* Wolles Elektronikkiste, 2019\\ URL:https://wolles-elektronikkiste.de/hc-05-und-hc-06-bluetooth-module.\cite{WollesElektronikkiste:2019}
+\begin{itemize}
+	\item Dies online Beitrag bietet einen Umfangreichen einstieg in die Grundlagen und Nutzung von den Bluetooth Modulen: HC-05 und HC-06.
+\end{itemize}
+
 
 
 
