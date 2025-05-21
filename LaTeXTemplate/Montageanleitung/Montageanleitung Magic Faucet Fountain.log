@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  18 MAY 2025 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  19 MAY 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1896,7 +1896,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.146 
+l.145 
       ]) (./Chapters/de/Assembly.tex
 
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
@@ -1907,41 +1907,114 @@ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.14 \chapter
-             {Schrittweise Montage}
+             {Montageablauf}
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.14 \chapter
-             {Schrittweise Montage}]
+             {Montageablauf}]
 chapter 3.
-) (./Chapters/de/FunctionalTest.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [5
 
 
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.100 	\item L
+              egen Sie die Kabel vorsichtig in die dafür vorgesehene seitli...
 ]
+Underfull \vbox (badness 6204) has occurred while \output is active []
+
+
 
 [6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.175 	\item S
+              tellen Sie sicher, dass der E-Kasten mit den bereits verbunden...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.175 	\item S
+              tellen Sie sicher, dass der E-Kasten mit den bereits verbunden...
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.224 	\item P
+              latzieren Sie die Dekosteine gleichmäßig auf dem Deckel. Die...
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.224 	\item P
+              latzieren Sie die Dekosteine gleichmäßig auf dem Deckel. Die...
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.309 \end{enumerate}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.309 \end{enumerate}
+                     ]) (./Chapters/de/FunctionalTest.tex
+
+[9
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.14 \chapter
+             {Inbetriebnahme und Funktionstest}]
+
+[10
 
 
 ]
 chapter 4.
 
 
-[7{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+[11{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
 (./Chapters/de/FinalSteps.tex
 
-[8]
+[12]
 chapter 5.
 )
 
-[9
+[13
 
 
 ]
 
-[10
+[14
 
 
 ]
@@ -1962,11 +2035,11 @@ in".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 77441 strings out of 473190
- 2011386 string characters out of 5719979
- 3282211 words of memory out of 5000000
- 99607 multiletter control sequences out of 15000+600000
- 606527 words of font info for 233 fonts, out of 8000000 for 9000
+ 77507 strings out of 473190
+ 2012422 string characters out of 5719979
+ 3282567 words of memory out of 5000000
+ 99667 multiletter control sequences out of 15000+600000
+ 606236 words of font info for 228 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,10n,111p,10935b,2483s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
@@ -1982,11 +2055,11 @@ exmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/texlive/2025/texmf-dist/
 fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type
 1/public/cm-super/sfsx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/c
 m-super/sftt1095.pfb>
-Output written on "Montageanleitung Magic Faucet Fountain.pdf" (17 pages, 26028
-7 bytes).
+Output written on "Montageanleitung Magic Faucet Fountain.pdf" (21 pages, 26652
+3 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
  49741 words of extra memory for PDF output out of 51595 (max. 10000000)
 
