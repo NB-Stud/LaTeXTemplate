@@ -1106,6 +1106,29 @@
     \field{year}{2022}
   \endentry
 
+  \entry{WollesElektronikkiste:2019}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wolfgang},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wol19}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF Literatur/HC-05 und
+  HC-06 Bluetooth.pdf}{[pdf]}}}
+    \field{title}{HC-05 und HC-06 Bluetooth-Modul}
+    \verb{url}
+    \verb https://wolles-elektronikkiste.de/hc-05-und-hc-06-bluetooth-module
+    \endverb
+    \field{year}{2019}
+  \endentry
+
   \entry{Goobay:2023}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=g}{%

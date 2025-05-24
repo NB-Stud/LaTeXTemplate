@@ -46,54 +46,49 @@ I was expecting a `,' or a `}'---line 723 of file ../../../MLbib/MyLiterature.bi
  :  urldate   = {2025-05-13}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 847 of file ../../../MLbib/MyLiterature.bib
- : @online{Wolles 
- :                Elektronikkiste:2019,
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Arduino:2025"
-Warning--I didn't find a database entry for "WollesElektronikkiste:2019"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 43 entries,
+You've used 44 entries,
             6402 wiz_defined-function locations,
-            1482 strings with 17492 characters,
-and the built_in function-call counts, 220613 in all, are:
-= -- 13676
-> -- 6063
-< -- 1903
-+ -- 5854
-- -- 2948
-* -- 14256
-:= -- 20692
+            1486 strings with 17687 characters,
+and the built_in function-call counts, 224326 in all, are:
+= -- 13866
+> -- 6145
+< -- 1935
++ -- 5907
+- -- 2976
+* -- 14510
+:= -- 20990
 add.period$ -- 0
-call.type$ -- 43
-change.case$ -- 44
+call.type$ -- 44
+change.case$ -- 45
 chr.to.int$ -- 227
-cite$ -- 86
-duplicate$ -- 23828
-empty$ -- 20709
-format.name$ -- 2281
-if$ -- 46037
+cite$ -- 88
+duplicate$ -- 24261
+empty$ -- 21104
+format.name$ -- 2331
+if$ -- 46850
 int.to.chr$ -- 0
-int.to.str$ -- 126
+int.to.str$ -- 128
 missing$ -- 0
-newline$ -- 1093
-num.names$ -- 2352
-pop$ -- 14295
+newline$ -- 1115
+num.names$ -- 2397
+pop$ -- 14628
 preamble$ -- 1
-purify$ -- 1019
+purify$ -- 1033
 quote$ -- 0
-skip$ -- 9235
+skip$ -- 9407
 stack$ -- 0
-substring$ -- 21099
-swap$ -- 6198
-text.length$ -- 1414
-text.prefix$ -- 77
+substring$ -- 21344
+swap$ -- 6319
+text.length$ -- 1444
+text.prefix$ -- 79
 top$ -- 1
-type$ -- 1450
+type$ -- 1484
 warning$ -- 0
-while$ -- 2555
+while$ -- 2595
 width$ -- 0
-write$ -- 1051
-(There were 6 error messages)
+write$ -- 1072
+(There were 5 error messages)

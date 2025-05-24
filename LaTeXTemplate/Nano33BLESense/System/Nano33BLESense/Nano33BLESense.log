@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  20 MAY 2025 14:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  24 MAY 2025 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4195,12 +4195,12 @@ Package scrkbase Info: You've told me to use the font selection of the element
 [62] (../../Contents/General/Materialliste Magic Faucet Fountain.tex
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 20--21
+Underfull \hbox (badness 4454) in paragraph at lines 21--22
 \T1/lmr/m/n/10 (+20) - HC-05 Blue^^?
  []
 
@@ -4210,15 +4210,15 @@ File: ../../Images/MateriallisteBilder/bluetoothModul.png Graphic file (type pn
 g)
 <use ../../Images/MateriallisteBilder/bluetoothModul.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/bluetoothModul.png  u
-sed on input line 22.
+sed on input line 23.
 (pdftex.def)             Requested size: 55.4806pt x 20.7116pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
 
-Underfull \hbox (badness 3343) in paragraph at lines 25--26
+Underfull \hbox (badness 3343) in paragraph at lines 26--27
 \T1/lmr/m/n/10 (+20) - Schalt^^?net^^?zteil
  []
 
@@ -4228,17 +4228,17 @@ File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 
 <use ../../Images/MateriallisteBilder/netzteilBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
-d on input line 27.
+d on input line 28.
 (pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
 <../../Images/MateriallisteBilder/pumpeBild.png, id=1113, 1003.75pt x 1003.75pt
 >
 File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpeBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/pumpeBild.png  used o
-n input line 32.
+n input line 33.
 (pdftex.def)             Requested size: 55.4806pt x 55.47444pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
@@ -4247,10 +4247,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/blaueLED.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/blaueLED.png  used on
- input line 37.
+ input line 38.
 (pdftex.def)             Requested size: 55.4806pt x 27.27643pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
@@ -4259,15 +4259,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/greenLED.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/greenLED.png  used on
- input line 42.
+ input line 43.
 (pdftex.def)             Requested size: 55.4806pt x 32.36188pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 \T1/lmr/m/n/10 (+20) - IRF9540N
  []
 
@@ -4276,10 +4276,10 @@ pt>
 File: ../../Images/MateriallisteBilder/mosfetBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/mosfetBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/mosfetBild.png  used 
-on input line 52.
+on input line 53.
 (pdftex.def)             Requested size: 55.4806pt x 41.88551pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
@@ -4289,7 +4289,7 @@ File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type
 png)
 <use ../../Images/MateriallisteBilder/kippschalterBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/kippschalterBild.png 
- used on input line 58.
+ used on input line 59.
 (pdftex.def)             Requested size: 27.7403pt x 65.0366pt.
 [63
 
@@ -4309,18 +4309,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [64 <../../Images/MateriallisteBilder/kippschalterBild.png>]
 chapter 7.
-Package biblatex Info: Reference segment=26 on input line 19.
-Package biblatex Info: Setting label 'refsegment:026' on input line 19.
-Package biblatex Info: Reference segment=27 on input line 22.
-Package biblatex Info: Setting label 'refsegment:027' on input line 22.
+Package biblatex Info: Reference segment=26 on input line 18.
+Package biblatex Info: Setting label 'refsegment:026' on input line 18.
+Package biblatex Info: Reference segment=27 on input line 21.
+Package biblatex Info: Setting label 'refsegment:027' on input line 21.
 
 
 [65
 
 
 ]
-Package biblatex Info: Reference segment=28 on input line 68.
-Package biblatex Info: Setting label 'refsegment:028' on input line 68.
+Package biblatex Info: Reference segment=28 on input line 67.
+Package biblatex Info: Setting label 'refsegment:028' on input line 67.
 
 
 
@@ -4331,18 +4331,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [66]
-Overfull \hbox (67.46603pt too wide) in paragraph at lines 171--171
+Overfull \hbox (67.46603pt too wide) in paragraph at lines 170--170
  [] 
  []
 
 
-Overfull \hbox (7.73613pt too wide) in paragraph at lines 183--184
+Overfull \hbox (7.73613pt too wide) in paragraph at lines 182--183
 \OML/lmm/m/it/10 v[]$ \T1/lmr/m/n/10 (-20) die Wellen^^?länge des Schalls berec
 h^^?nen [[]Wil22[]]. Diese be^^?trägt bei einer angenomme^^?
  []
 
 
-Overfull \hbox (10.48268pt too wide) in paragraph at lines 183--184
+Overfull \hbox (10.48268pt too wide) in paragraph at lines 182--183
 \T1/lmr/m/n/10 (-20) nen Fre^^?quenz von $\OML/lmm/m/it/10 f \OT1/lmr/m/n/10 (-
 20) = 40 []$ \T1/lmr/m/n/10 (-20) und der in Ab^^?schnitt []7.3.2[] berech^^?ne
 ten Schallgeschwindigkeit
@@ -4351,8 +4351,8 @@ ten Schallgeschwindigkeit
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package biblatex Info: Reference segment=29 on input line 294.
-Package biblatex Info: Setting label 'refsegment:029' on input line 294.
+Package biblatex Info: Reference segment=29 on input line 293.
+Package biblatex Info: Setting label 'refsegment:029' on input line 293.
 
 
 
@@ -4363,8 +4363,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [67]
-Package biblatex Info: Reference segment=30 on input line 334.
-Package biblatex Info: Setting label 'refsegment:030' on input line 334.
+Package biblatex Info: Reference segment=30 on input line 333.
+Package biblatex Info: Setting label 'refsegment:030' on input line 333.
 
 Underfull \vbox (badness 2426) has occurred while \output is active []
 
@@ -4380,11 +4380,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [68]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 346.
+(caption)                particular \caption on input line 345.
 See the caption package documentation for explanation.
 
-Package biblatex Info: Reference segment=31 on input line 361.
-Package biblatex Info: Setting label 'refsegment:031' on input line 361.
+Package biblatex Info: Reference segment=31 on input line 360.
+Package biblatex Info: Setting label 'refsegment:031' on input line 360.
 
 
 
@@ -4395,24 +4395,24 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [69]
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--390
+Underfull \hbox (badness 10000) in paragraph at lines 385--389
 
  []
 
-Package biblatex Info: Reference segment=32 on input line 394.
-Package biblatex Info: Setting label 'refsegment:032' on input line 394.
-Package biblatex Info: Reference segment=33 on input line 403.
-Package biblatex Info: Setting label 'refsegment:033' on input line 403.
+Package biblatex Info: Reference segment=32 on input line 393.
+Package biblatex Info: Setting label 'refsegment:032' on input line 393.
+Package biblatex Info: Reference segment=33 on input line 402.
+Package biblatex Info: Setting label 'refsegment:033' on input line 402.
 Package hyperref Info: bookmark level for unknown code defaults to 0 on input l
-ine 407.
+ine 406.
 (../../Code/Arduino/UltraSonicHCSR04/laufzeitMessung/laufzeitMessung.ino)
-Package biblatex Info: Reference segment=34 on input line 449.
-Package biblatex Info: Setting label 'refsegment:034' on input line 449.
+Package biblatex Info: Reference segment=34 on input line 448.
+Package biblatex Info: Setting label 'refsegment:034' on input line 448.
 
 
 
@@ -4434,7 +4434,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [71]
 (../../Code/Arduino/UltraSonicHCSR04/schwellenwertMeldung/schwellenwertMeldung.
 ino)
-Overfull \hbox (16.42801pt too wide) in paragraph at lines 456--456
+Overfull \hbox (16.42801pt too wide) in paragraph at lines 455--455
 [][][]|\T1/lmr/m/n/10 (-20) ../../Code/Arduino/UltraSonicHCSR04/schwellenwertMe
 ldung/schwellenwertMeldung.ino| 
  []
@@ -4464,8 +4464,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [73]
-Package biblatex Info: Reference segment=35 on input line 460.
-Package biblatex Info: Setting label 'refsegment:035' on input line 460.
+Package biblatex Info: Reference segment=35 on input line 459.
+Package biblatex Info: Setting label 'refsegment:035' on input line 459.
 
 (../../Code/Arduino/UltraSonicHCSR04/entfernungMessung/entfernungMessung.ino)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -4489,10 +4489,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [75]
-Package biblatex Info: Reference segment=36 on input line 506.
-Package biblatex Info: Setting label 'refsegment:036' on input line 506.
-Package biblatex Info: Reference segment=37 on input line 521.
-Package biblatex Info: Setting label 'refsegment:037' on input line 521.
+Package biblatex Info: Reference segment=36 on input line 505.
+Package biblatex Info: Setting label 'refsegment:036' on input line 505.
+Package biblatex Info: Reference segment=37 on input line 520.
+Package biblatex Info: Setting label 'refsegment:037' on input line 520.
 
 
 
@@ -4853,14 +4853,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [101]
-
-LaTeX Warning: Citation 'WollesElektronikkiste:2019' on page 102 undefined on i
-nput line 456.
-
-
-Overfull \hbox (87.65929pt too wide) in paragraph at lines 456--458
-\T1/lmr/m/n/10 (-20) URL:https://wolles-elektronikkiste.de/hc-05-und-hc-06-blue
-tooth-module.[[]] 
+Overfull \hbox (30.39636pt too wide) in paragraph at lines 456--459
+[][]$\T1/pcr/l/it/10 https : / / wolles-[]elektronikkiste . de / hc-[]05-[]und-
+[]hc-[]06-[]bluetooth-[]module$[][]\T1/lmr/m/n/10 (-20) .
  []
 
 ) (../../Contents/General/HardwareBeschreibung/Kippschalter.tex
@@ -5406,10 +5401,10 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 109509 strings out of 473190
- 2913970 string characters out of 5716853
- 4602848 words of memory out of 5000000
- 129862 multiletter control sequences out of 15000+600000
+ 109535 strings out of 473190
+ 2914876 string characters out of 5716853
+ 4604274 words of memory out of 5000000
+ 129887 multiletter control sequences out of 15000+600000
  764523 words of font info for 471 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3234s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5433,10 +5428,10 @@ mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
 lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
 aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (139 pages, 6851729 bytes).
+Output written on Nano33BLESense.pdf (139 pages, 6852816 bytes).
 PDF statistics:
- 3610 PDF objects out of 4296 (max. 8388607)
- 3284 compressed objects within 33 object streams
- 1280 named destinations out of 1440 (max. 500000)
+ 3617 PDF objects out of 4296 (max. 8388607)
+ 3291 compressed objects within 33 object streams
+ 1281 named destinations out of 1440 (max. 500000)
  108888 words of extra memory for PDF output out of 128383 (max. 10000000)
 

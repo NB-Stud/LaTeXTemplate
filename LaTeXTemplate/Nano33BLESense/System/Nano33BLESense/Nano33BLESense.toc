@@ -125,7 +125,7 @@
 \contentsline {section}{\numberline {9.5}Tests}{89}{section.9.5}%
 \contentsline {section}{\numberline {9.6}Einfache Anwendung}{89}{section.9.6}%
 \contentsline {section}{\numberline {9.7}Further Readings}{92}{section.9.7}%
-\contentsline {chapter}{\numberline {10}Bluetooth Module}{93}{chapter.10}%
+\contentsline {chapter}{\numberline {10}Bluetooth-Modul}{93}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Einleitung}{93}{section.10.1}%
 \contentsline {section}{\numberline {10.2}Grundlegende Informationen}{93}{section.10.2}%
 \contentsline {subsection}{\numberline {10.2.1}Bluetooth-Varianten}{93}{subsection.10.2.1}%
