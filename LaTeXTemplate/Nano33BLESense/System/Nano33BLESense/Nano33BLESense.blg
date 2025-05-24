@@ -22,26 +22,46 @@ Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
 Database file #4: ../../../MLbib/MyLiterature.bib
-I was expecting a `,' or a `}'---line 147 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 159 of file ../../../MLbib/MyLiterature.bib
  :  
- :  note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/conradPumpe.pdf}{[pdf]}}},
+ :  author    = {Conrad Electronic},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 213 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 239 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/flukeOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 333 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 357 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  author    = {Hering, Ekbert},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 369 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 705 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 395 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  author    = {Heinrich, Berthold},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 411 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  author    = {Hering, Martin},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 517 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  author    = {Müller, Gerhard},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 771 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 723 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 791 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-13}
 (Error may have been on previous line)
@@ -52,43 +72,43 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 44 entries,
             6402 wiz_defined-function locations,
-            1486 strings with 17687 characters,
-and the built_in function-call counts, 224326 in all, are:
-= -- 13866
-> -- 6145
-< -- 1935
-+ -- 5907
-- -- 2976
-* -- 14510
-:= -- 20990
+            1503 strings with 22696 characters,
+and the built_in function-call counts, 209628 in all, are:
+= -- 12542
+> -- 5697
+< -- 1849
++ -- 5419
+- -- 2852
+* -- 13582
+:= -- 19057
 add.period$ -- 0
 call.type$ -- 44
-change.case$ -- 45
+change.case$ -- 55
 chr.to.int$ -- 227
-cite$ -- 88
-duplicate$ -- 24261
-empty$ -- 21104
-format.name$ -- 2331
-if$ -- 46850
+cite$ -- 98
+duplicate$ -- 22764
+empty$ -- 20258
+format.name$ -- 2072
+if$ -- 43810
 int.to.chr$ -- 0
-int.to.str$ -- 128
+int.to.str$ -- 120
 missing$ -- 0
-newline$ -- 1115
-num.names$ -- 2397
-pop$ -- 14628
+newline$ -- 1119
+num.names$ -- 2121
+pop$ -- 14578
 preamble$ -- 1
-purify$ -- 1033
+purify$ -- 935
 quote$ -- 0
-skip$ -- 9407
+skip$ -- 8715
 stack$ -- 0
-substring$ -- 21344
-swap$ -- 6319
-text.length$ -- 1444
-text.prefix$ -- 79
+substring$ -- 19178
+swap$ -- 6166
+text.length$ -- 1392
+text.prefix$ -- 74
 top$ -- 1
 type$ -- 1484
 warning$ -- 0
-while$ -- 2595
+while$ -- 2342
 width$ -- 0
-write$ -- 1072
-(There were 5 error messages)
+write$ -- 1076
+(There were 9 error messages)

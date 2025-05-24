@@ -29,7 +29,7 @@
     \list{publisher}{1}{%
       {Springer}%
     }
-    \keyw{mosfet, n-kanal, p-kanal, transistor, source, drain, gate}
+    \keyw{Mosfet, N-Kanal, P-Kanal, Transistor, Source, Drain, Gate}
     \strng{namehash}{AM1}
     \strng{fullhash}{AM1}
     \field{labelnamesource}{author}
@@ -37,6 +37,11 @@
     \field{labelalpha}{All24}
     \field{sortinit}{A}
     \field{sortinithash}{A}
+    \field{abstract}{%
+    Dieses Lehrbuch bietet eine fundierte Einführung in die elektronische
+  Schaltungstechnik und behandelt zentrale Themen wie Dioden, Transistoren und
+  Grundschaltungen.%
+    }
     \field{edition}{1}
     \field{isbn}{978-3-662-69278-3}
     \field{title}{Einführung in die elektronische Schaltungstechnik}
@@ -58,6 +63,12 @@
     \field{labelalpha}{Ard24}
     \field{sortinit}{A}
     \field{sortinithash}{A}
+    \field{abstract}{%
+    Diese Website beschreibt die Verwendung der NewPing-Bibliothek zur
+  effizienten Steuerung von Ultraschallsensoren mit Arduino. Sie bietet
+  Anleitungen und Beispiele, um präzise Abstandsmessungen in
+  Mikrocontroller-Projekten zu implementieren.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/newPingOnline.pdf}{[pdf]}}}
     \field{title}{NewPing Library Documentation}
@@ -83,6 +94,10 @@
     \field{labelalpha}{Ard25}
     \field{sortinit}{A}
     \field{sortinithash}{A}
+    \field{abstract}{%
+    Die offizielle Dokumentation zur Arduino IDE 2.0 stellt die neuen
+  Funktionen und Verbesserungen der Entwicklungsumgebung vor.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/arduinoOnline.pdf}{[pdf]}}}
     \field{title}{Arduino IDE 2.0}
@@ -148,6 +163,11 @@
     \field{labelalpha}{Com25}
     \field{sortinit}{C}
     \field{sortinithash}{C}
+    \field{abstract}{%
+    Ein umfassender Leitfaden zu MOSFETs, der Funktionsprinzipien, Typen,
+  Einsatzgebiete sowie Tipps zur Auswahl und zum Einsatz in elektronischen
+  Schaltungen erläutert.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/RSComponents.pdf}{[pdf]}}}
     \field{title}{MOSFET Leitfaden}
@@ -156,6 +176,16 @@
     \verb /mosfet-leitfaden
     \endverb
     \field{year}{2025}
+  \endentry
+
+  \entry{ConradPumpe:2025}{online}{}{}
+    \field{labelalpha}{Con}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Auf der website von Conrad findet man viele Informationen zur Niedervolt
+  Tauchpumpe von Comet.%
+    }
   \endentry
 
   \entry{Ekbert:2014}{book}{}{}
@@ -178,36 +208,17 @@
     \field{labelalpha}{Ekb14}
     \field{sortinit}{E}
     \field{sortinithash}{E}
+    \field{abstract}{%
+    Das Buch vermittelt umfassendes Wissen über elektronische Bauelemente und
+  Schaltungen. Es verbindet theoretische Grundlagen mit praktischen
+  Anwendungen.%
+    }
     \field{isbn}{978-3-642-05499-0}
     \field{title}{Elektronik für Ingenieure und Naturwissenschaftler}
     \list{location}{1}{%
       {Berlin, Heidelberg}%
     }
     \field{year}{2014}
-  \endentry
-
-  \entry{ConradPumpe:2025}{online}{}{}
-    \name{author}{1}{}{%
-      {{hash=EC}{%
-         family={Electronic},
-         familyi={E\bibinitperiod},
-         given={Conrad},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{EC1}
-    \strng{fullhash}{EC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Ele25}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{title}{Niedervolt Tauchpumpe Comet 12 V Elegant}
-    \verb{url}
-    \verb https://www.conrad.de/de/p/comet-1300-01-00-niedervolt-tauchpumpe-600
-    \verb -l-h-5-5-m-1435461.html?refresh=true#productDownloads
-    \endverb
-    \field{year}{2025}
   \endentry
 
   \entry{Fluke:2025}{online}{}{}
@@ -224,6 +235,11 @@
     \field{labelalpha}{FLU25}
     \field{sortinit}{F}
     \field{sortinithash}{F}
+    \field{abstract}{%
+    Diese Anleitung erklärt Schritt für Schritt, wie Widerstandsmessungen mit
+  einem Multimeter korrekt durchgeführt werden. Sie ist besonders hilfreich
+  für Einsteiger in die Messtechnik.%
+    }
     \field{title}{Anleitung zum Messen von Widerstand}
     \verb{url}
     \verb https://www.fluke.com/de-de/mehr-erfahren/blog/digitalmultimeter/anle
@@ -249,6 +265,10 @@
     \field{labelalpha}{Gü20}
     \field{sortinit}{G}
     \field{sortinithash}{G}
+    \field{abstract}{%
+    Dieses umfassende Handbuch behandelt die Theorie und Praxis von
+  Kreiselpumpen, einschließlich ihrer Entwicklung, Planung und Betrieb.%
+    }
     \field{pages}{45\bibrangedash 82}
     \field{title}{Kreiselpumpen: Handbuch für Entwicklung, Anlagenplanung und
   Betrieb}
@@ -317,6 +337,10 @@
     \field{labelalpha}{HI18}
     \field{sortinit}{H}
     \field{sortinithash}{H}
+    \field{abstract}{%
+    Das Tabellenbuch bietet eine umfangreiche Sammlung von Formeln, Tabellen
+  und Diagrammen für die Elektrotechnik.%
+    }
     \field{edition}{28}
     \field{isbn}{978-3-808-53490-8}
     \field{title}{Tabellenbuch Elektrotechnik}
@@ -359,75 +383,39 @@
   \endentry
 
   \entry{Heinrich:2019}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=HB}{%
-         family={Heinrich},
-         familyi={H\bibinitperiod},
-         given={Berthold},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer-Verlag}%
-    }
-    \strng{namehash}{HB1}
-    \strng{fullhash}{HB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Hei19}
+    \field{labelalpha}{Hei}
     \field{sortinit}{H}
     \field{sortinithash}{H}
-    \field{title}{Grundlagen Automatisierung: Erfassen-Steuern-Regeln}
-    \field{year}{2019}
+    \field{abstract}{%
+    Dieses Werk behandelt die grundlegenden Prinzipien der
+  Automatisierungstechnik, einschließlich der Erfassung von Signalen,
+  Steuerungsstrategien und Regelungstechnik.%
+    }
   \endentry
 
   \entry{Hering:2012}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=HE}{%
-         family={Hering},
-         familyi={H\bibinitperiod},
-         given={Ekbert},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{HE1}
-    \strng{fullhash}{HE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Her12}
+    \field{labelalpha}{Her}
+    \field{extraalpha}{1}
     \field{sortinit}{H}
     \field{sortinithash}{H}
-    \field{title}{Sensoren in Wissenschaft und Technik}
-    \field{year}{2012}
+    \field{abstract}{%
+    Dieses Buch vermittelt grundlegende Kenntnisse über die verschiedenen
+  Sensortypen, ihre Funktionsweisen sowie Anwendungen in Wissenschaft und
+  Technik.%
+    }
   \endentry
 
   \entry{Hering:2024}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=HM}{%
-         family={Hering},
-         familyi={H\bibinitperiod},
-         given={Martin},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{HM1}
-    \strng{fullhash}{HM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Her24}
+    \field{labelalpha}{Her}
+    \field{extraalpha}{2}
     \field{sortinit}{H}
     \field{sortinithash}{H}
-    \field{edition}{5}
-    \field{isbn}{978-3-662-67538-0}
-    \field{title}{Elektrotechnik und Elektronik in Maschinenbau und
-  Mechatronik}
-    \field{year}{2024}
+    \field{abstract}{%
+    Dieses Lehrbuch vermittelt elektrotechnische und elektronische Grundlagen
+  mit speziellem Bezug zum Maschinenbau und zur Mechatronik. Es behandelt
+  praxisorientiert Schaltungstechnik, Bauelemente und Anwendungen in modernen
+  technischen Systemen.%
+    }
   \endentry
 
   \entry{Hesse:2009}{book}{}{}
@@ -449,6 +437,10 @@
     \field{labelalpha}{Hes09}
     \field{sortinit}{H}
     \field{sortinithash}{H}
+    \field{abstract}{%
+    Das Buch gibt einen detaillierten Überblick über verschiedene Sensortypen
+  und deren Anwendung in der Prozess- und Fabrikautomation.%
+    }
     \field{title}{Sensoren für die Prozess-und Fabrikautomation}
     \field{volume}{5}
     \field{year}{2009}
@@ -470,6 +462,11 @@
     \field{labelalpha}{Ill25}
     \field{sortinit}{I}
     \field{sortinithash}{I}
+    \field{abstract}{%
+    Der Artikel bietet eine anschauliche Erklärung der Funktionsweise von
+  Leuchtdioden (LEDs) und deren Einsatzgebiete. Er richtet sich an Leser, die
+  ein grundlegendes Verständnis von LED-Technologie erwerben möchten.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/falconOnline.pdf}{[pdf]}}}
     \field{title}{Wie funktioniert eine LED?}
@@ -497,6 +494,10 @@
     \field{labelalpha}{Ind25}
     \field{sortinit}{I}
     \field{sortinithash}{I}
+    \field{abstract}{%
+    Auf dieser Website werden praktische Grundlagen über Schaltertechnik
+  vermittelt.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/indicatorOnline.pdf}{[pdf]}}}
     \field{title}{So verdrahten Sie Kippschalter}
@@ -527,26 +528,13 @@
   \endentry
 
   \entry{Muller:2017}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=MG}{%
-         family={Müller},
-         familyi={M\bibinitperiod},
-         given={Gerhard},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{MG1}
-    \strng{fullhash}{MG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Mü17}
+    \field{labelalpha}{Mul}
     \field{sortinit}{M}
     \field{sortinithash}{M}
-    \field{title}{Ultraschall in Medizin und Technik}
-    \field{year}{2017}
+    \field{abstract}{%
+    Das Buch behandelt die physikalischen Grundlagen und Anwendungen von
+  Ultraschalltechnologie in den Bereichen Medizin und Technik.%
+    }
   \endentry
 
   \entry{Osterhage:2018}{book}{}{}
@@ -568,6 +556,12 @@
     \field{labelalpha}{Ost18}
     \field{sortinit}{O}
     \field{sortinithash}{O}
+    \field{abstract}{%
+    Das Buch behandelt umfassend Sicherheitskonzepte und -technologien in der
+  mobilen Kommunikation. Es erläutert Herausforderungen, Angriffsszenarien
+  sowie Lösungen zur Gewährleistung von Datenschutz und sicheren
+  Übertragungen in mobilen Netzwerken.%
+    }
     \field{isbn}{978-3-662-57903-9}
     \field{title}{Sicherheitskonzepte in der mobilen Kommunikation}
     \field{year}{2018}
@@ -587,6 +581,12 @@
     \field{labelalpha}{Par25}
     \field{sortinit}{P}
     \field{sortinithash}{P}
+    \field{abstract}{%
+    Produktbeschreibung und technische Details zum Arduino Nano 33 BLE Sense
+  Rev2, einem kompakten Mikrocontroller-Board mit integriertem Bluetooth Low
+  Energy, Sensoren und erweitertem Funktionsumfang für IoT- und
+  Embedded-Anwendungen.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/rev2Online.pdf}{[pdf]}}}
     \field{title}{Arduino Nano 33 BLE Sense Rev2}
@@ -643,6 +643,11 @@
     \field{labelalpha}{Rei22}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \field{abstract}{%
+    Detaillierte Bedienungsanleitung und technische Beschreibung eines
+  MOSFET-Moduls zur Integration in elektronische Steuerungen und Schaltungen.
+  Enthält Schaltpläne, Anschlussbelegungen und Anwendungsbeispiele.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/MOSFETanleitung.pdf}{[pdf]}}}
     \field{title}{Anleitung – COM-MOSFET Modul}
@@ -671,6 +676,11 @@
     \field{extraalpha}{1}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \field{abstract}{%
+    Produktseite zu einem MOSFET-Entwicklerboard mit dem IRF9540N, einem
+  P-Kanal-MOSFET. Behandelt Einsatzmöglichkeiten zur Steuerung von
+  Leistungselektronik in Schaltungen.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/reicheltMOSFET.pdf}{[pdf]}}}
     \field{title}{COM - MOS-FET}
@@ -699,6 +709,11 @@
     \field{extraalpha}{2}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \field{abstract}{%
+    Technische Produktbeschreibung eines Miniatur-Kippschalters mit
+  Ein-/Aus-Funktion, 3 A Stromstärke bei 125 V, geeignet für Steuer- und
+  Schaltanwendungen in der Elektrotechnik.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/reicheltKippschalter.pdf}{[pdf]}}}
     \field{title}{Kippschalter - GOOBAY 10013}
@@ -727,6 +742,11 @@
     \field{extraalpha}{3}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \field{abstract}{%
+    Produktbeschreibung einer ultrahellen blauen LED-Signalleuchte mit 8 mm
+  Durchmesser und 600 mcd Lichtstärke, geeignet für visuelle Anzeigen in
+  elektrischen Geräten und Steuerungen.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/ledOnline.pdf}{[pdf]}}}
     \field{title}{LED - CML}
@@ -755,6 +775,12 @@
     \field{extraalpha}{4}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \field{abstract}{%
+    Produktseite eines geschlossenen Schaltnetzteils mit 50 W Leistung, 5 und
+  12 V Ausgangsspannung sowie 6 A maximalem Ausgangsstrom. Beschreibt
+  technische Spezifikationen und Anwendungsgebiete für industrielle und
+  elektronische Schaltungen.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/reicheltSchaltnetzteil.pdf}{[pdf]}}}
     \field{title}{Schaltnetzteil - MW HRP-75}
@@ -783,6 +809,12 @@
     \field{extraalpha}{5}
     \field{sortinit}{R}
     \field{sortinithash}{R}
+    \field{abstract}{%
+    Produktseite des HC-05 Bluetooth-Moduls mit 4-Pin-Schnittstelle für
+  Arduino und Mikrocontroller. Beschreibt technische Details,
+  Einsatzmöglichkeiten und Konfigurationsoptionen für drahtlose
+  Kommunikation.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF Literatur/HC-05
   Modul online ALLNET REICHELT.pdf}{[pdf]}}}
     \field{title}{Webseite Reichelt HC-05}
@@ -812,6 +844,11 @@
     \field{labelalpha}{Sau22}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \field{abstract}{%
+    Das Lehrbuch bietet eine Einführung in die Grundlagen und Technologien
+  mobiler Kommunikationssysteme, einschließlich Funktechnik, Protokolle und
+  Sicherheitsaspekte.%
+    }
     \field{edition}{8}
     \field{isbn}{978-3-658-36963-7}
     \field{title}{Grundkurs Mobile Kommunikationssysteme}
@@ -840,6 +877,11 @@
     \field{labelalpha}{Sch13}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \field{abstract}{%
+    Das Buch vermittelt umfassendes Wissen über Pumpen, deren
+  Funktionsprinzipien, Berechnungsmethoden und konstruktive Ausführungen. Es
+  behandelt unterschiedliche Pumpentypen und deren Anwendung in der Technik.%
+    }
     \field{title}{Die Pumpen: Arbeitsweise, Berechnung, Konstruktion}
     \field{year}{2013}
   \endentry
@@ -902,6 +944,12 @@
     \field{labelalpha}{Sur21}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \field{abstract}{%
+    Dieser Abschnitt des Handbuchs behandelt zentrale Grundlagen des
+  Maschinenbaus mit Schwerpunkt auf technischen Anwendungen und
+  Konstruktionsprinzipien, speziell im Bereich der Fertigung und
+  Maschinentechnik.%
+    }
     \field{pages}{1039\bibrangedash 1053}
     \field{title}{Handbuch Maschinenbau: Grundlagen und Anwendungen der
   Maschinenbau-Technik}
@@ -924,6 +972,12 @@
     \field{labelalpha}{Swi25}
     \field{sortinit}{S}
     \field{sortinithash}{S}
+    \field{abstract}{%
+    abstract = {Diese Website vermittelt grundlegendes Wissen über
+  Schaltertypen, deren Funktionsweise und Anwendungsbereiche. Schwerpunkt sind
+  mechanische und elektronische Schalter für verschiedenste Einsatzgebiete in
+  der Elektrotechnik.}%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/kippschalterOnline.pdf}{[pdf]}}}
     \field{title}{Schaltergrundlagen}
@@ -1046,6 +1100,12 @@
     \field{labelalpha}{TR18}
     \field{sortinit}{T}
     \field{sortinithash}{T}
+    \field{abstract}{%
+    Dieses Handbuch bietet eine umfassende Übersicht über moderne
+  Sensortechnik mit Fokus auf Praxisanwendungen und wissenschaftliche
+  Grundlagen. Es behandelt verschiedene Sensortypen, Messprinzipien und
+  Anwendungen in unterschiedlichen technischen Bereichen.%
+    }
     \field{edition}{2}
     \field{isbn}{978-3-642-29942-1}
     \field{title}{Sensortechnik Handbuch für Praxis und Wissenschaft}
@@ -1120,6 +1180,12 @@
     \field{labelalpha}{Wol19}
     \field{sortinit}{W}
     \field{sortinithash}{W}
+    \field{abstract}{%
+    Diese Webseite bietet eine detaillierte Einführung in die Bluetooth-Module
+  HC-05 und HC-06, beschreibt deren technische Eigenschaften,
+  Einsatzmöglichkeiten sowie die Ansteuerung mit Mikrocontrollern wie
+  Arduino.%
+    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF Literatur/HC-05 und
   HC-06 Bluetooth.pdf}{[pdf]}}}
     \field{title}{HC-05 und HC-06 Bluetooth-Modul}
