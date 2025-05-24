@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 MAY 2025 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  20 MAY 2025 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2823,12 +2823,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 ] (../../Contents/General/EinleitungProjekt.tex
 chapter 1.
-Package biblatex Info: Reference segment=1 on input line 11.
-Package biblatex Info: Setting label 'refsegment:01' on input line 11.
-Package biblatex Info: Reference segment=2 on input line 14.
-Package biblatex Info: Setting label 'refsegment:02' on input line 14.
-Package biblatex Info: Reference segment=3 on input line 17.
-Package biblatex Info: Setting label 'refsegment:03' on input line 17.
+Package biblatex Info: Reference segment=1 on input line 16.
+Package biblatex Info: Setting label 'refsegment:01' on input line 16.
+Package biblatex Info: Reference segment=2 on input line 19.
+Package biblatex Info: Setting label 'refsegment:02' on input line 19.
+Package biblatex Info: Reference segment=3 on input line 22.
+Package biblatex Info: Setting label 'refsegment:03' on input line 22.
 )
 
 [15
@@ -2850,32 +2850,29 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 [18] (../../Contents/General/ArduinoIDE2.tex
 chapter 2.
-Package biblatex Info: Reference segment=4 on input line 20.
-Package biblatex Info: Setting label 'refsegment:04' on input line 20.
-
-LaTeX Warning: Citation 'Arduino:2025' on page 19 undefined on input line 26.
-
-<../../Images/Arduino/ArduinoIDE/menuAnzeige.png, id=669, 709.90219pt x 67.0003
+Package biblatex Info: Reference segment=4 on input line 19.
+Package biblatex Info: Setting label 'refsegment:04' on input line 19.
+<../../Images/Arduino/ArduinoIDE/menuAnzeige.png, id=670, 709.90219pt x 67.0003
 pt>
 File: ../../Images/Arduino/ArduinoIDE/menuAnzeige.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/menuAnzeige.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/menuAnzeige.png  used 
-on input line 35.
+on input line 34.
 (pdftex.def)             Requested size: 369.88583pt x 34.91089pt.
-<../../Images/Arduino/ArdiunoIDE2/MenuButton.png, id=671, 758.835pt x 28.908pt>
+<../../Images/Arduino/ArdiunoIDE2/MenuButton.png, id=672, 758.835pt x 28.908pt>
 
 File: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/MenuButton.png>
 Package pdftex.def Info: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png  used 
-on input line 43.
+on input line 42.
 (pdftex.def)             Requested size: 11.1998pt x 12.0pt.
 File: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/MenuButton.png>
 Package pdftex.def Info: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png  used 
-on input line 45.
+on input line 44.
 (pdftex.def)             Requested size: 11.5998pt x 12.0pt.
 
-Overfull \hbox (13.46759pt too wide) in paragraph at lines 45--46
+Overfull \hbox (13.46759pt too wide) in paragraph at lines 44--45
 []\T1/lmr/m/n/10 (-20) Das []-Symbol kom^^?piliert den Code und überträgt ihn a
 uf das angeschlossene
  []
@@ -2883,12 +2880,12 @@ uf das angeschlossene
 File: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/MenuButton.png>
 Package pdftex.def Info: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png  used 
-on input line 47.
+on input line 46.
 (pdftex.def)             Requested size: 11.1998pt x 12.0pt.
 File: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/MenuButton.png>
 Package pdftex.def Info: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png  used 
-on input line 49.
+on input line 48.
 (pdftex.def)             Requested size: 11.1998pt x 12.0pt.
 
 
@@ -2900,23 +2897,23 @@ oIDE2/MenuButton.png>]
 File: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/MenuButton.png>
 Package pdftex.def Info: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png  used 
-on input line 51.
+on input line 50.
 (pdftex.def)             Requested size: 11.1998pt x 12.0pt.
-Package biblatex Info: Reference segment=5 on input line 55.
-Package biblatex Info: Setting label 'refsegment:05' on input line 55.
+Package biblatex Info: Reference segment=5 on input line 54.
+Package biblatex Info: Setting label 'refsegment:05' on input line 54.
 
-Overfull \hbox (1.94902pt too wide) in paragraph at lines 59--60
+Overfull \hbox (1.94902pt too wide) in paragraph at lines 58--59
 []\T1/lmr/m/n/10 (-20) Diese Open-^^?Source-Ar^^?duino-IDE vere^^?in^^?facht da
 s Schreiben von Code und das Hochladen
  []
 
-<../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png, id=692, 676.02562pt x 
+<../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png, id=693, 676.02562pt x 
 446.41782pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png Graphic file (type
  png)
 <use ../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png
-  used on input line 71.
+  used on input line 70.
 (pdftex.def)             Requested size: 369.88583pt x 244.26357pt.
 
 
@@ -2928,21 +2925,21 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [20 <../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png>]
-<../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png, id=704, 676.02562pt
+<../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png, id=705, 676.02562pt
  x 446.41782pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png Graphic file (t
 ype png)
 <use ../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.
-png  used on input line 96.
+png  used on input line 95.
 (pdftex.def)             Requested size: 369.88583pt x 244.26357pt.
-<../../Images/Arduino/ArduinoIDE/lizenzabkommen.png, id=706, 370.38374pt x 287.
+<../../Images/Arduino/ArduinoIDE/lizenzabkommen.png, id=707, 370.38374pt x 287.
 57437pt>
 File: ../../Images/Arduino/ArduinoIDE/lizenzabkommen.png Graphic file (type png
 )
 <use ../../Images/Arduino/ArduinoIDE/lizenzabkommen.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/lizenzabkommen.png  us
-ed on input line 105.
+ed on input line 104.
 (pdftex.def)             Requested size: 369.88583pt x 287.19191pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2957,13 +2954,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [21 <../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png>]
-<../../Images/Arduino/ArduinoIDE/downloadBenutzer.png, id=714, 371.13657pt x 28
+<../../Images/Arduino/ArduinoIDE/downloadBenutzer.png, id=715, 371.13657pt x 28
 6.06876pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadBenutzer.png Graphic file (type p
 ng)
 <use ../../Images/Arduino/ArduinoIDE/downloadBenutzer.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/downloadBenutzer.png  
-used on input line 114.
+used on input line 113.
 (pdftex.def)             Requested size: 369.88583pt x 285.1121pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2978,13 +2975,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [22 <../../Images/Arduino/ArduinoIDE/lizenzabkommen.png>]
-<../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png, id=723, 371.13657pt x
+<../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png, id=724, 371.13657pt x
  287.57437pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png Graphic file (typ
 e png)
 <use ../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.pn
-g  used on input line 123.
+g  used on input line 122.
 (pdftex.def)             Requested size: 369.88583pt x 286.61269pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2999,12 +2996,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [23 <../../Images/Arduino/ArduinoIDE/downloadBenutzer.png>]
-<../../Images/Arduino/ArduinoIDE/downloadIDE.png, id=731, 709.90219pt x 439.642
+<../../Images/Arduino/ArduinoIDE/downloadIDE.png, id=732, 709.90219pt x 439.642
 5pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadIDE.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/downloadIDE.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/downloadIDE.png  used 
-on input line 132.
+on input line 131.
 (pdftex.def)             Requested size: 369.88583pt x 229.0783pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3020,24 +3017,24 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [24 <../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png> <../../Images/Ard
 uino/ArduinoIDE/downloadIDE.png>]
-Package biblatex Info: Reference segment=6 on input line 203.
-Package biblatex Info: Setting label 'refsegment:06' on input line 203.
+Package biblatex Info: Reference segment=6 on input line 202.
+Package biblatex Info: Setting label 'refsegment:06' on input line 202.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-07.
+06.
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<../../Images/Arduino/ArduinoIDE/arduinoSidebar.png, id=741, 699.36281pt x 369.
+<../../Images/Arduino/ArduinoIDE/arduinoSidebar.png, id=742, 699.36281pt x 369.
 63094pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoSidebar.png Graphic file (type png
 )
 <use ../../Images/Arduino/ArduinoIDE/arduinoSidebar.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoSidebar.png  us
-ed on input line 231.
+ed on input line 230.
 (pdftex.def)             Requested size: 369.88583pt x 195.49736pt.
-Package biblatex Info: Reference segment=7 on input line 235.
-Package biblatex Info: Setting label 'refsegment:07' on input line 235.
+Package biblatex Info: Reference segment=7 on input line 234.
+Package biblatex Info: Setting label 'refsegment:07' on input line 234.
 
 
 
@@ -3049,13 +3046,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [25{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <../../Imag
 es/Arduino/ArduinoIDE/arduinoSidebar.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png, id=752, 613.54219pt x 3
+<../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png, id=753, 613.54219pt x 3
 77.15906pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png Graphic file (type 
 png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png 
- used on input line 249.
+ used on input line 248.
 (pdftex.def)             Requested size: 369.88583pt x 227.37912pt.
 
 
@@ -3067,20 +3064,20 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [26 <../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoBoard.png, id=760, 493.0922pt x 325.967
+<../../Images/Arduino/ArduinoIDE/arduinoBoard.png, id=761, 493.0922pt x 325.967
 82pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBoard.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBoard.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBoard.png  used
- on input line 271.
+ on input line 270.
 (pdftex.def)             Requested size: 369.88583pt x 244.52997pt.
-<../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png, id=762, 350.05782pt x 3
+<../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png, id=763, 350.05782pt x 3
 65.86688pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png Graphic file (type 
 png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png 
- used on input line 292.
+ used on input line 291.
 (pdftex.def)             Requested size: 369.88583pt x 386.61676pt.
 
 Underfull \vbox (badness 2351) has occurred while \output is active []
@@ -3095,8 +3092,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [27 <../../Images/Arduino/ArduinoIDE/arduinoBoard.png>]
-Package biblatex Info: Reference segment=8 on input line 296.
-Package biblatex Info: Setting label 'refsegment:08' on input line 296.
+Package biblatex Info: Reference segment=8 on input line 295.
+Package biblatex Info: Setting label 'refsegment:08' on input line 295.
 
 
 
@@ -3107,7 +3104,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [28 <../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png>]
-Overfull \hbox (60.11374pt too wide) in paragraph at lines 329--330
+Overfull \hbox (60.11374pt too wide) in paragraph at lines 328--329
 [][]\T1/pcr/m/n/9 C:/Benutzer/<Benutzername>/Dokumente/Arduino/Bibliotheken/Nan
 o33BLESenseLED[] 
  []
@@ -3124,50 +3121,50 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [29]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fontdimen' on input line 369.
+(hyperref)                removing `\fontdimen' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\font' on input line 369.
+(hyperref)                removing `\font' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fontdimen' on input line 369.
+(hyperref)                removing `\fontdimen' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\font' on input line 369.
+(hyperref)                removing `\font' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fontdimen' on input line 369.
+(hyperref)                removing `\fontdimen' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\font' on input line 369.
+(hyperref)                removing `\font' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fontdimen' on input line 369.
+(hyperref)                removing `\fontdimen' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\font' on input line 369.
+(hyperref)                removing `\font' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hyphenchar' on input line 369.
+(hyperref)                removing `\hyphenchar' on input line 368.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\font' on input line 369.
+(hyperref)                removing `\font' on input line 368.
 
-<../../Images/Arduino/ArduinoIDE/arduinoCMD.png, id=786, 605.26125pt x 563.1037
+<../../Images/Arduino/ArduinoIDE/arduinoCMD.png, id=787, 605.26125pt x 563.1037
 4pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoCMD.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoCMD.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoCMD.png  used o
-n input line 396.
+n input line 395.
 (pdftex.def)             Requested size: 295.90979pt x 275.296pt.
 
 
@@ -3179,18 +3176,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [30 <../../Images/Arduino/ArduinoIDE/arduinoCMD.png>]
-Overfull \hbox (35.11371pt too wide) in paragraph at lines 409--411
+Overfull \hbox (35.11371pt too wide) in paragraph at lines 408--410
 []\T1/pcr/m/n/9 C:/Benutzer/<Benutzername>/Dokumente/Arduino/Bibliotheken/Nano3
 3BLESenseLED[] 
  []
 
-<../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png, id=796, 672.26
+<../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png, id=797, 672.26
 157pt x 348.55219pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png Graphic fi
 le (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbi
-nden.png  used on input line 436.
+nden.png  used on input line 435.
 (pdftex.def)             Requested size: 295.90979pt x 153.42192pt.
 
 
@@ -3202,18 +3199,18 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [31 <../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png>]
-Package biblatex Info: Reference segment=9 on input line 460.
-Package biblatex Info: Setting label 'refsegment:09' on input line 460.
-<../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png, id=809, 584.93532pt x 44
+Package biblatex Info: Reference segment=9 on input line 459.
+Package biblatex Info: Setting label 'refsegment:09' on input line 459.
+<../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png, id=810, 584.93532pt x 44
 4.91219pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png Graphic file (type p
 ng)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png  
-used on input line 472.
+used on input line 471.
 (pdftex.def)             Requested size: 295.90979pt x 225.08281pt.
-Package biblatex Info: Reference segment=10 on input line 476.
-Package biblatex Info: Setting label 'refsegment:010' on input line 476.
+Package biblatex Info: Reference segment=10 on input line 475.
+Package biblatex Info: Setting label 'refsegment:010' on input line 475.
 
 
 
@@ -3224,22 +3221,22 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [32 <../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png>]
-Overfull \hbox (1.97542pt too wide) in paragraph at lines 483--484
+Overfull \hbox (1.97542pt too wide) in paragraph at lines 482--483
 []\T1/lmr/bx/n/10 (-20) Einzelschrittmodus\T1/lmr/m/n/10 (-20) : Führen Sie das
  Pro^^?gramm zeilen^^?weise aus (Step Over/Step
  []
 
-Package biblatex Info: Reference segment=11 on input line 489.
-Package biblatex Info: Setting label 'refsegment:011' on input line 489.
-<../../Images/Arduino/ArduinoIDE/arduinoAuto.png, id=817, 446.41782pt x 201.753
+Package biblatex Info: Reference segment=11 on input line 488.
+Package biblatex Info: Setting label 'refsegment:011' on input line 488.
+<../../Images/Arduino/ArduinoIDE/arduinoAuto.png, id=818, 446.41782pt x 201.753
 75pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoAuto.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoAuto.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoAuto.png  used 
-on input line 498.
+on input line 497.
 (pdftex.def)             Requested size: 295.90979pt x 133.73355pt.
-Package biblatex Info: Reference segment=12 on input line 502.
-Package biblatex Info: Setting label 'refsegment:012' on input line 502.
+Package biblatex Info: Reference segment=12 on input line 501.
+Package biblatex Info: Setting label 'refsegment:012' on input line 501.
 
 
 
@@ -3265,7 +3262,7 @@ Package biblatex Info: Reference segment=13 on input line 19.
 Package biblatex Info: Setting label 'refsegment:013' on input line 19.
 Package biblatex Info: Reference segment=14 on input line 29.
 Package biblatex Info: Setting label 'refsegment:014' on input line 29.
-<../../Images/Arduino/ArduinoIDE/arduinoMbed.png, id=834, 580.41844pt x 334.248
+<../../Images/Arduino/ArduinoIDE/arduinoMbed.png, id=835, 580.41844pt x 334.248
 75pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoMbed.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoMbed.png>
@@ -3278,7 +3275,7 @@ on input line 53.
 
 
 ]
-<../../Images/Arduino/ArduinoIDE/arduinoConnect.png, id=847, 599.99156pt x 410.
+<../../Images/Arduino/ArduinoIDE/arduinoConnect.png, id=848, 599.99156pt x 410.
 2828pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoConnect.png Graphic file (type png
 )
@@ -3297,7 +3294,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [36 <../../Images/Arduino/ArduinoIDE/arduinoMbed.png> <../../Images/Arduino/Ard
 uinoIDE/arduinoConnect.png>]
-<../../Images/Arduino/ArdiunoIDE2/resetbutton.png, id=860, 283.0575pt x 439.642
+<../../Images/Arduino/ArdiunoIDE2/resetbutton.png, id=861, 283.0575pt x 439.642
 5pt>
 File: ../../Images/Arduino/ArdiunoIDE2/resetbutton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/resetbutton.png>
@@ -3330,7 +3327,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [37 <../../Images/Arduino/ArdiunoIDE2/resetbutton.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoPort.png, id=875, 345.54094pt x 394.473
+<../../Images/Arduino/ArduinoIDE/arduinoPort.png, id=876, 345.54094pt x 394.473
 75pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoPort.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoPort.png>
@@ -3402,14 +3399,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\font' on input line 171.
 
-<../../Images/Arduino/ArduinoIDE/arduinoBlink.png, id=895, 581.17125pt x 414.04
+<../../Images/Arduino/ArduinoIDE/arduinoBlink.png, id=896, 581.17125pt x 414.04
 688pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBlink.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBlink.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBlink.png  used
  on input line 206.
 (pdftex.def)             Requested size: 295.90979pt x 210.81995pt.
-<../../Images/Arduino/ArduinoIDE/arduinoBlink2.png, id=896, 1084.05pt x 624.081
+<../../Images/Arduino/ArduinoIDE/arduinoBlink2.png, id=897, 1084.05pt x 624.081
 56pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBlink2.png Graphic file (type png)
 
@@ -3444,10 +3441,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 ]
 chapter 4.
 
-LaTeX Warning: Citation 'Arduino:2025' on page 43 undefined on input line 25.
+LaTeX Warning: Citation 'Arduino:2025' on page 43 undefined on input line 29.
 
-Package biblatex Info: Reference segment=16 on input line 28.
-Package biblatex Info: Setting label 'refsegment:016' on input line 28.
+Package biblatex Info: Reference segment=16 on input line 32.
+Package biblatex Info: Setting label 'refsegment:016' on input line 32.
 
 
 [43]
@@ -3542,11 +3539,11 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 68.
+(Font)              <9> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 68.
+(Font)              <6> on input line 72.
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-68.
+72.
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -3557,11 +3554,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 70.
+(caption)                particular \caption on input line 74.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Citation 'Arduino:2025' on page 44 undefined on input line 76.
+LaTeX Warning: Citation 'Arduino:2025' on page 44 undefined on input line 80.
 
 
 
@@ -3573,8 +3570,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [44]
-Package biblatex Info: Reference segment=17 on input line 124.
-Package biblatex Info: Setting label 'refsegment:017' on input line 124.
+Package biblatex Info: Reference segment=17 on input line 128.
+Package biblatex Info: Setting label 'refsegment:017' on input line 128.
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -3668,7 +3665,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 167.
+(caption)                particular \caption on input line 171.
 See the caption package documentation for explanation.
 
 
@@ -3773,7 +3770,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 209.
+(caption)                particular \caption on input line 213.
 See the caption package documentation for explanation.
 
 
@@ -3786,8 +3783,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [46]
-Package biblatex Info: Reference segment=18 on input line 214.
-Package biblatex Info: Setting label 'refsegment:018' on input line 214.
+Package biblatex Info: Reference segment=18 on input line 218.
+Package biblatex Info: Setting label 'refsegment:018' on input line 218.
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -3881,7 +3878,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 277.
+(caption)                particular \caption on input line 281.
 See the caption package documentation for explanation.
 
 
@@ -3895,10 +3892,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [47]
 
-LaTeX Warning: Citation 'Arduino:2025' on page 48 undefined on input line 300.
+LaTeX Warning: Citation 'Arduino:2025' on page 48 undefined on input line 304.
 
 
-LaTeX Warning: Citation 'Arduino:2025' on page 48 undefined on input line 300.
+LaTeX Warning: Citation 'Arduino:2025' on page 48 undefined on input line 304.
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -3992,7 +3989,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 342.
+(caption)                particular \caption on input line 346.
 See the caption package documentation for explanation.
 
 
@@ -4008,8 +4005,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [48]
-Package biblatex Info: Reference segment=19 on input line 346.
-Package biblatex Info: Setting label 'refsegment:019' on input line 346.
+Package biblatex Info: Reference segment=19 on input line 350.
+Package biblatex Info: Setting label 'refsegment:019' on input line 350.
 
 
 
@@ -4059,7 +4056,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 243.
 Package biblatex Info: Reference segment=22 on input line 252.
 Package biblatex Info: Setting label 'refsegment:022' on input line 252.
-<../../Images/MPM3610/BlockdiagrammSpannungswandler.png, id=1023, 858.95906pt x
+<../../Images/MPM3610/BlockdiagrammSpannungswandler.png, id=1024, 858.95906pt x
  502.12593pt>
 File: ../../Images/MPM3610/BlockdiagrammSpannungswandler.png Graphic file (type
  png)
@@ -4077,7 +4074,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [54]
-<../../Images/MPM3610/BeispielanwendungSpannungswandler.png, id=1031, 548.80031
+<../../Images/MPM3610/BeispielanwendungSpannungswandler.png, id=1032, 548.80031
 pt x 324.46219pt>
 File: ../../Images/MPM3610/BeispielanwendungSpannungswandler.png Graphic file (
 type png)
@@ -4100,13 +4097,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [55{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <../../Image
 s/MPM3610/BlockdiagrammSpannungswandler.png>]
-<../../Images/MPM3610/aamRegelbetrieb.png, id=1043, 619.56468pt x 238.64156pt>
+<../../Images/MPM3610/aamRegelbetrieb.png, id=1044, 619.56468pt x 238.64156pt>
 File: ../../Images/MPM3610/aamRegelbetrieb.png Graphic file (type png)
 <use ../../Images/MPM3610/aamRegelbetrieb.png>
 Package pdftex.def Info: ../../Images/MPM3610/aamRegelbetrieb.png  used on inpu
 t line 280.
 (pdftex.def)             Requested size: 295.90979pt x 113.97495pt.
-<../../Images/MPM3610/dcmSteuerungsbetrieb.png, id=1046, 582.67688pt x 277.035p
+<../../Images/MPM3610/dcmSteuerungsbetrieb.png, id=1047, 582.67688pt x 277.035p
 t>
 File: ../../Images/MPM3610/dcmSteuerungsbetrieb.png Graphic file (type png)
 <use ../../Images/MPM3610/dcmSteuerungsbetrieb.png>
@@ -4137,7 +4134,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [57 <../../Images/MPM3610/dcmSteuerungsbetrieb.png>]
-<../../Images/MPM3610/spannungswandlerWirkungsgrad.png, id=1075, 482.55281pt x 
+<../../Images/MPM3610/spannungswandlerWirkungsgrad.png, id=1076, 482.55281pt x 
 486.31688pt>
 File: ../../Images/MPM3610/spannungswandlerWirkungsgrad.png Graphic file (type 
 png)
@@ -4207,7 +4204,7 @@ Underfull \hbox (badness 4454) in paragraph at lines 20--21
 \T1/lmr/m/n/10 (+20) - HC-05 Blue^^?
  []
 
-<../../Images/MateriallisteBilder/bluetoothModul.png, id=1108, 602.25pt x 224.8
+<../../Images/MateriallisteBilder/bluetoothModul.png, id=1109, 602.25pt x 224.8
 4pt>
 File: ../../Images/MateriallisteBilder/bluetoothModul.png Graphic file (type pn
 g)
@@ -4225,7 +4222,7 @@ Underfull \hbox (badness 3343) in paragraph at lines 25--26
 \T1/lmr/m/n/10 (+20) - Schalt^^?net^^?zteil
  []
 
-<../../Images/MateriallisteBilder/netzteilBild.png, id=1110, 602.25pt x 451.687
+<../../Images/MateriallisteBilder/netzteilBild.png, id=1111, 602.25pt x 451.687
 5pt>
 File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 
@@ -4233,7 +4230,7 @@ File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
 d on input line 27.
 (pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
-<../../Images/MateriallisteBilder/pumpeBild.png, id=1112, 1003.75pt x 1003.75pt
+<../../Images/MateriallisteBilder/pumpeBild.png, id=1113, 1003.75pt x 1003.75pt
 >
 File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpeBild.png>
@@ -4245,7 +4242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/blaueLED.png, id=1114, 602.25pt x 296.10625pt
+<../../Images/MateriallisteBilder/blaueLED.png, id=1115, 602.25pt x 296.10625pt
 >
 File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/blaueLED.png>
@@ -4257,7 +4254,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/greenLED.png, id=1116, 602.25pt x 351.3125pt>
+<../../Images/MateriallisteBilder/greenLED.png, id=1117, 602.25pt x 351.3125pt>
 
 File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/greenLED.png>
@@ -4274,7 +4271,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 \T1/lmr/m/n/10 (+20) - IRF9540N
  []
 
-<../../Images/MateriallisteBilder/mosfetBild.png, id=1118, 602.25pt x 454.69875
+<../../Images/MateriallisteBilder/mosfetBild.png, id=1119, 602.25pt x 454.69875
 pt>
 File: ../../Images/MateriallisteBilder/mosfetBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/mosfetBild.png>
@@ -4286,7 +4283,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/kippschalterBild.png, id=1120, 602.25pt x 141
+<../../Images/MateriallisteBilder/kippschalterBild.png, id=1121, 602.25pt x 141
 2.27625pt>
 File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
 png)
@@ -5409,10 +5406,10 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 109537 strings out of 473190
- 2914944 string characters out of 5716853
- 4602862 words of memory out of 5000000
- 129890 multiletter control sequences out of 15000+600000
+ 109509 strings out of 473190
+ 2913970 string characters out of 5716853
+ 4602848 words of memory out of 5000000
+ 129862 multiletter control sequences out of 15000+600000
  764523 words of font info for 471 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3234s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5436,10 +5433,10 @@ mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
 lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
 aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (139 pages, 6851776 bytes).
+Output written on Nano33BLESense.pdf (139 pages, 6851729 bytes).
 PDF statistics:
- 3609 PDF objects out of 4296 (max. 8388607)
- 3283 compressed objects within 33 object streams
+ 3610 PDF objects out of 4296 (max. 8388607)
+ 3284 compressed objects within 33 object streams
  1280 named destinations out of 1440 (max. 500000)
  108888 words of extra memory for PDF output out of 128383 (max. 10000000)
 

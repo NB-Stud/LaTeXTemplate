@@ -29,6 +29,7 @@
     \list{publisher}{1}{%
       {Springer}%
     }
+    \keyw{mosfet, n-kanal, p-kanal, transistor, source, drain, gate}
     \strng{namehash}{AM1}
     \strng{fullhash}{AM1}
     \field{labelnamesource}{author}
@@ -73,6 +74,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
+    \keyw{arduino IDE, IDE 2, download and installing arduino IDE, arduino, ble
+  33 sense}
     \strng{namehash}{A1}
     \strng{fullhash}{A1}
     \field{labelnamesource}{author}
@@ -167,6 +170,7 @@
     \list{publisher}{1}{%
       {Springer-Verlag Berlin Heidelberg}%
     }
+    \keyw{Spannungswandler, Wandler, Spule, Transistor, Glättungskondensator}
     \strng{namehash}{EH1}
     \strng{fullhash}{EH1}
     \field{labelnamesource}{author}
@@ -228,7 +232,7 @@
     \field{year}{2025}
   \endentry
 
-  \entry{Gulich:2020}{article}{}{}
+  \entry{Gulich:2020}{book}{}{}
     \name{author}{1}{}{%
       {{hash=G}{%
          family={Gülich},
