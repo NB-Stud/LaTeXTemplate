@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=latex 2025.5.24)  24 MAY 2025 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=latex 2025.5.24)  25 MAY 2025 12:52
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -546,10 +546,14 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \TP@noteheight=\dimen336
 \TP@notebox=\box92
 \notelinewidth=\dimen337
- (c:/texlive/2025/texmf-dist/tex/latex/extsizes/extarticle.cls
+
+
+Package tikzposter Warning: Unknown Option a3paper. on input line 204.
+
+(c:/texlive/2025/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(c:/texlive/2025/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(c:/texlive/2025/texmf-dist/tex/latex/extsizes/size20.clo
+File: size20.clo 1999/11/11 NON-Standard LaTeX file (size option)
 )
 (c:/texlive/2025/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
@@ -593,15 +597,6 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen346
 \Gm@layoutvoffset=\dimen347
 \Gm@dimlist=\toks31
-)
-(c:/texlive/2025/texmf-dist/tex/latex/a0poster/a0size.sty
-File: a0size.sty 2004/01/31 v1.22b a0poster class (GK, MW)
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 229.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 229.
-\big@size=\dimen348
 )
 \pgf@layerbox@backgroundlayer=\box93
 \pgf@layerboxsaved@backgroundlayer=\box94
@@ -676,22 +671,22 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \c@tracingmulticols=\count338
 \mult@box=\box99
-\multicol@leftmargin=\dimen349
+\multicol@leftmargin=\dimen348
 \c@unbalance=\count339
 \c@collectmore=\count340
 \doublecol@number=\count341
 \multicoltolerance=\count342
 \multicolpretolerance=\count343
-\full@width=\dimen350
-\page@free=\dimen351
-\premulticols=\dimen352
-\postmulticols=\dimen353
+\full@width=\dimen349
+\page@free=\dimen350
+\premulticols=\dimen351
+\postmulticols=\dimen352
 \multicolsep=\skip54
 \multicolbaselineskip=\skip55
 \partial@page=\box100
 \last@line=\box101
 \mc@boxedresult=\box102
-\maxbalancingoverflow=\dimen354
+\maxbalancingoverflow=\dimen353
 \mult@rightbox=\box103
 \mult@grightbox=\box104
 \mult@firstbox=\box105
@@ -735,9 +730,9 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \c@minrows=\count344
 \c@columnbadness=\count345
 \c@finalcolumnbadness=\count346
-\last@try=\dimen355
-\multicolovershoot=\dimen356
-\multicolundershoot=\dimen357
+\last@try=\dimen354
+\multicolovershoot=\dimen355
+\multicolundershoot=\dimen356
 \mult@nat@firstbox=\box143
 \colbreak@box=\box144
 \mc@col@check@num=\count347
@@ -756,23 +751,23 @@ Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box145
 )
-\tc@llx=\dimen358
-\tc@lly=\dimen359
-\tc@urx=\dimen360
-\tc@ury=\dimen361
+\tc@llx=\dimen357
+\tc@lly=\dimen358
+\tc@urx=\dimen359
+\tc@ury=\dimen360
 Package trimclip Info: Using driver 'tc-dvips.def'.
 
 (c:/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-dvips.def
 File: tc-dvips.def 2019/01/04 v2.2 Clipping driver for dvips
 ))
-\adjbox@Width=\dimen362
-\adjbox@Height=\dimen363
-\adjbox@Depth=\dimen364
-\adjbox@Totalheight=\dimen365
-\adjbox@pwidth=\dimen366
-\adjbox@pheight=\dimen367
-\adjbox@pdepth=\dimen368
-\adjbox@ptotalheight=\dimen369
+\adjbox@Width=\dimen361
+\adjbox@Height=\dimen362
+\adjbox@Depth=\dimen363
+\adjbox@Totalheight=\dimen364
+\adjbox@pwidth=\dimen365
+\adjbox@pheight=\dimen366
+\adjbox@pdepth=\dimen367
+\adjbox@ptotalheight=\dimen368
 
 (c:/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
@@ -782,8 +777,8 @@ Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box146
 \sift@deathcycles=\count349
-\@vwid@loff=\dimen370
-\@vwid@roff=\dimen371
+\@vwid@loff=\dimen369
+\@vwid@roff=\dimen370
 ))
 (c:/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
@@ -793,28 +788,32 @@ Excluding comment 'comment')
 Package tikzposter Warning: Unknown color palette `GrayOrangeBlue'. on input li
 ne 38.
 
-LaTeX Font Info:    Trying to load font information for T1+aer on input line 40
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 42
 .
 (c:/texlive/2025/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 )
+
+LaTeX Warning: Unused global option(s):
+    [a3paper].
+
 (./PosterMagicFaucetFountain.aux)
 \openout1 = `PosterMagicFaucetFountain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -823,24 +822,24 @@ LaTeX Font Info:    ... okay on input line 40.
 * paper: a0paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(0.0pt, 2392.87677pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 3383.03267pt, 0.0pt)
-* \paperwidth=2392.87677pt
-* \paperheight=3383.03267pt
-* \textwidth=2392.87677pt
-* \textheight=3383.03267pt
+* modes: landscape 
+* h-part:(L,W,R)=(0.0pt, 3383.03267pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 2392.87677pt, 0.0pt)
+* \paperwidth=3383.03267pt
+* \paperheight=2392.87677pt
+* \textwidth=3383.03267pt
+* \textheight=2392.87677pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
-* \topmargin=-109.26999pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=10.0pt
-* \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \topmargin=-122.26999pt
+* \headheight=20.0pt
+* \headsep=30.0pt
+* \topskip=20.0pt
+* \footskip=35.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=15.0pt
 * \columnsep=56.9055pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=16.0pt plus 6.0pt minus 3.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -857,7 +856,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \begin{document}
+l.42 \begin{document}
                      
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
@@ -871,13 +870,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \begin{document}
+l.42 \begin{document}
                      
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 42.
 Missing character: There is no - in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -946,19 +947,13 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 7
+4.
+LaTeX Font Info:    No file TS1aer.fd. on input line 74.
 
-! LaTeX Error: File `images/Rendering10' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 		}
-        
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 74.
 
 
 ! LaTeX Error: File `images/Rendering9' not found.
@@ -967,8 +962,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 		}
-        
+l.103 		}
+         
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
 Try typing  <return>  to proceed.
@@ -981,20 +976,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 		}
-        
+l.117 		}
+         
 I could not locate the file with any of these extensions:
 .eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for TS1+aer on input line 1
-10.
-LaTeX Font Info:    No file TS1aer.fd. on input line 110.
 
-LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 110.
+! Package PGF Math Error: Unknown operator `a' or `an' (in '2cm and 0.5cm').
+
+See the PGF Math package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.152 	}
+        
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.172 	\end{columns}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
 
@@ -1011,12 +1023,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18866 strings out of 469591
- 418581 string characters out of 5474545
- 986551 words of memory out of 5000000
- 45343 multiletter control sequences out of 15000+600000
- 652882 words of font info for 75 fonts, out of 8000000 for 9000
+ 18819 strings out of 469591
+ 415345 string characters out of 5474545
+ 1008520 words of memory out of 5000000
+ 45298 multiletter control sequences out of 15000+600000
+ 650828 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,8n,121p,856b,874s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,8n,121p,510b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PosterMagicFaucetFountain.dvi (1 page, 48252 bytes).
+Output written on PosterMagicFaucetFountain.dvi (1 page, 61188 bytes).
