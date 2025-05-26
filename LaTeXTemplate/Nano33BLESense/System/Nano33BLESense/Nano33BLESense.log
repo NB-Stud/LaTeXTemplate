@@ -2093,4 +2093,341 @@ Package: courier 2020/03/25 PSNFSS-v9.3 (WaS)
 \c@g@acro@CIE@int=\count610
 \c@g@acro@cifar@int=\count611
 \c@g@acro@cg@int=\count612
-\c@g@acro
+\c@g@acro@cli@int=\count613
+\c@g@acro@cmos@int=\count614
+\c@g@acro@cnc@int=\count615
+\c@g@acro@cnn@int=\count616
+\c@g@acro@coco@int=\count617
+\c@g@acro@cpu@int=\count618
+\c@g@acro@csi@int=\count619
+\c@g@acro@csp@int=\count620
+\c@g@acro@cuda@int=\count621
+\c@g@acro@cudnn@int=\count622
+\c@g@acro@dac@int=\count623
+\c@g@acro@diy@int=\count624
+\c@g@acro@dll@int=\count625
+\c@g@acro@dnn@int=\count626
+\c@g@acro@ean@int=\count627
+\c@g@acro@esp32@int=\count628
+\c@g@acro@esp32cam@int=\count629
+\c@g@acro@espidf@int=\count630
+\c@g@acro@fp32@int=\count631
+\c@g@acro@flops@int=\count632
+\c@g@acro@fp16@int=\count633
+\c@g@acro@fpga@int=\count634
+\c@g@acro@fps@int=\count635
+\c@g@acro@gnd@int=\count636
+\c@g@acro@gpio@int=\count637
+\c@g@acro@gpgpu@int=\count638
+\c@g@acro@gpu@int=\count639
+\c@g@acro@gtin@int=\count640
+\c@g@acro@hdmi@int=\count641
+\c@g@acro@hr@int=\count642
+\c@g@acro@hw@int=\count643
+\c@g@acro@i2c@int=\count644
+\c@g@acro@i2s@int=\count645
+\c@g@acro@ide@int=\count646
+\c@g@acro@imu@int=\count647
+\c@g@acro@int8@int=\count648
+\c@g@acro@iot@int=\count649
+\c@g@acro@ir@int=\count650
+\c@g@acro@isbn@int=\count651
+\c@g@acro@jst@int=\count652
+\c@g@acro@kdd@int=\count653
+\c@g@acro@ki@int=\count654
+\c@g@acro@knn@int=\count655
+\c@g@acro@led@int=\count656
+\c@g@acro@mcd@int=\count657
+\c@g@acro@MFCC@int=\count658
+\c@g@acro@mimd@int=\count659
+\c@g@acro@ml@int=\count660
+\c@g@acro@mp@int=\count661
+\c@g@acro@nafc@int=\count662
+\c@g@acro@nn@int=\count663
+\c@g@acro@NumPy@int=\count664
+\c@g@acro@ocr@int=\count665
+\c@g@acro@opencl@int=\count666
+\c@g@acro@oled@int=\count667
+\c@g@acro@ov2640@int=\count668
+\c@g@acro@pan@int=\count669
+\c@g@acro@pc@int=\count670
+\c@g@acro@pcb@int=\count671
+\c@g@acro@ppg@int=\count672
+\c@g@acro@PIL@int=\count673
+\c@g@acro@pdm@int=\count674
+\c@g@acro@pla@int=\count675
+\c@g@acro@ppa@int=\count676
+\c@g@acro@pip@int=\count677
+\c@g@acro@pypi@int=\count678
+\c@g@acro@pwm@int=\count679
+\c@g@acro@qr@int=\count680
+\c@g@acro@ram@int=\count681
+\c@g@acro@relu@int=\count682
+\c@g@acro@resnets@int=\count683
+\c@g@acro@rle@int=\count684
+\c@g@acro@rgb@int=\count685
+\c@g@acro@roi@int=\count686
+\c@g@acro@rtos@int=\count687
+\c@g@acro@rpc@int=\count688
+\c@g@acro@RTOS@int=\count689
+\c@g@acro@sd@int=\count690
+\c@g@acro@sda@int=\count691
+\c@g@acro@sd-1@int=\count692
+\c@g@acro@sd-3@int=\count693
+\c@g@acro@scl@int=\count694
+\c@g@acro@ssh@int=\count695
+\c@g@acro@spi@int=\count696
+\c@g@acro@sbc@int=\count697
+\c@g@acro@simd@int=\count698
+\c@g@acro@sm@int=\count699
+\c@g@acro@sp@int=\count700
+\c@g@acro@spp@int=\count701
+\c@g@acro@sps@int=\count702
+\c@g@acro@sram@int=\count703
+\c@g@acro@sw@int=\count704
+\c@g@acro@tf@int=\count705
+\c@g@acro@tfcard@int=\count706
+\c@g@acro@tfl@int=\count707
+\c@g@acro@tpu@int=\count708
+\c@g@acro@uart@int=\count709
+\c@g@acro@ui@int=\count710
+\c@g@acro@uma@int=\count711
+\c@g@acro@upc@int=\count712
+\c@g@acro@usb@int=\count713
+\c@g@acro@vcc@int=\count714
+\c@g@acro@venv@int=\count715
+\c@g@acro@vin@int=\count716
+\c@g@acro@vpu@int=\count717
+\c@g@acro@vm@int=\count718
+\c@g@acro@vnc@int=\count719
+\c@g@acro@vscode@int=\count720
+\c@g@acro@wifi@int=\count721
+\c@g@acro@wppls@int=\count722
+\c@g@acro@yolo@int=\count723
+) (../../General/Hyphenations.tex
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
+\MT@toks=\toks65
+\MT@tempbox=\box169
+\MT@count=\count724
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks66
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen401
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count725
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip127
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+))
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count726
+\@quotereset=\count727
+(./Nano33BLESense.aux
+
+LaTeX Warning: Label `fig:ArduinoNano33BLESenseResetButton' multiply defined.
+
+
+LaTeX Warning: Label `fig:ArduinoNano33BLESenseResetButton@cref' multiply defin
+ed.
+
+
+LaTeX Warning: Label `tab:Pin Belegung' multiply defined.
+
+
+LaTeX Warning: Label `tab:Pin Belegung@cref' multiply defined.
+
+)
+\openout1 = `Nano33BLESense.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+Package scrbase Info: activating english \partname on input line 40.
+Package scrbase Info: activating english \chaptername on input line 40.
+Package scrbase Info: activating english \appendixname on input line 40.
+Package scrbase Info: activating english \figurename on input line 40.
+Package scrbase Info: activating english \tablename on input line 40.
+Package scrbase Info: activating english \contentsname on input line 40.
+Package scrbase Info: activating english \listfigurename on input line 40.
+Package scrbase Info: activating english \listtablename on input line 40.
+Package scrbase Info: activating english \bibname on input line 40.
+Package scrbase Info: activating english \indexname on input line 40.
+Package tocbasic Info: usage of `tocbibind' detected on input line 40.
+
+
+Package tocbasic Warning: `tocbibind' redefinition of `\tableofcontents'
+(tocbasic)                detected.
+(tocbasic)                Note: Loading `tocbibind' without option `nottoc'
+(tocbasic)                can break several features of `tocbasic'.
+
+
+Package tocbasic Warning: `tocbibind' redefinition of `\listoffigures'
+(tocbasic)                detected.
+(tocbasic)                Note: Loading `tocbibind' without option `notlof'
+(tocbasic)                can break several features of `tocbasic'.
+
+
+Package tocbasic Warning: `tocbibind' redefinition of `\listoftables'
+(tocbasic)                detected.
+(tocbasic)                Note: Loading `tocbibind' without option `notlot'
+(tocbasic)                can break several features of `tocbasic'.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot twoside 
+* h-part:(L,W,R)=(113.81102pt, 369.88583pt, 113.81102pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=369.88583pt
+* \textheight=656.23584pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-15.36449pt
+* \headheight=1.0pt
+* \headsep=18.0pt
+* \topskip=10.0pt
+* \footskip=42.0pt
+* \marginparwidth=112.03273pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count728
+\scratchdimen=\dimen402
+\scratchbox=\box170
+\nofMPsegments=\count729
+\nofMParguments=\count730
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count731
+\MPscratchDim=\dimen403
+\MPnumerator=\count732
+\makeMPintoPDFobject=\count733
+\everyMPtoPDFconversion=\toks68
+) (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring OFF on input line 40.
+
+(./Nano33BLESense.out) (./Nano33BLESense.out)
+\@outlinefile=\write7
+\openout7 = `Nano33BLESense.out'.
+
+Class scrbook Info: loading recommended package `bookmark'.
+(scrbook)           Using `bookmark' together with `hyperref' is recommended,
+(scrbook)           because of handling of possible bookmark level gaps.
+(scrbook)           You can avoid loading `bookmark' with KOMA-Script option
+(scrbook)           `bookmarkpackage=false' before \begin{document} and
+(scrbook)           you can avoid this message adding:
+(scrbook)             \usepackage{bookmark}
+(scrbook)           before \begin{document} on input line 40.
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count734
+))
+\c@lstlisting=\count735
+Package tocbasic Info: setting babel extension for `lol' on input line 40.
+\scr@dte@lstlisting@maxnumwidth=\skip128
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 40
+.
+
+(c:/LaTeX/texlive/2025/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 40.
+
+
+LaTeX Font Warning: Font shape `T1/pcr/m/scsl' undefined
+(Font)              using `T1/pcr/m/sc' instead on input line 40.
+
+LaTeX Font Info:    Font shape `T1/pcr/b/it' in size <10> not available
+(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 40.
+
+LaTeX Font Warning: Font shape `T1/pcr/b/scsl' undefined
+(Font)              using `T1/pcr/b/sc' instead on input line 40.
+
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/pcr/bx/it' in size <10> not available
+(Font)              Font shape `T1/pcr/b/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/pcr/b/it' in size <10> not available
+(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/pcr/bx/sl' in size <10> not available
+(Font)              Font shape `T1/pcr/b/sl' tried instead on input line 40.
+
+LaTeX Font Warning: Font shape `T1/pcr/bx/scsl' undefined
+(Font)              using `T1/pcr/bx/sc' instead on input line 40.
+
+LaTeX Font Info:    Font shape `T1/pcr/bx/sc' in size <10> not available
+(Font)              Font shape `T1/pcr/b/sc' tried instead on input line 40.
+
+LaTeX Font Warning: Font shape `T1/pcr/sbx/sc' undefined
+(Font)              using `T1/pcr/sb/sc' instead on input line 40.
+
+
+LaTeX Font Warning: Font shape `T1/pcr/sb/n' undefined
+(Font)              using `T1/pcr/m/n' instead on input line 40.
+
+
+LaTeX Font Warning: Font shape `T1/pcr/sb/it' undefined
+(Font)       
