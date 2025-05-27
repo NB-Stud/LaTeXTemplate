@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  27 MAY 2025 08:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  27 MAY 2025 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4195,24 +4195,6 @@ Package scrkbase Info: You've told me to use the font selection of the element
 [62] (../../Contents/General/Materialliste Magic Faucet Fountain.tex
 chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
-[]|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
- []
-
-
-Underfull \hbox (badness 4454) in paragraph at lines 21--22
-\T1/lmr/m/n/10 (+20) - HC-05 Blue^^?
- []
-
-<../../Images/MateriallisteBilder/bluetoothModul.png, id=1109, 602.25pt x 224.8
-4pt>
-File: ../../Images/MateriallisteBilder/bluetoothModul.png Graphic file (type pn
-g)
-<use ../../Images/MateriallisteBilder/bluetoothModul.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/bluetoothModul.png  u
-sed on input line 23.
-(pdftex.def)             Requested size: 55.4806pt x 20.7116pt.
-
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
@@ -4222,7 +4204,7 @@ Underfull \hbox (badness 3343) in paragraph at lines 26--27
 \T1/lmr/m/n/10 (+20) - Schalt^^?net^^?zteil
  []
 
-<../../Images/MateriallisteBilder/netzteilBild.png, id=1111, 602.25pt x 451.687
+<../../Images/MateriallisteBilder/netzteilBild.png, id=1109, 602.25pt x 451.687
 5pt>
 File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 
@@ -4230,7 +4212,7 @@ File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
 d on input line 28.
 (pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
-<../../Images/MateriallisteBilder/pumpeBild.png, id=1113, 1003.75pt x 1003.75pt
+<../../Images/MateriallisteBilder/pumpeBild.png, id=1111, 1003.75pt x 1003.75pt
 >
 File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpeBild.png>
@@ -4242,7 +4224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/blaueLED.png, id=1115, 602.25pt x 296.10625pt
+<../../Images/MateriallisteBilder/blaueLED.png, id=1113, 602.25pt x 296.10625pt
 >
 File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/blaueLED.png>
@@ -4254,7 +4236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/greenLED.png, id=1117, 602.25pt x 351.3125pt>
+<../../Images/MateriallisteBilder/greenLED.png, id=1115, 602.25pt x 351.3125pt>
 
 File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/greenLED.png>
@@ -4271,7 +4253,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 \T1/lmr/m/n/10 (+20) - IRF9540N
  []
 
-<../../Images/MateriallisteBilder/mosfetBild.png, id=1119, 602.25pt x 454.69875
+<../../Images/MateriallisteBilder/mosfetBild.png, id=1117, 602.25pt x 454.69875
 pt>
 File: ../../Images/MateriallisteBilder/mosfetBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/mosfetBild.png>
@@ -4283,7 +4265,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/kippschalterBild.png, id=1121, 602.25pt x 141
+<../../Images/MateriallisteBilder/kippschalterBild.png, id=1119, 602.25pt x 141
 2.27625pt>
 File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
 png)
@@ -4291,14 +4273,15 @@ png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/kippschalterBild.png 
  used on input line 59.
 (pdftex.def)             Requested size: 27.7403pt x 65.0366pt.
+) (../../Contents/General/SensorHCSR04.tex
+
 [63
 
 
- <../../Images/MateriallisteBilder/bluetoothModul.png> <../../Images/Materialli
-steBilder/netzteilBild.png> <../../Images/MateriallisteBilder/pumpeBild.png> <.
-./../Images/MateriallisteBilder/blaueLED.png> <../../Images/MateriallisteBilder
-/greenLED.png> <../../Images/MateriallisteBilder/mosfetBild.png>])
-(../../Contents/General/SensorHCSR04.tex
+ <../../Images/MateriallisteBilder/netzteilBild.png> <../../Images/Materiallist
+eBilder/pumpeBild.png> <../../Images/MateriallisteBilder/blaueLED.png> <../../I
+mages/MateriallisteBilder/greenLED.png> <../../Images/MateriallisteBilder/mosfe
+tBild.png> <../../Images/MateriallisteBilder/kippschalterBild.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -4307,7 +4290,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[64 <../../Images/MateriallisteBilder/kippschalterBild.png>]
+[64]
 chapter 7.
 Package biblatex Info: Reference segment=26 on input line 18.
 Package biblatex Info: Setting label 'refsegment:026' on input line 18.
@@ -5389,11 +5372,11 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 109459 strings out of 473190
- 2912417 string characters out of 5716853
- 4606164 words of memory out of 5000000
- 129811 multiletter control sequences out of 15000+600000
- 764523 words of font info for 471 fonts, out of 8000000 for 9000
+ 109570 strings out of 473190
+ 2915502 string characters out of 5716853
+ 4606961 words of memory out of 5000000
+ 129920 multiletter control sequences out of 15000+600000
+ 764617 words of font info for 472 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3234s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/fe
@@ -5416,10 +5399,10 @@ mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
 lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
 aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (139 pages, 6851836 bytes).
+Output written on Nano33BLESense.pdf (139 pages, 6542180 bytes).
 PDF statistics:
- 3614 PDF objects out of 4296 (max. 8388607)
- 3288 compressed objects within 33 object streams
+ 3609 PDF objects out of 4296 (max. 8388607)
+ 3285 compressed objects within 33 object streams
  1281 named destinations out of 1440 (max. 500000)
- 108888 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 108883 words of extra memory for PDF output out of 128383 (max. 10000000)
 
