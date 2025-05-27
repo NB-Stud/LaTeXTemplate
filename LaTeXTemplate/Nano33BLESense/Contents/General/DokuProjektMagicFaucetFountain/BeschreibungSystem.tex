@@ -12,7 +12,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Structure
+
 \chapter{Projekt: Magic Faucet Fountain}
 
 
@@ -103,7 +103,7 @@ Die elektronischen und steuerungstechnischen Komponenten wie Arduino, MOS-FET, S
 
 Zur optischen Aufwertung kann die Oberseite des Deckels mit dekorativen Steinen oder anderen Gestaltungselementen versehen werden, wodurch die technische Funktion harmonisch in ein ästhetisches Gesamtbild eingebettet wird.
 
-\subsection{Abmaß}
+\subsection{Abmaße}
 Da der endgültige Aufbau des Projekts „Magic Faucet Fountain“ zum Zeitpunkt der Dokumentation noch nicht erfolgt ist, können die Abmessungen lediglich auf Basis der entworfenen Komponenten und Gehäusekonzepte geschätzt werden. Die Steuerungseinheit inklusive Arduino, MOS-FET-Schaltung und Stromversorgung soll in einem kompakten Gehäuse untergebracht werden. Die Wasserinstallation mit Pumpe und transparentem Rohrsystem wird so dimensioniert, dass sie sich auf einer Fläche von ca. 40 cm × 40 cm bei einer Höhe von maximal 60 cm aufbauen lässt. Genauere Angaben erfolgen nach Fertigstellung des physischen Prototyps.
 \section{Hardware-Schnittstellen}
 
@@ -472,9 +472,11 @@ Die +Vin-Anschlüsse der Aktoren erhalten jeweils die notwendige Betriebsspannun
 
 \section{Software-Schnittstellen}
 In dem Projekt Magic Faucet Fountain, bei dem ein Mikrokontroller bzw. der Arduino und ein Bluetooth-Modul (hier: HC-05) verwendet werden, beziehen sich Software-Schnittstellen auf die programmatische Kommunikation und Steuerung zwischen den Systemkomponenten. 
+
 \subsubsection{Bluetooth-Kommunikationsschnittstelle}
-Die an der Bluetooth-Kommunikation beteiligten Komponenten sind der Arduino, HC-05 Bluetooth-Modul und das Smartphone mit der Bluetooth-App. 
+Die an der Bluetooth-Kommunikation beteiligten Komponenten sind der Arduino mit seinem integrierten BLE-Modul und das Smartphone mit der nRF-Connect-App. 
 Die serielle Kommunikation über UART (TX/RX) stellt die Hauptschnittstelle für die Steuerung dar. Eine Bluetooth-App sendet ASCII-Befehle oder einfache Steuersignale an den Arduino. Dieser wertet die empfangenen Daten aus und aktiviert über seine digitalen Pins die entsprechenden MOS-FET-Schaltungen.
+
 \subsubsection{Arduino-Programmierschnittstelle}
 Der Arduino Mikrokontroller wird mit einem Arduino Sketch (Arduino DIE) programmiert, der folgende Aufgaben übernimmt:
 \begin{itemize}
@@ -491,6 +493,7 @@ Die Bluetooth-App kommuniziert mit dem Arduino über eine einfache Befehlssprach
 	\item „Off3“: Pumpe aus
 \end{itemize}
 Der Arduino-Sketch interpretiert diese Befehle als Teil eines einfachen protokollbasierten Interfaces. Diese Art der Schnittstelle ist textbasiert.
+
 \subsection{Ablaufdiagramm der Anwendung}
 Zur Veranschaulichung des Zusammenspiels der beschriebenen Software-Schnittstellen dient das in Abbildung \ref{ablaufdiagramm} dargestellte Ablaufdiagramm. Es zeigt den strukturierten Programmablauf vom Start der Anwendung über die Initialisierung und Bluetooth-Kommunikation bis hin zur Ansteuerung der LEDs und der Wasserpumpe. Zudem wird der Umgang mit kritischen Zuständen wie zu hohen oder zu niedrigen Wasserständen abgebildet. 
 \begin{figure}[H]
@@ -572,6 +575,7 @@ Zur Veranschaulichung des Zusammenspiels der beschriebenen Software-Schnittstell
 
 \section{Installation}
 Die Installation des Magic Faucet Fountain gliedert sich in zwei Hauptbereiche: den mechanischen Aufbau der Baugruppe und die elektrische Inbetriebnahme der Steuerungskomponenten. Im Folgenden werden beide Teile Schritt für Schritt erläutert.
+
 \subsection{Mechanischer Aufbau}
 \begin{itemize}
 	\item Der Blumentopf wird als zentrales Bauteil aufgestellt und mit einem speziell angefertigten Deckel verschlossen. Dieser beinhaltet:
@@ -586,6 +590,7 @@ Die Installation des Magic Faucet Fountain gliedert sich in zwei Hauptbereiche: 
 	\item Der Ultraschallsensor wird oberhalb des Führungsrohrs an der Aufnahme befestigt und misst den Abstand zum Schwimmer zur Bestimmung des Füllstands.
 	\item Auf dem Deckel können zur Gestaltung Dekosteine oder andere Elemente platziert werden.
 \end{itemize}
+
 \subsection{Elektrische Installation}
 Alle elektronischen Komponenten sind im separaten E-Kasten untergebracht, der außerhalb des Blumentopfs montiert wird und Feuchtigkeitsschutz sowie einfache Wartung ermöglicht.
 
@@ -604,6 +609,7 @@ Folgende Komponenten sind dort integriert:
     \item Stromversorgung über externes Netzteil, angeschlossen an den E-Kasten.
     \item Alle Verbindungen zur Pumpe, zu den Sensoren und zu den LEDs sind über robuste Steckverbindungen aus dem E-Kasten herausgeführt.
 \end{itemize}
+
 \subsection{Software und App-Verbindung}
 \begin{itemize}
 \item Nach dem Einschalten über den Kippschalter (→ grüne LED leuchtet), startet der Arduino.

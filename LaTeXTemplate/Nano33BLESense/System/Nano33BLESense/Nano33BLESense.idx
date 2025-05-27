@@ -1,31 +1,17 @@
-\indexentry{GPIO}{13}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{13}
-\indexentry{I\textsuperscript  {2}C}{13}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{13}
-\indexentry{IMU}{13}
-\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{13}
-\indexentry{SCL}{13}
-\indexentry{Serial Clock! \emph  {see} SCL}{13}
-\indexentry{SDA}{13}
-\indexentry{Serial Data! \emph  {see} SDA}{13}
-\indexentry{UART}{13}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{13}
-\indexentry{VCC}{13}
-\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{13}
-\indexentry{ File!.ino}{26}
-\indexentry{ File!MySketch.ino}{26}
-\indexentry{ File!MySketch}{26}
-\indexentry{ File!Arduino}{26}
+\indexentry{ File!.ino}{24}
+\indexentry{ File!MySketch.ino}{24}
+\indexentry{ File!MySketch}{24}
+\indexentry{ File!Arduino}{24}
+\indexentry{ File!Bibliotheken}{27}
+\indexentry{ File!Nano33BLESenseLED}{27}
+\indexentry{ File!Bibliotheken}{27}
+\indexentry{ File!libraries}{28}
 \indexentry{ File!Bibliotheken}{29}
 \indexentry{ File!Nano33BLESenseLED}{29}
-\indexentry{ File!Bibliotheken}{29}
-\indexentry{ File!libraries}{30}
-\indexentry{ File!Bibliotheken}{31}
-\indexentry{ File!Nano33BLESenseLED}{31}
-\indexentry{ File!blink.ino}{40}
-\indexentry{ File!blink.ino}{40}
-\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{47}
-\indexentry{IMU}{47}
+\indexentry{ File!blink.ino}{38}
+\indexentry{ File!blink.ino}{38}
+\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{45}
+\indexentry{IMU}{45}
 \indexentry{Voltage at the Common Collector! \emph  {see} VCC}{68}
 \indexentry{VCC}{68}
 \indexentry{Serial Clock! \emph  {see} SCL}{68}

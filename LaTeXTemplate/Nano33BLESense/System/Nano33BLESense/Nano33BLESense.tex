@@ -53,8 +53,8 @@
 \listofcodes
 \cleardoublepage
 
-\InputLanguage{Contents/General/}{Acronymlist}
-\cleardoublepage
+%\InputLanguage{Contents/General/}{Acronymlist}
+%\cleardoublepage
 
 
 \input{../../Contents/General/EinleitungProjekt}
@@ -80,11 +80,6 @@
   \input{../../Contents/General/ArduinoIDE2}    
   \input{../../Contents/General/ArduinoIDESetupNano33} 
   \input{../../Contents/Nano33BLESense/Nano33BLESense}
-  
-  %%%
-  % Integrierter Spannungswandler hier:
-  %\input{../../Contents/General/SpannungswandlerMPM3610}
-  %%%
 
   %\input{../../Contents/General/ResetButton}
 
@@ -122,6 +117,8 @@
 {
 \part{Arduino Nano 33 BLE Sense - Externe Sensoren und Aktoren}
    \input{../../Contents/General/SpannungswandlerMPM3610}
+   \input{../../Contents/General/NinaB306}
+   
   %\input{../../Contents/Nano33BLESense/TinyMLKit}
 
   %\input{../../Contents/General/PowerTinyMLShield}
@@ -181,13 +178,6 @@
   
   %\input{../../Contents/General/RenameActorXY}
 }
-%\Ausblenden
-
-%{
-  % BLE
-  %\input{../../Contents/General/BLENRFConnect}
-%}
-
 
 
 \part{Harwarebeschreibung: Magic Faucet Fountain}
@@ -205,9 +195,11 @@
   	\input{../../Contents/General/HardwareBeschreibung/externeLED}
   	%%%
 
+\part{Benutzerschnittstelle: nRF-Connect}
+	\input{../../Contents/General/BLENRFConnect}
   
   
-  \part{Applikation: Magic Faucet Fountain}
+\part{Applikation: Magic Faucet Fountain}
   %%% Doku/Projekt Magic Faucet Fountain hier:
   \input{../../Contents/General/DokuProjektMagicFaucetFountain/BeschreibungSystem}
   %%%
