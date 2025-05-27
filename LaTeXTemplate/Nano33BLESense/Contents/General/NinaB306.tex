@@ -15,12 +15,29 @@
 \chapter{BLE-Modul: NINA B306}
 
 \section{Einleitung}
+Bluetooth Low Energy (BLE) hat sich als Standardtechnologie für drahtlose Kommunikation bei energieeffizienten Anwendungen etabliert. Typische Anwendungsfelder sind Wearables, Sensornetzwerke, IoT-Geräte und medizinische Systeme. In diesem Projekt kommt das BLE-Modul NINA-B306, integriert auf dem Arduino Nano 33 BLE Sense, zum Einsatz. Es ermöglicht die energieeffiziente Kommunikation mit mobilen Geräten oder anderen BLE-fähigen Systemen.
 
-\section{Grundlegende Informationen}
+\section{Grundlegende Informationen zu Bluetooth Low Energy}
+Bluetooth Low Energy (BLE), auch bekannt als Bluetooth Smart, ist eine energiesparende Funktechnologie, die mit Bluetooth 4.0 eingeführt wurde. Im Gegensatz zum klassischen Bluetooth fokussiert sich BLE auf Anwendungen, die eine geringe Datenrate benötigen, aber eine lange Batterielaufzeit erfordern. BLE arbeitet im 2,4-GHz-ISM-Band und nutzt 40 Kanäle mit Frequenzsprungverfahren. Typische Datenraten sind 125 kbps, 500 kbps, 1 Mbps und 2 Mbps. BLE ist ideal für batteriebetriebene Sensoren, die periodisch kleine Datenmengen senden.
 
 \section{BLE-Modul: NINA-B306-00B}
+Das NINA-B306-00B ist ein Mitglied der u-blox NINA-B3-Serie, welches Bluetooth 5.0 Low Energy unterstützt. Es handelt sich um ein sogenanntes Open-CPU-Modul, d.h. es enthält einen eigenen Mikrocontroller (nRF52840 von Nordic Semiconductor), auf dem benutzerdefinierte Applikationen direkt ausgeführt werden können. Der Arduino Nano 33 BLE Sense nutzt dieses Modul zur BLE-Kommunikation.
 
 \section{Spezifikation}
+\begin{itemize}
+	\item Mikrocontroller: Arm Cortex-M4 mit FPU (nRF52840)
+	\item Speicher: 1 MB Flash, 256 kB RAM
+	\item Bluetooth-Version: Bluetooth 5.0 Low Energy
+	\item Sendeleistung: +8 dBm (typisch), max. +10 dBm EIRP
+	\item Empfangsempfindlichkeit: –94 dBm (1 Mbps), –100 dBm (125 kbps)
+	\item Unterstützte Modi: BLE, IEEE 802.15.4, proprietäre 2.4-GHz-Protokolle
+	\item Schnittstellen: UART, SPI, I2C, QSPI, I2S, USB 2.0, ADC (8-Kanal), PWM, GPIOs, NFC (passiv, nur als Tag)
+	\item 1,7 V – 3,6 V
+	\item Bauform: 10 mm × 15 mm mit integrierter PCB-Antenne
+	\item Energieverwaltung: Sleep-, Standby- und aktiver Modus
+	\item Zertifizierungen: CE, FCC, Bluetooth SIG
+	\item Besonderheiten: Unterstützt Mesh-Netzwerke und sichere Boot-Funktion
+\end{itemize}
 
 \section{Tests}
 

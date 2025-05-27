@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  27 MAY 2025 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  27 MAY 2025 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4184,36 +4184,258 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 chapter 6.
 Package biblatex Info: Reference segment=26 on input line 17.
 Package biblatex Info: Setting label 'refsegment:026' on input line 17.
-Package biblatex Info: Reference segment=27 on input line 19.
-Package biblatex Info: Setting label 'refsegment:027' on input line 19.
-Package biblatex Info: Reference segment=28 on input line 21.
-Package biblatex Info: Setting label 'refsegment:028' on input line 21.
-Package biblatex Info: Reference segment=29 on input line 23.
-Package biblatex Info: Setting label 'refsegment:029' on input line 23.
-Package biblatex Info: Reference segment=30 on input line 25.
-Package biblatex Info: Setting label 'refsegment:030' on input line 25.
-Package biblatex Info: Reference segment=31 on input line 27.
-Package biblatex Info: Setting label 'refsegment:031' on input line 27.
-Package biblatex Info: Reference segment=32 on input line 29.
-Package biblatex Info: Setting label 'refsegment:032' on input line 29.
-)
+Package biblatex Info: Reference segment=27 on input line 20.
+Package biblatex Info: Setting label 'refsegment:027' on input line 20.
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...verfahren. Typische Datenraten sind 125 
+                                                  kbps, 500 kbps, 1 Mbps...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ypische Datenraten sind 125 kbps, 500 
+                                                  kbps, 1 Mbps und 2 Mbp...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...tenraten sind 125 kbps, 500 kbps, 1 
+                                                  Mbps und 2 Mbps. BLE ist...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ... 125 kbps, 500 kbps, 1 Mbps und 2 
+                                                  Mbps. BLE ist ideal für b...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+Package biblatex Info: Reference segment=28 on input line 23.
+Package biblatex Info: Setting label 'refsegment:028' on input line 23.
+Package biblatex Info: Reference segment=29 on input line 26.
+Package biblatex Info: Setting label 'refsegment:029' on input line 26.
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 	\item Speicher: 1 
+                          MB Flash, 256 kB RAM
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 	\item Speicher: 1 MB Flash, 256 
+                                          kB RAM
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 	\item Sendeleistung: +8 
+                                dBm (typisch), max. +10 dBm EIRP
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...eleistung: +8 dBm (typisch), max. +10 
+                                                  dBm EIRP
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 	\item Empfangsempfindlichkeit: –94 
+                                             dBm (1 Mbps), –100 dBm (1...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...Empfangsempfindlichkeit: –94 dBm (1 
+                                                  Mbps), –100 dBm (125�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...ichkeit: –94 dBm (1 Mbps), –100 
+                                                  dBm (125 kbps)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...�94 dBm (1 Mbps), –100 dBm (125 
+                                                  kbps)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 	\item 1,7 
+                  V – 3,6 V
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 	\item 1,7 V – 3,6 
+                              V
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 	\item Bauform: 10 
+                          mm × 15 mm mit integrierter PCB-Antenne
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character   (U+202F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 	\item Bauform: 10 mm × 15 
+                                     mm mit integrierter PCB-Antenne
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
 
 [59
 
 
 ]
+Package biblatex Info: Reference segment=30 on input line 42.
+Package biblatex Info: Setting label 'refsegment:030' on input line 42.
+Package biblatex Info: Reference segment=31 on input line 44.
+Package biblatex Info: Setting label 'refsegment:031' on input line 44.
+Package biblatex Info: Reference segment=32 on input line 46.
+Package biblatex Info: Setting label 'refsegment:032' on input line 46.
+)
 
-[60
 
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-]
+[60]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 183.
 
 
-[61]
+[61
+
+
+]
 
 [62] (../../Contents/General/Materialliste Magic Faucet Fountain.tex
 chapter 7.
@@ -5424,10 +5646,10 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 109625 strings out of 473190
- 2916024 string characters out of 5716853
+ 109668 strings out of 473190
+ 2917306 string characters out of 5716853
  4609016 words of memory out of 5000000
- 129955 multiletter control sequences out of 15000+600000
+ 129998 multiletter control sequences out of 15000+600000
  761651 words of font info for 469 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3234s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5451,7 +5673,7 @@ mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
 lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
 aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (143 pages, 6546764 bytes).
+Output written on Nano33BLESense.pdf (143 pages, 6549074 bytes).
 PDF statistics:
  3733 PDF objects out of 4296 (max. 8388607)
  3403 compressed objects within 35 object streams

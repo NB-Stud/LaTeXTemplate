@@ -76,12 +76,12 @@
 \contentsline {section}{\numberline {5.6}Further Readings}{58}{section.5.6}%
 \contentsline {chapter}{\numberline {6}BLE-Modul: NINA B306}{59}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Einleitung}{59}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Grundlegende Informationen}{59}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Grundlegende Informationen zu Bluetooth Low Energy}{59}{section.6.2}%
 \contentsline {section}{\numberline {6.3}BLE-Modul: NINA-B306-00B}{59}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Spezifikation}{59}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Tests}{59}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Einfache Anwendung}{59}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Further Readings}{59}{section.6.7}%
+\contentsline {section}{\numberline {6.5}Tests}{60}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Einfache Anwendung}{60}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Further Readings}{60}{section.6.7}%
 \contentsline {part}{\numberline {III}Harwarebeschreibung: Magic Faucet Fountain}{61}{part.3}%
 \contentsline {chapter}{\numberline {7}Materialliste Magic Faucet Fountain}{63}{chapter.7}%
 \contentsline {chapter}{\numberline {8}Ultraschallsensor HC-SR04}{65}{chapter.8}%
