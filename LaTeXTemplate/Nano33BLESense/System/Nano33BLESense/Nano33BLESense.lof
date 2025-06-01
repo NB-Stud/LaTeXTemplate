@@ -42,34 +42,34 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Frequenz der verschiedenen Schall-Arten}}{66}{figure.caption.47}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{67}{figure.caption.48}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{68}{figure.caption.49}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{68}{figure.caption.50}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Frequenz der verschiedenen Schall-Arten}}{72}{figure.caption.49}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{73}{figure.caption.50}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{74}{figure.caption.51}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{74}{figure.caption.52}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Aufbau eines Schaltnetzteils}}{88}{figure.caption.56}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Skizze des Netzteils}}{89}{figure.caption.58}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Spannungsmessung des Netzteils}}{89}{figure.caption.59}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Anwendung des Netzteils für 2 seperate Stromkreise}}{90}{figure.caption.60}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Aufbau eines Schaltnetzteils}}{94}{figure.caption.58}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Skizze des Netzteils}}{95}{figure.caption.60}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Spannungsmessung des Netzteils}}{95}{figure.caption.61}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Anwendung des Netzteils für 2 seperate Stromkreise}}{96}{figure.caption.62}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{95}{figure.caption.62}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Schnittstellen und Anschlüsse HC-05}}{96}{figure.caption.63}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{101}{figure.caption.64}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Schnittstellen und Anschlüsse HC-05}}{102}{figure.caption.65}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Skizze der Schaltertypen}}{103}{figure.caption.68}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Messen des Widerstands}}{104}{figure.caption.69}%
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Einfache Anwendung des Schalters}}{105}{figure.caption.70}%
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Skizze der Schaltertypen}}{109}{figure.caption.70}%
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Messen des Widerstands}}{110}{figure.caption.71}%
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Einfache Anwendung des Schalters}}{111}{figure.caption.72}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Skizze des MOS-FETs}}{108}{figure.caption.71}%
-\contentsline {figure}{\numberline {13.2}{\ignorespaces Pinbelegung des MOS-FETs}}{110}{figure.caption.76}%
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Skizze des MOS-FETs}}{114}{figure.caption.73}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Pinbelegung des MOS-FETs}}{116}{figure.caption.78}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Aufbau einer LED}}{114}{figure.caption.79}%
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Aufbau einer LED}}{120}{figure.caption.81}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {16.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{123}{figure.caption.82}%
-\contentsline {figure}{\numberline {16.2}{\ignorespaces Versorgungsschaltplan}}{125}{figure.caption.85}%
-\contentsline {figure}{\numberline {16.3}{\ignorespaces Schaltplan: Arduino-basierte Steuerungseinheit mit Bluetooth-Kommunikation}}{126}{figure.caption.88}%
-\contentsline {figure}{\numberline {16.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{127}{figure.caption.91}%
-\contentsline {figure}{\numberline {16.5}{\ignorespaces Ablaufdiagramm}}{128}{figure.caption.98}%
+\contentsline {figure}{\numberline {16.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{129}{figure.caption.84}%
+\contentsline {figure}{\numberline {16.2}{\ignorespaces Versorgungsschaltplan}}{131}{figure.caption.87}%
+\contentsline {figure}{\numberline {16.3}{\ignorespaces Schaltplan: Arduino-basierte Steuerungseinheit mit Bluetooth-Kommunikation}}{132}{figure.caption.90}%
+\contentsline {figure}{\numberline {16.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{133}{figure.caption.93}%
+\contentsline {figure}{\numberline {16.5}{\ignorespaces Ablaufdiagramm}}{134}{figure.caption.100}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

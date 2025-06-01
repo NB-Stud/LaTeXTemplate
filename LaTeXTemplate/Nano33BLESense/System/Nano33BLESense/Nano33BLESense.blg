@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11300 items from 5000.
+Reallocated field_info (elt_size=4) to 11860 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -27,88 +27,98 @@ I was expecting a `,' or a `}'---line 159 of file ../../../MLbib/MyLiterature.bi
  :  author    = {Conrad Electronic},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 239 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 253 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/flukeOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 357 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 369 of file ../../../MLbib/MyLiterature.bib
  :  
  :  author    = {Hering, Ekbert},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 369 of file ../../../MLbib/MyLiterature.bib
+Repeated entry---line 381 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 395 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 407 of file ../../../MLbib/MyLiterature.bib
  :  
  :  author    = {Heinrich, Berthold},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 411 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 423 of file ../../../MLbib/MyLiterature.bib
  :  
  :  author    = {Hering, Martin},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 517 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 457 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  author    = {Heydon},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 549 of file ../../../MLbib/MyLiterature.bib
  :  
  :  author    = {Müller, Gerhard},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 771 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 803 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 791 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 823 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-13}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 913 of file ../../../MLbib/MyLiterature.bib
+ :  
+ :  url = {https://www.mdpi.com/1424-8220/17/12/2898}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Arduino:2025"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 44 entries,
+You've used 48 entries,
             6402 wiz_defined-function locations,
-            1503 strings with 22696 characters,
-and the built_in function-call counts, 209628 in all, are:
-= -- 12542
-> -- 5697
-< -- 1849
-+ -- 5419
-- -- 2852
-* -- 13582
-:= -- 19057
+            1520 strings with 23250 characters,
+and the built_in function-call counts, 223070 in all, are:
+= -- 13235
+> -- 5949
+< -- 1970
++ -- 5621
+- -- 2932
+* -- 14433
+:= -- 20094
 add.period$ -- 0
-call.type$ -- 44
-change.case$ -- 55
+call.type$ -- 48
+change.case$ -- 61
 chr.to.int$ -- 227
-cite$ -- 98
-duplicate$ -- 22764
-empty$ -- 20258
-format.name$ -- 2072
-if$ -- 43810
+cite$ -- 108
+duplicate$ -- 24401
+empty$ -- 21737
+format.name$ -- 2224
+if$ -- 46759
 int.to.chr$ -- 0
-int.to.str$ -- 120
+int.to.str$ -- 128
 missing$ -- 0
-newline$ -- 1119
-num.names$ -- 2121
-pop$ -- 14578
+newline$ -- 1189
+num.names$ -- 2263
+pop$ -- 15934
 preamble$ -- 1
-purify$ -- 935
+purify$ -- 985
 quote$ -- 0
-skip$ -- 8715
+skip$ -- 9319
 stack$ -- 0
-substring$ -- 19178
-swap$ -- 6166
-text.length$ -- 1392
-text.prefix$ -- 74
+substring$ -- 20031
+swap$ -- 6592
+text.length$ -- 1500
+text.prefix$ -- 81
 top$ -- 1
-type$ -- 1484
+type$ -- 1620
 warning$ -- 0
-while$ -- 2342
+while$ -- 2485
 width$ -- 0
-write$ -- 1076
-(There were 9 error messages)
+write$ -- 1142
+(There were 11 error messages)

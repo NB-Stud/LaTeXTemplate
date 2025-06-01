@@ -5,26 +5,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {code}{\numberline {6.1}{\ignorespaces Einfacher Code zum Testen von BLE}}{62}{code.caption.47}%
+\contentsline {code}{\numberline {6.2}{\ignorespaces Einfache Anwendung für BLE}}{64}{code.caption.48}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {8.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{71}{code.caption.51}%
-\contentsline {code}{\numberline {8.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{73}{code.caption.52}%
-\contentsline {code}{\numberline {8.3}{\ignorespaces Code für die Messung einer Strecke}}{75}{code.caption.53}%
+\contentsline {code}{\numberline {8.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{77}{code.caption.53}%
+\contentsline {code}{\numberline {8.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{79}{code.caption.54}%
+\contentsline {code}{\numberline {8.3}{\ignorespaces Code für die Messung einer Strecke}}{81}{code.caption.55}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {9.1}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{83}{code.caption.54}%
-\contentsline {code}{\numberline {9.2}{\ignorespaces Einfacher Code zur Fehlererkennung}}{85}{code.caption.55}%
+\contentsline {code}{\numberline {9.1}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{89}{code.caption.56}%
+\contentsline {code}{\numberline {9.2}{\ignorespaces Einfacher Code zur Fehlererkennung}}{91}{code.caption.57}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {10.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{91}{code.caption.61}%
+\contentsline {code}{\numberline {10.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{97}{code.caption.63}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {11.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{99}{code.caption.65}%
-\contentsline {code}{\numberline {11.2}{\ignorespaces Code zur Überprüfung der Funktionalität}}{101}{code.caption.67}%
+\contentsline {code}{\numberline {11.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{105}{code.caption.67}%
+\contentsline {code}{\numberline {11.2}{\ignorespaces Code zur Überprüfung der Funktionalität}}{107}{code.caption.69}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zum Testen des MOS-FETs}}{111}{code.caption.77}%
-\contentsline {code}{\numberline {13.2}{\ignorespaces Einfache Anwendung zum Verwenden des MOS-FETs}}{112}{code.caption.78}%
+\contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zum Testen des MOS-FETs}}{117}{code.caption.79}%
+\contentsline {code}{\numberline {13.2}{\ignorespaces Einfache Anwendung zum Verwenden des MOS-FETs}}{118}{code.caption.80}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {14.1}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{115}{code.caption.80}%
-\contentsline {code}{\numberline {14.2}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{116}{code.caption.81}%
+\contentsline {code}{\numberline {14.1}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{121}{code.caption.82}%
+\contentsline {code}{\numberline {14.2}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{122}{code.caption.83}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
