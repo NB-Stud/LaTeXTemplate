@@ -188,42 +188,43 @@
 \contentsline {section}{\numberline {14.8}Further Readings}{122}{section.14.8}%
 \contentsline {part}{\numberline {IV}Benutzerschnittstelle: nRF-Connect}{123}{part.4}%
 \contentsline {chapter}{\numberline {15}Einstieg}{125}{chapter.15}%
-\contentsline {section}{\numberline {15.1}Installation der nRF-Connect-App auf dem Smartphone}{125}{section.15.1}%
+\contentsline {section}{\numberline {15.1}Installation der nRF Connect App auf dem Smartphone}{125}{section.15.1}%
 \contentsline {subsection}{\numberline {15.1.1}Auf Android:}{125}{subsection.15.1.1}%
 \contentsline {subsection}{\numberline {15.1.2}Auf iOS:}{125}{subsection.15.1.2}%
-\contentsline {section}{\numberline {15.2}nRF-Connect mit dem Arduino verbinden}{125}{section.15.2}%
-\contentsline {subsection}{\numberline {15.2.1}Auf iOS:}{125}{subsection.15.2.1}%
-\contentsline {section}{\numberline {15.3}Einrichten des Magic Faucet Fountain auf nRF-Connect}{125}{section.15.3}%
-\contentsline {section}{\numberline {15.4}Auf iOS:}{125}{section.15.4}%
-\contentsline {part}{\numberline {V}Applikation: Magic Faucet Fountain}{127}{part.5}%
-\contentsline {chapter}{\numberline {16}Projekt: Magic Faucet Fountain}{129}{chapter.16}%
-\contentsline {section}{\numberline {16.1}Beschreibung}{129}{section.16.1}%
-\contentsline {section}{\numberline {16.2}Aufbau}{129}{section.16.2}%
-\contentsline {subsection}{\numberline {16.2.1}Abmaße}{130}{subsection.16.2.1}%
-\contentsline {section}{\numberline {16.3}Hardware-Schnittstellen}{130}{section.16.3}%
-\contentsline {subsection}{\numberline {16.3.1}Schaltpläne}{130}{subsection.16.3.1}%
-\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{130}{subsubsection*.86}%
-\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{131}{subsubsection*.89}%
-\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{132}{subsubsection*.92}%
-\contentsline {section}{\numberline {16.4}Software-Schnittstellen}{133}{section.16.4}%
-\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{133}{subsubsection*.95}%
-\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{133}{subsubsection*.97}%
-\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{134}{subsubsection*.99}%
-\contentsline {subsection}{\numberline {16.4.1}Ablaufdiagramm der Anwendung}{134}{subsection.16.4.1}%
-\contentsline {subsection}{\numberline {16.4.2}Code der Anwendung}{136}{subsection.16.4.2}%
-\contentsline {section}{\numberline {16.5}Installation}{137}{section.16.5}%
-\contentsline {subsection}{\numberline {16.5.1}Mechanischer Aufbau}{137}{subsection.16.5.1}%
-\contentsline {subsection}{\numberline {16.5.2}Elektrische Installation}{137}{subsection.16.5.2}%
-\contentsline {subsection}{\numberline {16.5.3}Software und App-Verbindung}{138}{subsection.16.5.3}%
-\contentsline {subsection}{\numberline {16.5.4}Software und App-Verbindung}{138}{subsection.16.5.4}%
-\contentsline {section}{\numberline {16.6}Konfiguration}{138}{section.16.6}%
-\contentsline {section}{\numberline {16.7}Einschränkungen}{139}{section.16.7}%
-\contentsline {chapter}{\numberline {17}Schlussfolgerungen}{141}{chapter.17}%
-\contentsline {section}{\numberline {17.1}Zusammenfassung der Projektergebnisse}{141}{section.17.1}%
-\contentsline {section}{\numberline {17.2}Reflexion über die Zielerreichung}{141}{section.17.2}%
-\contentsline {section}{\numberline {17.3}Mögliche Weiterentwicklungen}{141}{section.17.3}%
-\contentsline {section}{\numberline {17.4}Zukünftige Anwendungen}{141}{section.17.4}%
-\contentsline {part}{\numberline {VI}Anhang}{143}{part.6}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{145}{chapter*.102}%
-\contentsline {chapter}{Stichwortverzeichnis}{148}{chapter*.102}%
-\contentsline {chapter}{Index}{149}{chapter*.102}%
+\contentsline {section}{\numberline {15.2}Einrichtung von nRF auf dem Arduino}{126}{section.15.2}%
+\contentsline {section}{\numberline {15.3}nRF Connect App mit dem Arduino verbinden}{126}{section.15.3}%
+\contentsline {subsection}{\numberline {15.3.1}Auf iOS:}{126}{subsection.15.3.1}%
+\contentsline {section}{\numberline {15.4}Einrichten des Magic Faucet Fountain auf nRF Connect}{127}{section.15.4}%
+\contentsline {section}{\numberline {15.5}Auf iOS:}{127}{section.15.5}%
+\contentsline {part}{\numberline {V}Applikation: Magic Faucet Fountain}{129}{part.5}%
+\contentsline {chapter}{\numberline {16}Projekt: Magic Faucet Fountain}{131}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Beschreibung}{131}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Aufbau}{131}{section.16.2}%
+\contentsline {subsection}{\numberline {16.2.1}Abmaße}{132}{subsection.16.2.1}%
+\contentsline {section}{\numberline {16.3}Hardware-Schnittstellen}{132}{section.16.3}%
+\contentsline {subsection}{\numberline {16.3.1}Schaltpläne}{132}{subsection.16.3.1}%
+\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{132}{subsubsection*.89}%
+\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{133}{subsubsection*.92}%
+\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{134}{subsubsection*.95}%
+\contentsline {section}{\numberline {16.4}Software-Schnittstellen}{135}{section.16.4}%
+\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{135}{subsubsection*.98}%
+\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{135}{subsubsection*.100}%
+\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{136}{subsubsection*.102}%
+\contentsline {subsection}{\numberline {16.4.1}Ablaufdiagramm der Anwendung}{136}{subsection.16.4.1}%
+\contentsline {subsection}{\numberline {16.4.2}Code der Anwendung}{138}{subsection.16.4.2}%
+\contentsline {section}{\numberline {16.5}Installation}{139}{section.16.5}%
+\contentsline {subsection}{\numberline {16.5.1}Mechanischer Aufbau}{139}{subsection.16.5.1}%
+\contentsline {subsection}{\numberline {16.5.2}Elektrische Installation}{139}{subsection.16.5.2}%
+\contentsline {subsection}{\numberline {16.5.3}Software und App-Verbindung}{140}{subsection.16.5.3}%
+\contentsline {subsection}{\numberline {16.5.4}Software und App-Verbindung}{140}{subsection.16.5.4}%
+\contentsline {section}{\numberline {16.6}Konfiguration}{140}{section.16.6}%
+\contentsline {section}{\numberline {16.7}Einschränkungen}{141}{section.16.7}%
+\contentsline {chapter}{\numberline {17}Schlussfolgerungen}{143}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Zusammenfassung der Projektergebnisse}{143}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Reflexion über die Zielerreichung}{143}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Mögliche Weiterentwicklungen}{143}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Zukünftige Anwendungen}{143}{section.17.4}%
+\contentsline {part}{\numberline {VI}Anhang}{145}{part.6}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{147}{chapter*.105}%
+\contentsline {chapter}{Stichwortverzeichnis}{150}{chapter*.105}%
+\contentsline {chapter}{Index}{151}{chapter*.105}%

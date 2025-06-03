@@ -3,7 +3,7 @@
 % $ Autor: Gruppe 07 $
 % $ Projekt: Magic Faucet Fountain $
 % $ Pfad: LaTeXTemplate/Nano33BLESense/Contents/General/BLENRFConnect.tex $
-% $ Kurzbeschreibung: Dieses Dokument stellt NRF Connect vor und wie man es anwendet. $
+% $ Kurzbeschreibung: Dieses Dokument stellt nRF Connect vor und wie man es anwendet. $
 %
 % !TeX spellcheck = de_DE/GB
 % !TeX program = pdflatex
@@ -18,21 +18,82 @@
 \label{chap:einstiegNRF}
 
 
-\section{Installation der nRF-Connect-App auf dem Smartphone}
-
+\section{Installation der nRF Connect App auf dem Smartphone}
 \subsection{Auf Android:}
 Da uns leider kein Android-Smartphone zur Verfügung steht, können wir die Anbindung zu Android Geräten leider nicht weiter erläutern.
 
 \subsection{Auf iOS:}
+Die Installation läuft wie folgt ab: \ref{fig:nrfInstallation}
+\begin{enumerate}
+	\item Öffnen Sie den \textbf{App Store} auf Ihrem iPhone.
+	\item Drücken Sie auf \menu{Suchen} und geben Sie in der Suchleiste \glqq nRF Connect for Mobile\grqq\ ein. Wählen Sie das erste Suchergebnis aus.
+	\item Tippen Sie auf \menu{Laden}, um die App zu installieren. Nach erfolgreichem Download erscheint das Icon auf Ihrem Home Screen.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/AppStore.png}
+		\caption*{1. App Store öffnen}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/nrfInstallieren.png}
+		\caption*{2. nRF Connect suchen und auswählen}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/nrfHomescreen.png}
+		\caption*{3. App auf dem Home Screen}
+	\end{minipage}
+	\caption{Installation der App \glqq nRF Connect\grqq\ auf iOS}
+	\label{fig:nrfInstallation}
+\end{figure}
+
+\section{Einrichtung von nRF auf dem Arduino}
+Um nRF auf dem Arduino einzurichten, öffnen Sie zuerst die \textbf{Arduino IDE} und erstellen gehen auf \menu{Datei > Neuer Sketch}. Benutzen Sie folgenden Code, dieser macht den Arduino mit BLE sichtbar und gibt ihm den Namen: \glqq Mein Arduino\grqq. 
+
+\begin{code}[H]
+	\caption{Einfacher Code zur Einrichtung von nRF Connect auf dem Arduino}
+	\label{code:einrichtungNRF}
+	\ArduinoExternal{}{../../Code/Arduino/nRF Connect/einrichtungNRF/einrichtungNRF.ino}
+\end{code}
 
 
-\section{nRF-Connect mit dem Arduino verbinden}
 
+\section{nRF Connect App mit dem Arduino verbinden}
 \subsection{Auf iOS:}
+Öffnen Sie nun die nRF Connect App auf Ihrem iPhone, gehen Sie wie folgt vor: \ref{fig:nrfScan}
+\begin{enumerate}
+	\item Scannen Sie nach BLE-Geräten in der Umgebung durch ein Wischen nach unten wischen oder auf den Bildschirm tippen.
+	\item Wählen Sie \glqq Mein Arduino\grqq aus und tippen Sie auf \menu{Connect}
+	\item Sie sind nun mit dem Arduino über nRF verbunden, es wird die Menü-Ansicht angezeigt.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[t]{0.4\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/nrfScan.png}
+		\caption*{1. BLE-Geräte Scannen}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.4\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/nrfAnsicht.png}
+		\caption*{2. Auswahl}
+	\end{minipage}
+	\caption{Scannen und hinzufügen von BLE-Geräten}
+	\label{fig:nrfScan}
+	\hfill
+\end{figure}
 
 
-\section{Einrichten des Magic Faucet Fountain auf nRF-Connect}
 
+\section{Einrichten des Magic Faucet Fountain auf nRF Connect}
 \section{Auf iOS:}
 
 
