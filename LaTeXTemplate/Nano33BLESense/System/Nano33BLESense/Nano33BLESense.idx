@@ -1,28 +1,28 @@
-\indexentry{ File!.ino}{24}
-\indexentry{ File!MySketch.ino}{24}
-\indexentry{ File!MySketch}{24}
-\indexentry{ File!Arduino}{24}
-\indexentry{ File!Bibliotheken}{27}
-\indexentry{ File!Nano33BLESenseLED}{27}
-\indexentry{ File!Bibliotheken}{27}
-\indexentry{ File!libraries}{28}
-\indexentry{ File!Bibliotheken}{29}
-\indexentry{ File!Nano33BLESenseLED}{29}
-\indexentry{ File!blink.ino}{38}
-\indexentry{ File!blink.ino}{38}
-\indexentry{ Inertial Measurement Unit! \emph  {see} IMU}{45}
+\indexentry{ Datei!.ino}{24}
+\indexentry{ Datei!MySketch.ino}{24}
+\indexentry{ Datei!MySketch}{24}
+\indexentry{ Datei!Arduino}{24}
+\indexentry{ Datei!Bibliotheken}{27}
+\indexentry{ Datei!Nano33BLESenseLED}{27}
+\indexentry{ Datei!Bibliotheken}{27}
+\indexentry{ Datei!libraries}{28}
+\indexentry{ Datei!Bibliotheken}{29}
+\indexentry{ Datei!Nano33BLESenseLED}{29}
+\indexentry{ Datei!blink.ino}{38}
+\indexentry{ Datei!blink.ino}{38}
+\indexentry{ Inertialmesseinheit! \emph  {siehe} IMU}{45}
 \indexentry{IMU}{45}
-\indexentry{Voltage at the Common Collector! \emph  {see} VCC}{74}
+\indexentry{Voltage at the Common Collector! \emph  {siehe} VCC}{74}
 \indexentry{VCC}{74}
-\indexentry{Serial Clock! \emph  {see} SCL}{74}
+\indexentry{Serial Clock! \emph  {siehe} SCL}{74}
 \indexentry{SCL}{74}
-\indexentry{Serial Data! \emph  {see} SDA}{74}
+\indexentry{Serial Data! \emph  {siehe} SDA}{74}
 \indexentry{SDA}{74}
-\indexentry{General Purpose Input Output! \emph  {see} GPIO}{74}
+\indexentry{General Purpose Input Output! \emph  {siehe} GPIO}{74}
 \indexentry{GPIO}{74}
-\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {see} UART}{74}
+\indexentry{Universal Asynchronous Receiver Transmitter! \emph  {siehe} UART}{74}
 \indexentry{UART}{74}
-\indexentry{Inter-Integrated Circuit! \emph  {see} I\textsuperscript  {2}C}{74}
+\indexentry{Inter-Integrated Circuit! \emph  {siehe} I\textsuperscript  {2}C}{74}
 \indexentry{I\textsuperscript  {2}C}{74}
 \indexentry{SCL}{75}
 \indexentry{SDA}{75}
