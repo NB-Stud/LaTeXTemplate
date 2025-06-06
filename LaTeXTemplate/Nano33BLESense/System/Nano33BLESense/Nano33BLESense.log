@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  6 JUN 2025 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  6 JUN 2025 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2876,14 +2876,14 @@ Package scrkbase Info: You've told me to use the font selection of the element
 chapter 2.
 Package biblatex Info: Reference segment=5 on input line 19.
 Package biblatex Info: Setting label 'refsegment:05' on input line 19.
-<../../Images/Arduino/ArduinoIDE/menuAnzeige.png, id=715, 709.90219pt x 67.0003
+<../../Images/Arduino/ArduinoIDE/menuAnzeige.png, id=714, 709.90219pt x 67.0003
 pt>
 File: ../../Images/Arduino/ArduinoIDE/menuAnzeige.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/menuAnzeige.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/menuAnzeige.png  used 
 on input line 34.
 (pdftex.def)             Requested size: 369.88583pt x 34.91089pt.
-<../../Images/Arduino/ArdiunoIDE2/MenuButton.png, id=717, 758.835pt x 28.908pt>
+<../../Images/Arduino/ArdiunoIDE2/MenuButton.png, id=716, 758.835pt x 28.908pt>
 
 File: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/MenuButton.png>
@@ -2919,7 +2919,7 @@ on input line 50.
 (pdftex.def)             Requested size: 11.1998pt x 12.0pt.
 Package biblatex Info: Reference segment=6 on input line 54.
 Package biblatex Info: Setting label 'refsegment:06' on input line 54.
-<../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png, id=737, 676.02562pt x 
+<../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png, id=736, 676.02562pt x 
 446.41782pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png Graphic file (type
  png)
@@ -2937,7 +2937,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [18 <../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png>]
-<../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png, id=750, 676.02562pt
+<../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png, id=749, 676.02562pt
  x 446.41782pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png Graphic file (t
 ype png)
@@ -2945,7 +2945,7 @@ ype png)
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.
 png  used on input line 95.
 (pdftex.def)             Requested size: 369.88583pt x 244.26357pt.
-<../../Images/Arduino/ArduinoIDE/lizenzabkommen.png, id=752, 370.38374pt x 287.
+<../../Images/Arduino/ArduinoIDE/lizenzabkommen.png, id=751, 370.38374pt x 287.
 57437pt>
 File: ../../Images/Arduino/ArduinoIDE/lizenzabkommen.png Graphic file (type png
 )
@@ -2968,7 +2968,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [19 <../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png>]
-<../../Images/Arduino/ArduinoIDE/downloadBenutzer.png, id=761, 371.13657pt x 28
+<../../Images/Arduino/ArduinoIDE/downloadBenutzer.png, id=760, 371.13657pt x 28
 6.06876pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadBenutzer.png Graphic file (type p
 ng)
@@ -2989,7 +2989,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [20 <../../Images/Arduino/ArduinoIDE/lizenzabkommen.png>]
-<../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png, id=769, 371.13657pt x
+<../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png, id=768, 371.13657pt x
  287.57437pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png Graphic file (typ
 e png)
@@ -3012,7 +3012,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [21 <../../Images/Arduino/ArduinoIDE/downloadBenutzer.png>]
-<../../Images/Arduino/ArduinoIDE/downloadIDE.png, id=777, 709.90219pt x 439.642
+<../../Images/Arduino/ArduinoIDE/downloadIDE.png, id=776, 709.90219pt x 439.642
 5pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadIDE.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/downloadIDE.png>
@@ -3035,7 +3035,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 uino/ArduinoIDE/downloadIDE.png>]
 Package biblatex Info: Reference segment=7 on input line 202.
 Package biblatex Info: Setting label 'refsegment:07' on input line 202.
-<../../Images/Arduino/ArduinoIDE/arduinoSidebar.png, id=787, 699.36281pt x 369.
+<../../Images/Arduino/ArduinoIDE/arduinoSidebar.png, id=786, 699.36281pt x 369.
 63094pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoSidebar.png Graphic file (type png
 )
@@ -3057,7 +3057,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [23 <../../Images/Arduino/ArduinoIDE/arduinoSidebar.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png, id=795, 613.54219pt x 3
+<../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png, id=794, 613.54219pt x 3
 77.15906pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png Graphic file (type 
 png)
@@ -3075,14 +3075,14 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [24 <../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoBoard.png, id=803, 493.0922pt x 325.967
+<../../Images/Arduino/ArduinoIDE/arduinoBoard.png, id=802, 493.0922pt x 325.967
 82pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBoard.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBoard.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBoard.png  used
  on input line 270.
 (pdftex.def)             Requested size: 369.88583pt x 244.52997pt.
-<../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png, id=805, 350.05782pt x 3
+<../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png, id=804, 350.05782pt x 3
 65.86688pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png Graphic file (type 
 png)
@@ -3174,7 +3174,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\font' on input line 368.
 
-<../../Images/Arduino/ArduinoIDE/arduinoCMD.png, id=830, 605.26125pt x 563.1037
+<../../Images/Arduino/ArduinoIDE/arduinoCMD.png, id=829, 605.26125pt x 563.1037
 4pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoCMD.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoCMD.png>
@@ -3196,7 +3196,7 @@ Overfull \hbox (35.11371pt too wide) in paragraph at lines 408--410
 3BLESenseLED[] 
  []
 
-<../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png, id=840, 672.26
+<../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png, id=839, 672.26
 157pt x 348.55219pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png Graphic fi
 le (type png)
@@ -3218,7 +3218,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [29 <../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png>]
 Package biblatex Info: Reference segment=10 on input line 459.
 Package biblatex Info: Setting label 'refsegment:010' on input line 459.
-<../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png, id=852, 584.93532pt x 44
+<../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png, id=851, 584.93532pt x 44
 4.91219pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png Graphic file (type p
 ng)
@@ -3240,7 +3240,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [30 <../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png>]
 Package biblatex Info: Reference segment=12 on input line 488.
 Package biblatex Info: Setting label 'refsegment:012' on input line 488.
-<../../Images/Arduino/ArduinoIDE/arduinoAuto.png, id=861, 446.41782pt x 201.753
+<../../Images/Arduino/ArduinoIDE/arduinoAuto.png, id=860, 446.41782pt x 201.753
 75pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoAuto.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoAuto.png>
@@ -3276,7 +3276,7 @@ Package biblatex Info: Reference segment=14 on input line 19.
 Package biblatex Info: Setting label 'refsegment:014' on input line 19.
 Package biblatex Info: Reference segment=15 on input line 29.
 Package biblatex Info: Setting label 'refsegment:015' on input line 29.
-<../../Images/Arduino/ArduinoIDE/arduinoMbed.png, id=878, 580.41844pt x 334.248
+<../../Images/Arduino/ArduinoIDE/arduinoMbed.png, id=877, 580.41844pt x 334.248
 75pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoMbed.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoMbed.png>
@@ -3292,7 +3292,7 @@ Underfull \vbox (badness 1147) has occurred while \output is active []
 
 
 ]
-<../../Images/Arduino/ArduinoIDE/arduinoConnect.png, id=891, 599.99156pt x 410.
+<../../Images/Arduino/ArduinoIDE/arduinoConnect.png, id=890, 599.99156pt x 410.
 2828pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoConnect.png Graphic file (type png
 )
@@ -3311,7 +3311,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [34 <../../Images/Arduino/ArduinoIDE/arduinoMbed.png> <../../Images/Arduino/Ard
 uinoIDE/arduinoConnect.png>]
-<../../Images/Arduino/ArdiunoIDE2/resetbutton.png, id=904, 283.0575pt x 439.642
+<../../Images/Arduino/ArdiunoIDE2/resetbutton.png, id=903, 283.0575pt x 439.642
 5pt>
 File: ../../Images/Arduino/ArdiunoIDE2/resetbutton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/resetbutton.png>
@@ -3346,7 +3346,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [35 <../../Images/Arduino/ArdiunoIDE2/resetbutton.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoPort.png, id=918, 345.54094pt x 394.473
+<../../Images/Arduino/ArduinoIDE/arduinoPort.png, id=917, 345.54094pt x 394.473
 75pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoPort.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoPort.png>
@@ -3420,14 +3420,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\font' on input line 171.
 
-<../../Images/Arduino/ArduinoIDE/arduinoBlink.png, id=939, 581.17125pt x 414.04
+<../../Images/Arduino/ArduinoIDE/arduinoBlink.png, id=938, 581.17125pt x 414.04
 688pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBlink.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBlink.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBlink.png  used
  on input line 206.
 (pdftex.def)             Requested size: 295.90979pt x 210.81995pt.
-<../../Images/Arduino/ArduinoIDE/arduinoBlink2.png, id=940, 1084.05pt x 624.081
+<../../Images/Arduino/ArduinoIDE/arduinoBlink2.png, id=939, 1084.05pt x 624.081
 56pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBlink2.png Graphic file (type png)
 
@@ -4090,7 +4090,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 243.
 Package biblatex Info: Reference segment=23 on input line 252.
 Package biblatex Info: Setting label 'refsegment:023' on input line 252.
-<../../Images/MPM3610/BlockdiagrammSpannungswandler.png, id=1067, 858.95906pt x
+<../../Images/MPM3610/BlockdiagrammSpannungswandler.png, id=1066, 858.95906pt x
  502.12593pt>
 File: ../../Images/MPM3610/BlockdiagrammSpannungswandler.png Graphic file (type
  png)
@@ -4108,7 +4108,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [52]
-<../../Images/MPM3610/BeispielanwendungSpannungswandler.png, id=1076, 548.80031
+<../../Images/MPM3610/BeispielanwendungSpannungswandler.png, id=1075, 548.80031
 pt x 324.46219pt>
 File: ../../Images/MPM3610/BeispielanwendungSpannungswandler.png Graphic file (
 type png)
@@ -4133,13 +4133,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [53{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <../../Image
 s/MPM3610/BlockdiagrammSpannungswandler.png>]
-<../../Images/MPM3610/aamRegelbetrieb.png, id=1087, 619.56468pt x 238.64156pt>
+<../../Images/MPM3610/aamRegelbetrieb.png, id=1086, 619.56468pt x 238.64156pt>
 File: ../../Images/MPM3610/aamRegelbetrieb.png Graphic file (type png)
 <use ../../Images/MPM3610/aamRegelbetrieb.png>
 Package pdftex.def Info: ../../Images/MPM3610/aamRegelbetrieb.png  used on inpu
 t line 280.
 (pdftex.def)             Requested size: 295.90979pt x 113.97495pt.
-<../../Images/MPM3610/dcmSteuerungsbetrieb.png, id=1090, 582.67688pt x 277.035p
+<../../Images/MPM3610/dcmSteuerungsbetrieb.png, id=1089, 582.67688pt x 277.035p
 t>
 File: ../../Images/MPM3610/dcmSteuerungsbetrieb.png Graphic file (type png)
 <use ../../Images/MPM3610/dcmSteuerungsbetrieb.png>
@@ -4172,7 +4172,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [55 <../../Images/MPM3610/dcmSteuerungsbetrieb.png>]
-<../../Images/MPM3610/spannungswandlerWirkungsgrad.png, id=1119, 482.55281pt x 
+<../../Images/MPM3610/spannungswandlerWirkungsgrad.png, id=1118, 482.55281pt x 
 486.31688pt>
 File: ../../Images/MPM3610/spannungswandlerWirkungsgrad.png Graphic file (type 
 png)
@@ -4343,7 +4343,7 @@ Underfull \hbox (badness 3343) in paragraph at lines 20--21
 \T1/lmr/m/n/10 (+20) - Schalt^^?netz^^?teil
  []
 
-<../../Images/MateriallisteBilder/netzteilBild.png, id=1375, 602.25pt x 451.687
+<../../Images/MateriallisteBilder/netzteilBild.png, id=1374, 602.25pt x 451.687
 5pt>
 File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 
@@ -4351,7 +4351,7 @@ File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
 d on input line 22.
 (pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
-<../../Images/MateriallisteBilder/pumpeBild.png, id=1377, 1003.75pt x 1003.75pt
+<../../Images/MateriallisteBilder/pumpeBild.png, id=1376, 1003.75pt x 1003.75pt
 >
 File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpeBild.png>
@@ -4363,7 +4363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/blaueLED.png, id=1379, 602.25pt x 296.10625pt
+<../../Images/MateriallisteBilder/blaueLED.png, id=1378, 602.25pt x 296.10625pt
 >
 File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/blaueLED.png>
@@ -4375,7 +4375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/greenLED.png, id=1381, 602.25pt x 351.3125pt>
+<../../Images/MateriallisteBilder/greenLED.png, id=1380, 602.25pt x 351.3125pt>
 
 File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/greenLED.png>
@@ -4387,7 +4387,7 @@ Underfull \hbox (badness 4543) in paragraph at lines 40--41
 []|[]\T1/lmr/m/n/10 (+20) az-delivery.de -
  []
 
-<../../Images/MateriallisteBilder/relaisBild.png, id=1383, 1204.5pt x 1204.5pt>
+<../../Images/MateriallisteBilder/relaisBild.png, id=1382, 1204.5pt x 1204.5pt>
 
 File: ../../Images/MateriallisteBilder/relaisBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/relaisBild.png>
@@ -4399,7 +4399,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 []|[]\T1/lmr/m/n/10 (+20) www.reichelt.de
  []
 
-<../../Images/MateriallisteBilder/kippschalterBild.png, id=1385, 602.25pt x 141
+<../../Images/MateriallisteBilder/kippschalterBild.png, id=1384, 602.25pt x 141
 2.27625pt>
 File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
 png)
@@ -4412,7 +4412,7 @@ Overfull \hbox (60.66722pt too wide) in paragraph at lines 50--51
 []|[]\T1/lmr/m/n/10 (-20) elektro-wandelt.de-Aderleitung[]| 
  []
 
-<../../Images/MateriallisteBilder/aderleitungBild.png, id=1387, 411.03563pt x 2
+<../../Images/MateriallisteBilder/aderleitungBild.png, id=1386, 411.03563pt x 2
 73.27094pt>
 File: ../../Images/MateriallisteBilder/aderleitungBild.png Graphic file (type p
 ng)
@@ -5216,20 +5216,20 @@ Package scrkbase Info: You've told me to use the font selection of the element
 chapter 15.
 Package biblatex Info: Reference segment=91 on input line 21.
 Package biblatex Info: Setting label 'refsegment:091' on input line 21.
-<../../Images/nRF Connect/AppStore.png, id=2561, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/AppStore.png, id=2560, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/AppStore.png Graphic file (type png)
 <use ../../Images/nRF Connect/AppStore.png>
 Package pdftex.def Info: ../../Images/nRF Connect/AppStore.png  used on input l
 ine 37.
 (pdftex.def)             Requested size: 110.96687pt x 240.126pt.
-<../../Images/nRF Connect/nrfInstallieren.png, id=2562, 1174.3875pt x 2541.495p
+<../../Images/nRF Connect/nrfInstallieren.png, id=2561, 1174.3875pt x 2541.495p
 t>
 File: ../../Images/nRF Connect/nrfInstallieren.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfInstallieren.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfInstallieren.png  used on 
 input line 43.
 (pdftex.def)             Requested size: 110.96687pt x 240.126pt.
-<../../Images/nRF Connect/nrfHomescreen.png, id=2563, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/nrfHomescreen.png, id=2562, 1174.3875pt x 2541.495pt>
 
 File: ../../Images/nRF Connect/nrfHomescreen.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfHomescreen.png>
@@ -5258,13 +5258,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [126]
-<../../Images/nRF Connect/nrfScan.png, id=2622, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/nrfScan.png, id=2621, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/nrfScan.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfScan.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfScan.png  used on input li
 ne 80.
 (pdftex.def)             Requested size: 147.95207pt x 320.16801pt.
-<../../Images/nRF Connect/nrfAnsicht.png, id=2623, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/nrfAnsicht.png, id=2622, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/nrfAnsicht.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfAnsicht.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfAnsicht.png  used on input
@@ -5325,8 +5325,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [132]
+Underfull \vbox (badness 3612) has occurred while \output is active []
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 315.
+
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 303.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5338,7 +5341,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [133]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 319.
+(caption)                particular \caption on input line 311.
 See the caption package documentation for explanation.
 
 
@@ -5354,11 +5357,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [134]
-Package biblatex Info: Reference segment=99 on input line 473.
-Package biblatex Info: Setting label 'refsegment:099' on input line 473.
+Package biblatex Info: Reference segment=99 on input line 474.
+Package biblatex Info: Setting label 'refsegment:099' on input line 474.
 
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 492.
+Package cleveref Info: loaded `ngerman' language definitions on input line 493.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5384,7 +5387,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 575.
+Package cleveref Info: loaded `ngerman' language definitions on input line 576.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5406,11 +5409,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [138]
-Package biblatex Info: Reference segment=100 on input line 576.
-Package biblatex Info: Setting label 'refsegment:0100' on input line 576.
+Package biblatex Info: Reference segment=100 on input line 577.
+Package biblatex Info: Setting label 'refsegment:0100' on input line 577.
 
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 611.
+Package cleveref Info: loaded `ngerman' language definitions on input line 612.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5420,8 +5423,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [139]
-Package biblatex Info: Reference segment=101 on input line 631.
-Package biblatex Info: Setting label 'refsegment:0101' on input line 631.
+Package biblatex Info: Reference segment=101 on input line 632.
+Package biblatex Info: Setting label 'refsegment:0101' on input line 632.
 
 
 
@@ -5432,8 +5435,8 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [140]
-Package biblatex Info: Reference segment=102 on input line 672.
-Package biblatex Info: Setting label 'refsegment:0102' on input line 672.
+Package biblatex Info: Reference segment=102 on input line 673.
+Package biblatex Info: Setting label 'refsegment:0102' on input line 673.
 ) (../../Contents/General/Schlussfolgerung.tex
 
 Package cleveref Info: loaded `ngerman' language definitions on input line 16.
@@ -5581,10 +5584,10 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 110174 strings out of 473190
- 2928257 string characters out of 5716853
- 4628922 words of memory out of 5000000
- 130255 multiletter control sequences out of 15000+600000
+ 109167 strings out of 473190
+ 2897609 string characters out of 5716853
+ 4628311 words of memory out of 5000000
+ 129248 multiletter control sequences out of 15000+600000
  761710 words of font info for 469 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3626s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -5608,10 +5611,10 @@ mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
 lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
 aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (149 pages, 11352060 bytes).
+Output written on Nano33BLESense.pdf (149 pages, 11350309 bytes).
 PDF statistics:
- 4072 PDF objects out of 4296 (max. 8388607)
- 3727 compressed objects within 38 object streams
+ 4071 PDF objects out of 4296 (max. 8388607)
+ 3726 compressed objects within 38 object streams
  1531 named destinations out of 1728 (max. 500000)
  107033 words of extra memory for PDF output out of 128383 (max. 10000000)
 

@@ -204,7 +204,7 @@
 \contentsline {section}{\numberline {16.3}Hardware-Schnittstellen}{132}{section.16.3}%
 \contentsline {subsection}{\numberline {16.3.1}Schaltpläne}{132}{subsection.16.3.1}%
 \contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{132}{subsubsection*.89}%
-\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und BT-Modul}{133}{subsubsection*.92}%
+\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und Ultraschallsensor}{133}{subsubsection*.92}%
 \contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{134}{subsubsection*.95}%
 \contentsline {section}{\numberline {16.4}Software-Schnittstellen}{135}{section.16.4}%
 \contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{135}{subsubsection*.98}%
