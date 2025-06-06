@@ -188,6 +188,26 @@
     }
   \endentry
 
+  \entry{ETSI:2004}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=E}{%
+         family={ETSI},
+         familyi={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{E1}
+    \strng{fullhash}{E1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{ETS04}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/ETSI24.pdf}{[pdf]}}}
+    \field{title}{2,4 GHz-ISM Band}
+    \field{year}{2004}
+  \endentry
+
   \entry{Ekbert:2014}{book}{}{}
     \name{author}{1}{}{%
       {{hash=EH}{%
@@ -342,7 +362,6 @@
   und Diagrammen für die Elektrotechnik.%
     }
     \field{edition}{28}
-    \field{isbn}{978-3-808-53490-8}
     \field{title}{Tabellenbuch Elektrotechnik}
     \field{year}{2018}
   \endentry
@@ -444,6 +463,17 @@
     \field{title}{Sensoren für die Prozess-und Fabrikautomation}
     \field{volume}{5}
     \field{year}{2009}
+  \endentry
+
+  \entry{Heydon:2012}{book}{}{}
+    \field{labelalpha}{Hey}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Ein technisches Fachbuch direkt vom BLE-Mitentwickler. Es behandelt die
+  Spezifikation, Architektur, Protokollstapel und Implementierungsdetails von
+  BLE – mit Fokus auf tieferes Verständnis der Technologie.%
+    }
   \endentry
 
   \entry{Falcon:2025}{online}{}{}
@@ -1115,6 +1145,31 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Tosi:2017}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=TJ}{%
+         family={Tosi},
+         familyi={T\bibinitperiod},
+         given={Jacopo},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI}%
+    }
+    \strng{namehash}{TJ1}
+    \strng{fullhash}{TJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Tos17}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{12}
+    \field{title}{Performance evaluation of bluetooth low energy: A systematic
+  review}
+    \field{year}{2017}
+  \endentry
+
   \entry{MeanWell:2014}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=WM}{%
@@ -1212,6 +1267,26 @@
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/kippschalterHandbuch.pdf}{[pdf]}}}
     \field{title}{Handbuch - goobay 10013}
+    \field{year}{2023}
+  \endentry
+
+  \entry{UBLOX:2023}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=u}{%
+         family={ublox},
+         familyi={u\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{u1}
+    \strng{fullhash}{u1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{ubl23}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/handbuchBLEmodul.pdf}{[pdf]}}}
+    \field{title}{Handbuch - NINA-B3 series}
     \field{year}{2023}
   \endentry
 \enddatalist

@@ -13,10 +13,39 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Einleitung}
-\section{Herausforderungen}
 
+\section{Problembeschreibung}
+Der „Magic Faucet Fountain“ erzeugt die Illusion eines freischwebenden Wasserhahns, aus dem kontinuierlich Wasser strömt. Die technische Umsetzung dieser Illusion erfordert eine Kombination aus transparenter Tragstruktur, zuverlässiger Wasserförderung, Sensorik zur Pegelkontrolle sowie einer benutzerfreundlichen Steuerung. Ziel ist die Entwicklung eines solchen Systems unter Verwendung aktueller Mikrocontrollertechnik, wobei Stabilität, Sicherheit und Modularität gewährleistet sein müssen.
+\section{Herausforderungen}
+Die Realisierung eines freischwebenden Brunnens bringt mehrere technische Herausforderungen mit sich:
+
+\begin{itemize}
+	\item \textbf{Tragstruktur mit optischer Illusion:} Die Tragestruktur muss transparent, tragfähig und unauffällig sein. Optische Täuschung in der Technik folgt Prinzipien der kognitiven Wahrnehmungspsychologie \cite{gregory_illusion}.
+	
+	\item \textbf{Sensorik im begrenzten Bauraum:} Eine präzise Füllstandskontrolle ist notwendig, um Leerlauf und Überlauf zu vermeiden. Die Kombination eines Schwimmers mit einem Ultraschallsensor gilt als bewährter Ansatz zur Echtzeitmessung \cite{grieves_digitaltwin}.
+	
+	\item \textbf{Stromversorgung in Wassernähe:} Die Koexistenz von Wasser und Elektronik erfordert geeignete Schutzmaßnahmen. Normen wie DIN VDE 0100-702 regeln elektrische Sicherheit im Feuchtraum.
+	
+	\item \textbf{Kabellose Steuerung via Bluetooth:} Die Steuerung sollte ortsunabhängig erfolgen. Mit der RemoteXY-Plattform kann eine benutzerfreundliche App-Anbindung an Mikrocontroller (z.\,B.\ Arduino Nano 33 BLE Sense) realisiert werden \cite{remotexy_doc}.
+\end{itemize}
 
 \section{Lösungen}
+Basierend auf diesen Anforderungen wurde ein strukturierter Lösungsweg erarbeitet:
+
+\begin{itemize}
+	\item Ein transparentes Acrylrohr dient sowohl als Trägerelement als auch als verdeckte Wasserleitung.
+	\item Zur Pegelmessung kommt ein HC-SR04 Ultraschallsensor in Kombination mit einem mechanischen Schwimmer zum Einsatz.
+	\item Netzteil und Steuereinheit befinden sich in einer spritzwassergeschützten ABS-Box mit Kabeldurchführungen und Notabschaltung.
+	\item Die Bluetooth-Anbindung erfolgt über ein Arduino Nano 33 BLE Sense Board. Die Konfiguration der RemoteXY-App erlaubt Statusanzeige und Pumpensteuerung.
+\end{itemize}
 
 
 \section{Struktur des Dokuments}
+Diese Arbeit ist wie folgt aufgebaut:
+
+\begin{itemize}
+	\item \textbf{Kapitel 2} stellt die verwendete Hardware und Softwareumgebung vor (Arduino, Sensoren, App).
+	\item \textbf{Kapitel 3} erläutert das Gesamtsystem mit Aufbau, Schaltplan, Steuerung und Kommunikationsschnittstellen.
+	\item \textbf{Kapitel 4} dokumentiert das Design, die Testphase und das fertige Produkt.
+	\item \textbf{Kapitel 5} bewertet die Ergebnisse, nennt Einschränkungen und gibt einen Ausblick.
+\end{itemize}

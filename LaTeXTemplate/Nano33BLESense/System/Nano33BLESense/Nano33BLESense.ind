@@ -1,6 +1,6 @@
 \begin{theindex}
 
-  \item  File
+  \item  Datei
     \subitem .ino, 24
     \subitem Arduino, 24
     \subitem Bibliotheken, 27, 29
@@ -9,41 +9,41 @@
     \subitem MySketch, 24
     \subitem MySketch.ino, 24
     \subitem Nano33BLESenseLED, 27, 29
-  \item  Inertial Measurement Unit
-    \subitem  \emph  {see} IMU, 45
+  \item  Inertialmesseinheit
+    \subitem  \emph  {siehe} IMU, 45
 
   \indexspace
 
   \item General Purpose Input Output
-    \subitem  \emph  {see} GPIO, 68
-  \item GPIO, 68, 69
+    \subitem  \emph  {siehe} GPIO, 74
+  \item GPIO, 74, 75
 
   \indexspace
 
-  \item I\textsuperscript  {2}C, 68, 69
+  \item I\textsuperscript  {2}C, 74, 75
   \item IMU, 45
   \item Inter-Integrated Circuit
-    \subitem  \emph  {see} I\textsuperscript  {2}C, 68
+    \subitem  \emph  {siehe} I\textsuperscript  {2}C, 74
 
   \indexspace
 
-  \item SCL, 68, 69
-  \item SDA, 68, 69
+  \item SCL, 74, 75
+  \item SDA, 74, 75
   \item Serial Clock
-    \subitem  \emph  {see} SCL, 68
+    \subitem  \emph  {siehe} SCL, 74
   \item Serial Data
-    \subitem  \emph  {see} SDA, 68
+    \subitem  \emph  {siehe} SDA, 74
 
   \indexspace
 
-  \item UART, 68, 69
+  \item UART, 74, 75
   \item Universal Asynchronous Receiver Transmitter
-    \subitem  \emph  {see} UART, 68
+    \subitem  \emph  {siehe} UART, 74
 
   \indexspace
 
-  \item VCC, 68, 69
+  \item VCC, 74, 75
   \item Voltage at the Common Collector
-    \subitem  \emph  {see} VCC, 68
+    \subitem  \emph  {siehe} VCC, 74
 
 \end{theindex}
