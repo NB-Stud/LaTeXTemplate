@@ -230,4 +230,7 @@ C:\USERS\CARLM\DOCUMENTS\LATEXTEMPLATE\LATEXTEMPLATE\LATEXTEMPLATE
 │       ├───images
 │       ├───img
 │       └───slides
+├───Veränderungen im Dokument
+│   └───kleineVeränderungen
+│   └───großeVeränderungen
 └───Xmind
