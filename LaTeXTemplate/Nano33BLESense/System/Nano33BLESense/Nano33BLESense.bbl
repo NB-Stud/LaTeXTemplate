@@ -178,16 +178,6 @@
     \field{year}{2025}
   \endentry
 
-  \entry{ConradPumpe:2025}{online}{}{}
-    \field{labelalpha}{Con}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    Auf der website von Conrad findet man viele Informationen zur Niedervolt
-  Tauchpumpe von Comet.%
-    }
-  \endentry
-
   \entry{ETSI:2004}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=E}{%
@@ -239,6 +229,36 @@
       {Berlin, Heidelberg}%
     }
     \field{year}{2014}
+  \endentry
+
+  \entry{ConradPumpe:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=EC}{%
+         family={Electronic},
+         familyi={E\bibinitperiod},
+         given={Conrad},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EC1}
+    \strng{fullhash}{EC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Ele25}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Auf der Website von Conrad findet man viele Informationen zur Niedervolt
+  Tauchpumpe von Comet.%
+    }
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/conradPumpe.pdf}{[pdf]}}}
+    \field{title}{Niedervolt Tauchpumpe Comet 12 V Elegant}
+    \verb{url}
+    \verb https://www.conrad.de/de/p/comet-1300-01-00-niedervolt-tauchpumpe-600
+    \verb -l-h-5-5-m-1435461.html?refresh=true#productDownloads
+    \endverb
+    \field{year}{2025}
   \endentry
 
   \entry{Fluke:2025}{online}{}{}
@@ -402,7 +422,22 @@
   \endentry
 
   \entry{Heinrich:2019}{book}{}{}
-    \field{labelalpha}{Hei}
+    \name{author}{1}{}{%
+      {{hash=HB}{%
+         family={Heinrich},
+         familyi={H\bibinitperiod},
+         given={Berthold},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{HB1}
+    \strng{fullhash}{HB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hei19}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -410,11 +445,27 @@
   Automatisierungstechnik, einschließlich der Erfassung von Signalen,
   Steuerungsstrategien und Regelungstechnik.%
     }
+    \field{title}{Grundlagen Automatisierung: Erfassen-Steuern-Regeln}
+    \field{year}{2019}
   \endentry
 
   \entry{Hering:2012}{book}{}{}
-    \field{labelalpha}{Her}
-    \field{extraalpha}{1}
+    \name{author}{1}{}{%
+      {{hash=HE}{%
+         family={Hering},
+         familyi={H\bibinitperiod},
+         given={Ekbert},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HE1}
+    \strng{fullhash}{HE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Her12}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -422,11 +473,27 @@
   Sensortypen, ihre Funktionsweisen sowie Anwendungen in Wissenschaft und
   Technik.%
     }
+    \field{title}{Sensoren in Wissenschaft und Technik}
+    \field{year}{2012}
   \endentry
 
   \entry{Hering:2024}{book}{}{}
-    \field{labelalpha}{Her}
-    \field{extraalpha}{2}
+    \name{author}{1}{}{%
+      {{hash=HM}{%
+         family={Hering},
+         familyi={H\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HM1}
+    \strng{fullhash}{HM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Her24}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -435,6 +502,11 @@
   praxisorientiert Schaltungstechnik, Bauelemente und Anwendungen in modernen
   technischen Systemen.%
     }
+    \field{edition}{5}
+    \field{isbn}{978-3-662-67538-0}
+    \field{title}{Elektrotechnik und Elektronik in Maschinenbau und
+  Mechatronik}
+    \field{year}{2024}
   \endentry
 
   \entry{Hesse:2009}{book}{}{}
@@ -466,7 +538,20 @@
   \endentry
 
   \entry{Heydon:2012}{book}{}{}
-    \field{labelalpha}{Hey}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={Heydon},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hey12}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -474,6 +559,11 @@
   Spezifikation, Architektur, Protokollstapel und Implementierungsdetails von
   BLE – mit Fokus auf tieferes Verständnis der Technologie.%
     }
+    \field{isbn}{978-0-13-288836-4}
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/bleHandbuch.pdf}{[pdf]}}}
+    \field{title}{Bluetooth Low Energy: The Developers Handbook}
+    \field{year}{2012}
   \endentry
 
   \entry{Falcon:2025}{online}{}{}
@@ -558,13 +648,30 @@
   \endentry
 
   \entry{Muller:2017}{book}{}{}
-    \field{labelalpha}{Mul}
+    \name{author}{1}{}{%
+      {{hash=MG}{%
+         family={Müller},
+         familyi={M\bibinitperiod},
+         given={Gerhard},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MG1}
+    \strng{fullhash}{MG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Mü17}
     \field{sortinit}{M}
     \field{sortinithash}{M}
     \field{abstract}{%
     Das Buch behandelt die physikalischen Grundlagen und Anwendungen von
   Ultraschalltechnologie in den Bereichen Medizin und Technik.%
     }
+    \field{title}{Ultraschall in Medizin und Technik}
+    \field{year}{2017}
   \endentry
 
   \entry{Osterhage:2018}{book}{}{}
@@ -1003,10 +1110,10 @@
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
-    abstract = {Diese Website vermittelt grundlegendes Wissen über
-  Schaltertypen, deren Funktionsweise und Anwendungsbereiche. Schwerpunkt sind
-  mechanische und elektronische Schalter für verschiedenste Einsatzgebiete in
-  der Elektrotechnik.}%
+    Diese Website vermittelt grundlegendes Wissen über Schaltertypen, deren
+  Funktionsweise und Anwendungsbereiche. Schwerpunkt sind mechanische und
+  elektronische Schalter für verschiedenste Einsatzgebiete in der
+  Elektrotechnik.%
     }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
   Literatur/kippschalterOnline.pdf}{[pdf]}}}

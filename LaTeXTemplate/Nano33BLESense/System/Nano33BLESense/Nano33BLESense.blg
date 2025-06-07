@@ -17,108 +17,81 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11860 items from 5000.
+Reallocated field_info (elt_size=4) to 12280 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
 Database file #4: ../../../MLbib/MyLiterature.bib
-I was expecting a `,' or a `}'---line 159 of file ../../../MLbib/MyLiterature.bib
- :  
- :  author    = {Conrad Electronic},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 253 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 251 of file ../../../MLbib/MyLiterature.bib
  :   
  :   note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/flukeOnline.pdf}{[pdf]}}},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 369 of file ../../../MLbib/MyLiterature.bib
- :  
- :  author    = {Hering, Ekbert},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 381 of file ../../../MLbib/MyLiterature.bib
+Repeated entry---line 379 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 407 of file ../../../MLbib/MyLiterature.bib
- :  
- :  author    = {Heinrich, Berthold},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 423 of file ../../../MLbib/MyLiterature.bib
- :  
- :  author    = {Hering, Martin},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 457 of file ../../../MLbib/MyLiterature.bib
- :  
- :  author    = {Heydon},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 549 of file ../../../MLbib/MyLiterature.bib
- :  
- :  author    = {Müller, Gerhard},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 803 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 799 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 823 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 819 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-13}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 913 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 909 of file ../../../MLbib/MyLiterature.bib
  :  
  :  url = {https://www.mdpi.com/1424-8220/17/12/2898}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "gregory_illusion"
+Warning--I didn't find a database entry for "grieves_digitaltwin"
+Warning--I didn't find a database entry for "remotexy_doc"
 Warning--I didn't find a database entry for "Arduino:2025"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 48 entries,
             6402 wiz_defined-function locations,
-            1520 strings with 23250 characters,
-and the built_in function-call counts, 223070 in all, are:
-= -- 13235
-> -- 5949
-< -- 1970
-+ -- 5621
-- -- 2932
-* -- 14433
-:= -- 20094
+            1542 strings with 23961 characters,
+and the built_in function-call counts, 241171 in all, are:
+= -- 14749
+> -- 6492
+< -- 2080
++ -- 6174
+- -- 3080
+* -- 15796
+:= -- 22289
 add.period$ -- 0
 call.type$ -- 48
-change.case$ -- 61
+change.case$ -- 49
 chr.to.int$ -- 227
-cite$ -- 108
-duplicate$ -- 24401
-empty$ -- 21737
-format.name$ -- 2224
-if$ -- 46759
+cite$ -- 96
+duplicate$ -- 26272
+empty$ -- 22854
+format.name$ -- 2534
+if$ -- 50450
 int.to.chr$ -- 0
-int.to.str$ -- 128
+int.to.str$ -- 138
 missing$ -- 0
-newline$ -- 1189
-num.names$ -- 2263
-pop$ -- 15934
+newline$ -- 1293
+num.names$ -- 2600
+pop$ -- 15908
 preamble$ -- 1
-purify$ -- 985
+purify$ -- 1108
 quote$ -- 0
-skip$ -- 9319
+skip$ -- 10170
 stack$ -- 0
-substring$ -- 20031
-swap$ -- 6592
-text.length$ -- 1500
-text.prefix$ -- 81
+substring$ -- 22464
+swap$ -- 7010
+text.length$ -- 1564
+text.prefix$ -- 87
 top$ -- 1
 type$ -- 1620
 warning$ -- 0
-while$ -- 2485
+while$ -- 2771
 width$ -- 0
-write$ -- 1142
-(There were 11 error messages)
+write$ -- 1246
+(There were 5 error messages)
