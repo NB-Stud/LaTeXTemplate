@@ -1,33 +1,57 @@
-%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% $Autor: Wings $
-% $Datum: 2020-01-18 11:15:45Z $
-% $Pfad: githubtemplate/Template/Presentations/Template/slides/rename.tex $
-% $Version: 4620 $
+% $ Autor: Gruppe 07 $
+% $ Projekt: Magic Faucet Fountain $
+% $ Pfad: LaTeXTemplate/Präsentation/Template/slides/Inhalt.tex $
+% $ Kurzbeschreibung: Dieses Dokument beinhaltet den fachlichen Teil der Präsentation. $
+%$
 %
 %
 % !TeX encoding = utf8
-% !TeX root = Rename
+% bibtex
 %
-%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Vorstellung des Aktors}
-\STANDARD{Vorstellung des Aktors}
-
-
-
-\STANDARD{Vorstellung des Aktors}
+\section{Problembeschreibung}
+\STANDARD{Problembeschreibung}
 {
-	\framesubtitle{Funktionsweise}
+Der „Magic Faucet Fountain“ erzeugt die Illusion eines freischwebenden Wasserhahns, aus dem kontinuierlich Wasser strömt. Die technische Umsetzung dieser Illusion erfordert eine Kombination aus transparenter Tragstruktur, zuverlässiger Wasserförderung, Sensorik zur Pegelkontrolle sowie einer benutzerfreundlichen Steuerung. Ziel ist die Entwicklung eines solchen Systems unter Verwendung aktueller Mikrocontrollertechnik, wobei Stabilität, Sicherheit und Modularität gewährleistet sein müssen.
 }
 
-\STANDARD{Vorstellung des Aktors}
+\section{Beschreibung der Anwendung}
+\STANDARD{Beschreibung der Anwendung}
 {
-	\framesubtitle{Programmierung}
+	Das Projekt Magic Faucen Fountain beschäftigt sich mit der Umsetzung eines Brunnens, der die optische Täuschung eines schwebenden Wasserhahns erzeugt. Dabei scheint es, als würde Wasser kontinuierlich aus einem frei schwebenden Hahn fließen - ganz ohne sichtbare Verbindung zur Wasserquelle.
+	Dieser Effekt wird durch ein transparentes Acrylrohr realisiert, das sowohl den Wasserfluss leitet als auch die tragende Struktur für den Hahn darstellt. Da das Rohr hinter dem gleichmäßig fließenden Wasser optisch kaum wahrnehmbar ist, entsteht der Eindruck eines schwebenden Hahns.
 }
 
-\section{Vorstellung des Sensors}
-\STANDARD{}
+\STANDARD{Beschreibung der Anwendung}
+{
+	Der Wasserstrom wird über eine kleine elektrische Pumpe erzeugt, die über ein MOS-FET angesteuert wird. Der MOS-FET fungiert als elektronischer Schalter und wird von einem digitalen Ausgang des Arduino-Boards gesteuert. Der Arduino ist über Bluetooth mit einer mobilen App verbunden. Über die App kann der Benutzer den Brunnen bequem ein- und ausschalten.
+	Ein weiterer Bestandteil des Systems ist ein Ultraschallsensor, der den Wasserstand im Vorratsbehälter misst. Der aktuelle Füllstand wird ebenfalls in der App angezeigt, wodurch der Benutzer rechtzeitig erkennen kann, wann Wasser nachgefüllt werden muss.
+}
+
+\section{Herausforderungen}
+\STANDARD{Herausforderungen}
+{
+
+}
+
+\section{Eigene Lösungen}
+\STANDARD{Eigene Lösungen}
+{
+	Basierend auf diesen Anforderungen wurde ein strukturierter Lösungsweg erarbeitet:
+	
+	\begin{itemize}
+		\item Ein transparentes Acrylrohr dient sowohl als Trägerelement als auch als verdeckte Wasserleitung.
+		\item Zur Pegelmessung kommt ein HC-SR04 Ultraschallsensor in Kombination mit einem mechanischen Schwimmer zum Einsatz.
+		\item Netzteil und Steuereinheit befinden sich in einer spritzwassergeschützten ABS-Box mit Kabeldurchführungen und Notabschaltung.
+		\item Die Bluetooth-Anbindung erfolgt über ein Arduino Nano 33 BLE Sense Board. Die Konfiguration der nRF Connect-App erlaubt Statusanzeige und Pumpensteuerung.
+	\end{itemize}
+}
+
+\section{Ergebnisse}
+\STANDARD{Ergebnisse}
 {
 
 }

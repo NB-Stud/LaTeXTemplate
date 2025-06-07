@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  6 JUN 2025 12:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  7 JUN 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1797,12 +1797,12 @@ Package microtype Info: Redefining babel's language switching commands.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-(./Chapters/de/TitlePage.tex
+(./Chapters/de/Titelseite.tex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
 
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1811,7 +1811,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
 
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1823,7 +1823,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 42
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 47
 .
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -1892,21 +1892,21 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 52
 [6
 
 
-] (./Chapters/de/Introduction.tex
+] (./Chapters/de/Einleitung.tex
 chapter 1.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 23--28
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 24--29
 [] 
  []
 
-) (./Chapters/de/BillOfMaterials.tex
+) (./Chapters/de/Materialliste.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 \chapter
+l.15 \chapter
              {Material- und Werkzeugliste} [1
 
 
@@ -1924,8 +1924,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.145 
-      ]) (./Chapters/de/Assembly.tex
+l.146 
+      ]) (./Chapters/de/Montageablauf.tex
 
 [4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
@@ -2011,14 +2011,14 @@ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.310 \end{enumerate}
-                     ]) (./Chapters/de/FunctionalTest.tex
+                     ]) (./Chapters/de/Funktionstest.tex
 
 [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.14 \chapter
+l.15 \chapter
              {Inbetriebnahme und Funktionstest}]
 
 [10
@@ -2029,7 +2029,7 @@ chapter 4.
 
 
 [11{c:/LaTeX/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-]) (./Chapters/de/FinalSteps.tex
+]) (./Chapters/de/LetzteSchritte.tex
 
 [12]
 chapter 5.
@@ -2062,7 +2062,7 @@ in".run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  77427 strings out of 473190
- 2013772 string characters out of 5716853
+ 2013812 string characters out of 5716853
  3278857 words of memory out of 5000000
  99587 multiletter control sequences out of 15000+600000
  606236 words of font info for 228 fonts, out of 8000000 for 9000

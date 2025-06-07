@@ -1,9 +1,0 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'Rename.blg'
-[89] biber-MSWIN64:340> INFO - === 
-[128] Biber.pm:420> INFO - Reading 'Rename.bcf'
-[213] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
-[223] bbl.pm:676> INFO - Writing 'Rename.bbl' with encoding 'UTF-8'
-[223] bbl.pm:779> INFO - Output to Rename.bbl
-[223] Biber.pm:131> WARN - The file 'Rename.bcf' does not contain any citations!
-[223] Biber.pm:133> INFO - WARNINGS: 1

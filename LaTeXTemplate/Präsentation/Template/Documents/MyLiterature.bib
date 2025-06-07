@@ -1,367 +1,514 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% $Autor: Wings $
-% $Datum: 2016-12-06 10:40:45Z $
-% $Pfad: Math3/Skript/Produktspezifikation/Powerpoint/chapter04b.tex $
-% $Version: 2839 $
+% $ Autor: Gruppe 07 $
+% $ Projekt: Magic Faucet Fountain $
+% $ Pfad: LaTeXTemplate/Nano33BLESense/Contents/General/EinleitungProjekt.tex $
+% $ Kurzbeschreibung: Dieses Dokument enthält das eigens erstellte Literaturverzeichnis unseres Projekts. $
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Strings
-@string{jCAGD = "Computer Aided Geometric Design"}
-@string{jCAD = "Computer Aided Design"}
-
-% Encoding: UTF-8
-
-%preamble{
-%\AtEveryBibitem{\clearfield{note}}
-%}%
+% !TeX spellcheck = de_DE/GB
+% !TeX program = pdflatex
+% !BIB program = biber/bibtex
+% !TeX encoding = utf8
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-% BibTeX Entries
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  A
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-@book{Arens:2015,
-	author    = {Arens, Tilo and Hettlich, F. and Karpfinger, C. and Kockelkorn, U. and Lichtenegger, K. and Stachel, H.},
-    year      = {2015},
-    title     = {{Mathematik}},
-    price     = {sfr 114.00 (freier Pr.)},
-    keywords  = {Mathematik},
-    address   = {Heidelberg},
-    edition   = {3.},
-    publisher = {{Spektrum akademischer Verlag}},
-    note      = "\textcolor{blue}{\href{ExterneDokumente/book978-3-642-44919-2.pdf}{[pdf]}} \textcolor{blue}{\url{http://www.gbv.de/dms/weimar/toc/551047283_toc.pdf} [Link] }"
+@book{Alles2024,
+	abstract  = {Dieses Lehrbuch bietet eine fundierte Einführung in die elektronische Schaltungstechnik und behandelt zentrale Themen wie Dioden, Transistoren und Grundschaltungen.},
+	author    = {Martin Alles},
+	title     = {Einführung in die elektronische Schaltungstechnik},
+	edition   = {1},
+	year      = {2024},
+	publisher = {Springer},
+	isbn      = {978-3-662-69278-3},
+	keywords  = {Mosfet, N-Kanal, P-Kanal, Transistor, Source, Drain, Gate}
 }
 
+@online{ArduinoDoc:2024,
+	abstract  = {Diese Website beschreibt die Verwendung der NewPing-Bibliothek zur effizienten Steuerung von Ultraschallsensoren mit Arduino. Sie bietet Anleitungen und Beispiele, um präzise Abstandsmessungen in Mikrocontroller-Projekten zu implementieren.},
+  	author    = {Arduino},
+  	title     = {NewPing Library Documentation},
+  	year      = {2024},
+  	url       = {https://docs.arduino.cc/libraries/newping/},
+  	keywords  = {ultrasonic sensors, arduino, ble 33 sense},
+  	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/newPingOnline.pdf}{[pdf]}}},
+  	Accessed  = {05-04-2025}
+}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@online{ArduinoWeb:2025,
+	abstract  = {Die offizielle Dokumentation zur Arduino IDE 2.0 stellt die neuen Funktionen und Verbesserungen der Entwicklungsumgebung vor.},
+	author    = {Arduino},
+	title     = {Arduino IDE 2.0},
+	year      = {2025},
+	url       = {https://docs.arduino.cc/software/ide/#ide-v2},
+	Accessed  = {05-05-2025},
+	keywords  = {arduino IDE, IDE 2, download and installing arduino IDE, arduino, ble 33 sense},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/arduinoOnline.pdf}{[pdf]}}},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  B
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@techreport{Babovsky:2011,
-  author       = {Babovsky, Hans and Neundorf, Werner},
-  institution  = {TU Ilmenau},
-  title        = {{N}umerische {A}pproximation von {F}unktionen},
-  url          = {https://www.tu-ilmenau.de/fileadmin/media/num/neundorf/Dokumente/Preprints/NumApp1.pdf},
-  urldate      = {2017-01-13},
-  year         = {2011},
-}
 
-@Article{Bonami:2014,
-  author   = "Bonami, Pierre and Olivares, Alberto and Staffetti, Ernesto",
-  title    = "Energy-Optimal Multi-Goal Motion Planning for Planar Robot Manipulators",
-  journal  = "Journal of Optimization Theory and Applications",
-  year     = "2014",
-  volume   = "163",
-  number   = "1",
-  pages    = "80--104",
-  abstract = "In this work, the energy-optimal motion planning problem for planar robot manipulators with two revolute joints is studied, in which the end-effector of the robot manipulator is constrained to pass through a set of waypoints, whose sequence is not predefined. This multi-goal motion planning problem has been solved as a mixed-integer optimal control problem in which, given the dynamic model of the robot manipulator, the initial and final configurations of the robot, and a set of waypoints inside the workspace of the manipulator, one has to find the control inputs, the sequence of waypoints with the corresponding passage times, and the resulting trajectory of the robot that minimizes the energy consumption during the motion. The presence of the waypoint constraints makes this optimal control problem particularly difficult to solve. The mixed-integer optimal control problem has been converted into a mixed-integer nonlinear programming problem first making the unknown passage times through the waypoints part of the state, then introducing binary variables to enforce the constraint of passing once through each waypoint, and finally applying a fifth-degree Gauss--Lobatto direct collocation method to tackle the dynamic constraints. High-degree interpolation polynomials allow the number of variables of the problem to be reduced for a given numerical precision. The resulting mixed-integer nonlinear programming problem has been solved using a nonlinear programming-based branch-and-bound algorithm specifically tailored to the problem. The results of the numerical experiments have shown the effectiveness of the approach.",
-  issn     = "1573-2878",
-  doi      = "10.1007/s10957-013-0516-0",
-  url      = "http://dx.doi.org/10.1007/s10957-013-0516-0"
-}
 
-@misc{bmwi:2015,
-  editor   = {{Bundesministerium für Wirtschaft und Energie (BMWi)}},
-  year     = {2015},
-  title    = {{Bekanntmachung Digitale Technologien für die Wirtschaft (PAiCE)}},
-  subtitle = {{Platforms|Additive Manufacturing|Imaging|Communication|Engineering Ein Technologiewettbewerb des Bundesministeriums für Wirtschaft und Energie}},
-  url      = {http://bmwi.de/BMWi/Redaktion/PDF/Publikationen/paice-digitale-technologien-fuer-die-wirtschaft-bekanntmachung,property=pdf,bereich=bmwi2012,sprache=de,rwb=true.pdf},
-  urldate  = {2016-07-20}
-}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  C
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@misc{CML:2011,
+ 	author    = {CML},
+ 	year      = {2011},
+ 	title     = {Handbuch - CML LED-Signalleuchte},
+ 	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/handbuchLED.pdf}{[pdf]}}},   
+}
+
+@misc{Comet:2004,
+	author    = {Comet},
+	year      = {2004},
+	title     = {Handbuch - Comet Tauchpumpe 12 V Elegant},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/handbuchPumpe.pdf}{[pdf]}}},   
+}
+
+@online{ConradPumpe:2025,
+	abstract  = {Auf der website von Conrad findet man viele Informationen zur Niedervolt Tauchpumpe von Comet.}
+	author    = {Conrad Electronic},
+	title     = {Niedervolt Tauchpumpe Comet 12 V Elegant},
+	year      = {2025},
+	url       = {https://www.conrad.de/de/p/comet-1300-01-00-niedervolt-tauchpumpe-600-l-h-5-5-m-1435461.html?refresh=true#productDownloads},
+	Accessed  = {05-05-2025}
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/conradPumpe.pdf}{[pdf]}}},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  D
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@misc{DIN66025,
-  shorthand = {DIN66025-2},
-  type      = {Norm},
-  year      = {1988},
-  month     = {09},
-  title     = {DIN 66025-2:1988-09: Programmaufbau f{\"u}r numerisch gesteuerte Arbeitsmaschinen: Wegbedingungen und Zusatzfunktionen},
-  address   = {Berlin},
-  publisher = {Beuth Verlag},
-  author    = {{DIN Deutsches Institut f{\"u}r Normung e.V.}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  E
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@book{Ekbert:2014,
+	abstract  = {Das Buch vermittelt umfassendes Wissen über elektronische Bauelemente und Schaltungen. Es verbindet theoretische Grundlagen mit praktischen Anwendungen.},
+	author    = {Ekbert, Hering},
+	year      = {2014},
+	title     = {Elektronik für Ingenieure und Naturwissenschaftler},
+	address   = {Berlin, Heidelberg},
+	publisher = {Springer-Verlag Berlin Heidelberg},
+	isbn      = {978-3-642-05499-0},
+	keywords  = {Spannungswandler, Wandler, Spule, Transistor, Glättungskondensator}
 }
 
+@misc{ETSI:2004,
+	author    = {ETSI},
+	year      = {2004},
+	title     = {2,4 GHz-ISM Band},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/ETSI24.pdf}{[pdf]}}},   
+}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  F
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@book{Farin:1994,
-  title     = {Kurven und Flächen im Computer Aided Geometric Design},
-  subtitle  = {Eine praktische Einführung},
-  author    = {G. Farin},
-  year      = {1994},
-  publisher = {Vieweg},
+@online{Fluke:2025,
+	abstract  = {Diese Anleitung erklärt Schritt für Schritt, wie Widerstandsmessungen mit einem Multimeter korrekt durchgeführt werden. Sie ist besonders hilfreich für Einsteiger in die Messtechnik.},
+ 	author    = {FLUKE},
+ 	title     = {Anleitung zum Messen von Widerstand},
+ 	year      = {2025},
+ 	url       = {https://www.fluke.com/de-de/mehr-erfahren/blog/digitalmultimeter/anleitung-zum-messen-von-widerstand},
+ 	Accessed  = {03-05-2025}
+ 	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/flukeOnline.pdf}{[pdf]}}},
 }
 
-@book{Farin:2002,
-  address   = {San Diego, CA},
-  author    = {Gerald Farin},
-  edition   = {5.},
-  publisher = {Academic Press},
-  title     = {{C}urves and {S}urfaces for {CAGD}},
-  year      = {2002},
-  note      = "\textcolor{blue}{\href{ExterneDokumente/Farin G. Curves and Surfaces for CAGD. A Practical Guide.pdf}{[pdf]}}"
+@online{Falcon:2025,
+	abstract  = {Der Artikel bietet eine anschauliche Erklärung der Funktionsweise von Leuchtdioden (LEDs) und deren Einsatzgebiete. Er richtet sich an Leser, die ein grundlegendes Verständnis von LED-Technologie erwerben möchten.},
+	author    = {Falcon Illumination},
+	title     = {Wie funktioniert eine LED?},
+	year      = {2025},
+	url       = {https://www.falconillumination.de/de/wissenswertes/wie-funktioniert-eine-led.html},
+	urldate   = {2025-05-03},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/falconOnline.pdf}{[pdf]}}},
 }
 
-@book{Farin:2002b,
-  author    = {Farin, G. and Hoschek, J.},
-  title     = {Handbook of Computer Aided Geometric Design},
-  publisher = {Elsevier Science},
-  year      = 2002
-}
-
-@article{Farouki:2017,
-  author  = {Farouki, Rida and Srinathu, Jyothirmai},
-  journal = {Computer-Aided Design},
-  title   = {A real-time CNC interpolator algorithm for trimming and filling planar offset curves},
-  year    = {2017},
-  month   = jan,
-  volume  = {86},
-  doi     = {10.1016/j.cad.2017.01.001},
-}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  G
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@misc{Goobay:2023,
+	author    = {goobay},
+	year      = {2023},
+	title     = {Handbuch - goobay 10013},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/kippschalterHandbuch.pdf}{[pdf]}}},   
+}
+
+@book{Gulich:2020,
+	abstract  = {Dieses umfassende Handbuch behandelt die Theorie und Praxis von Kreiselpumpen, einschließlich ihrer Entwicklung, Planung und Betrieb.},
+	author 	  = {Gülich},
+	title     = {Kreiselpumpen: Handbuch für Entwicklung, Anlagenplanung und Betrieb},
+	pages     = {45--82},
+	year      = {2020},
+	publisher = {Springer},
+	keywords  = {}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  H
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@Book{Hehenberger:2011,
-  author    = {Hehenberger, Peter},
-  year      = {2011},
-  title     = {Computerunterst{\"u}tzte Fertigung: Eine kompakte Einf{\"u}hrung},
-  keywords  = {Computer aided design;Engineering design;Machinery;Engineering;Computer-aided design},
-  publisher = {Springer-Verlag},
-  address   = {Berlin, Heidelberg},
-  isbn      = {9783642134753}
+@book{Haeberle:2018,  
+	abstract  = {Das Tabellenbuch bietet eine umfangreiche Sammlung von Formeln, Tabellen und Diagrammen für die Elektrotechnik.},
+	author	  = {Haeberle and Isele},
+	title	  = {Tabellenbuch Elektrotechnik},
+	edition	  = {28},
+	year	  = {2018},
+	publisher = {Europa Lehrmittel},
 }
 
+@book{Hesse:2009,
+	abstract  = {Das Buch gibt einen detaillierten Überblick über verschiedene Sensortypen und deren Anwendung in der Prozess- und Fabrikautomation.},
+	author 	  = {Hesse, Schnell},
+  	title 	  = {Sensoren für die Prozess-und Fabrikautomation},
+  	volume 	  = {5},
+  	year 	  = {2009},
+  	publisher = {Springer}
+}
+  		 	
+@book{Hering:2012,
+	abstract  = {Dieses Buch vermittelt grundlegende Kenntnisse über die verschiedenen Sensortypen, ihre Funktionsweisen sowie Anwendungen in Wissenschaft und Technik.}
+	author 	  = {Hering, Ekbert},
+  	title 	  = {Sensoren in Wissenschaft und Technik},
+  	year	  = {2012},
+  	publisher = {Springer}
+}
+
+@book{Hering:2023,
+	abstract  = {Die 3. Auflage dieses Fachbuchs bietet eine umfassende Übersicht über moderne Sensoren, deren technische Grundlagen und vielfältige Einsatzmöglichkeiten in Industrie und Forschung. Es legt besonderen Wert auf praxisnahe Anwendungen und neueste Entwicklungen.}
+  	author    = {Hering, Schönfelder},
+  	title     = {Sensoren in Wissenschaft und Technik – Funktionsweise und Einsatzgebiete},
+  	edition   = {3},
+  	publisher = {Springer Vieweg},
+  	year      = {2023},
+  	address   = {Wiesbaden},
+  	isbn      = {978-3-658-39491-2}
+}
+
+@book{Heinrich:2019,
+	abstract  = {Dieses Werk behandelt die grundlegenden Prinzipien der Automatisierungstechnik, einschließlich der Erfassung von Signalen, Steuerungsstrategien und Regelungstechnik.}
+	author 	  = {Heinrich, Berthold},
+  	title 	  = {Grundlagen Automatisierung: Erfassen-Steuern-Regeln},
+  	year 	  = {2019},
+  	publisher = {Springer-Verlag}
+}
+
+@book{Hering:2024,
+	abstract  = {Dieses Lehrbuch vermittelt elektrotechnische und elektronische Grundlagen mit speziellem Bezug zum Maschinenbau und zur Mechatronik. Es behandelt praxisorientiert Schaltungstechnik, Bauelemente und Anwendungen in modernen technischen Systemen.}
+	author 	  = {Hering, Martin},
+	title 	  = {Elektrotechnik und Elektronik in Maschinenbau und Mechatronik},
+	year 	  = {2024},
+	edition   = {5},
+	publisher = {Springer},
+	isbn 	  = {978-3-662-67538-0}
+}
+
+@misc{HC05Datasheet:2010,
+	author    = {ITead Studio},
+	year      = {2010},
+	title     = {Datenblatt – HC-05-Bluetooth to Serial Port Module},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/HC-05 Datasheet.pdf}{[pdf]}}}},   
+}
+
+@book{Heydon:2012,
+	abstract  = {Ein technisches Fachbuch direkt vom BLE-Mitentwickler. Es behandelt die Spezifikation, Architektur, Protokollstapel und Implementierungsdetails von BLE – mit Fokus auf tieferes Verständnis der Technologie.}
+	author 	  = {Heydon},
+	title 	  = {Bluetooth Low Energy: The Developers Handbook},
+	year 	  = {2012},
+	publisher = {Prentice Hall},
+	isbn 	  = {978-0-13-288836-4},
+	note 	  = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/bleHandbuch.pdf}{[pdf]}}}},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  I
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@online{Indicatorlight:2025,
+	abstract  = {Auf dieser Website werden praktische Grundlagen über Schaltertechnik vermittelt.},
+	author    = {Indicatorlight},
+	title     = {So verdrahten Sie Kippschalter},
+	year      = {2025},
+	url       = {https://de.indicatorlight.com/faq/toggle-button-switches/},
+	Accessed  = {03-05-2025},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/indicatorOnline.pdf}{[pdf]}}},
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  J
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-@article{Jaklic:2010,
-  author  = {Jaklic, Gasper and  Kozak, Jernej and  Krajnc, Marjeta and Vitrih, Vito and  Zagar, Emil},
-  journal = {Mathematics of Computation},
-  title   = {{O}n {I}nterpolation by {P}lanar {C}ubic {$G^2$} {P}ythagorean-{H}odograph {S}pline {C}urves},
-  year    = {2010},
-  note    = "\textcolor{blue}{\href{ExterneDokumente/PHKubisch/CubicPHG2Spline-rev.pdf}{[pdf]}}"
-}
+ 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  K
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
 
-@Article{Kara:2015,
-  title    = "The 22nd CIRP Conference on Life Cycle Engineering Minimization of the Energy Consumption in Motion Planning for Single-robot Tasks",
-  journal  = "Procedia CIRP",
-  volume   = "29",
-  number   = "",
-  pages    = "354--359",
-  year     = "2015",
-  note     = "",
-  issn     = "2212-8271",
-  doi      = "http://dx.doi.org/10.1016/j.procir.2015.02.174",
-  url      = "http://www.sciencedirect.com/science/article/pii/S2212827115004886",
-  author   = "Kara, Sami  and Pellegrinelli, Stefania  and  Borgia, Stefano and  Pedrocchi, Nicola and  Villagrossi, Enrico and  Bianchi, Giacomo and  Tosatti, Lorenzo Molinari",
-  keywords = "Motion planning",
-  keywords = "Energy consumption",
-  keywords = "Optimization"
-}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  L
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  M
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@book{Malaka:2009,
-  title     = {Medieninformatik},
-  author    = {R. Malaka, A. Butz, H. Hussman},
-  year      = {2009},
-  publisher = {Pearson Studium},
+@book{Muller:2017,
+	abstract  = {Das Buch behandelt die physikalischen Grundlagen und Anwendungen von Ultraschalltechnologie in den Bereichen Medizin und Technik.}
+	author 	  = {Müller, Gerhard},
+  	title 	  = {Ultraschall in Medizin und Technik},
+  	year 	  = {2017},
+  	publisher = {Springer}
 }
 
-@misc{Marquardt:2016,
-  editor   = {{VDI Verein Deutscher Ingenieure e.V. Fachbereich Produktionstechnik und Fertigungsverfahren}},
-  author   = {Marquardt, Erik},
-  year     = {2016},
-  title    = {{Handlungsfelder}},
-  subtitle = {{Additive Fertigungsverfahren}},
-  url      = {https://www.vdi.de/fileadmin/vdi_de/redakteur_dateien/gpl_dateien/6242_PUB_GPL_Handlungsfelder_-_Additive_Fertigungsverfahren_Internet.pdf},
-  urldate  = {2016-08-13}
+@misc{MeanWell:2014,
+	author    = {Mean Well},
+	title     = {Handbuch MW RD-50A Series},
+	year      = {2014},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/handbuchSchaltnetzteil.pdf}{[pdf]}}},   
 }
 
+@misc{MPS:2015,
+	author    = {MPS},
+	title     = {Handbuch - MPM3610},
+	year      = {2015},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/handbuchMPM.pdf}{[pdf]}}},   
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  N
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@online{NKKswitches:2025,
+	abstract  = {abstract  = {Diese Website vermittelt grundlegendes Wissen über Schaltertypen, deren Funktionsweise und Anwendungsbereiche. Schwerpunkt sind mechanische und elektronische Schalter für verschiedenste Einsatzgebiete in der Elektrotechnik.}
+	},
+ 	author    = {NKK Switches},
+ 	title     = {Schaltergrundlagen},
+ 	year      = {2025},
+ 	url       = {https://www.nkkswitches.de/learning/fundamentals/series_01.html},
+ 	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/kippschalterOnline.pdf}{[pdf]}}},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  O
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+@book{Osterhage:2018,
+	abstract  = {Das Buch behandelt umfassend Sicherheitskonzepte und -technologien in der mobilen Kommunikation. Es erläutert Herausforderungen, Angriffsszenarien sowie Lösungen zur Gewährleistung von Datenschutz und sicheren Übertragungen in mobilen Netzwerken.},
+	author 	  = {Osterhage, Wolgang W.},
+	title 	  = {Sicherheitskonzepte in der mobilen Kommunikation},
+	year 	  = {2018},
+	publisher = {Springer},
+	isbn 	  = {978-3-662-57903-9}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  P
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@Book{Piegl:1997,
-  author    = {Piegl, Les and Tiller, Wayne},
-  title     = {The NURBS Book},
-  year      = {1997},
-  edition   = {2},
-  isbn      = {3-540-61545-8},
-  publisher = {Springer-Verlag New York, Inc.},
-  address   = {New York, NY, USA},
+@online{Paradise:2025,
+	abstract  = {Produktbeschreibung und technische Details zum Arduino Nano 33 BLE Sense Rev2, einem kompakten Mikrocontroller-Board mit integriertem Bluetooth Low Energy, Sensoren und erweitertem Funktionsumfang für IoT- und Embedded-Anwendungen.},
+	author    = {Paradisetronics},
+	title     = {Arduino Nano 33 BLE Sense Rev2},
+	year      = {2025},  
+	url 	  = {https://paradisetronic.com/products/arduino-nano-33-ble-sense-rev2},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/rev2Online.pdf}{[pdf]}}},
+	urldate   = {2025-05-02},
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  Q
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  R
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-@misc{Patent3D,
-  author       = {Russell, David and Hernandez, Andres and Kinsly, Joshua and Berlin, Andrew},
-  howpublished = {United States Patent, Patent N0.: US 7,291,002 B2},
-  title        = {Apparatus and Methods for 3D Printing},
-  year         = {2007},
+@online{Reichelt:2025,
+	abstract  = {Produktseite eines geschlossenen Schaltnetzteils mit 50 W Leistung, 5 und 12 V Ausgangsspannung sowie 6 A maximalem Ausgangsstrom. Beschreibt technische Spezifikationen und Anwendungsgebiete für industrielle und elektronische Schaltungen.},
+ 	author    = {Reichelt},
+ 	title     = {Schaltnetzteil - MW HRP-75},
+ 	year      = {2025},  
+ 	url       = {https://www.reichelt.de/de/de/shop/produkt/schaltnetzteil_geschlossen_50_w_5_12_v_6_a-137098#closemodal},
+ 	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/reicheltSchaltnetzteil.pdf}{[pdf]}}},
+ 	urldate   = {2025-05-02},
 }
 
+@online{ReicheltKipp:2025,
+	abstract  = {Technische Produktbeschreibung eines Miniatur-Kippschalters mit Ein-/Aus-Funktion, 3 A Stromstärke bei 125 V, geeignet für Steuer- und Schaltanwendungen in der Elektrotechnik.},
+	author    = {Reichelt},
+	title     = {Kippschalter - GOOBAY 10013},
+	year      = {2025},
+	url 	  = {https://www.reichelt.de/de/de/shop/produkt/miniatur-kippschalter\_ein-aus\_3\_a\_125\_v-359360},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/reicheltKippschalter.pdf}{[pdf]}}},
+	urldate   = {2025-05-02},
+}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@online{ReicheltLED:2025,
+	abstract  = {Produktbeschreibung einer ultrahellen blauen LED-Signalleuchte mit 8 mm Durchmesser und 600 mcd Lichtstärke, geeignet für visuelle Anzeigen in elektrischen Geräten und Steuerungen.},
+	author    = {Reichelt},
+	title     = {LED - CML},
+	year      = {2025},  
+	url 	  = {https://www.reichelt.de/de/de/shop/produkt/led-signalleuchte_blau_-_ultrahell_12_vac_vdc_8_mm_600_mcd-271924},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/ledOnline.pdf}{[pdf]}}},
+	urldate   = {2025-05-04},
+}
+
+@online{ReicheltMOS:2025,
+	abstract  = {Produktseite zu einem MOSFET-Entwicklerboard mit dem IRF9540N, einem P-Kanal-MOSFET. Behandelt Einsatzmöglichkeiten zur Steuerung von Leistungselektronik in Schaltungen.},
+	author    = {Reichelt},
+	title     = {COM - MOS-FET},
+	year      = {2025},  
+	url 	  = {https://www.reichelt.de/de/de/shop/produkt/entwicklerboards_-_mosfet_irf9540n-316199},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/reicheltMOSFET.pdf}{[pdf]}}},
+	urldate   = {2025-05-04},
+}
+
+@online{ReicheltMOSFETManual:2025,
+	abstract = {Detaillierte Bedienungsanleitung und technische Beschreibung eines MOSFET-Moduls zur Integration in elektronische Steuerungen und Schaltungen. Enthält Schaltpläne, Anschlussbelegungen und Anwendungsbeispiele.},
+	author   = {Reichelt},
+	title    = {Anleitung – COM-MOSFET Modul},
+	year     = {2022},
+	url      = {https://cdn-reichelt.de/documents/datenblatt/A300/COM-MOSFET_ANLEITUNG_2022-07-20.pdf},
+	note     = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/MOSFETanleitung.pdf}{[pdf]}}},
+	urldate  = {2025-05-06}
+}
+
+@online{RSOnlineMOSFET:2025,
+	abstract  = {Ein umfassender Leitfaden zu MOSFETs, der Funktionsprinzipien, Typen, Einsatzgebiete sowie Tipps zur Auswahl und zum Einsatz in elektronischen Schaltungen erläutert.},
+	author    = {RS Components},
+	title     = {MOSFET Leitfaden},
+	year      = {2025},
+	url       = {https://de.rs-online.com/web/content/discovery-portal/produktratgeber/mosfet-leitfaden},
+	note 	  = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/RSComponents.pdf}{[pdf]}}}
+	urldate   = {2025-05-04}
+}
+
+@online{ReicheltHC05:2025,
+	abstract  = {Produktseite des HC-05 Bluetooth-Moduls mit 4-Pin-Schnittstelle für Arduino und Mikrocontroller. Beschreibt technische Details, Einsatzmöglichkeiten und Konfigurationsoptionen für drahtlose Kommunikation.},
+	author    = {Reichelt},
+	title     = {Webseite Reichelt HC-05},
+	year      = {2025},
+	url       = {https://www.reichelt.de/de/de/shop/produkt/arduino_-_4duino_wireless_modul_hc-05_4-pin-170173},
+	note 	  =  {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/HC-05 Modul online ALLNET REICHELT.pdf}{[pdf]}}}
+	urldate   = {2025-05-13}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  S
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@inproceedings{Sencer:2014,
-  author    = {Sencer, Burak and Shamoto, Eiji},
-  title     = {{Curvature-continuous sharp corner smoothing scheme for Cartesian motion systems}},
-  pages     = {374--379},
-  publisher = {IEEE},
-  isbn      = {978-1-4799-2323-6},
-  booktitle = {{2014 IEEE 13th International Workshop on Advanced Motion Control (AMC)}},
-  year      = {2014},
-  address   = {Piscataway, NJ},
-  doi       = {\url{10.1109/AMC.2014.6823311}},
-  note      = "\textcolor{blue}{\href{ExterneDokumente/Bezier/Sencer2014.pdf}{[pdf]}} und \textcolor{blue}{\href{ExterneDokumente/Bezier/Sencer2014V2.pdf}{[Version 2 - pdf]}}"
+@book{Schulz:2013,
+	abstract  = {Das Buch vermittelt umfassendes Wissen über Pumpen, deren Funktionsprinzipien, Berechnungsmethoden und konstruktive Ausführungen. Es behandelt unterschiedliche Pumpentypen und deren Anwendung in der Technik.},
+ 	author	  = {Schulz, Hellmuth},
+ 	title 	  = {Die Pumpen: Arbeitsweise, Berechnung, Konstruktion},
+ 	year	  = {2013},
+ 	publisher = {Springer-Verlag}
 }
 
-@article{Sencer:2016,
-  author  = {Tajima, Shingo and Sencer, Burak},
-  year    = {2016},
-  title   = {{Kinematic corner smoothing for high speed machine tools}},
-  pages   = {27--43},
-  volume  = {108},
-  issn    = {08906955},
-  journal = {{International Journal of Machine Tools and Manufacture}},
-  doi     = {\url{10.1016/j.ijmachtools.2016.05.009}},
-  note    = "\textcolor{blue}{\href{ExterneDokumente/VelocityBlending/KinematicCornerSmoothing.pdf}{[pdf]}}"
+@book{Surek:2021,
+	abstract  = {Dieser Abschnitt des Handbuchs behandelt zentrale Grundlagen des Maschinenbaus mit Schwerpunkt auf technischen Anwendungen und Konstruktionsprinzipien, speziell im Bereich der Fertigung und Maschinentechnik.},
+	author 	  = {Surek, Dominik},
+	title 	  = {Handbuch Maschinenbau: Grundlagen und Anwendungen der Maschinenbau-Technik},
+	pages 	  = {1039--1053},
+	year 	  = {2021},
+	publisher = {Springer}
 }
 
-
-
-@article{Sencer:2017,
-  author  = {Tajima, Shingo and Sencer, Burak},
-  year    = {2017},
-  title   = {{Global tool-path smoothing for CNC machine tools with uninterrupted acceleration}},
-  pages   = {81--95},
-  volume  = {121},
-  issn    = {08906955},
-  journal = {{International Journal of Machine Tools and Manufacture}},
-  doi     = {\url{10.1016/j.ijmachtools.2017.03.002}},
-  note    = "\textcolor{blue}{\href{ExterneDokumente/Bezier/1-s2.0-S089069551630493X-main.pdf}{[pdf]}}"
+@book{Sauter:2022,
+	abstract  = {Das Lehrbuch bietet eine Einführung in die Grundlagen und Technologien mobiler Kommunikationssysteme, einschließlich Funktechnik, Protokolle und Sicherheitsaspekte.},
+	author    = {Sauter, Martin},
+	title     = {Grundkurs Mobile Kommunikationssysteme},
+	edition   = {8},
+	publisher = {Springer Vieweg},
+	year      = {2022},
+	address   = {Köln, Deutschland},
+	isbn      = {978-3-658-36963-7}
 }
 
-@Book{Sindermann:2014,
-  year      = {2014},
-  isbn      = {978-3-662-43815-2},
-  booktitle = {Modellbasierte virtuelle Produktentwicklung},
-  doi       = {10.1007/978-3-662-43816-9_14},
-  title     = {Schnittstellen und Datenaustauschformate},
-  url       = {http://dx.doi.org/10.1007/978-3-662-43816-9_14},
-  publisher = {Springer Berlin Heidelberg},
-  author    = {Sindermann, Sebastian},
-  pages     = {327--347},
-  language  = {German}
-}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  T
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Tosi:2017,
+	author={Tosi, Jacopo},
+	title={Performance evaluation of bluetooth low energy: A systematic review},
+	number={12},
+	year={2017},
+	publisher={MDPI}
+	url = {https://www.mdpi.com/1424-8220/17/12/2898}
+}
+
+@book{Traenkler:2018,
+	 abstract  = {Dieses Handbuch bietet eine umfassende Übersicht über moderne Sensortechnik mit Fokus auf Praxisanwendungen und wissenschaftliche Grundlagen. Es behandelt verschiedene Sensortypen, Messprinzipien und Anwendungen in unterschiedlichen technischen Bereichen.},
+    author    = {Hans-Rolf Tränkler and Leonhard M. Reindl},
+  	title     = {Sensortechnik Handbuch für Praxis und Wissenschaft},
+  	edition   = {2},
+  	publisher = {Springer Vieweg},
+  	year      = {2018},
+  	address   = {Berlin, Heidelberg},
+  	isbn      = {978-3-642-29942-1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  U
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+@misc{UBLOX:2023,
+	author    = {ublox},
+	title     = {Handbuch - NINA-B3 series},
+	year      = {2023},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/handbuchBLEmodul.pdf}{[pdf]}}},   
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  V
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  W
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-@online{Wat:2017a,
-  author       = {{Waterloo Maple Inc. 2017}},
-  year         = 2017,
-  title        = {Module},
-  howpublished = {\textcolor{blue}{\href{https://de.maplesoft.com/support/help/maple/view.aspx?path=module}{Link: [www.maplesoft.com]}}},
-  url          = {https://de.maplesoft.com/support/help/maple/view.aspx?path=module},
-  note         = "\textcolor{blue}{letzter Zugriff 14.09.2017}" 
+ 
+@online{WollesElektronikkiste:2019,
+	abstract  = {Diese Webseite bietet eine detaillierte Einführung in die Bluetooth-Module HC-05 und HC-06, beschreibt deren technische Eigenschaften, Einsatzmöglichkeiten sowie die Ansteuerung mit Mikrocontrollern wie Arduino.},
+	author    = {Wolfgang},
+	title     = {HC-05 und HC-06 Bluetooth-Modul},
+	year      = {2019},  
+	url 	  = {https://wolles-elektronikkiste.de/hc-05-und-hc-06-bluetooth-module},
+	note      = {\textcolor{blue}{\href{../../../MLbib/PDF Literatur/HC-05 und HC-06 Bluetooth.pdf}{[pdf]}}},
 }
-
-@online{Wat:2017b,
-  author       = {{Waterloo Maple Inc. 2017}},
-  year         = 2017,
-  title        = {ModuleLoad},
-  howpublished = {\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=ModuleLoad}{Link: [www.maplesoft.com]}}},
-  url          = {https://de.maplesoft.com/support/help/Maple/view.aspx?path=ModuleLoad},
-  note         = "\textcolor{blue}{letzter Zugriff 14.09.2017}" 
-}
-
-@online{Wat:2017c,
-  author       = {{Waterloo Maple Inc. 2017}},
-  year         = 2017,
-  title        = {Export},
-  howpublished = {\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/export}{Link: [www.maplesoft.com]}}},
-  url          = {https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/export},
-  note         = "\textcolor{blue}{letzter Zugriff 14.09.2017}" 
-}
-
-@online{Wat:2017d,
-  author       = {{Waterloo Maple Inc. 2017}},
-  year         = 2017,
-  title        = {Option},
-  howpublished = {\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/option}{Link: [www.maplesoft.com]}}},
-  url          = {https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/option},
-  note         = "\textcolor{blue}{letzter Zugriff 14.09.2017}" 
-}
-
-@online{Wat:2017e,
-  author       = {{Waterloo Maple Inc. 2017}},
-  year         = 2017,
-  title        = {Description},
-  howpublished = {\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/description}{Link: [www.maplesoft.com]}}},
-  url          = {https://de.maplesoft.com/support/help/Maple/view.aspx?path=module/description},
-  note         = "\textcolor{blue}{letzter Zugriff 14.09.2017}" 
-}
-
-@online{Wat:2017f,
-  author       = {{Waterloo Maple Inc. 2017}},
-  year         = 2017,
-  title        = {Procedures},
-  howpublished = {\textcolor{blue}{\href{https://de.maplesoft.com/support/help/Maple/view.aspx?path=procedure}{Link: [www.maplesoft.com]}}},
-  url          = {https://de.maplesoft.com/support/help/Maple/view.aspx?path=procedure},
-  note         = "\textcolor{blue}{letzter Zugriff 14.09.2017}" 
-}
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  X
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%  Y
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %  Z
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-@InProceedings{Zafeiropoulos:2020,
-  author    = {Zafeiropoulos, Anastasios and Fotopoulou, Eleni and Peuster, Manuel and Schneider, Stefan and Gouvas, Panagiotis and Behnke, Daniel and Müller, Marcel and Bök, Patrick-Benjamin and Panagiotis, Trakadas and Panagiotis, Karkazis and Karl, Holger},
-  booktitle = {IEEE Conference on Network Softwarization, NetSoft 2020},
-  title     = {Benchmarking and Profiling 5G Verticals' Applications: An Industrial IoT Use Case},
-  year      = {2020},
-  doi       = {10.1109/NetSoft48620.2020.9165393},
-}
-
-@Book{Zeidler:2013,
-  title     = {Springer-Taschenbuch der Mathematik},
-  editor    = {Zeidler, E.},
-  edition   = {{3., neu bearb eitete und erweiterte Auflage}},
-  isbn      = {978-3-8348-2359-5},
-  year      = {2013},
-  publisher = {Springer Verlag}
-}
-
-
-@Comment{jabref-meta: databaseType:bibtex;}

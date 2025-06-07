@@ -1,5 +1,8 @@
 \babel@toc {german}{}\relax 
 \babel@toc {german}{}\relax 
-\beamer@sectionintoc {1}{Vorstellung des Aktors}{3}{0}{1}
-\beamer@sectionintoc {2}{Vorstellung des Sensors}{6}{0}{2}
-\beamer@sectionintoc {3}{Quellen}{8}{0}{3}
+\beamer@sectionintoc {1}{Problembeschreibung}{3}{0}{1}
+\beamer@sectionintoc {2}{Beschreibung der Anwendung}{4}{0}{2}
+\beamer@sectionintoc {3}{Herausforderungen}{6}{0}{3}
+\beamer@sectionintoc {4}{Eigene Lösungen}{7}{0}{4}
+\beamer@sectionintoc {5}{Ergebnisse}{8}{0}{5}
+\beamer@sectionintoc {6}{Literaturverzeichnis}{10}{0}{6}
