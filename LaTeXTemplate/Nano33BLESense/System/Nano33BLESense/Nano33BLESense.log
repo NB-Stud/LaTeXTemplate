@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  7 JUN 2025 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  8 JUN 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2791,7 +2791,7 @@ Overfull \hbox (2.55548pt too wide) detected at line 239
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 240
- []\T1/lmss/bx/n/10 149
+ []\T1/lmss/bx/n/10 151
  []
 
 
@@ -2839,12 +2839,12 @@ Overfull \hbox (0.76602pt too wide) detected at line 252
 
 
 Overfull \hbox (4.29994pt too wide) detected at line 252
- []\T1/lmss/bx/n/12 151
+ []\T1/lmss/bx/n/12 153
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 253
- []\T1/lmss/bx/n/10 153
+ []\T1/lmss/bx/n/10 155
  []
 
 )
@@ -5570,74 +5570,97 @@ Package biblatex Info: Setting label 'refsegment:0107' on input line 18.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 18.
 
-Package biblatex Info: Reference segment=108 on input line 20.
-Package biblatex Info: Setting label 'refsegment:0108' on input line 20.
+Package biblatex Info: Reference segment=108 on input line 37.
+Package biblatex Info: Setting label 'refsegment:0108' on input line 37.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 20.
+(hyperref)                removing `\menu' on input line 37.
 
-Package biblatex Info: Reference segment=109 on input line 22.
-Package biblatex Info: Setting label 'refsegment:0109' on input line 22.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 22.
-
-Package biblatex Info: Reference segment=110 on input line 24.
-Package biblatex Info: Setting label 'refsegment:0110' on input line 24.
+Package biblatex Info: Reference segment=109 on input line 44.
+Package biblatex Info: Setting label 'refsegment:0109' on input line 44.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 24.
+(hyperref)                removing `\menu' on input line 44.
 
-Package biblatex Info: Reference segment=111 on input line 26.
-Package biblatex Info: Setting label 'refsegment:0111' on input line 26.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 26.
-
-Package biblatex Info: Reference segment=112 on input line 28.
-Package biblatex Info: Setting label 'refsegment:0112' on input line 28.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 28.
-
-Package biblatex Info: Reference segment=113 on input line 30.
-Package biblatex Info: Setting label 'refsegment:0113' on input line 30.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 30.
-
-Package biblatex Info: Reference segment=114 on input line 32.
-Package biblatex Info: Setting label 'refsegment:0114' on input line 32.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 32.
-
-Package biblatex Info: Reference segment=115 on input line 34.
-Package biblatex Info: Setting label 'refsegment:0115' on input line 34.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 34.
-
-Package biblatex Info: Reference segment=116 on input line 36.
-Package biblatex Info: Setting label 'refsegment:0116' on input line 36.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 36.
-
-Package biblatex Info: Reference segment=117 on input line 38.
-Package biblatex Info: Setting label 'refsegment:0117' on input line 38.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 38.
-
-) (../../Contents/General/Veränderungen/großeVeränderungen.tex
 
 [147
 
 
 ]
+Package biblatex Info: Reference segment=110 on input line 63.
+Package biblatex Info: Setting label 'refsegment:0110' on input line 63.
 
-[148
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 63.
+
+Package biblatex Info: Reference segment=111 on input line 65.
+Package biblatex Info: Setting label 'refsegment:0111' on input line 65.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 65.
+
+Package biblatex Info: Reference segment=112 on input line 84.
+Package biblatex Info: Setting label 'refsegment:0112' on input line 84.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 84.
+
+Package biblatex Info: Reference segment=113 on input line 86.
+Package biblatex Info: Setting label 'refsegment:0113' on input line 86.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 86.
+
+Package biblatex Info: Reference segment=114 on input line 91.
+Package biblatex Info: Setting label 'refsegment:0114' on input line 91.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 91.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[148]
+Package biblatex Info: Reference segment=115 on input line 105.
+Package biblatex Info: Setting label 'refsegment:0115' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 105.
+
+Package biblatex Info: Reference segment=116 on input line 107.
+Package biblatex Info: Setting label 'refsegment:0116' on input line 107.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 107.
+
+Package biblatex Info: Reference segment=117 on input line 114.
+Package biblatex Info: Setting label 'refsegment:0117' on input line 114.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 114.
+
+) (../../Contents/General/Veränderungen/großeVeränderungen.tex
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 16.
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[149]
+
+[150
 
 
 ]
@@ -5714,9 +5737,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 )
 
-[149]
+[151]
 
-[150
+[152
 
 
 ]
@@ -5726,9 +5749,9 @@ Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)              on input line 224.
 
 
-[151]
+[153]
 
-[152]
+[154]
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
@@ -5753,7 +5776,7 @@ nktioniert -[]
 
 
 
-[153
+[155
 
 
 ]
@@ -5790,7 +5813,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[154]
+[156]
 
 Package cleveref Info: loaded `ngerman' language definitions on input line 275.
 
@@ -5801,7 +5824,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[155] (./Nano33BLESense.aux
+[157] (./Nano33BLESense.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 23.
 )
  ***********
@@ -5834,11 +5857,11 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 109245 strings out of 473190
- 2898132 string characters out of 5716853
- 4632148 words of memory out of 5000000
- 129274 multiletter control sequences out of 15000+600000
- 770756 words of font info for 479 fonts, out of 8000000 for 9000
+ 109384 strings out of 473190
+ 2900584 string characters out of 5716853
+ 4632631 words of memory out of 5000000
+ 129401 multiletter control sequences out of 15000+600000
+ 777115 words of font info for 485 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/fe
@@ -5861,10 +5884,10 @@ mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
 lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
 aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (155 pages, 11365569 bytes).
+Output written on Nano33BLESense.pdf (157 pages, 11371686 bytes).
 PDF statistics:
- 4239 PDF objects out of 4296 (max. 8388607)
- 3887 compressed objects within 39 object streams
- 1562 named destinations out of 1728 (max. 500000)
- 113377 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 4250 PDF objects out of 4296 (max. 8388607)
+ 3896 compressed objects within 39 object streams
+ 1564 named destinations out of 1728 (max. 500000)
+ 117473 words of extra memory for PDF output out of 128383 (max. 10000000)
 
