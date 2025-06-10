@@ -26,7 +26,7 @@
 \setlength{\columnsep}{2cm}
 
 \title{Magic Faucet Fountain}
-\author{Gruppe 07 Asena Yüce, Carl Lewis Maschke, Nina Braams, Sven Neumann, Valeria Kornichenkova}
+\author{Gruppe 07}
 \titlegraphic{\includegraphics[height=6.5cm]{images/logo_hs_technik}
 	\hfill
 	\includegraphics[height=6.5cm]{images/logo}
@@ -62,7 +62,7 @@
 			\block{Herausforderungen}
 			{
 			\textbf{1. Unsichtbare Tragstruktur} \\
-			Der zentrale Effekt des Brunnens – der scheinbar schwebende Wasserhahn – erfordert eine stabile, tragfähige Konstruktion, die gleichzeitig möglichst unsichtbar bleibt. Dies stellt hohe Anforderungen an Materialwahl und Integration. \\[1em]
+			Der zentrale Effekt des Brunnens, der scheinbar schwebende Wasserhahn, erfordert eine stabile, tragfähige Konstruktion. Diese muss gleichzeitig für den Benutzer möglichst unsichtbar bleiben. Damit einher gehen hohe Anforderungen an Materialwahl und Integration. \\[1em]
 			
 			\textbf{2. Enge Platzverhältnisse im Inneren} \\
 			Die mechanische Struktur im Brunneninneren bietet nur wenig Raum für Sensoren und Elektronik. Die Komponenten müssen kompakt, wasserfest und zuverlässig montierbar sein. \\[1em]
@@ -72,6 +72,21 @@
 			
 			\textbf{4. Kabellose Steuerung via App} \\
 			Die Steuerung sollte benutzerfreundlich per Smartphone erfolgen – kabellos und möglichst ohne sichtbare Module. Die Verbindung musste stabil, sicher und reaktionsschnell sein.
+			}
+				\block{Ergebnisse}
+			{
+				\textbf{1. Überzeugender Schwebeeffekt} \\
+				Der Wasserhahn scheint tatsächlich frei in der Luft zu schweben. Die Konstruktion mit dem transparenten Acrylrohr ist optisch nahezu unsichtbar und erfüllt den beabsichtigten visuellen Effekt vollumfänglich. \\[1em]
+				
+				\textbf{2. Stabile Steuerung per App} \\
+				Die Anbindung über Bluetooth mit dem Arduino Nano 33 BLE Sense und der RemoteXY-App funktioniert zuverlässig. Die App erlaubt die einfache Steuerung der Pumpe sowie die Anzeige des aktuellen Wasserstands. \\[1em]
+				
+				\textbf{3. Automatische Füllstandserkennung} \\
+				Der integrierte Ultraschallsensor misst den Wasserstand kontinuierlich. Bei niedrigem Pegel wird eine Warnung an die App gesendet, was ein frühzeitiges Nachfüllen ermöglicht. \\[1em]
+				
+				\textbf{4. Modularer und wartungsfreundlicher Aufbau} \\
+				Alle Komponenten wurden so gestaltet, dass sie leicht zugänglich und austauschbar sind. Der Aufbau erlaubt zukünftige Erweiterungen – z.B. Lichteffekte oder WLAN-Anbindung.
+				
 			}
 		}
 		
@@ -95,6 +110,7 @@
 					\draw [line width=1.2pt, short] (12.5,15.75) .. controls (2.25,15.5) and (-1.25,11.25) .. (13,10.75);
 					\draw [line width=1.2pt, short] (13.5,15.75) .. controls (26.5,15) and (24.5,10.75) .. (13,10.75);
 					\draw [line width=1.2pt, short] (12.5,12.25) .. controls (12.75,12) and (13.25,12) .. (13.5,12.25);
+					\draw [ line width=1.2pt ] (19.5,7.25) circle (0.25cm);
 					\draw [line width=1.2pt, short] (12,27) -- (12,27.5);
 					\draw [line width=1.2pt, short] (14,27) -- (14,27.5);
 					\draw [line width=1.2pt, short] (12.5,27.5) .. controls (12.25,30) and (13,30.5) .. (14.5,31.25);
@@ -136,59 +152,22 @@
 					\draw [line width=1.2pt, short] (12,27) .. controls (12.25,26.75) and (12.5,26.75) .. (13,26.75);
 					\draw [line width=1.2pt, short] (13,26.75) .. controls (13.5,26.75) and (13.75,26.75) .. (14,27);
 					\draw [line width=1.2pt, short] (12.5,27.5) .. controls (12.75,27.25) and (13.25,27.25) .. (13.5,27.5);
-					% Kreis-Label "2" setzen (Deckel)
-					\node[circle, draw, minimum size=0.8cm, font=\Large] (label2) at (2,26) {2};
-					\draw[->, thick] (label2.east) -- (11.5,26.5);  % Pfeil rechts raus
-					
-					% Kreis-Label "1" setzen (Blumentopf)
-					\node[circle, draw, minimum size=0.8cm, font=\Large] (label1) at (3,5) {1};
-					\draw[->, thick] (label1.east) -- (8,4);  % Pfeil rechts raus
 				\end{circuitikz}
 			}
-		}
-	\end{columns}
-	
-	
-	\begin{columns} 
-		
-		\column{0.5}
-		{
-			\colorlet{blocktitlebgcolor}{blue}
-			\block{Ergebnisse}
+						\block{Lösungen}
 			{
-			\textbf{1. Überzeugender Schwebeeffekt} \\
-			Der Wasserhahn scheint tatsächlich frei in der Luft zu schweben. Die Konstruktion mit dem transparenten Acrylrohr ist optisch nahezu unsichtbar und erfüllt den beabsichtigten visuellen Effekt vollumfänglich. \\[1em]
-			
-			\textbf{2. Stabile Steuerung per App} \\
-			Die Anbindung über Bluetooth mit dem Arduino Nano 33 BLE Sense und der RemoteXY-App funktioniert zuverlässig. Die App erlaubt die einfache Steuerung der Pumpe sowie die Anzeige des aktuellen Wasserstands. \\[1em]
-			
-			\textbf{3. Automatische Füllstandserkennung} \\
-			Der integrierte Ultraschallsensor misst den Wasserstand kontinuierlich. Bei niedrigem Pegel wird eine Warnung an die App gesendet, was ein frühzeitiges Nachfüllen ermöglicht. \\[1em]
-			
-			\textbf{4. Modularer und wartungsfreundlicher Aufbau} \\
-			Alle Komponenten wurden so gestaltet, dass sie leicht zugänglich und austauschbar sind. Der Aufbau erlaubt zukünftige Erweiterungen – z.B. Lichteffekte oder WLAN-Anbindung.
-			
-			}
-		}
-		
-		
-		\column{0.5}
-		{
-			\colorlet{blocktitlebgcolor}{blue}
-			\block{Lösungen}
-			{
-			\textbf{1. Tragstruktur mit Acrylrohr} \\
-			Ein transparentes Acrylrohr übernimmt sowohl die Stützfunktion als auch die Wasserzufuhr. Durch den fließenden Wasserfilm bleibt das Rohr optisch weitgehend unsichtbar. \\[1em]
-
-			\textbf{2. Sensorik-Kombination: Schwimmer + Ultraschallsensor} \\
-			Für die präzise Füllstandserfassung wird ein Schwimmer mit einem digitalen Ultraschallsensor kombiniert. Letzterer sendet Messdaten an den Mikrocontroller. \\[1em]
-
-			\textbf{3. Sichere Stromversorgung} \\
-			Netzteil und Steuerungselektronik sind in einer wasserdichten ABS-Box mit Hauptschalter und Gummitüllen sicher untergebracht. \\[1em]
-
-			\textbf{4. Bluetooth-App-Steuerung} \\
-			Der Arduino Nano 33 BLE Sense überträgt die Daten per BLE an die App „RemoteXY“. Diese zeigt den Füllstand an und erlaubt manuelle Steuerung der Pumpe.
-
+				\textbf{1. Tragstruktur mit Acrylrohr} \\
+				Ein transparentes Acrylrohr übernimmt sowohl die Stützfunktion als auch die Wasserzufuhr. Durch den fließenden Wasserfilm bleibt das Rohr optisch weitgehend unsichtbar. \\[1em]
+				
+				\textbf{2. Sensorik-Kombination: Schwimmer + Ultraschallsensor} \\
+				Für die präzise Füllstandserfassung wird ein Schwimmer mit einem digitalen Ultraschallsensor kombiniert. Letzterer sendet Messdaten an den Mikrocontroller. \\[1em]
+				
+				\textbf{3. Sichere Stromversorgung} \\
+				Netzteil und Steuerungselektronik sind in einer wasserdichten ABS-Box mit Hauptschalter und Gummitüllen sicher untergebracht. \\[1em]
+				
+				\textbf{4. Bluetooth-App-Steuerung} \\
+				Der Arduino Nano 33 BLE Sense überträgt die Daten per BLE an die App „RemoteXY“. Diese zeigt den Füllstand an und erlaubt manuelle Steuerung der Pumpe.
+				
 			}
 			\block{Zukünftige Projekte}
 			{
@@ -199,7 +178,16 @@
 					\item Einbindung eines Smart-Extruders
 				\end{itemize}
 			}
+			\block{Allgemeines}
+			{
+				Modulbezeichnung: Automatisierungstechnik\\
+				Gruppenmitglieder: Asena Yüce, Carl Lewis Maschke, Nina Braams, \\Sven Neumann, Valeria Kornichenkova\\
+				Prüfer/-in: Prof. Dr. Elmar Wings
+			}
+			
 		}
 	\end{columns}
+	
+
 	
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.24)  10 JUN 2025 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.24)  10 JUN 2025 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,7 +1009,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--75
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 
  []
 
@@ -1024,17 +1034,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--171
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
 
  []
 
@@ -1055,19 +1055,19 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37434 strings out of 469590
- 969533 string characters out of 5474519
- 1748224 words of memory out of 5000000
- 63782 multiletter control sequences out of 15000+600000
- 670195 words of font info for 122 fonts, out of 8000000 for 9000
+ 37389 strings out of 469590
+ 968650 string characters out of 5474519
+ 1747234 words of memory out of 5000000
+ 63743 multiletter control sequences out of 15000+600000
+ 666827 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,121p,510b,1294s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,9n,121p,510b,1117s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb><c:/texl
 ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/t
 ype1/public/cm-super/sfrm2986.pfb>
-Output written on PosterMagicFaucetFountain.pdf (1 page, 84397 bytes).
+Output written on PosterMagicFaucetFountain.pdf (1 page, 84177 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
