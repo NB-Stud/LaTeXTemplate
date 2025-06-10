@@ -18,7 +18,7 @@
 		\centering
 		\color{titlefgcolor} 
 		{\bfseries \Huge \sc \@title \par}
-		\vspace*{1em}
+		\vspace*{-1em}
 		{\huge \@author \par}
 }}
 \makeatother
@@ -58,44 +58,9 @@
 			\end{itemize}
 			}
 			
-			
-			\block{Herausforderungen}
-			{
-			\textbf{1. Unsichtbare Tragstruktur} \\
-			Der zentrale Effekt des Brunnens, der scheinbar schwebende Wasserhahn, erfordert eine stabile, tragfähige Konstruktion. Diese muss gleichzeitig für den Benutzer möglichst unsichtbar bleiben. Damit einher gehen hohe Anforderungen an Materialwahl und Integration. \\[1em]
-			
-			\textbf{2. Enge Platzverhältnisse im Inneren} \\
-			Die mechanische Struktur im Brunneninneren bietet nur wenig Raum für Sensoren und Elektronik. Die Komponenten müssen kompakt, wasserfest und zuverlässig montierbar sein. \\[1em]
-			
-			\textbf{3. Stromversorgung in Wassernähe} \\
-			Die Kombination aus Wasser und Strom birgt ein erhöhtes Sicherheitsrisiko. Eine wasserdichte und dennoch zugängliche Stromversorgung war zwingend erforderlich. \\[1em]
-			
-			\textbf{4. Kabellose Steuerung via App} \\
-			Die Steuerung sollte benutzerfreundlich per Smartphone erfolgen – kabellos und möglichst ohne sichtbare Module. Die Verbindung musste stabil, sicher und reaktionsschnell sein.
-			}
-				\block{Ergebnisse}
-			{
-				\textbf{1. Überzeugender Schwebeeffekt} \\
-				Der Wasserhahn scheint tatsächlich frei in der Luft zu schweben. Die Konstruktion mit dem transparenten Acrylrohr ist optisch nahezu unsichtbar und erfüllt den beabsichtigten visuellen Effekt vollumfänglich. \\[1em]
-				
-				\textbf{2. Stabile Steuerung per App} \\
-				Die Anbindung über Bluetooth mit dem Arduino Nano 33 BLE Sense und der RemoteXY-App funktioniert zuverlässig. Die App erlaubt die einfache Steuerung der Pumpe sowie die Anzeige des aktuellen Wasserstands. \\[1em]
-				
-				\textbf{3. Automatische Füllstandserkennung} \\
-				Der integrierte Ultraschallsensor misst den Wasserstand kontinuierlich. Bei niedrigem Pegel wird eine Warnung an die App gesendet, was ein frühzeitiges Nachfüllen ermöglicht. \\[1em]
-				
-				\textbf{4. Modularer und wartungsfreundlicher Aufbau} \\
-				Alle Komponenten wurden so gestaltet, dass sie leicht zugänglich und austauschbar sind. Der Aufbau erlaubt zukünftige Erweiterungen – z.B. Lichteffekte oder WLAN-Anbindung.
-				
-			}
-		}
-		
-		
-		\column{0.5}
-		{
-			\colorlet{blocktitlebgcolor}{blue}
 			\block{Gesamtaufbau}
 			{
+				\resizebox{0.29\textwidth}{!}{%
 				\begin{circuitikz}
 					\tikzstyle{every node}=[font=\LARGE]
 					\draw [line width=1.2pt, short] (3.5,13.25) -- (6,3.25);
@@ -153,7 +118,59 @@
 					\draw [line width=1.2pt, short] (13,26.75) .. controls (13.5,26.75) and (13.75,26.75) .. (14,27);
 					\draw [line width=1.2pt, short] (12.5,27.5) .. controls (12.75,27.25) and (13.25,27.25) .. (13.5,27.5);
 				\end{circuitikz}
+			}%
 			}
+			
+				\block{Ergebnisse}
+			{
+				\textbf{1. Überzeugender Schwebeeffekt} \\
+				Der Wasserhahn scheint tatsächlich frei in der Luft zu schweben. Die Konstruktion mit dem transparenten Acrylrohr ist optisch nahezu unsichtbar und erfüllt den beabsichtigten visuellen Effekt vollumfänglich. \\[1em]
+				
+				\textbf{2. Stabile Steuerung per App} \\
+				Die Anbindung über Bluetooth mit dem Arduino Nano 33 BLE Sense und der RemoteXY-App funktioniert zuverlässig. Die App erlaubt die einfache Steuerung der Pumpe sowie die Anzeige des aktuellen Wasserstands. \\[1em]
+				
+				\textbf{3. Automatische Füllstandserkennung} \\
+				Der integrierte Ultraschallsensor misst den Wasserstand kontinuierlich. Bei niedrigem Pegel wird eine Warnung an die App gesendet, was ein frühzeitiges Nachfüllen ermöglicht. \\[1em]
+				
+				\textbf{4. Modularer und wartungsfreundlicher Aufbau} \\
+				Alle Komponenten wurden so gestaltet, dass sie leicht zugänglich und austauschbar sind. Der Aufbau erlaubt zukünftige Erweiterungen – z.B. Lichteffekte oder WLAN-Anbindung.
+				
+			}
+			
+			\block{Verwendete Hardware}
+			{
+				\textbf{Arduino Nano 33 BLE Sense:} \\
+				Steuert Pumpe und Sensoren, verbindet sich via Bluetooth mit der App.\\[-1em]
+				
+				\textbf{Ultraschallsensor HC-SR04:} \\
+				Misst kontinuierlich den Wasserstand und sendet die Werte zur App.\\[-1em]
+				
+				\textbf{ABS-Box mit Netzteil:} \\
+				Schützt Elektronik vor Feuchtigkeit und erlaubt sicheren Betrieb.
+			}
+		}
+		
+		
+		\column{0.5}
+		{
+			\colorlet{blocktitlebgcolor}{blue}
+			\block{Herausforderungen}
+			{
+				\textbf{1. Unsichtbare Tragstruktur} \\
+				Der zentrale Effekt des Brunnens, der scheinbar schwebende Wasserhahn, erfordert eine stabile, tragfähige Konstruktion. Diese muss gleichzeitig für den Benutzer möglichst unsichtbar bleiben. Damit einher gehen hohe Anforderungen an Materialwahl und Integration. \\[1em]
+				
+				\textbf{2. Enge Platzverhältnisse im Inneren} \\
+				Die mechanische Struktur im Brunneninneren bietet nur wenig Raum für Sensoren und Elektronik. Die Komponenten müssen kompakt, wasserfest und zuverlässig montierbar sein. \\[1em]
+				
+				\textbf{3. Stromversorgung in Wassernähe} \\
+				Die Kombination aus Wasser und Strom birgt ein erhöhtes Sicherheitsrisiko. Eine wasserdichte und dennoch zugängliche Stromversorgung war zwingend erforderlich. \\[1em]
+				
+				\textbf{4. Kabellose Steuerung via App} \\
+				Die Steuerung sollte benutzerfreundlich per Smartphone erfolgen – kabellos und möglichst ohne sichtbare Module. Die Verbindung musste stabil, sicher und reaktionsschnell sein.
+			}
+			
+			
+			
 						\block{Lösungen}
 			{
 				\textbf{1. Tragstruktur mit Acrylrohr} \\
@@ -169,20 +186,31 @@
 				Der Arduino Nano 33 BLE Sense überträgt die Daten per BLE an die App „RemoteXY“. Diese zeigt den Füllstand an und erlaubt manuelle Steuerung der Pumpe.
 				
 			}
-			\block{Zukünftige Projekte}
+
+			\block{Funktionsweise}
 			{
-				\begin{itemize}
-					\item Umbau auf leistungsfähigere Antriebe
-					\item Integration einer professionellen Steuerung
-					\item Entwurf und Bau einer Einhausung samt Beleuchtung
-					\item Einbindung eines Smart-Extruders
-				\end{itemize}
+				\textbf{1. Initialisierung und Verbindung} \\
+				Beim Einschalten wird der Arduino Nano 33 BLE Sense gestartet und stellt eine Bluetooth-Verbindung zur RemoteXY-App her. \\[1em]
+				
+				\textbf{2. Füllstandsmessung} \\
+				Ein Ultraschallsensor misst kontinuierlich den Abstand zur Wasseroberfläche. Die Daten werden verarbeitet und interpretiert, um den aktuellen Füllstand zu bestimmen. \\[1em]
+				
+				\textbf{3. App-Darstellung} \\
+				Die RemoteXY-App zeigt den gemessenen Wasserstand visuell und textuell an. Zusätzlich kann über die App die Pumpe aktiviert oder deaktiviert werden. \\[1em]
+				
+				\textbf{4. Pumpensteuerung} \\
+				Bei manuellem Startbefehl oder automatisch bei Unterschreiten eines kritischen Pegelwerts aktiviert der Arduino die Pumpe zur Nachfüllung.\\[1em]
+				
+				\textbf{5. Sicherheitsüberprüfung} \\
+				Die Stromversorgung ist abgesichert und wasserdicht gekapselt. Bei Fehlfunktionen kann über die App sofort eingegriffen werden.
 			}
+			
 			\block{Allgemeines}
 			{
-				Modulbezeichnung: Automatisierungstechnik\\
+				Studiengang: Maschinenbau und Design\\
 				Gruppenmitglieder: Asena Yüce, Carl Lewis Maschke, Nina Braams, \\Sven Neumann, Valeria Kornichenkova\\
-				Prüfer/-in: Prof. Dr. Elmar Wings
+				Erstprüfer: Prof. Dr. Elmar Wings\\
+				Abgabedatum: 10.06.2025
 			}
 			
 		}
