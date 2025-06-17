@@ -14,21 +14,26 @@
 
 \chapter{Aufbau}
 \section{Genereller Aufbau}
-Wie in der Skizze \ref{fig:Skizze} zu sehen, besteht der Magic Faucet Fountain aus einem Blumentopf mit montierbaren Deckel. Im Deckel integriert befindet sich ein Acryl-Rohr auf dem der Wasserhahn montiert ist. Eine Pumpe am Boden des Rohres befördert das Wasser nach oben. Der Deckel des Blumentopfes dient zudem als doppelter Boden auf dem die Deko-Steine platziert werden. Im Blumentopf befindet sich zudem ein separates Rohr mit Kunststoff-Schwimmer, dieser dient als Reflektor für den eingebauten Abstandssensor, um den Wasserpegel zu messen. Im Netzteilkasten mit Netzkabel befindet sich die Steuerung, der Hauptschalter und die Stromversorgung des Magic Faucet Fountain.
+Wie in der Skizze \ref{fig:Skizze} zu sehen ist, besteht der Magic Faucet Fountain aus einem Blumentopf mit montierbarem Deckel. In diesen ist ein transparentes Acrylrohr integriert, auf dem der Wasserhahn befestigt ist. Eine Pumpe am Boden des Rohrs fördert Wasser nach oben.
+
+Der Deckel dient gleichzeitig als Plattform für dekorative Steine. Im Inneren des Blumentopfs befindet sich ein separates Schutzrohr, das den eingebauten Ultraschallsensor aufnimmt und vor Feuchtigkeit schützt. Dieser Sensor misst kontinuierlich den Wasserstand.
+
+Im externen Netzteilkasten befinden sich die Steuerungselektronik, der Hauptschalter sowie die Stromversorgung des Magic Faucet Fountain.
 
 \section{Wasserführung}
 Eine Pumpe befördert das Wasser aus einem Blumentopf durch ein transparentes Acrylrohr nach oben. Das Wasser tritt am Auslass des Hahns aus und strömt nach unten, wobei das Rohr durch den Wasserfluss verdeckt wird.
 Der Blumentopf dient als Wasserreservoir und ist mit Ablassbohrungen ausgestattet. Diese ermöglichen den kontrollierten Wasserstand im Behälter und dienen gleichzeitig zur Durchführung der Stromkabel.
 
 \section{Pegelmessung}
-Zur Überwachung des Wasserstands ist eine Sensoraufnahme mit Gewinde und Bohrungen im Blumentopfdeckel vorgesehen, in der ein Ultraschallsensor vom Typ HC-SR04 eingebaut ist. Der Blumentopfdeckel trennt zudem die Steine vom Wasser, um eine genauere Messung zu ermöglichen.
-Ein Messrohr ist an der Sensoraufnahme befestigt. Innerhalb des Messrohrs befindet sich ein Styropor-Schwimmer, der sich mit steigendem Wasserstand nach oben bewegt. Dadurch kann der Sensor den Wasserstand erfassen. Eine zusätzliche Bohrung im Messrohr dient zur Luftdruckregulierung und für die Kabeldurchführung der Stromleitungen
+Zur Überwachung des Wasserstands ist im Deckel des Blumentopfs eine Aufnahme mit Gewinde und Bohrungen integriert, in die ein Ultraschallsensor des Typs HC-SR04 eingesetzt ist. Der Deckel trennt dabei die dekorativen Steine vom Wasser, um eine zuverlässige Messung zu ermöglichen.
+
+Der Sensor ist in einem fest verbauten Schutzrohr untergebracht, das ihn vor direktem Wasserkontakt und Spritzwasser schützt. Er misst den Wasserstand kontaktlos von oben durch das geöffnete Rohr, ohne mit dem Wasser in Berührung zu kommen. Eine kleine Bohrung im Schutzrohr dient zur Belüftung und zur Durchführung der Anschlussleitungen.
 
 \section{Elektronik und Steuerung:}
 Die Steuerung und Stromversorgung ist in einem separaten Netzteilkasten untergebracht. Dieser enthält:
 \begin{enumerate}
-	\item Arduino Nano 33 BLE Sense Light zur Verarbeitung der Sensordaten, Bluetoothverbindung und Schaltung des MOSFETs
-	\item MOSFET zur Ansteuerung des Laststromkreises der Pumpe
+	\item Arduino Nano 33 BLE Sense Light zur Verarbeitung der Sensordaten, Bluetoothverbindung und Schaltung der Transistoren
+	\item Transistoren zur Ansteuerung des Laststromkreises der Pumpe und der LEDs
 	\item Hauptschalter um das System ein- und auszuschalten
 	\item Netzteil mit 2 Ausgangsspannungen, um den Stromkreis für Arduino und Pumpe zu versorgen
 	\item Netzkabel zur Stromversorgung
