@@ -47,12 +47,12 @@
 			\colorlet{blocktitlebgcolor}{blue}
 			\block{Problembeschreibung}
 			{
-			Der Magic Faucet Fountain ist ein dekoratives Wasserspiel, bei dem ein Wasserhahn scheinbar ohne sichtbare Unterstützung in der Luft schwebt und dabei kontinuierlich Wasser ausgießt. Ziel des Projekts ist es, diesen „magischen“ Effekt durch eine geschickte Kombination aus physikalischer Konstruktion, technischer Sensorik und digitaler Steuerung zu realisieren.\\
+			Der Magic Faucet Fountain ist eine dekorative Installation, bei der ein Wasserhahn scheinbar ohne sichtbare Stütze in der Luft schwebt und dabei kontinuierlich Wasser fördert. Ziel des Projekts ist es, diesen „magischen“ Effekt durch eine geschickte Kombination aus physischer Konstruktion, Sensorik und digitaler Steuerung zu realisieren.\\
 			
 			\textbf{Dabei stehen folgende Anforderungen im Fokus:}
 			\begin{itemize}
-				\item Optische Täuschung: Der Wasserhahn soll frei schweben, ohne sichtbare Halterung.
-				\item Stabiler Wasserfluss: Der Brunnen muss kontinuierlich Wasser fördern, sodass ein Überlaufen oder Trockenlaufen vermieden wird.
+				\item Optische Täuschung: Der Wasserhahn soll frei schweben, ohne sichtbare Stütze.
+				\item Konstanter Wasserfluss: Der Brunnen muss kontinuierlich Wasser fördern, sodass ein Überlaufen oder Trockenlaufen vermieden wird.
 				\item Benutzerfreundliche Bedienung: Steuerung und Überwachung sollen über eine App erfolgen.
 				\item Sicherheit: Elektronik und Wasser müssen betriebssicher getrennt bleiben.
 			\end{itemize}
@@ -124,16 +124,16 @@
 				\block{Ergebnisse}
 			{
 				\textbf{1. Überzeugender Schwebeeffekt} \\
-				Der Wasserhahn scheint tatsächlich frei in der Luft zu schweben. Die Konstruktion mit dem transparenten Acrylrohr ist optisch nahezu unsichtbar und erfüllt den beabsichtigten visuellen Effekt vollumfänglich. \\[1em]
+				Der Wasserhahn scheint tatsächlich frei in der Luft zu schweben. Die Konstruktion mit dem transparenten Acrylrohr ist optisch nahezu unsichtbar und erfüllt den beabsichtigten visuellen Effekt. \\[1em]
 				
 				\textbf{2. Stabile Steuerung per App} \\
-				Die Anbindung über Bluetooth mit dem Arduino Nano 33 BLE Sense und der RemoteXY-App funktioniert zuverlässig. Die App erlaubt die einfache Steuerung der Pumpe sowie die Anzeige des aktuellen Wasserstands. \\[1em]
+				Die Anbindung über Bluetooth mit dem Arduino Nano 33 BLE Sense und der nRF Connect-App funktioniert zuverlässig. Die App erlaubt die einfache Steuerung der Pumpe sowie die Anzeige des aktuellen Wasserstands. \\[1em]
 				
 				\textbf{3. Automatische Füllstandserkennung} \\
-				Der integrierte Ultraschallsensor misst den Wasserstand kontinuierlich. Bei niedrigem Pegel wird eine Warnung an die App gesendet, was ein frühzeitiges Nachfüllen ermöglicht. \\[1em]
+				Der integrierte Ultraschallsensor misst den Wasserstand kontinuierlich. Der Wasserstand kann bequem in der App abgelesen werden. \\[1em]
 				
 				\textbf{4. Modularer und wartungsfreundlicher Aufbau} \\
-				Alle Komponenten wurden so gestaltet, dass sie leicht zugänglich und austauschbar sind. Der Aufbau erlaubt zukünftige Erweiterungen – z.B. Lichteffekte oder WLAN-Anbindung.
+				Alle Komponenten wurden so gestaltet, dass sie leicht zugänglich und austauschbar sind. Der Aufbau erlaubt zukünftige Erweiterungen – z.B. Lichteffekte oder WLAN-Anbindung. Zudem kann auch jederzeit der Wasserhahn getauscht werden.
 				
 			}
 			
@@ -145,7 +145,7 @@
 				\textbf{Ultraschallsensor HC-SR04:} \\
 				Misst kontinuierlich den Wasserstand und sendet die Werte zur App.\\[-1em]
 				
-				\textbf{ABS-Box mit Netzteil:} \\
+				\textbf{PETG-Box mit Netzteil:} \\
 				Schützt Elektronik vor Feuchtigkeit und erlaubt sicheren Betrieb.
 			}
 		}
@@ -163,46 +163,46 @@
 				Die mechanische Struktur im Brunneninneren bietet nur wenig Raum für Sensoren und Elektronik. Die Komponenten müssen kompakt, wasserfest und zuverlässig montierbar sein. \\[1em]
 				
 				\textbf{3. Stromversorgung in Wassernähe} \\
-				Die Kombination aus Wasser und Strom birgt ein erhöhtes Sicherheitsrisiko. Eine wasserdichte und dennoch zugängliche Stromversorgung war zwingend erforderlich. \\[1em]
+				Die Kombination aus Wasser und Strom birgt ein erhöhtes Sicherheitsrisiko. Eine wasserdichte und dennoch zugängliche Stromversorgung ist zwingend erforderlich. \\[1em]
 				
 				\textbf{4. Kabellose Steuerung via App} \\
-				Die Steuerung sollte benutzerfreundlich per Smartphone erfolgen – kabellos und möglichst ohne sichtbare Module. Die Verbindung musste stabil, sicher und reaktionsschnell sein.
+				Die Steuerung soll benutzerfreundlich per Smartphone erfolgen – kabellos und möglichst ohne sichtbare Module. Die Verbindung muss stabil, sicher und reaktionsschnell sein.
 			}
 			
 			
 			
-						\block{Lösungen}
+			\block{Lösungen}
 			{
 				\textbf{1. Tragstruktur mit Acrylrohr} \\
 				Ein transparentes Acrylrohr übernimmt sowohl die Stützfunktion als auch die Wasserzufuhr. Durch den fließenden Wasserfilm bleibt das Rohr optisch weitgehend unsichtbar. \\[1em]
 				
-				\textbf{2. Sensorik-Kombination: Schwimmer + Ultraschallsensor} \\
-				Für die präzise Füllstandserfassung wird ein Schwimmer mit einem digitalen Ultraschallsensor kombiniert. Letzterer sendet Messdaten an den Mikrocontroller. \\[1em]
+				\textbf{2. Sensorik: Ultraschallsensor} \\
+				Für die präzise Füllstandserfassung wird ein Ultraschallsensor verwendet. Dieser nutzt die Wasseroberfläche als Reflektor und sendet seine Messdaten an den Mikrocontroller. \\[1em]
 				
 				\textbf{3. Sichere Stromversorgung} \\
-				Netzteil und Steuerungselektronik sind in einer wasserdichten ABS-Box mit Hauptschalter und Gummitüllen sicher untergebracht. \\[1em]
+				Netzteil und Steuerungselektronik sind in einer spritzwassergeschützten PETG-Box untergebracht. Diese Box verfügt über einen Hauptschalter zwei LEDs. \\[1em]
 				
 				\textbf{4. Bluetooth-App-Steuerung} \\
-				Der Arduino Nano 33 BLE Sense überträgt die Daten per BLE an die App „RemoteXY“. Diese zeigt den Füllstand an und erlaubt manuelle Steuerung der Pumpe.
+				Der Arduino Nano 33 BLE Sense überträgt die Daten per BLE an die App nRF Connect. Diese zeigt den Füllstand an und erlaubt die manuelle Steuerung der Pumpe.
 				
 			}
 
 			\block{Funktionsweise}
 			{
 				\textbf{1. Initialisierung und Verbindung} \\
-				Beim Einschalten wird der Arduino Nano 33 BLE Sense gestartet und stellt eine Bluetooth-Verbindung zur RemoteXY-App her. \\[1em]
+				Beim Einschalten wird der Arduino Nano 33 BLE Sense gestartet und stellt eine Bluetooth-Verbindung zur nRF Connect-App her. \\[1em]
 				
 				\textbf{2. Füllstandsmessung} \\
 				Ein Ultraschallsensor misst kontinuierlich den Abstand zur Wasseroberfläche. Die Daten werden verarbeitet und interpretiert, um den aktuellen Füllstand zu bestimmen. \\[1em]
 				
 				\textbf{3. App-Darstellung} \\
-				Die RemoteXY-App zeigt den gemessenen Wasserstand visuell und textuell an. Zusätzlich kann über die App die Pumpe aktiviert oder deaktiviert werden. \\[1em]
+				Die nRF Connect-App zeigt den gemessenen Wasserstand an. Zusätzlich kann über die App die Pumpe aktiviert oder deaktiviert werden. \\[1em]
 				
 				\textbf{4. Pumpensteuerung} \\
 				Bei manuellem Startbefehl oder automatisch bei Unterschreiten eines kritischen Pegelwerts aktiviert der Arduino die Pumpe zur Nachfüllung.\\[1em]
 				
 				\textbf{5. Sicherheitsüberprüfung} \\
-				Die Stromversorgung ist abgesichert und wasserdicht gekapselt. Bei Fehlfunktionen kann über die App sofort eingegriffen werden.
+				Die Stromversorgung ist abgesichert und spritzwassergeschützt gekapselt. Bei Fehlfunktionen kann über die App sofort eingegriffen werden.
 			}
 			
 			\block{Allgemeines}
@@ -210,7 +210,7 @@
 				Studiengang: Maschinenbau und Design\\
 				Gruppenmitglieder: Asena Yüce, Carl Lewis Maschke, Nina Braams, \\Sven Neumann, Valeria Kornichenkova\\
 				Erstprüfer: Prof. Dr. Elmar Wings\\
-				Abgabedatum: 10.06.2025
+				Abgabedatum: 20.06.2025
 			}
 			
 		}
