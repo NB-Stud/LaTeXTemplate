@@ -12,19 +12,139 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Relais}
+\chapter{Relais 5V KY-019}
 \label{chap:relais}
 
 \section{Einleitung}
-Relais sind Schaltgeräte, bei denen mechanische Schalter elektrisch betätigt werden. Dies geschieht, indem sich Kontaktstücke durch elektrisch erzeugte Kräfte gegeneinander bewegen und dabei Stromkreise öffnen oder schließen (2). Die Grundschaltung für eine Relaissteuerung besteht aus einem Steuerkreis und Arbeitskreis. Die zum Schalten erforderliche Steuerleistung ist wesentlich kleiner als die geschaltete Ausgangsleistung. Das Relais stellt somit einen Verstärker zwischen Ein- und Ausgang dar. Außerdem sind sie galvanisch voneinander getrennt. Dadurch können sie auf unterschiedlichen Potenzialen liegen (1). 
-Für Relais ergeben sich drei Funktionen. Diese sind der elektrische Antrieb, das Isolationssystem für die galvanische Trennung und das Kontaktsystem für die Schaltvorgänge (2).
+Relais sind Schaltgeräte, bei denen mechanische Schalter elektrisch betätigt werden. Dies geschieht, indem sich Kontaktstücke durch elektrisch erzeugte Kräfte gegeneinander bewegen und dabei Stromkreise öffnen oder schließen \cite{Schlaak:2006}. Die Grundschaltung für eine Relaissteuerung besteht aus einem Steuerkreis und Arbeitskreis. Die zum Schalten erforderliche Steuerleistung ist wesentlich kleiner als die geschaltete Ausgangsleistung. Das Relais stellt somit einen Verstärker zwischen Ein- und Ausgang dar. Außerdem sind sie galvanisch voneinander getrennt. Dadurch können sie auf unterschiedlichen Potenzialen liegen \cite{Bohmer:2018}. 
+Für Relais ergeben sich drei Funktionen. Diese sind der elektrische Antrieb, das Isolationssystem für die galvanische Trennung und das Kontaktsystem für die Schaltvorgänge.\cite{Schlaak:2006}
 
 \section{Grundlegende Informationen}
+\subsection*{Aufbau}
+Ein Relais besteht aus einem Elektromagneten und einem an dessen Ende befestigten Anker \cite{Elektro4000:2025}, der einen oder mehrere Kontakte betätigt \cite{Bohmer:2018}. Wird das Relais betätigt, durchfließt ein Strom die Spule und erzeugt ein elektromagnetisches Feld. Dadurch wird der Anker angezogen und die zwei Kontaktfedern werden gegeneinandergedrückt. Somit haben sich die Kontakte geschlossen und befinden sich im Arbeitskontakt. Im geöffneten Zustand handelt es sich um einen Ruhekontakt. Zwischen geöffneten Kontakten muss ein hoher Isolationswiderstand, und zwischen den geschlossenen Kontakten eine hohe Leitfähigkeit vorliegen. \cite{Schlaak:2006}
 
+\subsection*{Kontaktwerkstoffe}
+Es gibt eine Bandbreite an Werkstoffen, die für die Kontakte verwendet werden. Ihre Auswahl richtet sich an die Anforderungen eines geringen Kontaktwiderstandes im geschlossenen und eine hohe Verschleißfestigkeit in offenen Stromkreis. Der Werkstoff Silber nimmt daher eine zentrale Rolle ein. Einige Beispielwerkstoffe sind Silber (Ag), Silber-Palladium (Ag-Pd) und Gold-Silber (AuAg). Ersterer lässt sich bei Spannungen von 5 V verwenden, während letztere beide sich für geringere Spannungen eignen. \cite{Bohmer:2018}
+
+\subsection*{Einteilung}
+Elektromechanische Relais lassen sich nach Art der Erregung einteilen. So unterscheidet man in monostabile und bistabile Relais. 
+\begin{itemize}
+	\item Bei einer monostabilen Erregung reagiert das Relais, sobald eine Spannung anliegt und fällt wieder in die Ruhelage zurück, wenn diese verschwindet. 
+	\item Bistabile Relais besitzen zwei stabile Schaltzustände. Wenn eine elektrische Spannung wirkt, dann wird eine dieser beiden stabilen Lagen eingenommen. Erst mit dem Einwirken eines weiteren Impulses, kann das Relais in die andere stabile Lage zurückgeführt werden.
+\end{itemize}
+
+Des Weiteren lassen sich Relais in der Polarität der Ansteuerung unterteilen. 
+\begin{itemize}
+	\item Neutrale Relais reagieren bei Erregung gleichartig und unabhängig von der Polarität 
+	\item Gepolte Relais setzen eine bestimmte Polung der Ansteuerrungspannung voraus
+	\item Remanenzrelais verhalten sich beim Ansprechen neutral und beim Rückwerfen gepolt. Hier wird eine entgegengesetzte Polung vorausgesetzt. 
+\end{itemize}
+
+Eine letzte Einteilung erfolgt nach dem Typus.
+\begin{itemize}
+	\item \textbf{Neutrale monostabile Relais (Typ 1):} Bei diesem Typ erzeugt eine vom Strom durchflossene Spule eine magnetische Durchflutung. Diese erzeugt einen proportionalen magnetischen Fluss, der mit dem magnetischen Widerstand Rm verknüpft ist. Der Widerstand wird durch den Luftspalt s zwischen dem festsehenden Spulenkern und dem Anker hervorgerufen. Die dabei wirkende Kraft F nimmt mit sinkendem Luftspalt s annäherungsweise quadratisch ab, bis sie mit dem Aufschlag des Ankers auf dem Kern ihr Maximum erreicht.
+	\item \textbf{Neutrale monostabile Relais (Typ 2):} Ein solcher Typ besitzt eine mechanische Verriegelung. Das System wird mit dem Einwirken einer Erregung verriegelt. Das hat zur Folge, dass das System in der eingenommenen Stellung verbleibt, selbst wenn die Erregung nicht mehr wirkt. Mit dem erneuten Einwirken einer Erregung, löst sich das System aus seiner Verriegelung und das Relais fällt zurück in seinen Ausgangszustand.
+	\item \textbf{Remanenzrelais (Typ 3):} Dieser Relaistyp ist aufgebaut wie ein monostabil neutraler Gleichspannungsrelais. Er unterscheidet sich jedoch darin, dass sein Magnetkreis aus einem Magnetmaterial mit erhöhter Koerzitivfeldstärke besteht als neutrale Relais. Dieses Magnetmaterial wird beim Einwirken einer Erregung auf magnetisiert und verharrt in diesem Zustand bei Wegnahme der Erregung. Das Magnetfeld kann nur durch das „Öffnen des Magnetkreises oder durch eine geeignete Gegenerregung, die deutlich geringer als die Ansprecherregung ist“ beseitigt werden. Das Relais verhält sich bei elektrischer Betätigung bistabil und bei mechanischer Betätigung monostabil.
+	\item \textbf{Gepolte bistabile Relais (Typ 4):} Dieser Typ lässt sich in zwei Varianten unterteilen. Die erste Variante besteht aus einem zweipoligen aufmagnetisierten Magneten und sorgt daher für einen optimalen bistabile Magnetkreis mit vier Luftspalten (4L-System). Diese Variante hat zum Vorteil, dass die Luftspalten in diesem System als Arbeitsluftspalten fungieren. Somit kann keine Erregung verloren gehen. 
+	Die zweite Variante besteht aus einem dreipolig aufmagnetiserten Magneten und zwei Arbeitsluftspalten (2L-System). Der Magnet funktioniert in diesem Fall wie zwei gegeneinander geschaltete Magneten.
+	\item \textbf{Gepolte monostabile Relais (Typ 5):} Bei diesem Typ reagiert das Relais nur auf Impulse einer Polarität. Erreicht wird das über geeigneten Abgleich des Magnetkreises oder durch entsprechende Änderung der Federsatzkurve 
+\end{itemize}
+\cite{Schlaak:2006}
+
+\subsection*{Kenn- und Grenzwerte}
+\begin{itemize}
+	\item Ansprechstrom (Ian): Der kleinste Strom, bei dem das Relais sicher schaltet.
+	\item Betriebsstrom (Ib): Ein etwas höherer Strom als der Ansprechstrom aber mit Sicherheitsreserve.
+	\item Fehlstrom (If): Der höchste Strom, bei dem das Relais nicht mehr anzieht. Liegt knapp unter dem Ansprechstrom.
+	\item Haltestrom (Ih): Der minimale Strom, der nötig ist, damit ein angezogenes Relais den Anker in Position hält.
+	\item Abfallstrom (Iab): Der höchste Strom, bei dem das Relais sicher wieder in die Ausgangslage zurückfällt. 
+	\item Nennspannung (U): Die vorgesehene Betriebsspannung für die Spule eines Relais.
+\end{itemize}
+\cite{ElektroKompendium:2025}
+
+\subsection*{Einsatzbereich und Anwendungen}
+Die Einsatzbereiche von Relais sind vielseitig und „lassen sich durch die zu bewältigenden Schaltanforderungen hinsichtlich Spannung und Strom“ charakterisieren. Gängige Anwendungsfelder von Relais sind: 
+\begin{itemize}
+	\item \textbf{Telekom-Relais:} Diese finden sich in Fernsprechtechnik, Messtechnik und Unterhaltungselektronik wieder. Der Arbeitsbereich erstreckt sich in einem Spannungsbereich von bis zu 100 V in einem Strombereich von 1 A.
+	\item \textbf{Netzrelais:} Sie werden eingesetzt in Haushaltsware, Unterhaltungselektronik, Installationstechnik und Industrieelektronik. Ihr Arbeitsbereich befindet sich bei Spannungen zwischen 100 V bis 400 V und bei Strömen bis zu 50 A.
+	\item \textbf{Relais für Kraftfahrzeuge:} In der Fahrzeugtechnik werden Relais sowohl in Motoren als auch in Heizungen und Lampen eingesetzt. Sie arbeiten bei Spannungen zwischen 6 V und 24 V und werden bei Strömen von 1 A bis 100 A geschaltet.
+\end{itemize}
+\cite{Schlaak:2006}
 
 \section{Relais - 5V KY-019}
+Das Relais-Modul von AZ-Delivery ist eine kompakte und zuverlässige Lösung um mittlere Lasten (5A/30V) zu schalten. Es verfügt über eine Status-LED und eine integrierte Schutzelektronik. Zudem ist das Relais-Modul durch einen Optokoppler galvanisch vom Laststromkreis getrennt. Das Relais kann mit einem Steuersignal von 3,3 - 5 V gesteuert werden.\ref{skizzeRelais}
+\cite{Relais:2025}
+
 \section{Spezifikation}
+\subsection*{Allgemeine Technische Infos}
+\begin{itemize}
+	\item Typ: 1-Kanal
+	\item Abmessungen: 27x34 mm
+	\item Spulenspannung: 5 V DC
+	\item Steuerpegel: High-Level Trigger: 3,3 - 5 V Steuerspannung
+	\item Kontaktbelastbarkeit: max. 5 A bei 30 VDC/ 50 VAC
+	\item Kontaktanschlusstyp: NO und NC (Normally Open/Closed)
+\end{itemize}
+\cite{Relais:2025}
+
+\subsection*{Pin-Belegung und Aufbau}
+
+\begin{figure}[H]
+	\centering
+	\caption{Pin-Belegung und Aufbau des Relais-Moduls}
+	\label{skizzeRelais}
+	\resizebox{1\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw [ fill={rgb,255:red,192; green,192; blue,192} , line width=2pt , rounded corners = 15.0] (-78.75,106.5) rectangle (-45,90.25);
+			\draw [ line width=2pt ] (-76.25,104) circle (1.25cm);
+			\draw [ line width=2pt ] (-47.5,104) circle (1.25cm);
+			\draw [ line width=2pt ] (-76.25,93) circle (1.25cm);
+			\draw [ line width=2pt ] (-47.5,92.75) circle (1.25cm);
+			\draw [ color={rgb,255:red,58; green,117; blue,239} , fill={rgb,255:red,58; green,117; blue,239}, line width=2pt , rounded corners = 15.0] (-72.5,102.75) rectangle (-46.25,94);
+			\draw [ line width=2pt ] (-47.5,95.75) circle (1cm);
+			\draw [ line width=2pt ] (-47.5,98.5) circle (1cm);
+			\draw [ line width=2pt ] (-47.5,101.25) circle (1cm);
+			\draw [line width=2pt, short] (-47.5,100.25) -- (-47.5,102.25);
+			\draw [line width=2pt, short] (-47.5,97.5) -- (-47.5,99.5);
+			\draw [line width=2pt, short] (-47.5,94.75) -- (-47.5,96.75);
+			\node [font=\Huge] at (-40,101.25) {\textbf{NC (Normally Closed)}};
+			\node [font=\Huge] at (-42.5,98.25) {\textbf{COM}};
+			\node [font=\Huge] at (-39.75,95.5) {\textbf{NO (Normally Opened)}};
+			\draw [ color={rgb,255:red,128; green,128; blue,0} , line width=2pt ] (-76.75,102) rectangle (-75.25,99.5);
+			\draw [ color={rgb,255:red,255; green,0; blue,0} , fill={rgb,255:red,255; green,0; blue,0}, line width=2pt ] (-76,100.75) circle (0.5cm);
+			\draw [ line width=2pt ] (-76.75,98.25) rectangle (-75.25,94.75);
+			\draw [ color={rgb,255:red,128; green,64; blue,0} , fill={rgb,255:red,128; green,64; blue,0}, line width=2pt ] (-76,97.75) circle (0.25cm);
+			\draw [ color={rgb,255:red,128; green,64; blue,0} , fill={rgb,255:red,128; green,64; blue,0}, line width=2pt ] (-76,96.5) circle (0.25cm);
+			\draw [ color={rgb,255:red,128; green,64; blue,0} , fill={rgb,255:red,128; green,64; blue,0}, line width=2pt ] (-76,95.25) circle (0.25cm);
+			\draw [ color={rgb,255:red,128; green,64; blue,0}, line width=2pt, short] (-76.25,97.75) -- (-79.75,97.75);
+			\draw [ color={rgb,255:red,128; green,64; blue,0}, line width=2pt, short] (-76.25,96.5) -- (-79.75,96.5);
+			\draw [ color={rgb,255:red,128; green,64; blue,0}, line width=2pt, short] (-76.25,95.25) -- (-79.75,95.25);
+			\node [font=\LARGE] at (-82.75,97.75) {\textbf{Signal}};
+			\node [font=\LARGE] at (-82.75,96.5) {\textbf{VCC}};
+			\node [font=\LARGE] at (-82.75,95.25) {\textbf{GND}};
+			\node [font=\LARGE, color={rgb,255:red,255; green,0; blue,0}] at (-59,99) {\textbf{Relais-Modul}};
+		\end{circuitikz}
+	}%
+\end{figure}
+
 \section{Einfacher Code}
+Dieser einfache Code \ref{code:einfachRelais} testet die Schaltfähigkeit des Relais. Es wird über den Signal-PIN angesteuert und man hört das bekannte \glqq Klicken\grqq des Relais für 10 Sekunden mit einer Frequenz von 10 Hz.
+
+\begin{code}[H]
+	\caption{Code zur Überprüfung der Funktionalität}
+	\label{code:einfachRelais}
+	\ArduinoExternal{}{../../Code/Arduino/Relais/einfachRelais/einfachRelais.ino}
+\end{code}
+
 \section{Einfache Anwendung}
+Eine einfache Anwendung für das Relais-Modul könnte eine automatisierte Lüftersteuerung für ein PC-Gehäuse sein. Bei 40 Grad Celcius wird der Lüfter eingeschaltet. Die Temperatur wird über einen einfachen NTC-Thermistor an den Arduino weitergegeben. \ref{code:anwendungRelais}
+
+\begin{code}[H]
+	\caption{Einfache Anwendung mit dem Relais}
+	\label{code:anwendungRelais}
+	\ArduinoExternal{}{../../Code/Arduino/Relais/anwendungRelais/anwendungRelais.ino}
+\end{code}
+
 \section{Further Readings}
  

@@ -60,20 +60,21 @@
 \contentsline {figure}{\numberline {12.2}{\ignorespaces Messen des Widerstands}}{110}{figure.caption.71}%
 \contentsline {figure}{\numberline {12.3}{\ignorespaces Einfache Anwendung des Schalters}}{111}{figure.caption.72}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Pin-Belegung und Aufbau des Relais-Moduls}}{116}{figure.caption.80}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Aufbau einer LED}}{116}{figure.caption.73}%
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Aufbau einer LED}}{122}{figure.caption.83}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {15.1}{\ignorespaces Skizze des MOS-FETs}}{120}{figure.caption.76}%
-\contentsline {figure}{\numberline {15.2}{\ignorespaces Pinbelegung des MOS-FETs}}{122}{figure.caption.81}%
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Skizze des MOS-FETs}}{126}{figure.caption.86}%
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Pinbelegung des MOS-FETs}}{128}{figure.caption.91}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {16.1}{\ignorespaces Installation der App \glqq nRF Connect\grqq \ auf iOS}}{127}{figure.caption.84}%
-\contentsline {figure}{\numberline {16.2}{\ignorespaces Scannen und hinzufügen von BLE-Geräten}}{129}{figure.caption.86}%
+\contentsline {figure}{\numberline {16.1}{\ignorespaces Installation der App \glqq nRF Connect\grqq \ auf iOS}}{133}{figure.caption.94}%
+\contentsline {figure}{\numberline {16.2}{\ignorespaces Scannen und hinzufügen von BLE-Geräten}}{135}{figure.caption.96}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {17.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{133}{figure.caption.87}%
-\contentsline {figure}{\numberline {17.2}{\ignorespaces Versorgungsschaltplan}}{135}{figure.caption.90}%
-\contentsline {figure}{\numberline {17.3}{\ignorespaces 5V - Netz}}{136}{figure.caption.93}%
-\contentsline {figure}{\numberline {17.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{137}{figure.caption.96}%
-\contentsline {figure}{\numberline {17.5}{\ignorespaces Ablaufdiagramm}}{138}{figure.caption.103}%
+\contentsline {figure}{\numberline {17.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{139}{figure.caption.97}%
+\contentsline {figure}{\numberline {17.2}{\ignorespaces Versorgungsschaltplan}}{141}{figure.caption.100}%
+\contentsline {figure}{\numberline {17.3}{\ignorespaces 5V - Netz}}{142}{figure.caption.103}%
+\contentsline {figure}{\numberline {17.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{143}{figure.caption.106}%
+\contentsline {figure}{\numberline {17.5}{\ignorespaces Ablaufdiagramm}}{144}{figure.caption.113}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

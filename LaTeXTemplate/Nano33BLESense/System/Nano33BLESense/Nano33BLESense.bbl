@@ -17,6 +17,33 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global/global}
+  \entry{Relais:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=AD}{%
+         family={AZ-Delivery},
+         familyi={A\bibinithyphendelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AD1}
+    \strng{fullhash}{AD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{AD25}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    Bei AZ Delivery kann man das Relais kaufen und sich informieren.%
+    }
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/relaisOnline.pdf}{[pdf]}}}
+    \field{title}{Relais-Modul 5V KY-019 High Level Trigger}
+    \verb{url}
+    \verb https://www.az-delivery.de/products/relais-modul
+    \endverb
+    \field{year}{2025}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
   \entry{Alles2024}{book}{}{}
     \name{author}{1}{}{%
       {{hash=AM}{%
@@ -105,6 +132,35 @@
     \verb https://docs.arduino.cc/software/ide/#ide-v2
     \endverb
     \field{year}{2025}
+  \endentry
+
+  \entry{Bohmer:2018}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=BE}{%
+         family={Böhmer},
+         familyi={B\bibinitperiod},
+         given={Erwin},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \keyw{Relais, Elektronik, Betriebseigenschaften, Relaissteuerung}
+    \strng{namehash}{BE1}
+    \strng{fullhash}{BE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bö18}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Dieses Buch vermittelt einen spannenden Einstieg in die Welt der
+  Elektronik. Es ist einfach zu verstehen und mit vielen Abbildungen versehen.%
+    }
+    \field{isbn}{978-3-8348-9336-9}
+    \field{title}{Elemente der angewandten Elektronik}
+    \field{year}{2018}
   \endentry
 
   \entry{CML:2011}{misc}{}{}
@@ -627,6 +683,34 @@
     \field{year}{2025}
   \endentry
 
+  \entry{ElektroKompendium:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=KE}{%
+         family={Kompendium},
+         familyi={K\bibinitperiod},
+         given={Elektronik},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KE1}
+    \strng{fullhash}{KE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Kom25}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Diese Website erklärt auf einfache Art und Weise, wie ein Relais
+  funktioniert. Dies wird zusätzlich durch anschauliche Grafiken
+  unterstützt.%
+    }
+    \field{title}{Relais}
+    \verb{url}
+    \verb https://www.elektronik-kompendium.de/sites/bau/0207211.htm
+    \endverb
+    \field{year}{2025}
+  \endentry
+
   \entry{MPS:2015}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -995,6 +1079,32 @@
     \field{year}{2022}
   \endentry
 
+  \entry{Schlaak:2006}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Schlaak},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sch06}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Das Kapitel Elektromechanische Relais vermittelt alle nötigen Grundlagen
+  und weiterführenden Informationen zum Thema Reilais.%
+    }
+    \field{pages}{279\bibrangedash 296}
+    \field{title}{Handbuch der Mess- und Automatisierungstechnik im Automobil}
+    \field{year}{2006}
+  \endentry
+
   \entry{Schulz:2013}{book}{}{}
     \name{author}{1}{}{%
       {{hash=SH}{%
@@ -1355,6 +1465,33 @@
     \verb https://wolles-elektronikkiste.de/hc-05-und-hc-06-bluetooth-module
     \endverb
     \field{year}{2019}
+  \endentry
+
+  \entry{Elektro4000:2025}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=e}{%
+         family={elektro4000},
+         familyi={e\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{e1}
+    \strng{fullhash}{e1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{ele25}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Diese Website stellt die Technologie hinter Reilais und deren Verwendung in
+  den Vordergrund.%
+    }
+    \field{title}{Relais Erklärung - Die Funktionsweise und Verwendung von
+  Relais erklärt}
+    \verb{url}
+    \verb https://www.elektro4000.de/magazin/relais-erklaerung-verwendung-funkt
+    \verb ionsweise/
+    \endverb
+    \field{year}{2025}
   \endentry
 
   \entry{Goobay:2023}{misc}{}{}
