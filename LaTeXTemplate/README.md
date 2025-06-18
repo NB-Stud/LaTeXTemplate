@@ -21,6 +21,9 @@ Ein weiterer Bestandteil des Systems ist ein Ultraschallsensor, der den Wasserst
 
 # Verzeichnisstruktur
 C:\USERS\CARLM\DOCUMENTS\LATEXTEMPLATE\LATEXTEMPLATE\LATEXTEMPLATE
+├───CAD und 3D-Druck
+│   ├───GCode
+│   └───CAD Dateien
 ├───Demontageanleitung
 │   ├───Chapters
 │   │   ├───de
