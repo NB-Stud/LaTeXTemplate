@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  11 JUN 2025 12:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  15 JUN 2025 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5101,7 +5101,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 96.
 Package biblatex Info: Reference segment=75 on input line 99.
 Package biblatex Info: Setting label 'refsegment:075' on input line 99.
-) (../../Contents/General/HardwareBeschreibung/Mosfet.tex
+) (../../Contents/General/HardwareBeschreibung/Relais.tex
 Underfull \vbox (badness 1859) has occurred while \output is active []
 
 
@@ -5115,7 +5115,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [110]
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 16.
+Package cleveref Info: loaded `ngerman' language definitions on input line 15.
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -5130,17 +5130,107 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 ]
 chapter 13.
-Package biblatex Info: Reference segment=76 on input line 17.
-Package biblatex Info: Setting label 'refsegment:076' on input line 17.
-Package biblatex Info: Reference segment=77 on input line 19.
-Package biblatex Info: Setting label 'refsegment:077' on input line 19.
-
+Package biblatex Info: Reference segment=76 on input line 16.
+Package biblatex Info: Setting label 'refsegment:076' on input line 16.
+Package biblatex Info: Reference segment=77 on input line 17.
+Package biblatex Info: Setting label 'refsegment:077' on input line 17.
+Package biblatex Info: Reference segment=78 on input line 18.
+Package biblatex Info: Setting label 'refsegment:078' on input line 18.
+Package biblatex Info: Reference segment=79 on input line 19.
+Package biblatex Info: Setting label 'refsegment:079' on input line 19.
+Package biblatex Info: Reference segment=80 on input line 20.
+Package biblatex Info: Setting label 'refsegment:080' on input line 20.
+Package biblatex Info: Reference segment=81 on input line 21.
+Package biblatex Info: Setting label 'refsegment:081' on input line 21.
+Package biblatex Info: Reference segment=82 on input line 22.
+Package biblatex Info: Setting label 'refsegment:082' on input line 22.
+) (../../Contents/General/HardwareBeschreibung/externeLED.tex
 
 [113]
-Package biblatex Info: Reference segment=78 on input line 57.
-Package biblatex Info: Setting label 'refsegment:078' on input line 57.
-Package biblatex Info: Reference segment=79 on input line 120.
-Package biblatex Info: Setting label 'refsegment:079' on input line 120.
+
+[114
+
+
+]
+chapter 14.
+Package biblatex Info: Reference segment=83 on input line 17.
+Package biblatex Info: Setting label 'refsegment:083' on input line 17.
+Package biblatex Info: Reference segment=84 on input line 20.
+Package biblatex Info: Setting label 'refsegment:084' on input line 20.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[115]
+Package biblatex Info: Reference segment=85 on input line 92.
+Package biblatex Info: Setting label 'refsegment:085' on input line 92.
+Package biblatex Info: Reference segment=86 on input line 96.
+Package biblatex Info: Setting label 'refsegment:086' on input line 96.
+Package biblatex Info: Reference segment=87 on input line 108.
+Package biblatex Info: Setting label 'refsegment:087' on input line 108.
+ (../../Code/Arduino/Externe LED/ansteuerungLED/ansteuerungLED.ino)
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[116]
+Package biblatex Info: Reference segment=88 on input line 116.
+Package biblatex Info: Setting label 'refsegment:088' on input line 116.
+Package biblatex Info: Reference segment=89 on input line 119.
+Package biblatex Info: Setting label 'refsegment:089' on input line 119.
+ (../../Code/Arduino/Externe LED/blinkenLED/blinkenLED.ino)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 126.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[117]
+Package biblatex Info: Reference segment=90 on input line 127.
+Package biblatex Info: Setting label 'refsegment:090' on input line 127.
+
+Overfull \hbox (17.41417pt too wide) in paragraph at lines 134--137
+\T1/pcr/l/it/10 falconillumination . de / de / wissenswertes / wie-[]funktionie
+rt-[]eine-[]led .
+ []
+
+) (../../Contents/General/HardwareBeschreibung/Mosfet.tex
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[118]
+chapter 15.
+Package biblatex Info: Reference segment=91 on input line 17.
+Package biblatex Info: Setting label 'refsegment:091' on input line 17.
+Package biblatex Info: Reference segment=92 on input line 19.
+Package biblatex Info: Setting label 'refsegment:092' on input line 19.
+
+
+[119
+
+
+]
+Package biblatex Info: Reference segment=93 on input line 57.
+Package biblatex Info: Setting label 'refsegment:093' on input line 57.
+Package biblatex Info: Reference segment=94 on input line 120.
+Package biblatex Info: Setting label 'refsegment:094' on input line 120.
 
 
 
@@ -5150,7 +5240,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[114]
+[120]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 144.
@@ -5170,9 +5260,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[115]
-Package biblatex Info: Reference segment=80 on input line 570.
-Package biblatex Info: Setting label 'refsegment:080' on input line 570.
+[121]
+Package biblatex Info: Reference segment=95 on input line 570.
+Package biblatex Info: Setting label 'refsegment:095' on input line 570.
  (../../Code/Arduino/MOSFET/simpleMOSFET.ino)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5185,26 +5275,17 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[116]
-Package biblatex Info: Reference segment=81 on input line 580.
-Package biblatex Info: Setting label 'refsegment:081' on input line 580.
-Package biblatex Info: Reference segment=82 on input line 583.
-Package biblatex Info: Setting label 'refsegment:082' on input line 583.
- (../../Code/Arduino/MOSFET/testMOSFET.ino))
-(../../Contents/General/HardwareBeschreibung/externeLED.tex
+[122]
+Package biblatex Info: Reference segment=96 on input line 580.
+Package biblatex Info: Setting label 'refsegment:096' on input line 580.
+Package biblatex Info: Reference segment=97 on input line 583.
+Package biblatex Info: Setting label 'refsegment:097' on input line 583.
+ (../../Code/Arduino/MOSFET/testMOSFET.ino)
 Underfull \vbox (badness 1701) has occurred while \output is active []
 
 
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 14.
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[117]
+Package cleveref Info: loaded `ngerman' language definitions on input line 590.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5213,64 +5294,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[118]
-chapter 14.
-Package biblatex Info: Reference segment=83 on input line 17.
-Package biblatex Info: Setting label 'refsegment:083' on input line 17.
-Package biblatex Info: Reference segment=84 on input line 20.
-Package biblatex Info: Setting label 'refsegment:084' on input line 20.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[119
-
-
-]
-Package biblatex Info: Reference segment=85 on input line 92.
-Package biblatex Info: Setting label 'refsegment:085' on input line 92.
-Package biblatex Info: Reference segment=86 on input line 96.
-Package biblatex Info: Setting label 'refsegment:086' on input line 96.
-Package biblatex Info: Reference segment=87 on input line 108.
-Package biblatex Info: Setting label 'refsegment:087' on input line 108.
- (../../Code/Arduino/Externe LED/ansteuerungLED/ansteuerungLED.ino)
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[120]
-Package biblatex Info: Reference segment=88 on input line 116.
-Package biblatex Info: Setting label 'refsegment:088' on input line 116.
-Package biblatex Info: Reference segment=89 on input line 119.
-Package biblatex Info: Setting label 'refsegment:089' on input line 119.
- (../../Code/Arduino/Externe LED/blinkenLED/blinkenLED.ino)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 126.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[121]
-Package biblatex Info: Reference segment=90 on input line 127.
-Package biblatex Info: Setting label 'refsegment:090' on input line 127.
-
-Overfull \hbox (17.41417pt too wide) in paragraph at lines 134--137
-\T1/pcr/l/it/10 falconillumination . de / de / wissenswertes / wie-[]funktionie
-rt-[]eine-[]led .
- []
-
+[123]
+Package biblatex Info: Reference segment=98 on input line 590.
+Package biblatex Info: Setting label 'refsegment:098' on input line 590.
 )
 
 
@@ -5280,54 +5306,54 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[122]
+[124]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 198.
+(scrkbase)              on input line 199.
 
 
-[123
+[125
 
 
 ]
 
-[124] (../../Contents/General/BLENRFConnect.tex
-chapter 15.
-Package biblatex Info: Reference segment=91 on input line 21.
-Package biblatex Info: Setting label 'refsegment:091' on input line 21.
-<../../Images/nRF Connect/AppStore.png, id=2610, 1174.3875pt x 2541.495pt>
+[126] (../../Contents/General/BLENRFConnect.tex
+chapter 16.
+Package biblatex Info: Reference segment=99 on input line 21.
+Package biblatex Info: Setting label 'refsegment:099' on input line 21.
+<../../Images/nRF Connect/AppStore.png, id=2630, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/AppStore.png Graphic file (type png)
 <use ../../Images/nRF Connect/AppStore.png>
 Package pdftex.def Info: ../../Images/nRF Connect/AppStore.png  used on input l
 ine 37.
 (pdftex.def)             Requested size: 110.96687pt x 240.126pt.
-<../../Images/nRF Connect/nrfInstallieren.png, id=2611, 1174.3875pt x 2541.495p
+<../../Images/nRF Connect/nrfInstallieren.png, id=2631, 1174.3875pt x 2541.495p
 t>
 File: ../../Images/nRF Connect/nrfInstallieren.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfInstallieren.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfInstallieren.png  used on 
 input line 43.
 (pdftex.def)             Requested size: 110.96687pt x 240.126pt.
-<../../Images/nRF Connect/nrfHomescreen.png, id=2612, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/nrfHomescreen.png, id=2632, 1174.3875pt x 2541.495pt>
 
 File: ../../Images/nRF Connect/nrfHomescreen.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfHomescreen.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfHomescreen.png  used on in
 put line 49.
 (pdftex.def)             Requested size: 110.96687pt x 240.126pt.
-Package biblatex Info: Reference segment=92 on input line 56.
-Package biblatex Info: Setting label 'refsegment:092' on input line 56.
+Package biblatex Info: Reference segment=100 on input line 56.
+Package biblatex Info: Setting label 'refsegment:0100' on input line 56.
 
 
-[125
+[127
 
 
  <../../Images/nRF Connect/AppStore.PNG> <../../Images/nRF Connect/nrfInstallie
 ren.PNG> <../../Images/nRF Connect/nrfHomescreen.PNG>]
 (../../Code/Arduino/nRF Connect/einrichtungNRF/einrichtungNRF.ino)
-Package biblatex Info: Reference segment=93 on input line 67.
-Package biblatex Info: Setting label 'refsegment:093' on input line 67.
+Package biblatex Info: Reference segment=101 on input line 67.
+Package biblatex Info: Setting label 'refsegment:0101' on input line 67.
 
 
 
@@ -5337,26 +5363,26 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[126]
-<../../Images/nRF Connect/nrfScan.png, id=2671, 1174.3875pt x 2541.495pt>
+[128]
+<../../Images/nRF Connect/nrfScan.png, id=2693, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/nrfScan.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfScan.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfScan.png  used on input li
 ne 80.
 (pdftex.def)             Requested size: 147.95207pt x 320.16801pt.
-<../../Images/nRF Connect/nrfAnsicht.png, id=2672, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/nrfAnsicht.png, id=2694, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/nrfAnsicht.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfAnsicht.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfAnsicht.png  used on input
  line 86.
 (pdftex.def)             Requested size: 147.95207pt x 320.16801pt.
-Package biblatex Info: Reference segment=94 on input line 96.
-Package biblatex Info: Setting label 'refsegment:094' on input line 96.
-Package biblatex Info: Reference segment=95 on input line 97.
-Package biblatex Info: Setting label 'refsegment:095' on input line 97.
+Package biblatex Info: Reference segment=102 on input line 96.
+Package biblatex Info: Setting label 'refsegment:0102' on input line 96.
+Package biblatex Info: Reference segment=103 on input line 97.
+Package biblatex Info: Setting label 'refsegment:0103' on input line 97.
 )
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 202.
+Package cleveref Info: loaded `ngerman' language definitions on input line 203.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5365,36 +5391,36 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[127 <../../Images/nRF Connect/nrfScan.PNG> <../../Images/nRF Connect/nrfAnsich
+[129 <../../Images/nRF Connect/nrfScan.PNG> <../../Images/nRF Connect/nrfAnsich
 t.PNG>]
 
-[128
+[130
 
 
 ]
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 202.
+(scrkbase)              on input line 203.
 
 
-[129]
+[131]
 
-[130]
+[132]
 (../../Contents/General/DokuProjektMagicFaucetFountain/BeschreibungSystem.tex
-chapter 16.
-Package biblatex Info: Reference segment=96 on input line 19.
-Package biblatex Info: Setting label 'refsegment:096' on input line 19.
-Package biblatex Info: Reference segment=97 on input line 93.
-Package biblatex Info: Setting label 'refsegment:097' on input line 93.
+chapter 17.
+Package biblatex Info: Reference segment=104 on input line 19.
+Package biblatex Info: Setting label 'refsegment:0104' on input line 19.
+Package biblatex Info: Reference segment=105 on input line 93.
+Package biblatex Info: Setting label 'refsegment:0105' on input line 93.
 
 
-[131
+[133
 
 
 ]
-Package biblatex Info: Reference segment=98 on input line 108.
-Package biblatex Info: Setting label 'refsegment:098' on input line 108.
+Package biblatex Info: Reference segment=106 on input line 108.
+Package biblatex Info: Setting label 'refsegment:0106' on input line 108.
 
 
 
@@ -5404,7 +5430,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[132]
+[134]
 Underfull \vbox (badness 3612) has occurred while \output is active []
 
 
@@ -5418,7 +5444,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[133]
+[135]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 311.
@@ -5436,9 +5462,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[134]
-Package biblatex Info: Reference segment=99 on input line 474.
-Package biblatex Info: Setting label 'refsegment:099' on input line 474.
+[136]
+Package biblatex Info: Reference segment=107 on input line 474.
+Package biblatex Info: Setting label 'refsegment:0107' on input line 474.
 
 
 Package cleveref Info: loaded `ngerman' language definitions on input line 493.
@@ -5450,7 +5476,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[135] (../../Code/Arduino/Applikation/ablaufApplikation/ablaufApplikation.ino)
+[137] (../../Code/Arduino/Applikation/ablaufApplikation/ablaufApplikation.ino)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5462,7 +5488,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[136]
+[138]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -5476,7 +5502,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[137]
+[139]
 Overfull \vbox (583.45384pt too high) has occurred while \output is active []
 
 
@@ -5488,9 +5514,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[138]
-Package biblatex Info: Reference segment=100 on input line 577.
-Package biblatex Info: Setting label 'refsegment:0100' on input line 577.
+[140]
+Package biblatex Info: Reference segment=108 on input line 577.
+Package biblatex Info: Setting label 'refsegment:0108' on input line 577.
 
 
 Package cleveref Info: loaded `ngerman' language definitions on input line 612.
@@ -5502,9 +5528,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[139]
-Package biblatex Info: Reference segment=101 on input line 632.
-Package biblatex Info: Setting label 'refsegment:0101' on input line 632.
+[141]
+Package biblatex Info: Reference segment=109 on input line 632.
+Package biblatex Info: Setting label 'refsegment:0109' on input line 632.
 
 
 
@@ -5514,9 +5540,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[140]
-Package biblatex Info: Reference segment=102 on input line 673.
-Package biblatex Info: Setting label 'refsegment:0102' on input line 673.
+[142]
+Package biblatex Info: Reference segment=110 on input line 673.
+Package biblatex Info: Setting label 'refsegment:0110' on input line 673.
 ) (../../Contents/General/Schlussfolgerung.tex
 
 Package cleveref Info: loaded `ngerman' language definitions on input line 16.
@@ -5527,94 +5553,94 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[141]
-
-[142
-
-
-]
-chapter 17.
-Package biblatex Info: Reference segment=103 on input line 18.
-Package biblatex Info: Setting label 'refsegment:0103' on input line 18.
-Package biblatex Info: Reference segment=104 on input line 20.
-Package biblatex Info: Setting label 'refsegment:0104' on input line 20.
-Package biblatex Info: Reference segment=105 on input line 22.
-Package biblatex Info: Setting label 'refsegment:0105' on input line 22.
-Package biblatex Info: Reference segment=106 on input line 30.
-Package biblatex Info: Setting label 'refsegment:0106' on input line 30.
-)
-
 [143]
 
 [144
 
 
 ]
-part VI.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 211.
-
+chapter 18.
+Package biblatex Info: Reference segment=111 on input line 18.
+Package biblatex Info: Setting label 'refsegment:0111' on input line 18.
+Package biblatex Info: Reference segment=112 on input line 20.
+Package biblatex Info: Setting label 'refsegment:0112' on input line 20.
+Package biblatex Info: Reference segment=113 on input line 22.
+Package biblatex Info: Setting label 'refsegment:0113' on input line 22.
+Package biblatex Info: Reference segment=114 on input line 30.
+Package biblatex Info: Setting label 'refsegment:0114' on input line 30.
+)
 
 [145]
 
-[146] (../../Contents/General/Veränderungen/kleineVeränderungen.tex
-chapter 18.
+[146
+
+
+]
+part VI.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 212.
+
+
+[147]
+
+[148] (../../Contents/General/Veränderungen/kleineVeränderungen.tex
+chapter 19.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 16.
 
-Package biblatex Info: Reference segment=107 on input line 18.
-Package biblatex Info: Setting label 'refsegment:0107' on input line 18.
+Package biblatex Info: Reference segment=115 on input line 18.
+Package biblatex Info: Setting label 'refsegment:0115' on input line 18.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 18.
 
-Package biblatex Info: Reference segment=108 on input line 37.
-Package biblatex Info: Setting label 'refsegment:0108' on input line 37.
+Package biblatex Info: Reference segment=116 on input line 37.
+Package biblatex Info: Setting label 'refsegment:0116' on input line 37.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 37.
 
-Package biblatex Info: Reference segment=109 on input line 44.
-Package biblatex Info: Setting label 'refsegment:0109' on input line 44.
+Package biblatex Info: Reference segment=117 on input line 44.
+Package biblatex Info: Setting label 'refsegment:0117' on input line 44.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 44.
 
 
 
-[147
+[149
 
 
 ]
-Package biblatex Info: Reference segment=110 on input line 63.
-Package biblatex Info: Setting label 'refsegment:0110' on input line 63.
+Package biblatex Info: Reference segment=118 on input line 63.
+Package biblatex Info: Setting label 'refsegment:0118' on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 63.
 
-Package biblatex Info: Reference segment=111 on input line 65.
-Package biblatex Info: Setting label 'refsegment:0111' on input line 65.
+Package biblatex Info: Reference segment=119 on input line 65.
+Package biblatex Info: Setting label 'refsegment:0119' on input line 65.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 65.
 
-Package biblatex Info: Reference segment=112 on input line 84.
-Package biblatex Info: Setting label 'refsegment:0112' on input line 84.
+Package biblatex Info: Reference segment=120 on input line 84.
+Package biblatex Info: Setting label 'refsegment:0120' on input line 84.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 84.
 
-Package biblatex Info: Reference segment=113 on input line 86.
-Package biblatex Info: Setting label 'refsegment:0113' on input line 86.
+Package biblatex Info: Reference segment=121 on input line 86.
+Package biblatex Info: Setting label 'refsegment:0121' on input line 86.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 86.
 
-Package biblatex Info: Reference segment=114 on input line 91.
-Package biblatex Info: Setting label 'refsegment:0114' on input line 91.
+Package biblatex Info: Reference segment=122 on input line 91.
+Package biblatex Info: Setting label 'refsegment:0122' on input line 91.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 91.
@@ -5628,22 +5654,22 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[148]
-Package biblatex Info: Reference segment=115 on input line 105.
-Package biblatex Info: Setting label 'refsegment:0115' on input line 105.
+[150]
+Package biblatex Info: Reference segment=123 on input line 105.
+Package biblatex Info: Setting label 'refsegment:0123' on input line 105.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 105.
 
-Package biblatex Info: Reference segment=116 on input line 107.
-Package biblatex Info: Setting label 'refsegment:0116' on input line 107.
+Package biblatex Info: Reference segment=124 on input line 107.
+Package biblatex Info: Setting label 'refsegment:0124' on input line 107.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 107.
 
-Package biblatex Info: Reference segment=117 on input line 114.
-Package biblatex Info: Setting label 'refsegment:0117' on input line 114.
+Package biblatex Info: Reference segment=125 on input line 114.
+Package biblatex Info: Setting label 'refsegment:0125' on input line 114.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 114.
@@ -5658,147 +5684,147 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[149]
-
-[150
-
-
-]
-chapter 19.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 16.
-
-Package biblatex Info: Reference segment=118 on input line 19.
-Package biblatex Info: Setting label 'refsegment:0118' on input line 19.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 19.
-
-Package biblatex Info: Reference segment=119 on input line 21.
-Package biblatex Info: Setting label 'refsegment:0119' on input line 21.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 21.
-
-Package biblatex Info: Reference segment=120 on input line 23.
-Package biblatex Info: Setting label 'refsegment:0120' on input line 23.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 23.
-
-Package biblatex Info: Reference segment=121 on input line 25.
-Package biblatex Info: Setting label 'refsegment:0121' on input line 25.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 25.
-
-Package biblatex Info: Reference segment=122 on input line 27.
-Package biblatex Info: Setting label 'refsegment:0122' on input line 27.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 27.
-
-Package biblatex Info: Reference segment=123 on input line 29.
-Package biblatex Info: Setting label 'refsegment:0123' on input line 29.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 29.
-
-Package biblatex Info: Reference segment=124 on input line 33.
-Package biblatex Info: Setting label 'refsegment:0124' on input line 33.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 33.
-
-Package biblatex Info: Reference segment=125 on input line 35.
-Package biblatex Info: Setting label 'refsegment:0125' on input line 35.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 35.
-
-Package biblatex Info: Reference segment=126 on input line 37.
-Package biblatex Info: Setting label 'refsegment:0126' on input line 37.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 37.
-
-Package biblatex Info: Reference segment=127 on input line 39.
-Package biblatex Info: Setting label 'refsegment:0127' on input line 39.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 39.
-
-Package biblatex Info: Reference segment=128 on input line 41.
-Package biblatex Info: Setting label 'refsegment:0128' on input line 41.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 41.
-
-)
-
 [151]
 
 [152
 
 
 ]
-part VII.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 224.
+chapter 20.
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 16.
+
+Package biblatex Info: Reference segment=126 on input line 19.
+Package biblatex Info: Setting label 'refsegment:0126' on input line 19.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 19.
+
+Package biblatex Info: Reference segment=127 on input line 21.
+Package biblatex Info: Setting label 'refsegment:0127' on input line 21.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 21.
+
+Package biblatex Info: Reference segment=128 on input line 23.
+Package biblatex Info: Setting label 'refsegment:0128' on input line 23.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 23.
+
+Package biblatex Info: Reference segment=129 on input line 25.
+Package biblatex Info: Setting label 'refsegment:0129' on input line 25.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 25.
+
+Package biblatex Info: Reference segment=130 on input line 27.
+Package biblatex Info: Setting label 'refsegment:0130' on input line 27.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 27.
+
+Package biblatex Info: Reference segment=131 on input line 29.
+Package biblatex Info: Setting label 'refsegment:0131' on input line 29.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 29.
+
+Package biblatex Info: Reference segment=132 on input line 33.
+Package biblatex Info: Setting label 'refsegment:0132' on input line 33.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 33.
+
+Package biblatex Info: Reference segment=133 on input line 35.
+Package biblatex Info: Setting label 'refsegment:0133' on input line 35.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 35.
+
+Package biblatex Info: Reference segment=134 on input line 37.
+Package biblatex Info: Setting label 'refsegment:0134' on input line 37.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 37.
+
+Package biblatex Info: Reference segment=135 on input line 39.
+Package biblatex Info: Setting label 'refsegment:0135' on input line 39.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 39.
+
+Package biblatex Info: Reference segment=136 on input line 41.
+Package biblatex Info: Setting label 'refsegment:0136' on input line 41.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 41.
+
+)
 
 [153]
 
-[154]
+[154
+
+
+]
+part VII.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 225.
+
+
+[155]
+
+[156]
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (13.60867pt too wide) in paragraph at lines 272--272
+Overfull \hbox (13.60867pt too wide) in paragraph at lines 273--273
 \T1/pcr/l/it/10 online . com / web / content / discovery -[] portal / produktra
 tgeber /
  []
 
 
-Overfull \hbox (19.80867pt too wide) in paragraph at lines 272--272
+Overfull \hbox (19.80867pt too wide) in paragraph at lines 273--273
 \T1/pcr/l/it/10 www . fluke . com / de -[] de / mehr -[] erfahren / blog / digi
 talmultimeter /
  []
 
 
-Overfull \hbox (36.00867pt too wide) in paragraph at lines 272--272
+Overfull \hbox (36.00867pt too wide) in paragraph at lines 273--273
 \T1/pcr/l/it/10 www . falconillumination . de / de / wissenswertes / wie -[] fu
 nktioniert -[]
  []
 
 
 
-[155
+[157
 
 
 ]
-Overfull \hbox (18.30867pt too wide) in paragraph at lines 272--272
+Overfull \hbox (18.30867pt too wide) in paragraph at lines 273--273
 \T1/pcr/l/it/10 de / de / de / shop / produkt / entwicklerboards_ -[] _mosfet _
  irf9540n -[]
  []
 
 
-Overfull \hbox (2.70866pt too wide) in paragraph at lines 272--272
+Overfull \hbox (2.70866pt too wide) in paragraph at lines 273--273
 \T1/pcr/l/it/10 de / de / shop / produkt / led -[] signalleuchte _ blau_ -[] _u
 ltrahell _
  []
 
 
-Overfull \hbox (20.20866pt too wide) in paragraph at lines 272--272
+Overfull \hbox (20.20866pt too wide) in paragraph at lines 273--273
 \T1/pcr/l/it/10 reichelt . de / de / de / shop / produkt / arduino_ -[] _4duino
  _ wireless _
  []
 
 
-Overfull \hbox (29.27615pt too wide) in paragraph at lines 272--272
+Overfull \hbox (29.27615pt too wide) in paragraph at lines 273--273
 []\T1/lmr/m/n/10 (-20) N. Swit^^?ches. \T1/lmr/m/it/10 (-20) Schal-ter-grund-la
 -gen\T1/lmr/m/n/10 (-20) . [][][pdf][][]. 2025. \T1/lmr/m/sc/10 (-20) url\T1/lm
 r/m/n/10 (-20) : []$\T1/pcr/l/it/10 https : / / www . nkkswitches .
@@ -5813,9 +5839,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[156]
+[158]
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 275.
+Package cleveref Info: loaded `ngerman' language definitions on input line 276.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5824,7 +5850,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[157] (./Nano33BLESense.aux
+[159]
+
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (157 not 159).
+               Rerun to correct this.
+
+(./Nano33BLESense.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 23.
 )
  ***********
@@ -5857,37 +5888,141 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 109449 strings out of 473190
- 2902545 string characters out of 5716853
- 4632529 words of memory out of 5000000
- 129466 multiletter control sequences out of 15000+600000
+ 109506 strings out of 473190
+ 2903323 string characters out of 5716853
+ 4633139 words of memory out of 5000000
+ 129483 multiletter control sequences out of 15000+600000
  777115 words of font info for 485 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3626s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/fe
-ybr10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.
-pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><c:/LaT
-eX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/LaTeX/texlive/2
-025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/LaTeX/texlive/2025/texmf-di
-st/fonts/type1/public/lm/lmcsc10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/ty
-pe1/public/lm/lmmi10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/l
-m/lmmi12.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi7.pfb>
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/LaTeX/tex
-live/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/LaTeX/texlive/2025/tex
-mf-dist/fonts/type1/public/lm/lmr17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmr5.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/
-lm/lmr7.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c
-:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/LaTeX/texl
-ive/2025/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/LaTeX/texlive/2025/tex
-mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmssbx10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/pub
-lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
-.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
-aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (157 pages, 11371955 bytes).
+
+pdfTeX warning (dest): name{table.16.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{table.13.1} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{code.caption.80} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{code.caption.79} has been referenced but does not e
+xist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.78} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.18.11} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.18.10} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.18.9} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.18.8} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.18.7} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.18.6} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.18.5} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.16.7} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.16.6} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.16.5.4} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.16.5.3} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.16.5.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.16.5.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.16.4.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.16.4.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.16.2.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.15.3.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.15.1.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.15.1.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.13.2.2} has been referenced but does not
+ exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.13.2.1} has been referenced but does not
+ exist, replaced by a fixed one
+
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb><c:/La
+TeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/LaTeX/te
+xlive/2025/texmf-dist/fonts/type1/public/lm/lmbsy10.pfb><c:/LaTeX/texlive/2025/
+texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/LaTeX/texlive/2025/texmf-dist/f
+onts/type1/public/lm/lmbx12.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/p
+ublic/lm/lmcsc10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lm
+mi10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:
+/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi7.pfb><c:/LaTeX/texliv
+e/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/LaTeX/texlive/2025/texmf-
+dist/fonts/type1/public/lm/lmr12.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/ty
+pe1/public/lm/lmr17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm
+/lmr5.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/
+LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/LaTeX/texlive/
+2025/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/LaTeX/texlive/2025/texmf-d
+ist/fonts/type1/public/lm/lmss17.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/ty
+pe1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm
+/lmssbx10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pf
+b><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7.pfb><c:/LaTeX/t
+exlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/LaTeX/texlive/202
+5/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on Nano33BLESense.pdf (159 pages, 11373466 bytes).
 PDF statistics:
- 4252 PDF objects out of 4296 (max. 8388607)
- 3898 compressed objects within 39 object streams
- 1564 named destinations out of 1728 (max. 500000)
- 117473 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 4331 PDF objects out of 5155 (max. 8388607)
+ 3974 compressed objects within 40 object streams
+ 1601 named destinations out of 1728 (max. 500000)
+ 117545 words of extra memory for PDF output out of 128383 (max. 10000000)
 

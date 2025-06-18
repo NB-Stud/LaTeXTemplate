@@ -165,89 +165,98 @@
 \contentsline {section}{\numberline {12.4}Spezifikation}{109}{section.12.4}%
 \contentsline {section}{\numberline {12.5}Tests}{110}{section.12.5}%
 \contentsline {section}{\numberline {12.6}Einfache Anwendung}{110}{section.12.6}%
-\contentsline {chapter}{\numberline {13}MOS-FET}{113}{chapter.13}%
+\contentsline {chapter}{\numberline {13}Relais}{113}{chapter.13}%
 \contentsline {section}{\numberline {13.1}Einleitung}{113}{section.13.1}%
 \contentsline {section}{\numberline {13.2}Grundlegende Informationen}{113}{section.13.2}%
-\contentsline {subsection}{\numberline {13.2.1}N-Kanal-MOS-FET}{114}{subsection.13.2.1}%
-\contentsline {subsection}{\numberline {13.2.2}P-Kanal-MOS-FET}{114}{subsection.13.2.2}%
-\contentsline {section}{\numberline {13.3}MOS-FET IRF9540N}{114}{section.13.3}%
-\contentsline {section}{\numberline {13.4}Spezifikation}{114}{section.13.4}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{114}{subsubsection*.75}%
-\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{115}{subsubsection*.77}%
-\contentsline {section}{\numberline {13.5}Einfacher Code}{116}{section.13.5}%
-\contentsline {section}{\numberline {13.6}Tests}{117}{section.13.6}%
-\contentsline {section}{\numberline {13.7}Einfache Anwendung}{117}{section.13.7}%
-\contentsline {chapter}{\numberline {14}Externe LED}{119}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Einleitung}{119}{section.14.1}%
-\contentsline {section}{\numberline {14.2}Grundlegende Informationen}{119}{section.14.2}%
-\contentsline {section}{\numberline {14.3}LED CML Signalleuchte, blau, ultrahell, 12 VDC}{120}{section.14.3}%
-\contentsline {section}{\numberline {14.4}Spezifikation}{120}{section.14.4}%
-\contentsline {section}{\numberline {14.5}Einfacher Code}{120}{section.14.5}%
-\contentsline {section}{\numberline {14.6}Tests}{121}{section.14.6}%
-\contentsline {section}{\numberline {14.7}Einfache Anwendung}{121}{section.14.7}%
-\contentsline {section}{\numberline {14.8}Further Readings}{122}{section.14.8}%
-\contentsline {part}{\numberline {IV}Benutzerschnittstelle: nRF-Connect}{123}{part.4}%
-\contentsline {chapter}{\numberline {15}Einstieg}{125}{chapter.15}%
-\contentsline {section}{\numberline {15.1}Installation der nRF Connect App auf dem Smartphone}{125}{section.15.1}%
-\contentsline {subsection}{\numberline {15.1.1}Auf Android:}{125}{subsection.15.1.1}%
-\contentsline {subsection}{\numberline {15.1.2}Auf iOS:}{125}{subsection.15.1.2}%
-\contentsline {section}{\numberline {15.2}Einrichtung von nRF auf dem Arduino}{126}{section.15.2}%
-\contentsline {section}{\numberline {15.3}nRF Connect App mit dem Arduino verbinden}{126}{section.15.3}%
-\contentsline {subsection}{\numberline {15.3.1}Auf iOS:}{126}{subsection.15.3.1}%
-\contentsline {section}{\numberline {15.4}Einrichten des Magic Faucet Fountain auf nRF Connect}{127}{section.15.4}%
-\contentsline {section}{\numberline {15.5}Auf iOS:}{127}{section.15.5}%
-\contentsline {part}{\numberline {V}Applikation: Magic Faucet Fountain}{129}{part.5}%
-\contentsline {chapter}{\numberline {16}Projekt: Magic Faucet Fountain}{131}{chapter.16}%
-\contentsline {section}{\numberline {16.1}Beschreibung}{131}{section.16.1}%
-\contentsline {section}{\numberline {16.2}Aufbau}{131}{section.16.2}%
-\contentsline {subsection}{\numberline {16.2.1}Abmaße}{132}{subsection.16.2.1}%
-\contentsline {section}{\numberline {16.3}Hardware-Schnittstellen}{132}{section.16.3}%
-\contentsline {subsection}{\numberline {16.3.1}Schaltpläne}{132}{subsection.16.3.1}%
-\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{132}{subsubsection*.89}%
-\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und Ultraschallsensor}{133}{subsubsection*.92}%
-\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{134}{subsubsection*.95}%
-\contentsline {section}{\numberline {16.4}Software-Schnittstellen}{135}{section.16.4}%
-\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{135}{subsubsection*.98}%
-\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{135}{subsubsection*.100}%
-\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{136}{subsubsection*.102}%
-\contentsline {subsection}{\numberline {16.4.1}Ablaufdiagramm der Anwendung}{136}{subsection.16.4.1}%
-\contentsline {subsection}{\numberline {16.4.2}Code der Anwendung}{138}{subsection.16.4.2}%
-\contentsline {section}{\numberline {16.5}Installation}{139}{section.16.5}%
-\contentsline {subsection}{\numberline {16.5.1}Mechanischer Aufbau}{139}{subsection.16.5.1}%
-\contentsline {subsection}{\numberline {16.5.2}Elektrische Installation}{139}{subsection.16.5.2}%
-\contentsline {subsection}{\numberline {16.5.3}Software und App-Verbindung}{140}{subsection.16.5.3}%
-\contentsline {subsection}{\numberline {16.5.4}Software und App-Verbindung}{140}{subsection.16.5.4}%
-\contentsline {section}{\numberline {16.6}Konfiguration}{140}{section.16.6}%
-\contentsline {section}{\numberline {16.7}Einschränkungen}{141}{section.16.7}%
-\contentsline {chapter}{\numberline {17}Schlussfolgerungen}{143}{chapter.17}%
-\contentsline {section}{\numberline {17.1}Zusammenfassung der Projektergebnisse}{143}{section.17.1}%
-\contentsline {section}{\numberline {17.2}Reflexion über die Zielerreichung}{143}{section.17.2}%
-\contentsline {section}{\numberline {17.3}Mögliche Weiterentwicklungen}{143}{section.17.3}%
-\contentsline {section}{\numberline {17.4}Zukünftige Anwendungen}{143}{section.17.4}%
-\contentsline {part}{\numberline {VI}Veränderungen im Dokument}{145}{part.6}%
-\contentsline {chapter}{\numberline {18}Kleine Änderungen in \menu {LaTeXTemplate}:}{147}{chapter.18}%
-\contentsline {section}{\numberline {18.1}\menu {Demontageanleitung}}{147}{section.18.1}%
-\contentsline {section}{\numberline {18.2}\menu {Haftungsübernahme}}{147}{section.18.2}%
-\contentsline {section}{\numberline {18.3}\menu {Handbuch Magic Faucet Fountain}}{147}{section.18.3}%
-\contentsline {section}{\numberline {18.4}\menu {MLBib}}{148}{section.18.4}%
-\contentsline {section}{\numberline {18.5}\menu {Montageanleitung}}{148}{section.18.5}%
-\contentsline {section}{\numberline {18.6}\menu {Nano33BLESense}}{148}{section.18.6}%
-\contentsline {section}{\numberline {18.7}\menu {Poster}}{148}{section.18.7}%
-\contentsline {section}{\numberline {18.8}\menu {Präsentation}}{149}{section.18.8}%
-\contentsline {section}{\numberline {18.9}\menu {Xmind}}{149}{section.18.9}%
-\contentsline {section}{\numberline {18.10}\menu {author}}{149}{section.18.10}%
-\contentsline {section}{\numberline {18.11}\menu {README}}{149}{section.18.11}%
-\contentsline {chapter}{\numberline {19}Große Änderungen in \menu {LaTeXTemplate}:}{151}{chapter.19}%
-\contentsline {section}{\numberline {19.1}\menu {Demontageanleitung}}{151}{section.19.1}%
-\contentsline {section}{\numberline {19.2}\menu {Haftungsübernahme}}{151}{section.19.2}%
-\contentsline {section}{\numberline {19.3}\menu {Handbuch Magic Faucet Fountain}}{151}{section.19.3}%
-\contentsline {section}{\numberline {19.4}\menu {MLBib}}{151}{section.19.4}%
-\contentsline {section}{\numberline {19.5}\menu {Montageanleitung}}{151}{section.19.5}%
-\contentsline {section}{\numberline {19.6}\menu {Nano33BLESense}}{151}{section.19.6}%
-\contentsline {section}{\numberline {19.7}\menu {Poster}}{151}{section.19.7}%
+\contentsline {section}{\numberline {13.3}Relais - 5V KY-019}{113}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Spezifikation}{113}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Einfacher Code}{113}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Einfache Anwendung}{113}{section.13.6}%
+\contentsline {section}{\numberline {13.7}Further Readings}{113}{section.13.7}%
+\contentsline {chapter}{\numberline {14}Externe LED}{115}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Einleitung}{115}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Grundlegende Informationen}{115}{section.14.2}%
+\contentsline {section}{\numberline {14.3}LED CML Signalleuchte, blau, ultrahell, 12 VDC}{116}{section.14.3}%
+\contentsline {section}{\numberline {14.4}Spezifikation}{116}{section.14.4}%
+\contentsline {section}{\numberline {14.5}Einfacher Code}{116}{section.14.5}%
+\contentsline {section}{\numberline {14.6}Tests}{117}{section.14.6}%
+\contentsline {section}{\numberline {14.7}Einfache Anwendung}{117}{section.14.7}%
+\contentsline {section}{\numberline {14.8}Further Readings}{118}{section.14.8}%
+\contentsline {chapter}{\numberline {15}MOS-FET}{119}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Einleitung}{119}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Grundlegende Informationen}{119}{section.15.2}%
+\contentsline {subsection}{\numberline {15.2.1}N-Kanal-MOS-FET}{120}{subsection.15.2.1}%
+\contentsline {subsection}{\numberline {15.2.2}P-Kanal-MOS-FET}{120}{subsection.15.2.2}%
+\contentsline {section}{\numberline {15.3}MOS-FET IRF9540N}{120}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Spezifikation}{120}{section.15.4}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{120}{subsubsection*.78}%
+\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{121}{subsubsection*.80}%
+\contentsline {section}{\numberline {15.5}Einfacher Code}{122}{section.15.5}%
+\contentsline {section}{\numberline {15.6}Tests}{123}{section.15.6}%
+\contentsline {section}{\numberline {15.7}Einfache Anwendung}{123}{section.15.7}%
+\contentsline {section}{\numberline {15.8}Further Readings}{124}{section.15.8}%
+\contentsline {part}{\numberline {IV}Benutzerschnittstelle: nRF-Connect}{125}{part.4}%
+\contentsline {chapter}{\numberline {16}Einstieg}{127}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Installation der nRF Connect App auf dem Smartphone}{127}{section.16.1}%
+\contentsline {subsection}{\numberline {16.1.1}Auf Android:}{127}{subsection.16.1.1}%
+\contentsline {subsection}{\numberline {16.1.2}Auf iOS:}{127}{subsection.16.1.2}%
+\contentsline {section}{\numberline {16.2}Einrichtung von nRF auf dem Arduino}{128}{section.16.2}%
+\contentsline {section}{\numberline {16.3}nRF Connect App mit dem Arduino verbinden}{128}{section.16.3}%
+\contentsline {subsection}{\numberline {16.3.1}Auf iOS:}{128}{subsection.16.3.1}%
+\contentsline {section}{\numberline {16.4}Einrichten des Magic Faucet Fountain auf nRF Connect}{129}{section.16.4}%
+\contentsline {section}{\numberline {16.5}Auf iOS:}{129}{section.16.5}%
+\contentsline {part}{\numberline {V}Applikation: Magic Faucet Fountain}{131}{part.5}%
+\contentsline {chapter}{\numberline {17}Projekt: Magic Faucet Fountain}{133}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Beschreibung}{133}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Aufbau}{133}{section.17.2}%
+\contentsline {subsection}{\numberline {17.2.1}Abmaße}{134}{subsection.17.2.1}%
+\contentsline {section}{\numberline {17.3}Hardware-Schnittstellen}{134}{section.17.3}%
+\contentsline {subsection}{\numberline {17.3.1}Schaltpläne}{134}{subsection.17.3.1}%
+\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{134}{subsubsection*.89}%
+\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und Ultraschallsensor}{135}{subsubsection*.92}%
+\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{136}{subsubsection*.95}%
+\contentsline {section}{\numberline {17.4}Software-Schnittstellen}{137}{section.17.4}%
+\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{137}{subsubsection*.98}%
+\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{137}{subsubsection*.100}%
+\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{138}{subsubsection*.102}%
+\contentsline {subsection}{\numberline {17.4.1}Ablaufdiagramm der Anwendung}{138}{subsection.17.4.1}%
+\contentsline {subsection}{\numberline {17.4.2}Code der Anwendung}{140}{subsection.17.4.2}%
+\contentsline {section}{\numberline {17.5}Installation}{141}{section.17.5}%
+\contentsline {subsection}{\numberline {17.5.1}Mechanischer Aufbau}{141}{subsection.17.5.1}%
+\contentsline {subsection}{\numberline {17.5.2}Elektrische Installation}{141}{subsection.17.5.2}%
+\contentsline {subsection}{\numberline {17.5.3}Software und App-Verbindung}{142}{subsection.17.5.3}%
+\contentsline {subsection}{\numberline {17.5.4}Software und App-Verbindung}{142}{subsection.17.5.4}%
+\contentsline {section}{\numberline {17.6}Konfiguration}{142}{section.17.6}%
+\contentsline {section}{\numberline {17.7}Einschränkungen}{143}{section.17.7}%
+\contentsline {chapter}{\numberline {18}Schlussfolgerungen}{145}{chapter.18}%
+\contentsline {section}{\numberline {18.1}Zusammenfassung der Projektergebnisse}{145}{section.18.1}%
+\contentsline {section}{\numberline {18.2}Reflexion über die Zielerreichung}{145}{section.18.2}%
+\contentsline {section}{\numberline {18.3}Mögliche Weiterentwicklungen}{145}{section.18.3}%
+\contentsline {section}{\numberline {18.4}Zukünftige Anwendungen}{145}{section.18.4}%
+\contentsline {part}{\numberline {VI}Veränderungen im Dokument}{147}{part.6}%
+\contentsline {chapter}{\numberline {19}Kleine Änderungen in \menu {LaTeXTemplate}:}{149}{chapter.19}%
+\contentsline {section}{\numberline {19.1}\menu {Demontageanleitung}}{149}{section.19.1}%
+\contentsline {section}{\numberline {19.2}\menu {Haftungsübernahme}}{149}{section.19.2}%
+\contentsline {section}{\numberline {19.3}\menu {Handbuch Magic Faucet Fountain}}{149}{section.19.3}%
+\contentsline {section}{\numberline {19.4}\menu {MLBib}}{150}{section.19.4}%
+\contentsline {section}{\numberline {19.5}\menu {Montageanleitung}}{150}{section.19.5}%
+\contentsline {section}{\numberline {19.6}\menu {Nano33BLESense}}{150}{section.19.6}%
+\contentsline {section}{\numberline {19.7}\menu {Poster}}{150}{section.19.7}%
 \contentsline {section}{\numberline {19.8}\menu {Präsentation}}{151}{section.19.8}%
 \contentsline {section}{\numberline {19.9}\menu {Xmind}}{151}{section.19.9}%
 \contentsline {section}{\numberline {19.10}\menu {author}}{151}{section.19.10}%
 \contentsline {section}{\numberline {19.11}\menu {README}}{151}{section.19.11}%
-\contentsline {part}{\numberline {VII}Anhang}{153}{part.7}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{155}{chapter*.105}%
+\contentsline {chapter}{\numberline {20}Große Änderungen in \menu {LaTeXTemplate}:}{153}{chapter.20}%
+\contentsline {section}{\numberline {20.1}\menu {Demontageanleitung}}{153}{section.20.1}%
+\contentsline {section}{\numberline {20.2}\menu {Haftungsübernahme}}{153}{section.20.2}%
+\contentsline {section}{\numberline {20.3}\menu {Handbuch Magic Faucet Fountain}}{153}{section.20.3}%
+\contentsline {section}{\numberline {20.4}\menu {MLBib}}{153}{section.20.4}%
+\contentsline {section}{\numberline {20.5}\menu {Montageanleitung}}{153}{section.20.5}%
+\contentsline {section}{\numberline {20.6}\menu {Nano33BLESense}}{153}{section.20.6}%
+\contentsline {section}{\numberline {20.7}\menu {Poster}}{153}{section.20.7}%
+\contentsline {section}{\numberline {20.8}\menu {Präsentation}}{153}{section.20.8}%
+\contentsline {section}{\numberline {20.9}\menu {Xmind}}{153}{section.20.9}%
+\contentsline {section}{\numberline {20.10}\menu {author}}{153}{section.20.10}%
+\contentsline {section}{\numberline {20.11}\menu {README}}{153}{section.20.11}%
+\contentsline {part}{\numberline {VII}Anhang}{155}{part.7}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{157}{chapter*.105}%
