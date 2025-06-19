@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,9 +1046,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 \verbatim@out=\write5
-runsystem(touch w18-test-20256191025.tex)...disabled (restricted).
+runsystem(touch w18-test-20256191173.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20256191025.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20256191173.tex)...disabled (restricted).
 
 runsystem(rm -f ""Präsentation Magic Faucet Fountain".gnuploterrors")...disabl
 ed (restricted).
@@ -1931,6 +1931,10 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 140--140
  []
 
 
+LaTeX Warning: Reference `fig:blumentopfApplikation' on page 10 undefined on in
+put line 140.
+
+
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
@@ -1950,10 +1954,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 146.
+Package pdftex.def Info: img/technik.jpg  used on input line 151.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 146--146
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 151--151
 [][]  
  []
 
@@ -1961,11 +1965,11 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 146--146
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 146.
+Package pdftex.def Info: img/hintergrund2.png  used on input line 151.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 146.
+Package pdftex.def Info: img/technik.jpg  used on input line 151.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1974,7 +1978,40 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [11
 
-])
+]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 161.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 161--161
+[][]  
+ []
+
+<images/netzteilApplikation.png, id=337, 717.68124pt x 1224.575pt>
+File: images/netzteilApplikation.png Graphic file (type png)
+<use images/netzteilApplikation.png>
+Package pdftex.def Info: images/netzteilApplikation.png  used on input line 161
+.
+(pdftex.def)             Requested size: 56.9055pt x 97.08978pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 161.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 161.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[12
+
+ <./images/netzteilApplikation.png>])
 \openout2 = `Slides/Abschluss.aux'.
 
  (./slides/Abschluss.tex
@@ -2002,7 +2039,7 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 [][]  
  []
 
-[12
+[13
 
 
 
@@ -2023,6 +2060,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `"Präsentation Magic Faucet Fountain".out' h
 as not changed.
 (rerunfilecheck)             Checksum: 402BB9D4E29838034619437E3F61970F;662.
@@ -2032,23 +2073,27 @@ Package logreq Info: Writing requests to '"Präsentation Magic Faucet Fountain"
 
  ) 
 Here is how much of TeX's memory you used:
- 38481 strings out of 473190
- 792355 string characters out of 5716853
- 1425257 words of memory out of 5000000
- 60983 multiletter control sequences out of 15000+600000
+ 38496 strings out of 473190
+ 792748 string characters out of 5716853
+ 1425305 words of memory out of 5000000
+ 60994 multiletter control sequences out of 15000+600000
  564145 words of font info for 55 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,21n,123p,1907b,2267s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
-c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/
-LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/LaTe
-X/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/LaTeX/te
-xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Präsentation Magic Faucet Fountain.pdf" (12 pages, 243574 b
+
+pdfTeX warning (dest): name{fig:blumentopfApplikation} has been referenced but 
+does not exist, replaced by a fixed one
+
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:
+/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/La
+TeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/LaTeX/
+texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/LaTeX/texl
+ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on "Präsentation Magic Faucet Fountain.pdf" (13 pages, 290560 b
 ytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 357 compressed objects within 4 object streams
- 31 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 434 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

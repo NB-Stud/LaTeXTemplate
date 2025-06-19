@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  18 JUN 2025 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,78 +1029,84 @@ LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 59.
 
+<images/blumentopfApplikation.jpg, id=38, 632.3625pt x 1418.29875pt>
+File: images/blumentopfApplikation.jpg Graphic file (type jpg)
+<use images/blumentopfApplikation.jpg>
+Package pdftex.def Info: images/blumentopfApplikation.jpg  used on input line 6
+5.
+(pdftex.def)             Requested size: 367.89944pt x 825.12991pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
 
  []
 
@@ -1110,7 +1116,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--206
 
 {c:/LaTeX/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/LaTeX/t
 exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/log
-o_hs_technik.png> <./images/logo.png>] (./PosterMagicFaucetFountain.aux)
+o_hs_technik.png> <./images/logo.png> <./images/blumentopfApplikation.jpg>]
+(./PosterMagicFaucetFountain.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1121,22 +1128,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37328 strings out of 473190
- 969066 string characters out of 5716853
- 1766230 words of memory out of 5000000
- 60083 multiletter control sequences out of 15000+600000
+ 37338 strings out of 473190
+ 969476 string characters out of 5716853
+ 1748749 words of memory out of 5000000
+ 60093 multiletter control sequences out of 15000+600000
  598839 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,9n,121p,510b,1163s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,9n,121p,510b,920s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb><c
 :/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/
 LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/LaTe
 X/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/LaTeX/t
 exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on PosterMagicFaucetFountain.pdf (1 page, 86841 bytes).
+Output written on PosterMagicFaucetFountain.pdf (1 page, 106674 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

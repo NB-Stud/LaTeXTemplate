@@ -41,40 +41,41 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Spannungswandler Wirkungsgrad \blx@tocontentsinit {0}\cite {MPS:2015}}}{57}{figure.caption.46}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Frequenz der verschiedenen Schall-Arten}}{70}{figure.caption.49}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{71}{figure.caption.50}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{72}{figure.caption.51}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{72}{figure.caption.52}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Frequenz der verschiedenen Schall-Arten}}{72}{figure.caption.49}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Ausbreitungsgeschwindigkeit von Schall in Luft}}{73}{figure.caption.50}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Spannungsverlauf Schallwandler bei einer Echo-Laufzeit-Messung, nach \blx@tocontentsinit {0}\cite {Hering:2023}}}{74}{figure.caption.51}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Ultraschallsensor mit Pin-Belegung}}{74}{figure.caption.52}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Aufbau eines Schaltnetzteils}}{92}{figure.caption.58}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Skizze des Netzteils}}{93}{figure.caption.60}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Spannungsmessung des Netzteils}}{93}{figure.caption.61}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Anwendung des Netzteils für 2 seperate Stromkreise}}{94}{figure.caption.62}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{99}{figure.caption.64}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Schnittstellen und Anschlüsse HC-05}}{100}{figure.caption.65}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Skizze der Schaltertypen}}{107}{figure.caption.70}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Messen des Widerstands}}{108}{figure.caption.71}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Einfache Anwendung des Schalters}}{109}{figure.caption.72}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Pin-Belegung und Aufbau des Relais-Moduls}}{114}{figure.caption.80}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Aufbau einer LED}}{120}{figure.caption.83}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Skizze des MOS-FETs}}{124}{figure.caption.86}%
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Pinbelegung des MOS-FETs}}{126}{figure.caption.91}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {15.1}{\ignorespaces Installation der App \glqq nRF Connect\grqq \ auf iOS}}{131}{figure.caption.94}%
+\contentsline {figure}{\numberline {15.2}{\ignorespaces Scannen und hinzufügen von BLE-Geräten}}{133}{figure.caption.96}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {16.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{137}{figure.caption.97}%
+\contentsline {figure}{\numberline {16.2}{\ignorespaces Versorgungsschaltplan}}{139}{figure.caption.100}%
+\contentsline {figure}{\numberline {16.3}{\ignorespaces 5V - Netz}}{140}{figure.caption.103}%
+\contentsline {figure}{\numberline {16.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{141}{figure.caption.106}%
+\contentsline {figure}{\numberline {16.5}{\ignorespaces Ablaufdiagramm}}{142}{figure.caption.113}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Aufbau eines Schaltnetzteils}}{94}{figure.caption.58}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Skizze des Netzteils}}{95}{figure.caption.60}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Spannungsmessung des Netzteils}}{95}{figure.caption.61}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Anwendung des Netzteils für 2 seperate Stromkreise}}{96}{figure.caption.62}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{101}{figure.caption.64}%
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Schnittstellen und Anschlüsse HC-05}}{102}{figure.caption.65}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Skizze der Schaltertypen}}{109}{figure.caption.70}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Messen des Widerstands}}{110}{figure.caption.71}%
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Einfache Anwendung des Schalters}}{111}{figure.caption.72}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {13.1}{\ignorespaces Pin-Belegung und Aufbau des Relais-Moduls}}{116}{figure.caption.80}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {14.1}{\ignorespaces Aufbau einer LED}}{122}{figure.caption.83}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {15.1}{\ignorespaces Skizze des MOS-FETs}}{126}{figure.caption.86}%
-\contentsline {figure}{\numberline {15.2}{\ignorespaces Pinbelegung des MOS-FETs}}{128}{figure.caption.91}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {16.1}{\ignorespaces Installation der App \glqq nRF Connect\grqq \ auf iOS}}{133}{figure.caption.94}%
-\contentsline {figure}{\numberline {16.2}{\ignorespaces Scannen und hinzufügen von BLE-Geräten}}{135}{figure.caption.96}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {17.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{139}{figure.caption.97}%
-\contentsline {figure}{\numberline {17.2}{\ignorespaces Versorgungsschaltplan}}{141}{figure.caption.100}%
-\contentsline {figure}{\numberline {17.3}{\ignorespaces 5V - Netz}}{142}{figure.caption.103}%
-\contentsline {figure}{\numberline {17.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{143}{figure.caption.106}%
-\contentsline {figure}{\numberline {17.5}{\ignorespaces Ablaufdiagramm}}{144}{figure.caption.113}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

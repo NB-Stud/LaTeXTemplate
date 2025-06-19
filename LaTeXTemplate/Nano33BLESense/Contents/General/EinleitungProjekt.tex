@@ -14,29 +14,31 @@
 
 \chapter{Einleitung}
 \label{chap:einleitungDoku}
-
 \section{Problembeschreibung}
-Der „Magic Faucet Fountain“ erzeugt die Illusion eines freischwebenden Wasserhahns, aus dem kontinuierlich Wasser strömt. Die technische Umsetzung dieser Illusion erfordert eine Kombination aus transparenter Tragstruktur, zuverlässiger Wasserförderung, Sensorik zur Pegelkontrolle sowie einer benutzerfreundlichen Steuerung. Ziel ist die Entwicklung eines solchen Systems unter Verwendung aktueller Mikrocontrollertechnik, wobei Stabilität, Sicherheit und Modularität gewährleistet sein müssen.
-\section{Herausforderungen}
-Die Realisierung eines freischwebenden Brunnens bringt mehrere technische Herausforderungen mit sich:
+Der Magic Faucet Fountain ist eine dekorative Installation, bei der ein Wasserhahn scheinbar ohne sichtbare Stütze in der Luft schwebt und dabei kontinuierlich Wasser fördert. Ziel des Projekts ist es, diesen „magischen“ Effekt durch eine geschickte Kombination aus physischer Konstruktion, Sensorik und digitaler Steuerung zu realisieren.\\
 
+\textbf{Dabei stehen folgende Anforderungen im Fokus:}
 \begin{itemize}
-	\item \textbf{Tragstruktur mit optischer Illusion:} Die Tragestruktur muss transparent, tragfähig und unauffällig sein. Optische Täuschung in der Technik folgt Prinzipien der kognitiven Wahrnehmungspsychologie \cite{gregory_illusion}.
-	
-	\item \textbf{Sensorik im begrenzten Bauraum:} Eine präzise Füllstandskontrolle ist notwendig, um Leerlauf und Überlauf zu vermeiden. Die Kombination eines Schwimmers mit einem Ultraschallsensor gilt als bewährter Ansatz zur Echtzeitmessung \cite{grieves_digitaltwin}.
-	
-	\item \textbf{Stromversorgung in Wassernähe:} Die Koexistenz von Wasser und Elektronik erfordert geeignete Schutzmaßnahmen. Normen wie DIN VDE 0100-702 regeln elektrische Sicherheit im Feuchtraum.
-	
-	\item \textbf{Kabellose Steuerung via Bluetooth:} Die Steuerung sollte ortsunabhängig erfolgen. Mit der RemoteXY-Plattform kann eine benutzerfreundliche App-Anbindung an Mikrocontroller (z.\,B.\ Arduino Nano 33 BLE Sense) realisiert werden \cite{remotexy_doc}.
+	\item Optische Täuschung: Der Wasserhahn soll frei schweben, ohne sichtbare Stütze.
+	\item Konstanter Wasserfluss: Der Brunnen muss kontinuierlich Wasser fördern, sodass ein Überlaufen oder Trockenlaufen vermieden wird.
+	\item Benutzerfreundliche Bedienung: Steuerung und Überwachung sollen über eine App erfolgen.
+	\item Sicherheit: Elektronik und Wasser müssen betriebssicher getrennt bleiben.
 \end{itemize}
+
+\section{Herausforderungen}
+\begin{enumerate}
+	\item \textbf{Unsichtbare Tragstruktur:}Der zentrale Effekt des Brunnens, der scheinbar schwebende Wasserhahn, erfordert eine stabile, tragfähige Konstruktion. Diese muss gleichzeitig für den Benutzer möglichst unsichtbar bleiben. Damit einher gehen hohe Anforderungen an Materialwahl und Integration.
+	\item \textbf{Enge Platzverhältnisse im Inneren:}Die mechanische Struktur im Brunneninneren bietet nur wenig Raum für Sensoren und Elektronik. Die Komponenten müssen kompakt, wasserfest und zuverlässig montierbar sein.
+	\item \textbf{Stromversorgung in Wassernähe:}Die Kombination aus Wasser und Strom birgt ein erhöhtes Sicherheitsrisiko. Eine wasserdichte und dennoch zugängliche Stromversorgung ist zwingend erforderlich.
+	\item \textbf{Kabellose Steuerung via App:}Die Steuerung soll benutzerfreundlich per Smartphone erfolgen – kabellos und möglichst ohne sichtbare Module. Die Verbindung muss stabil, sicher und reaktionsschnell sein.
+\end{enumerate}
 
 \section{Lösungen}
 Basierend auf diesen Anforderungen wurde ein strukturierter Lösungsweg erarbeitet:
-
 \begin{itemize}
 	\item Ein transparentes Acrylrohr dient sowohl als Trägerelement als auch als verdeckte Wasserleitung.
 	\item Zur Pegelmessung kommt ein HC-SR04 Ultraschallsensor in Kombination mit einem mechanischen Schwimmer zum Einsatz.
-	\item Netzteil und Steuereinheit befinden sich in einer spritzwassergeschützten ABS-Box mit Kabeldurchführungen und Notabschaltung.
+	\item Netzteil und Steuereinheit befinden sich in einer spritzwassergeschützten PETG-Box mit Kabeldurchführungen und Notabschaltung.
 	\item Die Bluetooth-Anbindung erfolgt über ein Arduino Nano 33 BLE Sense Board. Die Konfiguration der nRF Connect-App erlaubt Statusanzeige und Pumpensteuerung.
 \end{itemize}
 
@@ -45,8 +47,11 @@ Basierend auf diesen Anforderungen wurde ein strukturierter Lösungsweg erarbeit
 Diese Arbeit ist wie folgt aufgebaut:
 
 \begin{itemize}
-	\item \textbf{Kapitel 2} stellt die verwendete Hardware und Softwareumgebung vor (Arduino, Sensoren, App).
-	\item \textbf{Kapitel 3} erläutert das Gesamtsystem mit Aufbau, Schaltplan, Steuerung und Kommunikationsschnittstellen.
-	\item \textbf{Kapitel 4} dokumentiert das Design, die Testphase und das fertige Produkt.
-	\item \textbf{Kapitel 5} bewertet die Ergebnisse, nennt Einschränkungen und gibt einen Ausblick.
+	\item \textbf{Teil \ref{part:Teil1}} stellt die verwendete Hardware und Softwareumgebung vor (Arduino IDE, Einrichtung Arduino, Arduino Nano 33 BLE Sense). 
+	\item \textbf{Teil \ref{part:Teil2}} zeigt die externen Sensoren und Aktoren des Arduino.
+	\item \textbf{Teil \ref{part:Teil3}} befasst sich mit der Hardwarebeschreibung der Applikation.
+	\item \textbf{Teil \ref{part:Teil4}} stellt die Benutzerschnittstelle mit der Applikation vor.
+	\item \textbf{Teil \ref{part:Teil5}} ist die Entwicklerdokumentation zum Magic Faucet Fountain.
+	\item \textbf{Teil \ref{part:Teil6}} zeigt die kleinen und großen Veränderungen im Dokument.
+	\item \textbf{Teil \ref{part:Teil7}} ist der Anhang mit der Materialliste, Softwareliste und dem Literaturverzeichnis.
 \end{itemize}

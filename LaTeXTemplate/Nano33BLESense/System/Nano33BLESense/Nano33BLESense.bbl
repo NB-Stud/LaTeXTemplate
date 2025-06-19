@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{anyt/global//global/global/global}
-  \entry{Relais:2025}{online}{}{}
+  \entry{Relais:2025}{misc}{}{}
     \name{author}{1}{}{%
       {{hash=AD}{%
          family={AZ-Delivery},
@@ -31,17 +31,10 @@
     \field{labelalpha}{AD25}
     \field{sortinit}{A}
     \field{sortinithash}{A}
-    \field{abstract}{%
-    Bei AZ Delivery kann man das Relais kaufen und sich informieren.%
-    }
     \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
-  Literatur/relaisOnline.pdf}{[pdf]}}}
-    \field{title}{Relais-Modul 5V KY-019 High Level Trigger}
-    \verb{url}
-    \verb https://www.az-delivery.de/products/relais-modul
-    \endverb
+  Literatur/handbuchRelais.pdf}{[pdf]}}}
+    \field{title}{Handbuch - Relais Modul}
     \field{year}{2025}
-    \warn{\item Invalid format of field 'urldate'}
   \endentry
 
   \entry{Alles2024}{book}{}{}
@@ -704,6 +697,8 @@
   funktioniert. Dies wird zusätzlich durch anschauliche Grafiken
   unterstützt.%
     }
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/elektroKompendium.pdf}{[pdf]}}}
     \field{title}{Relais}
     \verb{url}
     \verb https://www.elektronik-kompendium.de/sites/bau/0207211.htm
@@ -1485,6 +1480,8 @@
     Diese Website stellt die Technologie hinter Reilais und deren Verwendung in
   den Vordergrund.%
     }
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/elektro4000Online.pdf}{[pdf]}}}
     \field{title}{Relais Erklärung - Die Funktionsweise und Verwendung von
   Relais erklärt}
     \verb{url}

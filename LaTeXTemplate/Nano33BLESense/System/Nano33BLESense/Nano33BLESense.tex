@@ -75,8 +75,8 @@
 {
 
 
-\part{Arduino Nano 33 BLE Sense - Interne Sensoren}
-
+\part{Arduino Nano 33 BLE Sense}
+\label{part:Teil1}
   \input{../../Contents/General/ArduinoIDE2}    
   \input{../../Contents/General/ArduinoIDESetupNano33} 
   \input{../../Contents/Nano33BLESense/Nano33BLESense}
@@ -116,6 +116,7 @@
 %\Ausblenden
 {
 \part{Arduino Nano 33 BLE Sense - Externe Sensoren und Aktoren}
+\label{part:Teil2}
    \input{../../Contents/General/SpannungswandlerMPM3610}
    \input{../../Contents/General/NinaB306}
    
@@ -181,11 +182,9 @@
 
 
 \part{Harwarebeschreibung: Magic Faucet Fountain}
-	%%% Materialliste hier:
-	\input{../../Contents/General/Materialliste Magic Faucet Fountain}
-	%%%
 
-  	%%% Hardware Beschreibung hier:
+\label{part:Teil3}
+  	%%% Hardwarebeschreibung hier:
   	\input{../../Contents/General/SensorHCSR04}
   	\input{../../Contents/General/HardwareBeschreibung/Pumpe}
   	\input{../../Contents/General/HardwareBeschreibung/Netzteil}
@@ -197,19 +196,22 @@
   	%%%
 
 \part{Benutzerschnittstelle: nRF-Connect}
+\label{part:Teil4}
 	\input{../../Contents/General/BLENRFConnect}
   
   
 \part{Applikation: Magic Faucet Fountain}
+\label{part:Teil5}
   %%% Doku/Projekt Magic Faucet Fountain hier:
-  \input{../../Contents/General/DokuProjektMagicFaucetFountain/BeschreibungSystem}
-  %%%
+  \input{../../Contents/General/BeschreibungSystem}
+  %%%	
   
   %%% Schlussfolgerung hier:
   \input{../../Contents/General/Schlussfolgerung}
 
 
 \part{Veränderungen im Dokument}
+\label{part:Teil6}
 	\input{../../Contents/General/Veränderungen/kleineVeränderungen}
 	\input{../../Contents/General/Veränderungen/großeVeränderungen}
 
@@ -223,8 +225,14 @@
 %\Ausblenden
 {
 \part{Anhang}
+\label{part:Teil7}
+	%%% Materialliste hier:
+	\input{../../Contents/General/Materialliste Magic Faucet Fountain}
+	%%%
 
-  %\input{../../Contents/Nano33BLESense/MateriallisteNano}
+	%%% Softwareliste hier:
+	\input{../../Contents/General/Softwareliste MagicFaucetFountain}
+	%%%
 }
 
 

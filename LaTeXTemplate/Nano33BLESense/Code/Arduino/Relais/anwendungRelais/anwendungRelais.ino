@@ -3,7 +3,7 @@
  * @brief Relay-controlled PC fan triggered by temperature threshold.
  *
  * This program reads temperature from an analog temperature sensor.
- * If the temperature exceeds 40 °C, it activates a relay to turn on a PC fan.
+ * If the temperature exceeds 40 degrees, it activates a relay to turn on a PC fan.
  * Otherwise, the relay (and fan) remains off.
  *
  * @author Gruppe 07
@@ -16,21 +16,19 @@ const int tempSensorPin = A0;
 /// Pin to control the relay module
 const int relayPin = 7;
 
-/// Temperature threshold in °C to turn on the fan
+/// Temperature threshold in Celcius to turn on the fan
 const float tempThreshold = 40.0;
 
 /**
  * @brief Converts raw analog sensor reading to temperature in Celsius.
  *
- * Assumes TMP36 sensor by default: 10 mV/°C with 500 mV offset at 0 °C.
- * Adjust this function as needed for your sensor.
  *
  * @param analogValue Raw analog value from sensor
  * @return Temperature in degrees Celsius
  */
 float readTemperature(int analogValue) {
   float voltage = analogValue * (5.0 / 1023.0); // Convert to voltage
-  float temperatureC = (voltage - 0.5) * 100.0; // TMP36: 0.5 V offset, 10 mV/°C
+  float temperatureC = (voltage - 0.5) * 100.0; // 
   return temperatureC;
 }
 
@@ -57,7 +55,7 @@ void loop() {
 
   Serial.print("Temperature: ");
   Serial.print(temperature);
-  Serial.println(" °C");
+  Serial.println(" Grad Celcius");
 
   if (temperature > tempThreshold) {
     digitalWrite(relayPin, LOW);  // Relay ON (fan ON)

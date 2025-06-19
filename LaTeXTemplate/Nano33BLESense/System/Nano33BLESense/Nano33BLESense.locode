@@ -8,30 +8,31 @@
 \contentsline {code}{\numberline {6.1}{\ignorespaces Einfacher Code zum Testen von BLE}}{62}{code.caption.47}%
 \contentsline {code}{\numberline {6.2}{\ignorespaces Einfache Anwendung für BLE}}{64}{code.caption.48}%
 \addvspace {10\p@ }
+\contentsline {code}{\numberline {7.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{75}{code.caption.53}%
+\contentsline {code}{\numberline {7.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{77}{code.caption.54}%
+\contentsline {code}{\numberline {7.3}{\ignorespaces Code für die Messung einer Strecke}}{79}{code.caption.55}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {8.1}{\ignorespaces Einfacher Code zum Testen des Ultraschallsensors}}{77}{code.caption.53}%
-\contentsline {code}{\numberline {8.2}{\ignorespaces Einfache Anwendung als Schwellenwert-Melder}}{79}{code.caption.54}%
-\contentsline {code}{\numberline {8.3}{\ignorespaces Code für die Messung einer Strecke}}{81}{code.caption.55}%
+\contentsline {code}{\numberline {8.1}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{87}{code.caption.56}%
+\contentsline {code}{\numberline {8.2}{\ignorespaces Einfacher Code zur Fehlererkennung}}{89}{code.caption.57}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {9.1}{\ignorespaces Einfacher Code zur Ansteuerung einer Pumpe}}{89}{code.caption.56}%
-\contentsline {code}{\numberline {9.2}{\ignorespaces Einfacher Code zur Fehlererkennung}}{91}{code.caption.57}%
+\contentsline {code}{\numberline {9.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{95}{code.caption.63}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {10.1}{\ignorespaces Einfacher Code zum Verwenden des Netzteils}}{97}{code.caption.63}%
-\addvspace {10\p@ }
-\contentsline {code}{\numberline {11.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{105}{code.caption.67}%
-\contentsline {code}{\numberline {11.2}{\ignorespaces Code zur Überprüfung der Funktionalität}}{107}{code.caption.69}%
+\contentsline {code}{\numberline {10.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{103}{code.caption.67}%
+\contentsline {code}{\numberline {10.2}{\ignorespaces Code zur Überprüfung der Funktionalität}}{105}{code.caption.69}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {13.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{117}{code.caption.81}%
-\contentsline {code}{\numberline {13.2}{\ignorespaces Einfache Anwendung mit dem Relais}}{119}{code.caption.82}%
+\contentsline {code}{\numberline {12.1}{\ignorespaces Code zur Überprüfung der Funktionalität}}{115}{code.caption.81}%
+\contentsline {code}{\numberline {12.2}{\ignorespaces Einfache Anwendung mit dem Relais}}{117}{code.caption.82}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {14.1}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{123}{code.caption.84}%
-\contentsline {code}{\numberline {14.2}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{124}{code.caption.85}%
+\contentsline {code}{\numberline {13.1}{\ignorespaces Einfacher Code zur Ansteuerung einer externen LED }}{121}{code.caption.84}%
+\contentsline {code}{\numberline {13.2}{\ignorespaces Einfacher Code zum Blinken einer externen LED }}{122}{code.caption.85}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {15.1}{\ignorespaces Einfacher Code zum Testen des MOS-FETs}}{129}{code.caption.92}%
-\contentsline {code}{\numberline {15.2}{\ignorespaces Einfache Anwendung zum Verwenden des MOS-FETs}}{130}{code.caption.93}%
+\contentsline {code}{\numberline {14.1}{\ignorespaces Einfacher Code zum Testen des MOS-FETs}}{127}{code.caption.92}%
+\contentsline {code}{\numberline {14.2}{\ignorespaces Einfache Anwendung zum Verwenden des MOS-FETs}}{128}{code.caption.93}%
 \addvspace {10\p@ }
-\contentsline {code}{\numberline {16.1}{\ignorespaces Einfacher Code zur Einrichtung von nRF Connect auf dem Arduino}}{134}{code.caption.95}%
+\contentsline {code}{\numberline {15.1}{\ignorespaces Einfacher Code zur Einrichtung von nRF Connect auf dem Arduino}}{132}{code.caption.95}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
