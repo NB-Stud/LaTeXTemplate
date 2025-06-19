@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1922,21 +1922,25 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 20
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-<General/blumentopfApplikation.jpg, id=43, 632.3625pt x 1418.29875pt>
-File: General/blumentopfApplikation.jpg Graphic file (type jpg)
-<use General/blumentopfApplikation.jpg>
-Package pdftex.def Info: General/blumentopfApplikation.jpg  used on input line 
-27.
-(pdftex.def)             Requested size: 90.8241pt x 203.6895pt.
-)
-(./Chapters/de/Aufbau.tex) (./Chapters/de/Inbetriebnahme.tex)
+<General/topfSchnelleinstieg.jpg, id=43, 429.10312pt x 986.9372pt>
+File: General/topfSchnelleinstieg.jpg Graphic file (type jpg)
+<use General/topfSchnelleinstieg.jpg>
+Package pdftex.def Info: General/topfSchnelleinstieg.jpg  used on input line 23
+.
+(pdftex.def)             Requested size: 86.49506pt x 198.93506pt.
+
+Overfull \hbox (2.37457pt too wide) in paragraph at lines 20--25
+ [][] 
+ []
+
+) (./Chapters/de/Aufbau.tex) (./Chapters/de/Inbetriebnahme.tex)
 (./Chapters/de/Sicherheitshinweise.tex)
 
 [1
 
 {c:/LaTeX/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/LaTeX/t
-exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./General/blu
-mentopfApplikation.jpg>] (./Schnelleinstieg.aux)
+exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./General/top
+fSchnelleinstieg.jpg>] (./Schnelleinstieg.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1948,17 +1952,17 @@ Package logreq Info: Writing requests to 'Schnelleinstieg.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 81539 strings out of 473190
- 2137850 string characters out of 5716853
- 3443306 words of memory out of 5000000
+ 81533 strings out of 473190
+ 2137772 string characters out of 5716853
+ 3442280 words of memory out of 5000000
  103774 multiletter control sequences out of 15000+600000
- 585771 words of font info for 142 fonts, out of 8000000 for 9000
+ 585536 words of font info for 139 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  109i,14n,111p,10928b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c
 :/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/La
 TeX/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Schnelleinstieg.pdf (1 page, 84799 bytes).
+Output written on Schnelleinstieg.pdf (1 page, 114660 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
