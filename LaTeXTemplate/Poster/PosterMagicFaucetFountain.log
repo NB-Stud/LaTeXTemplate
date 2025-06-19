@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,12 +1029,11 @@ LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 59.
 
-<images/blumentopfApplikation.jpg, id=38, 632.3625pt x 1418.29875pt>
-File: images/blumentopfApplikation.jpg Graphic file (type jpg)
-<use images/blumentopfApplikation.jpg>
-Package pdftex.def Info: images/blumentopfApplikation.jpg  used on input line 6
-5.
-(pdftex.def)             Requested size: 367.89944pt x 825.12991pt.
+<images/topfPoster.jpg, id=38, 1606.0pt x 1312.905pt>
+File: images/topfPoster.jpg Graphic file (type jpg)
+<use images/topfPoster.jpg>
+Package pdftex.def Info: images/topfPoster.jpg  used on input line 65.
+(pdftex.def)             Requested size: 1009.33482pt x 825.12991pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
@@ -1116,7 +1115,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--149
 
 {c:/LaTeX/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/LaTeX/t
 exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/log
-o_hs_technik.png> <./images/logo.png> <./images/blumentopfApplikation.jpg>]
+o_hs_technik.png> <./images/logo.png> <./images/topfPoster.jpg>]
 (./PosterMagicFaucetFountain.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
@@ -1129,7 +1128,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  37338 strings out of 473190
- 969476 string characters out of 5716853
+ 969333 string characters out of 5716853
  1748749 words of memory out of 5000000
  60093 multiletter control sequences out of 15000+600000
  598839 words of font info for 111 fonts, out of 8000000 for 9000
@@ -1140,7 +1139,7 @@ Here is how much of TeX's memory you used:
 LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/LaTe
 X/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/LaTeX/t
 exlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2986.pfb>
-Output written on PosterMagicFaucetFountain.pdf (1 page, 106674 bytes).
+Output written on PosterMagicFaucetFountain.pdf (1 page, 126486 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
