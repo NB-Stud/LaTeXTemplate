@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  7 JUN 2025 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,9 +1046,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 \verbatim@out=\write5
-runsystem(touch w18-test-202567816.tex)...disabled (restricted).
+runsystem(touch w18-test-20256191025.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202567816.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20256191025.tex)...disabled (restricted).
 
 runsystem(rm -f ""Präsentation Magic Faucet Fountain".gnuploterrors")...disabl
 ed (restricted).
@@ -1454,8 +1454,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count506
 \@quotereset=\count507
 (./Präsentation Magic Faucet Fountain.aux (./slides/Titelfolie.aux)
-(./slides/Inhalt.aux) (./slides/Abschluss.aux)
-(./slides/Literaturverzeichnis.aux))
+(./slides/Inhalt.aux) (./slides/Abschluss.aux))
 \openout1 = `"Präsentation Magic Faucet Fountain.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -1641,7 +1640,7 @@ Package biblatex Info: Reference segment=0 on input line 43.
 \c@lstlisting=\count514
 
 (./Präsentation Magic Faucet Fountain.nav)
-<img/technik.jpg, id=37, 231.9867pt x 77.8107pt>
+<img/technik.jpg, id=33, 231.9867pt x 77.8107pt>
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 43.
@@ -1682,7 +1681,7 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
 
-<img/hintergrund2.png, id=38, 986.68625pt x 473.77pt>
+<img/hintergrund2.png, id=34, 986.68625pt x 473.77pt>
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
 Package pdftex.def Info: img/hintergrund2.png  used on input line 30.
@@ -1762,10 +1761,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 26.
+Package pdftex.def Info: img/technik.jpg  used on input line 29.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 26--26
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 29--29
 [][]  
  []
 
@@ -1773,11 +1772,11 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 26--26
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 26.
+Package pdftex.def Info: img/hintergrund2.png  used on input line 29.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 26.
+Package pdftex.def Info: img/technik.jpg  used on input line 29.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1789,10 +1788,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 32.
+Package pdftex.def Info: img/technik.jpg  used on input line 36.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 32--32
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 36--36
 [][]  
  []
 
@@ -1800,11 +1799,11 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 32--32
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 32.
+Package pdftex.def Info: img/hintergrund2.png  used on input line 36.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 32.
+Package pdftex.def Info: img/technik.jpg  used on input line 36.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1816,10 +1815,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 38.
+Package pdftex.def Info: img/technik.jpg  used on input line 42.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 38--38
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 42--42
 [][]  
  []
 
@@ -1827,11 +1826,11 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 38--38
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 38.
+Package pdftex.def Info: img/hintergrund2.png  used on input line 42.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 38.
+Package pdftex.def Info: img/technik.jpg  used on input line 42.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1843,10 +1842,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 51.
+Package pdftex.def Info: img/technik.jpg  used on input line 110.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 51--51
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 110--110
 [][]  
  []
 
@@ -1854,11 +1853,11 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 51--51
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 51.
+Package pdftex.def Info: img/hintergrund2.png  used on input line 110.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 51.
+Package pdftex.def Info: img/technik.jpg  used on input line 110.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1870,10 +1869,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 ]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 57.
+Package pdftex.def Info: img/technik.jpg  used on input line 119.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 57--57
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 119--119
 [][]  
  []
 
@@ -1881,11 +1880,11 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 57--57
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 57.
+Package pdftex.def Info: img/hintergrund2.png  used on input line 119.
 (pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 57.
+Package pdftex.def Info: img/technik.jpg  used on input line 119.
 (pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
 
 Overfull \hbox (1.09102pt too wide) has occurred while \output is active
@@ -1893,6 +1892,87 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
  []
 
 [8
+
+]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 127.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 127--127
+[][]  
+ []
+
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 127.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 127.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[9
+
+]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 140.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 140--140
+[][]  
+ []
+
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 140.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 140.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[10
+
+]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 146.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 146--146
+[][]  
+ []
+
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 146.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 146.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[11
 
 ])
 \openout2 = `Slides/Abschluss.aux'.
@@ -1922,73 +2002,10 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 [][]  
  []
 
-[9
+[12
 
 
 
-
-])
-\openout2 = `Slides/Literaturverzeichnis.aux'.
-
- (./slides/Literaturverzeichnis.tex
-File: img/technik.jpg Graphic file (type jpg)
-<use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 15.
-(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
-
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 15--15
-[][]  
- []
-
-
-
-File: img/hintergrund2.png Graphic file (type png)
-<use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 15.
-(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
-File: img/technik.jpg Graphic file (type jpg)
-<use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 15.
-(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
-
-Overfull \hbox (1.09102pt too wide) has occurred while \output is active
-[][]  
- []
-
-[10
-
-
-
-
-]
-File: img/technik.jpg Graphic file (type jpg)
-<use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 31.
-(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
-
-Overfull \hbox (1.09102pt too wide) in paragraph at lines 31--31
-[][]  
- []
-
-
-LaTeX Warning: Empty bibliography on input line 31.
-
-
-
-File: img/hintergrund2.png Graphic file (type png)
-<use img/hintergrund2.png>
-Package pdftex.def Info: img/hintergrund2.png  used on input line 31.
-(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
-File: img/technik.jpg Graphic file (type jpg)
-<use img/technik.jpg>
-Package pdftex.def Info: img/technik.jpg  used on input line 31.
-(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
-
-Overfull \hbox (1.09102pt too wide) has occurred while \output is active
-[][]  
- []
-
-[11
 
 ])
 \tf@nav=\write8
@@ -2001,46 +2018,37 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 \openout10 = `"Präsentation Magic Faucet Fountain.snm"'.
 
  (./Präsentation Magic Faucet Fountain.aux (./slides/Titelfolie.aux)
-(./slides/Inhalt.aux) (./slides/Abschluss.aux)
-(./slides/Literaturverzeichnis.aux))
+(./slides/Inhalt.aux) (./slides/Abschluss.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `"Präsentation Magic Faucet Fountain".out' h
 as not changed.
-(rerunfilecheck)             Checksum: 87AE8030EA528538C7D53B5B9426B9E0;805.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                "Präsentation Magic Faucet Fountain"
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 402BB9D4E29838034619437E3F61970F;662.
 Package logreq Info: Writing requests to '"Präsentation Magic Faucet Fountain"
 .run.xml'.
 \openout1 = `"Präsentation Magic Faucet Fountain.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38485 strings out of 473190
- 792985 string characters out of 5716853
- 1427770 words of memory out of 5000000
+ 38481 strings out of 473190
+ 792355 string characters out of 5716853
+ 1425257 words of memory out of 5000000
  60983 multiletter control sequences out of 15000+600000
- 563851 words of font info for 54 fonts, out of 8000000 for 9000
+ 564145 words of font info for 55 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,21n,123p,1907b,2267s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
 c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/
-LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/LaT
-eX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on "Präsentation Magic Faucet Fountain.pdf" (11 pages, 225823 b
+LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/LaTe
+X/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/LaTeX/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on "Präsentation Magic Faucet Fountain.pdf" (12 pages, 243574 b
 ytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
- 29 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

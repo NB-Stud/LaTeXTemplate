@@ -85,7 +85,7 @@ Das Projekt Magic Faucen Fountain beschäftigt sich mit der Umsetzung eines Brun
 
 Dieser Effekt wird durch ein transparentes Acrylrohr realisiert, das sowohl den Wasserfluss leitet als auch die tragende Struktur für den Hahn darstellt. Da das Rohr hinter dem gleichmäßig fließenden Wasser optisch kaum wahrnehmbar ist, entsteht der Eindruck eines schwebenden Hahns.
 
-Der Wasserstrom wird über eine kleine elektrische Pumpe erzeugt, die über ein MOS-FET angesteuert wird. Der MOS-FET fungiert als elektronischer Schalter und wird von einem digitalen Ausgang des Arduino-Boards gesteuert. Der Arduino ist über Bluetooth mit einer mobilen App verbunden. Über die App kann der Benutzer den Brunnen bequem ein- und ausschalten.
+Der Wasserstrom wird über eine kleine elektrische Pumpe erzeugt, die über ein Relais angesteuert wird. Das Relais fungiert als elektronischer Schalter und wird von einem digitalen Ausgang des Arduino-Boards gesteuert. Der Arduino ist über Bluetooth mit einer mobilen App verbunden. Über die App kann der Benutzer den Brunnen bequem ein- und ausschalten.
 
 Ein weiterer Bestandteil des Systems ist ein Ultraschallsensor, der den Wasserstand im Vorratsbehälter misst. Der aktuelle Füllstand wird ebenfalls in der App angezeigt, wodurch der Benutzer rechtzeitig erkennen kann, wann Wasser nachgefüllt werden muss.
 
@@ -97,16 +97,14 @@ Zentral im Deckel befindet sich eine Durchgangsbohrung, durch die ein transparen
 
 Seitlich im Deckel befinden sich zusätzliche Rücklaufbohrungen, über die das Wasser zurück in den Blumentopf gelangt. Eine im Inneren platzierte Wasserpumpe sorgt für den geschlossenen Wasserkreislauf, indem sie das Wasser wieder nach oben in das Acrylrohr befördert.
 
-An der Unterseite des Deckels ist eine Gewindeaufnahme integriert, an der ein senkrecht montiertes Führungsrohr angebracht ist. In diesem Rohr befindet sich ein frei beweglicher Schwimmer, der den Wasserstand abbildet. Das Rohr ist unten mit einem fest montierten Deckel verschlossen, in den ein Gitter direkt eingearbeitet ist. Dieses verhindert das Herausfallen des Schwimmers, ermöglicht aber den Wassereintritt. Über der Rohröffnung ist ein Ultraschallsensor montiert, der den Abstand zum Schwimmer misst und so den Wasserstand erkennt.
-
-Die elektronischen und steuerungstechnischen Komponenten wie Arduino, MOS-FET, Spannungsversorgung, Bluetooth-Modul sowie die Status-LEDs und der Kippschalter befinden sich in einem separaten Gehäuse, das als elektronischer Kasten (E-Kasten) ausgeführt ist. Dieser Kasten schützt die Elektronik vor Feuchtigkeit und erlaubt einen strukturierten, servicefreundlichen Aufbau. Die Leitungen zur Pumpe, zum Ultraschallsensor und zu den LEDs werden durch entsprechende Kabeldurchführungen zwischen dem E-Kasten und der Hauptbaugruppe verbunden.
+Die elektronischen und steuerungstechnischen Komponenten wie Arduino, Relais, Spannungsversorgung sowie die Status-LEDs und der Kippschalter befinden sich in einem separaten Gehäuse, das als elektronischer Kasten (E-Kasten) ausgeführt ist. Dieser Kasten schützt die Elektronik vor Feuchtigkeit und erlaubt einen strukturierten, servicefreundlichen Aufbau. Die Leitungen zur Pumpe, zum Ultraschallsensor und zu den LEDs werden durch entsprechende Kabeldurchführungen zwischen dem E-Kasten und der Hauptbaugruppe verbunden.
 
 Zur optischen Aufwertung kann die Oberseite des Deckels mit dekorativen Steinen oder anderen Gestaltungselementen versehen werden, wodurch die technische Funktion harmonisch in ein ästhetisches Gesamtbild eingebettet wird.
 
 \subsection{Abmaße}
-Da der endgültige Aufbau des Projekts „Magic Faucet Fountain“ zum Zeitpunkt der Dokumentation noch nicht erfolgt ist, können die Abmessungen lediglich auf Basis der entworfenen Komponenten und Gehäusekonzepte geschätzt werden. Die Steuerungseinheit inklusive Arduino, MOS-FET-Schaltung und Stromversorgung soll in einem kompakten Gehäuse untergebracht werden. Die Wasserinstallation mit Pumpe und transparentem Rohrsystem wird so dimensioniert, dass sie sich auf einer Fläche von ca. 40 cm × 40 cm bei einer Höhe von maximal 60 cm aufbauen lässt. Genauere Angaben erfolgen nach Fertigstellung des physischen Prototyps.
-\section{Hardware-Schnittstellen}
+Da der endgültige Aufbau des Projekts „Magic Faucet Fountain“ zum Zeitpunkt der Dokumentation noch nicht erfolgt ist, können die Abmessungen lediglich auf Basis der entworfenen Komponenten und Gehäusekonzepte geschätzt werden. Die Steuerungseinheit inklusive Arduino, Relais-Schaltung und Stromversorgung soll in einem kompakten Gehäuse untergebracht werden. Die Wasserinstallation mit Pumpe und transparentem Rohrsystem wird so dimensioniert, dass sie sich auf einer Fläche von ca. 40 cm × 40 cm bei einer Höhe von maximal 80 cm aufbauen lässt.
 
+\section{Hardware-Schnittstellen}
 Die Magic Faucet Fountain besteht aus verschiedenen Hardware-Komponenten, welche durch physische Verbindungen miteinander kommunizieren und Daten austauschen. In diesem Kapitel sollen diese Schnittstellen mit Schaltplänen veranschaulicht mittels dieser erklärt werden.
 
 \subsection{Schaltpläne}
@@ -114,7 +112,7 @@ Die Magic Faucet Fountain besteht aus verschiedenen Hardware-Komponenten, welche
 Die im Schaltplan in Abbildung \ref{SchaltplanVersorgung} dargestellten Komponenten umfassen den Netzanschluss (230 V AC / 50 Hz) sowie das Schaltnetzteil vom Typ MW RD-50A. Dieses wandelt die Netzspannung in geregelte Gleichspannungen von 5 V und 12 V DC um, die für den Betrieb der Steuereinheit und der Aktoren erforderlich sind. Der Anschluss erfolgt über:
 \begin{itemize}
 	\item 3-adriges Netzkabel (\(1{,}5\,\text{mm}^2\))
-	\item 4-adriges Verbindungskabel (\(0{,}5\,\text{mm}^2\)) für:
+	\item 4 Verbindungskabel (\(0{,}5\,\text{mm}^2\)) für:
 	\begin{itemize}
 		\item +5 V (z. B. Arduino, BT-Modul)
 		\item GND (5 V)
@@ -184,10 +182,9 @@ Die im Schaltplan in Abbildung \ref{SchaltplanVersorgung} dargestellten Komponen
 \end{figure}
 
 \subsubsection{5 V Netz mit Arduino und Ultraschallsensor}
-Im Schaltplan \ref{5VSchaltplan} sind der Arduino Nano, das HC-05 Bluetooth-Modul und die Stromversorgung durch das Netzteil als Komponenten zu entnehmen. Es lassen sich folgende Schnittstellen aus der Schaltung herleiten:
+Im Schaltplan \ref{5VSchaltplan} sind der Arduino Nano, der Ultraschallsensor und die Stromversorgung durch das Netzteil als Komponenten zu entnehmen. Es lassen sich folgende Schnittstellen aus der Schaltung herleiten:
 	\begin{itemize}
-	\item UART-Schnittstelle für die Bluetooth-Kommunikation (siehe TXD/RXD Verbindung zwischen Arduino und HC-05
-	\item Digitale Ausgänge D2, D3, D4 zur Steuerung der Gate-Anschlüsse der MOS-FET-Schaltung für die Pumpe und LEDs
+	\item Digitale Ausgänge D2, D3, D4 zur Steuerung der Sig-Anschlüsse der Relais für die Pumpe und LEDs
 	\item Spannungsversorgung 5 V / GND
 \end{itemize}
 
@@ -301,7 +298,7 @@ Im Schaltplan \ref{5VSchaltplan} sind der Arduino Nano, das HC-05 Bluetooth-Modu
 	}%
 \end{figure}
 
-Der Arduino verarbeitet die über das Bluetooth-Modul eingehenden Steuerbefehle und schaltet gezielt die Ausgänge zur Ansteuerung der Aktoren. Über den HC-05 erfolgt die drahtlose Verbindung mit einem Smartphone.
+Der Arduino verarbeitet die über das Bluetooth-Modul eingehenden Steuerbefehle und schaltet gezielt die Ausgänge zur Ansteuerung der Aktoren. Über das integrierte BLE-Modul erfolgt die drahtlose Kommunikation mit dem Smartphone.
 
 
 
@@ -317,7 +314,7 @@ Komponenten dieser Schaltung sind: 3x 5V-Relais, LED-Leuchten (grün und blau) u
 	\end{tabular}
 	\label{AnsteuerungArduino}
 \end{center}
-Die +Vin-Anschlüsse der Aktoren erhalten jeweils die notwendige Betriebsspannung direkt vom Netzteil, während die Schaltung über den MOS-FET den Stromfluss zum Masseanschluss (GND) kontrolliert. Eine detaillierte Darstellung der Schaltung ist in Abbildung \ref{12VSchaltplan} zu finden.
+Eine detaillierte Darstellung der Schaltung ist in Abbildung \ref{12VSchaltplan} zu finden.
 \begin{figure}[H]
 	\centering
 	\caption{5/12 V Netz mit Aktoren}
@@ -472,14 +469,13 @@ Die +Vin-Anschlüsse der Aktoren erhalten jeweils die notwendige Betriebsspannun
 \end{figure}
 
 \section{Software-Schnittstellen}
-In dem Projekt Magic Faucet Fountain, bei dem ein Mikrokontroller bzw. der Arduino und ein Bluetooth-Modul (hier: HC-05) verwendet werden, beziehen sich Software-Schnittstellen auf die programmatische Kommunikation und Steuerung zwischen den Systemkomponenten. 
+In dem Projekt Magic Faucet Fountain, wird die nRF Connect-App als Software-Schnittstelle zum Arduino verwendet. Diese kommuniziert über BLE mit dem Arduino. Mit der App kann man den Magic Faucet Fountain steuern, Messdaten empfangen und Statusmeldungen abgreifen.
 
 \subsubsection{Bluetooth-Kommunikationsschnittstelle}
 Die an der Bluetooth-Kommunikation beteiligten Komponenten sind der Arduino mit seinem integrierten BLE-Modul und das Smartphone mit der nRF-Connect-App. 
-Die serielle Kommunikation über UART (TX/RX) stellt die Hauptschnittstelle für die Steuerung dar. Eine Bluetooth-App sendet ASCII-Befehle oder einfache Steuersignale an den Arduino. Dieser wertet die empfangenen Daten aus und aktiviert über seine digitalen Pins die entsprechenden MOS-FET-Schaltungen.
 
 \subsubsection{Arduino-Programmierschnittstelle}
-Der Arduino Mikrokontroller wird mit einem Arduino Sketch (Arduino DIE) programmiert, der folgende Aufgaben übernimmt:
+Der Arduino Mikrokontroller wird mit einem Arduino Sketch (Arduino IDE) programmiert, der folgende Aufgaben übernimmt:
 \begin{itemize}
 	\item Initialisierung der Pins
 	\item Einrichtung der seriellen Schnittstelle (Serial.begin(9600))
@@ -490,8 +486,8 @@ Der Arduino Mikrokontroller wird mit einem Arduino Sketch (Arduino DIE) programm
 \subsubsection{Anwendungsprogrammierschnittstelle auf Befehlsebene}
 Die Bluetooth-App kommuniziert mit dem Arduino über eine einfache Befehlssprache, z.B.:
 \begin{itemize}
-	\item „On1“: LED ein
-	\item „Off3“: Pumpe aus
+	\item „EIN“: Pumpe ein
+	\item „AUS“: Pumpe aus
 \end{itemize}
 Der Arduino-Sketch interpretiert diese Befehle als Teil eines einfachen protokollbasierten Interfaces. Diese Art der Schnittstelle ist textbasiert.
 
@@ -571,7 +567,7 @@ Zur Veranschaulichung des Zusammenspiels der beschriebenen Software-Schnittstell
 
 \begin{code}[H]
 	\label{code:codeApplikation}
-	\ArduinoExternal{}{../../Code/Arduino/Applikation/ablaufApplikation/ablaufApplikation.ino}
+	%\ArduinoExternal{}{../../Code/Arduino/Applikation/ablaufApplikation/ablaufApplikation.ino}
 \end{code}
 
 \section{Installation}
@@ -598,9 +594,8 @@ Alle elektronischen Komponenten sind im separaten E-Kasten untergebracht, der au
 Folgende Komponenten sind dort integriert:
 \begin{itemize}
     \item Arduino-Mikrocontroller, als zentrale Steuereinheit.
-    \item MOS-FET-Schaltkreis zur Ansteuerung der Tauchpumpe, die das Wasser durch das Acrylrohr fördert.
+    \item Relais-Schaltkreis zur Ansteuerung der Tauchpumpe, die das Wasser durch das Acrylrohr fördert.
     \item Ultraschallsensor, über digitale Pins mit dem Arduino verbunden.
-    \item Bluetooth-Modul, über serielle Schnittstelle angebunden.
     \item Zwei Status-LEDs:
     	\begin{itemize}
         \item Grüne LED: zeigt den Betriebszustand an – leuchtet, wenn der Kippschalter eingeschaltet ist.
@@ -611,65 +606,35 @@ Folgende Komponenten sind dort integriert:
     \item Alle Verbindungen zur Pumpe, zu den Sensoren und zu den LEDs sind über robuste Steckverbindungen aus dem E-Kasten herausgeführt.
 \end{itemize}
 
-\subsection{Software und App-Verbindung}
-\begin{itemize}
-\item Nach dem Einschalten über den Kippschalter (→ grüne LED leuchtet), startet der Arduino.
-\item Die Bluetooth-Verbindung wird automatisch aktiviert (→ blaue LED blinkt).
-\item Über eine passende Smartphone-App kann:
-    \begin{itemize}
-	\item Die Pumpe ein- und ausgeschaltet werden.
-	\item Der aktuelle Wasserstand basierend auf den Sensordaten angezeigt werden.
-	\item Der Bluetooth-Status überwacht werden.
-    \end{itemize}
-\end{itemize}
-\subsection{Software und App-Verbindung}
-\begin{enumerate}
-	\item Wasser einfüllen: Der Topf wird so weit befüllt, dass die Pumpe vollständig untergetaucht ist.
-	\item System einschalten: Kippschalter betätigen → grüne LED zeigt Betriebsbereitschaft.
-	\item Bluetooth koppeln: Verbindung mit der App herstellen → blaue LED bleibt dauerhaft an.
-	\item Funktionstest: Pumpe über App starten, Wasserfluss beobachten.
-\end{enumerate}
-\section{Konfiguration}
+\subsection{Software}
+Damit der Magic Faucet Fountain vollständig genutzt werden kann, ist die App \textit{nRF Connect} zwingend erforderlich. Stellen Sie sicher, dass diese auf Ihrem Smartphone installiert ist, mehr Infos im Kapitel \ref{chap:einstiegNRF}. Sobald diese installiert ist, kann die Konfiguration und Inbetriebnahme des Magic Faucet Fountain beginnen.
+
+\section{Konfiguration und Inbetriebnahme}
 Die Konfiguration des Magic Faucet Fountain umfasst die Inbetriebnahme und Abstimmung der elektronischen Komponenten sowie die Kopplung mit der mobilen App. Ziel ist es, die Steuerung des Brunnens per Bluetooth zuverlässig zu ermöglichen und eine präzise Füllstandsanzeige über den Ultraschallsensor bereitzustellen.
-\begin{enumerate}
-	\item Elektrische Inbetriebnahme
-	\begin{itemize}
-		\item Vor dem Einschalten müssen alle elektrischen Verbindungen überprüft werden: Die Pumpe, der Ultraschallsensor, die Status-LEDs, der MOS-FET, der Kippschalter und das Bluetooth-Modul müssen korrekt mit dem Arduino verbunden sein.
-		\item Die Stromversorgung wird über den Kippschalter aktiviert. Beim Einschalten leuchtet die grüne Betriebs-LED zur Bestätigung.
-	\end{itemize}
-	\item Bluetooth-Konfiguration
-	\begin{itemize}
-		\item Nach dem Einschalten beginnt die blaue LED zu blinken, was signalisiert, dass das Bluetooth-Modul aktiv ist und auf eine Verbindung wartet.
-		\item Über die App wird das Bluetooth-Modul des Brunnens gesucht und gekoppelt. Nach erfolgreicher Verbindung wechselt die blaue LED von Blinken auf Dauerlicht.
-		\item Die App ermöglicht das manuelle Ein- und Ausschalten der Pumpe sowie die Anzeige des aktuellen Wasserstands.
-	\end{itemize}
-	\item Füllstanderfassung
-		\begin{itemize}
-		\item Der Ultraschallsensor misst kontinuierlich den Abstand zum Schwimmer im Führungsrohr. Die Werte werden vom Arduino verarbeitet und über Bluetooth an die App gesendet.
-		\item In der App wird der Wasserstand durch einen Ladebalken visualisiert und zusätzlich als Zahlenwert in Millilitern angegeben.
-	\end{itemize}
-	\item Software-Einstellungen
-	\begin{itemize}
-		\item Die Arduino-Firmware enthält die Steuerlogik für:
-		\begin{itemize}
-			\item Die Pumpensteuerung (an/aus via MOS-FET).
-			\item Die Auswertung der Ultraschallsensordaten.
-			\item Die Ansteuerung der Status-LEDs.
-		\end{itemize}
-	\end{itemize}
-	\item Systemtest
-		\begin{itemize}
-		\item Nach der vollständigen Konfiguration sollte ein Testlauf durchgeführt werden, bei dem:
-		\begin{itemize}
-			\item Die Bluetooth-Verbindung getestet wird.
-			\item Der Wasserstand korrekt in der App angezeigt wird.
-			\item Die Pumpe zuverlässig über die App geschaltet werden kann.
-			\item Die LEDs den korrekten Verbindungs- und Betriebsstatus anzeigen.
-		\end{itemize}
-		\item Über die App wird das Bluetooth-Modul des Brunnens gesucht und gekoppelt. Nach erfolgreicher Verbindung wechselt die blaue LED von Blinken auf Dauerlicht.
-		\item Die App ermöglicht das manuelle Ein- und Ausschalten der Pumpe sowie die Anzeige des aktuellen Wasserstands.
-	\end{itemize}
-\end{enumerate}
+
+\subsection{Elektrische Inbetriebnahme}
+\begin{itemize}
+	\item Vor dem Einschalten müssen alle elektrischen Verbindungen überprüft werden: Die Pumpe, der Ultraschallsensor, die Status-LEDs, die Relais, der Kippschalter und das Bluetooth-Modul müssen korrekt mit dem Arduino verbunden sein.
+	\item Die Stromversorgung wird über den Kippschalter aktiviert. Beim Einschalten leuchtet die grüne Betriebs-LED zur Bestätigung.
+\end{itemize}
+
+\subsection{Installation und Konfiguration mit nRF Connect}
+\textbf{Hier fehlen noch Screenshots wie man die App einrichtet und benutzt mit der Applikation}
+
+\subsection*{Verbindung mit der Applikation herstellen}
+
+\subsection*{App-Ansicht}
+
+\subsection*{Steuerung des Magic Faucet Fountain}
+
+\begin{itemize}
+	\item Nach dem Einschalten beginnt die blaue LED zu blinken, was signalisiert, dass Bluetooth aktiv ist und auf eine Verbindung wartet.
+	\item Über die App wird das Bluetooth-Modul des Brunnens gesucht und gekoppelt. Nach erfolgreicher Verbindung wechselt die blaue LED von Blinken auf Dauerlicht.
+	\item Die App ermöglicht das manuelle Ein- und Ausschalten der Pumpe sowie die Anzeige des aktuellen Wasserstands.
+\end{itemize}
+
+
+
 \section{Einschränkungen}
 Da das Projekt sich noch in der finalen Planungs- und Dokumentationsphase befindet, konnten einige Einschränkungen nur theoretisch erkannt werden:
 \begin{itemize}
@@ -679,11 +644,5 @@ Da das Projekt sich noch in der finalen Planungs- und Dokumentationsphase befind
 	\item Platzbedarf und Montage könnten im späteren Aufbau auf bisher nicht eingeplante bauliche Herausforderungen stoßen.
 \end{itemize}
 
-%\section{Schlussfolgerung}
-%Zusammenfassung der Projektergebnisse
-
-%Reflexion über die Zielerreichung
-
-%Mögliche Weiterentwicklungen und zukünftige Anwendungen
 
 
