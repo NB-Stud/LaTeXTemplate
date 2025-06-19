@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 19:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 19:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,9 +1046,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 \verbatim@out=\write5
-runsystem(touch w18-test-20256191173.tex)...disabled (restricted).
+runsystem(touch w18-test-20256191193.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20256191173.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20256191193.tex)...disabled (restricted).
 
 runsystem(rm -f ""Präsentation Magic Faucet Fountain".gnuploterrors")...disabl
 ed (restricted).
@@ -1931,10 +1931,6 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 140--140
  []
 
 
-LaTeX Warning: Reference `fig:blumentopfApplikation' on page 10 undefined on in
-put line 140.
-
-
 
 File: img/hintergrund2.png Graphic file (type png)
 <use img/hintergrund2.png>
@@ -1961,6 +1957,12 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 151--151
 [][]  
  []
 
+<images/blumentopfApplikation.jpg, id=312, 632.3625pt x 1418.29875pt>
+File: images/blumentopfApplikation.jpg Graphic file (type jpg)
+<use images/blumentopfApplikation.jpg>
+Package pdftex.def Info: images/blumentopfApplikation.jpg  used on input line 1
+51.
+(pdftex.def)             Requested size: 71.13188pt x 159.51926pt.
 
 
 File: img/hintergrund2.png Graphic file (type png)
@@ -1978,7 +1980,7 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 [11
 
-]
+ <./images/blumentopfApplikation.jpg>]
 File: img/technik.jpg Graphic file (type jpg)
 <use img/technik.jpg>
 Package pdftex.def Info: img/technik.jpg  used on input line 161.
@@ -1988,12 +1990,12 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 161--161
 [][]  
  []
 
-<images/netzteilApplikation.png, id=337, 717.68124pt x 1224.575pt>
+<images/netzteilApplikation.png, id=338, 717.68124pt x 1224.575pt>
 File: images/netzteilApplikation.png Graphic file (type png)
 <use images/netzteilApplikation.png>
 Package pdftex.def Info: images/netzteilApplikation.png  used on input line 161
 .
-(pdftex.def)             Requested size: 56.9055pt x 97.08978pt.
+(pdftex.def)             Requested size: 85.35826pt x 145.63467pt.
 
 
 File: img/hintergrund2.png Graphic file (type png)
@@ -2060,10 +2062,6 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `"Präsentation Magic Faucet Fountain".out' h
 as not changed.
 (rerunfilecheck)             Checksum: 402BB9D4E29838034619437E3F61970F;662.
@@ -2073,27 +2071,23 @@ Package logreq Info: Writing requests to '"Präsentation Magic Faucet Fountain"
 
  ) 
 Here is how much of TeX's memory you used:
- 38496 strings out of 473190
- 792748 string characters out of 5716853
- 1425305 words of memory out of 5000000
- 60994 multiletter control sequences out of 15000+600000
+ 38503 strings out of 473190
+ 792998 string characters out of 5716853
+ 1425344 words of memory out of 5000000
+ 61001 multiletter control sequences out of 15000+600000
  564145 words of font info for 55 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,21n,123p,1907b,2267s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{fig:blumentopfApplikation} has been referenced but 
-does not exist, replaced by a fixed one
-
-<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:
-/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/La
-TeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/LaTeX/
-texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/LaTeX/texl
-ive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Präsentation Magic Faucet Fountain.pdf" (13 pages, 290560 b
+<c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/
+LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/LaTe
+X/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/LaTeX/te
+xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+Output written on "Präsentation Magic Faucet Fountain.pdf" (13 pages, 311773 b
 ytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
+ 435 PDF objects out of 1000 (max. 8388607)
  386 compressed objects within 4 object streams
  35 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
