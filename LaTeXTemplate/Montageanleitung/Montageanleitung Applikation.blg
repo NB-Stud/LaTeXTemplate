@@ -1,0 +1,9 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'Montageanleitung Applikation.blg'
+[84] biber-MSWIN64:340> INFO - === 
+[117] Biber.pm:420> INFO - Reading 'Montageanleitung Applikation.bcf'
+[201] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[210] bbl.pm:676> INFO - Writing 'Montageanleitung Applikation.bbl' with encoding 'UTF-8'
+[210] bbl.pm:779> INFO - Output to Montageanleitung Applikation.bbl
+[210] Biber.pm:131> WARN - The file 'Montageanleitung Applikation.bcf' does not contain any citations!
+[210] Biber.pm:133> INFO - WARNINGS: 1

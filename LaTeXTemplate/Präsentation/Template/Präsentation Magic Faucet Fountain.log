@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  19 JUN 2025 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  20 JUN 2025 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,9 +1046,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 \verbatim@out=\write5
-runsystem(touch w18-test-20256191324.tex)...disabled (restricted).
+runsystem(touch w18-test-20256201018.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20256191324.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20256201018.tex)...disabled (restricted).
 
 runsystem(rm -f ""Präsentation Magic Faucet Fountain".gnuploterrors")...disabl
 ed (restricted).
@@ -2083,7 +2083,7 @@ c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/
 LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/LaTe
 X/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb><c:/LaTeX/te
 xlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on "Präsentation Magic Faucet Fountain.pdf" (13 pages, 311757 b
+Output written on "Präsentation Magic Faucet Fountain.pdf" (13 pages, 311681 b
 ytes).
 PDF statistics:
  435 PDF objects out of 1000 (max. 8388607)
