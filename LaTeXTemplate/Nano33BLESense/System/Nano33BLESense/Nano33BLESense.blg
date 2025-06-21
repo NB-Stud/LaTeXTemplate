@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12980 items from 5000.
+Reallocated field_info (elt_size=4) to 12560 items from 5000.
 Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
@@ -46,16 +46,13 @@ I was expecting a `,' or a `}'---line 999 of file ../../../MLbib/MyLiterature.bi
  :  url = {https://www.mdpi.com/1424-8220/17/12/2898}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "gregory_illusion"
-Warning--I didn't find a database entry for "grieves_digitaltwin"
-Warning--I didn't find a database entry for "remotexy_doc"
 Warning--I didn't find a database entry for "Arduino:2025"
 Biblatex version: 3.20
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 53 entries,
             6402 wiz_defined-function locations,
-            1575 strings with 25334 characters,
+            1572 strings with 25287 characters,
 and the built_in function-call counts, 263434 in all, are:
 = -- 16097
 > -- 6927
