@@ -31,7 +31,7 @@ Die Verbindung muss stabil, sicher und reaktionsschnell sein.
 # Problemlösung
 Dieser Effekt wird durch ein transparentes Acrylrohr realisiert, das sowohl den Wasserfluss leitet als auch die tragende Struktur für den Hahn darstellt. Da das Rohr hinter dem gleichmäßig fließenden Wasser optisch kaum wahrnehmbar ist, entsteht der Eindruck eines schwebenden Hahns.
 
-Der Wasserstrom wird über eine kleine elektrische Pumpe erzeugt, die über ein MOS-FET angesteuert wird. Der MOS-FET fungiert als elektronischer Schalter und wird von einem digitalen Ausgang des Arduino-Boards gesteuert. Der Arduino ist über Bluetooth mit einer mobilen App verbunden. Über die App kann der Benutzer den Brunnen bequem ein- und ausschalten.
+Der Wasserstrom wird über eine kleine elektrische Pumpe erzeugt, die über ein Relais angesteuert wird. Der Relais fungiert als elektronischer Schalter und wird von einem digitalen Ausgang des Arduino-Boards gesteuert. Der Arduino ist über Bluetooth mit einer mobilen App verbunden. Über die App kann der Benutzer den Brunnen bequem ein- und ausschalten.
 
 Ein weiterer Bestandteil des Systems ist ein Ultraschallsensor, der den Wasserstand im Vorratsbehälter misst. Der aktuelle Füllstand wird ebenfalls in der App angezeigt, wodurch der Benutzer rechtzeitig erkennen kann, wann Wasser nachgefüllt werden muss.
 
@@ -56,7 +56,8 @@ LATEXTEMPLATE/
 │   │   └── en/
 │   └── General/
 ├── MLBib/
-│   └── PDF Literatur/
+│   ├── PDF Literatur/
+│   └── Präsentation der Literatur/
 ├── Montageanleitung/
 │   ├── Chapters/
 │   │   ├── de/

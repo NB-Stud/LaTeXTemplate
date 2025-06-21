@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  21 JUN 2025 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  21 JUN 2025 21:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2706,22 +2706,22 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [5]
 Overfull \hbox (0.99997pt too wide) detected at line 160
- []\T1/lmss/bx/n/10 103
- []
-
-
-Overfull \hbox (0.99997pt too wide) detected at line 167
  []\T1/lmss/bx/n/10 107
  []
 
 
+Overfull \hbox (0.99997pt too wide) detected at line 167
+ []\T1/lmss/bx/n/10 111
+ []
+
+
 Overfull \hbox (0.99997pt too wide) detected at line 175
- []\T1/lmss/bx/n/10 115
+ []\T1/lmss/bx/n/10 119
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 184
- []\T1/lmss/bx/n/10 119
+ []\T1/lmss/bx/n/10 123
  []
 
 
@@ -2735,37 +2735,37 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [6]
 Overfull \hbox (4.29994pt too wide) detected at line 197
- []\T1/lmss/bx/n/12 125
+ []\T1/lmss/bx/n/12 129
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 198
- []\T1/lmss/bx/n/10 127
+ []\T1/lmss/bx/n/10 131
  []
 
 
 Overfull \hbox (4.29994pt too wide) detected at line 205
- []\T1/lmss/bx/n/12 131
+ []\T1/lmss/bx/n/12 135
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 206
- []\T1/lmss/bx/n/10 133
+ []\T1/lmss/bx/n/10 137
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 228
- []\T1/lmss/bx/n/10 147
+ []\T1/lmss/bx/n/10 151
  []
 
 
 Overfull \hbox (4.29994pt too wide) detected at line 234
- []\T1/lmss/bx/n/12 149
+ []\T1/lmss/bx/n/12 153
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 235
- []\T1/lmss/bx/n/10 151
+ []\T1/lmss/bx/n/10 155
  []
 
 
@@ -2808,7 +2808,7 @@ Overfull \hbox (2.55548pt too wide) detected at line 246
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 247
- []\T1/lmss/bx/n/10 155
+ []\T1/lmss/bx/n/10 159
  []
 
 
@@ -2844,22 +2844,22 @@ Overfull \hbox (0.76602pt too wide) detected at line 261
 
 
 Overfull \hbox (4.29994pt too wide) detected at line 261
- []\T1/lmss/bx/n/12 157
+ []\T1/lmss/bx/n/12 161
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 262
- []\T1/lmss/bx/n/10 159
+ []\T1/lmss/bx/n/10 163
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 264
- []\T1/lmss/bx/n/10 165
+ []\T1/lmss/bx/n/10 169
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 265
- []\T1/lmss/bx/n/10 167
+ []\T1/lmss/bx/n/10 171
  []
 
 )
@@ -6087,7 +6087,21 @@ File: ../../Images/MateriallisteBilder/WASSERHAHN.png Graphic file (type png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/WASSERHAHN.png  used 
 on input line 148.
 (pdftex.def)             Requested size: 92.47145pt x 94.76817pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 156.
+<../../Images/MateriallisteBilder/verbindung.png, id=3276, 662.475pt x 593.2162
+5pt>
+File: ../../Images/MateriallisteBilder/verbindung.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/verbindung.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/verbindung.png  used 
+on input line 153.
+(pdftex.def)             Requested size: 92.47145pt x 82.79625pt.
+<../../Images/MateriallisteBilder/pumpenstand.png, id=3277, 552.8655pt x 473.36
+85pt>
+File: ../../Images/MateriallisteBilder/pumpenstand.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/pumpenstand.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/pumpenstand.png  used
+ on input line 159.
+(pdftex.def)             Requested size: 92.47145pt x 79.17143pt.
+Package cleveref Info: loaded `ngerman' language definitions on input line 162.
 
 
 
@@ -6101,6 +6115,9 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 lder/WAGO2.png> <../../Images/MateriallisteBilder/Ultraschallsensor.png> <../..
 /Images/MateriallisteBilder/Untersetzer.png> <../../Images/MateriallisteBilder/
 Acryglasrohr.png> <../../Images/MateriallisteBilder/Dichtring.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6112,27 +6129,11 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [166 <../../Images/MateriallisteBilder/BOX_UNTEN.png> <../../Images/Materiallis
 teBilder/BOX-DECKEL.png> <../../Images/MateriallisteBilder/SENSORHALTER.png> <.
 ./../Images/MateriallisteBilder/DREHVERSCHLUSS.png> <../../Images/Materialliste
-Bilder/WASSERHAHN.png>]
-Package biblatex Info: Reference segment=135 on input line 164.
-Package biblatex Info: Setting label 'refsegment:0135' on input line 164.
-<../../Images/MateriallisteBilder/Breadboard.png, id=3299, 426.393pt x 175.857p
-t>
-File: ../../Images/MateriallisteBilder/Breadboard.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/Breadboard.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/Breadboard.png  used 
-on input line 170.
-(pdftex.def)             Requested size: 92.47145pt x 38.13588pt.
-<../../Images/MateriallisteBilder/TINY_ml_KIT.png, id=3300, 699.8145pt x 389.05
-35pt>
-File: ../../Images/MateriallisteBilder/TINY_ml_KIT.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/TINY_ml_KIT.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/TINY_ml_KIT.png  used
- on input line 173.
-(pdftex.def)             Requested size: 92.47145pt x 51.40388pt.
-)
-(../../Contents/General/Softwareliste MagicFaucetFountain.tex
+Bilder/WASSERHAHN.png> <../../Images/MateriallisteBilder/verbindung.png> <../..
+/Images/MateriallisteBilder/pumpenstand.png>]
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 15.
+Package cleveref Info: loaded `ngerman' language definitions on input line 168.
+
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -6140,13 +6141,34 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[167 <../../Images/MateriallisteBilder/Breadboard.png> <../../Images/Materialli
+[167]
+Package biblatex Info: Reference segment=135 on input line 170.
+Package biblatex Info: Setting label 'refsegment:0135' on input line 170.
+<../../Images/MateriallisteBilder/Breadboard.png, id=3307, 426.393pt x 175.857p
+t>
+File: ../../Images/MateriallisteBilder/Breadboard.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/Breadboard.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Breadboard.png  used 
+on input line 176.
+(pdftex.def)             Requested size: 92.47145pt x 38.13588pt.
+<../../Images/MateriallisteBilder/TINY_ml_KIT.png, id=3308, 699.8145pt x 389.05
+35pt>
+File: ../../Images/MateriallisteBilder/TINY_ml_KIT.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/TINY_ml_KIT.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/TINY_ml_KIT.png  used
+ on input line 179.
+(pdftex.def)             Requested size: 92.47145pt x 51.40388pt.
+) (../../Contents/General/Softwareliste MagicFaucetFountain.tex
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[168 <../../Images/MateriallisteBilder/Breadboard.png> <../../Images/Materialli
 steBilder/TINY_ml_KIT.png>]
-
-[168
-
-
-]
 chapter 21.
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
@@ -6165,7 +6187,10 @@ Overfull \hbox (76.45273pt too wide) in alignment at lines 17--44
 
 )
 
-[169]
+[169
+
+
+]
 
 [170
 
@@ -6240,12 +6265,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[173]
-
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (169 not 173).
-               Rerun to correct this.
-
-(./Nano33BLESense.aux
+[173] (./Nano33BLESense.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 23.
 )
  ***********
@@ -6278,11 +6298,11 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 109967 strings out of 473190
- 2919748 string characters out of 5716853
- 4635982 words of memory out of 5000000
- 129789 multiletter control sequences out of 15000+600000
- 777604 words of font info for 489 fonts, out of 8000000 for 9000
+ 109956 strings out of 473190
+ 2919752 string characters out of 5716853
+ 4636556 words of memory out of 5000000
+ 129778 multiletter control sequences out of 15000+600000
+ 777608 words of font info for 489 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/eurosym/fe
@@ -6305,10 +6325,10 @@ mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
 lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
 aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (173 pages, 17865889 bytes).
+Output written on Nano33BLESense.pdf (173 pages, 17977663 bytes).
 PDF statistics:
- 4682 PDF objects out of 5155 (max. 8388607)
+ 4685 PDF objects out of 5155 (max. 8388607)
  4265 compressed objects within 43 object streams
  1738 named destinations out of 2073 (max. 500000)
- 117686 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 117696 words of extra memory for PDF output out of 128383 (max. 10000000)
 
