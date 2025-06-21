@@ -1,0 +1,54 @@
+/** @page function_overview Übersicht der Funktionen
+
+# Übersicht der Hauptfunktionen
+
+Diese Seite beschreibt die zentralen Funktionen des Projekts **Magic Faucet Fountain** mit ihrem Zweck und typischem Einsatzzweck.
+
+---
+
+## void setup()
+
+Initialisiert Pins, Bluetooth, Sensor und BLE-Charakteristiken. Muss einmal beim Start aufgerufen werden.
+
+---
+
+## void loop()
+
+Wird in jedem Zyklus aufgerufen. Steuert alle Hauptfunktionen (Bluetooth, Wasserstand, Pumpensteuerung).
+
+---
+
+## void handleBluetoothConnection()
+
+Überprüft, ob eine BLE-Verbindung besteht. Blinkt die LED, wenn nicht verbunden, und startet BLE-Werbung.
+
+---
+
+## void handleWaterLevel(bool forceUpdate)
+
+Misst den Wasserstand mit dem Ultraschallsensor. 
+
+- `forceUpdate = true`: führt sofort eine Messung aus (z. B. beim Start).
+- Automatisiert das Pumpenverhalten und meldet den Wasserstatus via BLE.
+
+---
+
+## void controlPump()
+
+Deaktiviert die Pumpe bei zu hohem oder zu niedrigem Wasserstand. Sicherheitsabschaltung.
+
+---
+
+## void handlePumpCommand()
+
+Liest Befehle von der BLE-App:
+
+- `"an"` schaltet die Pumpe ein (nur bei Normalstand)
+- `"aus"` schaltet die Pumpe aus
+
+Antwortet über die BLE-Charakteristik mit Statusmeldungen.
+
+---
+
+@note Alle Funktionen sind vollständig dokumentiert in der `magicFaucetFountain.cpp`.
+*/
