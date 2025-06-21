@@ -1,0 +1,75 @@
+/** @page parameter_übersicht Parameterübersicht
+# Parameterübersicht – Magic Faucet Fountain
+
+Dieses Dokument beschreibt alle wichtigen Parameter, Konstanten, Pins und BLE-UUIDs des Projekts **Magic Faucet Fountain**, wie sie in `magicFaucetFountain.h` und `magicFaucetFountain.cpp` verwendet werden.
+
+---
+
+## 🔌 Pinbelegung
+
+| Name           | Wert | Beschreibung |
+|----------------|------|--------------|
+| `PIN_PUMPE`    | 2    | Ausgang zur Steuerung der Wasserpumpe (HIGH = an, LOW = aus) |
+| `PIN_BLE_LED`  | 3    | Status-LED zur Anzeige der Bluetooth-Verbindung |
+| `PIN_POWER_LED`| 4    | LED zeigt an, ob das System mit Strom versorgt wird |
+| `TRIG_PIN`     | 9    | Trigger-Pin des Ultraschallsensors |
+| `ECHO_PIN`     | 6    | Echo-Pin des Ultraschallsensors |
+
+---
+
+## 📶 BLE UUIDs
+
+| Name               | UUID                                     | Beschreibung |
+|--------------------|------------------------------------------|--------------|
+| `SERVICE_UUID`     | `19B10000-E8F2-537E-4F6C-D104768A1214`   | Haupt-BLE-Service |
+| `COMMAND_UUID`     | `19B10001-E8F2-537E-4F6C-D104768A1214`   | BLE-Charakteristik für Steuerbefehle (z. B. "an", "aus") |
+| `MEASUREMENT_UUID` | `19B10002-E8F2-537E-4F6C-D104768A1214`   | BLE-Charakteristik zur Übermittlung des Wasserstands |
+| `WATERSTATE_UUID`  | `19B10004-E8F2-537E-4F6C-D104768A1214`   | BLE-Charakteristik zur Übermittlung des Wasserstatus |
+
+---
+
+## 📏 Wasserstand & Sensorik
+
+| Name               | Wert      | Beschreibung |
+|--------------------|-----------|--------------|
+| `UPPER_LIMIT`      | `20` cm   | Oberer Schwellwert: Wenn Wasser höher als 20 cm → "zu voll" |
+| `LOWER_LIMIT`      | `5` cm    | Unterer Schwellwert: Wenn Wasserstand unter 5 cm → "zu niedrig" |
+| `MEASURE_INTERVAL` | `500` ms  | Messintervall in Millisekunden für automatische Messung |
+| `MAX_DISTANCE`     | `200` cm  | Maximale Reichweite des Ultraschallsensors in Zentimetern |
+
+---
+
+## 💧 Wasserstatus (Enum `WaterState`)
+
+| Wert        | Beschreibung |
+|-------------|--------------|
+| `NORMAL`    | Wasserstand ist im gewünschten Bereich |
+| `TOO_LOW`   | Wasserstand ist zu niedrig |
+| `TOO_HIGH`  | Wasserstand ist zu hoch |
+
+---
+
+## 📡 BLE Steuerbefehle (via `COMMAND_UUID`)
+
+| Befehl   | Wirkung |
+|----------|---------|
+| `an`     | Schaltet die Pumpe **ein** (nur wenn Wasserstand `NORMAL` ist) |
+| `aus`    | Schaltet die Pumpe **aus** (immer möglich) |
+
+---
+
+## ⚠️ Sicherheit & Verhalten
+
+- Die **Pumpe wird automatisch deaktiviert**, wenn der Wasserstand `TOO_LOW` oder `TOO_HIGH` ist.
+- Nach dem Start erfolgt eine erste Messung automatisch (`handleWaterLevel(true)`).
+- Die BLE-LED zeigt Verbindungsstatus: **dauerhaft an = verbunden**, **blinkend = nicht verbunden**.
+
+---
+
+## 🔧 Weitere Hinweise
+
+- Das System verwendet die Bibliotheken `ArduinoBLE` und `NewPing`.
+- Die Kommunikation erfolgt über BLE und ist vollständig kompatibel mit einer Smartphone-App oder einem BLE-Terminal zur Steuerung.
+
+---
+*/

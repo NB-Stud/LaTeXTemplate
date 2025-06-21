@@ -221,43 +221,43 @@
 \contentsline {section}{\numberline {16.5}Installation}{145}{section.16.5}%
 \contentsline {subsection}{\numberline {16.5.1}Mechanischer Aufbau}{145}{subsection.16.5.1}%
 \contentsline {subsection}{\numberline {16.5.2}Elektrische Installation}{145}{subsection.16.5.2}%
-\contentsline {subsection}{\numberline {16.5.3}Software}{146}{subsection.16.5.3}%
+\contentsline {subsection}{\numberline {16.5.3}Software}{145}{subsection.16.5.3}%
 \contentsline {section}{\numberline {16.6}Konfiguration und Inbetriebnahme}{146}{section.16.6}%
 \contentsline {subsection}{\numberline {16.6.1}Elektrische Inbetriebnahme}{146}{subsection.16.6.1}%
 \contentsline {subsection}{\numberline {16.6.2}Installation und Konfiguration mit nRF Connect}{146}{subsection.16.6.2}%
-\contentsline {section}{\numberline {16.7}Einschränkungen}{146}{section.16.7}%
-\contentsline {chapter}{\numberline {17}Schlussfolgerungen}{149}{chapter.17}%
-\contentsline {section}{\numberline {17.1}Zusammenfassung der Projektergebnisse}{149}{section.17.1}%
-\contentsline {section}{\numberline {17.2}Reflexion über die Zielerreichung}{149}{section.17.2}%
-\contentsline {section}{\numberline {17.3}Mögliche Weiterentwicklungen}{149}{section.17.3}%
-\contentsline {section}{\numberline {17.4}Zukünftige Anwendungen}{149}{section.17.4}%
-\contentsline {part}{\numberline {VI}Veränderungen im Dokument}{151}{part.6}%
-\contentsline {chapter}{\numberline {18}Kleine Änderungen in \menu {LaTeXTemplate}:}{153}{chapter.18}%
-\contentsline {section}{\numberline {18.1}\menu {Demontageanleitung}}{153}{section.18.1}%
-\contentsline {section}{\numberline {18.2}\menu {Haftungsübernahme}}{153}{section.18.2}%
-\contentsline {section}{\numberline {18.3}\menu {Handbuch Magic Faucet Fountain}}{153}{section.18.3}%
-\contentsline {section}{\numberline {18.4}\menu {MLBib}}{154}{section.18.4}%
-\contentsline {section}{\numberline {18.5}\menu {Montageanleitung}}{154}{section.18.5}%
-\contentsline {section}{\numberline {18.6}\menu {Nano33BLESense}}{154}{section.18.6}%
-\contentsline {section}{\numberline {18.7}\menu {Poster}}{154}{section.18.7}%
-\contentsline {section}{\numberline {18.8}\menu {Präsentation}}{155}{section.18.8}%
-\contentsline {section}{\numberline {18.9}\menu {Xmind}}{155}{section.18.9}%
-\contentsline {section}{\numberline {18.10}\menu {author}}{155}{section.18.10}%
-\contentsline {section}{\numberline {18.11}\menu {README}}{155}{section.18.11}%
-\contentsline {chapter}{\numberline {19}Große Änderungen in \menu {LaTeXTemplate}:}{157}{chapter.19}%
-\contentsline {section}{\numberline {19.1}\menu {Demontageanleitung}}{157}{section.19.1}%
-\contentsline {section}{\numberline {19.2}\menu {Haftungsübernahme}}{157}{section.19.2}%
-\contentsline {section}{\numberline {19.3}\menu {Handbuch Magic Faucet Fountain}}{157}{section.19.3}%
-\contentsline {section}{\numberline {19.4}\menu {MLBib}}{157}{section.19.4}%
-\contentsline {section}{\numberline {19.5}\menu {Montageanleitung}}{157}{section.19.5}%
-\contentsline {section}{\numberline {19.6}\menu {Nano33BLESense}}{157}{section.19.6}%
-\contentsline {section}{\numberline {19.7}\menu {Poster}}{157}{section.19.7}%
-\contentsline {section}{\numberline {19.8}\menu {Präsentation}}{157}{section.19.8}%
-\contentsline {section}{\numberline {19.9}\menu {Xmind}}{157}{section.19.9}%
-\contentsline {section}{\numberline {19.10}\menu {author}}{157}{section.19.10}%
-\contentsline {section}{\numberline {19.11}\menu {README}}{157}{section.19.11}%
-\contentsline {part}{\numberline {VII}Anhang}{159}{part.7}%
-\contentsline {chapter}{\numberline {20}Materialliste Magic Faucet Fountain}{161}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Materialliste nicht verwendeter Materialien}{165}{section.20.1}%
-\contentsline {chapter}{\numberline {21}Softwareliste Magic Faucet Fountain}{167}{chapter.21}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{169}{chapter*.118}%
+\contentsline {chapter}{\numberline {17}Schlussfolgerungen}{151}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Zusammenfassung der Projektergebnisse}{151}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Einschränkungen}{151}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Reflexion über die Zielerreichung}{151}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Mögliche Weiterentwicklungen}{151}{section.17.4}%
+\contentsline {section}{\numberline {17.5}Zukünftige Anwendungen}{151}{section.17.5}%
+\contentsline {part}{\numberline {VI}Veränderungen im Dokument}{153}{part.6}%
+\contentsline {chapter}{\numberline {18}Kleine Änderungen in \menu {LaTeXTemplate}:}{155}{chapter.18}%
+\contentsline {section}{\numberline {18.1}\menu {Demontageanleitung}}{155}{section.18.1}%
+\contentsline {section}{\numberline {18.2}\menu {Haftungsübernahme}}{155}{section.18.2}%
+\contentsline {section}{\numberline {18.3}\menu {Handbuch Magic Faucet Fountain}}{155}{section.18.3}%
+\contentsline {section}{\numberline {18.4}\menu {MLBib}}{156}{section.18.4}%
+\contentsline {section}{\numberline {18.5}\menu {Montageanleitung}}{156}{section.18.5}%
+\contentsline {section}{\numberline {18.6}\menu {Nano33BLESense}}{156}{section.18.6}%
+\contentsline {section}{\numberline {18.7}\menu {Poster}}{156}{section.18.7}%
+\contentsline {section}{\numberline {18.8}\menu {Präsentation}}{157}{section.18.8}%
+\contentsline {section}{\numberline {18.9}\menu {Xmind}}{157}{section.18.9}%
+\contentsline {section}{\numberline {18.10}\menu {author}}{157}{section.18.10}%
+\contentsline {section}{\numberline {18.11}\menu {README}}{157}{section.18.11}%
+\contentsline {chapter}{\numberline {19}Große Änderungen in \menu {LaTeXTemplate}:}{159}{chapter.19}%
+\contentsline {section}{\numberline {19.1}\menu {Demontageanleitung}}{159}{section.19.1}%
+\contentsline {section}{\numberline {19.2}\menu {Haftungsübernahme}}{159}{section.19.2}%
+\contentsline {section}{\numberline {19.3}\menu {Handbuch Magic Faucet Fountain}}{159}{section.19.3}%
+\contentsline {section}{\numberline {19.4}\menu {MLBib}}{159}{section.19.4}%
+\contentsline {section}{\numberline {19.5}\menu {Montageanleitung}}{159}{section.19.5}%
+\contentsline {section}{\numberline {19.6}\menu {Nano33BLESense}}{159}{section.19.6}%
+\contentsline {section}{\numberline {19.7}\menu {Poster}}{159}{section.19.7}%
+\contentsline {section}{\numberline {19.8}\menu {Präsentation}}{159}{section.19.8}%
+\contentsline {section}{\numberline {19.9}\menu {Xmind}}{159}{section.19.9}%
+\contentsline {section}{\numberline {19.10}\menu {author}}{159}{section.19.10}%
+\contentsline {section}{\numberline {19.11}\menu {README}}{159}{section.19.11}%
+\contentsline {part}{\numberline {VII}Anhang}{161}{part.7}%
+\contentsline {chapter}{\numberline {20}Materialliste Magic Faucet Fountain}{163}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Materialliste nicht verwendeter Materialien}{167}{section.20.1}%
+\contentsline {chapter}{\numberline {21}Softwareliste Magic Faucet Fountain}{169}{chapter.21}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{171}{chapter*.123}%

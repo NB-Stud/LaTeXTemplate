@@ -579,12 +579,8 @@ Die Installation des Magic Faucet Fountain gliedert sich in zwei Hauptbereiche: 
 	\begin{itemize}
         	\item Eine zentrale Öffnung zur Durchführung des Acrylrohrs, das den Wasserfluss führt.
         	\item Mehrere Rücklaufbohrungen, durch die Wasser in den Topf zurückfließt.
-	        \item Eine Gewindeaufnahme auf der Unterseite zur Befestigung des Führungsrohrs für den Schwimmer.
 	\end{itemize}
 	\item Das transparente Acrylrohr wird vertikal durch den Deckel geführt und oben mit einem dekorativen Wasserhahn verbunden. Kleine Bohrungen im Rohr direkt unter dem Hahn ermöglichen den sichtbaren Wasseraustritt.
-	\item Das Führungsrohr wird senkrecht unter dem Deckel montiert. Im Inneren befindet sich ein Schwimmer, der sich mit dem Wasserstand bewegt.
-	\item Der untere Abschluss des Führungsrohrs besteht aus einem fest verschlossenen Deckel mit integriertem Gitter, das den Schwimmer sichert und den Wassereintritt erlaubt.
-	\item Der Ultraschallsensor wird oberhalb des Führungsrohrs an der Aufnahme befestigt und misst den Abstand zum Schwimmer zur Bestimmung des Füllstands.
 	\item Auf dem Deckel können zur Gestaltung Dekosteine oder andere Elemente platziert werden.
 \end{itemize}
 
@@ -619,30 +615,83 @@ Die Konfiguration des Magic Faucet Fountain umfasst die Inbetriebnahme und Absti
 \end{itemize}
 
 \subsection{Installation und Konfiguration mit nRF Connect}
-\textbf{Hier fehlen noch Screenshots wie man die App einrichtet und benutzt mit der Applikation}
+Nach erfolgreicher Installation der App \textit{nRF Connect}, wie in Kapitel \ref{chap:einstiegNRF} beschrieben, kann man sich mit dem Magic Faucet Fountain Verbinden. Wenn Sie den Kippschalter betätigen, fängt die grüne LED an zu leuchten und die blaue LED blinkt. Das Signalisiert, dass die Versorgungsspannung vorhanden ist (grün) und dass der Magic Faucet Fountain nach BLE-Geräte in der Nähe sucht (blau). 
 
 \subsection*{Verbindung mit der Applikation herstellen}
+Zuerst öffnet man die \textit{nRF Connect}-App und aktualisiert den \menu{Scanner} durch ein nach unten Wischen oder ein Tippen auf den Bildschirm. Danach sollte der Magic Faucet Fountain in der BLE-Geräteansicht auftauchen. Drücken Sie dann auf \menu{Connect} um sich mit dem Magic Faucet Fountain zu verbinden. Wenn Sie sich erfolgreich verbunden haben, leuchtet die blaue LED konstant und signalisiert eine stabile Verbindung.
+
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/scanApplikation.png}
+		\caption*{1. BLE-Geräte Scannen}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/connectedApplikation.png}
+		\caption*{2. Auf \menu{Connect} tippen}
+	\end{minipage}
+	\caption{Scannen und hinzufügen des Magic Faucet Fountain}
+	\hfill
+\end{figure}
 
 \subsection*{App-Ansicht}
+Wenn Sie nun auf den Magic Faucet Fountain tippen, erscheint der \menu{Attribute Table}, wie in \ref{fig:attributeApplikation} zu sehen, dort können Sie den Magic Faucet Fountain steuern, den Wasserpegel ablesen und Warnmeldungen erhalten. 
+
+\begin{figure}[H]
+	\caption{Die einstellbaren Attribute des Magic Faucet Fountain}
+	\centering
+	\label{fig:attributeApplikation}
+	\includegraphics[width=0.3\textwidth]{nRF Connect/attributeApplikation.png}
+\end{figure}
+
+Um die Attribute zu aktivieren, tippen Sie auf das $\downarrow$-Symbol ganz rechts und wählen Sie als Data Parser \menu{UTF-8} aus \ref{fig:dataApplikation}. Wiederholen Sie den Vorgang bei jedem Attribut:
+
+\begin{figure}[H]
+	\caption{Aktivieren der Attribute}
+	\centering
+	\label{fig:dataApplikation}
+	\includegraphics[width=0.3\textwidth]{nRF Connect/dataApplikation.png}
+\end{figure}
+
+Nachdem sie alle Attribute aktiviert haben, sollte ihre App-Ansicht so aussehen: \ref{fig:data2Applikation}
+\begin{figure}[H]
+	\caption{Aktivierte Attribute}
+	\centering
+	\label{fig:data2Applikation}
+	\includegraphics[width=0.3\textwidth]{nRF Connect/data2Applikation.png}
+\end{figure}
+
+Anhand der UUID lassen sich die Attribute unterscheiden:
+\begin{itemize}
+	\item \menu{19B10000}: Haupt BLE-Service, stellt die Kommunikation her
+	\item \menu{19B10001}: Steuert die Pumpe 
+	\item \menu{19B10002}: Zeigt den Wasserstand an
+	\item \menu{19B10004}: Statusmeldungen
+\end{itemize}
 
 \subsection*{Steuerung des Magic Faucet Fountain}
+Möchten Sie nun die Pumpe an- oder ausschalten, tippen Sie einfach bei \menu{19B10001} auf das $\uparrow$-Symbol. Sie gelangen ins \menu{Write Value}-Menü. Dort stellen Sie \menu{UTF-8} ein und können entweder \glqq An \grqq oder \glqq Aus \grqq schreiben. Die Pumpe wird dann jeweils an- oder ausgeschaltet werden.
 
-\begin{itemize}
-	\item Nach dem Einschalten beginnt die blaue LED zu blinken, was signalisiert, dass Bluetooth aktiv ist und auf eine Verbindung wartet.
-	\item Über die App wird das Bluetooth-Modul des Brunnens gesucht und gekoppelt. Nach erfolgreicher Verbindung wechselt die blaue LED von Blinken auf Dauerlicht.
-	\item Die App ermöglicht das manuelle Ein- und Ausschalten der Pumpe sowie die Anzeige des aktuellen Wasserstands.
-\end{itemize}
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/anApplikation.png}
+		\caption*{\glqq An\grqq}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.3\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{nRF Connect/ausApplikation.png}
+		\caption*{\glqq Aus\grqq}
+	\end{minipage}
+	\caption{Steuerung der Pumpe durch Schreiben von \glqq An \grqq oder \glqq Aus \grqq}
+	\hfill
+\end{figure}
 
-
-
-\section{Einschränkungen}
-Da das Projekt sich noch in der finalen Planungs- und Dokumentationsphase befindet, konnten einige Einschränkungen nur theoretisch erkannt werden:
-\begin{itemize}
-	\item Praxistests fehlen bislang, weshalb reale Probleme bei der Wasserführung, Abdichtung oder elektrischen Sicherheit noch nicht abschließend beurteilt werden können.
-	\item Die Stromversorgung muss bei der Kombination von 5 V- und 12 V-Komponenten mit Bedacht gewählt werden, um Störungen oder Überlastungen zu vermeiden.
-	\item Die Bluetooth-Kommunikation hängt von der Stabilität der Verbindung und der verwendeten App ab, mögliche Verbindungsabbrüche sind noch nicht erprobt.
-	\item Platzbedarf und Montage könnten im späteren Aufbau auf bisher nicht eingeplante bauliche Herausforderungen stoßen.
-\end{itemize}
 
 
 

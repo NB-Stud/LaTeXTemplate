@@ -1,0 +1,139 @@
+/* --- Grundlayout --- */
+body {
+  background-color: white;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+/* Überschriften in kräftigem Blau */
+h1, h2, h3, h4, h5, h6 {
+  color: #007acc; /* VSCode-Blau */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Links blau mit Hover-Effekt */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #005a9e;
+}
+
+/* Tabellen */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f3f3f3;
+  color: #007acc;
+}
+
+/* --- Codeblöcke mit VSCode Dark Theme Farben --- */
+pre, code {
+  font-family: Consolas, "Courier New", monospace;
+  background-color: #1e1e1e; /* VSCode Dark Hintergrund */
+  color: #d4d4d4;            /* VSCode Light Text */
+  border-radius: 5px;
+}
+
+/* Für Inline-Code */
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+}
+
+/* Für mehrzeilige Codeblöcke */
+pre {
+  padding: 12px;
+  overflow-x: auto;
+  margin-bottom: 1em;
+  line-height: 1.4;
+}
+
+/* Syntaxfarben (vereinfacht) */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6a9955; /* grünlich */
+}
+
+.token.punctuation {
+  color: #d4d4d4;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #b5cea8; /* hellgrün */
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #ce9178; /* orange */
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #d4d4d4;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  color: #dcdcaa; /* hellgelb */
+}
+
+.token.keyword {
+  color: #569cd6; /* blau */
+}
+
+.token.regex,
+.token.important {
+  color: #d16969; /* rot */
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+/* Navigation, Footer etc. falls vorhanden */
+div.navigation, footer {
+  background-color: white;
+  color: black;
+}
+
+/* Blöcke und Absätze */
+p {
+  margin-bottom: 1em;
+}

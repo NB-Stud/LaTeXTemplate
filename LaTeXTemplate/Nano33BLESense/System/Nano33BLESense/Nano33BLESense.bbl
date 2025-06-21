@@ -329,6 +329,8 @@
   einem Multimeter korrekt durchgeführt werden. Sie ist besonders hilfreich
   für Einsteiger in die Messtechnik.%
     }
+    \field{note}{\textcolor{blue}{\href{../../../MLbib/PDF
+  Literatur/flukeOnline.pdf}{[pdf]}}}
     \field{title}{Anleitung zum Messen von Widerstand}
     \verb{url}
     \verb https://www.fluke.com/de-de/mehr-erfahren/blog/digitalmultimeter/anle
