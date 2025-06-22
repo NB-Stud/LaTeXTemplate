@@ -37,7 +37,7 @@
     \field{year}{2025}
   \endentry
 
-  \entry{Alles2024}{book}{}{}
+  \entry{Alles:2024}{book}{}{}
     \name{author}{1}{}{%
       {{hash=AM}{%
          family={Alles},
@@ -550,6 +550,7 @@
     \list{publisher}{1}{%
       {Springer}%
     }
+    \keyw{Netzteil, Gleichspannung, Wechselspannung, LED, Diode}
     \strng{namehash}{HM1}
     \strng{fullhash}{HM1}
     \field{labelnamesource}{author}
@@ -559,9 +560,7 @@
     \field{sortinithash}{H}
     \field{abstract}{%
     Dieses Lehrbuch vermittelt elektrotechnische und elektronische Grundlagen
-  mit speziellem Bezug zum Maschinenbau und zur Mechatronik. Es behandelt
-  praxisorientiert Schaltungstechnik, Bauelemente und Anwendungen in modernen
-  technischen Systemen.%
+  mit speziellem Bezug zum Maschinenbau und zur Mechatronik.%
     }
     \field{edition}{5}
     \field{isbn}{978-3-662-67538-0}
@@ -610,6 +609,7 @@
     \list{publisher}{1}{%
       {Prentice Hall}%
     }
+    \keyw{BLE, Implementierung}
     \strng{namehash}{H1}
     \strng{fullhash}{H1}
     \field{labelnamesource}{author}
@@ -752,6 +752,7 @@
     \list{publisher}{1}{%
       {Springer}%
     }
+    \keyw{Werkstoffprüfung, Rückfahrhilfe}
     \strng{namehash}{MG1}
     \strng{fullhash}{MG1}
     \field{labelnamesource}{author}
@@ -763,6 +764,7 @@
     Das Buch behandelt die physikalischen Grundlagen und Anwendungen von
   Ultraschalltechnologie in den Bereichen Medizin und Technik.%
     }
+    \field{isbn}{978-3-662-55441-8}
     \field{title}{Ultraschall in Medizin und Technik}
     \field{year}{2017}
   \endentry
@@ -779,6 +781,7 @@
     \list{publisher}{1}{%
       {Springer}%
     }
+    \keyw{Datenschutz, sichere Übertragung}
     \strng{namehash}{OWW1}
     \strng{fullhash}{OWW1}
     \field{labelnamesource}{author}
@@ -1067,6 +1070,8 @@
     \list{publisher}{1}{%
       {Springer Vieweg}%
     }
+    \keyw{Bluetooth-Modul, Datenübertragung, Verschlüsselung, Reichweite,
+  Sendeleistung}
     \strng{namehash}{SM1}
     \strng{fullhash}{SM1}
     \field{labelnamesource}{author}
@@ -1079,12 +1084,8 @@
   mobiler Kommunikationssysteme, einschließlich Funktechnik, Protokolle und
   Sicherheitsaspekte.%
     }
-    \field{edition}{8}
     \field{isbn}{978-3-658-36963-7}
     \field{title}{Grundkurs Mobile Kommunikationssysteme}
-    \list{location}{1}{%
-      {Köln, Deutschland}%
-    }
     \field{year}{2022}
   \endentry
 
@@ -1098,6 +1099,7 @@
     \list{publisher}{1}{%
       {Springer-Verlag}%
     }
+    \keyw{Relais, Galvanisch, Steuerkreis, Arbeitskreis, Netzrelais}
     \strng{namehash}{S1}
     \strng{fullhash}{S1}
     \field{labelnamesource}{author}
@@ -1109,6 +1111,7 @@
     Das Kapitel Elektromechanische Relais vermittelt alle nötigen Grundlagen
   und weiterführenden Informationen zum Thema Reilais.%
     }
+    \field{isbn}{978-3-540-21205-8}
     \field{pages}{279\bibrangedash 296}
     \field{title}{Handbuch der Mess- und Automatisierungstechnik im Automobil}
     \field{year}{2006}
@@ -1126,6 +1129,7 @@
     \list{publisher}{1}{%
       {Springer-Verlag}%
     }
+    \keyw{Pumpen, Bauarten, Kreiselpumpe, Arbeitsweisen}
     \strng{namehash}{SH1}
     \strng{fullhash}{SH1}
     \field{labelnamesource}{author}
@@ -1138,6 +1142,7 @@
   Funktionsprinzipien, Berechnungsmethoden und konstruktive Ausführungen. Es
   behandelt unterschiedliche Pumpentypen und deren Anwendung in der Technik.%
     }
+    \field{isbn}{978-3-540-08098-5}
     \field{title}{Die Pumpen: Arbeitsweise, Berechnung, Konstruktion}
     \field{year}{2013}
   \endentry
@@ -1193,6 +1198,7 @@
     \list{publisher}{1}{%
       {Springer}%
     }
+    \keyw{Anlagenkennlinie, Bernoulli, Umgebungsdruck}
     \strng{namehash}{SD1}
     \strng{fullhash}{SD1}
     \field{labelnamesource}{author}
@@ -1202,10 +1208,9 @@
     \field{sortinithash}{S}
     \field{abstract}{%
     Dieser Abschnitt des Handbuchs behandelt zentrale Grundlagen des
-  Maschinenbaus mit Schwerpunkt auf technischen Anwendungen und
-  Konstruktionsprinzipien, speziell im Bereich der Fertigung und
-  Maschinentechnik.%
+  Maschinenbaus mit Schwerpunkt auf Pumpen.%
     }
+    \field{isbn}{978-3-658-30272-6}
     \field{pages}{1039\bibrangedash 1053}
     \field{title}{Handbuch Maschinenbau: Grundlagen und Anwendungen der
   Maschinenbau-Technik}
@@ -1349,6 +1354,7 @@
     \list{publisher}{1}{%
       {Springer Vieweg}%
     }
+    \keyw{Laufzeitmessung, Ultraschallsensor, Pegelüberwachung}
     \strng{namehash}{THRRLM1}
     \strng{fullhash}{THRRLM1}
     \field{labelnamesource}{author}
@@ -1359,8 +1365,7 @@
     \field{abstract}{%
     Dieses Handbuch bietet eine umfassende Übersicht über moderne
   Sensortechnik mit Fokus auf Praxisanwendungen und wissenschaftliche
-  Grundlagen. Es behandelt verschiedene Sensortypen, Messprinzipien und
-  Anwendungen in unterschiedlichen technischen Bereichen.%
+  Grundlagen.%
     }
     \field{edition}{2}
     \field{isbn}{978-3-642-29942-1}
