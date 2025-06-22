@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  21 JUN 2025 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  22 JUN 2025 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -143,7 +143,7 @@ Class scrbook Info: Redefining `\numberline' on input line 7459.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 24.
+e 25.
 
 (./General/Packages.tex (c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
@@ -932,7 +932,7 @@ Package nomencl Info: Writing nomenclature file Demontageanleitung.nlo on input
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 25.
+e 26.
 
 (./General/Commands.tex
 LaTeX Info: Redefining \Atan2 on input line 39.
@@ -940,7 +940,7 @@ LaTeX Info: Redefining \Atan2 on input line 39.
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 26.
+e 27.
 
 (./General/TikzDefs.tex
 (c:/texlive/2025/texmf-dist/tex/latex/pgfplots/pgfplots.sty
@@ -1600,24 +1600,24 @@ Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 )
 \openout1 = `Demontageanleitung.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1641,7 +1641,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (./Demontageanleitung.out) (./Demontageanleitung.out)
 \@outlinefile=\write7
@@ -1654,7 +1654,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 35.
+(scrbook)           before \begin{document} on input line 36.
 
 (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
@@ -1665,7 +1665,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 \BKM@id=\count577
 ))
 \c@lstlisting=\count578
-Package tocbasic Info: setting babel extension for `lol' on input line 35.
+Package tocbasic Info: setting babel extension for `lol' on input line 36.
 \scr@dte@lstlisting@maxnumwidth=\skip98
 
 (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionar
@@ -1674,7 +1674,7 @@ File: translations-basic-dictionary-german.trsl (german translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `german'. on input line 35.
+or `german'. on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1736,29 +1736,29 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Demontageanleitung.bbl' found.
 
 (./Demontageanleitung.bbl)
-Package biblatex Info: Reference section=0 on input line 35.
-Package biblatex Info: Reference segment=0 on input line 35.
+Package biblatex Info: Reference section=0 on input line 36.
+Package biblatex Info: Reference segment=0 on input line 36.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 35.
+ on input line 36.
 
-LaTeX Info: Redefining \microtypecontext on input line 35.
-Package microtype Info: Applying patch `item' on input line 35.
-Package microtype Info: Applying patch `toc' on input line 35.
-Package microtype Info: Applying patch `eqnum' on input line 35.
-Package microtype Info: Applying patch `footnote' on input line 35.
-Package microtype Info: Applying patch `verbatim' on input line 35.
-LaTeX Info: Redefining \microtypesetup on input line 35.
+LaTeX Info: Redefining \microtypecontext on input line 36.
+Package microtype Info: Applying patch `item' on input line 36.
+Package microtype Info: Applying patch `toc' on input line 36.
+Package microtype Info: Applying patch `eqnum' on input line 36.
+Package microtype Info: Applying patch `footnote' on input line 36.
+Package microtype Info: Applying patch `verbatim' on input line 36.
+LaTeX Info: Redefining \microtypesetup on input line 36.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 35.
+LaTeX Info: Redefining \showhyphens on input line 36.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1817,7 +1817,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/
 texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./General/blumentopf.jpg>
 ])
-Package tocbasic Info: character protrusion at toc deactivated on input line 43
+Package tocbasic Info: character protrusion at toc deactivated on input line 44
 .
  (./Demontageanleitung.toc)
 \tf@toc=\write8
@@ -1834,7 +1834,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 43
 
 
 ]
-Package tocbasic Info: character protrusion at lof deactivated on input line 47
+Package tocbasic Info: character protrusion at lof deactivated on input line 48
 .
  (./Demontageanleitung.lof)
 \tf@lof=\write9
@@ -1959,7 +1959,7 @@ chapter 4.
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 73.
+LaTeX Warning: Empty bibliography on input line 74.
 
 (./Demontageanleitung.aux)
  ***********
@@ -1990,7 +1990,7 @@ fsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfss2074.pf
 b><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texl
 ive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2488.pfb><c:/texlive/2025/t
 exmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on Demontageanleitung.pdf (15 pages, 226317 bytes).
+Output written on Demontageanleitung.pdf (15 pages, 226208 bytes).
 PDF statistics:
  193 PDF objects out of 1000 (max. 8388607)
  150 compressed objects within 2 object streams
