@@ -349,6 +349,8 @@
     \list{publisher}{1}{%
       {Springer}%
     }
+    \keyw{Pumpe, Kreiselpumpe, Volumenstrom, Förderhöhe, Wirkungsgrad,
+  Bauart}
     \strng{namehash}{G1}
     \strng{fullhash}{G1}
     \field{labelnamesource}{author}
@@ -421,6 +423,8 @@
     \list{publisher}{1}{%
       {Europa Lehrmittel}%
     }
+    \keyw{Schaltnetzteil, Wechselrichter, Gleichrichter, Glättungskondensator,
+  Trafonetzteil, Regelkreis}
     \strng{namehash}{HI1}
     \strng{fullhash}{HI1}
     \field{labelnamesource}{author}
@@ -433,6 +437,7 @@
   und Diagrammen für die Elektrotechnik.%
     }
     \field{edition}{28}
+    \field{isbn}{978-3-8085-3778-7}
     \field{title}{Tabellenbuch Elektrotechnik}
     \field{year}{2018}
   \endentry
@@ -484,6 +489,7 @@
     \list{publisher}{1}{%
       {Springer-Verlag}%
     }
+    \keyw{Ultraschallsensor, Schrankenbetrieb, Signalkontrolle}
     \strng{namehash}{HB1}
     \strng{fullhash}{HB1}
     \field{labelnamesource}{author}
@@ -496,6 +502,7 @@
   Automatisierungstechnik, einschließlich der Erfassung von Signalen,
   Steuerungsstrategien und Regelungstechnik.%
     }
+    \field{isbn}{978-3-658-27322-4}
     \field{title}{Grundlagen Automatisierung: Erfassen-Steuern-Regeln}
     \field{year}{2019}
   \endentry
@@ -512,6 +519,8 @@
     \list{publisher}{1}{%
       {Springer}%
     }
+    \keyw{Umwelteinflüsse, Messungenauigkeiten, Laufzeitmessung,
+  Schrankenbetrieb}
     \strng{namehash}{HE1}
     \strng{fullhash}{HE1}
     \field{labelnamesource}{author}
@@ -524,6 +533,7 @@
   Sensortypen, ihre Funktionsweisen sowie Anwendungen in Wissenschaft und
   Technik.%
     }
+    \field{isbn}{978-3-8348-8635-4}
     \field{title}{Sensoren in Wissenschaft und Technik}
     \field{year}{2012}
   \endentry
@@ -572,6 +582,7 @@
     \list{publisher}{1}{%
       {Springer}%
     }
+    \keyw{Messungenauigkeiten, Ultraschallsensor, Umwelteinflüsse}
     \strng{namehash}{HS1}
     \strng{fullhash}{HS1}
     \field{labelnamesource}{author}
@@ -583,6 +594,7 @@
     Das Buch gibt einen detaillierten Überblick über verschiedene Sensortypen
   und deren Anwendung in der Prozess- und Fabrikautomation.%
     }
+    \field{isbn}{978-3-658-21172-1}
     \field{title}{Sensoren für die Prozess-und Fabrikautomation}
     \field{volume}{5}
     \field{year}{2009}

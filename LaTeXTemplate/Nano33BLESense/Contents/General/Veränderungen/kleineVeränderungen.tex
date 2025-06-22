@@ -16,15 +16,21 @@
 \chapter{Kleine Änderungen in \menu{LaTeXTemplate}:}
 \textbf{Kleine Änderungen sind:} Ergänzungen, Rechtschreibung korrigiert, Dateinamen geändert, auskommentiert, stilistische Ergänzungen
 \section{\menu{Demontageanleitung}}
+\textbf{Änderungen in \menu{Demontageanleitung}}
+\begin{itemize}
+	\item \python{Rename} in \python{Demontageanleitung} umbenannt
+\end{itemize}
 \textbf{Änderungen in \menu{Demontageanleitung > Chapters > de}}
 \begin{itemize}
-	\item \python{Rename} in \python{Demontageanleitung Applikation} umbenannt
 	\item \python{Specifications} entfernt
 	\item \python{SafetyGuidelines} entfernt
 	\item \python{Troubleshooting} entfernt
-	\item \python{Functions} in \python{Funktionen} umbenannt
+	\item \python{Functions} entfernt
 	\item \python{Sketch} entfernt
 	\item \python{TitlePage} in \python{Titelseite} umbenannt
+    	\begin{itemize}
+		\item \python{Titelseite} angepasst, Namen und Matrikelnummer der beteiligten Studierenden eingetragen, Projektnamen angepasst, Bild der Baugruppe eingefügt, Datum abgepasst
+    	\end{itemize}
 	\item \python{ListOfParts} in \python{WerkzeugeHilfsmittel} umbenannt
 	\item \python{SetUp} in \python{Lagerung} umbenannt
 	\item \python{AddOns} in \python{Einleitung} umbenannt
@@ -33,12 +39,22 @@
 	\item \python{MainFunction} entfernt
 	\item \python{Demontageablauf} erstellt
 \end{itemize}
+\textbf{Änderungen im Dokument \python{Demontageableitung}}
+    \begin{itemize}
+	\item \python{Abkuerzungen} auskommentiert
+    \end{itemize}
+
+
 
 \section{\menu{Haftungsübernahme}}
 \begin{itemize}
 	\item \menu{AssumptionOfLiability} umbenannt in \menu{Haftungsübernahme}
 	\item \python{AssumptionOfLiability} umbenannt in \python{Haftungsubernahme}
-	
+	\item \python{TextEnglish} auskommentiert
+	\item \python{TextDeutsch}
+	    \begin{itemize}
+		\item Namen und Matrikelnummer der beteiligten Studierenden eingetragen, Projektnamen angepasst, Datum abgepasst, Komponenten angepasst, Text der Haftungsübernahme angepasst
+       	\end{itemize}
 \end{itemize}
 
 \section{\menu{Handbuch Magic Faucet Fountain}}
@@ -57,11 +73,22 @@
 	\item \python{Sketch} umbenannt in \python{Skizze}
 	\item \python{Specifications} entfernt
 	\item \python{TitlePage} umbenannt in \python{Titelseite}
+	    \begin{itemize}
+		\item \python{Titelseite} angepasst, Namen und Matrikelnummer der beteiligten Studierenden eingetragen, Projektnamen angepasst, Bild der Baugruppe eingefügt, Datum abgepasst
+    	\end{itemize}
 	\item \python{Troubleshooting} in \python{Fehlerbehandlung}
 \end{itemize}
+\textbf{Änderungen im Dokument \python{Handbuch Magic Faucet Fountain}}
+    \begin{itemize}
+	\item \python{Abkuerzungen} auskommentiert
+    \end{itemize}
+
+
 
 \section{\menu{MLBib}}
-	
+\menu{MyLiterature.bib} Datei um die für die Dokumentation verwendeten Quellen ergänzt
+
+
 \section{\menu{Montageanleitung}}
 \textbf{Änderungen in \menu{Montageanleitung > Chapters > de}}
 \begin{itemize}
@@ -77,49 +104,157 @@
 	\item \python{Sketch} entfernt
 	\item \python{Specifications} entfernt
 	\item \python{TitlePage} umbenannt in \python{Titelseite}
+	    \begin{itemize}
+		\item \python{Titelseite} angepasst, Namen und Matrikelnummer der beteiligten Studierenden eingetragen, Projektnamen angepasst, Bild der Baugruppe eingefügt, Datum abgepasst
+    	\end{itemize}
 	\item \python{Troubleshooting} entfernt
 	\item \python{LetzteSchritte} erstellt
 	\item \python{Einleitung} erstellt
 \end{itemize}
+\textbf{Änderungen im Dokument \python{Montageanleitung Applikation}}
+    \begin{itemize}
+	\item \python{Abkuerzungen} auskommentiert
+    \end{itemize}
+
 
 \section{\menu{Nano33BLESense}}
- \textbf{Änderungen in \menu{Nano33BLESense > Code > Arduino}}
-\begin{itemize}
-	\item \menu{Applikation>ablaufApplikation} erstellt
-	\item \menu{Bluetooth Modul>bluetoothAnwendung} erstellt
-	\item \menu{Bluetooth Modul>bluetoothBeispiel} erstellt
-	\item \menu{Externe LED>ansteuerungLED} erstellt
-	\item \menu{Externe LED>blinkenLED} erstellt
-	\item \menu{MOSFET} erstellt
-	\item \menu{NinaB306>anwendungBLE} erstellt
-	\item \menu{NinaB306>testBLE} erstellt
-	\item \menu{nRF Connect>einrichtungNRF} erstellt
-	\item \menu{Pumpe>ansteuerungPumpe} erstellt
-	\item \menu{Pumpe>fehlererkennungPumpe} erstellt
-	\item \menu{Relais>anwendungRelais} erstellt
-	\item \menu{Relais>einfachRelaiss} erstellt
+\textbf{Änderungen in \menu{Contents>General}}
+	\begin{itemize}
+	\item \python{RenameConclusionXY} umbenannt in \python{Schlussfolgerung}
+	\item \python{RenameIntroductionXY} umbenannt in \python{EinleitungProjekt}
+	\item \python{RenameActorXY} umbenannt in \python{LEDExternal}
+	\item \python{RenameSensorXY} umbenannt in \python{NinaB306}
+	\item \python{RenameToDoXY} umbenannt in \python{Materialliste Magic Faucet Fountain}
+	\item \python{RenameAppXY} umbenannt in \python{SpannungswandlerMPM3610}
+	\item \python{BeschreibungSystem} erstellt
+	\item \python{Hardware-Beschreibung} erstellt
+	\item \python{Softwareliste MagicFaucetFountain} erstellt
 \end{itemize}
+\textbf{Änderungen in \menu{Contents>General>HardwareBeschreibung}}
+	\begin{itemize}
+		\item \python{BeschreibungSystem} erstellt
+		\item \python{BluetoothModul} erstellt
+		\item \python{externeLED} erstellt
+		\item \python{Kippschalter} erstellt
+		\item \python{Mosfet} erstellt
+		\item \python{Netzteil} erstellt
+		\item \python{Pumpe} erstellt
+		\item \python{Relais} erstellt
+	\end{itemize}
+\textbf{Änderungen in \menu{Contents>General>Schaltplan}} 
+        	\begin{itemize}
+        	\item \python{Schaltplan} erstellt
+            \end{itemize}
+\textbf{Änderungen in \menu{Contents>General>Veränderungen}}
+	\begin{itemize}
+	\item \python{grosseVeraenderungen} erstellt
+	\item \python{kleineVeraenderungen} erstellt
+\end{itemize}
+\textbf{Änderungen im Hauptdokument}
+
+	\begin{itemize}
+	\item die nicht gewünschte, englische Sprache auskommentiert 
+	\item \python{Arduino IDE} umbenannt in \python{Arduino Nano 33 BLE Sense} 
+	
+	% in \part{Arduino Nano 33 BLE Sense}
+	
+	\item \python{ResetButton} auskomentiert
+	\item \python{LEDBuiltIn} auskomentiert
+	\item \python{LEDPower} auskomentiert
+	\item \python{LEDRGB} auskomentiert
+	\item \python{SensorLPS22HB} auskomentiert
+	\item \python{SensorAPDS9960} auskomentiert
+	\item \python{SensorAPDS9960Gesture} auskomentiert
+    \item \python{SensorAPDS9960Color} auskomentiert
+    \item \python{SensorAPDS9960Proximity} auskomentiert
+    \item \python{SensorAPDS9960AmbientLightSensor} auskomentiert
+    \item \python{AppADPS9960} auskomentiert
+    \item \python{MicrophoneMP34DT05} auskomentiert
+    \item \python{IMU} auskomentiert
+    \item \python{IMUSoftware} auskomentiert
+    \item \python{IMUCalibration} auskomentiert
+    \item \python{IMUErrors} auskomentiert
+    \item \python{IMULibFunctions} auskomentiert
+    \item \python{AccelerationDetectionAlgorithms} auskomentiert
+    
+    % in \part{Arduino Nano 33 BLE Sense - Externe Sensoren und Aktoren}
+    
+    \item \python{TinyMLKit} auskomentiert
+    \item \python{PowerTinyMLShield} auskomentiert
+    \item \python{PushButton} auskomentiert
+    \item \python{Grove} auskomentiert
+    \item \python{ButtonGrove} auskomentiert
+    \item \python{LEDExternal} auskomentiert
+    \item \python{LEDRGBExternal} auskomentiert
+    \item \python{SensorBME280} auskomentiert
+    \item \python{ServoDrive} auskomentiert
+    \item \python{OLED} auskomentiert
+    \item \python{CAMov2640} auskomentiert
+    \item \python{CAMov7675} auskomentiert
+    \item \python{LensCalibrationTool} auskomentiert
+    \item \python{BlueTooth} auskomentiert
+    \item \python{EthernetENC28J60} auskomentiert
+    \item \python{HeartRate} auskomentiert
+    \item \python{AppHeartRateSensor} auskomentiert
+    \item \python{SensorHCSR04} auskomentiert
+    \item \python{Battery} auskomentiert
+    \item \python{Powerbank} auskomentiert
+    \item \python{L298N} auskomentiert
+    \item \python{AdapterBoard} auskomentiert
+    \item \python{GearDrive} auskomentiert
+    \item \python{Encoder} auskomentiert
+    \item \python{SDCard} auskomentiert
+    \item \python{SensorDHT22} auskomentiert
+    \item \python{ElektroMagnet} auskomentiert
+    
+    %Templates
+    
+    \item \python{Templates} auskomentiert
+    
+    %
+    
+    \item \python{DatenblattNano} auskomentiert
+    \item \python{DatenblattArduCAM} auskomentiert
+    
+    %Hints - Examples for LaTeX - Read and Use
+   \item \python{Hints - Examples for LaTeX - Read and Use} auskomentiert
+   \item \python{Hints} auskomentiert
+   \item \python{Bezier} auskomentiert
+   \item \python{ArcStrategy} auskomentiert
+   \item \python{MapleFiles} auskomentiert
+   \item \python{CodePython} auskomentiert
+   \item \python{CodeArduino} auskomentiert
+   \item \python{FirstChapter} auskomentiert
+   \item \python{AppendixTikz} auskomentiert
+   \item \python{Appendix} auskomentiert
+   \item \python{Stichwortverzeichnis} auskomentiert
+   
+\end{itemize}
+
+
 
 \section{\menu{Poster}}
 \begin{itemize}
 	\item \python{tikzposter} umbenannt in \python{PosterMagicFaucetFountain}
 \end{itemize}
 
+
+
 \section{\menu{Präsentation}}
 \begin{itemize}
 	\item \python{rename} umbenannt in \python{Prasentation Magic Faucet Fountain}
+	\item \menu{Code} gelöscht
 \end{itemize}
 
 \textbf{Änderungen in \menu{Präsentation > Template > slides}}
 \begin{itemize}
 	\item \python{end} umbenannt in \python{Abschluss}
-	\item \python{header} umbenannt in \python{Header}
-	\item \python{quellen} umbenannt in \python{Literaturverzeichnis}
+	\item \python{quellen} entfernt
 	\item \python{rename} umbenannt in \python{Inhalt}
 	\item \python{start} umbenannt in \python{Titelfolie}
 \end{itemize}
 
-\section{\menu{Xmind}}
+
 
 \section{\menu{author}}
 \begin{itemize}
@@ -127,6 +262,8 @@
 	\item Kursarbeit übersetzt
 	\item Student 1-5 ausgefüllt
 \end{itemize}
+
+
 
 \section{\menu{README}}
 \begin{itemize}

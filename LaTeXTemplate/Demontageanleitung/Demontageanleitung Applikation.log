@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  7 JUN 2025 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  21 JUN 2025 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1796,11 +1796,16 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 (./Chapters/de/Titelseite.tex
+<General/blumentopf.jpg, id=7, 1112.155pt x 1345.025pt>
+File: General/blumentopf.jpg Graphic file (type jpg)
+<use General/blumentopf.jpg>
+Package pdftex.def Info: General/blumentopf.jpg  used on input line 18.
+(pdftex.def)             Requested size: 142.26378pt x 172.04768pt.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1809,7 +1814,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1821,7 +1826,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 47
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 32
 .
 
 (c:/LaTeX/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -1838,11 +1843,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 {c:/LaTeX/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/LaTeX/t
-exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
+exlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./General/blu
+mentopf.jpg>])
 Package tocbasic Info: character protrusion at toc deactivated on input line 43
 .
-
-(./Demontageanleitung Applikation.toc)
+ (./Demontageanleitung Applikation.toc)
 \tf@toc=\write8
 \openout8 = `"Demontageanleitung Applikation.toc"'.
 
@@ -1997,10 +2002,10 @@ xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 76940 strings out of 473190
- 2001651 string characters out of 5716853
+ 76949 strings out of 473190
+ 2001915 string characters out of 5716853
  3277633 words of memory out of 5000000
- 99162 multiletter control sequences out of 15000+600000
+ 99171 multiletter control sequences out of 15000+600000
  602720 words of font info for 211 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  110i,11n,111p,10927b,2477s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2015,11 +2020,11 @@ xmf-dist/fonts/type1/public/cm-super/sfss2074.pfb><c:/LaTeX/texlive/2025/texmf-
 dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/LaTeX/texlive/2025/texmf-dist
 /fonts/type1/public/cm-super/sfsx2488.pfb><c:/LaTeX/texlive/2025/texmf-dist/fon
 ts/type1/public/cm-super/sftt1095.pfb>
-Output written on "Demontageanleitung Applikation.pdf" (15 pages, 189613 bytes)
+Output written on "Demontageanleitung Applikation.pdf" (15 pages, 226317 bytes)
 .
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 193 PDF objects out of 1000 (max. 8388607)
  150 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
- 41533 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 41538 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -22,21 +22,21 @@ Database file #1: Nano33BLESense-blx.bib
 Database file #2: ../../../MLbib/Jetson.bib
 Database file #3: ../../../MLbib/Literature.bib
 Database file #4: ../../../MLbib/MyLiterature.bib
-Repeated entry---line 435 of file ../../../MLbib/MyLiterature.bib
+Repeated entry---line 447 of file ../../../MLbib/MyLiterature.bib
  : @book{Hering:2023
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 869 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 887 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-04}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 889 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 907 of file ../../../MLbib/MyLiterature.bib
  :  
  :  urldate   = {2025-05-13}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 997 of file ../../../MLbib/MyLiterature.bib
+I was expecting a `,' or a `}'---line 1015 of file ../../../MLbib/MyLiterature.bib
  :  
  :  url = {https://www.mdpi.com/1424-8220/17/12/2898}
 (Error may have been on previous line)
@@ -47,37 +47,37 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 53 entries,
             6402 wiz_defined-function locations,
-            1573 strings with 25363 characters,
-and the built_in function-call counts, 263456 in all, are:
+            1582 strings with 25775 characters,
+and the built_in function-call counts, 263609 in all, are:
 = -- 16097
 > -- 6927
 < -- 2263
 + -- 6539
 - -- 3216
-* -- 17349
+* -- 17397
 := -- 24181
 add.period$ -- 0
 call.type$ -- 53
 change.case$ -- 54
 chr.to.int$ -- 227
 cite$ -- 106
-duplicate$ -- 28731
-empty$ -- 25131
+duplicate$ -- 28753
+empty$ -- 25153
 format.name$ -- 2787
-if$ -- 55286
+if$ -- 55308
 int.to.chr$ -- 0
 int.to.str$ -- 150
 missing$ -- 0
-newline$ -- 1419
+newline$ -- 1428
 num.names$ -- 2854
-pop$ -- 17580
+pop$ -- 17572
 preamble$ -- 1
 purify$ -- 1203
 quote$ -- 0
-skip$ -- 11130
+skip$ -- 11125
 stack$ -- 0
 substring$ -- 24516
-swap$ -- 7680
+swap$ -- 7714
 text.length$ -- 1714
 text.prefix$ -- 96
 top$ -- 1
@@ -85,5 +85,5 @@ type$ -- 1790
 warning$ -- 0
 while$ -- 3008
 width$ -- 0
-write$ -- 1367
+write$ -- 1376
 (There were 4 error messages)

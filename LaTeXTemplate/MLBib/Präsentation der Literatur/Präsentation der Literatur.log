@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  21 JUN 2025 21:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  22 JUN 2025 23:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,9 +1046,9 @@ Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 ))
 \verbatim@out=\write5
-runsystem(touch w18-test-20256211274.tex)...disabled (restricted).
+runsystem(touch w18-test-20256221383.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20256211274.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20256221383.tex)...disabled (restricted).
 
 runsystem(rm -f ""Präsentation der Literatur".gnuploterrors")...disabled (rest
 ricted).
@@ -1708,7 +1708,7 @@ Overfull \hbox (1.09102pt too wide) in paragraph at lines 38--38
 [][]  
  []
 
-<Images/Alles2024.png, id=47, 350.05782pt x 499.8675pt>
+<Images/Alles2024.png, id=48, 350.05782pt x 499.8675pt>
 File: Images/Alles2024.png Graphic file (type png)
 <use Images/Alles2024.png>
 Package pdftex.def Info: Images/Alles2024.png  used on input line 38.
@@ -1733,7 +1733,555 @@ Overfull \hbox (1.09102pt too wide) has occurred while \output is active
 
 
 
- <./images/Alles2024.png>])
+ <./images/Alles2024.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 63.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 63--63
+[][]  
+ []
+
+<images/Boehmer2018.jpg.png, id=77, 374.90062pt x 497.60907pt>
+File: images/Boehmer2018.jpg.png Graphic file (type png)
+<use images/Boehmer2018.jpg.png>
+Package pdftex.def Info: images/Boehmer2018.jpg.png  used on input line 63.
+(pdftex.def)             Requested size: 107.55333pt x 142.75398pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 63.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 63.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[3
+
+ <./images/Boehmer2018.jpg.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 89.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 89--89
+[][]  
+ []
+
+<images/Ekbert2014.jpg, id=104, 660.21657pt x 999.735pt>
+File: images/Ekbert2014.jpg Graphic file (type jpg)
+<use images/Ekbert2014.jpg>
+Package pdftex.def Info: images/Ekbert2014.jpg  used on input line 89.
+(pdftex.def)             Requested size: 107.55333pt x 162.85925pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 89.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 89.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[4
+
+ <./images/Ekbert2014.jpg>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 115.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 115--115
+[][]  
+ []
+
+<images/Gulich2020.jpg, id=130, 350.05782pt x 499.11469pt>
+File: images/Gulich2020.jpg Graphic file (type jpg)
+<use images/Gulich2020.jpg>
+Package pdftex.def Info: images/Gulich2020.jpg  used on input line 115.
+(pdftex.def)             Requested size: 107.55333pt x 153.34547pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 115.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 115.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[5
+
+ <./images/Gulich2020.jpg>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 140.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 140--140
+[][]  
+ []
+
+<images/Haeberle2018.png, id=157, 339.51843pt x 475.7775pt>
+File: images/Haeberle2018.png Graphic file (type png)
+<use images/Haeberle2018.png>
+Package pdftex.def Info: images/Haeberle2018.png  used on input line 140.
+(pdftex.def)             Requested size: 107.55333pt x 150.71283pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 140.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 140.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[6
+
+ <./images/Haeberle2018.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 165.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 165--165
+[][]  
+ []
+
+<images/Hesse2009.png, id=184, 350.05782pt x 499.11469pt>
+File: images/Hesse2009.png Graphic file (type png)
+<use images/Hesse2009.png>
+Package pdftex.def Info: images/Hesse2009.png  used on input line 165.
+(pdftex.def)             Requested size: 107.55333pt x 153.34547pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 165.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 165.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[7
+
+ <./images/Hesse2009.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 189.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 189--189
+[][]  
+ []
+
+<images/Hering2012.png, id=212, 347.04657pt x 500.62032pt>
+File: images/Hering2012.png Graphic file (type png)
+<use images/Hering2012.png>
+Package pdftex.def Info: images/Hering2012.png  used on input line 189.
+(pdftex.def)             Requested size: 107.55333pt x 155.14485pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 189.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 189.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[8
+
+ <./images/Hering2012.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 213.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 213--213
+[][]  
+ []
+
+<images/Hering2023.png, id=239, 350.05782pt x 499.8675pt>
+File: images/Hering2023.png Graphic file (type png)
+<use images/Hering2023.png>
+Package pdftex.def Info: images/Hering2023.png  used on input line 213.
+(pdftex.def)             Requested size: 107.55333pt x 153.57677pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 213.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 213.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[9
+
+ <./images/Hering2023.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 237.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 237--237
+[][]  
+ []
+
+<images/Heinrich2019.png, id=267, 347.79938pt x 498.36188pt>
+File: images/Heinrich2019.png Graphic file (type png)
+<use images/Heinrich2019.png>
+Package pdftex.def Info: images/Heinrich2019.png  used on input line 237.
+(pdftex.def)             Requested size: 107.55333pt x 154.11037pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 237.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 237.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[10
+
+ <./images/Heinrich2019.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 261.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 261--261
+[][]  
+ []
+
+<images/Hering2024.png, id=294, 350.05782pt x 496.85625pt>
+File: images/Hering2024.png Graphic file (type png)
+<use images/Hering2024.png>
+Package pdftex.def Info: images/Hering2024.png  used on input line 261.
+(pdftex.def)             Requested size: 107.55333pt x 152.6516pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 261.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 261.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[11
+
+ <./images/Hering2024.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 287.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 287--287
+[][]  
+ []
+
+<images/Heydon2012.png, id=321, 319.94531pt x 403.5075pt>
+File: images/Heydon2012.png Graphic file (type png)
+<use images/Heydon2012.png>
+Package pdftex.def Info: images/Heydon2012.png  used on input line 287.
+(pdftex.def)             Requested size: 107.55333pt x 135.64532pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 287.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 287.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[12
+
+ <./images/Heydon2012.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 311.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 311--311
+[][]  
+ []
+
+<images/Muller2017.png, id=348, 349.305pt x 498.36188pt>
+File: images/Muller2017.png Graphic file (type png)
+<use images/Muller2017.png>
+Package pdftex.def Info: images/Muller2017.png  used on input line 311.
+(pdftex.def)             Requested size: 107.55333pt x 153.44878pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 311.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 311.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[13
+
+ <./images/Muller2017.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 335.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 335--335
+[][]  
+ []
+
+<images/Osterhage2018.png, id=377, 350.05782pt x 496.85625pt>
+File: images/Osterhage2018.png Graphic file (type png)
+<use images/Osterhage2018.png>
+Package pdftex.def Info: images/Osterhage2018.png  used on input line 335.
+(pdftex.def)             Requested size: 107.55333pt x 152.6516pt.
+
+Overfull \vbox (0.60312pt too high) detected at line 335
+ []
+
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 335.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 335.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[14
+
+ <./images/Osterhage2018.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 360.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 360--360
+[][]  
+ []
+
+<images/Schlaak2006.png, id=404, 311.66437pt x 497.60907pt>
+File: images/Schlaak2006.png Graphic file (type png)
+<use images/Schlaak2006.png>
+Package pdftex.def Info: images/Schlaak2006.png  used on input line 360.
+(pdftex.def)             Requested size: 107.55333pt x 171.72087pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 360.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 360.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[15
+
+ <./images/Schlaak2006.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 384.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 384--384
+[][]  
+ []
+
+<images/Schulz2013.png, id=431, 347.79938pt x 497.60907pt>
+File: images/Schulz2013.png Graphic file (type png)
+<use images/Schulz2013.png>
+Package pdftex.def Info: images/Schulz2013.png  used on input line 384.
+(pdftex.def)             Requested size: 107.55333pt x 153.87756pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 384.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 384.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[16
+
+ <./images/Schulz2013.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 409.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 409--409
+[][]  
+ []
+
+<images/Surek2021.png, id=458, 377.15906pt x 501.37312pt>
+File: images/Surek2021.png Graphic file (type png)
+<use images/Surek2021.png>
+Package pdftex.def Info: images/Surek2021.png  used on input line 409.
+(pdftex.def)             Requested size: 107.55333pt x 142.96931pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 409.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 409.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[17
+
+ <./images/Surek2021.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 433.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 433--433
+[][]  
+ []
+
+<images/Sauter2022.png, id=486, 349.305pt x 499.11469pt>
+File: images/Sauter2022.png Graphic file (type png)
+<use images/Sauter2022.png>
+Package pdftex.def Info: images/Sauter2022.png  used on input line 433.
+(pdftex.def)             Requested size: 107.55333pt x 153.68057pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 433.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 433.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[18
+
+ <./images/Sauter2022.png>]
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 457.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) in paragraph at lines 457--457
+[][]  
+ []
+
+<images/Traenkler2018.png, id=512, 350.05782pt x 499.11469pt>
+File: images/Traenkler2018.png Graphic file (type png)
+<use images/Traenkler2018.png>
+Package pdftex.def Info: images/Traenkler2018.png  used on input line 457.
+(pdftex.def)             Requested size: 107.55333pt x 153.34547pt.
+
+
+File: img/hintergrund2.png Graphic file (type png)
+<use img/hintergrund2.png>
+Package pdftex.def Info: img/hintergrund2.png  used on input line 457.
+(pdftex.def)             Requested size: 364.19536pt x 174.87286pt.
+File: img/technik.jpg Graphic file (type jpg)
+<use img/technik.jpg>
+Package pdftex.def Info: img/technik.jpg  used on input line 457.
+(pdftex.def)             Requested size: 57.99652pt x 19.45262pt.
+
+Overfull \hbox (1.09102pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[19
+
+ <./images/Traenkler2018.png>])
 \tf@nav=\write8
 \openout8 = `"Präsentation der Literatur.nav"'.
 
@@ -1758,10 +2306,10 @@ Package logreq Info: Writing requests to '"Präsentation der Literatur".run.xml
 
  ) 
 Here is how much of TeX's memory you used:
- 38196 strings out of 473190
- 785286 string characters out of 5716853
- 1422568 words of memory out of 5000000
- 60733 multiletter control sequences out of 15000+600000
+ 38387 strings out of 473190
+ 789400 string characters out of 5716853
+ 1422573 words of memory out of 5000000
+ 60890 multiletter control sequences out of 15000+600000
  563888 words of font info for 54 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,21n,123p,1899b,1846s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1770,10 +2318,11 @@ c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/
 LaTeX/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/LaTe
 X/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/LaTeX
 /texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on "Präsentation der Literatur.pdf" (2 pages, 1141375 bytes).
+Output written on "Präsentation der Literatur.pdf" (19 pages, 13889859 bytes).
+
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 573 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
