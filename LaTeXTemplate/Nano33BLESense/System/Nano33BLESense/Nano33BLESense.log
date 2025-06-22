@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  23 JUN 2025 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  23 JUN 2025 00:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5626,27 +5626,35 @@ Package biblatex Info: Reference segment=108 on input line 18.
 Package biblatex Info: Setting label 'refsegment:0108' on input line 18.
 Package biblatex Info: Reference segment=109 on input line 21.
 Package biblatex Info: Setting label 'refsegment:0109' on input line 21.
-Package biblatex Info: Reference segment=110 on input line 23.
-Package biblatex Info: Setting label 'refsegment:0110' on input line 23.
-Package biblatex Info: Reference segment=111 on input line 26.
-Package biblatex Info: Setting label 'refsegment:0111' on input line 26.
-Package biblatex Info: Reference segment=112 on input line 35.
-Package biblatex Info: Setting label 'refsegment:0112' on input line 35.
-)
+Package biblatex Info: Reference segment=110 on input line 26.
+Package biblatex Info: Setting label 'refsegment:0110' on input line 26.
+Package biblatex Info: Reference segment=111 on input line 31.
+Package biblatex Info: Setting label 'refsegment:0111' on input line 31.
+
 
 [151]
+Package biblatex Info: Reference segment=112 on input line 47.
+Package biblatex Info: Setting label 'refsegment:0112' on input line 47.
+)
 
-[152
 
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-]
+[152]
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 213.
 
 
-[153]
+[153
+
+
+]
 
 [154] (../../Contents/General/VerÃ¤nderungen/kleineVerÃ¤nderungen.tex
 chapter 18.
@@ -5838,15 +5846,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 165.
 
-Package biblatex Info: Reference segment=129 on input line 192.
-Package biblatex Info: Setting label 'refsegment:0129' on input line 192.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 192.
+LaTeX Warning: Reference `ArduinoNanoBLE' on page 163 undefined on input line 1
+92.
 
 
+Overfull \hbox (12.51224pt too wide) in paragraph at lines 192--193
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] \T1/lmr/m/n/10 (-2
+0) von Eng^^?lisch auf Deutsch
+ []
 
-Package cleveref Info: loaded `ngerman' language definitions on input line 200.
+
+LaTeX Warning: Reference `NanoBLESense' on page 163 undefined on input line 193
+.
+
+
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 195.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5856,30 +5872,36 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [163]
-Package biblatex Info: Reference segment=130 on input line 210.
-Package biblatex Info: Setting label 'refsegment:0130' on input line 210.
+Package biblatex Info: Reference segment=129 on input line 200.
+Package biblatex Info: Setting label 'refsegment:0129' on input line 200.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 210.
+(hyperref)                removing `\menu' on input line 200.
 
-Package biblatex Info: Reference segment=131 on input line 235.
-Package biblatex Info: Setting label 'refsegment:0131' on input line 235.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 235.
-
-Package biblatex Info: Reference segment=132 on input line 251.
-Package biblatex Info: Setting label 'refsegment:0132' on input line 251.
+Package biblatex Info: Reference segment=130 on input line 218.
+Package biblatex Info: Setting label 'refsegment:0130' on input line 218.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 251.
+(hyperref)                removing `\menu' on input line 218.
 
-Package biblatex Info: Reference segment=133 on input line 258.
-Package biblatex Info: Setting label 'refsegment:0133' on input line 258.
+Package biblatex Info: Reference segment=131 on input line 243.
+Package biblatex Info: Setting label 'refsegment:0131' on input line 243.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 258.
+(hyperref)                removing `\menu' on input line 243.
+
+Package biblatex Info: Reference segment=132 on input line 259.
+Package biblatex Info: Setting label 'refsegment:0132' on input line 259.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 259.
+
+Package biblatex Info: Reference segment=133 on input line 266.
+Package biblatex Info: Setting label 'refsegment:0133' on input line 266.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 266.
 
 
 
@@ -5891,12 +5913,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [164]
-Package biblatex Info: Reference segment=134 on input line 269.
-Package biblatex Info: Setting label 'refsegment:0134' on input line 269.
+Package biblatex Info: Reference segment=134 on input line 277.
+Package biblatex Info: Setting label 'refsegment:0134' on input line 277.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 269.
+(hyperref)                removing `\menu' on input line 277.
 
 )
 
@@ -5925,183 +5947,284 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 [168] (../../Contents/General/Materialliste Magic Faucet Fountain.tex
 chapter 20.
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-[]|[]\T1/lmr/m/n/10 (+20) Schaltnetzteil
- []
-
-<../../Images/MateriallisteBilder/netzteilBild.png, id=3230, 602.25pt x 451.687
-5pt>
-File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
-
-<use ../../Images/MateriallisteBilder/netzteilBild.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
-d on input line 22.
-(pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
-<../../Images/MateriallisteBilder/pumpeBild.png, id=3232, 1003.75pt x 1003.75pt
->
-File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/pumpeBild.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/pumpeBild.png  used o
-n input line 27.
-(pdftex.def)             Requested size: 55.4806pt x 55.47444pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-[]|[]\T1/lmr/m/n/10 (+20) Blaue LE^^?D-^^?Si^^?
- []
-
-<../../Images/MateriallisteBilder/blaueLED.png, id=3234, 602.25pt x 296.10625pt
->
-File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/blaueLED.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/blaueLED.png  used on
- input line 32.
-(pdftex.def)             Requested size: 55.4806pt x 27.27643pt.
-
-Underfull \hbox (badness 3078) in paragraph at lines 35--36
-[]|[]\T1/lmr/m/n/10 (+20) Grüne LE^^?D-^^?Si^^?
- []
-
-<../../Images/MateriallisteBilder/greenLED.png, id=3236, 602.25pt x 351.3125pt>
-
-File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/greenLED.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/greenLED.png  used on
- input line 37.
-(pdftex.def)             Requested size: 55.4806pt x 32.36188pt.
-<../../Images/MateriallisteBilder/relaisBild.png, id=3238, 1204.5pt x 1204.5pt>
-
-File: ../../Images/MateriallisteBilder/relaisBild.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/relaisBild.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/relaisBild.png  used 
-on input line 42.
-(pdftex.def)             Requested size: 55.4806pt x 55.46832pt.
-<../../Images/MateriallisteBilder/kippschalterBild.png, id=3240, 602.25pt x 141
-2.27625pt>
-File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
-png)
-<use ../../Images/MateriallisteBilder/kippschalterBild.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/kippschalterBild.png 
- used on input line 47.
-(pdftex.def)             Requested size: 27.7403pt x 65.0366pt.
-<../../Images/MateriallisteBilder/aderleitungBild.png, id=3242, 411.03563pt x 2
-73.27094pt>
-File: ../../Images/MateriallisteBilder/aderleitungBild.png Graphic file (type p
-ng)
-<use ../../Images/MateriallisteBilder/aderleitungBild.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/aderleitungBild.png  
-used on input line 52.
-(pdftex.def)             Requested size: 92.47145pt x 61.47496pt.
-File: ../../Images/MateriallisteBilder/aderleitungBild.png Graphic file (type p
-ng)
-<use ../../Images/MateriallisteBilder/aderleitungBild.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/aderleitungBild.png  
-used on input line 57.
-(pdftex.def)             Requested size: 92.47145pt x 61.47496pt.
-
-Overfull \hbox (8.1016pt too wide) in paragraph at lines 60--61
-[]|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
- []
-
-<../../Images/MateriallisteBilder/Steckbrucken_mm.png, id=3245, 238.491pt x 254
-.1495pt>
-File: ../../Images/MateriallisteBilder/Steckbrucken_mm.png Graphic file (type p
-ng)
-<use ../../Images/MateriallisteBilder/Steckbrucken_mm.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/Steckbrucken_mm.png  
-used on input line 62.
-(pdftex.def)             Requested size: 92.47145pt x 98.54396pt.
-
-Overfull \hbox (8.1016pt too wide) in paragraph at lines 65--66
-[]|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
- []
-
-<../../Images/MateriallisteBilder/Steckbrucken_fm.png, id=3247, 248.72925pt x 1
-12.62074pt>
-File: ../../Images/MateriallisteBilder/Steckbrucken_fm.png Graphic file (type p
-ng)
-<use ../../Images/MateriallisteBilder/Steckbrucken_fm.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/Steckbrucken_fm.png  
-used on input line 67.
-(pdftex.def)             Requested size: 92.47145pt x 41.86835pt.
-
-Overfull \hbox (8.1016pt too wide) in paragraph at lines 70--71
-[]|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
- []
-
-<../../Images/MateriallisteBilder/Steckbrucken_ff.png, id=3249, 281.25075pt x 2
-12.59425pt>
-File: ../../Images/MateriallisteBilder/Steckbrucken_ff.png Graphic file (type p
-ng)
-<use ../../Images/MateriallisteBilder/Steckbrucken_ff.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/Steckbrucken_ff.png  
-used on input line 72.
-(pdftex.def)             Requested size: 92.47145pt x 69.89679pt.
-<../../Images/MateriallisteBilder/Arduino.png, id=3251, 398.6895pt x 180.675pt>
+<../../Images/MateriallisteBilder/Arduino.png, id=3231, 398.6895pt x 180.675pt>
 
 File: ../../Images/MateriallisteBilder/Arduino.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/Arduino.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Arduino.png  used on 
-input line 78.
+input line 22.
 (pdftex.def)             Requested size: 92.47145pt x 41.9045pt.
-<../../Images/MateriallisteBilder/WAGO5.png, id=3253, 287.8755pt x 187.29974pt>
-
-File: ../../Images/MateriallisteBilder/WAGO5.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/WAGO5.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO5.png  used on in
-put line 83.
-(pdftex.def)             Requested size: 92.47145pt x 60.16577pt.
-<../../Images/MateriallisteBilder/WAGO3.png, id=3255, 278.84175pt x 205.36725pt
->
-File: ../../Images/MateriallisteBilder/WAGO3.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/WAGO3.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO3.png  used on in
-put line 88.
-(pdftex.def)             Requested size: 92.47145pt x 68.10356pt.
-<../../Images/MateriallisteBilder/WAGO2.png, id=3257, 328.22626pt x 217.41225pt
->
-File: ../../Images/MateriallisteBilder/WAGO2.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/WAGO2.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO2.png  used on in
-put line 93.
-(pdftex.def)             Requested size: 92.47145pt x 61.24988pt.
-<../../Images/MateriallisteBilder/Ultraschallsensor.png, id=3259, 263.7855pt x 
+<../../Images/MateriallisteBilder/Ultraschallsensor.png, id=3233, 263.7855pt x 
 261.97874pt>
 File: ../../Images/MateriallisteBilder/Ultraschallsensor.png Graphic file (type
  png)
 <use ../../Images/MateriallisteBilder/Ultraschallsensor.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Ultraschallsensor.png
-  used on input line 98.
+  used on input line 27.
 (pdftex.def)             Requested size: 92.47145pt x 91.83783pt.
-<../../Images/MateriallisteBilder/Untersetzer.png, id=3261, 475.7775pt x 257.76
-3pt>
-File: ../../Images/MateriallisteBilder/Untersetzer.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/Untersetzer.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/Untersetzer.png  used
- on input line 103.
-(pdftex.def)             Requested size: 92.47145pt x 50.09642pt.
-<../../Images/MateriallisteBilder/Acryglasrohr.png, id=3263, 486.01575pt x 389.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]|[]\T1/lmr/m/n/10 (+20) Schaltnetzteil
+ []
+
+<../../Images/MateriallisteBilder/netzteilBild.png, id=3235, 602.25pt x 451.687
+5pt>
+File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
+
+<use ../../Images/MateriallisteBilder/netzteilBild.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
+d on input line 32.
+(pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
+<../../Images/MateriallisteBilder/pumpeBild.png, id=3237, 1003.75pt x 1003.75pt
+>
+File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/pumpeBild.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/pumpeBild.png  used o
+n input line 37.
+(pdftex.def)             Requested size: 55.4806pt x 55.47444pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+[]|[]\T1/lmr/m/n/10 (+20) Blaue LE^^?D-^^?Si^^?
+ []
+
+<../../Images/MateriallisteBilder/blaueLED.png, id=3239, 602.25pt x 296.10625pt
+>
+File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/blaueLED.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/blaueLED.png  used on
+ input line 42.
+(pdftex.def)             Requested size: 55.4806pt x 27.27643pt.
+
+Underfull \hbox (badness 3078) in paragraph at lines 45--46
+[]|[]\T1/lmr/m/n/10 (+20) Grüne LE^^?D-^^?Si^^?
+ []
+
+<../../Images/MateriallisteBilder/greenLED.png, id=3241, 602.25pt x 351.3125pt>
+
+File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/greenLED.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/greenLED.png  used on
+ input line 47.
+(pdftex.def)             Requested size: 55.4806pt x 32.36188pt.
+<../../Images/MateriallisteBilder/relaisBild.png, id=3243, 1204.5pt x 1204.5pt>
+
+File: ../../Images/MateriallisteBilder/relaisBild.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/relaisBild.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/relaisBild.png  used 
+on input line 52.
+(pdftex.def)             Requested size: 55.4806pt x 55.46832pt.
+<../../Images/MateriallisteBilder/kippschalterBild.png, id=3245, 602.25pt x 141
+2.27625pt>
+File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
+png)
+<use ../../Images/MateriallisteBilder/kippschalterBild.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/kippschalterBild.png 
+ used on input line 57.
+(pdftex.def)             Requested size: 27.7403pt x 65.0366pt.
+<../../Images/MateriallisteBilder/Netzteilkabel.png, id=3247, 228.855pt x 145.7
+445pt>
+File: ../../Images/MateriallisteBilder/Netzteilkabel.png Graphic file (type png
+)
+<use ../../Images/MateriallisteBilder/Netzteilkabel.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Netzteilkabel.png  us
+ed on input line 62.
+(pdftex.def)             Requested size: 92.47145pt x 58.8883pt.
+<../../Images/MateriallisteBilder/Sensorkabel.png, id=3249, 261.97874pt x 287.2
+7325pt>
+File: ../../Images/MateriallisteBilder/Sensorkabel.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/Sensorkabel.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Sensorkabel.png  used
+ on input line 67.
+(pdftex.def)             Requested size: 92.47145pt x 101.39752pt.
+
+Overfull \hbox (5.69914pt too wide) in paragraph at lines 70--71
+[]|[]\T1/lmr/m/n/10 (-20) Schrumpfschlauch[]| 
+ []
+
+<../../Images/MateriallisteBilder/Schrumpfschlauch.png, id=3251, 363.15675pt x 
+343.2825pt>
+File: ../../Images/MateriallisteBilder/Schrumpfschlauch.png Graphic file (type 
+png)
+<use ../../Images/MateriallisteBilder/Schrumpfschlauch.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Schrumpfschlauch.png 
+ used on input line 72.
+(pdftex.def)             Requested size: 92.47145pt x 87.40753pt.
+<../../Images/MateriallisteBilder/aderleitungBild.png, id=3253, 411.03563pt x 2
+73.27094pt>
+File: ../../Images/MateriallisteBilder/aderleitungBild.png Graphic file (type p
+ng)
+<use ../../Images/MateriallisteBilder/aderleitungBild.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/aderleitungBild.png  
+used on input line 77.
+(pdftex.def)             Requested size: 92.47145pt x 61.47496pt.
+File: ../../Images/MateriallisteBilder/aderleitungBild.png Graphic file (type p
+ng)
+<use ../../Images/MateriallisteBilder/aderleitungBild.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/aderleitungBild.png  
+used on input line 82.
+(pdftex.def)             Requested size: 92.47145pt x 61.47496pt.
+
+Overfull \hbox (8.1016pt too wide) in paragraph at lines 85--86
+[]|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
+ []
+
+<../../Images/MateriallisteBilder/Steckbrucken_mm.png, id=3256, 238.491pt x 254
+.1495pt>
+File: ../../Images/MateriallisteBilder/Steckbrucken_mm.png Graphic file (type p
+ng)
+<use ../../Images/MateriallisteBilder/Steckbrucken_mm.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Steckbrucken_mm.png  
+used on input line 87.
+(pdftex.def)             Requested size: 92.47145pt x 98.54396pt.
+
+Overfull \hbox (8.1016pt too wide) in paragraph at lines 90--91
+[]|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
+ []
+
+<../../Images/MateriallisteBilder/Steckbrucken_fm.png, id=3258, 248.72925pt x 1
+12.62074pt>
+File: ../../Images/MateriallisteBilder/Steckbrucken_fm.png Graphic file (type p
+ng)
+<use ../../Images/MateriallisteBilder/Steckbrucken_fm.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Steckbrucken_fm.png  
+used on input line 92.
+(pdftex.def)             Requested size: 92.47145pt x 41.86835pt.
+
+Overfull \hbox (8.1016pt too wide) in paragraph at lines 95--96
+[]|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
+ []
+
+<../../Images/MateriallisteBilder/Steckbrucken_ff.png, id=3260, 281.25075pt x 2
+12.59425pt>
+File: ../../Images/MateriallisteBilder/Steckbrucken_ff.png Graphic file (type p
+ng)
+<use ../../Images/MateriallisteBilder/Steckbrucken_ff.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Steckbrucken_ff.png  
+used on input line 97.
+(pdftex.def)             Requested size: 92.47145pt x 69.89679pt.
+<../../Images/MateriallisteBilder/WAGO5.png, id=3262, 287.8755pt x 187.29974pt>
+
+File: ../../Images/MateriallisteBilder/WAGO5.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/WAGO5.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO5.png  used on in
+put line 102.
+(pdftex.def)             Requested size: 92.47145pt x 60.16577pt.
+<../../Images/MateriallisteBilder/WAGO3.png, id=3264, 278.84175pt x 205.36725pt
+>
+File: ../../Images/MateriallisteBilder/WAGO3.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/WAGO3.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO3.png  used on in
+put line 107.
+(pdftex.def)             Requested size: 92.47145pt x 68.10356pt.
+<../../Images/MateriallisteBilder/WAGO2.png, id=3266, 328.22626pt x 217.41225pt
+>
+File: ../../Images/MateriallisteBilder/WAGO2.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/WAGO2.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO2.png  used on in
+put line 112.
+(pdftex.def)             Requested size: 92.47145pt x 61.24988pt.
+<../../Images/MateriallisteBilder/Dichtring.png, id=3268, 392.667pt x 330.033pt
+>
+File: ../../Images/MateriallisteBilder/Dichtring.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/Dichtring.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Dichtring.png  used o
+n input line 117.
+(pdftex.def)             Requested size: 92.47145pt x 77.7189pt.
+<../../Images/MateriallisteBilder/M1,2x3mm.png, id=3270, 52.998pt x 39.14626pt>
+
+File: ../../Images/MateriallisteBilder/M1,2x3mm.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/M1,2x3mm.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/M1,2x3mm.png  used on
+ input line 122.
+(pdftex.def)             Requested size: 92.47145pt x 68.30983pt.
+<../../Images/MateriallisteBilder/M2x5mm.png, id=3272, 54.2025pt x 60.82726pt>
+File: ../../Images/MateriallisteBilder/M2x5mm.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/M2x5mm.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/M2x5mm.png  used on i
+nput line 127.
+(pdftex.def)             Requested size: 92.47145pt x 103.78642pt.
+<../../Images/MateriallisteBilder/M2x8mm.png, id=3274, 58.41824pt x 90.3375pt>
+File: ../../Images/MateriallisteBilder/M2x8mm.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/M2x8mm.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/M2x8mm.png  used on i
+nput line 132.
+(pdftex.def)             Requested size: 55.4806pt x 85.79393pt.
+<../../Images/MateriallisteBilder/M4x5mm.png, id=3276, 73.4745pt x 184.89075pt>
+
+File: ../../Images/MateriallisteBilder/M4x5mm.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/M4x5mm.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/M4x5mm.png  used on i
+nput line 137.
+(pdftex.def)             Requested size: 27.7403pt x 69.805pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+[]|[]\T1/lmr/m/n/10 (-17) Gewindeeinsätze
+ []
+
+<../../Images/MateriallisteBilder/gewindeeinsatzM2x4mm.png, id=3278, 133.6995pt
+ x 166.221pt>
+File: ../../Images/MateriallisteBilder/gewindeeinsatzM2x4mm.png Graphic file (t
+ype png)
+<use ../../Images/MateriallisteBilder/gewindeeinsatzM2x4mm.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/gewindeeinsatzM2x4mm.
+png  used on input line 142.
+(pdftex.def)             Requested size: 55.4806pt x 68.97534pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+[]|[]\T1/lmr/m/n/10 (-17) Gewindeeinsätze
+ []
+
+<../../Images/MateriallisteBilder/gewindeeinsatzM4Sx4mm.png, id=3280, 164.41425
+pt x 127.677pt>
+File: ../../Images/MateriallisteBilder/gewindeeinsatzM4Sx4mm.png Graphic file (
+type png)
+<use ../../Images/MateriallisteBilder/gewindeeinsatzM4Sx4mm.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/gewindeeinsatzM4Sx4mm
+.png  used on input line 147.
+(pdftex.def)             Requested size: 73.97603pt x 57.44826pt.
+<../../Images/MateriallisteBilder/Silikon.png, id=3282, 97.5645pt x 304.7385pt>
+
+File: ../../Images/MateriallisteBilder/Silikon.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/Silikon.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Silikon.png  used on 
+input line 152.
+(pdftex.def)             Requested size: 36.99083pt x 115.53677pt.
+<../../Images/MateriallisteBilder/Acryglasrohr.png, id=3284, 486.01575pt x 389.
 0535pt>
 File: ../../Images/MateriallisteBilder/Acryglasrohr.png Graphic file (type png)
 
 <use ../../Images/MateriallisteBilder/Acryglasrohr.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Acryglasrohr.png  use
-d on input line 108.
+d on input line 157.
 (pdftex.def)             Requested size: 92.47145pt x 74.02185pt.
-<../../Images/MateriallisteBilder/Dichtring.png, id=3265, 392.667pt x 330.033pt
->
-File: ../../Images/MateriallisteBilder/Dichtring.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/Dichtring.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/Dichtring.png  used o
-n input line 113.
-(pdftex.def)             Requested size: 92.47145pt x 77.7189pt.
+<../../Images/MateriallisteBilder/Untersetzer.png, id=3286, 475.7775pt x 257.76
+3pt>
+File: ../../Images/MateriallisteBilder/Untersetzer.png Graphic file (type png)
+<use ../../Images/MateriallisteBilder/Untersetzer.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/Untersetzer.png  used
+ on input line 164.
+(pdftex.def)             Requested size: 92.47145pt x 50.09642pt.
+<../../Images/MateriallisteBilder/pflanzentopf.png, id=3288, 178.86826pt x 184.
+2885pt>
+File: ../../Images/MateriallisteBilder/pflanzentopf.png Graphic file (type png)
+
+<use ../../Images/MateriallisteBilder/pflanzentopf.png>
+Package pdftex.def Info: ../../Images/MateriallisteBilder/pflanzentopf.png  use
+d on input line 169.
+(pdftex.def)             Requested size: 55.4806pt x 57.15976pt.
+
+Overfull \hbox (1.13835pt too wide) in alignment at lines 16--172
+ [] [] [] [] 
+ []
+
 [169
 
 
- <../../Images/MateriallisteBilder/netzteilBild.png> <../../Images/Materiallist
-eBilder/pumpeBild.png> <../../Images/MateriallisteBilder/blaueLED.png> <../../I
-mages/MateriallisteBilder/greenLED.png> <../../Images/MateriallisteBilder/relai
-sBild.png> <../../Images/MateriallisteBilder/kippschalterBild.png>]
+ <../../Images/MateriallisteBilder/Arduino.png> <../../Images/MateriallisteBild
+er/Ultraschallsensor.png> <../../Images/MateriallisteBilder/netzteilBild.png> <
+../../Images/MateriallisteBilder/pumpeBild.png> <../../Images/MateriallisteBild
+er/blaueLED.png> <../../Images/MateriallisteBilder/greenLED.png> <../../Images/
+MateriallisteBilder/relaisBild.png>]
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -6109,63 +6232,81 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[170 <../../Images/MateriallisteBilder/aderleitungBild.png> <../../Images/Mater
-iallisteBilder/Steckbrucken_mm.png> <../../Images/MateriallisteBilder/Steckbruc
-ken_fm.png> <../../Images/MateriallisteBilder/Steckbrucken_ff.png> <../../Image
-s/MateriallisteBilder/Arduino.png> <../../Images/MateriallisteBilder/WAGO5.png>
-]
-<../../Images/MateriallisteBilder/BOX_UNTEN.png, id=3297, 576.35326pt x 405.314
+[170 <../../Images/MateriallisteBilder/kippschalterBild.png> <../../Images/Mate
+riallisteBilder/Netzteilkabel.png> <../../Images/MateriallisteBilder/Sensorkabe
+l.png> <../../Images/MateriallisteBilder/Schrumpfschlauch.png> <../../Images/Ma
+teriallisteBilder/aderleitungBild.png>]
+Package cleveref Info: loaded `ngerman' language definitions on input line 172.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[171 <../../Images/MateriallisteBilder/Steckbrucken_mm.png> <../../Images/Mater
+iallisteBilder/Steckbrucken_fm.png> <../../Images/MateriallisteBilder/Steckbruc
+ken_ff.png> <../../Images/MateriallisteBilder/WAGO5.png> <../../Images/Material
+listeBilder/WAGO3.png> <../../Images/MateriallisteBilder/WAGO2.png> <../../Imag
+es/MateriallisteBilder/Dichtring.png>]
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[172 <../../Images/MateriallisteBilder/M1,2x3mm.png> <../../Images/Materiallist
+eBilder/M2x5mm.png> <../../Images/MateriallisteBilder/M2x8mm.png> <../../Images
+/MateriallisteBilder/M4x5mm.png> <../../Images/MateriallisteBilder/gewindeeinsa
+tzM2x4mm.png> <../../Images/MateriallisteBilder/gewindeeinsatzM4Sx4mm.png>]
+<../../Images/MateriallisteBilder/BOX_UNTEN.png, id=3345, 576.35326pt x 405.314
 25pt>
 File: ../../Images/MateriallisteBilder/BOX_UNTEN.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/BOX_UNTEN.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/BOX_UNTEN.png  used o
-n input line 128.
+n input line 184.
 (pdftex.def)             Requested size: 92.47145pt x 65.02477pt.
-<../../Images/MateriallisteBilder/BOX-DECKEL.png, id=3298, 703.428pt x 412.5412
+<../../Images/MateriallisteBilder/BOX-DECKEL.png, id=3346, 703.428pt x 412.5412
 4pt>
 File: ../../Images/MateriallisteBilder/BOX-DECKEL.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/BOX-DECKEL.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/BOX-DECKEL.png  used 
-on input line 133.
+on input line 189.
 (pdftex.def)             Requested size: 92.47145pt x 54.23026pt.
-<../../Images/MateriallisteBilder/SENSORHALTER.png, id=3299, 412.54124pt x 398.
+<../../Images/MateriallisteBilder/SENSORHALTER.png, id=3347, 412.54124pt x 398.
 6895pt>
 File: ../../Images/MateriallisteBilder/SENSORHALTER.png Graphic file (type png)
 
 <use ../../Images/MateriallisteBilder/SENSORHALTER.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/SENSORHALTER.png  use
-d on input line 138.
+d on input line 194.
 (pdftex.def)             Requested size: 92.47145pt x 89.36667pt.
-<../../Images/MateriallisteBilder/DREHVERSCHLUSS.png, id=3300, 338.4645pt x 293
+<../../Images/MateriallisteBilder/DREHVERSCHLUSS.png, id=3348, 338.4645pt x 293
 .29575pt>
 File: ../../Images/MateriallisteBilder/DREHVERSCHLUSS.png Graphic file (type pn
 g)
 <use ../../Images/MateriallisteBilder/DREHVERSCHLUSS.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/DREHVERSCHLUSS.png  u
-sed on input line 143.
+sed on input line 199.
 (pdftex.def)             Requested size: 92.47145pt x 80.13072pt.
-<../../Images/MateriallisteBilder/WASSERHAHN.png, id=3301, 363.15675pt x 372.19
+<../../Images/MateriallisteBilder/WASSERHAHN.png, id=3349, 363.15675pt x 372.19
 05pt>
 File: ../../Images/MateriallisteBilder/WASSERHAHN.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/WASSERHAHN.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/WASSERHAHN.png  used 
-on input line 148.
+on input line 204.
 (pdftex.def)             Requested size: 92.47145pt x 94.76817pt.
-<../../Images/MateriallisteBilder/verbindung.png, id=3302, 662.475pt x 593.2162
+<../../Images/MateriallisteBilder/verbindung.png, id=3350, 662.475pt x 593.2162
 5pt>
 File: ../../Images/MateriallisteBilder/verbindung.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/verbindung.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/verbindung.png  used 
-on input line 153.
+on input line 209.
 (pdftex.def)             Requested size: 92.47145pt x 82.79625pt.
-<../../Images/MateriallisteBilder/pumpenstand.png, id=3303, 552.8655pt x 473.36
-85pt>
-File: ../../Images/MateriallisteBilder/pumpenstand.png Graphic file (type png)
-<use ../../Images/MateriallisteBilder/pumpenstand.png>
-Package pdftex.def Info: ../../Images/MateriallisteBilder/pumpenstand.png  used
- on input line 159.
-(pdftex.def)             Requested size: 92.47145pt x 79.17143pt.
-Package cleveref Info: loaded `ngerman' language definitions on input line 162.
+Package cleveref Info: loaded `ngerman' language definitions on input line 214.
 
 
 
@@ -6175,13 +6316,10 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[171 <../../Images/MateriallisteBilder/WAGO3.png> <../../Images/MateriallisteBi
-lder/WAGO2.png> <../../Images/MateriallisteBilder/Ultraschallsensor.png> <../..
-/Images/MateriallisteBilder/Untersetzer.png> <../../Images/MateriallisteBilder/
-Acryglasrohr.png> <../../Images/MateriallisteBilder/Dichtring.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[173 <../../Images/MateriallisteBilder/Silikon.png> <../../Images/Materialliste
+Bilder/Acryglasrohr.png> <../../Images/MateriallisteBilder/Untersetzer.png> <..
+/../Images/MateriallisteBilder/pflanzentopf.png> <../../Images/MateriallisteBil
+der/BOX_UNTEN.png> <../../Images/MateriallisteBilder/BOX-DECKEL.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -6190,40 +6328,29 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[172 <../../Images/MateriallisteBilder/BOX_UNTEN.png> <../../Images/Materiallis
-teBilder/BOX-DECKEL.png> <../../Images/MateriallisteBilder/SENSORHALTER.png> <.
-./../Images/MateriallisteBilder/DREHVERSCHLUSS.png> <../../Images/Materialliste
-Bilder/WASSERHAHN.png> <../../Images/MateriallisteBilder/verbindung.png> <../..
-/Images/MateriallisteBilder/pumpenstand.png>]
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 168.
-
-
-Package fancyhdr Warning: \headheight is too small (1.0pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.0pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
-
-[173]
-Package biblatex Info: Reference segment=135 on input line 170.
-Package biblatex Info: Setting label 'refsegment:0135' on input line 170.
-<../../Images/MateriallisteBilder/Breadboard.png, id=3333, 426.393pt x 175.857p
+[174 <../../Images/MateriallisteBilder/SENSORHALTER.png> <../../Images/Material
+listeBilder/DREHVERSCHLUSS.png> <../../Images/MateriallisteBilder/WASSERHAHN.pn
+g> <../../Images/MateriallisteBilder/verbindung.png>]
+Package biblatex Info: Reference segment=135 on input line 219.
+Package biblatex Info: Setting label 'refsegment:0135' on input line 219.
+<../../Images/MateriallisteBilder/Breadboard.png, id=3372, 426.393pt x 175.857p
 t>
 File: ../../Images/MateriallisteBilder/Breadboard.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/Breadboard.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Breadboard.png  used 
-on input line 176.
+on input line 225.
 (pdftex.def)             Requested size: 92.47145pt x 38.13588pt.
-<../../Images/MateriallisteBilder/TINY_ml_KIT.png, id=3334, 699.8145pt x 389.05
+<../../Images/MateriallisteBilder/TINY_ml_KIT.png, id=3373, 699.8145pt x 389.05
 35pt>
 File: ../../Images/MateriallisteBilder/TINY_ml_KIT.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/TINY_ml_KIT.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/TINY_ml_KIT.png  used
- on input line 179.
+ on input line 228.
 (pdftex.def)             Requested size: 92.47145pt x 51.40388pt.
-) (../../Contents/General/Softwareliste MagicFaucetFountain.tex
+)
+(../../Contents/General/Softwareliste MagicFaucetFountain.tex
 
+Package cleveref Info: loaded `ngerman' language definitions on input line 15.
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -6231,8 +6358,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[174 <../../Images/MateriallisteBilder/Breadboard.png> <../../Images/Materialli
+[175 <../../Images/MateriallisteBilder/Breadboard.png> <../../Images/Materialli
 steBilder/TINY_ml_KIT.png>]
+
+[176
+
+
+]
 chapter 21.
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
@@ -6251,12 +6383,9 @@ Overfull \hbox (76.45273pt too wide) in alignment at lines 17--44
 
 )
 
-[175
+[177]
 
-
-]
-
-[176
+[178
 
 
 ]
@@ -6278,7 +6407,7 @@ digitalmultimeter /
 
 
 
-[177]
+[179]
 Overfull \hbox (36.00867pt too wide) in paragraph at lines 281--281
 \T1/pcr/l/it/10 www . falconillumination . de / de / wissenswertes / wie -[] fu
 nktioniert -[]
@@ -6318,7 +6447,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[178]
+[180]
 Overfull \hbox (29.27615pt too wide) in paragraph at lines 281--281
 []\T1/lmr/m/n/10 (-20) N. Swit^^?ches. \T1/lmr/m/it/10 (-20) Schal-ter-grund-la
 -gen\T1/lmr/m/n/10 (-20) . [][][pdf][][]. 2025. \T1/lmr/m/sc/10 (-20) url\T1/lm
@@ -6336,7 +6465,12 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[179] (./Nano33BLESense.aux
+[181]
+
+LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (179 not 181).
+               Rerun to correct this.
+
+(./Nano33BLESense.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 23.
 )
  ***********
@@ -6369,10 +6503,10 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 110316 strings out of 473190
- 2926967 string characters out of 5716853
- 4638073 words of memory out of 5000000
- 130131 multiletter control sequences out of 15000+600000
+ 110355 strings out of 473190
+ 2929930 string characters out of 5716853
+ 4638078 words of memory out of 5000000
+ 130168 multiletter control sequences out of 15000+600000
  778365 words of font info for 492 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3626s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -6396,10 +6530,10 @@ mf-dist/fonts/type1/public/lm/lmss8.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts
 lic/lm/lmsy10.pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy7
 .pfb><c:/LaTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/L
 aTeX/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Nano33BLESense.pdf (179 pages, 17990981 bytes).
+Output written on Nano33BLESense.pdf (181 pages, 18878540 bytes).
 PDF statistics:
- 4712 PDF objects out of 5155 (max. 8388607)
- 4286 compressed objects within 43 object streams
- 1742 named destinations out of 2073 (max. 500000)
- 118208 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 4759 PDF objects out of 5155 (max. 8388607)
+ 4310 compressed objects within 44 object streams
+ 1744 named destinations out of 2073 (max. 500000)
+ 118258 words of extra memory for PDF output out of 128383 (max. 10000000)
 
