@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  22 JUN 2025 04:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  22 JUN 2025 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2769,7 +2769,7 @@ Overfull \hbox (2.55548pt too wide) detected at line 245
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 246
- []\T1/lmss/bx/n/10 159
+ []\T1/lmss/bx/n/10 161
  []
 
 
@@ -2812,41 +2812,28 @@ Overfull \hbox (2.55548pt too wide) detected at line 259
  []
 
 
-Package tocbasic Warning: number width of section toc entries should be increas
-ed!
-(tocbasic)                Currently used number width = 25.55551pt,
-(tocbasic)                Wanted number separation    = 3.99994pt,
-(tocbasic)                Reserved number width       = 23.00003pt on input lin
-e 260.
-
-
-Overfull \hbox (2.55548pt too wide) detected at line 260
-\T1/lmr/m/n/10 19.13. 
- []
-
-
-Overfull \hbox (0.76602pt too wide) detected at line 261
+Overfull \hbox (0.76602pt too wide) detected at line 260
 \T1/lmss/bx/n/12 VII. 
  []
 
 
-Overfull \hbox (4.29994pt too wide) detected at line 261
- []\T1/lmss/bx/n/12 161
+Overfull \hbox (4.29994pt too wide) detected at line 260
+ []\T1/lmss/bx/n/12 165
  []
 
 
-Overfull \hbox (0.99997pt too wide) detected at line 262
- []\T1/lmss/bx/n/10 163
+Overfull \hbox (0.99997pt too wide) detected at line 261
+ []\T1/lmss/bx/n/10 167
+ []
+
+
+Overfull \hbox (0.99997pt too wide) detected at line 263
+ []\T1/lmss/bx/n/10 173
  []
 
 
 Overfull \hbox (0.99997pt too wide) detected at line 264
- []\T1/lmss/bx/n/10 169
- []
-
-
-Overfull \hbox (0.99997pt too wide) detected at line 265
- []\T1/lmss/bx/n/10 171
+ []\T1/lmss/bx/n/10 175
  []
 
 )
@@ -2967,14 +2954,14 @@ Package scrkbase Info: You've told me to use the font selection of the element
 chapter 2.
 Package biblatex Info: Reference segment=5 on input line 19.
 Package biblatex Info: Setting label 'refsegment:05' on input line 19.
-<../../Images/Arduino/ArduinoIDE/menuAnzeige.png, id=817, 709.90219pt x 67.0003
+<../../Images/Arduino/ArduinoIDE/menuAnzeige.png, id=815, 709.90219pt x 67.0003
 pt>
 File: ../../Images/Arduino/ArduinoIDE/menuAnzeige.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/menuAnzeige.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/menuAnzeige.png  used 
 on input line 34.
 (pdftex.def)             Requested size: 369.88583pt x 34.91089pt.
-<../../Images/Arduino/ArdiunoIDE2/MenuButton.png, id=819, 758.835pt x 28.908pt>
+<../../Images/Arduino/ArdiunoIDE2/MenuButton.png, id=817, 758.835pt x 28.908pt>
 
 File: ../../Images/Arduino/ArdiunoIDE2/MenuButton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/MenuButton.png>
@@ -3010,7 +2997,7 @@ on input line 50.
 (pdftex.def)             Requested size: 11.1998pt x 12.0pt.
 Package biblatex Info: Reference segment=6 on input line 54.
 Package biblatex Info: Setting label 'refsegment:06' on input line 54.
-<../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png, id=838, 676.02562pt x 
+<../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png, id=836, 676.02562pt x 
 446.41782pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png Graphic file (type
  png)
@@ -3028,7 +3015,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [18 <../../Images/Arduino/ArduinoIDE/downloadArduinoIDE.png>]
-<../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png, id=850, 676.02562pt
+<../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png, id=848, 676.02562pt
  x 446.41782pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png Graphic file (t
 ype png)
@@ -3036,7 +3023,7 @@ ype png)
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.
 png  used on input line 95.
 (pdftex.def)             Requested size: 369.88583pt x 244.26357pt.
-<../../Images/Arduino/ArduinoIDE/lizenzabkommen.png, id=852, 370.38374pt x 287.
+<../../Images/Arduino/ArduinoIDE/lizenzabkommen.png, id=850, 370.38374pt x 287.
 57437pt>
 File: ../../Images/Arduino/ArduinoIDE/lizenzabkommen.png Graphic file (type png
 )
@@ -3059,7 +3046,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [19 <../../Images/Arduino/ArduinoIDE/downloadArduinoIDErot.png>]
-<../../Images/Arduino/ArduinoIDE/downloadBenutzer.png, id=861, 371.13657pt x 28
+<../../Images/Arduino/ArduinoIDE/downloadBenutzer.png, id=859, 371.13657pt x 28
 6.06876pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadBenutzer.png Graphic file (type p
 ng)
@@ -3080,7 +3067,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [20 <../../Images/Arduino/ArduinoIDE/lizenzabkommen.png>]
-<../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png, id=869, 371.13657pt x
+<../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png, id=867, 371.13657pt x
  287.57437pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadVerzeichnis.png Graphic file (typ
 e png)
@@ -3103,7 +3090,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [21 <../../Images/Arduino/ArduinoIDE/downloadBenutzer.png>]
-<../../Images/Arduino/ArduinoIDE/downloadIDE.png, id=877, 709.90219pt x 439.642
+<../../Images/Arduino/ArduinoIDE/downloadIDE.png, id=875, 709.90219pt x 439.642
 5pt>
 File: ../../Images/Arduino/ArduinoIDE/downloadIDE.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/downloadIDE.png>
@@ -3126,7 +3113,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 uino/ArduinoIDE/downloadIDE.png>]
 Package biblatex Info: Reference segment=7 on input line 202.
 Package biblatex Info: Setting label 'refsegment:07' on input line 202.
-<../../Images/Arduino/ArduinoIDE/arduinoSidebar.png, id=887, 699.36281pt x 369.
+<../../Images/Arduino/ArduinoIDE/arduinoSidebar.png, id=885, 699.36281pt x 369.
 63094pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoSidebar.png Graphic file (type png
 )
@@ -3148,7 +3135,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [23 <../../Images/Arduino/ArduinoIDE/arduinoSidebar.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png, id=895, 613.54219pt x 3
+<../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png, id=893, 613.54219pt x 3
 77.15906pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png Graphic file (type 
 png)
@@ -3166,14 +3153,14 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [24 <../../Images/Arduino/ArduinoIDE/arduinoSketchbook.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoBoard.png, id=904, 493.0922pt x 325.967
+<../../Images/Arduino/ArduinoIDE/arduinoBoard.png, id=902, 493.0922pt x 325.967
 82pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBoard.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBoard.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBoard.png  used
  on input line 270.
 (pdftex.def)             Requested size: 369.88583pt x 244.52997pt.
-<../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png, id=906, 350.05782pt x 3
+<../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png, id=904, 350.05782pt x 3
 65.86688pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBibliothek.png Graphic file (type 
 png)
@@ -3265,7 +3252,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\font' on input line 368.
 
-<../../Images/Arduino/ArduinoIDE/arduinoCMD.png, id=931, 605.26125pt x 563.1037
+<../../Images/Arduino/ArduinoIDE/arduinoCMD.png, id=929, 605.26125pt x 563.1037
 4pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoCMD.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoCMD.png>
@@ -3287,7 +3274,7 @@ Overfull \hbox (35.11371pt too wide) in paragraph at lines 408--410
 3BLESenseLED[] 
  []
 
-<../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png, id=941, 672.26
+<../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png, id=939, 672.26
 157pt x 348.55219pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png Graphic fi
 le (type png)
@@ -3309,7 +3296,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [29 <../../Images/Arduino/ArduinoIDE/arduinoBibliothekEinbinden.png>]
 Package biblatex Info: Reference segment=10 on input line 459.
 Package biblatex Info: Setting label 'refsegment:010' on input line 459.
-<../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png, id=953, 584.93532pt x 44
+<../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png, id=951, 584.93532pt x 44
 4.91219pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png Graphic file (type p
 ng)
@@ -3331,7 +3318,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 [30 <../../Images/Arduino/ArduinoIDE/arduinoBeispiele.png>]
 Package biblatex Info: Reference segment=12 on input line 488.
 Package biblatex Info: Setting label 'refsegment:012' on input line 488.
-<../../Images/Arduino/ArduinoIDE/arduinoAuto.png, id=961, 446.41782pt x 201.753
+<../../Images/Arduino/ArduinoIDE/arduinoAuto.png, id=959, 446.41782pt x 201.753
 75pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoAuto.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoAuto.png>
@@ -3367,7 +3354,7 @@ Package biblatex Info: Reference segment=14 on input line 19.
 Package biblatex Info: Setting label 'refsegment:014' on input line 19.
 Package biblatex Info: Reference segment=15 on input line 29.
 Package biblatex Info: Setting label 'refsegment:015' on input line 29.
-<../../Images/Arduino/ArduinoIDE/arduinoMbed.png, id=978, 580.41844pt x 334.248
+<../../Images/Arduino/ArduinoIDE/arduinoMbed.png, id=976, 580.41844pt x 334.248
 75pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoMbed.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoMbed.png>
@@ -3383,7 +3370,7 @@ Underfull \vbox (badness 1147) has occurred while \output is active []
 
 
 ]
-<../../Images/Arduino/ArduinoIDE/arduinoConnect.png, id=991, 599.99156pt x 410.
+<../../Images/Arduino/ArduinoIDE/arduinoConnect.png, id=989, 599.99156pt x 410.
 2828pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoConnect.png Graphic file (type png
 )
@@ -3402,7 +3389,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [34 <../../Images/Arduino/ArduinoIDE/arduinoMbed.png> <../../Images/Arduino/Ard
 uinoIDE/arduinoConnect.png>]
-<../../Images/Arduino/ArdiunoIDE2/resetbutton.png, id=1005, 283.0575pt x 439.64
+<../../Images/Arduino/ArdiunoIDE2/resetbutton.png, id=1003, 283.0575pt x 439.64
 25pt>
 File: ../../Images/Arduino/ArdiunoIDE2/resetbutton.png Graphic file (type png)
 <use ../../Images/Arduino/ArdiunoIDE2/resetbutton.png>
@@ -3437,7 +3424,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [35 <../../Images/Arduino/ArdiunoIDE2/resetbutton.png>]
-<../../Images/Arduino/ArduinoIDE/arduinoPort.png, id=1019, 345.54094pt x 394.47
+<../../Images/Arduino/ArduinoIDE/arduinoPort.png, id=1017, 345.54094pt x 394.47
 375pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoPort.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoPort.png>
@@ -3511,14 +3498,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\font' on input line 171.
 
-<../../Images/Arduino/ArduinoIDE/arduinoBlink.png, id=1040, 581.17125pt x 414.0
+<../../Images/Arduino/ArduinoIDE/arduinoBlink.png, id=1038, 581.17125pt x 414.0
 4688pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBlink.png Graphic file (type png)
 <use ../../Images/Arduino/ArduinoIDE/arduinoBlink.png>
 Package pdftex.def Info: ../../Images/Arduino/ArduinoIDE/arduinoBlink.png  used
  on input line 206.
 (pdftex.def)             Requested size: 295.90979pt x 210.81995pt.
-<../../Images/Arduino/ArduinoIDE/arduinoBlink2.png, id=1041, 1084.05pt x 624.08
+<../../Images/Arduino/ArduinoIDE/arduinoBlink2.png, id=1039, 1084.05pt x 624.08
 156pt>
 File: ../../Images/Arduino/ArduinoIDE/arduinoBlink2.png Graphic file (type png)
 
@@ -4181,7 +4168,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 243.
 Package biblatex Info: Reference segment=23 on input line 252.
 Package biblatex Info: Setting label 'refsegment:023' on input line 252.
-<../../Images/MPM3610/BlockdiagrammSpannungswandler.png, id=1168, 858.95906pt x
+<../../Images/MPM3610/BlockdiagrammSpannungswandler.png, id=1166, 858.95906pt x
  502.12593pt>
 File: ../../Images/MPM3610/BlockdiagrammSpannungswandler.png Graphic file (type
  png)
@@ -4199,7 +4186,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [52]
-<../../Images/MPM3610/BeispielanwendungSpannungswandler.png, id=1176, 548.80031
+<../../Images/MPM3610/BeispielanwendungSpannungswandler.png, id=1174, 548.80031
 pt x 324.46219pt>
 File: ../../Images/MPM3610/BeispielanwendungSpannungswandler.png Graphic file (
 type png)
@@ -4224,13 +4211,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [53{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc} <../../Images/MPM3
 610/BlockdiagrammSpannungswandler.png>]
-<../../Images/MPM3610/aamRegelbetrieb.png, id=1187, 619.56468pt x 238.64156pt>
+<../../Images/MPM3610/aamRegelbetrieb.png, id=1185, 619.56468pt x 238.64156pt>
 File: ../../Images/MPM3610/aamRegelbetrieb.png Graphic file (type png)
 <use ../../Images/MPM3610/aamRegelbetrieb.png>
 Package pdftex.def Info: ../../Images/MPM3610/aamRegelbetrieb.png  used on inpu
 t line 280.
 (pdftex.def)             Requested size: 295.90979pt x 113.97495pt.
-<../../Images/MPM3610/dcmSteuerungsbetrieb.png, id=1190, 582.67688pt x 277.035p
+<../../Images/MPM3610/dcmSteuerungsbetrieb.png, id=1188, 582.67688pt x 277.035p
 t>
 File: ../../Images/MPM3610/dcmSteuerungsbetrieb.png Graphic file (type png)
 <use ../../Images/MPM3610/dcmSteuerungsbetrieb.png>
@@ -4263,7 +4250,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [55 <../../Images/MPM3610/dcmSteuerungsbetrieb.png>]
-<../../Images/MPM3610/spannungswandlerWirkungsgrad.png, id=1219, 482.55281pt x 
+<../../Images/MPM3610/spannungswandlerWirkungsgrad.png, id=1217, 482.55281pt x 
 486.31688pt>
 File: ../../Images/MPM3610/spannungswandlerWirkungsgrad.png Graphic file (type 
 png)
@@ -5297,20 +5284,20 @@ Package scrkbase Info: You've told me to use the font selection of the element
 chapter 15.
 Package biblatex Info: Reference segment=99 on input line 21.
 Package biblatex Info: Setting label 'refsegment:099' on input line 21.
-<../../Images/nRF Connect/AppStore.png, id=2811, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/AppStore.png, id=2809, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/AppStore.png Graphic file (type png)
 <use ../../Images/nRF Connect/AppStore.png>
 Package pdftex.def Info: ../../Images/nRF Connect/AppStore.png  used on input l
 ine 37.
 (pdftex.def)             Requested size: 110.96687pt x 240.126pt.
-<../../Images/nRF Connect/nrfInstallieren.png, id=2812, 1174.3875pt x 2541.495p
+<../../Images/nRF Connect/nrfInstallieren.png, id=2810, 1174.3875pt x 2541.495p
 t>
 File: ../../Images/nRF Connect/nrfInstallieren.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfInstallieren.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfInstallieren.png  used on 
 input line 43.
 (pdftex.def)             Requested size: 110.96687pt x 240.126pt.
-<../../Images/nRF Connect/nrfHomescreen.png, id=2813, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/nrfHomescreen.png, id=2811, 1174.3875pt x 2541.495pt>
 
 File: ../../Images/nRF Connect/nrfHomescreen.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfHomescreen.png>
@@ -5339,13 +5326,13 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [132]
-<../../Images/nRF Connect/nrfScan.png, id=2872, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/nrfScan.png, id=2870, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/nrfScan.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfScan.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfScan.png  used on input li
 ne 80.
 (pdftex.def)             Requested size: 147.95207pt x 320.16801pt.
-<../../Images/nRF Connect/nrfAnsicht.png, id=2873, 1174.3875pt x 2541.495pt>
+<../../Images/nRF Connect/nrfAnsicht.png, id=2871, 1174.3875pt x 2541.495pt>
 File: ../../Images/nRF Connect/nrfAnsicht.png Graphic file (type png)
 <use ../../Images/nRF Connect/nrfAnsicht.png>
 Package pdftex.def Info: ../../Images/nRF Connect/nrfAnsicht.png  used on input
@@ -5501,14 +5488,14 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [145]
-<../../Images/nRF Connect/scanApplikation.png, id=3090, 1294.8375pt x 2806.485p
+<../../Images/nRF Connect/scanApplikation.png, id=3088, 1294.8375pt x 2806.485p
 t>
 File: ../../Images/nRF Connect/scanApplikation.png Graphic file (type png)
 <use ../../Images/nRF Connect/scanApplikation.png>
 Package pdftex.def Info: ../../Images/nRF Connect/scanApplikation.png  used on 
 input line 626.
 (pdftex.def)             Requested size: 110.96687pt x 240.49654pt.
-<../../Images/nRF Connect/connectedApplikation.png, id=3091, 1294.8375pt x 2806
+<../../Images/nRF Connect/connectedApplikation.png, id=3089, 1294.8375pt x 2806
 .485pt>
 File: ../../Images/nRF Connect/connectedApplikation.png Graphic file (type png)
 
@@ -5529,7 +5516,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [146]
-<../../Images/nRF Connect/attributeApplikation.png, id=3099, 1294.8375pt x 2806
+<../../Images/nRF Connect/attributeApplikation.png, id=3097, 1294.8375pt x 2806
 .485pt>
 File: ../../Images/nRF Connect/attributeApplikation.png Graphic file (type png)
 
@@ -5550,14 +5537,14 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [147 <../../Images/nRF Connect/scanApplikation.PNG> <../../Images/nRF Connect/c
 onnectedApplikation.PNG> <../../Images/nRF Connect/attributeApplikation.PNG>]
-<../../Images/nRF Connect/dataApplikation.png, id=3107, 1294.8375pt x 2806.485p
+<../../Images/nRF Connect/dataApplikation.png, id=3105, 1294.8375pt x 2806.485p
 t>
 File: ../../Images/nRF Connect/dataApplikation.png Graphic file (type png)
 <use ../../Images/nRF Connect/dataApplikation.png>
 Package pdftex.def Info: ../../Images/nRF Connect/dataApplikation.png  used on 
 input line 655.
 (pdftex.def)             Requested size: 110.96687pt x 240.49654pt.
-<../../Images/nRF Connect/data2Applikation.png, id=3109, 1294.8375pt x 2806.485
+<../../Images/nRF Connect/data2Applikation.png, id=3107, 1294.8375pt x 2806.485
 pt>
 File: ../../Images/nRF Connect/data2Applikation.png Graphic file (type png)
 <use ../../Images/nRF Connect/data2Applikation.png>
@@ -5575,14 +5562,14 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 
 [148 <../../Images/nRF Connect/dataApplikation.PNG> <../../Images/nRF Connect/d
 ata2Applikation.PNG>]
-<../../Images/nRF Connect/anApplikation.png, id=3115, 1294.8375pt x 2806.485pt>
+<../../Images/nRF Connect/anApplikation.png, id=3113, 1294.8375pt x 2806.485pt>
 
 File: ../../Images/nRF Connect/anApplikation.png Graphic file (type png)
 <use ../../Images/nRF Connect/anApplikation.png>
 Package pdftex.def Info: ../../Images/nRF Connect/anApplikation.png  used on in
 put line 681.
 (pdftex.def)             Requested size: 110.96687pt x 240.49654pt.
-<../../Images/nRF Connect/ausApplikation.png, id=3116, 1294.8375pt x 2806.485pt
+<../../Images/nRF Connect/ausApplikation.png, id=3114, 1294.8375pt x 2806.485pt
 >
 File: ../../Images/nRF Connect/ausApplikation.png Graphic file (type png)
 <use ../../Images/nRF Connect/ausApplikation.png>
@@ -5645,17 +5632,11 @@ Package biblatex Info: Setting label 'refsegment:0113' on input line 18.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 18.
 
-Package biblatex Info: Reference segment=114 on input line 37.
-Package biblatex Info: Setting label 'refsegment:0114' on input line 37.
+Package biblatex Info: Reference segment=114 on input line 49.
+Package biblatex Info: Setting label 'refsegment:0114' on input line 49.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 37.
-
-Package biblatex Info: Reference segment=115 on input line 44.
-Package biblatex Info: Setting label 'refsegment:0115' on input line 44.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 44.
+(hyperref)                removing `\menu' on input line 49.
 
 
 
@@ -5663,24 +5644,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-Package biblatex Info: Reference segment=116 on input line 63.
-Package biblatex Info: Setting label 'refsegment:0116' on input line 63.
+Package biblatex Info: Reference segment=115 on input line 60.
+Package biblatex Info: Setting label 'refsegment:0115' on input line 60.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 63.
+(hyperref)                removing `\menu' on input line 60.
 
-Package biblatex Info: Reference segment=117 on input line 65.
-Package biblatex Info: Setting label 'refsegment:0117' on input line 65.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 65.
-
-Package biblatex Info: Reference segment=118 on input line 85.
-Package biblatex Info: Setting label 'refsegment:0118' on input line 85.
+Package biblatex Info: Reference segment=116 on input line 88.
+Package biblatex Info: Setting label 'refsegment:0116' on input line 88.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 85.
+(hyperref)                removing `\menu' on input line 88.
+
+Package biblatex Info: Reference segment=117 on input line 92.
+Package biblatex Info: Setting label 'refsegment:0117' on input line 92.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 92.
 
 
 
@@ -5692,28 +5673,16 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [156]
-Package biblatex Info: Reference segment=119 on input line 120.
-Package biblatex Info: Setting label 'refsegment:0119' on input line 120.
+Package biblatex Info: Reference segment=118 on input line 120.
+Package biblatex Info: Setting label 'refsegment:0118' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 120.
 
-Package biblatex Info: Reference segment=120 on input line 125.
-Package biblatex Info: Setting label 'refsegment:0120' on input line 125.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 125.
-
-Package biblatex Info: Reference segment=121 on input line 139.
-Package biblatex Info: Setting label 'refsegment:0121' on input line 139.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 139.
 
 
-
-Package cleveref Info: loaded `ngerman' language definitions on input line 142.
+Package cleveref Info: loaded `ngerman' language definitions on input line 138.
 
 
 Package fancyhdr Warning: \headheight is too small (1.0pt): 
@@ -5723,12 +5692,50 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
 [157]
-Package biblatex Info: Reference segment=122 on input line 146.
-Package biblatex Info: Setting label 'refsegment:0122' on input line 146.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[158]
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 225.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[159]
+Package biblatex Info: Reference segment=119 on input line 236.
+Package biblatex Info: Setting label 'refsegment:0119' on input line 236.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 146.
+(hyperref)                removing `\menu' on input line 236.
+
+Package biblatex Info: Reference segment=120 on input line 243.
+Package biblatex Info: Setting label 'refsegment:0120' on input line 243.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 243.
+
+Package biblatex Info: Reference segment=121 on input line 259.
+Package biblatex Info: Setting label 'refsegment:0121' on input line 259.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 259.
+
+Package biblatex Info: Reference segment=122 on input line 268.
+Package biblatex Info: Setting label 'refsegment:0122' on input line 268.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 268.
 
 ) (../../Contents/General/VerÃ¤nderungen/groÃŸeVerÃ¤nderungen.tex
 
@@ -5739,100 +5746,118 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[158]
+[160]
 chapter 19.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 16.
 
-Package biblatex Info: Reference segment=123 on input line 18.
-Package biblatex Info: Setting label 'refsegment:0123' on input line 18.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 18.
-
-Package biblatex Info: Reference segment=124 on input line 20.
-Package biblatex Info: Setting label 'refsegment:0124' on input line 20.
+Package biblatex Info: Reference segment=123 on input line 20.
+Package biblatex Info: Setting label 'refsegment:0123' on input line 20.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\menu' on input line 20.
 
-Package biblatex Info: Reference segment=125 on input line 22.
-Package biblatex Info: Setting label 'refsegment:0125' on input line 22.
+Package biblatex Info: Reference segment=124 on input line 33.
+Package biblatex Info: Setting label 'refsegment:0124' on input line 33.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 22.
+(hyperref)                removing `\menu' on input line 33.
 
-Package biblatex Info: Reference segment=126 on input line 24.
-Package biblatex Info: Setting label 'refsegment:0126' on input line 24.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 24.
-
-Package biblatex Info: Reference segment=127 on input line 26.
-Package biblatex Info: Setting label 'refsegment:0127' on input line 26.
+Package biblatex Info: Reference segment=125 on input line 59.
+Package biblatex Info: Setting label 'refsegment:0125' on input line 59.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 26.
-
-Package biblatex Info: Reference segment=128 on input line 39.
-Package biblatex Info: Setting label 'refsegment:0128' on input line 39.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 39.
-
-Package biblatex Info: Reference segment=129 on input line 41.
-Package biblatex Info: Setting label 'refsegment:0129' on input line 41.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 41.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 42.
+(hyperref)                removing `\menu' on input line 59.
 
 
 
-[159
+[161
 
 
 ]
-Package biblatex Info: Reference segment=130 on input line 68.
-Package biblatex Info: Setting label 'refsegment:0130' on input line 68.
+Package biblatex Info: Reference segment=126 on input line 110.
+Package biblatex Info: Setting label 'refsegment:0126' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 68.
+(hyperref)                removing `\menu' on input line 110.
 
-Package biblatex Info: Reference segment=131 on input line 70.
-Package biblatex Info: Setting label 'refsegment:0131' on input line 70.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 70.
-
-Package biblatex Info: Reference segment=132 on input line 71.
-Package biblatex Info: Setting label 'refsegment:0132' on input line 71.
+Package biblatex Info: Reference segment=127 on input line 125.
+Package biblatex Info: Setting label 'refsegment:0127' on input line 125.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 71.
+(hyperref)                removing `\menu' on input line 125.
 
-Package biblatex Info: Reference segment=133 on input line 72.
-Package biblatex Info: Setting label 'refsegment:0133' on input line 72.
+
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[162]
+Package biblatex Info: Reference segment=128 on input line 160.
+Package biblatex Info: Setting label 'refsegment:0128' on input line 160.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 72.
+(hyperref)                removing `\menu' on input line 160.
 
-Package biblatex Info: Reference segment=134 on input line 74.
-Package biblatex Info: Setting label 'refsegment:0134' on input line 74.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 74.
+(hyperref)                removing `\menu' on input line 161.
 
-Package biblatex Info: Reference segment=135 on input line 76.
-Package biblatex Info: Setting label 'refsegment:0135' on input line 76.
+Package biblatex Info: Reference segment=129 on input line 187.
+Package biblatex Info: Setting label 'refsegment:0129' on input line 187.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\menu' on input line 76.
+(hyperref)                removing `\menu' on input line 187.
+
+
+
+Package cleveref Info: loaded `ngerman' language definitions on input line 195.
+
+
+Package fancyhdr Warning: \headheight is too small (1.0pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.0pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
+
+[163]
+Package biblatex Info: Reference segment=130 on input line 203.
+Package biblatex Info: Setting label 'refsegment:0130' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 203.
+
+Package biblatex Info: Reference segment=131 on input line 206.
+Package biblatex Info: Setting label 'refsegment:0131' on input line 206.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 206.
+
+Package biblatex Info: Reference segment=132 on input line 209.
+Package biblatex Info: Setting label 'refsegment:0132' on input line 209.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 209.
+
+Package biblatex Info: Reference segment=133 on input line 212.
+Package biblatex Info: Setting label 'refsegment:0133' on input line 212.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 212.
+
+Package biblatex Info: Reference segment=134 on input line 215.
+Package biblatex Info: Setting label 'refsegment:0134' on input line 215.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\menu' on input line 215.
 
 )
 
@@ -5843,26 +5868,26 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[160]
+[164]
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 227.
 
 
-[161
+[165
 
 
 ]
 
-[162] (../../Contents/General/Materialliste Magic Faucet Fountain.tex
+[166] (../../Contents/General/Materialliste Magic Faucet Fountain.tex
 chapter 20.
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 []|[]\T1/lmr/m/n/10 (+20) Schaltnetzteil
  []
 
-<../../Images/MateriallisteBilder/netzteilBild.png, id=3193, 602.25pt x 451.687
+<../../Images/MateriallisteBilder/netzteilBild.png, id=3213, 602.25pt x 451.687
 5pt>
 File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 
@@ -5870,7 +5895,7 @@ File: ../../Images/MateriallisteBilder/netzteilBild.png Graphic file (type png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/netzteilBild.png  use
 d on input line 22.
 (pdftex.def)             Requested size: 55.4806pt x 41.60812pt.
-<../../Images/MateriallisteBilder/pumpeBild.png, id=3195, 1003.75pt x 1003.75pt
+<../../Images/MateriallisteBilder/pumpeBild.png, id=3215, 1003.75pt x 1003.75pt
 >
 File: ../../Images/MateriallisteBilder/pumpeBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpeBild.png>
@@ -5882,7 +5907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 []|[]\T1/lmr/m/n/10 (+20) Blaue LE^^?D-^^?Si^^?
  []
 
-<../../Images/MateriallisteBilder/blaueLED.png, id=3197, 602.25pt x 296.10625pt
+<../../Images/MateriallisteBilder/blaueLED.png, id=3217, 602.25pt x 296.10625pt
 >
 File: ../../Images/MateriallisteBilder/blaueLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/blaueLED.png>
@@ -5894,21 +5919,21 @@ Underfull \hbox (badness 3078) in paragraph at lines 35--36
 []|[]\T1/lmr/m/n/10 (+20) Grüne LE^^?D-^^?Si^^?
  []
 
-<../../Images/MateriallisteBilder/greenLED.png, id=3199, 602.25pt x 351.3125pt>
+<../../Images/MateriallisteBilder/greenLED.png, id=3219, 602.25pt x 351.3125pt>
 
 File: ../../Images/MateriallisteBilder/greenLED.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/greenLED.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/greenLED.png  used on
  input line 37.
 (pdftex.def)             Requested size: 55.4806pt x 32.36188pt.
-<../../Images/MateriallisteBilder/relaisBild.png, id=3201, 1204.5pt x 1204.5pt>
+<../../Images/MateriallisteBilder/relaisBild.png, id=3221, 1204.5pt x 1204.5pt>
 
 File: ../../Images/MateriallisteBilder/relaisBild.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/relaisBild.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/relaisBild.png  used 
 on input line 42.
 (pdftex.def)             Requested size: 55.4806pt x 55.46832pt.
-<../../Images/MateriallisteBilder/kippschalterBild.png, id=3203, 602.25pt x 141
+<../../Images/MateriallisteBilder/kippschalterBild.png, id=3223, 602.25pt x 141
 2.27625pt>
 File: ../../Images/MateriallisteBilder/kippschalterBild.png Graphic file (type 
 png)
@@ -5916,7 +5941,7 @@ png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/kippschalterBild.png 
  used on input line 47.
 (pdftex.def)             Requested size: 27.7403pt x 65.0366pt.
-<../../Images/MateriallisteBilder/aderleitungBild.png, id=3205, 411.03563pt x 2
+<../../Images/MateriallisteBilder/aderleitungBild.png, id=3225, 411.03563pt x 2
 73.27094pt>
 File: ../../Images/MateriallisteBilder/aderleitungBild.png Graphic file (type p
 ng)
@@ -5935,7 +5960,7 @@ Overfull \hbox (8.1016pt too wide) in paragraph at lines 60--61
 []|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
  []
 
-<../../Images/MateriallisteBilder/Steckbrucken_mm.png, id=3208, 238.491pt x 254
+<../../Images/MateriallisteBilder/Steckbrucken_mm.png, id=3228, 238.491pt x 254
 .1495pt>
 File: ../../Images/MateriallisteBilder/Steckbrucken_mm.png Graphic file (type p
 ng)
@@ -5948,7 +5973,7 @@ Overfull \hbox (8.1016pt too wide) in paragraph at lines 65--66
 []|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
  []
 
-<../../Images/MateriallisteBilder/Steckbrucken_fm.png, id=3210, 248.72925pt x 1
+<../../Images/MateriallisteBilder/Steckbrucken_fm.png, id=3230, 248.72925pt x 1
 12.62074pt>
 File: ../../Images/MateriallisteBilder/Steckbrucken_fm.png Graphic file (type p
 ng)
@@ -5961,7 +5986,7 @@ Overfull \hbox (8.1016pt too wide) in paragraph at lines 70--71
 []|[]\T1/lmr/m/n/10 (-20) Steckbrückenkabel
  []
 
-<../../Images/MateriallisteBilder/Steckbrucken_ff.png, id=3212, 281.25075pt x 2
+<../../Images/MateriallisteBilder/Steckbrucken_ff.png, id=3232, 281.25075pt x 2
 12.59425pt>
 File: ../../Images/MateriallisteBilder/Steckbrucken_ff.png Graphic file (type p
 ng)
@@ -5969,35 +5994,35 @@ ng)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Steckbrucken_ff.png  
 used on input line 72.
 (pdftex.def)             Requested size: 92.47145pt x 69.89679pt.
-<../../Images/MateriallisteBilder/Arduino.png, id=3214, 398.6895pt x 180.675pt>
+<../../Images/MateriallisteBilder/Arduino.png, id=3234, 398.6895pt x 180.675pt>
 
 File: ../../Images/MateriallisteBilder/Arduino.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/Arduino.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Arduino.png  used on 
 input line 78.
 (pdftex.def)             Requested size: 92.47145pt x 41.9045pt.
-<../../Images/MateriallisteBilder/WAGO5.png, id=3216, 287.8755pt x 187.29974pt>
+<../../Images/MateriallisteBilder/WAGO5.png, id=3236, 287.8755pt x 187.29974pt>
 
 File: ../../Images/MateriallisteBilder/WAGO5.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/WAGO5.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO5.png  used on in
 put line 83.
 (pdftex.def)             Requested size: 92.47145pt x 60.16577pt.
-<../../Images/MateriallisteBilder/WAGO3.png, id=3218, 278.84175pt x 205.36725pt
+<../../Images/MateriallisteBilder/WAGO3.png, id=3238, 278.84175pt x 205.36725pt
 >
 File: ../../Images/MateriallisteBilder/WAGO3.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/WAGO3.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO3.png  used on in
 put line 88.
 (pdftex.def)             Requested size: 92.47145pt x 68.10356pt.
-<../../Images/MateriallisteBilder/WAGO2.png, id=3220, 328.22626pt x 217.41225pt
+<../../Images/MateriallisteBilder/WAGO2.png, id=3240, 328.22626pt x 217.41225pt
 >
 File: ../../Images/MateriallisteBilder/WAGO2.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/WAGO2.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/WAGO2.png  used on in
 put line 93.
 (pdftex.def)             Requested size: 92.47145pt x 61.24988pt.
-<../../Images/MateriallisteBilder/Ultraschallsensor.png, id=3222, 263.7855pt x 
+<../../Images/MateriallisteBilder/Ultraschallsensor.png, id=3242, 263.7855pt x 
 261.97874pt>
 File: ../../Images/MateriallisteBilder/Ultraschallsensor.png Graphic file (type
  png)
@@ -6005,14 +6030,14 @@ File: ../../Images/MateriallisteBilder/Ultraschallsensor.png Graphic file (type
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Ultraschallsensor.png
   used on input line 98.
 (pdftex.def)             Requested size: 92.47145pt x 91.83783pt.
-<../../Images/MateriallisteBilder/Untersetzer.png, id=3224, 475.7775pt x 257.76
+<../../Images/MateriallisteBilder/Untersetzer.png, id=3244, 475.7775pt x 257.76
 3pt>
 File: ../../Images/MateriallisteBilder/Untersetzer.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/Untersetzer.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Untersetzer.png  used
  on input line 103.
 (pdftex.def)             Requested size: 92.47145pt x 50.09642pt.
-<../../Images/MateriallisteBilder/Acryglasrohr.png, id=3226, 486.01575pt x 389.
+<../../Images/MateriallisteBilder/Acryglasrohr.png, id=3246, 486.01575pt x 389.
 0535pt>
 File: ../../Images/MateriallisteBilder/Acryglasrohr.png Graphic file (type png)
 
@@ -6020,14 +6045,14 @@ File: ../../Images/MateriallisteBilder/Acryglasrohr.png Graphic file (type png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Acryglasrohr.png  use
 d on input line 108.
 (pdftex.def)             Requested size: 92.47145pt x 74.02185pt.
-<../../Images/MateriallisteBilder/Dichtring.png, id=3228, 392.667pt x 330.033pt
+<../../Images/MateriallisteBilder/Dichtring.png, id=3248, 392.667pt x 330.033pt
 >
 File: ../../Images/MateriallisteBilder/Dichtring.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/Dichtring.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Dichtring.png  used o
 n input line 113.
 (pdftex.def)             Requested size: 92.47145pt x 77.7189pt.
-[163
+[167
 
 
  <../../Images/MateriallisteBilder/netzteilBild.png> <../../Images/Materiallist
@@ -6041,26 +6066,26 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[164 <../../Images/MateriallisteBilder/aderleitungBild.png> <../../Images/Mater
+[168 <../../Images/MateriallisteBilder/aderleitungBild.png> <../../Images/Mater
 iallisteBilder/Steckbrucken_mm.png> <../../Images/MateriallisteBilder/Steckbruc
 ken_fm.png> <../../Images/MateriallisteBilder/Steckbrucken_ff.png> <../../Image
 s/MateriallisteBilder/Arduino.png> <../../Images/MateriallisteBilder/WAGO5.png>
 ]
-<../../Images/MateriallisteBilder/BOX_UNTEN.png, id=3261, 576.35326pt x 405.314
+<../../Images/MateriallisteBilder/BOX_UNTEN.png, id=3279, 576.35326pt x 405.314
 25pt>
 File: ../../Images/MateriallisteBilder/BOX_UNTEN.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/BOX_UNTEN.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/BOX_UNTEN.png  used o
 n input line 128.
 (pdftex.def)             Requested size: 92.47145pt x 65.02477pt.
-<../../Images/MateriallisteBilder/BOX-DECKEL.png, id=3262, 703.428pt x 412.5412
+<../../Images/MateriallisteBilder/BOX-DECKEL.png, id=3280, 703.428pt x 412.5412
 4pt>
 File: ../../Images/MateriallisteBilder/BOX-DECKEL.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/BOX-DECKEL.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/BOX-DECKEL.png  used 
 on input line 133.
 (pdftex.def)             Requested size: 92.47145pt x 54.23026pt.
-<../../Images/MateriallisteBilder/SENSORHALTER.png, id=3263, 412.54124pt x 398.
+<../../Images/MateriallisteBilder/SENSORHALTER.png, id=3281, 412.54124pt x 398.
 6895pt>
 File: ../../Images/MateriallisteBilder/SENSORHALTER.png Graphic file (type png)
 
@@ -6068,7 +6093,7 @@ File: ../../Images/MateriallisteBilder/SENSORHALTER.png Graphic file (type png)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/SENSORHALTER.png  use
 d on input line 138.
 (pdftex.def)             Requested size: 92.47145pt x 89.36667pt.
-<../../Images/MateriallisteBilder/DREHVERSCHLUSS.png, id=3264, 338.4645pt x 293
+<../../Images/MateriallisteBilder/DREHVERSCHLUSS.png, id=3282, 338.4645pt x 293
 .29575pt>
 File: ../../Images/MateriallisteBilder/DREHVERSCHLUSS.png Graphic file (type pn
 g)
@@ -6076,21 +6101,21 @@ g)
 Package pdftex.def Info: ../../Images/MateriallisteBilder/DREHVERSCHLUSS.png  u
 sed on input line 143.
 (pdftex.def)             Requested size: 92.47145pt x 80.13072pt.
-<../../Images/MateriallisteBilder/WASSERHAHN.png, id=3265, 363.15675pt x 372.19
+<../../Images/MateriallisteBilder/WASSERHAHN.png, id=3283, 363.15675pt x 372.19
 05pt>
 File: ../../Images/MateriallisteBilder/WASSERHAHN.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/WASSERHAHN.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/WASSERHAHN.png  used 
 on input line 148.
 (pdftex.def)             Requested size: 92.47145pt x 94.76817pt.
-<../../Images/MateriallisteBilder/verbindung.png, id=3266, 662.475pt x 593.2162
+<../../Images/MateriallisteBilder/verbindung.png, id=3284, 662.475pt x 593.2162
 5pt>
 File: ../../Images/MateriallisteBilder/verbindung.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/verbindung.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/verbindung.png  used 
 on input line 153.
 (pdftex.def)             Requested size: 92.47145pt x 82.79625pt.
-<../../Images/MateriallisteBilder/pumpenstand.png, id=3267, 552.8655pt x 473.36
+<../../Images/MateriallisteBilder/pumpenstand.png, id=3285, 552.8655pt x 473.36
 85pt>
 File: ../../Images/MateriallisteBilder/pumpenstand.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/pumpenstand.png>
@@ -6107,7 +6132,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[165 <../../Images/MateriallisteBilder/WAGO3.png> <../../Images/MateriallisteBi
+[169 <../../Images/MateriallisteBilder/WAGO3.png> <../../Images/MateriallisteBi
 lder/WAGO2.png> <../../Images/MateriallisteBilder/Ultraschallsensor.png> <../..
 /Images/MateriallisteBilder/Untersetzer.png> <../../Images/MateriallisteBilder/
 Acryglasrohr.png> <../../Images/MateriallisteBilder/Dichtring.png>]
@@ -6122,7 +6147,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[166 <../../Images/MateriallisteBilder/BOX_UNTEN.png> <../../Images/Materiallis
+[170 <../../Images/MateriallisteBilder/BOX_UNTEN.png> <../../Images/Materiallis
 teBilder/BOX-DECKEL.png> <../../Images/MateriallisteBilder/SENSORHALTER.png> <.
 ./../Images/MateriallisteBilder/DREHVERSCHLUSS.png> <../../Images/Materialliste
 Bilder/WASSERHAHN.png> <../../Images/MateriallisteBilder/verbindung.png> <../..
@@ -6137,17 +6162,17 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[167]
-Package biblatex Info: Reference segment=136 on input line 170.
-Package biblatex Info: Setting label 'refsegment:0136' on input line 170.
-<../../Images/MateriallisteBilder/Breadboard.png, id=3297, 426.393pt x 175.857p
+[171]
+Package biblatex Info: Reference segment=135 on input line 170.
+Package biblatex Info: Setting label 'refsegment:0135' on input line 170.
+<../../Images/MateriallisteBilder/Breadboard.png, id=3316, 426.393pt x 175.857p
 t>
 File: ../../Images/MateriallisteBilder/Breadboard.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/Breadboard.png>
 Package pdftex.def Info: ../../Images/MateriallisteBilder/Breadboard.png  used 
 on input line 176.
 (pdftex.def)             Requested size: 92.47145pt x 38.13588pt.
-<../../Images/MateriallisteBilder/TINY_ml_KIT.png, id=3298, 699.8145pt x 389.05
+<../../Images/MateriallisteBilder/TINY_ml_KIT.png, id=3317, 699.8145pt x 389.05
 35pt>
 File: ../../Images/MateriallisteBilder/TINY_ml_KIT.png Graphic file (type png)
 <use ../../Images/MateriallisteBilder/TINY_ml_KIT.png>
@@ -6163,7 +6188,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[168 <../../Images/MateriallisteBilder/Breadboard.png> <../../Images/Materialli
+[172 <../../Images/MateriallisteBilder/Breadboard.png> <../../Images/Materialli
 steBilder/TINY_ml_KIT.png>]
 chapter 21.
 
@@ -6183,12 +6208,12 @@ Overfull \hbox (76.45273pt too wide) in alignment at lines 17--44
 
 )
 
-[169
+[173
 
 
 ]
 
-[170
+[174
 
 
 ]
@@ -6210,7 +6235,7 @@ digitalmultimeter /
 
 
 
-[171]
+[175]
 Overfull \hbox (36.00867pt too wide) in paragraph at lines 281--281
 \T1/pcr/l/it/10 www . falconillumination . de / de / wissenswertes / wie -[] fu
 nktioniert -[]
@@ -6243,7 +6268,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[172]
+[176]
 Overfull \hbox (29.27615pt too wide) in paragraph at lines 281--281
 []\T1/lmr/m/n/10 (-20) N. Swit^^?ches. \T1/lmr/m/it/10 (-20) Schal-ter-grund-la
 -gen\T1/lmr/m/n/10 (-20) . [][][pdf][][]. 2025. \T1/lmr/m/sc/10 (-20) url\T1/lm
@@ -6261,7 +6286,7 @@ Package fancyhdr Warning: \headheight is too small (1.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-11.0pt}.
 
-[173] (./Nano33BLESense.aux
+[177] (./Nano33BLESense.aux
 Package cleveref Info: loaded `ngerman' language definitions on input line 23.
 )
  ***********
@@ -6294,11 +6319,11 @@ Package logreq Info: Writing requests to 'Nano33BLESense.run.xml'.
 ### simple group (level 1) entered at line 75 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 110113 strings out of 473190
- 2919421 string characters out of 5719979
- 4640563 words of memory out of 5000000
- 129936 multiletter control sequences out of 15000+600000
- 777608 words of font info for 489 fonts, out of 8000000 for 9000
+ 110288 strings out of 473190
+ 2922143 string characters out of 5719979
+ 4640460 words of memory out of 5000000
+ 130107 multiletter control sequences out of 15000+600000
+ 778233 words of font info for 491 fonts, out of 8000000 for 9000
  1148 hyphenation exceptions out of 8191
  108i,13n,134p,10939b,3626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/eurosym/feybr10.
@@ -6320,10 +6345,10 @@ exlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2025/texmf-
 dist/fonts/type1/public/lm/lmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/ur
 w/courier/ucrb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/courier/ucrr8a
 .pfb>
-Output written on Nano33BLESense.pdf (173 pages, 17977038 bytes).
+Output written on Nano33BLESense.pdf (177 pages, 17985170 bytes).
 PDF statistics:
- 4678 PDF objects out of 5155 (max. 8388607)
- 4258 compressed objects within 43 object streams
- 1737 named destinations out of 2073 (max. 500000)
- 117704 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 4694 PDF objects out of 5155 (max. 8388607)
+ 4270 compressed objects within 43 object streams
+ 1740 named destinations out of 2073 (max. 500000)
+ 118208 words of extra memory for PDF output out of 128383 (max. 10000000)
 
