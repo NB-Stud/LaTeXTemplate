@@ -229,8 +229,8 @@
 \contentsline {section}{\numberline {17.1}Zusammenfassung der Projektergebnisse}{151}{section.17.1}%
 \contentsline {section}{\numberline {17.2}Einschränkungen}{151}{section.17.2}%
 \contentsline {section}{\numberline {17.3}Reflexion über die Zielerreichung}{151}{section.17.3}%
-\contentsline {section}{\numberline {17.4}Mögliche Weiterentwicklungen}{151}{section.17.4}%
-\contentsline {section}{\numberline {17.5}Zukünftige Anwendungen}{151}{section.17.5}%
+\contentsline {section}{\numberline {17.4}Mögliche Weiterentwicklungen}{152}{section.17.4}%
+\contentsline {section}{\numberline {17.5}Zukünftige Anwendungen}{152}{section.17.5}%
 \contentsline {part}{\numberline {VI}Veränderungen im Dokument}{153}{part.6}%
 \contentsline {chapter}{\numberline {18}Kleine Änderungen in \menu {LaTeXTemplate}:}{155}{chapter.18}%
 \contentsline {section}{\numberline {18.1}\menu {Demontageanleitung}}{155}{section.18.1}%
@@ -260,6 +260,6 @@
 \contentsline {section}{\numberline {19.11}\menu {README}}{160}{section.19.11}%
 \contentsline {part}{\numberline {VII}Anhang}{161}{part.7}%
 \contentsline {chapter}{\numberline {20}Materialliste Magic Faucet Fountain}{163}{chapter.20}%
-\contentsline {section}{\numberline {20.1}Materialliste nicht verwendeter Materialien}{168}{section.20.1}%
-\contentsline {chapter}{\numberline {21}Softwareliste Magic Faucet Fountain}{169}{chapter.21}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{171}{chapter*.125}%
+\contentsline {section}{\numberline {20.1}Materialliste nicht verwendeter Materialien}{169}{section.20.1}%
+\contentsline {chapter}{\numberline {21}Softwareliste Magic Faucet Fountain}{171}{chapter.21}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{173}{chapter*.125}%
