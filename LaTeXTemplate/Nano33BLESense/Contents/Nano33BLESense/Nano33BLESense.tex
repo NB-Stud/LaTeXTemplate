@@ -44,14 +44,14 @@ Das Arduino Nano 33 BLE Sense ist ein kompaktes Board der Nano-Familie mit:
 		\item Optische Sensoren (RGB-Licht, Gesten, Näherung)
 		\item Digitales Mikrofon
 	\end{itemize}
-	\item Energieeffizientem Design im Nano-Format (45x18mm)
+	\item Energieeffizientem Design im Nano-Format (45x18 mm)
 \end{itemize}
 
 \subsection*{Namenskonvention}
 Die Bezeichnung gibt Aufschluss über die Funktionen:
 \begin{itemize}
-	\item \textbf{Nano}: Kompakte Bauform (45x18mm)
-	\item \textbf{33}: Betriebsspannung 3.3V
+	\item \textbf{Nano}: Kompakte Bauform (45x18 mm)
+	\item \textbf{33}: Betriebsspannung 3.3 V
 	\item \textbf{BLE}: Bluetooth Low Energy 5.0
 	\item \textbf{Sense}: Integrierte Sensor-Suite
 \end{itemize}
@@ -85,8 +85,8 @@ Das kompakte und zuverlässige BLE-Board basiert auf dem NINA-B306-Modul für Bl
 	\item \textbf{Funkmodul}:
 	\begin{itemize}
 		\item NINA-B306-Modul für Bluetooth 5.0 LE
-		\item Reichweite bis zu 100m (freies Feld)
-		\item Datenrate bis zu 2Mbit/s
+		\item Reichweite bis zu 100 m (freies Feld)
+		\item Datenrate bis zu 2 Mbit/s
 	\end{itemize}
 	
 	\item \textbf{APDS-9960 Sensor}:
@@ -106,8 +106,8 @@ Das kompakte und zuverlässige BLE-Board basiert auf dem NINA-B306-Modul für Bl
 	\item \textbf{LPS22HB Drucksensor}:
 	\begin{itemize}
 		\item Messbereich: 260-1260 hPa
-		\item Temperaturbereich: -40°C bis +85°C
-	\end{itemize}
+		\item Temperaturbereich: -40 °C bis +85 °C
+	\end{itemize} 
 	
 	\item \textbf{HTS221 Feuchtesensor}:
 	\begin{itemize}
@@ -118,8 +118,8 @@ Das kompakte und zuverlässige BLE-Board basiert auf dem NINA-B306-Modul für Bl
 	\item \textbf{MP34DT05 Mikrofon}:
 	\begin{itemize}
 		\item Digitales MEMS-Mikrofon
-		\item Frequenzbereich: 100Hz-16kHz
-		\item Signal-Rausch-Verhältnis: 64dB
+		\item Frequenzbereich: 100 Hz-16 kHz
+		\item Signal-Rausch-Verhältnis: 64 dB
 	\end{itemize}
 	
 \end{itemize}
@@ -217,7 +217,7 @@ Die Lite-Variante unterscheidet sich nur minimal vom Arduino Nano 33 BLE Sense R
 
 \section{Beschreibung der On-Board Sensoren}
 
-Der Arduino Nano 33 BLE Sense verfügt über eine Reihe integrierter Sensoren zur Messung analoger und digitaler Umgebungswerte. Mit seinen kompakten Abmessungen von nur 45mm × 18mm eignet er sich ideal für IoT- und KI-Anwendungen, bei denen Platzbeschränkungen eine Rolle spielen. Das Board hat einen geringen Stromverbrauch und arbeitet mit 3,3 V, wodurch es monatelang mit kleinen Batterien betrieben werden kann. Dank der integrierten Sensoren, des niedrigen Energieverbrauchs und der kompakten Bauweise kann dieses Nano-Board vielseitig eingesetzt werden. Der Arduino Nano 33 BLE Sense ist ein völlig neues Board in bekanntem Formfaktor. Detaillierte Informationen zu den Komponenten und Datenblätter der Sensoren finden Sie unter \cite{ArduinoWeb:2025}.
+Der Arduino Nano 33 BLE Sense verfügt über eine Reihe integrierter Sensoren zur Messung analoger und digitaler Umgebungswerte. Mit seinen kompakten Abmessungen von nur 45 mm × 18 mm eignet er sich ideal für IoT- und KI-Anwendungen, bei denen Platzbeschränkungen eine Rolle spielen. Das Board hat einen geringen Stromverbrauch und arbeitet mit 3,3 V, wodurch es monatelang mit kleinen Batterien betrieben werden kann. Dank der integrierten Sensoren, des niedrigen Energieverbrauchs und der kompakten Bauweise kann dieses Nano-Board vielseitig eingesetzt werden. Der Arduino Nano 33 BLE Sense ist ein völlig neues Board in bekanntem Formfaktor. Detaillierte Informationen zu den Komponenten und Datenblätter der Sensoren finden Sie unter \cite{ArduinoWeb:2025}.
 
 Die Sensoren im Überblick:
 
@@ -281,18 +281,18 @@ Abbildung \ref{ArduinoNano33BLESenseArchitecture} zeigt die Anordnung der Sensor
 	\captionof{figure}{}\label{ArduinoNano33BLESenseArchitecture}
 \end{center}
 
-Zu beachten ist die Genauigkeit der Sensorwerte in Abhängigkeit von deren Positionierung. Der Betriebstemperaturbereich liegt zwischen -40°C und +85°C. Auch Luftfeuchtigkeit und Luftdruck sollten berücksichtigt werden.
+Zu beachten ist die Genauigkeit der Sensorwerte in Abhängigkeit von deren Positionierung. Der Betriebstemperaturbereich liegt zwischen -40 °C und +85 °C. Auch Luftfeuchtigkeit und Luftdruck sollten berücksichtigt werden.
 
 \begin{table}
 	\begin{center}
 		\begin{tabular}{llm{90mm}} 
 			\textbf{\MapleCommand{MICROCONTROLLER}}  & nRF52840\\
-			\textbf{\MapleCommand{OPERATING VOLTAGE}}  & 3.3V\\
-			\textbf{\MapleCommand{INPUT VOLTAGE (LIMIT)}}  & 21V \\
+			\textbf{\MapleCommand{OPERATING VOLTAGE}}  & 3.3 V\\
+			\textbf{\MapleCommand{INPUT VOLTAGE (LIMIT)}}  & 21 V \\
 			\textbf{\MapleCommand{DC CURRENT PER I/O PIN}}  & 15 mA \\
-			\textbf{\MapleCommand{CLOCK SPEED}} & 64MHz \\
-			\textbf{\MapleCommand{CPU FLASH MEMORY}}  & 1MB  \\
-			\textbf{\MapleCommand{SRAM}}  & 256KB  \\
+			\textbf{\MapleCommand{CLOCK SPEED}} & 64 MHz \\
+			\textbf{\MapleCommand{CPU FLASH MEMORY}}  & 1 MB  \\
+			\textbf{\MapleCommand{SRAM}}  & 256 KB  \\
 			\textbf{\MapleCommand{LED\_BUILTIN}}  & 13 \\
 			\textbf{\MapleCommand{IMU (Accelerometer, Gyroscope, Magnetometer)}}  & LSM9DS1 \\
 			\textbf{\MapleCommand{MICROPHONE}}  & MP34DT05 \\
@@ -329,7 +329,7 @@ Zu beachten ist die Genauigkeit der Sensorwerte in Abhängigkeit von deren Posit
 		\node[rotate=90,left] (Pin30) at (11.2,-0.0) { $V_{in}$ \; (30)};
 		\node[rotate=90,left] (Pin1) at (10.5,-0.0) {GND \; (29)};
 		\node[rotate=90,left] (Pin2) at (9.8,-0.0) {Reset \; (28)};
-		\node[rotate=90,left] (Pin3) at (9.1,-0.0) {+5V \; (27)};
+		\node[rotate=90,left] (Pin3) at (9.1,-0.0) {+5 V \; (27)};
 		\node[rotate=90,left] (Pin4) at (8.4,-0.0) {A7 \; (26)};
 		\node[rotate=90,left] (Pin5) at (7.65,-0.0) {A6 \; (25)};
 		\node[rotate=90,left] (Pin6) at (6.95,-0.0) {SCL/A5 \; (24)};
@@ -352,8 +352,8 @@ Zu beachten ist die Genauigkeit der Sensorwerte in Abhängigkeit von deren Posit
 Der Arduino Nano 33 BLE ist eine weiterentwickelte Version des Arduino Nano Boards mit dem leistungsstarken nRF52840 Prozessor. Das Board verfügt über folgende Pin-Konfiguration (siehe auch \href{https://www.etechnophiles.com/arduino-nano-33-ble-sense-pinout-introduction-specifications/}{Pin-Konfiguration}):
 
 \begin{description}
-	\item[Digitale Pins] 14 digitale I/O-Pins, die nur die Zustände HIGH oder LOW erkennen. Diese Pins können je nach Anforderung als Eingang oder Ausgang konfiguriert werden. Bei 5V liegen sie im HIGH-Zustand, bei 0V im LOW-Zustand.
-	\item[Analoge Pins] 8 analoge Eingänge (A0 bis A7), die im Gegensatz zu digitalen Pins kontinuierliche Werte erfassen können. Der Messbereich liegt zwischen 0-5V.
+	\item[Digitale Pins] 14 digitale I/O-Pins, die nur die Zustände HIGH oder LOW erkennen. Diese Pins können je nach Anforderung als Eingang oder Ausgang konfiguriert werden. Bei 5 V liegen sie im HIGH-Zustand, bei 0 V im LOW-Zustand.
+	\item[Analoge Pins] 8 analoge Eingänge (A0 bis A7), die im Gegensatz zu digitalen Pins kontinuierliche Werte erfassen können. Der Messbereich liegt zwischen 0-5 V.
 	\item[PWM-Pins] Alle digitalen Pins können für Pulsweitenmodulation (PWM) genutzt werden, um analoge Ergebnisse mit digitalen Mitteln zu erzeugen.
 	\item[SPI-Schnittstelle] Unterstützt das Serial Peripheral Interface Protokoll für die Kommunikation mit Peripheriegeräten wie Sensoren. Verwendet die Pins:
 	\begin{itemize}

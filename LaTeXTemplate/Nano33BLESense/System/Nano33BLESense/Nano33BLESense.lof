@@ -52,7 +52,7 @@
 \contentsline {figure}{\numberline {9.3}{\ignorespaces Spannungsmessung des Netzteils}}{93}{figure.caption.61}%
 \contentsline {figure}{\numberline {9.4}{\ignorespaces Anwendung des Netzteils für 2 separate Stromkreise}}{94}{figure.caption.62}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{99}{figure.caption.64}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Skizze des Bluetooth Moduls HC-05}}{98}{figure.caption.64}%
 \contentsline {figure}{\numberline {10.2}{\ignorespaces Schnittstellen und Anschlüsse HC-05}}{100}{figure.caption.65}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {11.1}{\ignorespaces Skizze der Schaltertypen}}{107}{figure.caption.70}%
@@ -71,7 +71,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {16.1}{\ignorespaces Skizze des Magic Faucet Fountain}}{137}{figure.caption.97}%
 \contentsline {figure}{\numberline {16.2}{\ignorespaces Versorgungsschaltplan}}{139}{figure.caption.100}%
-\contentsline {figure}{\numberline {16.3}{\ignorespaces 5V - Netz}}{140}{figure.caption.103}%
+\contentsline {figure}{\numberline {16.3}{\ignorespaces 5 V - Netz}}{140}{figure.caption.103}%
 \contentsline {figure}{\numberline {16.4}{\ignorespaces 5/12 V Netz mit Aktoren}}{141}{figure.caption.106}%
 \contentsline {figure}{\numberline {16.5}{\ignorespaces Ablaufdiagramm}}{142}{figure.caption.113}%
 \contentsline {figure}{\numberline {16.6}{\ignorespaces Scannen und hinzufügen des Magic Faucet Fountain}}{147}{figure.caption.116}%
