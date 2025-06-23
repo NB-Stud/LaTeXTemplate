@@ -617,7 +617,7 @@ Die Konfiguration des Magic Faucet Fountain umfasst die Inbetriebnahme und Absti
 Nach erfolgreicher Installation der App \textit{nRF Connect}, wie in Kapitel \ref{chap:einstiegNRF} beschrieben, kann man sich mit dem Magic Faucet Fountain Verbinden. Wenn Sie den Kippschalter betätigen, fängt die grüne LED an zu leuchten und die blaue LED blinkt. Das Signalisiert, dass die Versorgungsspannung vorhanden ist (grün) und dass der Magic Faucet Fountain nach BLE-Geräte in der Nähe sucht (blau). 
 
 \subsection*{Verbindung mit der Applikation herstellen}
-Zuerst öffnet man die \textit{nRF Connect}-App und aktualisiert den \menu{Scanner} durch ein nach unten Wischen oder ein Tippen auf den Bildschirm. Danach sollte der Magic Faucet Fountain in der BLE-Geräteansicht auftauchen. Drücken Sie dann auf \menu{Connect} um sich mit dem Magic Faucet Fountain zu verbinden. Wenn Sie sich erfolgreich verbunden haben, leuchtet die blaue LED konstant und signalisiert eine stabile Verbindung.
+Zuerst öffnet man die \textit{nRF Connect}-App und aktualisiert den \menu{Scanner} durch ein nach unten Wischen oder ein Tippen auf den Bildschirm. Danach sollte der Magic Faucet Fountain in der BLE-Geräteansicht auftauchen. Drücken Sie dann auf \menu{Connect} um sich mit dem Magic Faucet Fountain zu verbinden. Wenn Sie sich erfolgreich verbunden haben, leuchtet die blaue LED konstant und signalisiert eine stabile Verbindung. \ref{fig:connectNRF}
 
 \begin{figure}[H]
 	\centering
@@ -634,6 +634,7 @@ Zuerst öffnet man die \textit{nRF Connect}-App und aktualisiert den \menu{Scann
 	\end{minipage}
 	\caption{Scannen und hinzufügen des Magic Faucet Fountain}
 	\hfill
+	\label{fig:connectNRF}
 \end{figure}
 
 \subsection*{App-Ansicht}
@@ -672,7 +673,7 @@ Anhand der UUID lassen sich die Attribute unterscheiden:
 \end{itemize}
 
 \subsection*{Steuerung des Magic Faucet Fountain}
-Möchten Sie nun die Pumpe an- oder ausschalten, tippen Sie einfach bei \menu{19B10001} auf das $\uparrow$-Symbol. Sie gelangen ins \menu{Write Value}-Menü. Dort stellen Sie \menu{UTF-8} ein und können entweder \glqq An \grqq oder \glqq Aus \grqq schreiben. Die Pumpe wird dann jeweils an- oder ausgeschaltet werden.
+Möchten Sie nun die Pumpe an- oder ausschalten, tippen Sie einfach bei \menu{19B10001} auf das $\uparrow$-Symbol. Sie gelangen ins \menu{Write Value}-Menü. Dort stellen Sie \menu{UTF-8} ein und können entweder \glqq An \grqq oder \glqq Aus \grqq schreiben. Die Pumpe wird dann jeweils an- oder ausgeschaltet werden. \ref{fig:steuerungNRF}
 
 \begin{figure}[H]
 	\centering
@@ -689,6 +690,7 @@ Möchten Sie nun die Pumpe an- oder ausschalten, tippen Sie einfach bei \menu{19
 	\end{minipage}
 	\caption{Steuerung der Pumpe durch Schreiben von \glqq An \grqq oder \glqq Aus \grqq}
 	\hfill
+	\label{fig:steuerungNRF}
 \end{figure}
 
 
