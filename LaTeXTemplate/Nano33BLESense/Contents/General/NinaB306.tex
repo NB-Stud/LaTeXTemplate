@@ -18,9 +18,9 @@
 Bluetooth Low Energy (BLE) hat sich als Standardtechnologie für drahtlose Kommunikation bei energieeffizienten Anwendungen etabliert. Typische Anwendungsfelder sind Wearables, Sensornetzwerke, IoT-Geräte und medizinische Systeme. In diesem Projekt kommt das BLE-Modul NINA-B306, integriert auf dem Arduino Nano 33 BLE Sense, zum Einsatz. Es ermöglicht die energieeffiziente Kommunikation mit mobilen Geräten oder anderen BLE-fähigen Systemen. \cite{Tosi:2017} \cite{UBLOX:2023}
 
 \section{Grundlegende Informationen zu Bluetooth Low Energy}
-Bluetooth Low Energy (BLE) ist eine energiesparende Funktechnologie, die mit Bluetooth 4.0 eingeführt wurde. Im Gegensatz zum klassischen Bluetooth fokussiert sich BLE auf Anwendungen, die eine geringe Datenrate benötigen, jedoch eine lange Batterielaufzeit erfordern. BLE arbeitet im 2,4-GHz ISM-Band. BLE ist ideal für kleine Automatisierungsprojekte, die periodisch kleine Datenmengen senden.\cite{Tosi:2017} \cite{UBLOX:2023}
+Bluetooth Low Energy (BLE) ist eine energiesparende Funktechnologie, die mit Bluetooth 4.0 eingeführt wurde. Im Gegensatz zum klassischen Bluetooth fokussiert sich BLE auf Anwendungen, die eine geringe Datenrate benötigen, jedoch eine lange Batterielaufzeit erfordern. BLE arbeitet im 2,4-GHz-ISM-Band. BLE ist ideal für kleine Automatisierungsprojekte, die periodisch kleine Datenmengen senden.\cite{Tosi:2017} \cite{UBLOX:2023}
 \subsection{ISM-Band}
-Das ISM-Band (Industrial, Scientific and Medical Band) ist ein lizenzfreier Frequenzbereich, der weltweit für industrielle, wissenschaftliche und medizinische Anwendungen zur Verfügung steht. Für Bluetooth Low Energy wird das 2,4 GHz-ISM-Band verwendet, welches von 2400 - 2483,5 MHz reicht. Es stehen 40 Kanäle zur Verfügung, wobei 3 als Werbekanäle und 37 als Datenkanäle verwendet werden. BLE nutzt ein sogenanntes Frequency Hopping Spread Spectrum (FHSS), also ein Frequenzsprungverfahren, um Störungen zu minimieren und die Übertragung robuster zu machen.
+Das ISM-Band (Industrial, Scientific and Medical Band) ist ein lizenzfreier Frequenzbereich, der weltweit für industrielle, wissenschaftliche und medizinische Anwendungen zur Verfügung steht. Für Bluetooth Low Energy wird das 2,4-GHz-ISM-Band verwendet, welches von 2400 - 2483,5 MHz reicht. Es stehen 40 Kanäle zur Verfügung, wobei 3 als Werbekanäle und 37 als Datenkanäle verwendet werden. BLE nutzt ein sogenanntes Frequency Hopping Spread Spectrum (FHSS), also ein Frequenzsprungverfahren, um Störungen zu minimieren und die Übertragung robuster zu machen.
 
 \subsection{Datenraten}
 Bluetooth Low Energy unterstützt verschiedene Datenraten, je nach Anwendungsbedarf:
@@ -44,7 +44,7 @@ Das NINA-B306-00B ist ein Mitglied der u-blox NINA-B3-Serie, welches Bluetooth 5
 	\item Bluetooth-Version: Bluetooth 5.0 Low Energy
 	\item Sendeleistung: +8 dBm
 	\item Empfangsempfindlichkeit: -94 dBm (1 MB/s), 100 dBm (125 kB/s)
-	\item Unterstützte Modi: BLE, IEEE 802.15.4, proprietäre 2.4-GHz-Protokolle
+	\item Unterstützte Modi: BLE, IEEE 802.15.4, proprietäre 2,4-GHz-Protokolle
 	\item Schnittstellen: UART, SPI, I2C, QSPI, I2S, USB 2.0, ADC (8-Kanal), PWM, GPIOs, NFC (passiv, nur als Tag)
 	\item Bauform: 10 x 15 mm 
 	\item Energieverwaltung: Sleep-, Standby- und aktiver Modus
@@ -54,7 +54,7 @@ Das NINA-B306-00B ist ein Mitglied der u-blox NINA-B3-Serie, welches Bluetooth 5
  \cite{UBLOX:2023}
  
 \section{Bibliothek}
-Um die Kommunikation über Bluetooth Low Energy (BLE) mit dem Arduino Nano 33 BLE Sense zu realisieren, wird die Bibliothek \python{ArduinoBLE.h} benötigt. Diese Bibliothek stellt sämtliche Funktionen zur Verfügung, um BLE-Geräte zu konfigurieren und zu verbinden. Sie wurde speziell für Boards mit dem integrierten u-blox NINA-B3 Modul entwickelt.
+Um die Kommunikation über Bluetooth Low Energy (BLE) mit dem Arduino Nano 33 BLE Sense zu realisieren, wird die Bibliothek \python{ArduinoBLE.h} (Version 1.4.0) benötigt. Diese Bibliothek stellt sämtliche Funktionen zur Verfügung, um BLE-Geräte zu konfigurieren und zu verbinden. Sie wurde speziell für Boards mit dem integrierten u-blox NINA-B3 Modul entwickelt.
 
 Die Bibliothek ist bei der Installation der aktuellsten Version der Arduino-IDE (Version 2.3.6) in der Regel bereits enthalten. Sollte sie dennoch fehlen, kann sie wie folgt installiert werden:
 

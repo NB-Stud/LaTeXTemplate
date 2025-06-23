@@ -27,24 +27,24 @@ Der Magic Faucet Fountain ist eine dekorative Installation, bei der ein Wasserha
 
 \section{Herausforderungen}
 \begin{enumerate}
-	\item \textbf{Unsichtbare Tragstruktur:}Der zentrale Effekt des Brunnens, der scheinbar schwebende Wasserhahn, erfordert eine stabile, tragfähige Konstruktion. Diese muss gleichzeitig für den Benutzer möglichst unsichtbar bleiben. Damit einher gehen hohe Anforderungen an Materialwahl und Integration.
-	\item \textbf{Enge Platzverhältnisse im Inneren:}Die mechanische Struktur im Brunneninneren bietet nur wenig Raum für Sensoren und Elektronik. Die Komponenten müssen kompakt, wasserfest und zuverlässig montierbar sein.
-	\item \textbf{Stromversorgung in Wassernähe:}Die Kombination aus Wasser und Strom birgt ein erhöhtes Sicherheitsrisiko. Eine wasserdichte und dennoch zugängliche Stromversorgung ist zwingend erforderlich.
-	\item \textbf{Kabellose Steuerung via App:}Die Steuerung soll benutzerfreundlich per Smartphone erfolgen – kabellos und möglichst ohne sichtbare Module. Die Verbindung muss stabil, sicher und reaktionsschnell sein.
+	\item \textbf{Unsichtbare Tragstruktur: }Der zentrale Effekt des Brunnens, der scheinbar schwebende Wasserhahn, erfordert eine stabile, tragfähige Konstruktion. Diese muss gleichzeitig für den Benutzer möglichst unsichtbar bleiben. Damit einher gehen hohe Anforderungen an Materialwahl und Integration.
+	\item \textbf{Enge Platzverhältnisse im Inneren: }Die mechanische Struktur im Brunneninneren bietet nur wenig Raum für Sensoren und Elektronik. Die Komponenten müssen kompakt, wasserfest und zuverlässig montierbar sein.
+	\item \textbf{Stromversorgung in Wassernähe: }Die Kombination aus Wasser und Strom birgt ein erhöhtes Sicherheitsrisiko. Eine wasserdichte und dennoch zugängliche Stromversorgung ist zwingend erforderlich.
+	\item \textbf{Kabellose Steuerung via App: }Die Steuerung soll benutzerfreundlich per Smartphone erfolgen – kabellos und möglichst ohne sichtbare Module. Die Verbindung muss stabil, sicher und reaktionsschnell sein.
 \end{enumerate}
 
 \section{Lösungen}
 Basierend auf diesen Anforderungen wurde ein strukturierter Lösungsweg erarbeitet:
 \begin{itemize}
 	\item Ein transparentes Acrylrohr dient sowohl als Trägerelement als auch als verdeckte Wasserleitung.
-	\item Zur Pegelmessung kommt ein HC-SR04 Ultraschallsensor in Kombination mit einem mechanischen Schwimmer zum Einsatz.
+	\item Zur Pegelmessung kommt ein HC-SR04 Ultraschallsensor zum Einsatz
 	\item Netzteil und Steuereinheit befinden sich in einer spritzwassergeschützten PETG-Box mit Kabeldurchführungen und Notabschaltung.
-	\item Die Bluetooth-Anbindung erfolgt über ein Arduino Nano 33 BLE Sense Board. Die Konfiguration der nRF Connect-App erlaubt Statusanzeige und Pumpensteuerung.
+	\item Die Bluetooth-Anbindung erfolgt über ein Arduino Nano 33 BLE Sense Board. Die Konfiguration der \textit{nRF Connect}-App erlaubt Statusanzeige und Pumpensteuerung.
 \end{itemize}
 
 
 \section{Struktur des Dokuments}
-Diese Arbeit ist wie folgt aufgebaut:
+Dieses Dokument ist wie folgt aufgebaut:
 
 \begin{itemize}
 	\item \textbf{Teil \ref{part:Teil1}} stellt die verwendete Hardware und Softwareumgebung vor (Arduino IDE, Einrichtung Arduino, Arduino Nano 33 BLE Sense). 

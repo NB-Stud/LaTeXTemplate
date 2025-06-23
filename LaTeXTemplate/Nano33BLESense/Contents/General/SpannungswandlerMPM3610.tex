@@ -15,19 +15,19 @@
 
 \chapter{Spannungswandler MPM3610}\label{MPM}
 
-Der Arduino Nano 33 BLE Sense benötigt grundsätzlich eine Versorgungsspannung von 3.3 V. Um auf 3.3 V zu kommen benötigt der Arduino einen Spannungswandler, auch DC-DC-Wandler genannt, denn die Eingangsspannung muss mindestens 4.5 V betragen. Auf dem Arduino ist bereits ein Spannungswandler verbaut. Dies erübrigt einen externen Spannungswandler und spart zudem Platz ein. \cite{ArduinoDoc:2024}
+Der Arduino Nano 33 BLE Sense benötigt grundsätzlich eine Versorgungsspannung von 3,3 V. Um auf 3,3 V zu kommen benötigt der Arduino einen Spannungswandler, auch DC-DC-Wandler genannt, denn die Eingangsspannung muss mindestens 4,5 V betragen. Auf dem Arduino ist bereits ein Spannungswandler verbaut. Dies erübrigt einen externen Spannungswandler und spart zudem Platz ein. \cite{ArduinoDoc:2024}
 
 \bigskip
 
-Dies ist auf den spezifisch genutzten DC-DC-Wandler in dem Arduino zurückzuführen. Der MPM3610 hat einen Eingangsspannungsbereich von 4.5  V - 21 V und gibt immer 3.3 V an den Arduino aus. Aufgrund dessen kann eine 9 V Lithium Batterie genutzt werden, die über einen Batterieclip mit dem Arduino verbunden wird. \cite{ArduinoDoc:2024} \cite{MPS:2015}
+Dies ist auf den spezifisch genutzten DC-DC-Wandler in dem Arduino zurückzuführen. Der MPM3610 hat einen Eingangsspannungsbereich von 4,5  V - 21 V und gibt immer 3,3 V an den Arduino aus. Aufgrund dessen kann eine 9 V Lithium Batterie genutzt werden, die über einen Batterieclip mit dem Arduino verbunden wird. \cite{ArduinoDoc:2024} \cite{MPS:2015}
 
-\section{Allgemein Spannungswandler}
+\section{Allgemeines zum Spannungswandler}
 
-Ein Spannungswandler bezeichnet man meistens einen Regler, der eine Gleichspannung als Eingang erhält. Dieser wandelt eine technische Versorgungsspannung in eine geregelte Spannung um.  Dabei kann man zwischen verschiedenen Spannungswandlern unterscheiden. Die größte Unterscheidung findet zwischen linearen und schaltbaren Reglern statt. \cite{Ekbert:2014}
+Als Spannungswandler bezeichnet man meistens einen Regler, der eine Gleichspannung als Eingang erhält. Dieser wandelt eine technische Versorgungsspannung in eine geregelte Spannung um.  Dabei kann man zwischen verschiedenen Spannungswandlern unterscheiden. Die größte Unterscheidung findet zwischen linearen und schaltbaren Reglern statt. \cite{Ekbert:2014}
 
 \subsection{Allgemeines Funktionsprinzip}
 
-Ein Spannungswandler muss ein Regelkreis besitzen, damit die Ausgangsspannung „unabhängig“ von der Eingangsspannung geregelt werden kann. Die Ausgangsspannung wird überwacht und mit dem Sollwert abgeglichen. Wenn die Spannung angepasst werden muss, kann dies unter anderem über die Transistoren stattfinden, welche unter anderem in Schaltreglern ihre Anwendung finden. Im Folgenden wird nur auf Schaltregler eingegangen, da dies im Arduino verbaut ist.  \cite{Ekbert:2014} \cite{ArduinoDoc:2024}
+Ein Spannungswandler muss einen Regelkreis besitzen, damit die Ausgangsspannung „unabhängig“ von der Eingangsspannung geregelt werden kann. Die Ausgangsspannung wird überwacht und mit dem Sollwert abgeglichen. Wenn die Spannung angepasst werden muss, kann dies unter anderem über die Transistoren stattfinden, welche unter anderem in Schaltreglern ihre Anwendung finden. Im Folgenden wird nur auf Schaltregler eingegangen, da dieser im Arduino verbaut ist.  \cite{Ekbert:2014} \cite{ArduinoDoc:2024}
 
 
 
@@ -37,7 +37,7 @@ Bei einem Schaltregler (getaktete Stromversorgung) wird eine Gleichspannung in e
 
 \bigskip
 
-Der Schaltregler regelt nicht wie weit der Transistor öffnet bzw. schließt, sondern die Frequenz in dem dieser Öffnen und Schließen soll. Dies geschieht mit hoher Frequenz und schaltet somit zwischen vollem Durchgang oder gar kein Durchgang. Der Übergangswiderstand wird  nicht zur Regelung genutzt, wie bei einem Verlustregler. Zudem  kann auch geregelt werden wie lange der Transistor schließen und wie lange dieser geöffnet werden soll (Pulsbreitenmodulation). Ein Regler misst hier kontinuierlich die Ausgangsspannung und passt so das Tastverhältnis an. Dabei ist der besonders hohe Wirkungsgrad  von Schaltreglern hervorzuheben, da dieser nur zwischen eingeschaltet und ausgeschaltet unterscheidet. Der Vorgang zwischen den beiden Stellungen erzeugt nur geringe Übergangswiderstände. 
+Der Schaltregler regelt nicht, wie weit der Transistor öffnet bzw. schließt, sondern die Frequenz in dem dieser Öffnen und Schließen soll. Dies geschieht mit hoher Frequenz und schaltet somit zwischen vollem Durchgang oder gar kein Durchgang. Der Übergangswiderstand wird  nicht zur Regelung genutzt, wie bei einem Verlustregler. Zudem  kann auch geregelt werden wie lange der Transistor schließen und wie lange dieser geöffnet werden soll (Pulsbreitenmodulation). Ein Regler misst hier kontinuierlich die Ausgangsspannung und passt so das Tastverhältnis an. Dabei ist der besonders hohe Wirkungsgrad  von Schaltreglern hervorzuheben, da dieser nur zwischen eingeschaltet und ausgeschaltet unterscheidet. Der Vorgang zwischen den beiden Stellungen erzeugt nur geringe Übergangswiderstände. 
 
 \bigskip
 
@@ -45,11 +45,11 @@ Die Nachteile des Schaltreglers sind unter anderem die hohe Frequenz, welche St�
 
 \subsection{Abwärtswandler}
 
-Ein Abwärtswandler \ref{fig:Abwärtswandler} wandelt eine höhere Gleichspannung in eine niedrigere um. Dabei besteht der Tiefsetzsteller grundsätzlich aus einem Transistor, Spule, Freilaufdiode und einem Glättungskondensator. Wenn der Transistor schließt fließt ein Strom durch die Spule. Bei Ausschalten des Transistors bleibt der Strom in der Spule aufrecht und gibt diese Energie an die Diode weiter in den Ausgang und lädt auch gleichzeitig den Siebkondensator. Dieser lädt sich auf und kann so beim Schalten des Transistors Spannungseinbrüche ausgleichen durch die gespeicherte Ladung, glättet also die Ausgangspannung. So hat man zwar Impulse des Transistors, kann diese aber an der Ausgangsspannung wieder ausgleichen.  
+Ein Abwärtswandler \ref{fig:Abwärtswandler} wandelt eine höhere Gleichspannung in eine niedrigere um. Dabei besteht der Tiefsetzsteller grundsätzlich aus einem Transistor, Spule, Freilaufdiode und einem Glättungskondensator. Wenn der Transistor schließt fließt ein Strom durch die Spule. Bei Ausschalten des Transistors bleibt der Strom in der Spule aufrecht und gibt diese Energie an die Diode weiter in den Ausgang und lädt auch gleichzeitig den Siebkondensator. Dieser lädt sich auf und kann so beim Schalten des Transistors Spannungseinbrüche ausgleichen. Durch die gespeicherte Ladung wird die Ausgangsspannung geglättet. So hat man zwar Impulse des Transistors, kann diese aber an der Ausgangsspannung wieder ausgleichen.  
 
 \bigskip
 
-Einsatzgebiete: Z.B. Mikroprozessoren 
+Einsatzgebiete: z.B. Mikroprozessoren 
 
 \bigskip
 
@@ -141,11 +141,11 @@ Einsatzgebiete: Z.B. Mikroprozessoren
 
 \subsection{Aufwärtswandler }
 
-Der Aufwärtswandler \ref{fig:Aufwärtswandler} funktioniert im Prinzip genauso wie der Abwärtswandler. Der Unterschied ist in dem Fall dass die Spule dauerhaft am Eingang angeschlossen ist und somit in Serie mit der Last geschalten ist. Der Transistor liegt parallel zur Last. Durch das Schalten des Transistors lädt sich die Spule auf und durch das plötzliche Abschalten, wird dennoch weiterhin ein Strom in die Spule fließen. Die Spule will ihr Magnetfeld aufrecht erhalten. Das addiert sich zur Eingangsspannung und setzt somit die Spannung hoch. Diese Spannung wird an die Diode und den Kondensator weitergeleitet. Durch das Tastverhältnis lässt sich die Ausgangsspannung regeln. Bei der Schaltung ist die Lastspannung immer mindestens die Eingangsspannung. 
+Der Aufwärtswandler \ref{fig:Aufwärtswandler} funktioniert im Prinzip genauso wie der Abwärtswandler. Der Unterschied ist in dem Fall, dass die Spule dauerhaft am Eingang angeschlossen ist und somit in Serie mit der Last geschaltet ist. Der Transistor liegt parallel zur Last. Durch das Schalten des Transistors lädt sich die Spule auf und durch das plötzliche Abschalten, wird dennoch weiterhin ein Strom in die Spule fließen. Die Spule will ihr Magnetfeld aufrecht erhalten. Das addiert sich zur Eingangsspannung und setzt somit die Spannung hoch. Diese Spannung wird an die Diode und den Kondensator weitergeleitet. Durch das Tastverhältnis lässt sich die Ausgangsspannung regeln. Bei der Schaltung ist die Lastspannung immer mindestens die Eingangsspannung. 
 
 \bigskip
 
-Einsatzgebiete: Z.B. Elektromotoren  
+Einsatzgebiete: z.B. Elektromotoren  
 
 \bigskip
 
@@ -251,7 +251,7 @@ Einsatzgebiete: Z.B. Elektromotoren
 
 \section{Spannungswandler MPM3610}
 
-Der MPM3610 ist ein synchrones, gleichgerichtetes Abwärtswandlermodul \ref{fig:FBDS}. Diese werden auch Step-Down-Wandler genannt. Eingebaut sind Leistungs-MOFETs, Spulen und Kondensatoren. Eine Ausgabe von 3.3 V bei 1.2 A wird somit sichergestellt, wobei der Eingangsspannungsbereich bei 4.5 V – 21 V liegt. \cite{MPS:2015}
+Der MPM3610 ist ein synchrones, gleichgerichtetes Abwärtswandlermodul \ref{fig:FBDS}. Diese werden auch Step-Down-Wandler genannt. Eingebaut sind Leistungs-MOFETs, Spulen und Kondensatoren. Eine Ausgabe von 3,3 V bei 1,2 A wird somit sichergestellt, wobei der Eingangsspannungsbereich bei 4,5 V – 21 V liegt. \cite{MPS:2015}
 
 \bigskip
 
@@ -262,7 +262,7 @@ Der MPM3610 ist ein synchrones, gleichgerichtetes Abwärtswandlermodul \ref{fig:
 	\label{fig:FBDS}
 \end{figure}
 
-Dabei kann der Wandler zwischen drei Arbeitsmodi unterscheiden: Erweiterte asynchrone Modulation (AAM, diskontinuierlicher Leitungsmodus (DCM) und kontinuierlicher Leitungsmodus (CCM). \cite{MPS:2015}
+Dabei kann der Wandler zwischen drei Arbeitsmodi unterscheiden: erweiterte asynchrone Modulation (AAM, diskontinuierlicher Leitungsmodus (DCM) und kontinuierlicher Leitungsmodus (CCM). \cite{MPS:2015}
 
 \begin{figure}[h]
 	\centering
@@ -312,7 +312,7 @@ Die Unterspannungsabschaltung (UVLO) schützt den Chip bei zu niedriger Versorgu
 
 \subsection{Enable Control (EN)}
 
-Über den EN-Pin kann der Wandler ein- und ausgeschaltet werden. Ein interner 1 $M\Omega$-Widerstand zieht EN auf GND, wenn dieser offen bleibt. Der EN-Pin ist durch eine 6,5 V-Zenerdiode geschützt. Bei direktem Anschluss an hohe Spannungen muss ein Pull-Up-Widerstand verwendet werden, um den Strom zu begrenzen. \cite{MPS:2015}
+Über den EN-Pin kann der Wandler ein- und ausgeschaltet werden. Ein interner 1 M$\Omega$-Widerstand zieht EN auf GND, wenn dieser offen bleibt. Der EN-Pin ist durch eine 6,5 V-Zenerdiode geschützt. Bei direktem Anschluss an hohe Spannungen muss ein Pull-Up-Widerstand verwendet werden, um den Strom zu begrenzen. \cite{MPS:2015}
 
 \subsection{Soft-Start}
 
@@ -364,7 +364,7 @@ Der Wirkungsgrad des Spannungswandlers für die Umwandlung auf 3,3 V Ausgangsspa
 	
 	\item 200 µA niedriger Ruhestrom
 	
-	\item Niedriger Einschaltwiderstand der internen Power-MOSFETs: 90 $m\Omega$ / 40 $m\Omega$
+	\item Niedriger Einschaltwiderstand der internen Power-MOSFETs: 90 m$\Omega$ / 40 m$\Omega$
 	
 	\item Integrierte Induktivität 
 	

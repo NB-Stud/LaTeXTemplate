@@ -208,7 +208,7 @@ Diese Eigenschaften machen das HC-05-Modul zu einer energieeffizienten Option f�
 
 \subsection{Schnittstellen und Anschlüsse}
 
-Die Flexibilität des HC-05-Moduls zeigt sich in seiner Unterstützung für multiple Schnittstellen, die eine nahtlose Integration in bestehende Systemarchitekturen ermöglichen.
+Die Flexibilität des HC-05-Moduls zeigt sich in seiner Unterstützung für mehrere Schnittstellen, die eine nahtlose Integration in bestehende Systemarchitekturen ermöglichen.
 
 \begin{figure}[H]
 	\centering
@@ -377,7 +377,7 @@ Diese Features tragen zur Reduzierung externer Komponenten bei und vereinfachen 
 		\textbf{Pin-Nr.} & \textbf{Name} & \textbf{Funktion} 			 & 		\textbf{Anmerkung}	   \\ \hline
 			 1	 		 & 	UART\_TX 	 & Serieller Datenausgang   	 &  CMOS-Ausgang mit Pull-Up   \\ \hline
 			 2		 	 &	UART\_RX	 & Serieller Dateneingeng		 &  CMOS-Eingang mit Pull-Down \\ \hline
-			12   		 &	3.3\,VCC     & Spannungsversorgung (+3,3\,V) &  Integrierter Linearregler  \\ \hline
+			12   		 &	3,3\,VCC     & Spannungsversorgung (+3,3\,V) &  Integrierter Linearregler  \\ \hline
 		 13,21,22		 &	GND		     & Masseanschluss				 &  Mehrere Pins zur Erdung    \\ \hline
 
 	\end{tabular}
@@ -409,7 +409,7 @@ Optional kann man noch die Bibliothek HC05Libary installieren, denn mit dieser B
 
 
 \section{Tests}
-Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der folgende Code verwendet werden. Der Code überprüft ob das HC-05 mit dem Smartphone verbunden ist und ob die Übertragung von Daten Funktioniert. Um das Smartphone mit dem HC-05 zu verbinden wird ein Code benötigt dieser ist falls er nicht verändert wurde: 1234 oder 0000 falls der Code geändert wurde kann dieser über ein I2C und einem entsprechenden Programmbefehl ausgelesen werden. \ref{code:bluetoothEinfach}
+Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der folgende Code verwendet werden. Der Code überprüft ob das HC-05 mit dem Smartphone verbunden ist und ob die Übertragung von Daten Funktioniert. Um das Smartphone mit dem HC-05 zu verbinden wird ein Code benötigt dieser ist falls er nicht verändert wurde: 1234 oder 0000 falls der Code geändert wurde kann dieser über ein $I^2C $ und einem entsprechenden Programmbefehl ausgelesen werden. \ref{code:bluetoothEinfach}
 
 \begin{code}[H]
 	\caption{Code zur Überprüfung der Funktionalität}
@@ -420,7 +420,7 @@ Um die grundlegende Funktionsweise des HC-05 Bluetooth-Moduls zu testen kann der
 
 
 \section{Einfache Anwendung}
-Als Beispielhafte Anwendung für den HC-05 kann das Modul über einen Arduino und einem Relais mit einer Stehlampe verschaltet  werden. Zu sehen in folgendem Code: \ref{code:bluetoothAnwendung}. Wenn man das System dann mit einem Smartphone verbindet kann die Stehlampe über das System mit den HC-05 ein und ausgeschaltet werden. Das System kann folgenderweise verbunden werden \ref{tab:Pin Belegung}: 
+Als beispielhafte Anwendung für den HC-05 kann das Modul über einen Arduino und einem Relais mit einer Stehlampe verschaltet  werden. Zu sehen in folgendem Code: \ref{code:bluetoothAnwendung}. Wenn man das System dann mit einem Smartphone verbindet kann die Stehlampe über das System mit den HC-05 ein und ausgeschaltet werden. Das System kann folgenderweise verbunden werden \ref{tab:Pin Belegung}: 
 \begin{table}[h]
 	\centering
 	\caption{Pin Belegung}
@@ -429,14 +429,14 @@ Als Beispielhafte Anwendung für den HC-05 kann das Modul über einen Arduino un
 		\textbf{Arduino} & \textbf{HC-05} & \textbf{Realis}\\ \hline
 		RX(Pin 2) 		 & 		TX 		  &        -       \\ \hline
 		TX(Pin 3)		 &		RX		  &		   -	   \\ \hline
-		5V (oder 3.3V)   &		VCC		  &		   -	   \\ \hline
+		5 V (oder 3,3 V)   &		VCC		  &		   -	   \\ \hline
 		GND				 &		GND		  &		   -       \\ \hline
 		Pin 7			 &       -		  &IN(Steuereingang)\\ \hline
 	\end{tabular}
 	\label{tab:Pin Belegung}
 \end{table}
 
-Die Stehlampe wird dann noch mit dem Relais verbunden. Dann kann auch schon der Code für die Anwendung Installiert werden.
+Die Stehlampe wird dann noch mit dem Relais verbunden. Dann kann auch schon der Code für die Anwendung installiert werden.
 
 \begin{code}[H]
 	\caption{Code zur Überprüfung der Funktionalität}
@@ -455,7 +455,7 @@ W. Osterhage, Sicherheitskonzepte in der mobilen Kommunikation. 5. Auflage. Spri
 W. Ewald, HC-05 und HC-06 Bluetooth Module. Wolles Elektronikkiste, 2019\\ \URL{https://wolles-elektronikkiste.de/hc-05-und-hc-06-bluetooth-module}.
 \cite{WollesElektronikkiste:2019}
 \begin{itemize}
-	\item Dies online Beitrag bietet einen Umfangreichen einstieg in die Grundlagen und Nutzung von den Bluetooth Modulen: HC-05 und HC-06.
+	\item Dieser online Beitrag bietet einen umfangreichen Einstieg in die Grundlagen und Nutzung von den Bluetooth Modulen: HC-05 und HC-06.
 \end{itemize}
 
 

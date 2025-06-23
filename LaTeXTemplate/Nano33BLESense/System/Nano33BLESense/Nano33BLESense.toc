@@ -1,8 +1,8 @@
 \acswitchoff 
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{Inhaltsverzeichnis}{3}{chapter*.1}%
-\contentsline {chapter}{Abbildungsverzeichnis}{9}{chapter*.2}%
-\contentsline {chapter}{ Liste des Listings}{11}{chapter*.3}%
+\contentsline {chapter}{Inhaltsverzeichnis}{3}{chapter*.2}%
+\contentsline {chapter}{Abbildungsverzeichnis}{9}{chapter*.3}%
+\contentsline {chapter}{ Liste des Listings}{11}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Einleitung}{13}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Problembeschreibung}{13}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Herausforderungen}{13}{section.1.2}%
@@ -45,13 +45,13 @@
 \contentsline {section}{\numberline {4.2}Unterschied zwischen dem Arduino Nano 33 BLE Sense Rev1, dem Arduino Nano 33 BLE Sense Rev2 und dem Arduino Nano 33 BLE Sense Lite}{43}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Worin unterscheiden sich Rev1 und Rev2?}{43}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Arduino Nano 33 BLE Sense Lite}{44}{subsection.4.2.2}%
-\contentsline {subsubsection}{\nonumberline Unterschiede zur Rev1}{44}{subsubsection*.36}%
-\contentsline {subsubsection}{\nonumberline Technische Hintergründe}{44}{subsubsection*.38}%
+\contentsline {subsubsection}{\nonumberline Unterschiede zur Rev1}{44}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Technische Hintergründe}{44}{subsubsection*.39}%
 \contentsline {section}{\numberline {4.3}Beschreibung der On-Board Sensoren}{45}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Pinbelegung des Arduino Nano 33 BLE}{47}{section.4.4}%
 \contentsline {part}{\numberline {II}Arduino Nano 33 BLE Sense - Externe Sensoren und Aktoren}{49}{part.2}%
 \contentsline {chapter}{\numberline {5}Spannungswandler MPM3610}{51}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Allgemein Spannungswandler}{51}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Allgemeines zum Spannungswandler}{51}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Allgemeines Funktionsprinzip}{51}{subsection.5.1.1}%
 \contentsline {section}{\numberline {5.2}Schaltregler (Schaltende DC-DC-Wandler)}{51}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Abwärtswandler}{52}{subsection.5.2.1}%
@@ -87,7 +87,7 @@
 \contentsline {section}{\numberline {6.6}Tests}{61}{section.6.6}%
 \contentsline {section}{\numberline {6.7}Einfache Anwendung}{63}{section.6.7}%
 \contentsline {section}{\numberline {6.8}Further Readings}{65}{section.6.8}%
-\contentsline {part}{\numberline {III}Harwarebeschreibung: Magic Faucet Fountain}{67}{part.3}%
+\contentsline {part}{\numberline {III}Hardwarebeschreibung: Magic Faucet Fountain}{67}{part.3}%
 \contentsline {chapter}{\numberline {7}Ultraschallsensor HC-SR04}{69}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Einleitung}{69}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Ultraschallsensoren zur Abstandsmessung}{69}{section.7.2}%
@@ -111,7 +111,7 @@
 \contentsline {subsection}{\numberline {7.10.3}Lösungsansätze}{80}{subsection.7.10.3}%
 \contentsline {section}{\numberline {7.11}Weiterführende Anwendungen}{80}{section.7.11}%
 \contentsline {section}{\numberline {7.12}Further Readings}{81}{section.7.12}%
-\contentsline {chapter}{\numberline {8}Comet Tauchpumpe ELEGANT 12V}{83}{chapter.8}%
+\contentsline {chapter}{\numberline {8}Comet Tauchpumpe ELEGANT 12 V}{83}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Einführung}{83}{section.8.1}%
 \contentsline {subsection}{\numberline {8.1.1}Arbeitsweise Kreiselpumpen}{83}{subsection.8.1.1}%
 \contentsline {section}{\numberline {8.2}Charakteristische Größen von Pumpen}{84}{section.8.2}%
@@ -121,7 +121,7 @@
 \contentsline {subsection}{\numberline {8.2.4}Pumpenwirkungsgrad}{85}{subsection.8.2.4}%
 \contentsline {subsection}{\numberline {8.2.5}Kupplungsleistung}{85}{subsection.8.2.5}%
 \contentsline {subsection}{\numberline {8.2.6}Anlagenkennlinie}{85}{subsection.8.2.6}%
-\contentsline {section}{\numberline {8.3}Comet Tauchpumpe ELEGANT 12V}{86}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Comet Tauchpumpe ELEGANT 12 V}{86}{section.8.3}%
 \contentsline {section}{\numberline {8.4}Spezifikation}{86}{section.8.4}%
 \contentsline {subsection}{\numberline {8.4.1}Technische Daten:}{86}{subsection.8.4.1}%
 \contentsline {subsection}{\numberline {8.4.2}Weitere Eigenschaften}{86}{subsection.8.4.2}%
@@ -141,22 +141,22 @@
 \contentsline {section}{\numberline {10.1}Einleitung}{97}{section.10.1}%
 \contentsline {section}{\numberline {10.2}Grundlegende Informationen}{97}{section.10.2}%
 \contentsline {subsection}{\numberline {10.2.1}Bluetooth-Varianten}{97}{subsection.10.2.1}%
-\contentsline {subsection}{\numberline {10.2.2}Reichweite und Sendeleistung}{97}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.2}Reichweite und Sendeleistung}{98}{subsection.10.2.2}%
 \contentsline {subsection}{\numberline {10.2.3}Datenübertragung}{98}{subsection.10.2.3}%
 \contentsline {subsection}{\numberline {10.2.4}Anwendungen}{98}{subsection.10.2.4}%
-\contentsline {section}{\numberline {10.3}Bluetooth Modul: HC-05}{98}{section.10.3}%
+\contentsline {section}{\numberline {10.3}Bluetooth Modul: HC-05}{99}{section.10.3}%
 \contentsline {section}{\numberline {10.4}Spezifikation}{99}{section.10.4}%
 \contentsline {subsection}{\numberline {10.4.1}Hardware-Spezifikation}{99}{subsection.10.4.1}%
-\contentsline {subsection}{\numberline {10.4.2}Elektrische Eigenschaften}{99}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.2}Elektrische Eigenschaften}{100}{subsection.10.4.2}%
 \contentsline {subsection}{\numberline {10.4.3}Schnittstellen und Anschlüsse}{100}{subsection.10.4.3}%
 \contentsline {subsection}{\numberline {10.4.4}Mechanische und Umgebungsbedingungen}{101}{subsection.10.4.4}%
-\contentsline {subsection}{\numberline {10.4.5}Zusätzliche Hardware-Features}{101}{subsection.10.4.5}%
-\contentsline {subsection}{\numberline {10.4.6}Pinbelegung (Auszug)}{101}{subsection.10.4.6}%
+\contentsline {subsection}{\numberline {10.4.5}Zusätzliche Hardware-Features}{102}{subsection.10.4.5}%
+\contentsline {subsection}{\numberline {10.4.6}Pinbelegung (Auszug)}{102}{subsection.10.4.6}%
 \contentsline {section}{\numberline {10.5}Bibliotheken}{102}{section.10.5}%
 \contentsline {subsection}{\numberline {10.5.1}Installation und Download}{102}{subsection.10.5.1}%
-\contentsline {section}{\numberline {10.6}Tests}{102}{section.10.6}%
-\contentsline {section}{\numberline {10.7}Einfache Anwendung}{103}{section.10.7}%
-\contentsline {section}{\numberline {10.8}Further Readings}{105}{section.10.8}%
+\contentsline {section}{\numberline {10.6}Tests}{103}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Einfache Anwendung}{104}{section.10.7}%
+\contentsline {section}{\numberline {10.8}Further Readings}{106}{section.10.8}%
 \contentsline {chapter}{\numberline {11}Kippschalter: GOOBAY 10013}{107}{chapter.11}%
 \contentsline {section}{\numberline {11.1}Einleitung}{107}{section.11.1}%
 \contentsline {section}{\numberline {11.2}Grundlegende Informationen}{107}{section.11.2}%
@@ -188,8 +188,8 @@
 \contentsline {subsection}{\numberline {14.2.2}P-Kanal-MOS-FET}{124}{subsection.14.2.2}%
 \contentsline {section}{\numberline {14.3}MOS-FET IRF9540N}{124}{section.14.3}%
 \contentsline {section}{\numberline {14.4}Spezifikation}{124}{section.14.4}%
-\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{124}{subsubsection*.88}%
-\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{125}{subsubsection*.90}%
+\contentsline {subsubsection}{\nonumberline Hauptmerkmale \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{124}{subsubsection*.89}%
+\contentsline {subsubsection}{\nonumberline Steuerung und Anschlüsse \blx@tocontentsinit {0}\cite {ReicheltMOS:2025}}{125}{subsubsection*.91}%
 \contentsline {section}{\numberline {14.5}Einfacher Code}{126}{section.14.5}%
 \contentsline {section}{\numberline {14.6}Tests}{127}{section.14.6}%
 \contentsline {section}{\numberline {14.7}Einfache Anwendung}{127}{section.14.7}%
@@ -209,13 +209,13 @@
 \contentsline {subsection}{\numberline {16.2.1}Abmaße}{138}{subsection.16.2.1}%
 \contentsline {section}{\numberline {16.3}Hardware-Schnittstellen}{138}{section.16.3}%
 \contentsline {subsection}{\numberline {16.3.1}Schaltpläne}{138}{subsection.16.3.1}%
-\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{138}{subsubsection*.99}%
-\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und Ultraschallsensor}{139}{subsubsection*.102}%
-\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{140}{subsubsection*.105}%
+\contentsline {subsubsection}{\nonumberline Versorgungsspannungen 5 V und 12 V}{138}{subsubsection*.100}%
+\contentsline {subsubsection}{\nonumberline 5 V Netz mit Arduino und Ultraschallsensor}{139}{subsubsection*.103}%
+\contentsline {subsubsection}{\nonumberline 5/12 V Netz mit Aktoren}{140}{subsubsection*.106}%
 \contentsline {section}{\numberline {16.4}Software-Schnittstellen}{141}{section.16.4}%
-\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{141}{subsubsection*.108}%
-\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{141}{subsubsection*.110}%
-\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{142}{subsubsection*.112}%
+\contentsline {subsubsection}{\nonumberline Bluetooth-Kommunikationsschnittstelle}{141}{subsubsection*.109}%
+\contentsline {subsubsection}{\nonumberline Arduino-Programmierschnittstelle}{141}{subsubsection*.111}%
+\contentsline {subsubsection}{\nonumberline Anwendungsprogrammierschnittstelle auf Befehlsebene}{142}{subsubsection*.113}%
 \contentsline {subsection}{\numberline {16.4.1}Ablaufdiagramm der Anwendung}{142}{subsection.16.4.1}%
 \contentsline {subsection}{\numberline {16.4.2}Code der Anwendung}{144}{subsection.16.4.2}%
 \contentsline {section}{\numberline {16.5}Installation}{145}{section.16.5}%
@@ -261,4 +261,4 @@
 \contentsline {chapter}{\numberline {20}Materialliste Magic Faucet Fountain}{171}{chapter.20}%
 \contentsline {section}{\numberline {20.1}Materialliste nicht verwendeter Materialien}{177}{section.20.1}%
 \contentsline {chapter}{\numberline {21}Softwareliste Magic Faucet Fountain}{179}{chapter.21}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{181}{chapter*.123}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{181}{chapter*.124}%

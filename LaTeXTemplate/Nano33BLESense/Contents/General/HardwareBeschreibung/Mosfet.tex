@@ -15,7 +15,7 @@
 
 \chapter{MOS-FET}\label{Mosfet}
 \section{Einleitung}
-MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) sind spannungsgesteuerte Halbleiterbauelemente, bei denen das Gate durch eine isolierende SiO$_2$-Schicht vom Halbleiter getrennt ist. Sie ermöglichen das Schalten und Regeln von Strömen mit sehr geringem Steuerstrom und werden daher häufig in digitalen und analogen Schaltungen eingesetzt. \cite{Alles:2024}
+MOS-FETs (Metal-Oxide-Semiconductor Field-Effect Transistors) sind spannungsgesteuerte Halbleiterbauelemente, bei denen das Gate durch eine isolierende SiO$_2$-Schicht vom Halbleiter getrennt ist. Sie ermöglichen das Schalten und Regeln von Strömen mit sehr geringem Steuerstrom und werden daher häufig in digitalen und analogen Schaltungen eingesetzt. \cite{Alles:2024}
 \section{Grundlegende Informationen}
 Der Metall-Oxid-Halbleiter-Feldeffekttransistor (MOS-FET) ist ein spannungsgesteuerter Transistor, der in vier Grundtypen unterteilt wird: n-Kanal- und p-Kanal-Typen, jeweils als Anreicherungs- oder Verarmungstyp. Der am häufigsten verwendete Typ ist der n-Kanal-MOS-FET im Anreicherungstyp, der bei einer Gate-Source-Spannung von 0 V gesperrt ist (selbstsperrend).\cite{Alles:2024}
 
@@ -27,7 +27,7 @@ Je nach Höhe der Gate-Source-Spannung (UGS) im Verhältnis zur Schwellenspannun
 	\item Abschnürbereich (UGS > UTh, aber UGS - UTh < UDS): Der Kanal ist nur teilweise ausgebildet – Strom fließt eingeschränkt.
 	\item Ohmscher Bereich (UGS - UTh > UDS): Der Kanal reicht vollständig von Source bis Drain – der Transistor verhält sich wie ein variabler Widerstand.
 \end{itemize}
-Die Eingangswiderstände von MOS-FETs sind extrem hoch (im $G\Omega$-Bereich), was sie ideal für Anwendungen mit geringer Steuerleistung macht. Jedoch kann bei hohen Frequenzen die Gate-Kapazität zu Nachteilen führen, da sie zu Umladeströmen führt, die wiederum die Geschwindigkeit der Schaltung begrenzen.\cite{Alles:2024}
+Die Eingangswiderstände von MOS-FETs sind extrem hoch (im G$\Omega$-Bereich), was sie ideal für Anwendungen mit geringer Steuerleistung macht. Jedoch kann bei hohen Frequenzen die Gate-Kapazität zu Nachteilen führen, da sie zu Umladeströmen führt, die wiederum die Geschwindigkeit der Schaltung begrenzen.\cite{Alles:2024}
 
 Die Kennlinienfelder, die das Verhalten von Drainstrom (ID) in Abhängigkeit von UGS und UDS zeigen, weisen zum Teil deutliche Unterschiede zwischen Simulation und realen Messungen auf. Diese Abweichungen entstehen u.a. durch Parameterstreuungen bei der Fertigung, insbesondere bei der Thresholdspannung und der sogenannten Kanallängenmodulation (Early-Effekt). Dies spielt in digitalen Schaltungen oft eine untergeordnete Rolle, kann jedoch in analogen Anwendungen zu Problemen führen, vor allem bei hohen Temperaturen.\cite{Alles:2024}
 
@@ -38,7 +38,7 @@ MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- u
 
 \subsection{N-Kanal-MOS-FET}
 \begin{itemize}
-	\item Geläufige Bezeichnungen: N-Channel-MOSFET, NMOS, NMOSFET
+	\item Geläufige Bezeichnungen: N-Channel-MOS-FET, NMOS, NMOS-FET
 	\item Dotierung: Elektronen-Donatoren – das Fremdatom besitzt ein zusätzliches Elektron, das als Ladungsträger fungiert
 	\item Majoritätsladungsträger: Elektronen
 	\item Funktionsweise: Der Transistor leitet bei positiver Spannung am Gate-Anschluss
@@ -47,7 +47,7 @@ MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- u
 
 \subsection{P-Kanal-MOS-FET}
 \begin{itemize}
-	\item Geläufige Bezeichnungen: P-Channel-MOSFET, PMOS, PMOSFET
+	\item Geläufige Bezeichnungen: P-Channel-MOS-FET, PMOS, PMOS-FET
 	\item Dotierung: Elektronen-Akzeptoren – dem Fremdatom fehlt ein Elektron, es entsteht ein sogenanntes „Loch“
 	\item Majoritätsladungsträger: Löcher (Defektelektronen)
 	\item Funktionsweise: Der Transistor leitet bei negativer Gate-Spannung relativ zur Source
@@ -55,7 +55,7 @@ MOS-FETs lassen sich grundsätzlich in zwei Hauptgruppen unterteilen: n-Kanal- u
 \end{itemize}
 
 \section{MOS-FET IRF9540N}
-Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spannungen entwickelt wurde. Er eignet sich besonders für Anwendungen, bei denen eine effektive Spannung mit Hilfe von Pulsweitenmodulation (PWM) gesenkt werden soll, wie z. B. beim Dimmen von LED-Beleuchtungen.\cite{ReicheltMOS:2025} \ref{skizzeMosfet}
+Der COM-MOS-FET ist ein p-Kanal MOS-FET, der für die Steuerung von höheren Spannungen entwickelt wurde. Er eignet sich besonders für Anwendungen, bei denen eine effektive Spannung mit Hilfe von Pulsweitenmodulation (PWM) gesenkt werden soll, wie z. B. beim Dimmen von LED-Beleuchtungen.\cite{ReicheltMOS:2025} \ref{skizzeMosfet}
 \begin{figure}[H]
 	\centering
 	\caption{Skizze des MOS-FETs}
@@ -123,7 +123,7 @@ Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spann
 	\item Modell: IRF9540N
 	\item Farbe der Platine: Schwarz
 	\item Kompatibilität: Arduino, Raspberry Pi, etc.
-	\item Besonderheiten: Der MOSFET bezieht Spannung auch über den SBC, wenn keine Source-Spannung verfügbar ist.
+	\item Besonderheiten: Der MOS-FET bezieht Spannung auch über den SBC, wenn keine Source-Spannung verfügbar ist.
 	\item Effektivspannung lässt sich mit PWM senken.
 	\item Abmessungen: 40 mm x 22 mm x 20 mm
 	\item Maximale Eingangsspannung: 36 V
@@ -145,7 +145,7 @@ Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spann
 		\begin{tabular}{c|c}
 			Arduino & MOS-FET\\ \hline
 			GND & GND (Pin1)\\
-			5V & VCC (Pin2)\\
+			5 V & VCC (Pin2)\\
 			NC & NC (Pin3)\\
 			Digital Pin 2 & Signal (Pin4)\\
 		\end{tabular}
@@ -568,7 +568,7 @@ Der COM-MOSFET ist ein p-Kanal MOSFET, der für die Steuerung von höheren Spann
 	
 \end{figure}
 \section{Einfacher Code}
-Dies ist ein einfacher Code zur Ansteuerung eines MOSFETs.
+Dies ist ein einfacher Code zur Ansteuerung eines MOS-FETs.
 Wird der Signal-Pin auf High gesetzt, aktiviert sich der Ausgang.
 Im folgenden Codebeispiel wird der Ausgang alle 15 Sekunden für eine Dauer von 10 Sekunden eingeschaltet.\cite{ReicheltMOSFETManual:2025}
 \begin{code}[H]
@@ -578,7 +578,7 @@ Im folgenden Codebeispiel wird der Ausgang alle 15 Sekunden für eine Dauer von 
 \end{code}
 
 \section{Tests}
-Um einen MOS-FET zu testen, kann man eine einfache Widerstandsmessung mit einem Multimeter durchführen. Zuerst stellt man das Multimeter auf Widerstandsmessung und verbindet die Messspitzen mit den Drain- und Source-Anschlüssen des MOS-FETs. Ist keine Spannung am Gate angelegt, sollte der Widerstand zwischen Drain und Source hoch sein, was bedeutet, dass der MOS-FET „aus“ ist und keinen Strom fließen lässt. Wird jedoch eine Spannung (z. B. 9V) zwischen Gate und Source angelegt, sollte der Widerstand zwischen Drain und Source stark sinken, da der MOS-FET nun „ein“ ist und den Stromfluss ermöglicht. Diese einfache Prüfung bestätigt, ob der MOS-FET ordnungsgemäß funktioniert.
+Um einen MOS-FET zu testen, kann man eine einfache Widerstandsmessung mit einem Multimeter durchführen. Zuerst stellt man das Multimeter auf Widerstandsmessung und verbindet die Messspitzen mit den Drain- und Source-Anschlüssen des MOS-FETs. Ist keine Spannung am Gate angelegt, sollte der Widerstand zwischen Drain und Source hoch sein, was bedeutet, dass der MOS-FET „aus“ ist und keinen Strom fließen lässt. Wird jedoch eine Spannung (z. B. 9 V) zwischen Gate und Source angelegt, sollte der Widerstand zwischen Drain und Source stark sinken, da der MOS-FET nun „ein“ ist und den Stromfluss ermöglicht. Diese einfache Prüfung bestätigt, ob der MOS-FET ordnungsgemäß funktioniert.
 
 \section{Einfache Anwendung}
 In dieser einfachen Schaltung wird ein MOS-FET (z.B. IRF9540N) verwendet, um eine LED ein- und auszuschalten. Der Gate-Anschlus des MOS-FETs wird direkt von einem digitalen Ausgang eines Mikrocontrollers (z.B Arduino) angesteuert. Wenn das Gate auf einen bestimmten Pegel geschaltet wird, leitet der MOS-FET und die LED leuchtet. Wird das Gate-Signal entfernt oder umgekehrt, unterbricht der MOS-FET den Stromfluss und die LED geht aus. Diese Anwendung zeigt das grundlegende Prinzip: ein kleiner Steuerstrom am Gate kann eine größere Last im Drain-Source-Zweig ein- oder ausschalten. 

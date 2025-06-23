@@ -17,7 +17,7 @@
 
 Arduino ist eine Open-Source-Elektronikplattform, die auf flexibler und benutzerfreundlicher Hardware sowie Software basiert. Sie bietet Mikrocontroller- und Mikroprozessor-Boards zur Entwicklung digitaler und analoger Geräte.
 
-Der Mikrocontroller - oft als "Mini-Computer" des Arduino-Boards bezeichnet - benötigt normalerweise verschiedene elektronische Bauteile wie Dioden, Widerstände, Kondensatoren und Transistoren zur Spannungs- und Stromregulierung. Das Arduino-Team hat jedoch eine benutzerfreundliche Umgebung geschaffen, die diese elektronischen Komplexitäten überflüssig macht:
+Der Mikrocontroller - oft als \glqq Mini-Computer\grqq des Arduino-Boards bezeichnet - benötigt normalerweise verschiedene elektronische Bauteile wie Dioden, Widerstände, Kondensatoren und Transistoren zur Spannungs- und Stromregulierung. Der Arduino beinhaltet bereits viele elektronische Bauteile und ermöglicht einen einfachen Einstieg in die Welt der Mikrocontroller. Folgende Vorteile bietet der Arduino:
 
 \begin{itemize}
 	\item Einfache Stromversorgung nach Spannungsvorgabe
@@ -25,9 +25,7 @@ Der Mikrocontroller - oft als "Mini-Computer" des Arduino-Boards bezeichnet - be
 	\item Automatische Hardware-Steuerung
 	\item Keine zusätzlichen elektronischen Komponenten erforderlich
 \end{itemize}
-
-Durch Fortschritte in der Halbleiter- und Elektronikindustrie werden Steuerungsprobleme heute zunehmend mit diesen kompakten Mikrocontrollern gelöst, anstatt mit mechanischen oder elektrischen Schaltern.\cite{Arduino:2025}
-
+\cite{ArduinoWeb:2025}
 
 \section{Arduino Nano 33 BLE Sense}
 
@@ -50,10 +48,10 @@ Das Arduino Nano 33 BLE Sense ist ein kompaktes Board der Nano-Familie mit:
 \subsection*{Namenskonvention}
 Die Bezeichnung gibt Aufschluss über die Funktionen:
 \begin{itemize}
-	\item \textbf{Nano}: Kompakte Bauform (45x18 mm)
+	\item \textbf{Nano}: kompakte Bauform (45x18 mm)
 	\item \textbf{33}: Betriebsspannung 3.3 V
 	\item \textbf{BLE}: Bluetooth Low Energy 5.0
-	\item \textbf{Sense}: Integrierte Sensor-Suite
+	\item \textbf{Sense}: integrierte Sensor-Suite
 \end{itemize}
 
 \subsection*{Erweiterungsmöglichkeiten}
@@ -71,13 +69,13 @@ Folgende Abbildung zeigt den Arduino Nano 33 BLE Sense. \ref{ArduinoNano33}
 \begin{tikzpicture}
   \ArduinoNanoBLESenseRev
 \end{tikzpicture}  
-    \captionof{figure}{Arduino Nano 33 BLE Sense Rev. 2, see \href{https://store.arduino.cc/arduino-nano-33-ble-sense}{Arduino Store}} 
+    \captionof{figure}{Arduino Nano 33 BLE Sense Rev. 2, siehe \href{https://store.arduino.cc/arduino-nano-33-ble-sense}{Arduino Store}} 
     \label{ArduinoNano33}
 \end{center}
 
 \subsection*{Technische Spezifikationen des Arduino Nano 33 BLE Sense}
 
-Das kompakte und zuverlässige BLE-Board basiert auf dem NINA-B306-Modul für Bluetooth Low Energy (BLE 5.0). Dieses Modul enthält den leistungsstarken Nordic nRF52480-Prozessor mit Cortex-M4F-CPU und ist vollständig kompatibel mit der Arduino IDE (online und offline). \cite{Arduino:2025}
+Das kompakte und zuverlässige BLE-Board basiert auf dem NINA-B306-Modul für Bluetooth Low Energy (BLE 5.0). Dieses Modul enthält den leistungsstarken Nordic nRF52480-Prozessor mit Cortex-M4F-CPU und ist vollständig kompatibel mit der Arduino IDE (online und offline). \cite{ArduinoWeb:2025}
 
 \subsection*{Integrierte Sensoren und Komponenten}
 
@@ -129,7 +127,7 @@ Das kompakte und zuverlässige BLE-Board basiert auf dem NINA-B306-Modul für Bl
 
 \subsection{Worin unterscheiden sich Rev1 und Rev2?}
 
-Die Unterschiede zwischen dem Arduino Nano 33 BLE Sense und der Rev2-Version betreffen folgende Komponenten: IMU, Temperatur- und Feuchtesensor, Mikrofon, Krypto-Chip und Spannungswandler. In der zweiten Revision wurde:
+Die Unterschiede zwischen dem Arduino Nano 33 BLE Sense und der Rev2-Version betreffen folgende Komponenten: IMU, Temperatur- und Feuchtigkeitssensor, Mikrofon, Krypto-Chip und Spannungswandler. In der zweiten Revision wurde:
 
 \begin{itemize}
 	\item Die LSM9DS1-IMU durch zwei separate Module ersetzt:
@@ -160,7 +158,7 @@ Die Unterschiede zwischen dem Arduino Nano 33 BLE Sense und der Rev2-Version bet
 
 \begin{itemize}
 	\item \textbf{Stromversorgung}: MPM3610 zu MP2322 (effizienter)
-	\item \textbf{VUSB-Lötpad}: Neu auf der Oberseite der Platine
+	\item \textbf{VUSB-Lötpad}: neu auf der Oberseite der Platine
 	\item \textbf{Testpunkte}: Für USB, SWDIO und SWCLK hinzugefügt
 \end{itemize}
 
@@ -202,8 +200,8 @@ Die Lite-Variante unterscheidet sich nur minimal vom Arduino Nano 33 BLE Sense R
 \subsubsection{Technische Hintergründe}
 \begin{itemize}
 	\item \textbf{Entscheidungsgrund}: Lieferkettenprobleme bei der Beschaffung des HTS221 Sensors
-	\item \textbf{Kompensation}: Externe Feuchtesensoren können über I²C angeschlossen werden
-	\item \textbf{Kostenvorteil}: Geringerer Stückpreis durch reduzierten Sensorumfang
+	\item \textbf{Kompensation}: Externe Feuchtigkeitssensoren können über I²C angeschlossen werden
+	\item \textbf{Kostenvorteil}: geringerer Stückpreis durch reduzierten Sensorumfang
 \end{itemize}
 \cite{Paradise:2025}
 \begin{center}
@@ -223,7 +221,7 @@ Die Sensoren im Überblick:
 
 \begin{itemize}
 	\item Der APDS-9960 ist ein digitaler Sensor für Näherung, Umgebungslicht, RGB und Gesten. Er misst Entfernung, Licht, Farbe und Gesten in Boardnähe.
-	\item Der LSM9DS1 ist ein 9-Achsen-\ac{imu} (Beschleunigungsmesser, Gyroskop und Magnetometer), ideal für Wearables.
+	\item Der LSM9DS1 ist eine 9-Achsen-Inertialmesseinheit (IMU) (Beschleunigungsmesser, Gyroskop und Magnetometer), ideal für Wearables.
 	\item Der LPS22HB ist ein barometrischer Drucksensor zur Messung des Umgebungsdrucks, nützlich für einfache Wetterstationen.
 	\item Der HTS221 misst relative Luftfeuchtigkeit und Temperatur für präzise Umgebungsdaten.
 	\item Der MP34DT05 ist ein digitales Mikrofon zur Echtzeiterfassung und Analyse von Geräuschen.
@@ -278,7 +276,7 @@ Abbildung \ref{ArduinoNano33BLESenseArchitecture} zeigt die Anordnung der Sensor
 		\draw[line width=1pt,red] (-0.3,1.3) -- (-0.3, 3.7) -- (1.5,3.7) -- (1.5,1.3) -- cycle;
 		
 	\end{tikzpicture}
-	\captionof{figure}{}\label{ArduinoNano33BLESenseArchitecture}
+	\captionof{figure}{Anordnung der Sensoren auf dem Board}\label{ArduinoNano33BLESenseArchitecture}
 \end{center}
 
 Zu beachten ist die Genauigkeit der Sensorwerte in Abhängigkeit von deren Positionierung. Der Betriebstemperaturbereich liegt zwischen -40 °C und +85 °C. Auch Luftfeuchtigkeit und Luftdruck sollten berücksichtigt werden.
@@ -301,7 +299,7 @@ Zu beachten ist die Genauigkeit der Sensorwerte in Abhängigkeit von deren Posit
 			\textbf{\MapleCommand{TEMPERATURE, HUMIDITY}}  & HTS221 \\	
 		\end{tabular}
 	\end{center}
-	\caption{Technische Spezifikation des Arduino Nano 33 BLE Sense \cite{Arduino:2025}}
+	\caption{Technische Spezifikation des Arduino Nano 33 BLE Sense \cite{ArduinoWeb:2025}}
 \end{table}
 
 \begin{center}
@@ -352,26 +350,27 @@ Zu beachten ist die Genauigkeit der Sensorwerte in Abhängigkeit von deren Posit
 Der Arduino Nano 33 BLE ist eine weiterentwickelte Version des Arduino Nano Boards mit dem leistungsstarken nRF52840 Prozessor. Das Board verfügt über folgende Pin-Konfiguration (siehe auch \href{https://www.etechnophiles.com/arduino-nano-33-ble-sense-pinout-introduction-specifications/}{Pin-Konfiguration}):
 
 \begin{description}
-	\item[Digitale Pins] 14 digitale I/O-Pins, die nur die Zustände HIGH oder LOW erkennen. Diese Pins können je nach Anforderung als Eingang oder Ausgang konfiguriert werden. Bei 5 V liegen sie im HIGH-Zustand, bei 0 V im LOW-Zustand.
-	\item[Analoge Pins] 8 analoge Eingänge (A0 bis A7), die im Gegensatz zu digitalen Pins kontinuierliche Werte erfassen können. Der Messbereich liegt zwischen 0-5 V.
-	\item[PWM-Pins] Alle digitalen Pins können für Pulsweitenmodulation (PWM) genutzt werden, um analoge Ergebnisse mit digitalen Mitteln zu erzeugen.
-	\item[SPI-Schnittstelle] Unterstützt das Serial Peripheral Interface Protokoll für die Kommunikation mit Peripheriegeräten wie Sensoren. Verwendet die Pins:
+	\item[Digitale Pins:] 14 digitale I/O-Pins, die nur die Zustände HIGH oder LOW erkennen. Diese Pins können je nach Anforderung als Eingang oder Ausgang konfiguriert werden. Bei 5 V liegen sie im HIGH-Zustand, bei 0 V im LOW-Zustand.
+	\item[Analoge Pins:] 8 analoge Eingänge (A0 bis A7), die im Gegensatz zu digitalen Pins kontinuierliche Werte erfassen können. Der Messbereich liegt zwischen 0-5 V.
+	\item[PWM-Pins:] Alle digitalen Pins können für Pulsweitenmodulation (PWM) genutzt werden, um analoge Ergebnisse mit digitalen Mitteln zu erzeugen.
+	\item[SPI-Schnittstelle:] Unterstützt das Serial Peripheral Interface Protokoll für die Kommunikation mit Peripheriegeräten wie Sensoren. Verwendet die Pins:
 	\begin{itemize}
 		\item MISO (Master Input Slave Output)
 		\item MOSI (Master Output Slave Input)
 	\end{itemize}
-	\item[I²C-Schnittstelle] Zwei-Draht-Protokoll mit den Pins:
+	\item[I²C-Schnittstelle:] Zwei-Draht-Protokoll mit den Pins:
 	\begin{itemize}
 		\item SCL (Serial Clock)
 		\item SDA (Serial Data)
 	\end{itemize}
-	\item[UART-Schnittstelle] Serielle Kommunikation über:
+	\item[UART-Schnittstelle:] Serielle Kommunikation über:
 	\begin{itemize}
 		\item Rx (Empfangs-Pin)
 		\item Tx (Sendepin)
 	\end{itemize}
-	\item[Externe Interrupts] Alle digitalen Pins können für externe Interrupts genutzt werden, um laufende Programme bei Bedarf zu unterbrechen.
-	\item[Besondere Pins]
+	\item[Externe Interrupts:] Alle digitalen Pins können für externe Interrupts genutzt werden, um laufende Programme bei Bedarf zu unterbrechen.
+	\item[Besondere Pins:] Folgende Pins:
+	
 	\begin{itemize}
 		\item Pin 13: Integrierte LED
 		\item AREF: Referenzspannungseingang
