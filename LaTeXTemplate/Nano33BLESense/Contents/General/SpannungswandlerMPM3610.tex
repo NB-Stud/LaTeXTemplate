@@ -13,9 +13,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\chapter{Spannungswandler MPM3610}
+\chapter{Spannungswandler MPM3610}\label{MPM}
 
-Der Arduino Nano 33 BLE Sense benötigt grundsätzlich eine Versorgungsspannung von 3.3 V. Um auf 3.3V zu kommen benötigt der Arduino einen Spannungswandler, auch DC-DC-Wandler genannt, denn die Eingangsspannung muss mindestens 4.5 V betragen. Auf dem Arduino ist bereits ein Spannungswandler verbaut. Dies erübrigt einen externen Spannungswandler und spart zudem Platz ein. \cite{ArduinoDoc:2024}
+Der Arduino Nano 33 BLE Sense benötigt grundsätzlich eine Versorgungsspannung von 3.3 V. Um auf 3.3 V zu kommen benötigt der Arduino einen Spannungswandler, auch DC-DC-Wandler genannt, denn die Eingangsspannung muss mindestens 4.5 V betragen. Auf dem Arduino ist bereits ein Spannungswandler verbaut. Dies erübrigt einen externen Spannungswandler und spart zudem Platz ein. \cite{ArduinoDoc:2024}
 
 \bigskip
 
@@ -328,7 +328,7 @@ Der Überstromschutz (OCP) überwacht den Spitzenstrom. Wird der Grenzwert über
 
 \subsection{Thermische Abschaltung (TSD)}
 
-Die thermische Abschaltung (TSD) schützt den Regler bei Übertemperatur: Ab 150 °C stoppt der Betrieb, unter 130 °C läuft der Chip wieder an. \cite{MPS:2015}
+Die thermische Abschaltung (TSD) schützt den Regler bei Übertemperatur: Ab \parfillskip=0pt 150 °C stoppt der Betrieb, unter 130 °C läuft der Chip wieder an. \cite{MPS:2015}
 
 \subsection{Floating-Treiber und Bootstrap-Aufladung}
 
@@ -344,7 +344,7 @@ Optional kann eine RC-Snubber-Schaltung eingesetzt werden, um Spannungsspitzen z
 
 \subsection{Wirkungsgrad}
 
-Der Wirkungsgrad des Spannungswandlers für die Umwandlung auf 3,3 V Ausgangsspannung \ref{fig:WirkungsgradSpannungswandler} , mit welcher der Arduino arbeitet, ist für Ströme im Bereich von 0,01 A bis ca. 0,1 A bei höherer Eingangspannung größer. Für Ströme im Bereich von ca. 0,1 A bis 1 A sinkt der Wirkungsgrad mit zunehmender Eingangsspannung. 
+Der Wirkungsgrad des Spannungswandlers für die Umwandlung auf 3,3 V Ausgangsspannung \ref{fig:WirkungsgradSpannungswandler} , mit welcher der Arduino arbeitet, ist für Ströme im Bereich von 0,01 A bis ca. 0,1 A bei höherer Eingangspannung größer. Für Ströme im Bereich von \parfillskip=0pt ca. 0,1 A bis 1 A sinkt der Wirkungsgrad mit zunehmender Eingangsspannung. 
 
 \begin{figure}[h]
 	\centering
